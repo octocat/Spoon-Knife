@@ -4,12 +4,12 @@ require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
-    s.name      =   "simplegit"
-    s.version   =   "0.1.1"
+    s.name      =   "ticgit"
+    s.version   =   "0.1.0"
     s.author    =   "Scott Chacon"
     s.email     =   "schacon@gmail.com"
-    s.summary   =   "A simple gem for using Git in Ruby code."
-    s.files     =   FileList['lib/**/*'].to_a
+    s.summary   =   "A distributed ticketing system for Git projects."
+    s.files     =   FileList['lib/**/*', 'bin/*'].to_a
     s.require_path  =   "lib"
 end
 

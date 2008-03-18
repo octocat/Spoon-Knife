@@ -1,8 +1,7 @@
-SimpleGit Ruby Library
-======================
+TicGit Distributed Ticketing System
+===================================
 
-This library calls git commands and returns the output.
-
-It is an example for the Git Peepcode book.
+This project provides a ticketing system built on Git that is kept in a 
+separate branch in your projects Git repository.
 
 Author : Scott Chacon

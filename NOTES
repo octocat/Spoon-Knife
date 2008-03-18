@@ -4,10 +4,11 @@
 * merge strategy - if in branch, we can automate, if in subdir, must be human readable
 
 * branch work?
-  - if closed in a branch, how do we handle that when branch merged?
+  - if closed in a branch, how do we handle that when branch merged? (seperate command)
+  $ git merge branch_name; tic merge
 
 * Lighthouse integration
-
+  $ tic sync
 
 States - open, resolved, invalid, hold
 
@@ -24,10 +25,7 @@ tic list state:closed
 tic list tag:bug
 tic list git:treeish
 
-tic find assigned:me state:open
-
-tic task
-tic task new -m "my new task"
+tic find assigned:me state:open date:"this week"
 
 tic milestone
 tic milestone migration1 (list tickets)
@@ -35,10 +33,12 @@ tic milestone -n migration1 3/4/08 (new milestone)
 tic milestone -a {1} (add ticket to milestone)
 tic milestone -d migration1 (delete)
 
+tic status (tics grouped by milestone, stats)
+
 tic tag (show tags)
 tic tag {1} new_tag
 tic tag {1} -d tag_name
-tic tag -d tag_name
+tic tag -D tag_name
 tic tag -r old_tag new_tag (rename tag)
 
 tic show {1} 
@@ -66,8 +66,13 @@ tic new -t bug "the thingy doesnt work" (treeish - defaults to current branch)
 
 ??
 
-tic checkout [git_branch] (moves tic into branch, too)
-tic commit "message" (commits git and attaches tic number)
+tic branch (shows tic branches - automatically created when using tic in a git branch)
 tic merge [git_branch]  (brings in all bug states from branch)
+tic merge --preview [git_branch]  (doesn't do the merge, but shows what it would do)
 
+tic git-commit "message" (commits git and attaches tic number)
 
+-- later? --
+
+tic task
+tic task new -m "my new task"

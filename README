@@ -1,0 +1,8 @@
+SimpleGit Ruby Library
+======================
+
+This library calls git commands and returns the output.
+
+It is an example for the Git Peepcode book.
+
+Author : Scott Chacon

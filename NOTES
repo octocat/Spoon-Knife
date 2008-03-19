@@ -36,7 +36,7 @@ tic milestone -d migration1 (delete)
 tic status (tics grouped by milestone, stats)
 
 tic tag (show tags)
-tic tag {1} new_tag
+tic tag {1} -n new_tag
 tic tag {1} -d tag_name
 tic tag -D tag_name
 tic tag -r old_tag new_tag (rename tag)
@@ -51,8 +51,6 @@ tic sync (lighthouse)
 tic checkout {1} - checks out a bug for time tracking - says you're working on it
 tic assign {1} (person/partial - defaults to self) [-c] (and checkout)
 tic state {1} resolved [branch - defaults to current, only shows in this branch)
-
-tic watch {1}
 
 tic attach {1} file.ext -m "file description"
 tic attach {1} 

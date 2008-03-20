@@ -40,7 +40,11 @@ module TicGit
     end
     
     def handle_ticket_list
-      puts @tic.ticket_list.values.join("\n")
+      counter = 0
+      @tic.ticket_list.each do |t|
+        counter += 1
+        puts [counter, t.ticket_id[0,6], "\t", t.ticket_name].join(" ")
+      end
     end
     
     def parse_ticket_new
@@ -68,8 +72,6 @@ module TicGit
       end
 
       @action = args.first
-
-      puts "run [#{action}]"
     end
     
   end

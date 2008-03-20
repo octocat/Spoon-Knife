@@ -3,6 +3,7 @@
 $:.unshift(File.dirname(__FILE__)) unless
   $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
 
+# requires git >= 1.0.5
 require 'git'
 require 'ticgit/base'
 require 'ticgit/ticket'
@@ -26,13 +27,4 @@ module TicGit
     Base.new(git_dir, options)
   end
   
-end
-
-
-module Git  
-  class Lib
-    def new_clean_branch(branch_name)
-      command('symbolic-ref', ['HEAD', "refs/heads/#{branch_name}"])
-    end
-  end
 end

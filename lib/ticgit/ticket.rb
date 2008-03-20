@@ -17,9 +17,19 @@ module TicGit
       t
     end
     
-    def self.open(base, ticket_id)
+    def self.open(base, ticket_name, ticket_hash)
+      tid = nil
+      ticket_hash['files'].each do |fname, value|
+        if fname == 'TICKET_ID'
+          tid = value
+        else
+          # matching
+        end
+      end
+      
       t = Ticket.new(base)
-      # load from git by ticket_id
+      t.ticket_id = tid
+      t.ticket_name = ticket_name
       t
     end
     

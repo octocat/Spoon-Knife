@@ -7,6 +7,7 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'git'
 require 'ticgit/base'
 require 'ticgit/ticket'
+require 'ticgit/comment'
 
 require 'ticgit/cli'
 

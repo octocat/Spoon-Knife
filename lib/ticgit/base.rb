@@ -5,41 +5,132 @@ module TicGit
   class Base
 
     attr_reader :git, :logger
-    attr_reader :tickets, :tic_working, :tic_index
+    attr_reader :tic_working, :tic_index
+    attr_reader :tickets, :last_tickets, :current_ticket  # saved in state
+    attr_reader :state
     
     def initialize(git_dir, opts = {})
       @git = Git.open(git_dir)
       @logger = opts[:logger] || Logger.new(STDOUT)
       
-      @tic_working = opts[:working_directory] || File.expand_path('~/.ticgit/working')
-      @tic_index = opts[:index_file] || File.expand_path('~/.ticgit/index')
+      @tic_dir = opts[:tic_dir] || '~/.ticgit'
+      @tic_working = opts[:working_directory] || File.expand_path(File.join(@tic_dir, 'working'))
+      @tic_index = opts[:index_file] || File.expand_path(File.join(@tic_dir, 'index'))
       
-      load_ticgits
+      @state = File.expand_path(File.join(@tic_dir, 'state'))
+      
+      if File.exists?(@state)
+        load_state
+      else
+        reset_ticgit
+      end
+    end
+    
+    def save_state
+      # marshal dump the internals
+      File.open(@state, 'w') { |f| Marshal.dump([@tickets, @last_tickets, @current_ticket], f) }
+    end
+    
+    def load_state
+      # read in the internals
+      if(File.exists?(@state))
+        @tickets, @last_tickets, @current_ticket = File.open(@state) { |f| Marshal.load(f) }
+      end      
     end
     
     # returns new Ticket
     def ticket_new(title, options = {})
-      TicGit::Ticket.create(self, title, options)
+      t = TicGit::Ticket.create(self, title, options)
+      @current_ticket = t.ticket_name
+      reset_ticgit
+      TicGit::Ticket.open(self, t.ticket_name, @tickets[t.ticket_name])
     end
 
+    def reset_ticgit
+      load_tickets
+      save_state
+    end
+    
+    # returns new Ticket
+    def ticket_comment(comment, ticket_id = nil)
+      if t = ticket_revparse(ticket_id)        
+        ticket = TicGit::Ticket.open(self, t, @tickets[t])
+        ticket.add_comment(comment)
+        reset_ticgit
+      end
+    end
+    
     # returns array of Tickets 
     def ticket_list(options = {})
       ts = []
-      @tickets.each do |name, t|
+      @last_tickets = []
+      
+      tix = @tickets.to_a.sort
+      tix.each do |name, t|
         ts << TicGit::Ticket.open(self, name, t)
+        @last_tickets << name
       end
+      save_state
       ts
     end
     
     # returns single Ticket
-    def ticket_show(ticket_id)
+    def ticket_show(ticket_id = nil)      
+      # ticket_id can be index of last_tickets, partial sha or nil => last ticket
+      if t = ticket_revparse(ticket_id)
+        return TicGit::Ticket.open(self, t, @tickets[t])
+      end
+    end
+    
+    def ticket_revparse(ticket_id)
+      if ticket_id
+        if t = @last_tickets[ticket_id.to_i - 1]
+          return t
+        else
+          # !! TODO: check for (partial) sha in @tickets
+        end
+      elsif(@current_ticket)
+        return @current_ticket
+      end
     end    
     
     # returns array of Tickets
     def ticket_find(search_array)
     end
+
+    def ticket_tag(tag, ticket_id = nil, options = {})
+      if t = ticket_revparse(ticket_id)    
+        ticket = TicGit::Ticket.open(self, t, @tickets[t])
+        if options[:remove]
+          ticket.remove_tag(tag)
+        else
+          ticket.add_tag(tag)
+        end
+        reset_ticgit
+      end
+    end
+        
+    def ticket_change(new_state, ticket_id = nil)
+      if t = ticket_revparse(ticket_id)
+        ticket = TicGit::Ticket.open(self, t, @tickets[t])
+        in_branch do 
+          file1 = ticket.path
+          file2 = File.join(new_state, ticket.ticket_name)
+          if file1 != file2
+            git.lib.mv(file1, file2)
+            git.commit('changed the state of ' + ticket.ticket_name + ' to ' + new_state)
+            reset_ticgit
+          end
+        end
+      end
+    end
     
-    def ticket_change(ticket_id, new_state = 'open')
+    def ticket_checkout(ticket_id)
+      if t = ticket_revparse(ticket_id)
+        ticket = TicGit::Ticket.open(self, t, @tickets[t])
+        @current_ticket = ticket.ticket_name
+        save_state
+      end
     end
 
     
@@ -57,7 +148,7 @@ module TicGit
       ['open', 'resolved', 'invalid', 'hold']
     end
         
-    def load_ticgits
+    def load_tickets
       @tickets = {}
 
       bs = git.lib.branches_all.map { |b| b[0] }
@@ -99,14 +190,17 @@ module TicGit
       end
       
       old_current = git.lib.branch_current
-      git.lib.change_head_branch('ticgit')
-      git.with_index(@tic_index) do          
-        git.with_working(@tic_working) do |wd|
-          git.lib.checkout('ticgit') if needs_checkout
-          yield wd
+      begin
+        git.lib.change_head_branch('ticgit')
+        git.with_index(@tic_index) do          
+          git.with_working(@tic_working) do |wd|
+            git.lib.checkout('ticgit') if needs_checkout
+            yield wd
+          end
         end
+      ensure
+        git.lib.change_head_branch(old_current)
       end
-      git.lib.change_head_branch(old_current)
     end
           
     def new_file(name, contents)

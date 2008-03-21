@@ -1,0 +1,29 @@
+Find
+  * sort by assigned, state
+  * filter by tag, date, state
+  * save named searches
+
+rev-parse partial ticket id
+
+Tags
+  * show all tags
+  * rename tag
+  * delete tag
+  * tag multiple tics  
+
+Recent (use git-log)
+
+Attachments
+  - add
+  - download    
+
+Milestones
+
+Merge
+
+Ticket
+  - remove ticket ( git.remove(ticket_dir, :recursive => true) )
+  
+Color Output + Paging long results
+
+Web UI

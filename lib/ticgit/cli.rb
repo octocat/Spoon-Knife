@@ -133,8 +133,28 @@ module TicGit
     end
     
     ## LIST TICKETS ##
+    def parse_ticket_list
+      @options = {}
+      OptionParser.new do |opts|
+        opts.banner = "Usage: ti list [options]"
+        opts.on("-o ORDER", "--order ORDER", "Field to order by - one of : assigned,state,date") do |v|
+          @options[:order] = v
+        end
+        opts.on("-t TAG", "--tag TAG", "List only tickets with specific tag") do |v|
+          @options[:tag] = v
+        end
+        opts.on("-s STATE", "--state STATE", "List only tickets in a specific state") do |v|
+          @options[:state] = v
+        end
+        opts.on("-a ASSIGNED", "--assigned ASSIGNED", "List only tickets assigned to someone") do |v|
+          @options[:assigned] = v
+        end
+      end.parse!
+    end
     
     def handle_ticket_list
+      parse_ticket_list
+      
       counter = 0
       
       puts
@@ -150,7 +170,7 @@ module TicGit
       80.times { a << '-'}
       puts a.join('')
 
-      tic.ticket_list.each do |t|
+      tic.ticket_list(options).each do |t|
         counter += 1
         tic.current_ticket == t.ticket_name ? add = '*' : add = ' '
         puts [add, just(counter, 4, 'r'), 

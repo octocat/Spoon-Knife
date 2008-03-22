@@ -34,7 +34,7 @@ module TicGit
     def load_state
       # read in the internals
       if(File.exists?(@state))
-        @tickets, @last_tickets, @current_ticket = File.open(@state) { |f| Marshal.load(f) }
+        @tickets, @last_tickets, @current_ticket = File.open(@state) { |f| Marshal.load(f) } rescue nil
       end      
     end
     
@@ -65,11 +65,38 @@ module TicGit
       ts = []
       @last_tickets = []
       
-      tix = @tickets.to_a.sort
-      tix.each do |name, t|
+      @tickets.to_a.each do |name, t|
         ts << TicGit::Ticket.open(self, name, t)
-        @last_tickets << name
       end
+
+      # SORTING
+      if field = options[:order]
+        field, type = field.split('.')
+        case field
+        when 'assigned'
+          ts = ts.sort { |a, b| a.assigned <=> b.assigned }
+        when 'state'
+          ts = ts.sort { |a, b| a.state <=> b.state }
+        when 'date'
+          ts = ts.sort { |a, b| a.opened <=> b.opened }
+        end    
+        ts = ts.reverse if type == 'desc'
+      end
+
+      # :tag, :state, :assigned
+      if t = options[:tag]
+        ts = ts.select { |tag| tag.tags.include?(t) }
+      end
+      if s = options[:state]
+        ts = ts.select { |tag| tag.state =~ /#{s}/ }
+      end
+      if a = options[:assigned]
+        ts = ts.select { |tag| tag.assigned =~ /#{a}/ }
+      end
+      
+      @last_tickets = ts.map { |t| t.ticket_name }
+      # :save
+
       save_state
       ts
     end

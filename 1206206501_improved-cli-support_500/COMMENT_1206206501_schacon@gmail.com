@@ -1,0 +1,2 @@
+- paged long output (through less)
+- color support

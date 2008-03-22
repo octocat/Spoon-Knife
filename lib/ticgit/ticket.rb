@@ -106,7 +106,7 @@ module TicGit
     end
     
     def self.clean_string(string)
-      string.downcase.gsub(/[^a-z0-9]+/i, '_')
+      string.downcase.gsub(/[^a-z0-9]+/i, '-')
     end
     
     def add_comment(comment)

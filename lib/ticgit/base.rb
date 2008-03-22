@@ -76,6 +76,7 @@ module TicGit
     def ticket_list(options = {})
       ts = []
       @last_tickets = []
+      @config['list_options'] ||= {}
       
       @tickets.to_a.each do |name, t|
         ts << TicGit::Ticket.open(self, name, t)
@@ -85,7 +86,14 @@ module TicGit
          if c = config['list_options'][name]
            options = c.merge(options)
          end
-      end      
+      end   
+      
+      if options[:list]
+        config['list_options'].each do |name, opts|
+          puts name + "\t" + opts.inspect
+        end
+        return false
+      end   
 
       # SORTING
       if field = options[:order]
@@ -99,6 +107,8 @@ module TicGit
           ts = ts.sort { |a, b| a.opened <=> b.opened }
         end    
         ts = ts.reverse if type == 'desc'
+      else
+        ts = ts.sort { |a, b| a.opened <=> b.opened }
       end
 
       # :tag, :state, :assigned
@@ -114,7 +124,6 @@ module TicGit
       
       if save = options[:save]
         options.delete(:save)
-        @config['list_options'] ||= {}
         @config['list_options'][save] = options
       end
       
@@ -133,12 +142,25 @@ module TicGit
       end
     end
     
+    # returns single Ticket
+    def ticket_recent(ticket_id = nil)      
+      if ticket_id
+        t = ticket_revparse(ticket_id) 
+        return git.log.object('ticgit').path(t)
+      else 
+        return git.log.object('ticgit')
+      end
+    end
+    
     def ticket_revparse(ticket_id)
       if ticket_id
         if t = @last_tickets[ticket_id.to_i - 1]
           return t
         else
-          # !! TODO: check for (partial) sha in @tickets
+          # partial or full sha
+          if ch = @tickets.select { |name, t| t['files'].assoc('TICKET_ID')[1] =~ /#{ticket_id}/ }
+            return ch.first[0]
+          end
         end
       elsif(@current_ticket)
         return @current_ticket

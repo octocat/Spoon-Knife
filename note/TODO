@@ -1,15 +1,3 @@
-Find
-  * sort by assigned, state
-  * filter by tag, date, state
-  * save named searches
-
-rev-parse partial ticket id
-
-Tags
-  * show all tags
-  * rename tag
-  * delete tag
-  * tag multiple tics  
 
 Recent (use git-log)
 
@@ -21,9 +9,17 @@ Milestones
 
 Merge
 
+Tags
+  * show all tags
+  * rename tag
+  * delete tag
+  * tag multiple tics
+  
 Ticket
   - remove ticket ( git.remove(ticket_dir, :recursive => true) )
   
 Color Output + Paging long results
+
+TicGit goes up directories until it finds .git dir
 
 Web UI

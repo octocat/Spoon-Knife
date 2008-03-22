@@ -40,11 +40,18 @@ module TicGit
         handle_ticket_comment
       when 'tag'
         handle_ticket_tag
+      when 'recent'
+        handle_ticket_recent
       else
         puts 'not a command'
       end
     end
     
+    def handle_ticket_recent
+      tic.ticket_recent(ARGV[1]).each do |commit|
+        puts commit.sha[0, 7] + "  " + commit.date.strftime("%m/%d %H:%M") + "\t" + commit.message
+      end
+    end
     
     
     def parse_ticket_tag
@@ -152,39 +159,45 @@ module TicGit
         opts.on("-S SAVENAME", "--saveas SAVENAME", "Save this list as a saved name") do |v|
           @options[:save] = v
         end
+        opts.on("-l", "--list", "Show the saved queries") do |v|
+          @options[:list] = true
+        end
       end.parse!
     end
     
     def handle_ticket_list
       parse_ticket_list
       
-      counter = 0
+      if tickets = tic.ticket_list(options)
+        counter = 0
       
-      puts
-      puts [' ', just('#', 4, 'r'), 
-            just('TicId', 6),
-            just('Title', 25), 
-            just('State', 5),
-            just('Date', 5),
-            just('Assgn', 8),
-            just('Tags', 20) ].join(" ")
+        puts
+        puts [' ', just('#', 4, 'r'), 
+              just('TicId', 6),
+              just('Title', 25), 
+              just('State', 5),
+              just('Date', 5),
+              just('Assgn', 8),
+              just('Tags', 20) ].join(" ")
             
-      a = []
-      80.times { a << '-'}
-      puts a.join('')
+        a = []
+        80.times { a << '-'}
+        puts a.join('')
 
-      tic.ticket_list(options).each do |t|
-        counter += 1
-        tic.current_ticket == t.ticket_name ? add = '*' : add = ' '
-        puts [add, just(counter, 4, 'r'), 
-              t.ticket_id[0,6], 
-              just(t.title, 25), 
-              just(t.state, 5),
-              t.opened.strftime("%m/%d"), 
-              just(t.assigned_name, 8),
-              just(t.tags.join(','), 20) ].join(" ")
+        tickets.each do |t|
+          counter += 1
+          tic.current_ticket == t.ticket_name ? add = '*' : add = ' '
+          puts [add, just(counter, 4, 'r'), 
+                t.ticket_id[0,6], 
+                just(t.title, 25), 
+                just(t.state, 5),
+                t.opened.strftime("%m/%d"), 
+                just(t.assigned_name, 8),
+                just(t.tags.join(','), 20) ].join(" ")
+        end
+        puts
       end
-      puts
+      
     end
     
     ## SHOW TICKETS ##

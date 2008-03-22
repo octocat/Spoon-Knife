@@ -28,7 +28,7 @@ module TicGit
     
     def save_state
       # marshal dump the internals
-      File.open(@state, 'w') { |f| Marshal.dump([@tickets, @last_tickets, @current_ticket], f) }
+      File.open(@state, 'w') { |f| Marshal.dump([@tickets, @last_tickets, @current_ticket], f) } rescue nil
     end
     
     def load_state
@@ -113,15 +113,8 @@ module TicGit
     def ticket_change(new_state, ticket_id = nil)
       if t = ticket_revparse(ticket_id)
         ticket = TicGit::Ticket.open(self, t, @tickets[t])
-        in_branch do 
-          file1 = ticket.path
-          file2 = File.join(new_state, ticket.ticket_name)
-          if file1 != file2
-            git.lib.mv(file1, file2)
-            git.commit('changed the state of ' + ticket.ticket_name + ' to ' + new_state)
-            reset_ticgit
-          end
-        end
+        ticket.change_state(new_state)
+        reset_ticgit
       end
     end
     
@@ -132,7 +125,6 @@ module TicGit
         save_state
       end
     end
-
     
     def comment_add(ticket_id, comment, options = {})
     end
@@ -153,14 +145,15 @@ module TicGit
 
       bs = git.lib.branches_all.map { |b| b[0] }
       init_ticgit_branch if !bs.include?('ticgit')
+      
       tree = git.lib.full_tree('ticgit')
       tree.each do |t|
         data, file = t.split("\t")
         mode, type, sha = data.split(" ")
         tic = file.split('/')
-        if tic.size == 3  # directory depth
-          state, ticket, info = tic
-          @tickets[ticket] ||= {'files' => [], 'state' => state}
+        if tic.size == 2  # directory depth
+          ticket, info = tic
+          @tickets[ticket] ||= { 'files' => [] }
           @tickets[ticket]['files'] << [info, sha]
         end
       end
@@ -168,14 +161,9 @@ module TicGit
     
     def init_ticgit_branch
       puts 'creating ticgit repo branch'
-      FileUtils.mkdir_p(@tic_working) if !File.directory?(@tic_working)
       
       in_branch do          
         new_file('.hold', 'hold')
-        tic_states.each do |d|
-          Dir.mkdir(d)
-          new_file("#{d}/.hold", 'hold')
-        end
         git.add
         git.commit('creating the ticgit branch')
       end

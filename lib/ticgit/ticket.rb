@@ -13,6 +13,7 @@ module TicGit
       @base = base
       @opts = options || {}
       
+      @state = 'open' # by default
       @comments = []
       @tags = []
       @attachments = []
@@ -36,7 +37,6 @@ module TicGit
       
       t.title = title
       t.opened = date
-      t.state = ticket_hash['state']
       
       ticket_hash['files'].each do |fname, value|
         if fname == 'TICKET_ID'
@@ -53,6 +53,9 @@ module TicGit
           if data[0] == 'TAG'
             t.tags << data[1]
           end
+          if data[0] == 'STATE'
+            t.state = data[1]
+          end          
         end
       end
       
@@ -71,29 +74,29 @@ module TicGit
     def save_new
       base.in_branch do |wd|
         puts "saving #{ticket_name}"
-        Dir.chdir('open') do
-          Dir.mkdir(ticket_name)
-          Dir.chdir(ticket_name) do
-            base.new_file('TICKET_ID', ticket_name)
-            base.new_file('ASSIGNED_' + email, ticket_name)
+        
+        Dir.mkdir(ticket_name)
+        Dir.chdir(ticket_name) do
+          base.new_file('TICKET_ID', ticket_name)
+          base.new_file('ASSIGNED_' + email, email)
+          base.new_file('STATE_' + state, state)
 
-            # add initial comment
-            #COMMENT_080315060503045__schacon_at_gmail
-            base.new_file(comment_name(email), opts[:comment]) if opts[:comment]
+          # add initial comment
+          #COMMENT_080315060503045__schacon_at_gmail
+          base.new_file(comment_name(email), opts[:comment]) if opts[:comment]
 
-            # add initial tags
-            if opts[:tags] && opts[:tags].size > 0
-              opts[:tags].each do |tag|
-                tag_filename = 'TAG_' + Ticket.clean_string(tag)
-                if !File.exists?(tag_filename)
-                  base.new_file(tag_filename, tag_filename)
-                end
+          # add initial tags
+          if opts[:tags] && opts[:tags].size > 0
+            opts[:tags].each do |tag|
+              tag_filename = 'TAG_' + Ticket.clean_string(tag)
+              if !File.exists?(tag_filename)
+                base.new_file(tag_filename, tag_filename)
               end
             end
-            
-            # !! TODO : add initial milestone
-            
           end
+          
+          # !! TODO : add initial milestone
+            
         end
 	      
         base.git.add
@@ -109,7 +112,7 @@ module TicGit
     def add_comment(comment)
       return false if !comment
       base.in_branch do |wd|
-        Dir.chdir(File.join(state, ticket_name)) do
+        Dir.chdir(ticket_name) do
           base.new_file(comment_name(email), comment) 
         end
         base.git.add
@@ -117,12 +120,26 @@ module TicGit
       end
     end
 
+    def change_state(new_state)
+      return false if !new_state
+      return false if new_state == state
+      
+      base.in_branch do |wd|
+        Dir.chdir(ticket_name) do
+          base.new_file('STATE_' + new_state, new_state)
+        end
+        base.git.remove(File.join(ticket_name,'STATE_' + state))
+        base.git.add
+        base.git.commit("added state (#{new_state}) to ticket #{ticket_name}")
+      end
+    end
+    
     def add_tag(tag)
       return false if !tag
       added = false
       tags = tag.split(',').map { |t| t.strip }
       base.in_branch do |wd|
-        Dir.chdir(File.join(state, ticket_name)) do
+        Dir.chdir(ticket_name) do
           tags.each do |add_tag|
             tag_filename = 'TAG_' + Ticket.clean_string(add_tag)
             if !File.exists?(tag_filename)
@@ -144,7 +161,7 @@ module TicGit
       tags = tag.split(',').map { |t| t.strip }
       base.in_branch do |wd|
         tags.each do |add_tag|
-          tag_filename = File.join(state, ticket_name, 'TAG_' + Ticket.clean_string(add_tag))
+          tag_filename = File.join(ticket_name, 'TAG_' + Ticket.clean_string(add_tag))
           if File.exists?(tag_filename)
             base.git.remove(tag_filename)
             removed = true

@@ -137,7 +137,7 @@ module TicGit
     def handle_ticket_list
       counter = 0
       
-      
+      puts
       puts [' ', just('#', 4, 'r'), 
             just('TicId', 6),
             just('Title', 25), 
@@ -161,6 +161,7 @@ module TicGit
               just(t.assigned_name, 8),
               just(t.tags.join(','), 20) ].join(" ")
       end
+      puts
     end
     
     ## SHOW TICKETS ##

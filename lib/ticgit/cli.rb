@@ -42,10 +42,40 @@ module TicGit
         handle_ticket_tag
       when 'recent'
         handle_ticket_recent
+      when 'milestone'
+        handle_ticket_milestone
       else
         puts 'not a command'
       end
     end
+
+    # tic milestone
+    # tic milestone migration1 (list tickets)
+    # tic milestone -n migration1 3/4/08 (new milestone)
+    # tic milestone -a {1} (add ticket to milestone)
+    # tic milestone -d migration1 (delete)
+    def parse_ticket_milestone
+      @options = {}
+      OptionParser.new do |opts|
+        opts.banner = "Usage: ti milestone [milestone_name] [options] [date]"
+        opts.on("-n MILESTONE", "--new MILESTONE", "Add a new milestone to this project") do |v|
+          @options[:new] = v
+        end
+        opts.on("-a TICKET", "--new TICKET", "Add a ticket to this milestone") do |v|
+          @options[:add] = v
+        end
+        opts.on("-d MILESTONE", "--delete MILESTONE", "Remove a milestone") do |v|
+          @options[:remove] = v
+        end
+      end.parse!
+    end
+
+    def handle_ticket_recent
+      tic.ticket_recent(ARGV[1]).each do |commit|
+        puts commit.sha[0, 7] + "  " + commit.date.strftime("%m/%d %H:%M") + "\t" + commit.message
+      end
+    end
+
     
     def handle_ticket_recent
       tic.ticket_recent(ARGV[1]).each do |commit|

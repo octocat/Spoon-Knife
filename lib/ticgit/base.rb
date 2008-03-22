@@ -55,7 +55,6 @@ module TicGit
     # returns new Ticket
     def ticket_new(title, options = {})
       t = TicGit::Ticket.create(self, title, options)
-      @current_ticket = t.ticket_name
       reset_ticgit
       TicGit::Ticket.open(self, t.ticket_name, @tickets[t.ticket_name])
     end

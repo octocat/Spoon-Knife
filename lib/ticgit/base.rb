@@ -1,5 +1,6 @@
 require 'logger'
 require 'fileutils'
+require 'yaml'
 
 module TicGit
   class Base
@@ -7,7 +8,8 @@ module TicGit
     attr_reader :git, :logger
     attr_reader :tic_working, :tic_index
     attr_reader :tickets, :last_tickets, :current_ticket  # saved in state
-    attr_reader :state
+    attr_reader :config
+    attr_reader :state, :config_file
     
     def initialize(git_dir, opts = {})
       @git = Git.open(git_dir)
@@ -16,6 +18,14 @@ module TicGit
       @tic_dir = opts[:tic_dir] || '~/.ticgit'
       @tic_working = opts[:working_directory] || File.expand_path(File.join(@tic_dir, 'working'))
       @tic_index = opts[:index_file] || File.expand_path(File.join(@tic_dir, 'index'))
+
+      # load config file
+      @config_file = File.expand_path(File.join(@tic_dir, 'config.yml'))
+      if File.exists?(config_file)
+        @config = YAML.load(File.read(config_file))
+      else
+        @config = {}
+      end
       
       @state = File.expand_path(File.join(@tic_dir, 'state'))
       
@@ -29,6 +39,8 @@ module TicGit
     def save_state
       # marshal dump the internals
       File.open(@state, 'w') { |f| Marshal.dump([@tickets, @last_tickets, @current_ticket], f) } rescue nil
+      # save config file
+      File.open(@config_file, 'w') { |f| f.write(config.to_yaml) }
     end
     
     def load_state
@@ -69,6 +81,12 @@ module TicGit
         ts << TicGit::Ticket.open(self, name, t)
       end
 
+      if name = ARGV[1]
+         if c = config['list_options'][name]
+           options = c.merge(options)
+         end
+      end      
+
       # SORTING
       if field = options[:order]
         field, type = field.split('.')
@@ -92,6 +110,12 @@ module TicGit
       end
       if a = options[:assigned]
         ts = ts.select { |tag| tag.assigned =~ /#{a}/ }
+      end
+      
+      if save = options[:save]
+        options.delete(:save)
+        @config['list_options'] ||= {}
+        @config['list_options'][save] = options
       end
       
       @last_tickets = ts.map { |t| t.ticket_name }

@@ -149,6 +149,9 @@ module TicGit
         opts.on("-a ASSIGNED", "--assigned ASSIGNED", "List only tickets assigned to someone") do |v|
           @options[:assigned] = v
         end
+        opts.on("-S SAVENAME", "--saveas SAVENAME", "Save this list as a saved name") do |v|
+          @options[:save] = v
+        end
       end.parse!
     end
     

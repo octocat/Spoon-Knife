@@ -65,8 +65,8 @@ module TicGit
     
     
     def self.parse_ticket_name(name)
-      epoch, title, rand = name.split('-')
-      title = title.gsub('_', ' ')
+      epoch, title, rand = name.split('_')
+      title = title.gsub('-', ' ')
       return [title, Time.at(epoch.to_i)]
     end
     
@@ -190,7 +190,7 @@ module TicGit
     end
     
     def self.create_ticket_name(title)
-      [Time.now.to_i.to_s, Ticket.clean_string(title), rand(999).to_i.to_s].join('-')
+      [Time.now.to_i.to_s, Ticket.clean_string(title), rand(999).to_i.to_s].join('_')
     end
 
     

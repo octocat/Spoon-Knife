@@ -277,7 +277,7 @@ module TicGit
               tags = tags.split(',').map { |t| t.strip }
             end
             if message.size > 0
-              comment = message.join("\n")
+              comment = message.join("")
             end
             ticket_show(@tic.ticket_new(title, :comment => comment, :tags => tags))
           else

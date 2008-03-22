@@ -1,5 +1,17 @@
+link to another ticket (child tickets)
 
-Recent (use git-log)
+Merge
+
+link to a git object
+
+Web UI
+
+TicGit goes up directories until it finds .git dir
+
+Ticket
+- remove ticket ( git.remove(ticket_dir, :recursive => true) )
+
+Color Output + Paging long results
 
 Attachments
   - add
@@ -7,19 +19,9 @@ Attachments
 
 Milestones
 
-Merge
-
 Tags
   * show all tags
   * rename tag
   * delete tag
   * tag multiple tics
   
-Ticket
-  - remove ticket ( git.remove(ticket_dir, :recursive => true) )
-  
-Color Output + Paging long results
-
-TicGit goes up directories until it finds .git dir
-
-Web UI

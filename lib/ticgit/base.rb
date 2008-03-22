@@ -15,9 +15,11 @@ module TicGit
       @git = Git.open(git_dir)
       @logger = opts[:logger] || Logger.new(STDOUT)
       
+      proj = Ticket.clean_string(@git.dir.path)
+      
       @tic_dir = opts[:tic_dir] || '~/.ticgit'
-      @tic_working = opts[:working_directory] || File.expand_path(File.join(@tic_dir, 'working'))
-      @tic_index = opts[:index_file] || File.expand_path(File.join(@tic_dir, 'index'))
+      @tic_working = opts[:working_directory] || File.expand_path(File.join(@tic_dir, proj, 'working'))
+      @tic_index = opts[:index_file] || File.expand_path(File.join(@tic_dir, proj, 'index'))
 
       # load config file
       @config_file = File.expand_path(File.join(@tic_dir, 'config.yml'))
@@ -27,7 +29,7 @@ module TicGit
         @config = {}
       end
       
-      @state = File.expand_path(File.join(@tic_dir, 'state'))
+      @state = File.expand_path(File.join(@tic_dir, proj, 'state'))
       
       if File.exists?(@state)
         load_state
@@ -217,7 +219,7 @@ module TicGit
       @tickets = {}
 
       bs = git.lib.branches_all.map { |b| b[0] }
-      init_ticgit_branch if !bs.include?('ticgit')
+      init_ticgit_branch if !(bs.include?('ticgit') && File.directory?(@tic_working))
       
       tree = git.lib.full_tree('ticgit')
       tree.each do |t|
@@ -235,7 +237,7 @@ module TicGit
     def init_ticgit_branch
       puts 'creating ticgit repo branch'
       
-      in_branch do          
+      in_branch(true) do          
         new_file('.hold', 'hold')
         git.add
         git.commit('creating the ticgit branch')
@@ -243,7 +245,7 @@ module TicGit
     end
     
     # temporarlily switches to ticgit branch for tic work
-    def in_branch
+    def in_branch(no_checkout = false)
       needs_checkout = false
       if !File.directory?(@tic_working)
         FileUtils.mkdir_p(@tic_working)
@@ -255,7 +257,7 @@ module TicGit
         git.lib.change_head_branch('ticgit')
         git.with_index(@tic_index) do          
           git.with_working(@tic_working) do |wd|
-            git.lib.checkout('ticgit') if needs_checkout
+            git.lib.checkout('ticgit') if needs_checkout && !no_checkout
             yield wd
           end
         end

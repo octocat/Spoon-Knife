@@ -18,14 +18,10 @@ require 'ticgit/cli'
 # Author::    Scott Chacon (mailto:schacon@gmail.com)
 # License::   MIT License
 #
-module TicGit
-
-  VERSION = '0.1.0'
-  
+module TicGit  
   # options
   #   :logger => Logger.new(STDOUT)
   def self.open(git_dir, options = {})
     Base.new(git_dir, options)
   end
-  
 end

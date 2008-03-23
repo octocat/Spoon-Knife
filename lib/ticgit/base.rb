@@ -236,7 +236,7 @@ module TicGit
     def init_ticgit_branch(ticgit_branch = false)
       puts 'creating ticgit repo branch'
       
-      in_branch do          
+      in_branch(ticgit_branch) do          
         new_file('.hold', 'hold')
         if !ticgit_branch
           git.add
@@ -246,7 +246,7 @@ module TicGit
     end
     
     # temporarlily switches to ticgit branch for tic work
-    def in_branch
+    def in_branch(branch_exists = true)
       needs_checkout = false
       if !File.directory?(@tic_working)
         FileUtils.mkdir_p(@tic_working)
@@ -261,7 +261,7 @@ module TicGit
         git.lib.change_head_branch('ticgit')
         git.with_index(@tic_index) do          
           git.with_working(@tic_working) do |wd|
-            git.lib.checkout('ticgit') if needs_checkout
+            git.lib.checkout('ticgit') if needs_checkout && branch_exists
             yield wd
           end
         end

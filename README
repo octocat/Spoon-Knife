@@ -6,7 +6,7 @@ separate branch in your projects Git repository.
 
 Installing
 ===================================
-You will need the 'git' gem to use this. Then you can run :
+You will need the 'git' gem (ver 1.0.5) to use this. Then you can run :
 
 rake
 sudo gem install pkg/ticgit-0.1.0.gem 

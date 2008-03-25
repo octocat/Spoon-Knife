@@ -1,0 +1,246 @@
+#!/usr/bin/env ruby
+
+# starts a sinatra based web server that provides an interface to 
+# your ticgit tickets
+# 
+# some of the sinatra code borrowed from sr's git-wiki
+#
+# author : Scott Chacon (schacon@gmail.com)
+#
+
+%w(rubygems sinatra git ticgit haml).each do |dependency| 
+  begin
+    require dependency
+  rescue LoadError => e
+    puts "You need to install #{dependency} before we can proceed"
+  end
+end
+
+# !! TODO : if ARGV[1] is a path to a git repo, use that
+# otherwise, look in ~/.ticgit
+
+$ticgit = TicGit.open('.')
+
+get('/_stylesheet.css') { Sass::Engine.new(File.read(__FILE__).gsub(/.*__END__/m, '')).render }
+
+# ticket list view
+get '/' do
+  @tickets = $ticgit.ticket_list(:order => 'date.desc')
+  haml(list('all'))
+end
+
+get '/fs/:state' do
+  @tickets = $ticgit.ticket_list(:state => params[:state], :order => 'date.desc')
+  haml(list(params[:state]))
+end
+
+get '/tag/:tag' do
+  @tickets = $ticgit.ticket_list(:tag => params[:tag], :order => 'date.desc')
+  haml(list(params[:tag]))
+end
+
+get '/sv/:saved_view' do
+  @tickets = $ticgit.ticket_list(:saved => params[:saved_view])
+  haml(list(params[:saved_view]))
+end
+
+# ticket single view
+get '/ticket/:ticket' do
+  @ticket = $ticgit.ticket_show(params[:ticket])
+  haml(show)
+end
+
+
+# add ticket
+post '/a/add_ticket' do
+  "add ticket"
+end
+
+# add tag
+post '/a/add_tag/:ticket' do
+  "add tag"
+end
+
+# remove tag
+# add tag
+post '/a/remove_tag/:ticket' do
+  "add tag"
+end
+
+# change ticket state
+post '/a/change_state/:ticket' do
+end
+
+# add comment
+# change ticket state
+post '/a/add_comment/:ticket' do
+end
+
+
+
+def layout(title, content)
+  @saved = $ticgit.config['list_options'].keys rescue []
+  %Q(
+%html
+  %head
+    %title #{title}
+    %link{:rel => 'stylesheet', :href => '/_stylesheet.css', :type => 'text/css', :media => 'screen'}
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
+
+  %body
+    #navigation
+      %a{:href => '/'} All
+      %a{:href => '/fs/open'} Open
+      %a{:href => '/fs/resolved'} Resolved
+      %a{:href => '/fs/hold'} Hold
+      %a{:href => '/fs/invalid'} Invalid
+      - if !@saved.empty?
+        | Saved:
+        - @saved.each do |s|
+          %a{:href => "/sv/\#{s}"}= s
+    #{content}
+  )
+end
+
+def list(title = 'all')
+  @title = title
+  layout(title + ' tickets', %q{
+    %h1= "#{@title} tickets"
+    - if @tickets.empty?
+      %p No tickets found.
+    - else
+      %table.long
+        - c = 'even'
+        - @tickets.each do |t|
+          %tr{:class => (c == 'even' ? c = 'odd' : c = 'even') }
+            %td
+              %a{:href => "/ticket/#{t.ticket_id}" }
+                %code= t.ticket_id[0,6]
+            %td= t.title
+            %td{:class => t.state}= t.state
+            %td= t.opened.strftime("%m/%d")
+            %td= t.assigned_name
+            %td
+              - t.tags.each do |tag|
+                %a{:href => "/tag/#{tag}"}= tag
+  })
+end
+
+def show
+  layout('ticket', %q{
+    %h1= @ticket.title
+    
+    %table
+      %tr
+        %th TicId
+        %td
+          %code= @ticket.ticket_id
+      %tr
+        %th Assigned
+        %td= @ticket.assigned
+      %tr
+        %th Opened
+        %td= @ticket.opened
+      %tr
+        %th State
+        %td{:class => @ticket.state}= @ticket.state
+      %tr
+        %th Tags
+        %td
+          - @ticket.tags.each do |t|
+            %a{:href => "/tag/#{t}"}= t
+
+    %h3 Comments
+    %div.comments
+      - @ticket.comments.reverse.each do |t|
+        %div.comment
+          %span.head
+            Added
+            = t.added.strftime("%m/%d %H:%M")
+            by
+            = t.user
+          %div.comment-text
+            = t.comment
+        %br
+  })
+end
+
+__END__
+body
+  :font
+    family: Verdana, Arial, "Bitstream Vera Sans", Helvetica, sans-serif
+    color: black
+  line-height: 160%
+  background-color: white
+  margin: 2em
+
+#navigation
+  a
+    background-color: #e0e0e0
+    color: black
+    text-decoration: none
+    padding: 2px
+  padding: 5px
+  border-bottom: 1px black solid
+
+h1
+  display: block
+  padding-bottom: 5px
+
+a
+  color: black
+a.exists
+  font-weight: bold
+a.unknown
+  font-style: italic
+
+.comments
+  margin: 10px 20px
+  .comment
+    .head
+      background: #eee
+      padding: 4px
+    .comment-text
+      padding: 10px
+      color: #333
+  
+table.long
+  width: 100%
+  
+table
+  tr.even
+    td
+      background: #eee
+  tr.odd
+    td
+      background: #fff
+      
+table
+  tr
+    th
+      text-align: left
+      padding: 3px
+    td.open
+      background: #ada
+    td.resolved
+      background: #abd
+    td.hold
+      background: #dda
+    td.invalid
+      background: #aaa  
+      
+.submit
+  font-size: large
+  font-weight: bold
+
+.page_title
+  font-size: xx-large
+
+.edit_link
+  color: black
+  font-size: 14px
+  font-weight: bold
+  background-color: #e0e0e0
+  font-variant: small-caps
+  text-decoration: none
+

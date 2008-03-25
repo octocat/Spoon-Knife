@@ -22,7 +22,7 @@ module TicGit
       @tic_index = opts[:index_file] || File.expand_path(File.join(@tic_dir, proj, 'index'))
 
       # load config file
-      @config_file = File.expand_path(File.join(@tic_dir, 'config.yml'))
+      @config_file = File.expand_path(File.join(@tic_dir, proj, 'config.yml'))
       if File.exists?(config_file)
         @config = YAML.load(File.read(config_file))
       else
@@ -83,13 +83,14 @@ module TicGit
         ts << TicGit::Ticket.open(self, name, t)
       end
 
-      if name = ARGV[1]
+      if name = options[:saved]
          if c = config['list_options'][name]
            options = c.merge(options)
          end
       end   
       
       if options[:list]
+        # TODO : this is a hack and i need to fix it
         config['list_options'].each do |name, opts|
           puts name + "\t" + opts.inspect
         end
@@ -109,9 +110,15 @@ module TicGit
         end    
         ts = ts.reverse if type == 'desc'
       else
+        # default list
         ts = ts.sort { |a, b| a.opened <=> b.opened }
       end
 
+      if options.size == 0
+        # default list
+        options[:state] = 'open'
+      end
+      
       # :tag, :state, :assigned
       if t = options[:tag]
         ts = ts.select { |tag| tag.tags.include?(t) }

@@ -87,17 +87,6 @@ get '/a/change_state/:ticket/:state' do
   redirect '/ticket/' + params[:ticket]
 end
 
-# remove tag
-post '/a/remove_tag/:ticket' do
-  "add tag"
-end
-
-
-
-# delete ticket
-post '/a/delete/:ticket' do
-end
-
 
 def layout(title, content)
   @saved = $ticgit.config['list_options'].keys rescue []
@@ -120,10 +109,7 @@ def layout(title, content)
         - @saved.each do |s|
           %a{:href => "/sv/\#{s}"}= s
     #action
-      - if @ticket
-        %a{:href => "/a/delete/\#{@ticket.ticket_id}"} Delete Ticket
-      - else
-        %a{:href => '/t/new'} New Ticket
+      %a{:href => '/t/new'} New Ticket
 
     #{content}
   )
@@ -180,6 +166,7 @@ end
 
 def show
   layout('ticket', %q{
+  %center
     %h1= @ticket.title
   
     %form{:action => "/a/add_tags/#{@ticket.ticket_id}", :method => 'POST'}
@@ -197,7 +184,7 @@ def show
         %tr
           %th State
           %td{:class => @ticket.state}
-            %table
+            %table{:width => '300'}
               %tr
                 %td{:width=>'90%'}= @ticket.state
                 - $ticgit.tic_states.select { |s| s != @ticket.state}.each do |st|
@@ -216,6 +203,7 @@ def show
     %form{:action => "/a/add_comment/#{@ticket.ticket_id}", :method => 'POST'}
       %div
         %textarea{:name => 'comment', :cols => 50}
+        %br
         %input{:type => 'submit', :value => 'add comment'}
         
     %div.comments

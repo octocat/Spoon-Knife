@@ -88,9 +88,11 @@ module TicGit
           # add initial tags
           if opts[:tags] && opts[:tags].size > 0
             opts[:tags].each do |tag|
-              tag_filename = 'TAG_' + Ticket.clean_string(tag)
-              if !File.exists?(tag_filename)
-                base.new_file(tag_filename, tag_filename)
+              if tag.size > 0
+                tag_filename = 'TAG_' + Ticket.clean_string(tag)
+                if !File.exists?(tag_filename)
+                  base.new_file(tag_filename, tag_filename)
+                end
               end
             end
           end
@@ -141,10 +143,12 @@ module TicGit
       base.in_branch do |wd|
         Dir.chdir(ticket_name) do
           tags.each do |add_tag|
-            tag_filename = 'TAG_' + Ticket.clean_string(add_tag)
-            if !File.exists?(tag_filename)
-              base.new_file(tag_filename, tag_filename)
-              added = true
+            if add_tag.size > 0
+              tag_filename = 'TAG_' + Ticket.clean_string(add_tag)
+              if !File.exists?(tag_filename)
+                base.new_file(tag_filename, tag_filename)
+                added = true
+              end
             end
           end
         end

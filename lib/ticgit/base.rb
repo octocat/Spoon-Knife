@@ -177,10 +177,6 @@ module TicGit
         return @current_ticket
       end
     end    
-    
-    # returns array of Tickets
-    def ticket_find(search_array)
-    end
 
     def ticket_tag(tag, ticket_id = nil, options = {})
       if t = ticket_revparse(ticket_id)    

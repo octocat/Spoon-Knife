@@ -52,30 +52,51 @@ end
 
 
 # add ticket
-post '/a/add_ticket' do
-  "add ticket"
+get '/t/new' do
+  haml(new_ticket)
+end
+
+# add ticket finalize
+post '/t/new' do
+  title = params[:title].to_s.strip
+  if title.size > 1
+    tags = params[:tags].split(',').map { |t| t.strip } rescue nil  
+    t = $ticgit.ticket_new(title, {:comment => params[:comment].strip, :tags => tags})
+    redirect '/ticket/' + t.ticket_id.to_s
+  else
+    redirect '/t/new'
+  end
+end
+
+
+# add comment
+post '/a/add_comment/:ticket' do
+  t = $ticgit.ticket_comment(params[:comment], params[:ticket])
+  redirect '/ticket/' + params[:ticket]
 end
 
 # add tag
-post '/a/add_tag/:ticket' do
-  "add tag"
+post '/a/add_tags/:ticket' do
+  t = $ticgit.ticket_tag(params[:tags], params[:ticket])
+  redirect '/ticket/' + params[:ticket]
+end
+
+# change ticket state
+get '/a/change_state/:ticket/:state' do
+  $ticgit.ticket_change(params[:state], params[:ticket])
+  redirect '/ticket/' + params[:ticket]
 end
 
 # remove tag
-# add tag
 post '/a/remove_tag/:ticket' do
   "add tag"
 end
 
-# change ticket state
-post '/a/change_state/:ticket' do
-end
 
-# add comment
-# change ticket state
-post '/a/add_comment/:ticket' do
-end
 
+# delete ticket
+post '/a/delete/:ticket' do
+end
 
 
 def layout(title, content)
@@ -98,8 +119,39 @@ def layout(title, content)
         | Saved:
         - @saved.each do |s|
           %a{:href => "/sv/\#{s}"}= s
+    #action
+      - if @ticket
+        %a{:href => "/a/delete/\#{@ticket.ticket_id}"} Delete Ticket
+      - else
+        %a{:href => '/t/new'} New Ticket
+
     #{content}
   )
+end
+
+def new_ticket
+  layout('New Ticket', %q{
+    %h1 Create a New Ticket
+    %form{:action => '/t/new', :method => 'POST'}
+      %table
+        %tr
+          %th Title
+          %td 
+            %input{:type => 'text', :name => 'title', :size => 30}
+        %tr
+          %th Tags
+          %td
+            %input{:name => 'tags', :size => 30}
+            %small (comma delimited)
+        %tr
+          %th Comment
+          %td 
+            %textarea{:name => 'comment', :rows => 15, :cols => 30}
+        %tr
+          %td
+          %td
+            %input{:type => 'submit', :value => 'Create Ticket'}
+  })
 end
 
 def list(title = 'all')
@@ -129,28 +181,43 @@ end
 def show
   layout('ticket', %q{
     %h1= @ticket.title
+  
+    %form{:action => "/a/add_tags/#{@ticket.ticket_id}", :method => 'POST'}
+      %table
+        %tr
+          %th TicId
+          %td
+            %code= @ticket.ticket_id
+        %tr
+          %th Assigned
+          %td= @ticket.assigned
+        %tr
+          %th Opened
+          %td= @ticket.opened
+        %tr
+          %th State
+          %td{:class => @ticket.state}
+            %table
+              %tr
+                %td{:width=>'90%'}= @ticket.state
+                - $ticgit.tic_states.select { |s| s != @ticket.state}.each do |st|
+                  %td{:class => st}
+                    %a{:href => "/a/change_state/#{@ticket.ticket_id}/#{st}"}= st[0,2]
+        %tr
+          %th Tags
+          %td
+            - @ticket.tags.each do |t|
+              %a{:href => "/tag/#{t}"}= t
+            %div.addtag
+              %input{:name => 'tags'}
+              %input{:type => 'submit', :value => 'add tag'}
     
-    %table
-      %tr
-        %th TicId
-        %td
-          %code= @ticket.ticket_id
-      %tr
-        %th Assigned
-        %td= @ticket.assigned
-      %tr
-        %th Opened
-        %td= @ticket.opened
-      %tr
-        %th State
-        %td{:class => @ticket.state}= @ticket.state
-      %tr
-        %th Tags
-        %td
-          - @ticket.tags.each do |t|
-            %a{:href => "/tag/#{t}"}= t
-
     %h3 Comments
+    %form{:action => "/a/add_comment/#{@ticket.ticket_id}", :method => 'POST'}
+      %div
+        %textarea{:name => 'comment', :cols => 50}
+        %input{:type => 'submit', :value => 'add comment'}
+        
     %div.comments
       - @ticket.comments.reverse.each do |t|
         %div.comment
@@ -182,7 +249,13 @@ body
     padding: 2px
   padding: 5px
   border-bottom: 1px black solid
-
+  
+#action
+  text-align: right
+  
+.addtag
+  padding: 5px 0
+  
 h1
   display: block
   padding-bottom: 5px
@@ -220,6 +293,7 @@ table
     th
       text-align: left
       padding: 3px
+      vertical-align: top
     td.open
       background: #ada
     td.resolved

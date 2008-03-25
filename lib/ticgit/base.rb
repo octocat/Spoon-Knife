@@ -162,11 +162,14 @@ module TicGit
     
     def ticket_revparse(ticket_id)
       if ticket_id
-        if t = @last_tickets[ticket_id.to_i - 1]
-          return t
+        if /^[0-9]*$/ =~ ticket_id
+          if t = @last_tickets[ticket_id.to_i - 1]
+            return t
+          end
         else
           # partial or full sha
-          if ch = @tickets.select { |name, t| t['files'].assoc('TICKET_ID')[1] =~ /#{ticket_id}/ }
+          if ch = @tickets.select { |name, t| t['files'].assoc('TICKET_ID')[1] =~ /^#{ticket_id}/ }
+            p ch
             return ch.first[0]
           end
         end

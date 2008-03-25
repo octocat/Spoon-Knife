@@ -198,6 +198,8 @@ module TicGit
     def handle_ticket_list
       parse_ticket_list
       
+      options[:saved] = ARGV[1] if ARGV[1]
+      
       if tickets = tic.ticket_list(options)
         counter = 0
       

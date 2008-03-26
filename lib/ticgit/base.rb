@@ -3,6 +3,7 @@ require 'fileutils'
 require 'yaml'
 
 module TicGit
+  class NoRepoFound < StandardError;end
   class Base
 
     attr_reader :git, :logger
@@ -12,7 +13,7 @@ module TicGit
     attr_reader :state, :config_file
     
     def initialize(git_dir, opts = {})
-      @git = Git.open(git_dir)
+      @git = Git.open(find_repo(git_dir))
       @logger = opts[:logger] || Logger.new(STDOUT)
       
       proj = Ticket.clean_string(@git.dir.path)
@@ -35,6 +36,14 @@ module TicGit
         load_state
       else
         reset_ticgit
+      end
+    end
+    
+    def find_repo(dir)
+      full = File.expand_path(dir)
+      ENV["GIT_DIR"] || loop do
+        return full if File.directory?(File.join(full,".git"))
+        raise NoRepoFound if full == full=File.dirname(full)
       end
     end
     

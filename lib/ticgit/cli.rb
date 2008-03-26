@@ -22,6 +22,9 @@ module TicGit
       @args = args.dup
       @tic = TicGit.open('.', :keep_state => true)
       $stdout.sync = true # so that Net::SSH prompts show up
+    rescue NoRepoFound
+      puts "No repo found"
+      exit
     end    
     
     def execute!

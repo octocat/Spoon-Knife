@@ -73,7 +73,7 @@ module TicGit
     # write this ticket to the git database
     def save_new
       base.in_branch do |wd|
-        puts "saving #{ticket_name}"
+        base.logger.info "saving #{ticket_name}"
         
         Dir.mkdir(ticket_name)
         Dir.chdir(ticket_name) do
@@ -87,6 +87,7 @@ module TicGit
 
           # add initial tags
           if opts[:tags] && opts[:tags].size > 0
+            opts[:tags] = opts[:tags].map { |t| t.strip }.compact
             opts[:tags].each do |tag|
               if tag.size > 0
                 tag_filename = 'TAG_' + Ticket.clean_string(tag)
@@ -95,10 +96,7 @@ module TicGit
                 end
               end
             end
-          end
-          
-          # !! TODO : add initial milestone
-            
+          end            
         end
 	      
         base.git.add

@@ -41,8 +41,8 @@ module TicGit
     
     def find_repo(dir)
       full = File.expand_path(dir)
-      ENV["GIT_DIR"] || loop do
-        return full if File.directory?(File.join(full,".git"))
+      ENV["GIT_WORKING_DIR"] || loop do
+        return full if File.directory?(File.join(full, ".git"))
         raise NoRepoFound if full == full=File.dirname(full)
       end
     end
@@ -178,7 +178,6 @@ module TicGit
         else
           # partial or full sha
           if ch = @tickets.select { |name, t| t['files'].assoc('TICKET_ID')[1] =~ /^#{ticket_id}/ }
-            p ch
             return ch.first[0]
           end
         end
@@ -201,9 +200,11 @@ module TicGit
         
     def ticket_change(new_state, ticket_id = nil)
       if t = ticket_revparse(ticket_id)
-        ticket = TicGit::Ticket.open(self, t, @tickets[t])
-        ticket.change_state(new_state)
-        reset_ticgit
+        if tic_states.include?(new_state)
+          ticket = TicGit::Ticket.open(self, t, @tickets[t])
+          ticket.change_state(new_state)
+          reset_ticgit
+        end
       end
     end
     
@@ -220,11 +221,7 @@ module TicGit
 
     def comment_list(ticket_id)
     end
-    
-    
-    def checkout(ticket)
-    end
-    
+        
     def tic_states
       ['open', 'resolved', 'invalid', 'hold']
     end
@@ -249,7 +246,7 @@ module TicGit
     end
     
     def init_ticgit_branch(ticgit_branch = false)
-      puts 'creating ticgit repo branch'
+      @logger.info 'creating ticgit repo branch'
       
       in_branch(ticgit_branch) do          
         new_file('.hold', 'hold')

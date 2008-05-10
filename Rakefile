@@ -14,6 +14,7 @@ spec = Gem::Specification.new do |s|
 
     s.bindir = 'bin'
     s.executables << "ti"
+    s.executables << "ticgitweb"
     s.homepage = "http://github/schacon/ticgit"
 
     s.add_dependency 'git'

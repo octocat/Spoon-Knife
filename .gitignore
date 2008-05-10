@@ -1,1 +1,3 @@
 bin/*.log
+pkg
+coverage

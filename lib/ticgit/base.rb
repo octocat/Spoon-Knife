@@ -207,6 +207,14 @@ module TicGit
         end
       end
     end
+
+    def ticket_assign(new_assigned = nil, ticket_id = nil)
+      if t = ticket_revparse(ticket_id)
+        ticket = TicGit::Ticket.open(self, t, @tickets[t])
+        ticket.change_assigned(new_assigned)
+        reset_ticgit
+      end
+    end
     
     def ticket_checkout(ticket_id)
       if t = ticket_revparse(ticket_id)

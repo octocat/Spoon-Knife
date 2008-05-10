@@ -133,6 +133,20 @@ module TicGit
         base.git.commit("added state (#{new_state}) to ticket #{ticket_name}")
       end
     end
+
+    def change_assigned(new_assigned)
+      new_assigned ||= email
+      return false if new_assigned == assigned
+
+      base.in_branch do |wd|
+        Dir.chdir(ticket_name) do
+          base.new_file('ASSIGNED_' + new_assigned, new_assigned)
+        end
+        base.git.remove(File.join(ticket_name,'ASSIGNED_' + assigned))
+        base.git.add
+        base.git.commit("assigned #{new_assigned} to ticket #{ticket_name}")
+      end
+    end
     
     def add_tag(tag)
       return false if !tag

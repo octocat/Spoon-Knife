@@ -33,6 +33,8 @@ module TicGit
         handle_ticket_list
       when 'state'
         handle_ticket_state
+      when 'assign'
+        handle_ticket_assign
       when 'show'
         handle_ticket_show
       when 'new'
@@ -172,6 +174,28 @@ module TicGit
       tic.tic_states.include?(state)
     end
     
+    # Assigns a ticket to someone
+    #
+    # Usage:
+    # no arguments
+    #   The currently checked out ticket is assigned to the current user
+    # 1 argument [#name#]
+    #   The currently checked out ticket is assigned to the specified user
+    # 2 arguments [#name# #ticid#]
+    #   The ticket with the given ID is assigned to the specified user
+    def handle_ticket_assign
+      if ARGV.size > 2
+        tid = ARGV[1].chomp
+        new_assigned = ARGV[2].chomp
+        tic.ticket_assign(new_assigned, tid)
+      elsif ARGV.size > 1
+        new_assigned = ARGV[1].chomp
+        tic.ticket_assign(new_assigned)
+      else
+        tic.ticket_assign
+      end
+    end
+
     ## LIST TICKETS ##
     def parse_ticket_list
       @options = {}
@@ -341,7 +365,7 @@ module TicGit
     def parse_options! #:nodoc:      
       if args.empty?
         warn "Please specify at least one action to execute."
-        puts " list state show new checkout comment tag "
+        puts " list state show new checkout comment tag assign "
         exit
       end
 

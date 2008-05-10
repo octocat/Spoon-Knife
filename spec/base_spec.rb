@@ -40,6 +40,30 @@ describe TicGit::Base do
     tic.state.should_not eql('resolve')
   end
 
+  it "should be able to change to whom the ticket is assigned" do
+    tic = @ticgit.ticket_list.first
+    @ticgit.ticket_assign('pope', tic.ticket_id)
+    tic = @ticgit.ticket_show(tic.ticket_id)
+    tic.assigned.should eql('pope')
+  end
+
+  it "should not be able to change to whom the ticket is assigned if it is already assigned to that user" do
+    tic = @ticgit.ticket_list.first
+    tic_id = tic.ticket_id
+    lambda {
+      @ticgit.ticket_assign(tic.assigned, tic_id)
+      @ticgit.ticket_show(tic_id)
+    }.should_not change(@ticgit.ticket_recent(tic_id), :size)
+  end
+
+  it "should default to the current user when changing to whom the ticket is assigned" do
+    tic = @ticgit.ticket_list.first
+    @ticgit.ticket_checkout(tic.ticket_id)
+    @ticgit.ticket_assign()
+    tic = @ticgit.ticket_show(tic.ticket_id)
+    tic.assigned.should eql(tic.email)
+  end
+
   it "should only show open tickets by default" do
     @ticgit.ticket_new('my third ticket')
     tics = @ticgit.ticket_list

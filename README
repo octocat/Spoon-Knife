@@ -30,6 +30,8 @@ ti comment - add a comment to a ticket
 
 ti tag - add or delete a tag from a ticket
 
+ti assign - change to whom a ticket is assigned
+
 
 Authors
 ===================================

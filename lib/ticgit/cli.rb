@@ -174,26 +174,33 @@ module TicGit
       tic.tic_states.include?(state)
     end
     
+    def parse_ticket_assign
+      @options = {}
+      OptionParser.new do |opts|
+        opts.banner = "Usage: ti assign [options] [ticket_id]"
+        opts.on("-u USER", "--user USER", "Assign the ticket to this user") do |v|
+          @options[:user] = v
+        end
+        opts.on("-c TICKET", "--checkout TICKET", "Checkout this ticket") do |v|
+          @options[:checkout] = v
+        end
+      end.parse!
+    end
+
     # Assigns a ticket to someone
     #
     # Usage:
-    # no arguments
-    #   The currently checked out ticket is assigned to the current user
-    # 1 argument [#name#]
-    #   The currently checked out ticket is assigned to the specified user
-    # 2 arguments [#name# #ticid#]
-    #   The ticket with the given ID is assigned to the specified user
+    # ti assign             (assign checked out ticket to current user)
+    # ti assign {1}         (assign ticket to current user)
+    # ti assign -c {1}      (assign ticket to current user and checkout the ticket)
+    # ti assign -u {name}   (assign ticket to specified user)
     def handle_ticket_assign
-      if ARGV.size > 2
-        tid = ARGV[1].chomp
-        new_assigned = ARGV[2].chomp
-        tic.ticket_assign(new_assigned, tid)
-      elsif ARGV.size > 1
-        new_assigned = ARGV[1].chomp
-        tic.ticket_assign(new_assigned)
-      else
-        tic.ticket_assign
-      end
+      parse_ticket_assign
+
+      tic.ticket_checkout(options[:checkout]) if options[:checkout]
+
+      tic_id = ARGV.size > 1 ? ARGV[1].chomp : nil
+      tic.ticket_assign(options[:user], tic_id)
     end
 
     ## LIST TICKETS ##

@@ -116,6 +116,12 @@ module TicGit
         opts.on("-m MESSAGE", "--message MESSAGE", "Message you would like to add as a comment") do |v|
           @options[:message] = v
         end
+        opts.on("-f FILE", "--file FILE", "A file that contains the comment you would like to add") do |v|
+          raise ArgumentError, "Only 1 of -f/--file and -m/--message can be specified" if @options[:message]
+          raise ArgumentError, "File #{v} doesn't exist" unless File.file?(v) 
+          raise ArgumentError, "File #{v} must be <= 2048 bytes" unless File.size(v) <= 2048
+          @options[:file] = v
+        end
       end.parse!
     end
 
@@ -127,6 +133,8 @@ module TicGit
       
       if(m = options[:message])
         tic.ticket_comment(m, tid)
+      elsif(f = options[:file])
+        tic.ticket_comment(File.read(options[:file]), tid)
       else
         if message = get_editor_message
           tic.ticket_comment(message.join(''), tid)

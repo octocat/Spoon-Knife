@@ -31,6 +31,7 @@ desc "Clean out the coverage and pkg directories"
 task :clean do
   rm_rf 'coverage'
   rm_rf 'pkg'
+  rm Dir.glob('ticgit*gem')
 end
 
 task :default => "pkg/#{spec.name}-#{spec.version}.gem" do

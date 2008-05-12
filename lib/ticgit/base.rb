@@ -159,7 +159,8 @@ module TicGit
       end
     end
     
-    # returns single Ticket
+    # returns recent ticgit activity
+    # uses the git logs for this
     def ticket_recent(ticket_id = nil)      
       if ticket_id
         t = ticket_revparse(ticket_id) 

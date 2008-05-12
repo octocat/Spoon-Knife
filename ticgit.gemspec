@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
     s.author    =   "Scott Chacon"
     s.email     =   "schacon@gmail.com"
     s.summary   =   "A distributed ticketing system for Git projects."
-    s.files     =   ["lib/ticgit", "lib/ticgit/base.rb", "lib/ticgit/cli.rb", "lib/ticgit/comment.rb", "lib/ticgit/ticket.rb", "lib/ticgit.rb", "bin/development.log", "bin/ti", "bin/ticgitweb"]
+    s.files     =   ["lib/ticgit/base.rb", "lib/ticgit/cli.rb", "lib/ticgit/comment.rb", "lib/ticgit/ticket.rb", "lib/ticgit.rb", "bin/ti", "bin/ticgitweb"]
 
     s.bindir = 'bin'
     s.executables << "ti"

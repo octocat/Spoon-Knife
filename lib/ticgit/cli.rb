@@ -80,14 +80,6 @@ module TicGit
         puts commit.sha[0, 7] + "  " + commit.date.strftime("%m/%d %H:%M") + "\t" + commit.message
       end
     end
-
-    
-    def handle_ticket_recent
-      tic.ticket_recent(ARGV[1]).each do |commit|
-        puts commit.sha[0, 7] + "  " + commit.date.strftime("%m/%d %H:%M") + "\t" + commit.message
-      end
-    end
-    
     
     def parse_ticket_tag
       @options = {}

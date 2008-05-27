@@ -13,7 +13,5 @@ Gem::Specification.new do |s|
     s.executables << "ticgitweb"
     s.homepage = "http://github/schacon/ticgit"
 
-    s.add_dependency('git', [">= 1.0.5"])
-
     s.require_path  =   "lib"
 end

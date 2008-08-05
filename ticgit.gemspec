@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
     s.name      =   "ticgit"
-    s.version   =   "0.3.4"
+    s.version   =   "0.3.5"
     s.date      =   "2008-05-10"
     s.author    =   "Scott Chacon"
     s.email     =   "schacon@gmail.com"
@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
     s.executables << "ticgitweb"
     s.homepage = "http://github/schacon/ticgit"
 
-    s.require_path  =   ["lib", "bin"]
+    s.require_paths = ["lib", "bin"]
 end

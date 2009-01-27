@@ -6,6 +6,6 @@
 #
 
 require 'rubygems'
-require 'ticgit'
-#require File.dirname(__FILE__) + '/../lib/ticgit'
+#require 'ticgit'
+require File.dirname(__FILE__) + '/../lib/ticgit'
 TicGit::CLI.execute

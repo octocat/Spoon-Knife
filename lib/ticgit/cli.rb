@@ -33,6 +33,8 @@ module TicGit
         handle_ticket_list
       when 'state'
         handle_ticket_state
+      when 'attach'
+        handle_ticket_attach      
       when 'assign'
         handle_ticket_assign
       when 'show'
@@ -202,6 +204,43 @@ module TicGit
       tic_id = ARGV.size > 1 ? ARGV[1].chomp : nil
       tic.ticket_assign(options[:user], tic_id)
     end
+    
+    
+    
+   
+
+    # Attaches a file to the ticket
+    #
+    # Usage:
+    # ti attach [tid] [file]
+    def handle_ticket_attach
+      if ARGV.size == 1
+        puts "Usage: ti attach [tid] [filename]"
+        return
+      end
+      
+      if ARGV.size > 2
+        tic_id = ARGV[1].chomp
+        file_path = ARGV[2].chomp
+      else 
+        file_path = ARGV[1].chomp
+        tic_id = nil
+      end
+      
+      file_path = File.expand_path(file_path)
+      
+      if (! File.exists?(file_path))
+        puts "File #{file_path} does not exist."
+        return
+      elsif (! File.file?(file_path))
+        puts "File must be a file (can't be a directory)"
+        return;
+      end
+      
+      tic.ticket_attach(file_path, tic_id)
+      
+    end
+
 
     ## LIST TICKETS ##
     def parse_ticket_list
@@ -304,6 +343,13 @@ module TicGit
             puts wrapped.join("\n")
           end
           puts
+        end
+      end
+      if !t.attachments.empty?
+        puts "Attachments (#{t.attachments.size})"
+        t.attachments.reverse.each do |c| 
+          puts '  * Added ' + c.added.strftime("%m/%d %H:%M") + ' by ' + c.user          
+          puts "    #{c.path}"
         end
       end
     end

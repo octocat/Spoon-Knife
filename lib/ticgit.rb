@@ -9,7 +9,7 @@ require 'git'
 require 'ticgit/base'
 require 'ticgit/ticket'
 require 'ticgit/comment'
-
+require 'ticgit/attachment'
 require 'ticgit/cli'
 
 # TicGit Library

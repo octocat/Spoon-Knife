@@ -47,6 +47,9 @@ module TicGit
           if data[0] == 'ASSIGNED'
             t.assigned = data[1]
           end
+          if data[0] == 'ATTACHMENT'
+            t.attachments << TicGit::Attachment.new(base,fname,value)
+          end
           if data[0] == 'COMMENT'
             t.comments << TicGit::Comment.new(base, fname, value)
           end
@@ -117,6 +120,16 @@ module TicGit
         end
         base.git.add
         base.git.commit("added comment to ticket #{ticket_name}")
+      end
+    end
+    
+    def add_attachment(file)  
+      base.in_branch do |wd|
+        Dir.chdir(ticket_name) do
+          FileUtils.copy(file,attachment_name(email,File.basename(file)))
+        end
+        base.git.add
+        base.git.commit("added attachment to ticket #{ticket_name}")
       end
     end
 
@@ -193,9 +206,14 @@ module TicGit
       File.join(state, ticket_name)
     end
     
+    
+    def attachment_name(email,filename)
+      'ATTACHMENT_' + Time.now.to_i.to_s + '_' + email + "@@" + filename
+    end
     def comment_name(email)
       'COMMENT_' + Time.now.to_i.to_s + '_' + email
     end
+    
     
     def email
       opts[:user_email] || 'anon'

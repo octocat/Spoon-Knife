@@ -349,7 +349,7 @@ module TicGit
         puts "Attachments (#{t.attachments.size})"
         t.attachments.reverse.each do |c| 
           puts '  * Added ' + c.added.strftime("%m/%d %H:%M") + ' by ' + c.user          
-          puts "    #{c.path}"
+          puts "    #{c.filename}"
         end
       end
     end
@@ -418,7 +418,7 @@ module TicGit
     def parse_options! #:nodoc:      
       if args.empty?
         warn "Please specify at least one action to execute."
-        puts " list state show new checkout comment tag assign "
+        puts " list state show new checkout comment tag assign attach "
         exit
       end
 

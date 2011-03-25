@@ -1,0 +1,4 @@
+bin/*.log
+pkg
+coverage
+ticgit*gem

@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-      <title>Spoon-Knife</title>
-      <style>
-        * {
-          margin: 0px;
-          padding: 0px;
-        }
-        
-        #octocat {
-          display: block;
-          width: 384px;
-          margin: 50px auto;
-        }
-        
-        h1 {
-          width: 384px;
-          margin: 50px auto;
-          font-family: monospace;
-          text-align: center;
-        }
-        
-        #rainbow-message {
-          position: absolute;
-          right: 10px;
-          top: 10px;
-          box-shadow: -5px 10px 15px gray;
-          -moz-box-shadow: -5px 10px 15px gray;
-          font-family: sans-serif;
-          border-radius: .2em;
-          padding: 1em;
-        }
-        
-      </style>
-      <script>
-	    (function () {
-	        var keyCodes = [10], 
-	            pattern=[38,38,40,40,37,39,37,39,66,65];
-	        
-	        /**
-	         * Modified version of the MDC rec'd backwards compatible support 
-	         * function. See http://goo.gl/G7asf
-	         *
-	         * @param function fn a boolean test.
-	         * @return boolean answers whether all calls of fn returned true
-	         */
-            if (!Array.prototype.every) {
-                Array.prototype.every = function(fun /*, thisp */) {
-                    "use strict";
-                    var t = {},
-                        len = 0,
-                        thisp = {},
-                        i = 0;
-                    if (this === void 0 || this === null) {
-                      throw new TypeError();
-                    }
-                    
-                    t = Object(this);
-                    len = t.length >>> 0;
-                    
-                    if (typeof fun !== "function") {
-                      throw new TypeError();
-                    }
-
-                    thisp = arguments[1];
-                    for (i = 0; i < len; i++) {
-                        if (i in t && !fun.call(thisp, t[i], i, t)) {
-                            return false;
-                        }
-                    }
-
-                    return true;
-                };
-            }
-	        
-	        function keydownHandler(e){
-		        var test = function (element, index, array) {
-	                return element === pattern[index];
-                };
-                
-		        keyCodes.shift();
-		        keyCodes.push(e.keyCode);
-		        
-		        if (keyCodes.every(test)) {
-			        document.getElementById("rainbow-message").style.display="";
-		        }
-	        }
-	        
-	        window.onkeydown=keydownHandler;
-        })();	        
-       </script>
+	  <title>Spoon-Knife</title>
+	  <style>
+		* {
+		  margin: 0px;
+		  padding: 0px;
+		}
 		
-    </head>
-    <body>
-        <img src="forkit.gif" id="octocat" alt="" />
-        <h1>Fork me? No, fork you!</h1>
-        <div id="rainbow-message" style="display:none">
-            Double repositories all the way across the sky!<br/>
-            <a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
-        </div>
-    </body>
+		#octocat {
+		  display: block;
+		  width: 384px;
+		  margin: 50px auto;
+		}
+		
+		h1 {
+		  width: 384px;
+		  margin: 50px auto;
+		  font-family: monospace;
+		  text-align: center;
+		}
+		
+		#rainbow-message {
+		  position: absolute;
+		  right: 10px;
+		  top: 10px;
+		  box-shadow: -5px 10px 15px gray;
+		  -moz-box-shadow: -5px 10px 15px gray;
+		  font-family: sans-serif;
+		  border-radius: .2em;
+		  padding: 1em;
+		}
+		
+	  </style>
+	  <script>
+		(function () {
+			var keyCodes = [10], 
+				pattern=[38,38,40,40,37,39,37,39,66,65];
+			
+			/**
+			 * Modified version of the MDC rec'd backwards compatible support 
+			 * function. See http://goo.gl/G7asf
+			 *
+			 * @param function fn a boolean test.
+			 * @return boolean answers whether all calls of fn returned true
+			 */
+			if (!Array.prototype.every) {
+				Array.prototype.every = function(fun /*, thisp */) {
+					"use strict";
+					var t = {},
+						len = 0,
+						thisp = {},
+						i = 0;
+					if (this === void 0 || this === null) {
+					  throw new TypeError();
+					}
+					
+					t = Object(this);
+					len = t.length >>> 0;
+					
+					if (typeof fun !== "function") {
+					  throw new TypeError();
+					}
+
+					thisp = arguments[1];
+					for (i = 0; i < len; i++) {
+						if (i in t && !fun.call(thisp, t[i], i, t)) {
+							return false;
+						}
+					}
+
+					return true;
+				};
+			}
+			
+			function keydownHandler(e){
+				var test = function (element, index, array) {
+					return element === pattern[index];
+				};
+				
+				keyCodes.shift();
+				keyCodes.push(e.keyCode);
+				
+				if (keyCodes.every(test)) {
+					document.getElementById("rainbow-message").style.display="";
+				}
+			}
+			
+			window.onkeydown=keydownHandler;
+		})();			
+	   </script>
+		
+	</head>
+	<body>
+		<img src="forkit.gif" id="octocat" alt="" />
+		<h1>Fork me? No, fork you!</h1>
+		<div id="rainbow-message" style="display:none">
+			Double repositories all the way across the sky!<br/>
+			<a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
+		</div>
+	</body>
 </html>

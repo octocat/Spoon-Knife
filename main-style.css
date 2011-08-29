@@ -17,6 +17,7 @@
     }
     #rainbow-message {
       position: absolute;
+      padding: 10px;
       right: 10px;
       top: 10px;
       box-shadow: -5px 10px 15px gray;

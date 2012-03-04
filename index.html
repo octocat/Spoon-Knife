@@ -11,6 +11,10 @@
       padding:0px;
     }
     
+    html {
+      background-color: #CDCDCD;
+    }
+    
     #octocat {
       display: block;
       width:384px;
@@ -19,7 +23,7 @@
     
     p {
       display: block;
-      width: 400px;
+      width: 300px;
       margin: 50px auto;
       font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     }
@@ -34,18 +38,18 @@
     
   </style>
   <script type="text/javascript">
-	var keyCodes=new Array(10);
-	var pattern=[38,38,40,40,37,39,37,39,66,65];
-	function keydownHandler(e){
-		keyCodes.shift();
-		keyCodes.push(e.keyCode);
-		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-			document.getElementById("rainbow-message").style.display="";
-		}
-	}
-	window.onkeydown=keydownHandler;
+  var keyCodes=new Array(10);
+  var pattern=[38,38,40,40,37,39,37,39,66,65];
+  function keydownHandler(e){
+    keyCodes.shift();
+    keyCodes.push(e.keyCode);
+    if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
+      document.getElementById("rainbow-message").style.display="";
+    }
+  }
+  window.onkeydown=keydownHandler;
    </script>
-		
+    
 </head>
 
 <body>
@@ -53,7 +57,7 @@
 <img src="forkit.gif" id="octocat" alt="" />
 
 <p>
-  Fork me? No, fork you!
+  Forked with love
 </p>
 <div id="rainbow-message" style="display:none">
 Double repositories all the way across the sky!<br/>

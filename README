@@ -1,3 +1,28 @@
+This is a small offering of sample files from the wxWidgets and
+wxHaskell repositories to help you figure out if you have wxHaskell
+installed correctly or not.
+
+1. Do you have a working wxWidgets?
+
+      wx-config
+      cd wxWidgets
+      g++ minimal.cpp `wx-config --libs --cflags` -o minimal
+     ./minimal
+
+2. How about wxcore?
+
+      cd wxcore
+      ghc --make HelloWorld
+      ./HelloWorld
+
+3. What about wx?
+
+      cd wxc
+      ghc --make HelloWorld
+      ./HelloWorld
+
+Having a wxc sampler would be nice.  I think somebody would have to
+chase down all the equivalencies from the C++ version.
 $ openssl genrsa -des3 -out site.key 2048
     ...
    Enter pass phrase for site.key:*******

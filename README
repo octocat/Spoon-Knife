@@ -1,1 +1,12 @@
-All that's missing is the fork. Heh.
+$ openssl genrsa -des3 -out site.key 2048
+    ...
+   Enter pass phrase for site.key:*******
+   Verifying - Enter pass phrase for site.key:*******
+$ mv site.key site.orig.key
+$ openssl rsa -in site.orig.key -out site.key
+   Enter pass phrase for site.orig.key:
+   writing RSA key
+$ openssl req -new -key site.key -out site.csr
+   ...
+   Country Name (2 letter code) [AU]:US
+   State or Province Name (full name) [Some-State]:California

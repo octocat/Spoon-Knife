@@ -1,1 +1,13 @@
-All that's missing is the fork. Heh.
+___---$^DOC:README---___
+Use the heroku command-line tool to create an application and git remote:
+$ heroku create
+[Creating glowing-dusk-965... done, stack is bamboo-mri-1.9.2 
+http://glowing-dusk-965.heroku.com/ <http://glowing-dusk-965.
+heroku.com/> | git@heroku.com:glowing-dusk-965.git <x-msg://536/
+git@heroku.com:glowing-dusk-965.git> Git remote heroku added]
+Use git to deploy the application.
+$ git push heroku master
+Create an additional Heroku app for staging, and name the git remote "staging".
+$ heroku create my-staging-app --remote staging
+Use git to deploy the application via the staging remote.
+$ git push staging master 

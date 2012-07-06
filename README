@@ -1,3 +1,4 @@
+git clone git@gist.github.com:ea0ba06766047fe5419b.git gist-ea0ba067
 This is a small offering of sample files from the wxWidgets and
 wxHaskell repositories to help you figure out if you have wxHaskell
 installed correctly or not.

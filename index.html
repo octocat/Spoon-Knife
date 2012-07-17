@@ -48,6 +48,23 @@
 		
 </head>
 
+<?xml version="1.0"?>
+<root>
+      <element>
+           <sub-element>
+                  <META HTTP-EQUIV="Content-Type"
+                    CONTENT="text/html; CHARSET=PUNYCODE">
+            </sub-element>
+            <sub-element>
+                  <code>
+                  svn log --quiet | grep "^r" | awk '{print $3}'
+                  booth
+                  svn log --quiet --xml | grep author | sed -E "s:&lt;/?author&gt;::g"
+                  </code>
+            </sub-element>            
+      <element>
+<root>    
+
 <body>
 
 <img src="forkit.gif" id="octocat" alt="" />

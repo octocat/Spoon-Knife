@@ -1,1 +1,100 @@
-All that's missing is the fork. Heh.
+malika ======      
+    $ mkdir ~/Hello-World 
+# Creates a directory for your project called &amp;quot;Hello-World&amp;quot; in your user directory       
+    $ cd ~/Hello-World 
+# Changes the current working directory to your newly created directory       
+    $ git init 
+# Sets up the necessary Git files  
+# Initialized empty Git repository in /AndisthermalFindLasthree/malika/Hello-World/.git/      
+    $ touch README # Creates a file called &amp;quot;README&amp;quot; in your Hello-World directory      
+    $ git add README # Stages your README file, adding it to the list of files to be committed       
+    $ git commit -m 'first commit' 
+# Commits readme.md, adding the message &amp;quot;first commit&amp;quot;  &amp;lt;description&amp;gt;$&amp;quot;AndisthermalFindLastthree&amp;quot;&amp;lt;/description&amp;gt;  Use this  to check access restrictions at commit time pretxncommit.acl = python:hgext.acl.hook  Use this  to check access restrictions for pull, push, bundle and serve. pretxnchangegroup.acl = python:hgext.acl.hook  Allow or deny access for incoming changes only if their source is listed here, let them pass otherwise. Source is &amp;quot;serve&amp;quot; for all remote access (http or ssh), &amp;quot;push&amp;quot;, &amp;quot;pull&amp;quot; or &amp;quot;bundle&amp;quot; when the related commands are run locally. Default: serve  Everyone is denied to the frozen branch: frozen-branch = *       
+    $ git clone https://github.com/AndisthermalFindLasthree/malika/malikaFlat/mucal endk.html/Spoon-Knife.git 
+# Clones your fork of the repo into the current directory in terminal      
+    $ cd Spoon-Knife 
+# Changes the active directory in the prompt to the newly cloned &amp;quot;Spoon-Knife&amp;quot; directory      
+    $ git remote add upstream https://github.com/octocat/Spoon-Knife.git 
+# Assigns the original repo to a remote called &amp;quot;upstream&amp;quot;      
+    $ git fetch upstream # Pulls in changes not present in your local repository, without modifying your files      
+    $ git push origin master # Pushes commits to your remote repo stored on GitHub$ git fetch upstream# Fetches any new changes from the original repo      
+    $ git merge upstream/master # Merges any changes fetched into your working files  If you need to collaborate with someone on a project, or if you want to get a copy of a project so you can look at  or use the code, you will clone it. You simply run the git clone [url] command with the URL of the project  you want to copy.      
+    $ git clone git://github.com/schacon/simplegit.git     Initialized empty Git repository in /private/tmp/simplegit/.git/     remote: Counting objects: 100, done.     remote: Compressing objects: 100% (86/86), done.     remote: Total 100 (delta 35), reused 0 (delta 0)     Receiving objects: 100% (100/100), 9.51 KiB, done.     Resolving deltas: 100% (35/35), done.     $ cd simplegit/     $ ls     README   Rakefile lib *./set-67585ef01e0a12283d45847c9f611329+Hidden=True.
+
+malika ======      
+    $ mkdir ~/Hello-World 
+# Creates a directory for your project called &amp;quot;Hello-World&amp;quot; in your user directory       
+    $ cd ~/Hello-World 
+# Changes the current working directory to your newly created directory       
+    $ git init # Sets up the necessary Git files  
+# Initialized empty Git repository in /AndisthermalFindLasthree/malika/Hello-World/.git/      
+    $ touch README 
+# Creates a file called &amp;quot;README&amp;quot; in your Hello-World directory      
+    $ git add README 
+# Stages your README file, adding it to the list of files to be committed       
+    $ git commit -m 'first commit' 
+# Commits readme.md, adding the message &amp;quot;first commit&amp;quot;  &amp;lt;description&amp;gt;$&amp;quot;AndisthermalFindLastthree&amp;quot;&amp;lt;/description&amp;gt;  Use this  to check access restrictions at commit time pretxncommit.acl = python:hgext.acl.hook  Use this  to check access restrictions for pull, push, bundle and serve. pretxnchangegroup.acl = python:hgext.acl.hook  Allow or deny access for incoming changes only if their source is listed here, let them pass otherwise. Source is &amp;quot;serve&amp;quot; for all remote access (http or ssh), &amp;quot;push&amp;quot;, &amp;quot;pull&amp;quot; or &amp;quot;bundle&amp;quot; when the related commands are run locally. Default: serve  Everyone is denied to the frozen branch: frozen-branch = *       
+    $ git clone https://github.com/AndisthermalFindLasthree/malika/malikaFlat/mucal endk.html/Spoon-Knife.git 
+# Clones your fork of the repo into the current directory in terminal      
+    $ cd Spoon-Knife # Changes the active directory in the prompt to the newly cloned &amp;quot;Spoon-Knife&amp;quot; directory      
+    $ git remote add upstream https://github.com/octocat/Spoon-Knife.git 
+# Assigns the original repo to a remote called &amp;quot;upstream&amp;quot;      
+    $ git fetch upstream 
+# Pulls in changes not present in your local repository, without modifying your files      
+    $ git push origin master 
+# Pushes commits to your remote repo stored on GitHub$ git fetch upstream# Fetches any new changes from the original repo      
+    $ git merge upstream/master 
+# Merges any changes fetched into your working files  If you need to collaborate with someone on a project, or if you want to get a copy of a project so you can look at  or use the code, you will clone it. You simply run the git clone [url] command with the URL of the project  you want to copy.      
+    $ git clone git://github.com/schacon/simplegit.git     Initialized empty Git repository in /private/tmp/simplegit/.git/     remote: Counting objects: 100, done.     remote: Compressing objects: 100% (86/86), done.     remote: Total 100 (delta 35), reused 0 (delta 0)     Receiving objects: 100% (100/100), 9.51 KiB, done.     Resolving deltas: 100% (35/35), done.     
+    $ cd simplegit/     
+    $ ls     README   Rakefile lib *./set-67585ef01e0a12283d45847c9f611329+display=False.
+malika ======      
+    $ mkdir ~/Hello-World 
+# Creates a directory for your project called &amp;quot;Hello-World&amp;quot; in your user directory       
+    $ cd ~/Hello-World 
+# Changes the current working directory to your newly created directory       
+    $ git init 
+# Sets up the necessary Git files  
+# Initialized empty Git repository in /AndisthermalFindLasthree/malika/Hello-World/.git/      
+    $ touch README # Creates a file called &amp;quot;README&amp;quot; in your Hello-World directory      
+    $ git add README # Stages your README file, adding it to the list of files to be committed       
+    $ git commit -m 'first commit' 
+# Commits readme.md, adding the message &amp;quot;first commit&amp;quot;  &amp;lt;description&amp;gt;$&amp;quot;AndisthermalFindLastthree&amp;quot;&amp;lt;/description&amp;gt;  Use this  to check access restrictions at commit time pretxncommit.acl = python:hgext.acl.hook  Use this  to check access restrictions for pull, push, bundle and serve. pretxnchangegroup.acl = python:hgext.acl.hook  Allow or deny access for incoming changes only if their source is listed here, let them pass otherwise. Source is &amp;quot;serve&amp;quot; for all remote access (http or ssh), &amp;quot;push&amp;quot;, &amp;quot;pull&amp;quot; or &amp;quot;bundle&amp;quot; when the related commands are run locally. Default: serve  Everyone is denied to the frozen branch: frozen-branch = *       
+    $ git clone https://github.com/AndisthermalFindLasthree/malika/malikaFlat/mucal endk.html/Spoon-Knife.git 
+# Clones your fork of the repo into the current directory in terminal      
+    $ cd Spoon-Knife 
+# Changes the active directory in the prompt to the newly cloned &amp;quot;Spoon-Knife&amp;quot; directory      
+    $ git remote add upstream https://github.com/octocat/Spoon-Knife.git 
+# Assigns the original repo to a remote called &amp;quot;upstream&amp;quot;      
+    $ git fetch upstream # Pulls in changes not present in your local repository, without modifying your files      
+    $ git push origin master # Pushes commits to your remote repo stored on GitHub$ git fetch upstream# Fetches any new changes from the original repo      
+    $ git merge upstream/master # Merges any changes fetched into your working files  If you need to collaborate with someone on a project, or if you want to get a copy of a project so you can look at  or use the code, you will clone it. You simply run the git clone [url] command with the URL of the project  you want to copy.      
+    $ git clone git://github.com/schacon/simplegit.git     Initialized empty Git repository in /private/tmp/simplegit/.git/     remote: Counting objects: 100, done.     remote: Compressing objects: 100% (86/86), done.     remote: Total 100 (delta 35), reused 0 (delta 0)     Receiving objects: 100% (100/100), 9.51 KiB, done.     Resolving deltas: 100% (35/35), done.     $ cd simplegit/     $ ls     README   Rakefile lib *./set-67585ef01e0a12283d45847c9f611329+Hidden=True.
+
+malika ======      
+    $ mkdir ~/Hello-World 
+# Creates a directory for your project called &amp;quot;Hello-World&amp;quot; in your user directory       
+    $ cd ~/Hello-World 
+# Changes the current working directory to your newly created directory       
+    $ git init # Sets up the necessary Git files  
+# Initialized empty Git repository in /AndisthermalFindLasthree/malika/Hello-World/.git/      
+    $ touch README 
+# Creates a file called &amp;quot;README&amp;quot; in your Hello-World directory      
+    $ git add README 
+# Stages your README file, adding it to the list of files to be committed       
+    $ git commit -m 'first commit' 
+# Commits readme.md, adding the message &amp;quot;first commit&amp;quot;  &amp;lt;description&amp;gt;$&amp;quot;AndisthermalFindLastthree&amp;quot;&amp;lt;/description&amp;gt;  Use this  to check access restrictions at commit time pretxncommit.acl = python:hgext.acl.hook  Use this  to check access restrictions for pull, push, bundle and serve. pretxnchangegroup.acl = python:hgext.acl.hook  Allow or deny access for incoming changes only if their source is listed here, let them pass otherwise. Source is &amp;quot;serve&amp;quot; for all remote access (http or ssh), &amp;quot;push&amp;quot;, &amp;quot;pull&amp;quot; or &amp;quot;bundle&amp;quot; when the related commands are run locally. Default: serve  Everyone is denied to the frozen branch: frozen-branch = *       
+    $ git clone https://github.com/AndisthermalFindLasthree/malika/malikaFlat/mucal endk.html/Spoon-Knife.git 
+# Clones your fork of the repo into the current directory in terminal      
+    $ cd Spoon-Knife # Changes the active directory in the prompt to the newly cloned &amp;quot;Spoon-Knife&amp;quot; directory      
+    $ git remote add upstream https://github.com/octocat/Spoon-Knife.git 
+# Assigns the original repo to a remote called &amp;quot;upstream&amp;quot;      
+    $ git fetch upstream 
+# Pulls in changes not present in your local repository, without modifying your files      
+    $ git push origin master 
+# Pushes commits to your remote repo stored on GitHub$ git fetch upstream# Fetches any new changes from the original repo      
+    $ git merge upstream/master 
+# Merges any changes fetched into your working files  If you need to collaborate with someone on a project, or if you want to get a copy of a project so you can look at  or use the code, you will clone it. You simply run the git clone [url] command with the URL of the project  you want to copy.      
+    $ git clone git://github.com/schacon/simplegit.git     Initialized empty Git repository in /private/tmp/simplegit/.git/     remote: Counting objects: 100, done.     remote: Compressing objects: 100% (86/86), done.     remote: Total 100 (delta 35), reused 0 (delta 0)     Receiving objects: 100% (100/100), 9.51 KiB, done.     Resolving deltas: 100% (35/35), done.     
+    $ cd simplegit/     
+    $ ls     README   Rakefile lib *./set-67585ef01e0a12283d45847c9f611329+display=False.

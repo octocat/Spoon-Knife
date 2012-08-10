@@ -1,0 +1,11 @@
+# Temp files
+bin/
+tmp/
+*.tmp
+*.swp
+*~
+~$*
+
+# Windows crap
+Thumbs.db #Image File Cache
+Desktop.ini #Folder config file

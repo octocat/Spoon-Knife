@@ -1,0 +1,11 @@
+Secret code for the hidden rainbow reference:
+- Up
+- Up
+- Down
+- Down
+- Left
+- Right
+- Left
+- Right
+- b
+- a

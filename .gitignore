@@ -4,7 +4,6 @@ tmp/
 *.tmp
 *.swp
 *~
-~$*
 
 # Windows crap
 Thumbs.db #Image File Cache

@@ -1,0 +1,7 @@
+When a repo is cloned, it has a default remote called origin that points to your fork on GitHub, not the original repo it was forked from. To keep track of the original repo, you need to add another remote named upstream.
+
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+# Assigns the original repo to a remote called "upstream"
+
+git fetch upstream
+# Pulls in changes not present in your local repository, without modifying your files

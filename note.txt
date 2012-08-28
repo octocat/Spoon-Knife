@@ -5,3 +5,6 @@ git remote add upstream https://github.com/octocat/Spoon-Knife.git
 
 git fetch upstream
 # Pulls in changes not present in your local repository, without modifying your files
+
+
+*Edit performed from GitHub

@@ -7,4 +7,4 @@ var keyCodes=new Array(10);
 			document.getElementById("rainbow-message").style.display="";
 		}
 	}
-	window.onkeydown=keydownHandler;
+window.onkeydown=keydownHandler;

@@ -3,46 +3,46 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
   <title>Spoon-Knife</title>
+
   <style type="text/css">
     * {
       margin: 0px;
       padding: 0px; }
-    
+   
     #octocat {
       display: block;
       width:384px;
       margin: 50px auto; }
-    
+
     p {
       display: block;
       width: 400px;
       margin: 50px auto;
       font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace; }
-			
-		#wrapper {
-			margin-left: auto;
-			margin-right: auto;
-			width: 620px; }
-			
+	
+    #wrapper {
+      margin-left: auto;
+      margin-right: auto;
+      width: 620px; }
+
     #rainbow-message {
       font-family: "Open Sans", "Calibri", sans-serif;
-			text-align: center; }
+      text-align: center; }
   </style>
+
   <script type="text/javascript">
-		var keyCodes=new Array(10);
-		var pattern=[38,38,40,40,37,39,37,39,66,65];
-		function keydownHandler(e){
-			keyCodes.shift();
-			keyCodes.push(e.keyCode);
-			if(keyCodes.every( function(element, index, array){return element===pattern[index];}) ) {
-				document.getElementById("rainbow-message").style.display="";
-			}
-		}
-		window.onkeydown=keydownHandler;
-   </script>
-		
+    var keyCodes=new Array(10);
+    var pattern=[38,38,40,40,37,39,37,39,66,65];
+    function keydownHandler(e){
+    keyCodes.shift();
+    keyCodes.push(e.keyCode);
+    if (keyCodes.every( function(element, index, array){return element===pattern[index];} ) ) {
+      document.getElementById("rainbow-message").style.display="";
+      }
+    }
+    window.onkeydown=keydownHandler;
+  </script>
 </head>
 
 <body>

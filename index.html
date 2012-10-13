@@ -21,7 +21,8 @@
       display: block;
       width: 400px;
       margin: 50px auto;
-      font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+      text-align: center;
+      font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     }
     #rainbow-message {
       position: absolute;
@@ -31,7 +32,71 @@
       -moz-box-shadow: -5px 10px 15px gray;
       font-family: sans-serif;
     }
+    .rainbow {
+        text-shadow:
+            1px 1px 0 #FF0000,
+            2px 2px 0 #FF4200,
+            3px 3px 0 #FF8400,
+            4px 4px 0 #FFC600,
+            5px 5px 0 #FFff00,
+            6px 6px 0 #BDff00,
+            7px 7px 0 #7Bff00,
+            8px 8px 0 #39ff00,
+            9px 9px 0 #00ff00,
+            10px 10px 0 #00ff42,
+            11px 11px 0 #00ff84,
+            12px 12px 0 #00ffC6,
+            13px 13px 0 #00ffff,
+            14px 14px 0 #00C6ff,
+            15px 15px 0 #0084ff,
+            16px 16px 0 #0042ff,
+            17px 17px 0 #0000ff,
+            18px 18px 0 #3900ff,
+            19px 19px 0 #7B00ff,
+            20px 20px 0 #BD00ff,
+            21px 21px 0 #FF00ff,
+            22px 22px 0 #FF00C6,
+            23px 23px 0 #FF0084,
+            24px 24px 0 #FF0042,
+            25px 25px 0 #FF0000,
+            26px 26px 0 #FF4200,
+            27px 27px 0 #FF8400,
+            28px 28px 0 #FFC600,
+            29px 29px 0 #FFff00,
+            30px 30px 0 #BDff00,
+            31px 31px 0 #7Bff00,
+            32px 32px 0 #39ff00,
+            33px 33px 0 #00ff00,
+            34px 34px 0 #00ff42,
+            35px 35px 0 #00ff84,
+            36px 36px 0 #00ffC6,
+            37px 37px 0 #00ffff,
+            38px 38px 0 #00C6ff,
+            39px 39px 0 #0084ff,
+            40px 40px 0 #0042ff,
+            41px 41px 0 #0000ff,
+            42px 42px 0 #3900ff,
+            43px 43px 0 #7B00ff,
+            44px 44px 0 #BD00ff,
+            45px 45px 0 #FF00ff,
+            46px 46px 0 #FF00C6,
+            47px 47px 0 #FF0084;
+        -webkit-transition: text-shadow 1s ease-in-out;
+        -moz-transition: text-shadow 1s ease-in-out;
+        -o-transition: text-shadow 1s ease-in-out;
+        -ms-transition: text-shadow 1s ease-in-out;
+        transition: text-shadow 1s ease-in-out;
+    }
     
+    .no-rainbow {
+        text-shadow:
+            0px 0px 0 rgba(0,0,0,0) !important;
+        -webkit-transition: text-shadow 1s ease-in-out;
+        -moz-transition: text-shadow 1s ease-in-out;
+        -o-transition: text-shadow 1s ease-in-out;
+        -ms-transition: text-shadow 1s ease-in-out;
+        transition: text-shadow 1s ease-in-out;
+    }
   </style>
   <script type="text/javascript">
 	var keyCodes=new Array(10);
@@ -41,8 +106,21 @@
 		keyCodes.push(e.keyCode);
 		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
 			document.getElementById("rainbow-message").style.display="";
+            add_rainbow_class();
 		}
 	}
+    function add_rainbow_class(){
+        document.getElementById("forkmeforkyou")
+            .classList.remove("no-rainbow");
+        document.getElementById("forkmeforkyou")
+            .classList.add("rainbow");
+        setTimeout(function(){
+            document.getElementById("forkmeforkyou")
+                .classList.add("no-rainbow");
+            document.getElementById("forkmeforkyou")
+                .classList.remove("rainbow");
+            },1000);
+    }
 	window.onkeydown=keydownHandler;
    </script>
 		
@@ -52,7 +130,7 @@
 
 <img src="forkit.gif" id="octocat" alt="" />
 
-<p>
+<p id="forkmeforkyou">
   Fork me? No, fork you!
 </p>
 <div id="rainbow-message" style="display:none">

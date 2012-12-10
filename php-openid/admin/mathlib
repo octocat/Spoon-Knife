@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+require_once 'adminutil.php';
+includeAdd(getParent());
+
+require_once 'Auth/OpenID/CryptUtil.php';
+
+$lib =& Auth_OpenID_MathLibrary::getLibWrapper();
+
+if ($lib === null) {
+    fwrite(STDERR, 'No math library present\n');
+    exit(1);
+} else {
+    print $lib->type;
+}
+
+?>

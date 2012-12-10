@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+find Auth Tests \
+    -name _darcs -prune -o \
+    \( -type f \
+    -a -name \*.php \
+    -a ! -name .\* \
+    \) 

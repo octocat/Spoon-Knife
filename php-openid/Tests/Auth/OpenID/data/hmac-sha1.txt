@@ -1,0 +1,49 @@
+test_case =     1
+key =           0x0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+key_len =       20
+data =          "Hi There"
+data_len =      8
+digest =        0xb617318655057264e28bc0b6fb378c8ef146be00
+
+test_case =     2
+key =           "Jefe"
+key_len =       4
+data =          "what do ya want for nothing?"
+data_len =      28
+digest =        0xeffcdf6ae5eb2fa2d27416d5f184df9c259a7c79
+
+test_case =     3
+key =           0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+key_len =       20
+data =          0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+data_len =      50
+digest =        0x125d7342b9ac11cd91a39af48aa17b4f63f175d3
+
+test_case =     4
+key =           0x0102030405060708090a0b0c0d0e0f10111213141516171819
+key_len =       25
+data =          0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+data_len =      50
+digest =        0x4c9007f4026250c6bc8414f9bf50c86c2d7235da
+
+test_case =     5
+key =           0x0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c
+key_len =       20
+data =          "Test With Truncation"
+data_len =      20
+digest =        0x4c1a03424b55e07fe7f27be1d58bb9324a9a5a04
+digest-96 =     0x4c1a03424b55e07fe7f27be1
+
+test_case =     6
+key =           0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+key_len =       80
+data =          "Test Using Larger Than Block-Size Key - Hash Key First"
+data_len =      54
+digest =        0xaa4ae5e15272d00e95705637ce8a3b55ed402112
+
+test_case =     7
+key =           0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+key_len =       80
+data =          "Test Using Larger Than Block-Size Key and Larger Than One Block-Size Data"
+data_len =      73
+digest =        0xe8e99d0f45237d786d6bbaa7965c7808bbff1a91

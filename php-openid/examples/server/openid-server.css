@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    padding: 0.5em;
+    max-width: 50em;
+}
+
+ul.error {
+    background: #ffaaaa;
+    border: 1px solid #ff0000;
+    padding: 0.5em;
+    padding-left: 1.5em;
+}
+
+.login th {
+    text-align: left;
+}
+
+div.form {
+    border: thin solid #777777;
+    background: #dddddd;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+div.navigation {
+    border-bottom: thin solid #cccccc;
+    background: #eeeeee;
+    font-size: smaller;
+    padding: 0.5em;
+}
+
+div.navigation h2 {
+    margin-top: 0;
+}
+
+div.navigation p {
+    margin: 0;
+}
+
+div.navigation ul {
+    margin: 0;
+}
+
+div.login p {
+    margin-top: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+pre {
+    padding: 1em;
+    border: 1px solid black;
+    background: #ffeebb;
+}
+
+#checkup {
+    background: url('http://openid.net/favicon.ico') no-repeat;
+    padding-left: 16px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}

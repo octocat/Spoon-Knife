@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#set -e
+
+bad_files=$(./admin/findphp | xargs -L 1 /usr/bin/env perl admin/docblocks.pl)
+
+if [ "$bad_files" ]
+    then
+    cat <<EOF 1>&2
+These files do not start with docblocks:
+
+$bad_files
+
+EOF
+    exit 1
+fi

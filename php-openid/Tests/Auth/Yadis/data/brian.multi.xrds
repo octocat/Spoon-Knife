@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrds:XRDS
+    xmlns:xrds="xri://$xrds"
+    xmlns:openid="http://openid.net/xmlns/1.0"
+    xmlns="xri://$xrd*($v*2.0)">
+  <XRD>
+
+    <Service priority="2">
+      <Type>http://openid.net/signon/1.1</Type>
+      <URI>http://www.myopenid.com/server</URI>
+      <openid:Delegate>http://frank.myopenid.com/</openid:Delegate>
+    </Service>
+
+  </XRD>
+  <XRD>
+
+    <Service priority="1">
+      <Type>http://bar.com/</Type>
+      <URI>http://bar.com/server</URI>
+    </Service>
+
+    <Service priority="2">
+      <Type>http://foo.com</Type>
+      <URI>http://foo.com/server</URI>
+    </Service>
+
+  </XRD>
+  <XRD>
+
+    <Service priority="0">
+      <Type>http://openid.net/signon/1.0</Type>
+      <URI>http://www.myopenid.com/server</URI>
+      <openid:Delegate>http://brian.myopenid.com/</openid:Delegate>
+    </Service>
+
+  </XRD>
+</xrds:XRDS>
+

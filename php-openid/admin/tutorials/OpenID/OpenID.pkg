@@ -1,0 +1,78 @@
+<refentry id="{@id}">
+ <refnamediv>
+  <refname>PHP OpenID API</refname>
+
+ </refnamediv>
+ <refsynopsisdiv>
+  <author>
+   JanRain, Inc.
+   <authorblurb>
+    {@link mailto:openid@janrain.com openid@janrain.com}
+   </authorblurb>
+  </author>
+ </refsynopsisdiv>
+
+ <para>
+ This is a complete implementation of the OpenID authentication
+ protocol.  This package contains:
+
+   <itemizedlist>
+     <listitem>An OpenID server</listitem>
+     <listitem>An OpenID consumer</listitem>
+     <listitem>Stores for MySQL, PostgreSQL, SQLite, and filesystem-based OpenID data storage</listitem>
+     <listitem>PHPUnit unit tests</listitem>
+     <listitem>An example server and consumer</listitem>
+   </itemizedlist>
+ </para>
+
+ <refsect1 id="{@id users}">
+   <title>For Package Users</title>
+
+   <para>
+    To install this package, copy the <literal>Auth/</literal>
+    directory in this package to a directory in your PHP include path.
+    Alternatively, modify your PHP include path to include the
+    directory that contains <literal>Auth/</literal>.  Any
+    applications that need this package will then be able to use it.
+   </para>
+
+ </refsect1>
+
+ <refsect1 id="{@id developers}">
+   <title>For Developers</title>
+
+   <para>
+
+    See the server and consumer examples in the
+    <literal>examples/</literal> directory of the package.  For
+    details on how to run the examples, see
+    <literal>examples/README</literal>.  If you want to create your
+    own OpenID data storage class, please see the {@link Auth_OpenID_OpenIDStore}
+     class.  For information on integrating OpenID relying party support into your site, see
+    the class documentation for {@link Consumer.php}.
+
+   </para>
+
+ </refsect1>
+
+ <refsect1 id="{@id references}">
+  <title>References</title>
+  <para>
+   <itemizedlist>
+    <listitem>
+     {@link http://github.com/openid/php-openid PHP OpenID Library}
+    </listitem>
+
+    <listitem>
+     {@link http://www.janrain.com JanRain, Inc.}
+    </listitem>
+
+    <listitem>
+     {@link http://openid.net/developers/dev-mailing-lists/ OpenID Development Discussion Lists}
+    </listitem>
+   </itemizedlist>
+  </para>
+ </refsect1>
+
+</refentry>
+

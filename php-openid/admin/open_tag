@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+bad_files=$(./admin/findphp |
+      xargs -L 1 grep -H -m 1 "<?php" -c |
+      grep ":0" |
+      awk -F: '{ print $1 }')
+
+if [ "$bad_files" ]
+    then
+    cat <<EOF 1>&2
+These PHP files do NOT begin with <?php :
+
+$bad_files
+
+EOF
+    exit 1
+fi

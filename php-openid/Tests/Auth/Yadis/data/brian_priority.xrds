@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrds:XRDS
+    xmlns:xrds="xri://$xrds"
+    xmlns:openid="http://openid.net/xmlns/1.0"
+    xmlns="xri://$xrd*($v*2.0)">
+  <XRD>
+
+    <Service priority="2">
+      <Type>http://openid.net/signon/1.0</Type>
+      <URI>http://www.schtuff.com/?action=openid_server</URI>
+      <openid:Delegate>http://users.schtuff.com/brian</openid:Delegate>
+    </Service>
+
+    <Service priority="1">
+      <Type>http://openid.net/signon/1.0</Type>
+      <URI>http://www.myopenid.com/server</URI>
+      <openid:Delegate>http://brian.myopenid.com/</openid:Delegate>
+    </Service>
+
+  </XRD>
+</xrds:XRDS>
+

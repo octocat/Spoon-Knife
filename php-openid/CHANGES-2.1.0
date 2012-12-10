@@ -1,0 +1,51 @@
+* API Changes
+  * AX::FetchResponse::fromSuccessResponse - return null when AX
+    response arguments are absent
+  * Alter AX fromOpenIDRequest() to take Auth_OpenID_AuthRequest
+    object instead of Auth_OpenID_Message object so that it matches
+    its counterpart methods in SREG and PAPE extensions.
+  * PAPE (Provider Authentication Policy Extension) module
+      * Updated extension for specification draft 2
+      * Auth_OpenID_PAPE_Request::fromSuccessResponse returns None if
+        PAPE response arguments were not signed
+  * Added functions to generate request/response HTML forms with
+    auto-submission javascript
+      * Consumer (relying party) API:
+        Auth_OpenID_AuthRequest::htmlMarkup
+      * Server API: Auth_OpenID_OpenIDResponse::toHTML
+
+* New Features
+  * Added examples/discover.php, an OpenID service discovery tool
+  * Add optional form_tag_attrs argument to
+    Auth_OpenID_ServerResponse::toFormMarkup for setting arbitrary
+    FORM element attributes
+  * Fetchers now only read/request first megabyte of response
+
+* Bug Fixes
+  * NOT NULL constraints were added to SQLStore tables where
+    appropriate
+  * Yadis discovery now properly falls back to HTML-based discovery if
+    it fails to get an XRDS document
+  * Auth_OpenID_Decoder now behaves correctly when given a protocol
+    message with an invalid OpenID namespace or a missing OpenID mode
+  * Auth_OpenID_OpenIDResponse::toFormMarkup: Use return_to from the
+    request, not the response fields (Not all responses (i.e. cancel,
+    setup_needed) include a return_to field.)
+  * normalize return_to URL before performing return_to verification
+  * Auth_OpenID_Consumer::_verifyDiscoveryResults: fall back to OpenID
+    1.0 type if 1.1 endpoint cannot be found
+  * Auth_Yadis_ParanoidHTTPFetcher now works correctly with both array
+    and non-array CURL versions
+  * Clarified licensing language in all source files
+  * OpenID 1 association requests no longer explicitly set
+    no-encryption session type
+  * Auth_OpenID_ServiceEndpoint::getDisplayIdentifier no longer
+    includes a fragment, if present, in display identifiers
+  * check_authentication requests: copy entire response, not just
+    signed fields.  Fixes missing namespace in check_authentication
+    requests
+  * Yadis discovery now includes application/xhtml+xml and qualities
+    in the Accept header
+  * Normalize URLs correctly with URINorm.php
+  * Auth_OpenID_MySQLStore: Use ENGINE instead of TYPE when creating
+    tables

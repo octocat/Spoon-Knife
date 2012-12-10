@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Find all PHP modules that are likely to have global variables
+set -e
+
+./admin/findphp | xargs grep '^\$'

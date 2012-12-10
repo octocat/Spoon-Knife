@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+bad=$(./admin/findphp | xargs egrep -n "^[^\'\"]*\b(TRUE|FALSE|NULL)\b")
+
+if [ ! -z "$bad" ]
+    then
+    cat <<EOF 1>&2
+These files contain wrongly capitalized constants:
+
+$bad
+
+EOF
+    exit 1
+fi

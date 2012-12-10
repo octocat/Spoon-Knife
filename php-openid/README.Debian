@@ -1,0 +1,8 @@
+Development Environment Setup
+=============================
+
+Janrain note: You'll need to run these commands to generate
+documentation for this project:
+
+  apt-get install php4-pear
+  pear install PhpDocumentor

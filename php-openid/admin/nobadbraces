@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+
+./admin/findphp | xargs -L 1 /usr/bin/env perl admin/brace_style.pl

@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+require_once $argv[1];
+?>

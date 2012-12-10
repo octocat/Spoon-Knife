@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#
+# Prepare this repository for release
+
+REPO_ROOT=$(dirname $(dirname $(readlink --canonicalize "$0")))
+cd "$REPO_ROOT"
+
+bash ./admin/fixperms
+
+./admin/makedoc.sh
+
+darcs changes --from-tag=. --summary > CHANGELOG

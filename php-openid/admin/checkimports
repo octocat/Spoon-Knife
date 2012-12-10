@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./admin/findphp | xargs -L 1 ./admin/checkimport

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+files_with_long_lines=$(./admin/findphp |
+            xargs -L 1 -I FILENAME /usr/bin/env perl admin/longlines.pl FILENAME 80)
+
+if [ "$files_with_long_lines" ]
+    then
+    cat <<EOF 1>&2
+Found lines > 80 characters in:
+
+$files_with_long_lines
+EOF
+    exit 1
+fi

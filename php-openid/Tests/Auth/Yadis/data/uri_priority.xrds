@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrds:XRDS
+    xmlns:xrds="xri://$xrds"
+    xmlns:openid="http://openid.net/xmlns/1.0"
+    xmlns="xri://$xrd*($v*2.0)">
+  <XRD>
+
+    <Service>
+      <Type>http://openid.net/signon/1.0</Type>
+      <URI>http://no.priority/</URI>
+      <URI priority="1">http://one.priority/</URI>
+      <URI priority="0">http://zero.priority/</URI>
+    </Service>
+
+  </XRD>
+</xrds:XRDS>

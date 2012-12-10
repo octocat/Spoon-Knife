@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+cat <<EOF | xargs chmod +x
+admin/checkimport
+admin/checkimports
+admin/docblocks
+admin/findphp
+admin/findglobals
+admin/fixperms
+admin/makedoc.sh
+admin/mathlib
+admin/prepare-release
+admin/runtests
+admin/findallphp
+admin/syntaxcheck
+EOF

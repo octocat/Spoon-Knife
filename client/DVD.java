@@ -11,7 +11,7 @@ public class DVD{
          return title;  
     }
 
-    public void putTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 }

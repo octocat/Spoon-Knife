@@ -1,17 +1,13 @@
 package client;
 
 public class DVD{
-    private String title;
+    private final String title;
 
-    public DVD() {
+    public DVD(final String title) {
         super();
+        this.title = title;
     }
    
     public String getTitle() {
          return title;  
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
 }

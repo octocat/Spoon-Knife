@@ -1,0 +1,11 @@
+/**
+ *author :sunzhichuang
+ *email  :1017665057@qq.com
+**/
+this file is used to test git add /commit cmd
+I will do the following step to see the effect:
+1. git add testCommitCmd
+2. git commit 
+  //after this I want to see changes in local repo
+3. git push
+  //after this I want to  see the updates in the remote Github website

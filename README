@@ -1,1 +1,24 @@
-All that's missing is the fork. Heh.
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+     int i,j;
+     clrscr();
+     printf("\n\tEnter any number:");
+     scanf("%d",&i);
+     i=2;
+     while(i<=20)
+    {
+  for(j=2; j<=i; j++)
+	 {
+	     if(i%j==0)
+	       {
+		break;
+	       }
+	 }
+     if (i==j)
+     printf("\t%d ",i);
+     i++;
+    }
+   getch();
+}

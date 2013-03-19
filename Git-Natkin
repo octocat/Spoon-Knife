@@ -1,0 +1,3 @@
+[FlashConfig]
+TEXT=The wizard cannot automatically configure your network settings on the version of Windows that is running on this computer.\r\n\r\nDo you want to print your network settings so that you can enter them manually for this computer?
+TITLE=Wireless Network Setup Wizard

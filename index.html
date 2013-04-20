@@ -40,7 +40,7 @@
 		keyCodes.shift();
 		keyCodes.push(e.keyCode);
 		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-			document.getElementById("rainbow-message").style.display="";
+			document.getElementById("rainbow-message").style.display="relevant";
 		}
 	}
 	window.onkeydown=keydownHandler;

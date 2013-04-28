@@ -1,0 +1,348 @@
+<SEARCH_SCHEMA FileType="Gather Configuration" Version="1.0">
+
+    Edit this file to change global gatherer parameters. 
+    See the product documentation for additional information. 
+
+<!-- Search Parameters -->
+
+
+    <!-- AutoDescriptionLength: Maximum length of the 
+         description in the description column. 
+				 We allow 1024 bytes in the database.  This is compressed in
+         two ways, by using UTF-8 and general compression.  So we ask
+         for 8192 bytes which is 4096 characters which should compress
+         to 1k.
+        -->
+    <AutoDescriptionLength value=8192>
+	<AutoDescriptionHtmlEncode value=no>
+
+
+<!-- Property mapping -->
+
+    <!-- Changes the property specification emitted from a filter to make 
+         it consistent with another filters' usage. This allows one column
+         to hold information from different sources.
+
+    Syntax:  
+        <map sourcespec="string" destspec="string" >
+
+        string: A property set GUID followed by a slash ("/") 
+        and a property identifier. 
+    -->
+
+    <!-- The following mappings are for newsgroup messages.-->
+        <!-- NNTP_Subject mapped to DocTitle -->
+          <map sourcespec="aa568eec-e0e5-11cf-8fda-00aa00a14f93/5" destspec="f29f85e0-4ff9-1068-ab91-08002b27b3d9/2">
+
+        <!-- NNTP_From mapped to DocAuthor -->
+          <map sourcespec="aa568eec-e0e5-11cf-8fda-00aa00a14f93/6" destspec="f29f85e0-4ff9-1068-ab91-08002b27b3d9/4">
+
+        <!-- NNTP_Date mapped to FileWrite -->
+          <map sourcespec="aa568eec-e0e5-11cf-8fda-00aa00a14f93/12" destspec="b725f130-47ef-101a-a5f1-02608c9eebac/14">
+
+		<!-- Lotus Notes 'Body' mapped to Content -->
+		  <map sourcespec="c7310581-ac80-11d1-8df3-00c04fb6ef4f/'Body'" destspec="b725f130-47ef-101a-a5f1-02608c9eebac/19">
+
+		<!-- Lotus Notes 'Subject' mapped to DocTitle -->
+		  <map sourcespec="c7310581-ac80-11d1-8df3-00c04fb6ef4f/'Subject'" destspec="b725f130-47ef-101a-a5f1-02608c9eebac/2">
+
+    <!-- 2.65 old schema mapped to 3.0 schema PKEYs -->
+
+        <!-- System.ItemFolderPathDisplay    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'DisplayFolder'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/6">
+        
+        <!-- System.ItemPathDisplay  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'DisplayUrl'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/7">
+        
+        <!-- System.ItemAuthors  -->
+        <map sourcespec="F29F85E0-4FF9-1068-AB91-08002B27B3D9/4" destspec="D0A04F0A-462A-48A4-BB2F-3706E88DBD7D/100">
+        
+        <!-- System.ItemNamePrefix   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'DocTitlePrefix'" destspec="D7313FF1-A77A-401C-8C99-3DBDD68ADD36/100">
+        
+        <!-- System.ItemName -->
+        <map sourcespec="F29F85E0-4FF9-1068-AB91-08002B27B3D9/2" destspec="6B8DA074-3B5C-43BC-886F-0A2CDCE00B6F/100">
+        
+        <!-- System.ItemTypeText -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FileExtDesc'" destspec="B725F130-47EF-101A-A5F1-02608C9EEBAC/4">
+        
+        <!-- System.ItemFolderNameDisplay    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FolderName'" destspec="B725F130-47EF-101A-A5F1-02608C9EEBAC/2">
+        
+        <!-- System.IsAttachment -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsAttachment'" destspec="F23F425C-71A1-4FA8-922F-678EA4A60408/100">
+        
+        <!-- System.IsDeleted    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsDeleted'" destspec="5CDA5FC8-33EE-4FF3-9094-AE7BD8868C4D/100">
+        
+        <!-- System.DateAccessed -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'LastViewed'" destspec="B725F130-47EF-101A-A5F1-02608C9EEBAC/16">
+        
+        <!-- System.ItemParticipants -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'People'" destspec="D4D0AA16-9948-41A4-AA85-D97FF9646993/100">
+        
+        <!-- System.Kind -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PerceivedType'" destspec="1E3EE840-BC2B-476C-8237-2ACD1A839B22/3">
+        
+        <!-- System.KindText -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PerceivedTypeName'" destspec="F04BEF95-C585-4197-A2B7-DF46FDC9EE6D/100">
+        
+        <!-- System.ItemDate -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PrimaryDate'" destspec="F7DB74B4-4287-4103-AFBA-F1B13DCD75CF/100">
+        
+        <!-- System.DueDate  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'DueDate'" destspec="3F8472B5-E0AF-4DB2-8071-C53FE76AE7CE/100">
+        
+        <!-- System.IsIncomplete -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsIncomplete'" destspec="346C8BD1-2E6A-4C45-89A4-61B78E8E700F/100">
+        
+        <!-- System.IsFlaggedComplete    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsFlaggedCompleted'" destspec="A6F360D2-55F9-48DE-B909-620E090A647C/100">
+        
+        <!-- System.IsFlagged    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsFlagged'" destspec="5DA84765-E3FF-4278-86B0-A27967FBDD03/100">
+        
+        <!-- System.FlagStatusText -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FlagText'" destspec="DC54FD2E-189D-4871-AA01-08C2F57A4ABC/100">
+        
+        <!-- System.Identity -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Identity'" destspec="A26F4AFC-7346-4299-BE47-EB1AE613139F/100">
+        
+        <!-- System.IsRead   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsRead'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/10">
+        
+        <!-- System.Importance   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Importance'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/11">
+        
+        <!-- System.Search.ContainerHash -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'ContainerHash'" destspec="BCEEE283-35DF-4D53-826A-F36A3EEFC6BE/100">
+        
+        <!-- System.Search.Store -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Store'" destspec="A06992B3-8CAF-4ED7-A547-B259E32AC9FC/100">
+        
+        <!-- System.FileExtension    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FileExt'" destspec="E4F10A3C-49E6-405D-8288-A23BD4EEAA6C/100">
+        
+        <!-- System.FileName -->
+        <map sourcespec="B725F130-47EF-101A-A5F1-02608C9EEBAC/10" destspec="41CF5AE0-F75A-4806-BD87-59C7D9248EB9/100">
+        
+        <!-- System.FileName -->
+        <map sourcespec="B725F130-47EF-101A-A5F1-02608C9EEBAC/20" destspec="41CF5AE0-F75A-4806-BD87-59C7D9248EB9/100">
+        
+        <!-- System.Message.AttachmentNames  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'AttachmentNames'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/21">
+        
+        <!-- System.Message.BccAddress   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BccAddress'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/2">
+        
+        <!-- System.Message.BccName  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BccName'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/3">
+        
+        <!-- System.Message.CcAddress    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'CcAddress'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/4">
+        
+        <!-- System.Message.CcName   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'CcName'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/5">
+        
+        <!-- System.Message.ConversationID   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'ConversationID'" destspec="DC8F80BD-AF1E-4289-85B6-3DFC1B493992/100">
+        
+        <!-- System.Message.FromAddress  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FromAddress'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/13">
+        
+        <!-- System.Message.FromName -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FromName'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/14">
+        
+        <!-- System.Message.IsFwdOrReply -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FwdRply'" destspec="9A9BC088-4F6D-469E-9919-E705412040F9/100">
+        
+        <!-- System.Message.HasAttachments   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HasAttach'" destspec="9C1FCF74-2D97-41BA-B4AE-CB2E3661A6E4/8">
+        
+        <!-- System.Message.DateReceived -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'ReceivedDate'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/20">
+        
+        <!-- System.Message.ToAddress    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'ToAddress'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/16">
+        
+        <!-- System.Message.ToName   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'ToName'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/17">
+        
+        <!-- System.Communication.TaskStatusText -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'TaskStatus'" destspec="A6744477-C237-475B-A075-54F34498292A/100">
+        
+        <!-- System.EndDate  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'EndDate'" destspec="C75FAA05-96FD-49E7-9CB4-9F601082D553/100">
+        
+        <!-- System.Calendar.IsRecurring -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsRecurring'" destspec="315B9C8D-80A9-4EF9-AE16-8E746DA51D70/100">
+        
+        <!-- System.StartDate    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'StartDate'" destspec="48FD6EC8-8A12-4CDF-A03E-4EC5A511EDDE/100">
+        
+        <!-- System.Calendar.Duration    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Duration'" destspec="293CA35A-09AA-4DD2-B180-1FE245728A52/100">
+        
+        <!-- System.Calendar.IsOnline    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IsOnline'" destspec="BFEE9149-E3E2-49A7-A862-C05988145CEC/100">
+        
+        <!-- System.Calendar.Location    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Location'" destspec="F6272D18-CECC-40B1-B26A-3911717AA7BD/100">
+        
+        <!-- System.Contact.Anniversary  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Anniversary'" destspec="9AD5BADB-CEA7-4470-A03D-B84E51B9949E/100">
+        
+        <!-- System.Contact.AssistantName    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'AssistantName'" destspec="CD102C9C-5540-4A88-A6F6-64E4981C8CD1/100">
+        
+        <!-- System.Contact.AssistantTelephone   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'AssistantTelephone'" destspec="9A93244D-A7AD-4FF8-9B99-45EE4CC09AF6/100">
+        
+        <!-- System.Contact.Birthday -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Birthday'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/47">
+        
+        <!-- System.Contact.BusinessAddressCity  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressCity'" destspec="402B5934-EC5A-48C3-93E6-85E86A2D934E/100">
+        
+        <!-- System.Contact.BusinessAddressPostalCode    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressPostalCode'" destspec="E1D4A09E-D758-4CD1-B6EC-34A8B5A73F80/100">
+        
+        <!-- System.Contact.BusinessAddressPostOfficeBox -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressPostOfficeBox'" destspec="BC4E71CE-17F9-48D5-BEE9-021DF0EA5409/100">
+        
+        <!-- System.Contact.BusinessAddressState -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressState'" destspec="446F787F-10C4-41CB-A6C4-4D0343551597/100">
+        
+        <!-- System.Contact.BusinessAddressStreet    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressStreet'" destspec="DDD1460F-C0BF-4553-8CE4-10433C908FB0/100">
+        
+        <!-- System.Contact.BusinessAddressCountry   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessAddressCountry'" destspec="B0B87314-FCF6-4FEB-8DFF-A50DA6AF561C/100">
+        
+        <!-- System.Contact.BusinessHomePage -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessHomePage'" destspec="56310920-2491-4919-99CE-EADB06FAFDB2/100">
+        
+        <!-- System.Contact.CallbackTelephone    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'CallbackTelephone'" destspec="BF53D1C3-49E0-4F7F-8567-5A821D8AC542/100">
+        
+        <!-- System.Contact.CarTelephone -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'CarTelephone'" destspec="8FDC6DEA-B929-412B-BA90-397A257465FE/100">
+        
+        <!-- System.Keywords -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Categories'" destspec="F29F85E0-4FF9-1068-AB91-08002B27B3D9/5">
+        
+        <!-- System.Contact.Children -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Children'" destspec="D4729704-8EF1-43EF-9024-2BD381187FD5/100">
+        
+        <!-- System.Contact.CompanyMainTelephone -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'CompanyMainTelephone'" destspec="8589E481-6040-473D-B171-7FA89C2708ED/100">
+        
+        <!-- System.Contact.EmailAddress -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'EmailAddress'" destspec="F8FA7FA3-D12B-4785-8A4E-691A94F7A3E7/100">
+        
+        <!-- System.Contact.EmailName    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'EmailName'" destspec="CC6F4F24-6083-4BD4-8754-674D0DE87AB8/100">
+        
+        <!-- System.Contact.FirstName    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FirstName'" destspec="14977844-6B49-4AAD-A714-A4513BF60460/100">
+        
+        <!-- System.Contact.FullName -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'FullName'" destspec="635E9051-50A5-4BA2-B9DB-4ED056C77296/100">
+        
+        <!-- System.Contact.Gender   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Gender'" destspec="3C8CEE58-D4F0-4CF9-B756-4E5D24447BCD/100">
+        
+        <!-- System.Contact.Hobbies  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Hobby'" destspec="5DC2253F-5E11-4ADF-9CFE-910DD01E3E70/100">
+        
+        <!-- System.Contact.HomeAddressCity  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeAddressCity'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/65">
+        
+        <!-- System.Contact.HomeAddressCountry   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeAddressCountry'" destspec="08A65AA1-F4C9-43DD-9DDF-A33D8E7EAD85/100">
+        
+        <!-- System.Contact.HomeAddressPostalCode    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeAddressPostalCode'" destspec="8AFCC170-8A46-4B53-9EEE-90BAE7151E62/100">
+        
+        <!-- System.Contact.HomeAddressState -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeAddressState'" destspec="C89A23D0-7D6D-4EB8-87D4-776A82D493E5/100">
+        
+        <!-- System.Contact.HomeAddressStreet    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeAddressStreet'" destspec="0ADEF160-DB3F-4308-9A21-06237B16FA2A/100">
+        
+        <!-- System.Contact.HomeFaxNumber    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeFaxNumber'" destspec="660E04D6-81AB-4977-A09F-82313113AB26/100">
+        
+        <!-- System.Contact.BusinessFaxNumber    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'BusinessFaxNumber'" destspec="91EFF6F3-2E27-42CA-933E-7C999FBE310B/100">
+        
+        <!-- System.Contact.HomeTelephone    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'HomeTelephone'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/20">
+        
+        <!-- System.Contact.IMAddress    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'IMAddress'" destspec="D68DBD8A-3374-4B81-9972-3EC30682DB3D/100">
+        
+        <!-- System.Contact.JobTitle -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'JobTitle'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/6">
+        
+        <!-- System.Contact.MiddleName   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'MiddleName'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/71">
+        
+        <!-- System.Contact.MobileTelephone  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'MobileTelephone'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/35">
+        
+        <!-- System.Contact.NickName -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'NickName'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/74">
+        
+        <!-- System.Contact.OfficeLocation   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Office'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/7">
+        
+        <!-- System.Contact.BusinessTelephone    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'OfficeTelephone'" destspec="6A15E5A0-0A1E-4CD7-BB8C-D2F1B0C929BC/100">
+        
+        <!-- System.Contact.PagerTelephone   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PagerTelephone'" destspec="D6304E01-F8F5-4F45-8B15-D024A6296789/100">
+        
+        <!-- System.Contact.LastName -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'LastName'" destspec="8F367200-C270-457C-B1D4-E07C5BCD90C7/100">
+        
+        <!-- System.Contact.PersonalTitle    -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PersonalTitle'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/69">
+        
+        <!-- System.Contact.PrimaryTelephone -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'PrimaryTelephone'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/25">
+        
+        <!-- System.Contact.Profession   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Profession'" destspec="7268AF55-1CE4-4F6E-A41F-B6E4EF10E4A9/100">
+        
+        <!-- System.Contact.SpouseName   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Spouse'" destspec="9D2408B6-3167-422B-82B0-F583B7A7CFE3/100">
+        
+        <!-- System.Contact.Suffix   -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'Suffix'" destspec="176DC63C-2688-4E89-8143-A347800F25E9/73">
+        
+        <!-- System.Contact.TelexNumber  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'TelexNumber'" destspec="C554493C-C1F7-40C1-A76C-EF8C0614003E/100">
+        
+        <!-- System.Contact.TTYTDDTelephone  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'TTYTDDTelephone'" destspec="AAF16BAC-2B55-45E6-9F6D-415EB94910DF/100">
+        
+        <!-- System.Contact.WebPage  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'WebPage'" destspec="E3E0584C-B788-4A5A-BB20-7F5A44C9ACDD/18">
+        
+        <!-- System.Media.Duration   -->
+        <map sourcespec="56A3372E-CE9C-11D2-9F0E-006097C686F6/8" destspec="64440490-4C8B-11D1-8B70-080036B11A03/3">
+        
+        <!-- System.Photo.DateTaken  -->
+        <map sourcespec="D5CDD505-2E9C-101B-9397-08002B2CF9AE/'DateTaken'" destspec="14B81DA1-0135-4D31-96D9-6CBFC9671A99/36867">
+        
+        <!-- System.Image.ColorSpace -->
+        <map sourcespec="6444048F-4C8B-11D1-8B70-080036B11A03/8" destspec="14B81DA1-0135-4D31-96D9-6CBFC9671A99/40961">
+        
+        <!-- System.Image.Compression    -->
+        <map sourcespec="6444048F-4C8B-11D1-8B70-080036B11A03/9" destspec="14B81DA1-0135-4D31-96D9-6CBFC9671A99/259">
+        
+        <!-- System.Video.StreamNumber   -->
+        <map sourcespec="64440491-4C8B-11D1-8B70-080036B11A03/7" destspec="64440491-4C8B-11D1-8B70-080036B11A03/11">
+
+</SEARCH_SCHEMA>

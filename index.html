@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
+  <meta name="viewport" content="width=auto, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Spoon-Knife</title>
   <style type="text/css">
+
+    
+   /* Mobile Phone */
+      @media only screen and (min-width: 0px) { 
+      
     * {
       margin:0px;
       padding:0px;
     }
     
+    body {
+
+    }
+    
     #octocat {
       display: block;
-      width:384px;
+      max-width:384px;
       margin: 50px auto;
+      width:100%;
     }
+    
     
     p {
       display: block;
-      width: 400px;
       margin: 50px auto;
-      font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+      font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+      text-align:center;
     }
-    #rainbow-message {
+    
+    
+        #rainbow-message {
       position: absolute;
       right: 10px;
       top: 10px;
@@ -31,6 +47,34 @@
       -moz-box-shadow: -5px 10px 15px gray;
       font-family: sans-serif;
     }
+       
+  } /* END Mobile Phone Media Query */
+    
+    
+    
+   /* Mobile Phone (iPHone) */
+    @media only screen and (min-width: 240px) {  
+      p {font-size: 20px;}
+    } /* END Mobile min-width: 320px) Media Query */       
+    
+    
+    /* Small Tablet to Desktop */
+      @media only screen and (min-width: 480px) { 
+          p {font-size: 30px;}
+      } /* END Small Tablet to Desktop Media Query */
+    
+    
+    
+    .lt-ie9 img, .lt-ie9 p{
+      margin:0 auto;
+      display:block;
+      width:40%;
+    }
+    .lt-ie9 p {
+      text-align:center;
+      font-size:24px;
+    }
+    
     
   </style>
   <script type="text/javascript">
@@ -53,7 +97,7 @@
 <img src="forkit.gif" id="octocat" alt="" />
 
 <p>
-  Fork me? No, fork you!
+  Fork me? No, fork you!<br />Please fork responsively.
 </p>
 <div id="rainbow-message" style="display:none">
 Double repositories all the way across the sky!<br/>

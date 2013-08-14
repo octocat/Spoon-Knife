@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 git test
 asdas
+=======
+first 
+
+git test
+testasdaasdaaaas push, if pushing all branches
+>>>>>>> devion
 Wie gehts?
+Dont Touch MEEEE
+bebeb
+soooe

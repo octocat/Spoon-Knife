@@ -1,6 +1,16 @@
 was soll das?
+<<<<<<< HEAD
  und hier was neues eingegeben
 asdas
 
 hier ist  master aufm Rechner
 lalaa
+=======
+
+
+hier ist devion aufm Rechner
+
+was neues Eingeben
+
+git clone -b my-branch git@github.com:user/myproject.git
+>>>>>>> devion

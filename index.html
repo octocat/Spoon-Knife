@@ -34,21 +34,35 @@
     
   </style>
   <script type="text/javascript">
+	function formatKeys(charArray) {
+		var s = "";
+		charArray.forEach(
+			function(element, index, array){
+				s += String.fromCharCode(element) + " ";
+			}
+		);
+		return s;
+	}
 	var keyCodes=new Array(10);
-	var pattern=[38,38,40,40,37,39,37,39,66,65];
+	//var pattern=[38,38,40,40,37,39,37,39,66,65]; // "&&((%'%'BA"
+	var pattern=[82,65,73,78,66,79,87,77,83,71]; // "RAINBWOMSG"
 	function keydownHandler(e){
 		keyCodes.shift();
 		keyCodes.push(e.keyCode);
+		document.getElementById("currentKeys").innerHTML=formatKeys(keyCodes);
 		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
 			document.getElementById("rainbow-message").style.display="";
 		}
 	}
 	window.onkeydown=keydownHandler;
-   </script>
+	function showExpectedKeys() {
+		document.getElementById("expectedKeys").innerHTML=formatKeys(pattern);
+	}
+	</script>
 		
 </head>
 
-<body>
+<body onload="javascript:showExpectedKeys();">
 
 <img src="forkit.gif" id="octocat" alt="" />
 
@@ -58,6 +72,20 @@
 <div id="rainbow-message" style="display:none">
 Double repositories all the way across the sky!<br/>
 <a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
+</div>
+<div>
+	<p>Please type the expected key sequence to show the hidden message</p>
+	<table>
+		<tbody>
+			<tr>
+				<td>Expected Key Sequence:</td>
+				<td id="expectedKeys"></td>
+			<tr>
+				<td>Current Key Sequence:</td>
+				<td id="currentKeys"></td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 </body>
 </html>

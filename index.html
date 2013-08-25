@@ -41,12 +41,18 @@
 		//var pattern=[38,38,40,40,37,39,37,39,66,65]; // "&&((%'%'BA"
 		var pattern=[82,65,73,78,66,79,87,77,83,71]; // "RAINBWOMSG"
 		var keyCodes=new Array(10);
+		var isShowing = false;
 		function keydownHandler(e){
 			keyCodes.shift();
 			keyCodes.push(e.keyCode);
 			document.getElementById("currentKeys").innerHTML=formatKeys(keyCodes);
 			if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-				document.getElementById("rainbow-message").style.display="";
+				if(isShowing) {
+					document.getElementById("rainbow-message").style.display="none";
+				}else{
+					document.getElementById("rainbow-message").style.display="";
+				}
+				isShowing = !isShowing;
 			}
 		}
 		window.onkeydown=keydownHandler;

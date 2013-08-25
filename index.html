@@ -1,77 +1,66 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-  <title>Spoon-Knife</title>
-  <style type="text/css">
-    * {
-      margin:0px;
-      padding:0px;
-    }
-    
-    #octocat {
-      display: block;
-      width:384px;
-      margin: 50px auto;
-    }
-    
-    p {
-      display: block;
-      width: 400px;
-      margin: 50px auto;
-      font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-    }
-    #rainbow-message {
-      position: absolute;
-      right: 10px;
-      top: 10px;
-      box-shadow: -5px 10px 15px gray;
-      -moz-box-shadow: -5px 10px 15px gray;
-      font-family: sans-serif;
-    }
-    
-  </style>
-  <script type="text/javascript">
-	function formatKeys(charArray) {
-		var s = "";
-		charArray.forEach(
-			function(element, index, array){
-				s += String.fromCharCode(element) + " ";
-			}
-		);
-		return s;
-	}
-	var keyCodes=new Array(10);
-	//var pattern=[38,38,40,40,37,39,37,39,66,65]; // "&&((%'%'BA"
-	var pattern=[82,65,73,78,66,79,87,77,83,71]; // "RAINBWOMSG"
-	function keydownHandler(e){
-		keyCodes.shift();
-		keyCodes.push(e.keyCode);
-		document.getElementById("currentKeys").innerHTML=formatKeys(keyCodes);
-		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-			document.getElementById("rainbow-message").style.display="";
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Spoon-Knife</title>
+	<style type="text/css">
+		* {
+			margin:0px;
+			padding:0px;
 		}
-	}
-	window.onkeydown=keydownHandler;
-	function showExpectedKeys() {
-		document.getElementById("expectedKeys").innerHTML=formatKeys(pattern);
-	}
+		#octocat {
+			display: block;
+			width:384px;
+			margin: 50px auto;
+		}
+		p {
+			display: block;
+			width: 400px;
+			margin: 50px auto;
+			font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+		}
+		#rainbow-message {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			box-shadow: -5px 10px 15px gray;
+			-moz-box-shadow: -5px 10px 15px gray;
+			font-family: sans-serif;
+		}
+	</style>
+	<script type="text/javascript">
+		function formatKeys(charArray) {
+			var s = "";
+			charArray.forEach(
+				function(element, index, array){
+					s += String.fromCharCode(element) + " ";
+				}
+			);
+			return s;
+		}
+		//var pattern=[38,38,40,40,37,39,37,39,66,65]; // "&&((%'%'BA"
+		var pattern=[82,65,73,78,66,79,87,77,83,71]; // "RAINBWOMSG"
+		var keyCodes=new Array(10);
+		function keydownHandler(e){
+			keyCodes.shift();
+			keyCodes.push(e.keyCode);
+			document.getElementById("currentKeys").innerHTML=formatKeys(keyCodes);
+			if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
+				document.getElementById("rainbow-message").style.display="";
+			}
+		}
+		window.onkeydown=keydownHandler;
+		function showExpectedKeys() {
+			document.getElementById("expectedKeys").innerHTML=formatKeys(pattern);
+		}
 	</script>
-		
 </head>
-
 <body onload="javascript:showExpectedKeys();">
-
 <img src="forkit.gif" id="octocat" alt="" />
-
-<p>
-  Fork me? No, fork you!
-</p>
+<p>Fork me? No, fork you!</p>
 <div id="rainbow-message" style="display:none">
-Double repositories all the way across the sky!<br/>
-<a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
+	Double repositories all the way across the sky!<br/>
+	<a href="http://help.github.com/fork-a-repo/">What does it mean?</a>
 </div>
 <div>
 	<p>Please type the expected key sequence to show the hidden message</p>

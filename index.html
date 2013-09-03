@@ -39,7 +39,8 @@
 	function keydownHandler(e){
 		keyCodes.shift();
 		keyCodes.push(e.keyCode);
-    console.log(keyCodes);
+    		// Add a hint to the key code egg
+		console.log(keyCodes);
 		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
 			document.getElementById("rainbow-message").style.display="";
 		}

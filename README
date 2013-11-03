@@ -1,1 +1,349 @@
 All that's missing is the fork. Heh.
+
+
+Hatena::ブログ(Diary)  ブログトップ 記事一覧 ログアウト ヘルプ
+hnwの日記 このページをアンテナに追加 RSSフィード
+[プロフィール]
+<前の日 | 次の日>
+2011年5月28日（土） GitHubへpull requestする際のベストプラクティス このエントリーを含むブックマーク  このエントリーのブックマークコメントAdd Startakagimasahiro61hidehara
+
+みなさん、Git使ってますか？僕はまだメインのVCSがSubversionなのもあって、なかなか慣れません。せっかくGitを使っているのに、ちょっと不便なSubversionくらいの位置づけです。でも、同じような理解度の人って多いんじゃないでしょうか。
+
+一方で、最近はGitHub管理のオープンソースプロジェクトが増えてきました。バグレポートを送るにしてもpull request*1が前提のような空気があり、Git初心者には少し敷居が高い印象があります。
+
+そんな僕も先日初pull requestをしてみたんですが、色々な失敗の積み重ねで残念なpull requestになってしまいました。その反省を元に、本稿ではpull requestする際のベストプラクティスを紹介します。これは「Git Workflow」をベースにコマンド例などを加筆したものです。
+
+概要
+pull requestする際は、次の流れのようにすれば万全です。
+
+GitHubでforkします。
+ここでは https://github.com/octocat/Spoon-Knife *2 をforkしてみましょう。
+できたforkをローカルにcloneします。
+$ git clone git@github.com:hnw/Spoon-Knife.git
+作業ディレクトリに移動します。
+$ cd Spoon-Knife
+作業用ブランチで作業します（あとで説明します）
+fork元の更新に追随します（あとで説明します）
+commitを1つにまとめます（あとで説明します）
+GitHubにブランチをpushします。
+$ git push origin myFeature
+GitHubからpull requestを送ります。
+
+ここで大事な点を強調しておきますが、絶対にmasterブランチで作業してはいけません。また、masterブランチからpull requestを送るのもいけません。必ずpull requestのための別ブランチから送るようにしましょう。これにはいくつか理由があるのですが、順を追って説明していきます。
+
+作業用にspike/prototypeブランチを作る
+上記の手順4について説明します。手順7でpull request用のローカルブランチをpushしていますが、いきなりpull request用のブランチで作業するのではなく、作業用にさらに別のブランチを作ることをお勧めします。簡単な修正をするつもりでも、試行錯誤して何度もcommitしたり、最初からやり直したりするかもしれません。そのための作業用ブランチを別に切っておくというわけです。
+
+作業用ブランチには、spike（XP用語、お試し実装といった意味だと理解しています）とかprototypeとかいう単語を入れておくと、GitHubを見ている他の人にもブランチの意図がわかりやすくて良いでしょう。
+
+$ git checkout -b myFeatureSpike
+Switched to a new branch 'myFeatureSpike'
+$
+
+では、ファイルを編集して次のようにローカルリポジトリにcommitを行ったとします。
+
+$ vi README
+$ git commit -a -m '感想を追記'
+[myFeatureSpike 12ca2a5] 感想を追記
+ 1 files changed, 3 insertions(+), 1 deletions(-)
+$ vi README
+$ git commit -a -m 'コナミコマンドについてREADMEに追記（ネタバレ）'
+[myFeatureSpike bd66e17] コナミコマンドについてREADMEに追記（ネタバレ）
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+$
+
+一通りローカルでの作業が済んだらpushしましょう。ローカルのmyFeatureSpikeブランチの内容を同名のリモートブランチとしてpushします。
+
+$ git push origin myFeatureSpike
+Counting objects: 8, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 789 bytes, done.
+Total 6 (delta 1), reused 0 (delta 0)
+To git@github.com:hnw/Spoon-Knife.git
+ * [new branch]      myFeatureSpike -> myFeatureSpike
+$
+
+fork元の更新に追随する
+作業中にfork元のリポジトリが更新されることがあるかもしれません。これに追随するための手順は次のようになります。
+
+fork元リポジトリをupstreamという名前で登録（最初の1回だけ）
+$ git remote add upstream git://github.com/octocat/Spoon-Knife.git
+$
+commit前の差分があるならstashする
+$ git stash
+Saved working directory and index state WIP on myFeatureSpike: bd66e17 コナミコマンドについてREADMEに追記（ネタバレ）
+HEAD is now at bd66e17 コナミコマンドについてREADMEに追記（ネタバレ）
+$
+masterブランチに移動
+$ git checkout master
+Switched to branch 'master'
+$
+ローカルのmasterブランチの内容をupstream/masterに同期させる
+$ git pull upstream master
+From git://github.com/octocat/Spoon-Knife
+ * branch            master     -> FETCH_HEAD
+（略）
+$
+作業ブランチに移動
+$ git checkout myFeatureSpike
+Switched to branch 'myFeatureSpike'
+$
+fork元の最新版までrebaseする（コンフリクトしたら適宜がんばる）
+$ git rebase master myFeatureSpike
+First, rewinding head to replay your work on top of it...
+Applying: 感想を追記
+Using index info to reconstruct a base tree...
+Falling back to patching base and 3-way merge...
+Auto-merging README
+Applying: コナミコマンドについてREADMEに追記（ネタバレ）
+Using index info to reconstruct a base tree...
+Falling back to patching base and 3-way merge...
+Auto-merging README
+$
+同期・rebaseした分をGitHubにpushする
+$ git push origin master
+（略）
+$ git push -f origin myFeatureSpike
+（略）
+$
+spikeブランチが既にpushされている場合はfast-forwardでなくなるため-fは必須です。
+公開状態の履歴を書き換えることになるため褒められたことではありませんが、spikeと名乗っているので平気なことにします。
+-fを避けるためにさらに別のブランチを切ることもできますが、自分自身が混乱しそうなので僕ならやりません。
+stashした分を元に戻して作業を継続（コンフリクトしたら適宜がんばる）
+$ git checkout myFeatureSpike
+Switched to branch 'myFeatureSpike'
+$ git stash pop
+（略）
+$
+
+上記フローでは、masterブランチをfork元への追随のために利用しています。これがmasterブランチ上で作業をしない最大の理由だと言えるでしょう。
+
+この作業をしなくてもpull requestすることはできますが、万一最新版とコンフリクトするような場合は対処を中の人に任せることになってしまいます。中の人は忙しいことも多いでしょうから、できるだけ最新版までrebaseしてからpull requestすべきです。
+
+pull request用に過去のcommitを1つにまとめる
+さて、ついに作業ブランチ上に満足のいくファイルをcommitできたとしましょう。fork元の更新にも追随できています。早速pull requestだ！と言いたいところですが、その前に今までの作業を1commitにまとめたブランチを作り直しましょう。
+
+というのも、作業ブランチ上では試行錯誤したりfork元に追随したりした跡が複数commitに分かれているはずです。これらをそのまま本家プロジェクトでpullしてしてしまうと、複数commit全てが本家の履歴として残ってしまいます。後で差分をチェックする人のためにも、あらかじめ整理してからpull requestすべきでしょう。これは次のような作業になります。
+
+作業ブランチに移動
+$ git checkout myFeatureSpike
+Switched to branch 'myFeatureSpike'
+$
+作業ブランチを元にpull request用のブランチを作成・移動
+$ git checkout -b myFeature
+Switched to branch 'myFeature'
+$
+作業ブランチ上のfork元からの差分を1 commitにまとめる
+$ git rebase -i master
+
+git rebase -iで全差分を1 commitにまとめるには、2個目以降のcommitを全部squash指定します。たとえば次のような内容がエディタに表示されたとしましょう。
+
+pick 12ca2a5 感想を追記
+pick bd66e17 コナミコマンドについてREADMEに追記（ネタバレ）
+
+# Rebase bdd3996..bd66e17 onto bdd3996
+#
+# Commands:
+#  p, pick = use commit
+#  r, reword = use commit, but edit the commit message
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#  f, fixup = like "squash", but discard this commit's log message
+#  x, exec = run command (the rest of the line) using shell
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# However, if you remove everything, the rebase will be aborted.
+#
+
+このような場合、次のように修正してセーブ・終了します。
+
+pick 12ca2a5 感想を追記
+squash bd66e17 コナミコマンドについてREADMEに追記（ネタバレ）
+
+# Rebase bdd3996..bd66e17 onto bdd3996
+#
+# Commands:
+#  p, pick = use commit
+#  r, reword = use commit, but edit the commit message
+#  e, edit = use commit, but stop for amending
+#  s, squash = use commit, but meld into previous commit
+#  f, fixup = like "squash", but discard this commit's log message
+#  x, exec = run command (the rest of the line) using shell
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+# However, if you remove everything, the rebase will be aborted.
+#
+
+すると次に2個分を1個にまとめたcommitのログを書くよう求められますので、適当に書いてセーブしましょう。これでmyFeatureSpike上の複数commitがmyFeatureブランチ上では1 commitにまとまった状態になりました。
+
+pull requestする
+fork元の最新状態に追随できていていますか？1 commitにまとめましたか？では、いよいよpull requestしましょう。
+pull request用のブランチをGitHubにpush
+$ git push origin myFeature
+（略）
+$
+GitHubからpull requestします。GitHubのUIから適切なブランチを選びましょう。
+本体に取り込まれるのを待ちます。「コーディング標準に合わせろ」「テスト書け」などの文句が来たら別途commitしましょう（できれば最初からやっておきましょう）。
+
+pull requestはGitHubのissue tracking systemと同期しており、pull requestと同時にチケットが起票されます。ふだんのバグレポートと同様に、問題点とパッチの概要などを簡単に書けばよいでしょう。
+
+1点だけ、pull request後の注意点があります。pull requestに使ったブランチで別の作業をしてはいけません。万一無関係なcommitをpushしてしまうと、pull requestにも反映されてしまいます。
+
+まとめ
+masterブランチからのpull requestが許されるのは小学生までです。僕の失敗談を紹介すると、あるプロジェクトに2つの修正をそれぞれpull requestするつもりだったのが、2個ともmasterで作業していたため、2つの修正が混ざったカオスなpull requestを投げてしまいました。ホントに迷惑すぎですね。
+
+今回の手順に従うと、かなりGitっぽい作業ができるはずです。というより、上記はGitで協調作業するときの流れをpull requestに合わせて説明したものだと言えます（originとupstreamとでremoteが2個あるため、通常のパターンよりも複雑ですが）。
+
+面倒すぎるだろ！と感じた人がいるかもしれません。特にブランチ周りはGit初級者がつまずきやすい場所だという印象がありますが、Subversionとの違いがわかればじきに慣れると思います。チンプンカンプンな方はPro Gitの「ブランチとは」あたりを読み進めてみてください。
+
+僕は必要にならないと覚えない性質なので、今回pull requestしてみてGitの理解が随分進んだ気がします。皆さんもpull requestのついでにGitの知識を深めてみませんか？
+
+*1：自分のGitHubへのcommitをそのまま本家に取り込んでよ、というリクエスト。BTSへの登録も同時に行われる。GitHub用語。
+*2：これはforkのデモ用リポジトリで、GitHubのドキュメント「Fork A Repo」の中で紹介されています。GitHubのfork数ランキング第3位（2011/5/28日現在）という大人気プロジェクトです。
+コメントを書く
+ 月月   2011/05/28 21:25
+記事にまとめる作業、おつかれさまでした。
+pull request際には参考にさせていただきます。
+ 月月 2011/05/28 21:26
+> pull request際には
+
+pull requestする際には
+ bleis-tiftbleis-tift 2011/05/30 10:57
+masterブランチで作業するのと、masterブランチからpull requestを送るのは分けて考えた方がいいのではないでしょうか？
+masterブランチで作業を行わないようにすれば、masterブランチ上で作業が混ざることはありえないので、masterブランチからpull requestを送っても何の問題も無いように思えます。
+ hnwhnw 2011/05/30 14:47
+bleis-tiftさん：
+おっしゃっている状況がイマイチわからないのですが、1個目のpull requestが採用されるより前に2個目のpull requestを出したいような場合は、それぞれ別ブランチを利用するしかありません。（そうでないと、1個目のpull requestに影響を与えてしまうはずです）。1個目はmasterからpull requestして2個目以降を出したいときだけ別ブランチを切るようなルールにしてもいいと思いますが、それよりは最初から「masterブランチからはpull requestしない」と決めてしまった方がわかりやすいように僕は感じました。
+
+masterからpull requestするのは小学生だけ、という文言が気に障ったようならごめんなさい。ただ、たくさんpull requestするような人は大抵ブランチから送っているように思います。
+ hnwhnw 2011/06/06 23:20
+今更ですが追記します。masterに自分の修正を入れてしまうと、upstreamの追随にmasterが使えなくなります。upstream追随用のbranchを別途作るよりは、upstream追随用にmasterを使う方針の方がわかりやすい気がします。
+
+現時点の僕がいいと思った案を紹介しているだけですので、より良いアイデアがあれば教えてください。
+ bleis-tiftbleis-tift 2011/06/10 15:09
+> masterからpull requestするのは小学生だけ、という文言が気に障ったようならごめんなさい。
+
+あ、いえ。そういうつもりはないです。
+
+> 1個目のpull requestが採用されるより前に2個目のpull requestを出したいような場合
+
+そこまで頻繁に pull request を投げ、かつそれがほとんど採用されるような状況なら、commit 権限をもらった方がどちらも幸せになれるんじゃないかな、とか。
+頻繁に pull request は投げるけどほとんど採用されないような状況なら、言い方は悪いけど足枷になっちゃってると思うんですよね。
+pull request を投げる方針もベストプラクティスを名乗るなら必要なのかな、とかなんとか。
+
+> masterに自分の修正を入れてしまうと、upstreamの追随にmasterが使えなくなります。
+
+これは確かにそうですね。
+そんなに頻繁に pull request しない場合は master でもいいじゃん、と思ってましたが、これからはそれ用のブランチからやるようにしようと思います。
+ hnwhnw 2011/06/10 17:01
+なるほど、「どういうシチュエーションで必要なのか」の共有がないと伝わるものも伝わらないですよね。上の文章で真っ先に書くべきところでした。ごめんなさい。
+
+僕の場合についてもう少し詳しく書くと、GitHub上で公開されているライブラリを試用していたところ、数時間のうちに独立したバグを2個見つけてしまったんですよね。そこでpull requestを2個投げようとしてアワアワしたというわけです。これは他の人にも十分ありうるケースのように思いますし、この段階でcommit権限をもらうという選択肢は無いと思います（まだ数時間しか使っていないですから）。
+
+また、そうでなくてもcommit権限をもらうのは一定のハードルがあるはずですから、中の人に実力と理解度を認められるまでは上のフローで作業することになると思います。
+ bleis-tiftbleis-tift 2011/06/10 19:38
+> GitHub上で公開されているライブラリを試用していたところ、数時間のうちに独立したバグを2個見つけてしまったんですよね。そこでpull requestを2個投げようとしてアワアワしたというわけです。
+
+この場合、pull requestは一つにまとめてしまうという選択肢もありますよね。
+例えば一つのバグ修正しか採用されないにしても、cherry-pickやrebase -iがあるので手間はかかりませんし、どちらも採用する場合はまぁ普通に処理する感じで。
+
+機能追加しててそれに関係するバグを見つけてしまって・・・という場合はまずバグを追加して、そのうえで機能追加したブランチをバグ修正したブランチにrebaseしてpull request投げる、とか。
+そうすればバグ修正は取り込むけどその機能追加は取り込まないよ、という場合はやはりcherry-pick/rebase -iを使えばいいですし、この状況で機能追加だけ取り込むことはしないでしょうし。
+
+トピックブランチ一個につきpull requestって運用はどうなんだろうなぁ、という思いがあります。
+もうちょっとまとめて送ってくれた方が嬉しいような、そうでもないような・・・難しい。
+
+> commit権限をもらうのは一定のハードルがあるはず
+
+はい。なので「頻繁に pull request を投げ、かつそれがほとんど採用されるような状況」と書きました。
+ hnwhnw 2011/06/10 20:19
+pull requestを一つにまとめてしまうと、GitHubのissue tracking system上でも「修正Aと修正B」というようなチケットが立ってしまいますよね。1つのチケットは1つのissueのみ管理すべきだと思います。
+
+また、大量のpull requestを処理する管理者を想定すると、やはり2つに分けた方が親切なように思います。結局、この記事で紹介している手順って中の人に少しでも楽させてあげようよ、っていう手順なんですよね（正確には、あるプロジェクトの中の人が楽をしたいから書かれたドキュメントですが）。中の人にcherry-pickさせたりrebase -iさせたりしても構わないという前提であれば、上のプロセスは複雑すぎると思います。
+
+逆に、分かれている方が不便なことってあるんでしょうか。conflictする確率が高まったりすることを危惧されていたりしますか？
+ bleis-tiftbleis-tift 2011/06/10 20:58
+> GitHubのissue tracking system上でも「修正Aと修正B」というようなチケットが立ってしまいます
+
+GitHub の ITS は使ったことが無いのでこの部分はわからないですが、1つのチケットが1つのissueのみ管理すべき、というのは同意です。
+ちょっとこの辺は調べてみる必要がありそうです。
+
+> 結局、この記事で紹介している手順って中の人に少しでも楽させてあげようよ
+> 逆に、分かれている方が不便なことってあるんでしょうか。conflictする確率が高まったりすることを危惧されていたりしますか？
+
+ここが意見の異なる部分のようです。
+単純作業 (それこそ確認した後は手作業が本来いらないはずの作業ですよね) を何回もやるより、注意を要する作業を一回だけやる方が実は楽なんじゃ？という。
+で、不便な所はまさにそこです。何個も pull request が送られてきたとして、どれかを適用したことによってほかのどれかが conflict を起こしてしまう状況です。
+ hnwhnw 2011/06/14 17:25
+お返事遅くなりました。conflictについては考え過ぎの部分もあるように思います。
+(1)僕の2個のpull requestがお互いにconflictするパターン
+(2)僕の2個のpull requestが他人のpull requestとconflictするパターン
+のうち、(2)については僕が1個にまとめて投げようが2個に分けて投げようがconflictしますから、どっちでも構わない気がします。むしろ、conflictするカタマリの大きさが小さくなった方が解消が楽かもしれません。
+一方で、(1)のパターンで2個に分けるのは確かに問題ですね。この場合は自分でconflictするのがわかるはずなので、1個にまとめてしまうのも手でしょうし、僕なら1個目がacceptされるまで2個目を隠し持っておくかもしれません。
+ちょっと前のコメントでbleis-tiftさんが例として挙げられた、バグ修正＋新機能追加のようなパターンであれば、バグ修正ブランチから新機能追加ブランチを生やして、それぞれをpull requestできれば良い気がしますが、そんなことが出来るのかどうかは把握できていません。これは宿題にさせてください。
+
+また、pull requestを複数に分けてしまうと単純作業が増えるというのはGitの作業だけ見ればその通りかもしれませんが、GitHubの場合はITSも連動しているため、実際には両者の手間の差は大きくなるのかもしれません。次のURLを見ると、単にマージしてチケットをcloseするのであれば、GitHubのWebインターフェースから全て行えるようです。
+
+https://github.com/blog/843-the-merge-button
+トラックバック - http://d.hatena.ne.jp/hnw/20110528
+Yarukidenized:ヤルキデナイズド - master ブランチで pull request...
+A Day in Serenity @ Kenji - GitHub で CodeIgniter の開発に参加...
+A Day in Serenity @ Kenji - Get involved CodeIgniter developmen...
+A Day in Serenity @ Kenji - Get involved CodeIgniter developmen...
+A Day in Serenity @ Kenji - Get involved CodeIgniter developme...
+bekkou68の日記 - 共訳した SocketStream 0.1.8 の README の pull...
+もっと早く知っていれば良かった - 他人のリポジトリにpull request...
+蟲！虫！蟲！ - [みんな以外のPython][Nimrod]始めてオープンソース...
+kmn23のコマンド備忘録 - はじめてのpull request - リモートブラン...
+C++でゲームプログラミング - Sprout に example を突っ込んでいる
+コンピュータ技術者になるための備忘録 - hatena-vimでログインでき...
+HomebrewにPull Request送ってみた
+cakephperの日記(CakePHP, MongoDB) - pull request送るまでは適当...
+その手の平は尻もつかめるさ - pull-request がmaster に飛んできた...
+コロタエンヂニアリング - 初めてpull requestしてmergeされたので...
+別館 子子子子子子（ねこのここねこ） - github使い方学習
+別館 子子子子子子（ねこのここねこ） - gitサーバ構築
+kinneko@転職先募集中の日記 - GitHubでFork/cloneしたリポジトリ...
+<前の日 | 次の日>
+ページビュー 861219
+- loaded by FastestFox for ChromePage 2 -
+Hatena::ブログ(Diary)  ブログトップ 記事一覧 ログアウト ヘルプ
+hnwの日記 このページをアンテナに追加 RSSフィード
+[プロフィール]
+<前の日 | 次の日>
+2011年6月4日（土） 第4回Symfony2勉強会でLT発表してきました このエントリーを含むブックマーク  このエントリーのブックマークコメント
+
+去る6月4日、第4回Symfony2勉強会でLT発表してきました。以下が発表資料です。
+
+発表資料：「PHPUnitのMockObjectの紹介」(slideshare版)(PDF版)
+
+僕だけSymfony2と何の関係があるの？という感じのタイトルでしたが、案外好評だったように思います。懇親会でも何人かに声をかけて頂いて、このあたりの話題は結構ニーズがあるんだなーと感じました。
+
+スタブとモックの違いについては伝えるのが難しいかと思っていたのですが、伝わったよ、と言ってくれた人がいて、安心しました。ちなみに本文中で触れているMatrin Fowlerのブログ記事は下記です。
+
+「Mocks Aren’t Stubs」
+
+発表中、Martin Fowlerはモックによるテストに懐疑的なようだ、という話を紹介しました。もう少し詳しく紹介すると、モックで「ふるまい」のテストを書くためには、どう実装するか（＝メソッドがどういう順序で何回呼ばれるか）を知っている必要があるはずだ、これは非常に不自然に感じる、と上記の記事に書いています。
+
+これは僕も非常に納得できます。実は、僕のケースで言うと実装後にテストを書いていたのですが*1、モックでのテストを書くために実装を見て呼ばれているメソッドを調べる、という意味不明なことをしていました。実装後であっても、どのメソッドが呼ばれているかスラスラ答えるのは簡単ではありません。テストファーストでテストを書くような場合を想像すると、呼び出されるメソッドを完全に記述するのは非常に難しいように思います。
+
+一方で、モックが役に立つ状況もあるはずです。たとえば、認証メソッドがfalseを返したら他のメソッドが呼ばれるはずがない、のように、メソッドの呼び出しに関して実装前から断言できることもあるでしょう。また、Martin Fowlerも書いているように、呼び出し関係が複雑すぎる状況ではどこでエラーが起きたかわかりにくいことがあるので、モックでのチェックが活躍する状況もあると思います。
+
+まだ僕自身も全然わかっていないので、お前勘違いしてるぞ、などあれば教えてください。
+
+*1：モックを体験してみるのが目的だった部分が大きいので、あまりツッコまないでください
+コメントを書く
+ とおりがかりとおりがかり 2011/06/05 03:19
+テストファーストな開発では「仕様書と実装」ではなく「仕様書とテスト」を対応させる形で開発を進めていく側面がある, と私は考えているます.
+ですので, 個々のテストケースで依存先オブジェクトの特定メソッドがN回呼ばれるはずだとか記述するのは間違ってないと思っています.
+もし, クラスを修正する（特に他人の描いたクラスの修正）際に訳の分からないテストケースの記述があったとしたら, それは単に開発者が理解していなかった仕様があったことを意味しているわけなんで,
+その際は仕様確認するなり実装見てみるなりしてくださいな, という方針で.
+もっとも, そんな細かい仕様書なんて見たことないですがねｗ
+ hnwhnw 2011/06/05 17:33
+確かに、昔関わった超大規模案件でそのレベルの仕様書を作っていたものがありました。そういう状況であれば、むしろモックでないとテストが書けないことになりますね。
+一方で、案件による制約が無い場合には、Martin Fowlerが言うところの古典的テスト、つまり返り値を見るだけのテスト以上のことを行ってしまうと、大抵の場合コストが大きすぎるような気がします。逆に、どういう条件下でコストに見合うのかについては、個人的にとても興味があります。
+トラックバック - http://d.hatena.ne.jp/hnw/20110604
+<前の日 | 次の日>
+ページビュー 861503
+

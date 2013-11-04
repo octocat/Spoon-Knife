@@ -10,13 +10,13 @@
       margin:0px;
       padding:0px;
     }
-    
+
     #octocat {
       display: block;
       width:384px;
       margin: 50px auto;
     }
-    
+
     p {
       display: block;
       width: 400px;
@@ -31,21 +31,40 @@
       -moz-box-shadow: -5px 10px 15px gray;
       font-family: sans-serif;
     }
-    
+
   </style>
   <script type="text/javascript">
-	var keyCodes=new Array(10);
-	var pattern=[38,38,40,40,37,39,37,39,66,65];
-	function keydownHandler(e){
-		keyCodes.shift();
-		keyCodes.push(e.keyCode);
-		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-			document.getElementById("rainbow-message").style.display="";
-		}
-	}
-	window.onkeydown=keydownHandler;
+  var keyCodes=new Array(10);
+  var keyMap {
+    "up": 38,
+    "down": 40,
+    "left": 37,
+    "right": 39,
+    "b": 66,
+    "a": 65
+  }
+  var pattern=[
+    keyMap.up,
+    keyMap.up,
+    keyMap.down,
+    keyMap.down,
+    keyMap.left,
+    keyMap.right,
+    keyMap.left,
+    keyMap.right,
+    keyMap.b,
+    keyMap.a
+  ];
+  function keydownHandler(e){
+    keyCodes.shift();
+    keyCodes.push(e.keyCode);
+    if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
+      document.getElementById("rainbow-message").style.display="";
+    }
+  }
+  window.onkeydown=keydownHandler;
    </script>
-		
+
 </head>
 
 <body>

@@ -1,3 +1,8 @@
 All that's missing is the fork. Heh.
+<<<<<<< HEAD
 new test for pushing commit to the origin master.
 try windows Github.
+=======
+try edit.
+try commit branch.
+>>>>>>> origin/patch-1

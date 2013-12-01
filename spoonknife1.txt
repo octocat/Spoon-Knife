@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ALteraçoes do barnch master->spoonknife1.txt
+=======
+alterações no mybranch
+spoonknife1.txt
+>>>>>>> mybranch

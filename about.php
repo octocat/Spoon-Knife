@@ -6,7 +6,7 @@
 
 	<p>Here is some new content!</p>
 	<p>Some more new content</p>
-	<p>Paragraph 3</p>
+	<p>Last Paragraph!</p>
 	
 	
 </div>

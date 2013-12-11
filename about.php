@@ -7,6 +7,7 @@
 	<p>Here is some new content!</p>
 	<p>Some more new content</p>
 	<p>Last Paragraph!</p>
+	<p>Uh oh! Im on the master.... Conflict!!!</p>
 	
 	
 </div>

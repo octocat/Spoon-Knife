@@ -5,7 +5,7 @@
 	<h2 class="subber">Super subhead</h2>
 
 	<p>Here is some new content!</p>
-	<p>Paragraph 2</p>
+	<p>Some more new content</p>
 	<p>Paragraph 3</p>
 	
 	

@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
   <title>Spoon-Knife</title>
   <style type="text/css">
     * {
@@ -31,21 +29,24 @@
       -moz-box-shadow: -5px 10px 15px gray;
       font-family: sans-serif;
     }
+    p.note {
+      font-size: 12px;
+    }
     
   </style>
   <script type="text/javascript">
-	var keyCodes=new Array(10);
-	var pattern=[38,38,40,40,37,39,37,39,66,65];
-	function keydownHandler(e){
-		keyCodes.shift();
-		keyCodes.push(e.keyCode);
-		if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
-			document.getElementById("rainbow-message").style.display="";
-		}
-	}
-	window.onkeydown=keydownHandler;
+  var keyCodes=new Array(10);
+  var pattern=[38,38,40,40,37,39,37,39,66,65];
+  function keydownHandler(e){
+    keyCodes.shift();
+    keyCodes.push(e.keyCode);
+    if(keyCodes.every(function(element, index, array){return element===pattern[index];})){
+      document.getElementById("rainbow-message").style.display="";
+    }
+  }
+  window.onkeydown=keydownHandler;
    </script>
-		
+    
 </head>
 
 <body>
@@ -54,6 +55,11 @@
 
 <p>
   Fork me? No, fork you!
+</p>
+<p class="note">
+  Spoiler: Easter Egg! If you find it you are awesome!
+  <br />
+  <em>Hint: It's a popular cheat code in a vintage console game.</em>
 </p>
 <div id="rainbow-message" style="display:none">
 Double repositories all the way across the sky!<br/>

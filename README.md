@@ -9,3 +9,5 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Fork a Repo"](https://help.github.com/articles/fork-a-repo). Thanks! :sparkling_heart:
 
 Last edited by *seads*.
+
+Also available at [seads](https://github.com/seads).

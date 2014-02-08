@@ -2,3 +2,6 @@
 This is the first patch
 ##end_of_first_patch
 Contents of test file
+##start_of_second_patch
+This is the second patch
+##end_of_second_patch

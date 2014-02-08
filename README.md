@@ -8,4 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository (edited this line too!), [check out our guide, "Fork a Repo"](https://help.github.com/articles/fork-a-repo). Thanks! :sparkling_heart:
 
-Jewel has added some more info here
+Jewel has added some more info here.

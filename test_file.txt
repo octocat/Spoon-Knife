@@ -1,1 +1,2 @@
 Contents of test file
+adding a change on the master branch

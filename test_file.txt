@@ -1,1 +1,4 @@
+##start_of_first_patch
+This is the first patch
+##end_of_first_patch
 Contents of test file

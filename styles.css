@@ -1,17 +1,27 @@
-* {
-  margin:0px;
-  padding:0px;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+html, body {
+	width: 99%;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.spoon-nife-container {
+	width: 40%;
+	margin: 0 auto;	
+	text-align: center;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+	.spoon-nife-container p {
+		display: block;
+		margin: 50px auto;
+		font-size: 28px;
+		font-family: "Ubuntu", "Open Sans", "Monaco", "Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;	  
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.spoon-nife-container p span {
+		font-weight: bold;
+	}
+

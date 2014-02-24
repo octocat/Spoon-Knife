@@ -1,0 +1,21 @@
+This is just a test! I'm going to send octocat a pull request now on GitHub with this new, and incredibly fascinating piece of text! 
+
+int arrSize = 0;
+cin >> arrSize;
+
+int* pInt = new int[arrSize];
+
+for(int i = 0; i < arrSize; i++)
+	{
+	    pInt[i] = rand() % 100;
+	    cout << pInt[i] << endl;
+	} 
+
+<p>Bla bla bla</p>
+
+(format t "~a~%" "Hello World! Goodbye, now.")
+
+System.out.println("Hello Again! You thought I left, didn't you?");
+
+
+	    

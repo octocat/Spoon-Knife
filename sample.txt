@@ -1,1 +1,3 @@
 Modifying through local repository.
+
+Modifying through GitHub repository.

@@ -1,3 +1,9 @@
+body table {
+    margin : 4px;
+    font-family: Helvitica;
+    padding : 2px;
+}
+
 * {
   margin:0px;
   padding:0px;

@@ -7,6 +7,10 @@
   display: block;
   width:384px;
   margin: 50px auto;
+  border: 30px lightblue inset;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 
 p {

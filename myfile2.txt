@@ -2,3 +2,4 @@ Hi this is the second file I added !!
 HI there master !
 Hey there again .. lets see what is up to it now !
 Just  line to see if merges are going fine... even if there was merge conflict in some other pages !
+Go.. I need a conflict now !

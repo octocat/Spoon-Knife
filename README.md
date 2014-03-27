@@ -8,4 +8,12 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects"](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-jtuki: Add some word for more **change something different with branch_noise** for test ...
+jtuki: Add some word for more noise for test...
+
+**OK I understand why conflicts cannot occur.**
+
+1. `checkout`/`switch` to `branch_noise` branch.
+2. Make some changes to line `jtuki: ...` above, `commit`.
+3. `checkout`/`switch` to `master`.
+4. Make some changes to the same line `jtuki: ...` (with different changes of step 2), `commit`.
+5. Try to `merge` `master` and `branch_noise`. Congratulations, **conflict** occurs.

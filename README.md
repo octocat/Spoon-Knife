@@ -8,9 +8,18 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects"](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-jtuki: Add some word for more noise for test...
+==============================
+(personal notes below from @jtuki ...)
 
-**OK I understand why conflicts cannot occur.**
+##### Play around some feature of Git and Github.
+
+1. Pretty lightweight `branch` compared with Subversion.
+2. `merge` from other `branch` and resolve the conflict.
+3. `commit` to branches (eg. `master` and `branch_noise`).
+4. `push` local commit(s) to `origin` (which is hosted on Github).
+5. `compare and review` and `send pull request` (directly from Github) to the original author @octocat.
+
+##### Short tutorial on _How to make the conflict happen?_
 
 1. `checkout`/`switch` to `branch_noise` branch.
 2. Make some changes to line `jtuki: ...` above, `commit`.

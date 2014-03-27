@@ -14,10 +14,10 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ##### Play around some feature of Git and Github.
 
 1. Pretty lightweight `branch` compared with Subversion.
-2. `merge` from other `branch` and resolve the conflict.
-3. `commit` to branches (eg. `master` and `branch_noise`).
-4. `push` local commit(s) to `origin` (which is hosted on Github).
-5. `compare and review` and `send pull request` (directly from Github) to the original author @octocat.
+2. `merge` from other `branch` to `master` and resolve the conflict(s).
+3. `commit` to branches (eg. `master` and `branch_noise` are both branches).
+4. `push` local commit(s) to `origin` (which is your hosted project on Github).
+5. (directly from Github) `Compare and Review` and `Send pull request` to the original author @octocat.
 
 ##### Short tutorial on _How to make the conflict happen?_
 

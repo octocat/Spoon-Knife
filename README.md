@@ -1,8 +1,6 @@
 ### Well hello there! 
 
-*FAX SUCK BIG TIME! ... JK*
-
-RLY!? HAHA, OK....
+Hello, from branch.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

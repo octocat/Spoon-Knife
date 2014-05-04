@@ -1,6 +1,6 @@
 ### Well hello there! 
 
-*FAX SUCK BIG TIME!*
+*FAX SUCK BIG TIME! ... JK*
 
 RLY!?
 

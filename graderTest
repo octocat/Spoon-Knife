@@ -1,0 +1,61 @@
+#-------------------------------------------------------------------------------
+# Name: grader
+# Date: 05/14/2014
+#-------------------------------------------------------------------------------
+
+"""
+A program that calculates and determines the grade.
+
+Prompt the user to enter the grades for homework, programming assignment,
+two midterms, and one final.
+
+Calculation strategy is
+homework: 20%
+programming assignments: 30%
+two midterms: 15% each, 30% in total
+Final: 20%
+
+Determine grade rule is
+90% or above: A
+80%-89%: B
+70%-79%: C
+60%-69%: D
+59% and below: F
+
+Cutoff for an A is 89.5%, for an B is 79.5%, for an C is 69.5%,
+for an D is 59.5%
+
+"""
+
+def main():
+    # prompt the console input.
+    # request the inputs from user assuming the range is between 0-100 integer
+    homework_grade=float(input('Please enter your homework grade'))
+    assignments_grade=float(input('Please enter your grade '
+                                  'in the programming assignments'))
+    first_midterm=float(input('Please enter your grade in the first midterm'))
+    second_midterm=float(input('Please enter your grade in the second midterm'))
+    final_grade=float(input('Please enter your grade in the final'))
+
+    # calculate the grade
+    score = (homework_grade*0.2 + assignments_grade*0.3 +
+                  first_midterm*0.15 + second_midterm*0.15 + final_grade*0.2)
+
+    # determine the grade
+    if (score >= 89.5):
+        grade = "A"
+    elif (score >= 79.5):
+        grade = "B"
+    elif (score >= 69.5):
+        grade = "C"
+    elif (score >= 59.5):
+        grade = "D"
+    else:
+        grade = "F"
+
+    # display the grade
+    print ("Your grade in this course is:", grade)
+
+
+if __name__ == '__main__':
+    main()

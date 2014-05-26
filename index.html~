@@ -9,16 +9,12 @@
 
 <body>
 
-<img src="saber.jpg" id="octocat" alt="" />
+<img src="forkit.gif" id="octocat" alt="" />
 
 <!-- Feel free to change this text here -->
 <p>
   Fork me? Fork you, @octocat!
 </p>
-<p>
-  My first Fork, @demon7452!
-</p>
-
 
 </body>
 </html>

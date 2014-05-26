@@ -1,4 +1,4 @@
-### Well hello there!
+###well hello there~
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
@@ -8,4 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 or some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! ---modifiedbyfox
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). hhhhh
->>>>>>> 99f05e92708983a21f52e608174ec54c0bb4482a    ---modified by fox
+>>>>>>> 99f05e92708983a21f52e608174ec54c0bb4482a    ---modified by fox use vim 26, 5, 2014

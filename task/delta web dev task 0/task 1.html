@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+
+<form oninput="x.value=parseInt(b.value) ">Speed Control: <b>  0                    
+</b>  <input type="number" id="sc" value="5"> <b> 50</b>                       
+<output name="x" for "c"></output>
+</form>
+
+<div id="circle"></div>
+
+</body>
+</html>
+
+
+<style>
+
+#circle                      
+{
+ position: absolute;
+ top:50px;
+ left:150px;
+ height:40px; 
+ width:40px;                                                                  <!--laying the properties of the div element-->  
+ border: 0.5px solid black;                                                        
+ background: -webkit-radial-gradient(black 35% , white 80%); 
+}
+
+form
+{
+  position:fixed;
+  left:50%;
+  top: 50%;
+
+}
+</style>
+
+<script>
+
+var x=0,y=0,i,cx,cy;
+
+cx=$('#circle').offset().left + ($('#circle').width())/2;
+cy=$('#circle').offset().top + ($('#circle').height())/2;
+delta=0;                                                                                
+move();
+
+function move() {                                                                <!--function to move div in circular path-->        
+
+x=400 + 150*Math.cos(delta*Math.PI/180);                                                 
+y=220+ 150*Math.sin(delta*Math.PI/180);                                            <!-- setting div trajectory-->                                                                                      
+circle.style.left=x-cx+'px';
+circle.style.top=y-cy +'px';
+
+v=document.getElementById('sc').value;                                               
+for(i=0;i<=50;i++)                                                                   <!--setting div speed-->
+{if(v==i)
+delta+=i;                                                                              
+}                                                                                               
+      
+requestAnimationFrame(move);                                                           <!--calls the function recursively -->
+}
+
+</script>
+                 
+
+
+
+
+
+

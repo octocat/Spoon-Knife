@@ -1,0 +1,6 @@
+��������һ��readme
+
+//直接支持中文注释
+if(mCondition) {
+  mCounter ++; // 中文注释
+}

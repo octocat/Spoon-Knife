@@ -1,1 +1,6 @@
-这是另外一个readme
+锟斤拷锟斤拷锟斤拷锟斤拷一锟斤拷readme
+
+//鐩存帴鏀寔涓枃娉ㄩ噴
+if(mCondition) {
+  mCounter ++; // 涓枃娉ㄩ噴
+}

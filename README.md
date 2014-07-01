@@ -8,4 +8,9 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-���µ�һ�Σ�10.22am
+
+���µ�һ�Σ�10.22am
+
+web进行的中文更新
+
+utf8 updated

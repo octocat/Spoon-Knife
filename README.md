@@ -8,8 +8,8 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-As mentioned at [Github help](https://help.github.com/articles/fork-a-repo), rather than puting an issue for 
-a bug you would be able to give a support to repo by
+As mentioned at [Github help](https://help.github.com/articles/fork-a-repo), rather than putting an issue for 
+a bug you would be able to give a support to repository by
 
 - Fork & Clone
 - Make the fix

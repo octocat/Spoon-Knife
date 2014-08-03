@@ -9,5 +9,7 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 08/03/2014 - marirsg
-   I love the idea of contributing and being part of a greater effort and purpose. Kudos to github for providing this 
+   I love the concept of contributing and being part of a greater effort and purpose. Kudos to github for providing this 
 platform.
+
+Second Commit adding lines

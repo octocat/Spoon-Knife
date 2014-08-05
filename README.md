@@ -8,4 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-These changes are done in my mac locally. Trying to get used to Github, was formaly a experienced user of SVN.
+These changes are done in my mac locally. Trying to get used to Github asap, already an experienced user of SVN.

@@ -1,3 +1,3 @@
 <?php
-echo 'This file was created in forked folder on local machine and them pushed to server.';
+echo 'Test 7 from local to remote without add by commit->push';
 ?>

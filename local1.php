@@ -1,3 +1,3 @@
 <?php
-echo 'Test 7 from local to remote without add by commit->push';
+echo 'Test 8 from remote to local by commit->pull';
 ?>

@@ -1,3 +1,3 @@
 <?php
-echo 'Test 8 from remote to local by commit->pull';
+echo 'Test 10 two changes on remote and local';
 ?>

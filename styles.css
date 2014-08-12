@@ -9,9 +9,14 @@
   margin: 50px auto;
 }
 
+h1 {
+	text-align: center;
+	color: blue;
+}
+
 p {
   display: block;
   width: 400px;
-  margin: 50px auto;
+  margin: 45px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

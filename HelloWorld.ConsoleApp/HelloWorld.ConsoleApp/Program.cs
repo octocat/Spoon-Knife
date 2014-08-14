@@ -10,6 +10,7 @@ namespace HelloWorld.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
         }
     }
 }

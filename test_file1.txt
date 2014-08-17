@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is git test file
+=======
+Thie is git test file
+>>>>>>> parent of f886f49... Revert "My second commit"

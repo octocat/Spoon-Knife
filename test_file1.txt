@@ -5,3 +5,4 @@ Thie is git test file
 >>>>>>> parent of f886f49... Revert "My second commit"
 
 third commit at last
+awesome branch commit

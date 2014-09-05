@@ -1,0 +1,9 @@
+
+
+dffd
+[[https://travis-ci.org/magiraud/vidjil][
+https://travis-ci.org/magiraud/vidjil.svg?branch=master]]
+
+[[https://travis-ci.org/magiraud/vidjil.png?branch=master]]
+
+dff

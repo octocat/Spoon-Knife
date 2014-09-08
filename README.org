@@ -3,7 +3,6 @@
 dffd
 
 [[https://travis-ci.org/magiraud/vidjil][https://travis-ci.org/magiraud/vidjil.svg?branch=master]]
-
 [[http://opensource.org/licenses/GPL-3.0][http://img.shields.io/badge/license-GPLv3+-green.svg]]
 
 

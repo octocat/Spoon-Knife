@@ -11,4 +11,6 @@ dffd
 
 
 
+[[http://img.shields.io/badge/license-GPLv3+-green.svg][http://opensource.org/licenses/GPL-3.0]]
+
 

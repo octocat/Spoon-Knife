@@ -20,6 +20,7 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 リポジトリ［我々のガイド（「Projectsをフォーク状にする」）を貸し出しなさい」］（http://guides.github.com/overviews/forking/）をフォーク状にする方法に関する更に若干の情報のために。
 ありがとう！
 ：sparkling_heart：
+<<<<<<< HEAD
 ---------------<2>-----------------
 追加予定：
 +++++++++
@@ -28,4 +29,8 @@ b1-2
 b1-2-1
 b1-2-2
 
+=======
+***********************************
+2014/09/16 17:04
+>>>>>>> master
 

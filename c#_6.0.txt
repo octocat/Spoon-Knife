@@ -1,0 +1,7 @@
+Nowe funkcjonalnoœci w C# 6.0:
+
+- wartoœci domyœlne w³aœciwoœci
+- nowa sk³adnia inicjowania s³owników
+- u¿ycie s³owa klucowego params z typem IEnumerable (zamiast z tablic¹)
+- inny sposób inicjowania zdarzeñ
+- konstruktor g³ówny

@@ -1,1 +1,3 @@
 This file will contain information for a future user manual.
+
+Right now, there's nothing to document...

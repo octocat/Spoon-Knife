@@ -1,6 +1,6 @@
 ### Well hello there!###
 
-This is a custom ReadMe by Thorin Schmidt, "That's what I'M Tolkien about..."
+This is a custom ReadMe by Thorin Schmidt.
 
 repository is meant to provide an example for *forking* a repository on GitHub.
 

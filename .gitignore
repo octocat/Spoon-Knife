@@ -2,4 +2,6 @@
 # Custom ignores
 # =========================
 **/config.php
+**/*.config.php
 **/cfg.php
+**/*.cfg.php

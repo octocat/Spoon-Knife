@@ -7,3 +7,4 @@
 **/*.cfg.php
 **/tmp
 **/temp
+**/*.zip

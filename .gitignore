@@ -5,3 +5,5 @@
 **/*.config.php
 **/cfg.php
 **/*.cfg.php
+**/tmp
+**/temp

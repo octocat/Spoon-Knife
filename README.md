@@ -1,7 +1,7 @@
-
 ### Well HOWDY 
 
-This is a custom ReadMe by Thorin Schmidt.
+This is a custom ReadMe by 
+###Thorin Schmidt.
 
 ### TEACHER SUPREME ###
 repository is meant to provide an example for *forking* a repository on GitHub.

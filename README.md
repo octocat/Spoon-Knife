@@ -19,18 +19,9 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 このリポジトリをフォーク状にした後に、あなたはプロジェクトにいくらかの変更をすることができて、実行として降参することができる（https://github.com/octocat/Spoon-Knife/pulls）［Pull Request］。
 リポジトリ［我々のガイド（「Projectsをフォーク状にする」）を貸し出しなさい」］（http://guides.github.com/overviews/forking/）をフォーク状にする方法に関する更に若干の情報のために。
 ありがとう！
-：sparkling_heart：
-<<<<<<< HEAD
----------------<2>-----------------
-追加予定：
-+++++++++
+
 ----<b1>----
 b1-2
 b1-2-1
 b1-2-2
-
-=======
-***********************************
-2014/09/16 17:04
->>>>>>> master
-
+------

@@ -2,7 +2,6 @@ package client;
 
 public class DVD{
     private String title;
-    private String Description;
 
     public DVD() {
         super();
@@ -16,12 +15,5 @@ public class DVD{
         this.title = title;
     }
 
-    //this is an addition I made after an initial clone of the repo
-    public String getDescription() {
-	return Description;
-    }
-
-    public void putDescription(String Description) {
-	this.Description = Description;
-    }
+    //this is a comment added on a dev branch.
 }

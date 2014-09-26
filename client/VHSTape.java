@@ -1,6 +1,6 @@
 package client;
 
-public class DVD{
+public class VHSTape{
     private String title;
     private String Description;
 

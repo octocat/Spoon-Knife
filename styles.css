@@ -14,4 +14,7 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Arial, Helvetica, sans-serif;
+  color: #c00;
+  font-style: italic;
+  font-weight: 900;
 }

@@ -1,0 +1,112 @@
+ @RemoteAction
+    public static List<SlideAnalyticsUserView> fetchSlideAnalyticsUserView() {
+        
+        try{
+            Integer totalOthersView = 0;
+            Integer averageTimeViewed = 0;
+            Integer totalOtherUser = 0;
+            
+            map<Id,Integer> mapUserIdToTotalView = new map<Id,Integer>();
+            List<SlideAnalyticsUserView> lstSlideAnalyticsUserView = new List<SlideAnalyticsUserView>();
+            map<Id,map<Datetime ,Decimal>> mapDateToTotalDuration = new map<Id,map<Datetime,Decimal>>();
+            
+            for(AggregateResult objAgg :    [   SELECT COUNT(Id) totalView, Related_User__c relatedUser
+                                                FROM View_Audit_Trail__c
+                                                WHERE Related_User__c <> null
+                                                AND Slide__c = 'a01o00000024c0U'
+                                                AND Slide__c <> null
+                                                group by Related_User__c
+                                                order by Related_User__c
+                                                Limit 5
+                                            ]) {
+                
+                mapUserIdToTotalView.put(Id.valueOf(String.valueOf(objAgg.get('relatedUser'))),Integer.valueOf(objAgg.get('totalView')));
+            }
+            
+            if(mapUserIdToTotalView.isEmpty()) return null;
+            
+            system.debug('==========mapUserIdToTotalView=============='+mapUserIdToTotalView);
+            map<Datetime,Decimal> mapCreatedDateToTotalDuration = new map<Datetime,Decimal>();
+			
+			for(Id idUser : mapUserIdToTotalView.keySet()){
+			
+				View_Audit_Trail__c objViewAudit : [  SELECT Total_Duration_in_minute__c,createdDate,Related_User__c, Related_User__r.Id 
+                                                        FROM View_Audit_Trail__c
+                                                        where Related_User__c <> null
+                                                        AND Slide__c = 'a01o00000024c0U'
+                                                        AND Slide__c <> null
+                                                        AND Related_User__c =: idUser
+                                                        order by createdDate desc
+														limit 5
+                                                       
+                                                    ]){
+					mapCreatedDateToTotalDuration.put(objViewAudit.createdDate,objViewAudit.Total_Duration_in_minute__c);
+					if(!mapCreatedDateToTotalDuration.isEmpty()){
+                
+						mapDateToTotalDuration.put(objViewAudit.Related_User__r.Id,mapCreatedDateToTotalDuration);
+					
+					}
+			
+				}
+			}
+            for( View_Audit_Trail__c objViewAudit : [  SELECT Total_Duration_in_minute__c,createdDate,Related_User__c, Related_User__r.Id 
+                                                        FROM View_Audit_Trail__c
+                                                        where Related_User__c <> null
+                                                        AND Slide__c = 'a01o00000024c0U'
+                                                        AND Slide__c <> null
+                                                        AND Related_User__c IN: mapUserIdToTotalView.keySet()
+                                                        order by createdDate desc
+                                                       
+                                                    ]) {
+                
+                system.debug('=========objViewAudit.Related_User__r.Id================='+objViewAudit.Related_User__r.Id);
+                mapCreatedDateToTotalDuration.put(objViewAudit.createdDate,objViewAudit.Total_Duration_in_minute__c);
+                system.debug('========createdDate==============='+objViewAudit.createdDate);
+                system.debug('=========mapgsdh ================'+mapCreatedDateToTotalDuration );
+                if(!mapCreatedDateToTotalDuration.isEmpty()){
+                
+                    mapDateToTotalDuration.put(objViewAudit.Related_User__r.Id,mapCreatedDateToTotalDuration);
+                }
+            }
+            system.debug('=======305============='+mapDateToTotalDuration);                         
+            
+            for(AggregateResult objAgg :    [   SELECT COUNT(Id) totalView 
+                                                FROM View_Audit_Trail__c
+                                                WHERE Related_User__c <> null
+                                                AND Related_User__c NOT IN : mapUserIdToTotalView.keySet()
+                                                group by Related_User__c
+                                            ]) {
+                
+                totalOthersView = totalOthersView + Integer.valueOf(String.valueOf(objAgg.get('totalView')));                               
+                totalOtherUser++;
+            }
+            
+            if(totalOtherUser == 0)
+            {
+                averageTimeViewed = 0;
+            }
+            else{
+                averageTimeViewed = Integer.valueOf(String.valueOf(totalOthersView/totalOtherUser));
+            }
+            
+            for(User objUser :  [   SELECT Id, Name
+                                    FROM User
+                                    WHERE Id IN : mapUserIdToTotalView.keyset()
+                                ]) {
+                                    
+                lstSlideAnalyticsUserView.add(new SlideAnalyticsUserView(objUser.Name,mapUserIdToTotalView.get(objUser.Id)));
+            }
+            
+            if(lstSlideAnalyticsUserView.size() >= 5)
+            {
+                lstSlideAnalyticsUserView.add(new SlideAnalyticsUserView('Others',averageTimeViewed));
+            }
+            
+            return lstSlideAnalyticsUserView;
+        }
+        catch(Exception e) {
+
+            system.debug('## Exception :' + e);
+            return null;
+        }
+    }

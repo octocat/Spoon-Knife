@@ -1,6 +1,6 @@
 ### Well hello there!
 
-I will try change stuff now.
+Change stuff now.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

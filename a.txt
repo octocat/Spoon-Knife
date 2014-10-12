@@ -1,0 +1,3 @@
+Simple text file
+commit 2
+commit 3

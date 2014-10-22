@@ -10,4 +10,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 This will be my attempt at making an issue in Blossom.io.
 
-This is not working well.
+Seems I have success!

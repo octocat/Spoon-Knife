@@ -1,0 +1,19 @@
+In this program, I want to see the behavior of the bidirectional 
+shortest path algorithm under certain assumptions of random input.
+Therefore, I want you to start by programming the bidirectional
+shortest path algorithm as well as Dijkstra's algorithm
+(you should not use any code from a book).  I want you also to count the 
+number of iterations before a vertex is
+in the set reached from both s and t.
+
+In the bidirectional search algorithm, you run Dijkstra's algorithm from both s (growing a set S), and t (growing a set T).  When some vertex is in both S and T, the shortest path from s to t is found by looking at all edges from S to T, and choosing the edge which gives the least total cost of the path (i.e. distance s to x plus weight of x,y plus distance y to t)
+
+ You should then run experiments to determine expected number of
+iterations if the input is a) a graph with random edge weights. b) a
+graph in which vertices are points randomly chosen in the plane,
+and edge weight from x to y = (distance from x to y) + a random variable
+between 0 and .5 (distance between x and y).
+What conclusions do you reach about the expected running time? Present your 
+results clearly.
+
+

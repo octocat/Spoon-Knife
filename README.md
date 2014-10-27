@@ -1,4 +1,5 @@
 ### Well hello there!  I have horrible gas today!
+### Well hello there!  I have horrible gas today!  Now I suppose I’ll try to do this in the Mac interface thing.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

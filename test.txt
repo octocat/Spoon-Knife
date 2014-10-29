@@ -1,3 +1,0 @@
-ruby on rails 
-hello ruby
-

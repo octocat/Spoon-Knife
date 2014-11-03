@@ -3,6 +3,11 @@
   padding:0px;
 }
 
+body {
+  background: #fff;
+  color: #000
+}
+
 #octocat {
   display: block;
   width:384px;

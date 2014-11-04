@@ -1,0 +1,39 @@
+<!-- 获取导航信息   -->
+<notempty name="nav">
+<div class="header">
+	<div class="header_1">
+		<div class="header_img">
+			<a href="{:U('/')}">
+			<img src="__TMPL__/Public/img/logo.png" width="124" height="53" />
+			</a>
+		</div>
+		<div class="header_nav">
+			<ul class="header_nav1">
+				<volist name="nav" id="r">
+				<if condition="($r.url neq 'center/index') OR ($Think.session.MEMBER_id neq '')">
+					<li><a class="{$r.class}" 
+					href="{$r['href'] ? U($r['href'],array('menu_id'=>$r['id'])) : '#'}"
+					>{$r.label}</a></li>
+				</if>
+				</volist>
+			</ul>
+		</div>
+		<div class="top-header-menu">
+			<ul class="menu">
+				<if condition="strlen($_SESSION['MEMBER_id']) neq 0">
+				<li><a href="{:U('portal/center/index')}">{$Think.session.MEMBER_name}
+						<if condition="getMesNum() neq 0"> <span
+							class="fa fa-envelope" style="color: #FF4400;">
+							{:getMesNum()}</span> </if>
+				</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li id="navright"><a href="{:U('portal/member/logout')}"><span
+						class="icon-signout"></span>退出</a>&nbsp;&nbsp;</li>
+				<else />
+				<li><a href="{:U('Portal/Member/index')}">登录</a>&nbsp;|&nbsp;</li>
+				<li><a href="{:U('Portal/Member/register')}">注册</a>&nbsp;&nbsp;</li>
+				</if>
+			</ul>
+		</div>
+	</div>
+</div>
+</notempty>

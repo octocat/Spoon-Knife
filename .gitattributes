@@ -1,1 +1,2 @@
 *.h linguist-language=C++
+*.pro =linguist-language=Project

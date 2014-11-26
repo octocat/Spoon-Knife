@@ -8,3 +8,6 @@ issue03 change7
 issue04 change8
 issue05 change9 from server
 issue05 change1
+issue06 change1
+issue07 change1
+issue06 change2

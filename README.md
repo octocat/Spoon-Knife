@@ -1,4 +1,4 @@
-### Well hello there!
+### I see you've played knifey-spoony before!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

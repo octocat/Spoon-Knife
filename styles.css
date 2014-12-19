@@ -10,6 +10,9 @@
 }
 h1 {
 	font-family:Georgia, "Times New Roman", Times, serif;
+  display: block;
+  width: 400px;
+  margin: 50px auto;
 }
 p {
   display: block;

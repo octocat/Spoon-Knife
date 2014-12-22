@@ -12,3 +12,5 @@ This is a test line by hql1991.
 Another line.
 
 Whoa, more lines!
+
+End those endless lines.

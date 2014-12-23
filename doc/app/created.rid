@@ -1,0 +1,7 @@
+Tue, 23 Dec 2014 12:44:21 +0200
+README.rdoc	Tue, 23 Dec 2014 12:39:15 +0200
+app/controllers/application_controller.rb	Tue, 23 Dec 2014 12:39:15 +0200
+app/controllers/products_controller.rb	Tue, 23 Dec 2014 12:39:15 +0200
+app/controllers/wellcome_controller.rb	Tue, 23 Dec 2014 12:39:15 +0200
+app/helpers/application_helper.rb	Tue, 23 Dec 2014 12:39:15 +0200
+app/models/product.rb	Tue, 23 Dec 2014 12:39:15 +0200

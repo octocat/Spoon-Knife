@@ -1,0 +1,2 @@
+class WellcomeController < ApplicationController; 
+end

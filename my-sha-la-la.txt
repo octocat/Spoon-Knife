@@ -5,3 +5,5 @@ gryaznye noski...
 vonyuchka ivann vsyu roissu provonyal
 
 ebatenki-kopatenki-spatenki
+
+eto plohoy message, sha ego: save -> add -> commit ---> revert HEAD

@@ -1,4 +1,6 @@
-### Well hello there! Look ma no centralized version control!
+### Well hello there!
+
+## Look ma no centralized version control!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -6,7 +6,7 @@
 
 3rd change
 
-7th change
+8th change
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

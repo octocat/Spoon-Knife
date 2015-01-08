@@ -1,5 +1,6 @@
-### Well hello there!
 # I made a change!!
+## And a secondary heading!
+### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

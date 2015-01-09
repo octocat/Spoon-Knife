@@ -1,9 +1,44 @@
-### Well hello there!
+import java.util.concurrent.TimeUnit;
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+import com.thoughtworks.selenium.SeleneseTestNgHelper;
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+public class Espn 
+{
+	FirefoxDriver driver;
+	SeleneseTestNgHelper st;
+	@BeforeClass
+	public void setup()
+	{
+		driver=new FirefoxDriver();
+		driver.get("http://espn.go.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	@Test
+	public void Navigation()
+	{
+		WebElement nfl=driver.findElement(By.xpath("//*[@id='menu-nfl']/a"));
+		new Actions(driver).moveToElement(nfl).perform();
+		driver.findElement(By.linkText("Scores")).click();
+		st.assertEquals(driver.findElement(By.xpath("//*[@class='section-title']")).getText(), "NFL Scoreboard");
+		
+		}
+	
+	@AfterClass
+	public void teardown()
+	{
+		driver.close();
+	}
+
+
+
+}
+

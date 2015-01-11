@@ -14,4 +14,163 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+/*atribute selectors diference: */
+p[name]{
+    color:blue;
+}
+
+p[name="Important"]{
+    color:red;
+}
+
+/* regular exepresions: */
+
+/* ^=-> orice obiect a carui  "name" incepe cu sirul de caractere specificat dupa el */
+
+p[name^="Ar"]{
+    color:green;
+}
+
+/* $=-> orice obiect a carui "name" se incheie cu sirul de caractere specificat */
+
+p[name$="za"]{
+    
+    text-decoration: line-through;
+}
+
+
+/* *=-> orice obiect a carui "name" contine sirul de caractere specificat */
+header{
+	clear: both;}
+
+p[name*="ant"]{
+    
+    text-decoration-style:dashed;
+    text-decoration:overline;
+}
+
+body:{
+    color:green;
+    display: -webkit-box;
+    -webkit-box-pack:center;
+	min-height: 100px;
+	min-width: 100px;
+    
+    
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+h1{
+    font:blold 20px Tahoma;
+}
+h2{
+    font:normal 15px Times New Roman;
+}
+
+nav{
+	z-index:1;
+	
+    height:auto;
+	width:100%;
+    background-color: red;
+    border-radius: 10px;
+	content: close-quote;
+	position:fixed;
+	clear:both;
+	float:none;
+}
+
+nav ul li {
+    display:inline-block;
+   
+    margin-top:auto;
+    font: bold 20 em ;
+    font-style: normal;
+    color:white;
+    padding:2.3%;;
+    font-family: antic-slab, sans-serif;
+	font-size: 125%;
+	
+
+}
+
+nav ul li:hover{
+	
+	background-color: #8C0005;
+
+}
+#tata {
+	width:60%;
+	margin:auto;
+	align-content: center;
+	padding:1%;
+	align-self: center;
+}
+iframe{
+width:99%;
+	align-self: center;
+	float:left;
+	
+}
+article {
+	
+	padding:2%;
+	border:1px solid black;
+	margin-top:2%;
+	float:left;
+	margin-right:2%;
+	width: 40%;
+}
+	
+}
+footer{
+	margin-top:auto;}
+p{
+	font-size: 1.3em;}
+
+aside{
+	
+	width: 19%;
+	height:19%;
+	border-radius: 10px;
+	float:none;
+	clear:right;
+	
+	position: fixed;
+	
+	
+
+
+}
+
+
+
+
+#sectiune_mare{
+	z-index:1;
+	align-self: center;
+	margin-top:120px;}
+
+#jos{
+height:20px;
+	position: relative;
+	clear:both;
+	
+}
+
+#left ul li{
+	
+padding:5px;
+font-family: Times New Roman, SERIF,sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+position: static;
+display:block;
+text-align: center;	
+border-bottom: 2px solid blue;
+	
+	
+}
 }

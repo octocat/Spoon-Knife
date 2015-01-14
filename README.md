@@ -17,6 +17,7 @@ the octocat/spoon-knife repo?
 	
 This updates the file both on my local machine and
 the hubbriter/s-k repo on github. (I think).
+	[Edit] Well it does after git push ... :-))
 
 I then issue a pull request? to octocat??
 

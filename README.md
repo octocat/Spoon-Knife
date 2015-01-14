@@ -8,22 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-I do not understand this. I'm beginning to dislike
-those 'oh it's easy, you just....' people.
-
-I add this and commit it to my 'fork' (branch?) of
-the octocat/spoon-knife repo?
-	git commit -a -m "insert pertinent message here"
-	
-This updates the file both on my local machine and
-the hubbriter/s-k repo on github. (I think).
-	[Edit] Well it does after git push ... :-))
-
-I then issue a pull request? to octocat??
-
-If the cat accepts the request the octocat/s-k repo readme
-gets updated so anyone forking after that would see these
-lines in the readme.md file?
-
-I think thats what would happen anyway. I really have
-to read more documentation.
+[DELETED]

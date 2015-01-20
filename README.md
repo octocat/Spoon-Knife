@@ -11,3 +11,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 Just trying to get buttons on Windows GitHub application. There are no tabs...
 Figured that the Sync icon replaced them...and that you have to change data in other programs. 
 Is there a simple way to push and pull complete Visual Studio projects?
+
+Try again. Now in a new branch.

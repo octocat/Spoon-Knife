@@ -8,4 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart
 
-don't forget "git checkout" to enter in the branch of the fork you have just created.
+don't forget "git checkout" to enter in the branch of the fork you have just created..

@@ -1,0 +1,9 @@
+<div data-role="view" data-title="Contacts" data-layout="main" data-model="APP.models.contacts">
+  <ul data-role="listview" data-style="inset" data-template="contactsTemplate" data-bind="source: ds"></ul>
+</div>
+
+<!-- this is the template used by the listview. template items are automatically
+     wrapped in an <li> by Kendo UI Mobile -->
+<script type="text/x-kendo-template" id="contactsTemplate">
+  <a data-bind="click: alert">#: data.name #</a>
+</script>

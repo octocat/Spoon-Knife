@@ -1,0 +1,8 @@
+{
+  "ProjectName": "alpha app frfx",
+  "ProjectGuid": "553b445f-61a3-4d71-9ce6-20f820a396c8",
+  "projectVersion": 1,
+  "ProjectTypeGuids": "{da2f9169-4696-40a5-919b-f73985228cac}",
+  "FrameworkVersion": "0.0.1",
+  "Framework": "MobileWebsite"
+}

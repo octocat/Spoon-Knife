@@ -1,0 +1,18 @@
+# Windows files
+*/**/Thumbs.db
+
+# Mac OS files
+*/**/.DS_Store
+*/**/__MACOSX/**/*
+
+# Visual Studio files
+bin/**/*
+obj/**/*
+
+# Source control files
+.gitignore
+.git/**/*
+
+# AppBuilder files
+.abignore
+.ab/**/*

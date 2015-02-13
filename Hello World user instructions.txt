@@ -1,0 +1,26 @@
+cinst git-credential-winstore -i "C:\Program Files (x86)\Git\bin\git.exe"
+
+https://github.com/MikhailJacques/Analoc.git
+
+
+https://github.com/MikhailJacques/Analoc.git
+
+
+git remote add origin https://github.com/MikhailJacques/Analoc.git
+
+
+git remote add origin https://github.com/MikhailJacques/Analoc.git
+
+
+Analoc's homework and its Windows installers
+
+D:\Programming\Analoc\Homework VS 2013
+
+git remote set-url origin https://github.com/MikhailJacques/Homework-VS-2013.git
+git remote add origin https://github.com/MikhailJacques/Homework-VS-2013.git
+
+Current branch does not have an upstream branch configured. 
+
+https://github.com/MikhailJacques/Spoon-Knife.git
+
+http://rickrainey.com/2013/07/27/visual-studio-and-gitub-the-basics-of-working-with-existing-repositories-2/

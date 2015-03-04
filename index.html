@@ -5,13 +5,34 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Spoon-Knife</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">  
+      var re = /(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}/;  
+      function testInfo(phoneInput){  
+        var OK = re.exec(phoneInput.value);  
+        if (!OK)  
+          window.alert(RegExp.input + "This isn't a phone number with area code!");  
+        else
+          window.alert("Thanks, your phone number is " + OK[0]);  
+      }  
+    </script>
 </head>
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+<img src="forkit.gif" id="octocat" alt="forkit" />
 
 <!-- Feel free to change this text here -->
+<p>
+  This a test for forking and editing files locally. @haixiangzhou
+</p>
+<p>
+  "Enter your phone number and the click "check"."
+  <br>
+  <form action="#">
+    <input id="phone">
+    <button onclick="testInfo(document.getElementById('phone'));">Check</button>
+  </form>
+</p>
 <p>
   Fork me? Fork you, @octocat!
 </p>

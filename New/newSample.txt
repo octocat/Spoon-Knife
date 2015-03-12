@@ -1,1 +1,3 @@
 This is the second sample for test branch.
+
+This change is made after master branch has been changed and commited to GIT but not GITHUB. So firstBranch has no idea of the changes.

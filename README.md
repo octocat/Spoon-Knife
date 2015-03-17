@@ -1,4 +1,4 @@
-### I am the Slave ... Where is my Master?
+### I am was a local Slave who found his local Master
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

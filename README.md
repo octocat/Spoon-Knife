@@ -2,9 +2,7 @@
 
 With this I will make a pull request
 
-
-
-
+yet another commit
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -3,10 +3,15 @@
   padding:0px;
 }
 
+
+
 #octocat {
   display: block;
   width:384px;
   margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  height: 10px;
 }
 
 p {

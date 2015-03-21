@@ -9,6 +9,11 @@
   margin: 50px auto;
 }
 
+html, body{
+	background: #FFF;
+	height: 100%;
+}
+
 p {
   display: block;
   width: 400px;

@@ -1,9 +1,9 @@
-### Well hello there!
+### Bo que pacha
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Este repositorio está destinado a proporcionar un ejemplo de *bifurcación* un repositorio en GitHub.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Creación de un tenedor * * es la producción de una copia personal de proyecto de otra persona. Forks actúan como una especie de puente entre el repositorio original y su copia personal. Puede enviar una solicitud de extracción * * para ayudar a que los proyectos de otras personas mejor, ofreciendo sus cambios hasta el proyecto original. La bifurcación está en el centro de la codificación social a GitHub.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+Después de que se bifurcan este repositorio, usted puede hacer algunos cambios en el proyecto, y presentar [a solicitud de extracción] (https://github.com/octocat/Spoon-Knife/pulls) como práctica.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+Por algo más de información sobre la forma de desembolsar un repositorio, [echa un vistazo a nuestra guía ", que se bifurcan" Proyectos "] (http://guides.github.com/overviews/forking/) Gracias:.! Sparkling_heart:

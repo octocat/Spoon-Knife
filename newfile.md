@@ -1,3 +1,3 @@
 ## Pull Request new file
 
-This is a new Markdown file to test [Pull Requests](http://guides.github.com/overviews/forking/). :thumbsup:
+This is a new Markdown file to test [Pull Requests](https://help.github.com/articles/using-pull-requests/). :thumbsup:

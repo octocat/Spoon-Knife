@@ -11,3 +11,7 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ### Just adding some changes here
 
 No worries, this is just text.
+
+### Making changes
+
+Let's open a pull request with this bad boy.

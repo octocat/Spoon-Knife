@@ -9,6 +9,16 @@
   margin: 50px auto;
 }
 
+.m{
+position:absolute;
+margin:5px;
+border:none;
+box-shadow:2px 2px 2px blue;
+background:#ffffff;
+top:20%;
+left:30%;
+}
+
 p {
   display: block;
   width: 400px;

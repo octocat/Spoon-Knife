@@ -1,5 +1,4 @@
 ### Well hello there!
-#2
 This is test the test
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

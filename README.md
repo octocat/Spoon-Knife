@@ -1,6 +1,6 @@
 ### Well hello there!
 
-### Nice To See You! Again!
+### Traying another sync
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

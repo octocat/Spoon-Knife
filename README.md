@@ -1,5 +1,4 @@
-### Well hello there!测试Github。。。。
-
+### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

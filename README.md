@@ -18,5 +18,3 @@ For some more information on how to fork a repository, [check out our guide,
 :sparkling_heart:
 
 Cool beans.
-
-Some more cool beans.

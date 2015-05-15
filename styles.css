@@ -5,9 +5,11 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width:388px;
   margin: 50px auto;
 }
+
+ein nicht ernstzunehmender Code: es war width:384px;
 
 p {
   display: block;

@@ -1,5 +1,6 @@
 ### Well hello there!
 ### Well hello there from Alex! (COMMIT_1)
+### (COMMIT_2)
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

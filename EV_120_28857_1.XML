@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Track xmlns="http://www.honda.com/tracking/vehicle">
+  <Head>
+    <SenderID>120</SenderID>
+    <SenderName>Virginia Transportation Corporation</SenderName>
+    <MsgSequence>28857</MsgSequence>
+    <SiteId>1</SiteId>
+    <EventCount>20</EventCount>
+    <ShipmentType>TRUCK</ShipmentType>
+    <MsgDateTime>2014-08-23T11:50:00Z</MsgDateTime>
+  </Head>
+  <Event SequenceID="1">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>206710</DestinationCD>
+    <EventLocation>
+      <City>SCOTIA</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12302</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.8475000</Latitude>
+        <Longitude>-73.9425000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H52FM707923</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="2">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>206710</DestinationCD>
+    <EventLocation>
+      <City>SCOTIA</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12302</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.8475000</Latitude>
+        <Longitude>-73.9425000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H80FM716839</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="3">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>206710</DestinationCD>
+    <EventLocation>
+      <City>SCOTIA</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12302</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.8475000</Latitude>
+        <Longitude>-73.9425000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H86FM702329</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="4">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>206710</DestinationCD>
+    <EventLocation>
+      <City>SCOTIA</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12302</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.8475000</Latitude>
+        <Longitude>-73.9425000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H86FM717414</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="5">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>206710</DestinationCD>
+    <EventLocation>
+      <City>SCOTIA</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12302</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.8475000</Latitude>
+        <Longitude>-73.9425000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H88FM708360</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="6">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207263</DestinationCD>
+    <EventLocation>
+      <City>ALBANY</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12205</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.6977777</Latitude>
+        <Longitude>-73.8100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H59FM717154</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="7">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207263</DestinationCD>
+    <EventLocation>
+      <City>ALBANY</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12205</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.6977777</Latitude>
+        <Longitude>-73.8100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H5XFM716062</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="8">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207263</DestinationCD>
+    <EventLocation>
+      <City>ALBANY</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12205</PostalCode>
+      <GPSCoordinates>
+        <Latitude>42.6977777</Latitude>
+        <Longitude>-73.8100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H87FM715297</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="9">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207498</DestinationCD>
+    <EventLocation>
+      <City>SARATOGA SPRINGS</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12866</PostalCode>
+      <GPSCoordinates>
+        <Latitude>43.0588889</Latitude>
+        <Longitude>-73.7877777</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H81FM713416</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="10">
+    <EventCode>TDELV</EventCode>
+    <EventDateTime>2014-08-23T11:50:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207498</DestinationCD>
+    <EventLocation>
+      <City>SARATOGA SPRINGS</City>
+      <State>NY</State>
+      <Country>USA</Country>
+      <PostalCode>12866</PostalCode>
+      <GPSCoordinates>
+        <Latitude>43.0588889</Latitude>
+        <Longitude>-73.7877777</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H86FM701682</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="11">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207637</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5G89FM717330</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="12">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207637</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H84FM717055</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="13">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>207637</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H86FM718725</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="14">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H50FM716068</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="15">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H84FM715614</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="16">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H85FM712155</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="17">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H87FM715770</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="18">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H88FM716264</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="19">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H89FM716595</VIN>
+    </Vehicle>
+  </Event>
+  <Event SequenceID="20">
+    <EventCode>TTOUT</EventCode>
+    <EventDateTime>2014-08-24T18:00:00Z</EventDateTime>
+    <OriginCD>F00</OriginCD>
+    <DestinationCD>208411</DestinationCD>
+    <EventLocation>
+      <City>North Kingstown</City>
+      <State>RI</State>
+      <Country>USA</Country>
+      <PostalCode>02852</PostalCode>
+      <GPSCoordinates>
+        <Latitude>41.6194445</Latitude>
+        <Longitude>-71.4100000</Longitude>
+      </GPSCoordinates>
+    </EventLocation>
+    <Vehicle VINCount="1">
+      <VIN>3HGGK5H8XFM702608</VIN>
+    </Vehicle>
+  </Event>
+</Track>

@@ -1,0 +1,20 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "prolir",
+    "author": {
+        "@type": "Person",
+        "name": "12hallo",
+        "image": "//www.gravatar.com/avatar/c5a9ab4a24f7d13deb3d9bcad6619ced?s=250&d=mm&r=x",
+        "url": "http://2hallo.ghost.io/author/12hallo",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "Welcome to Ghost",
+    "url": "http://2hallo.ghost.io/welcome-to-ghost/",
+    "datePublished": "2015-06-18T07:07:28.000Z",
+    "dateModified": "2015-06-18T07:11:23.000Z",
+    "image": "http://2hallo.ghost.io/content/images/2015/06/fj.png",
+    "keywords": "Getting Started",
+    "description": "You&#x27;re live! Nice. We&#x27;ve put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &amp;lt;your blog URL&amp;gt;/ghost/. When..."
+}

@@ -1,4 +1,13 @@
+commit code to repotory:
+
 1. git clone "url" 
 2. git add .
 3. git commit -m "add"
 4. git push -u origin master
+
+
+merge code to local repotory:
+
+1. git fetch origin
+2. git checkout master
+3. git merge origin/master

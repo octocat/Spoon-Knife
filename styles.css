@@ -5,13 +5,18 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width:400px;
   margin: 50px auto;
+  border-radius: 15px;
+  border: 10px solid lightgray;
 }
 
 p {
   display: block;
-  width: 400px;
+  width: 500px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 10px solid lightgray;
 }

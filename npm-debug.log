@@ -1,13 +1,13 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/Users/jon/.npm-packages/bin/npm', 'run', 'lint' ]
+1 verbose cli [ 'node', '/Users/jon/.npm-packages/bin/npm', 'run', 'test' ]
 2 info using npm@2.7.1
 3 info using node@v0.10.36
-4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
-5 info prelint Spoon-Knife@1.0.0
-6 info lint Spoon-Knife@1.0.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info pretest Spoon-Knife@1.0.0
+6 info test Spoon-Knife@1.0.0
 7 verbose unsafe-perm in lifecycle true
-8 info Spoon-Knife@1.0.0 Failed to exec lint script
-9 verbose stack Error: Spoon-Knife@1.0.0 lint: `eslint *.js`
+8 info Spoon-Knife@1.0.0 Failed to exec test script
+9 verbose stack Error: Spoon-Knife@1.0.0 test: `karma start my.conf.js --single-run`
 9 verbose stack Exit status 1
 9 verbose stack     at EventEmitter.<anonymous> (/Users/jon/.npm-packages/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
 9 verbose stack     at EventEmitter.emit (events.js:98:17)
@@ -18,17 +18,17 @@
 10 verbose pkgid Spoon-Knife@1.0.0
 11 verbose cwd /Users/jon/projects/Spoon-Knife
 12 error Darwin 14.4.0
-13 error argv "node" "/Users/jon/.npm-packages/bin/npm" "run" "lint"
+13 error argv "node" "/Users/jon/.npm-packages/bin/npm" "run" "test"
 14 error node v0.10.36
 15 error npm  v2.7.1
 16 error code ELIFECYCLE
-17 error Spoon-Knife@1.0.0 lint: `eslint *.js`
+17 error Spoon-Knife@1.0.0 test: `karma start my.conf.js --single-run`
 17 error Exit status 1
-18 error Failed at the Spoon-Knife@1.0.0 lint script 'eslint *.js'.
+18 error Failed at the Spoon-Knife@1.0.0 test script 'karma start my.conf.js --single-run'.
 18 error This is most likely a problem with the Spoon-Knife package,
 18 error not with npm itself.
 18 error Tell the author that this fails on your system:
-18 error     eslint *.js
+18 error     karma start my.conf.js --single-run
 18 error You can get their info via:
 18 error     npm owner ls Spoon-Knife
 18 error There is likely additional logging output above.

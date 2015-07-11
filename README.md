@@ -11,3 +11,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 You're welcome.
 
 You're super welcome!
+
+Thanks...

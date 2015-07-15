@@ -1,4 +1,5 @@
 ### Well hello there! I am here doing well ###
+Testing pull request creates a separate tag.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

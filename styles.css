@@ -19,3 +19,7 @@ p {
 .test {
   display: inline-block;
 }
+
+.more-change {
+  font-family: fantasy;
+}

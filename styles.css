@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  text-align: center;
 }
 
 #octocat {
@@ -16,6 +17,20 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
+.btn {
+  color: #003551;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #003551;
+  padding: 20px;
+  border-radius: 5px;
+  background: none;
+  line-height: 2px;
+  cursor: pointer; }
+  .btn:hover {
+    color: #005684;
+    border: 1px solid #005684; }
+
 .main, .calculator {
   width: 100%;
   height: 500px;
@@ -28,7 +43,7 @@ p {
 
 .content, .square {
   margin: 50px auto; }
- 
+
 .form {
   line-height: 30px;
   margin-bottom: 20px; }

@@ -1,3 +1,7 @@
+### Simple Calculator Added
+ Use the Calculator as you wish 
+
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

@@ -9,6 +9,12 @@
   margin: 50px auto;
 }
 
+img {
+  display: block;
+  /*width: 400px;*/
+  margin: 50px auto;
+}
+
 p {
   display: block;
   width: 400px;

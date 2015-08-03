@@ -1,0 +1,7 @@
+This is the first version of second file in a directory.
+
+Fixed some bugs in the code based on pull request review.
+
+Added a new line to the existing file.
+
+

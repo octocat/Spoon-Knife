@@ -1,0 +1,4 @@
+This is the first version of the first file.
+
+Let's see how it works in Git.
+

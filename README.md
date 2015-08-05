@@ -10,4 +10,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 ###### Additional Comment!
 Why don't you use GitHub? Do you not have a small budget?
-  
+
+I do not have a settlement rights! I wonder How was good to get the approval to the settlement officer...

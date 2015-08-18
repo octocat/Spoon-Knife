@@ -1,4 +1,4 @@
-### This is a conflict!!!
+### The issue/124
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

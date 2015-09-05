@@ -1,6 +1,7 @@
-### Well hello there!
+(Google 翻訳)
+###まあこんにちは！
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+このリポジトリはGitHubの上のリポジトリ*のフォーク*のための例を提供することを意味します。
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 

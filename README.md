@@ -3,8 +3,8 @@
 
 このリポジトリはGitHubの上のリポジトリ*のフォーク*のための例を提供することを意味します。
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+*フォーク*を作成すると、他の誰かのプロジェクトの個人的なコピーを生成しています。フォークは、元のリポジトリとあなたの個人的なコピーとの間のブリッジの一種として機能します。あなたが提出することができます*プル要求*元のプロジェクトにあなたの変更を提供することで、よりよい他の人のプロジェクトを支援します。フォークはGitHubのでソーシャルコーディングの中核です。
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+このリポジトリをフォークした後は、プロジェクトにいくつかの変更を加えることができ、およびプラクティスとして、[プルリクエスト]（https://github.com/octocat/Spoon-Knife/pulls）を提出。
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:

@@ -1,7 +1,7 @@
-(Google –|–ó)
-###‚Ü‚ ‚±‚ñ‚É‚¿‚ÍI
+(Google ç¿»è¨³)
+###ã¾ã‚ã“ã‚“ã«ã¡ã¯ï¼
 
-‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÍGitHub‚Ìã‚ÌƒŠƒ|ƒWƒgƒŠ*‚ÌƒtƒH[ƒN*‚Ì‚½‚ß‚Ì—á‚ğ’ñ‹Ÿ‚·‚é‚±‚Æ‚ğˆÓ–¡‚µ‚Ü‚·B
+ã“ã®ãƒªãƒã‚¸ãƒˆãƒªã¯GitHubã®ä¸Šã®ãƒªãƒã‚¸ãƒˆãƒª*ã®ãƒ•ã‚©ãƒ¼ã‚¯*ã®ãŸã‚ã®ä¾‹ã‚’æä¾›ã™ã‚‹ã“ã¨ã‚’æ„å‘³ã—ã¾ã™ã€‚
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 

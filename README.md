@@ -1,3 +1,7 @@
+This is my modification.
+This is another modification.
+This is yet another modification.
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

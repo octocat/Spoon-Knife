@@ -3,8 +3,8 @@
   padding:0px;
 }
 
-#octocat {
-  display: block;
+.octocat {
+  display: inline-block;
   width:384px;
   margin: 50px auto;
 }

@@ -1,0 +1,22 @@
+#include <stdio.h>
+int  forks;
+
+int main() {
+
+printf("Hello world");
+
+printf("How many forks are there in the tray?);
+scanf("%d", &forks);
+
+printf("There are %d forks in the tray!!!", forks);
+
+}
+
+
+
+
+
+
+
+
+

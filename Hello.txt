@@ -1,0 +1,4 @@
+This is a dummy file.
+It's just for testing purposes.
+Notice how I was clever and added a newline at the end!
+Let's see if it's accepted!

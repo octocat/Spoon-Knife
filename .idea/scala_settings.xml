@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaProjectSettings">
+    <option name="outputLimit" value="1000" />
+    <option name="showArgumentsToByNameParams" value="true" />
+  </component>
+</project>

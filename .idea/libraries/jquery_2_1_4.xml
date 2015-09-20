@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jquery-2.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/jquery-2.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/jquery-2.1.4.jar!/" recursive="false" />
+  </library>
+</component>

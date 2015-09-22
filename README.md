@@ -9,6 +9,7 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -22,3 +23,9 @@ yuzjkljkj
 goodboy
 higirl
 >>>>>>> parent of 3d7ff8c... brokt
+=======
+hi,all
+the
+
+to
+>>>>>>> parent of c3f6574... hi

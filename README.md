@@ -16,5 +16,4 @@ result
 
 to
 the
-people
 !

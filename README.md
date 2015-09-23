@@ -1,11 +1,8 @@
 ### Well hello there!
 
 this line is new
-<<<<<<< HEAD
 this is third new line
-=======
 this is second new line
->>>>>>> fff378e6b55a321751ccee8a8d28e8ce7476f11a
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

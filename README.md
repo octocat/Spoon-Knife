@@ -1,6 +1,7 @@
 ### Well hello there!
 
 this line is new
+this is second new line
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

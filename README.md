@@ -7,6 +7,7 @@ this is second new line
 this is fourth new line
 
 this is sixth new line
+this is fifth new line
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

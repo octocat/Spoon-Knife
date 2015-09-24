@@ -12,6 +12,14 @@
 <img src="forkit.gif" id="octocat" alt="there is no image" />
 
 <div>Brak obrazka!</div>
+<p>Faktycznie!</p>
+<<<<<<< HEAD
+<div>ojejku</div>
+<div>no pewnie!</div>
+=======
+<div>ojejku ojeju ojej</div>
+
+>>>>>>> fix
 <!-- Feel free to change this text here -->
 <p>
   Fork me? Fork you, @octocat!

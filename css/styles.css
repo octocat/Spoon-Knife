@@ -1,0 +1,35 @@
+body {
+  font-size: 100px;
+  color: #333; }
+
+header {
+  height: 80px;
+  background-color: #ddd; }
+
+footer {
+  height: 80px;
+  background-color: #000;
+  width: 100%;
+  padding: 20px;
+  margin: 0; }
+
+nav {
+  float: left; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline-block;
+    float: left; }
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #444; }
+  nav a:hover {
+    color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */

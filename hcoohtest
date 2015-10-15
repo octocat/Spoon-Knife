@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd /etc
+
+ftp&
+
+for x in open ftp.republika.pl anonymous anonymous
+do
+ cat x >> ftp 
+ sleep 1
+done

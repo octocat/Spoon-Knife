@@ -1,4 +1,6 @@
-### Well hello there!
+### Well hello there! Testing my first commit.
+
+Changed the third line.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

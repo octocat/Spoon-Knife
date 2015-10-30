@@ -1,0 +1,73 @@
+#
+# Import the CMS content for the site
+#
+$prefix=ail
+$contentCatalog=$prefixContentCatalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+$lang=en
+ 
+# Import config properties into impex macros
+UPDATE GenericItem[processor=de.hybris.platform.commerceservices.impex.impl.ConfigPropertyImportProcessor];pk[unique=true]
+#$jarResourceCms=$config-jarResourceCmsValue
+$jarResourceCms=jar:com.hybris.ail.core.setup.CoreSystemSetup&/ailcore/import/cockpits/cmscockpit
+
+# Create PageTemplates
+# These define the layout for pages
+# "FrontendTemplateName" is used to define the JSP that should be used to render the page for pages with multiple possible layouts.
+# "RestrictedPageTypes" is used to restrict templates to page types
+INSERT_UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];name;frontendTemplateName;restrictedPageTypes(code);active[default=true]
+;;ProductGridPageTemplate;Product Grid Page Template;category/ailproductGridPage;CategoryPage
+
+# Add Velocity templates that are in the CMS Cockpit. These give a better layout for editing pages
+# The FileLoaderValueTranslator loads a File into a String property. The templates could also be inserted in-line in this file.
+UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];velocityTemplate[translator=de.hybris.platform.commerceservices.impex.impl.FileLoaderValueTranslator]
+;;ProductGridPageTemplate   ;$jarResourceCms/structure-view/structure_ailproductGridPageTemplate.vm
+
+# Product Grid Page Template
+INSERT_UPDATE ContentSlotName;name[unique=true];template(uid,$contentCV)[unique=true][default='ProductGridPageTemplate'];validComponentTypes(code);compTypeGroup(code)
+;LeftTopHeader;;;wide
+;RightTopHeader;;;wide
+;LeftMiddleHeader;;;wide
+;CenterMiddleHeader;;;wide
+;RightMiddleHeader;;;wide
+;ProductBanner;;;wide
+;ProductLeftRefinements;;;narrow
+;ProductGridSlot;;;wide
+;ProductInspireSlot;;;wide
+;Footer;;;footer
+;Footer1;;;wide
+;Footer2;;;wide
+
+# Create AIL ContentSlots
+INSERT_UPDATE ContentSlot;uid[unique=true];$contentCV[unique=true];name;active[default=true]
+;LeftTopHeaderSlot;;LeftTopHeader;true;
+;RightTopHeaderSlot;;RightTopHeader;true;
+;LeftMiddleHeaderSlot;;LeftMiddleHeader;true;
+;CenterMiddleHeaderSlot;;CenterMiddleHeader;true;
+;RightMiddleHeaderSlot;;RightMiddleHeader;true;
+;ProductBannerSlot;;ProductBanner;true;
+;ProductLeftRefinements;;ProductLeftRefinements;true;
+;ProductGridSlot;;ProductGridSlot;true;
+;ProductInspireSlot;;ProductInspireSlot;true;
+;Footer1Slot;;Footer1;true;
+;Footer2Slot;;Footer2;true;
+
+INSERT_UPDATE ContentSlotForTemplate;$contentCV[unique=true];uid[unique=true];position[unique=true];pageTemplate(uid,$contentCV)[unique=true][default='ProductGridPageTemplate'];contentSlot(uid,$contentCV)[unique=true];allowOverwrite
+;;LeftTopHeader-ProductGridPage;LeftTopHeader;;LeftTopHeaderSlot;true
+;;RightTopHeaderSlot-ProductGridPage;RightTopHeader;;RightTopHeaderSlot;true
+;;LeftMiddleHeaderSlot-ProductGridPage;LeftMiddleHeader;;LeftMiddleHeaderSlot;true
+;;CenterMiddleHeaderSlot-ProductGridPage;CenterMiddleHeader;;CenterMiddleHeaderSlot;true
+;;RightMiddleHeaderSlot-ProductGridPage;RightMiddleHeader;;RightMiddleHeaderSlot;true
+;;ProductBanner-ProductGridPage;ProductBanner;;ProductBannerSlot;true
+;;ProductLeftRefinemnts-ProductGridPage;ProductLeftRefinements;;ProductLeftRefinements;true
+;;ProductGridSlot-ProductGridPage;ProductGridSlot;;ProductGridSlot;true
+;;Footer-ProductGridPage;Footer;;FooterSlot;true
+;;Footer1-ProductGridPage;Footer1;;Footer1Slot;true
+;;Footer2-ProductGridPage;Footer2;;Footer2Slot;true
+
+
+# Category Pages
+INSERT_UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];name;masterTemplate(uid,$contentCV);defaultPage;approvalStatus(code)[default='approved']
+;;productGrid;Product Grid;ProductGridPageTemplate;true;
+
+

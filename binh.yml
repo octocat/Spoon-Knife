@@ -2,4 +2,10 @@
 
 #this is test number 2
 
+<<<<<<< HEAD
 #test 3
+=======
+#this is test 3
+
+#test 4
+>>>>>>> e59a7983fca5094cf94f85d9cea462331c7751cf

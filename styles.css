@@ -3,6 +3,10 @@
   padding:0px;
 }
 
+h1 {
+    color:red;
+}
+
 #octocat {
   display: block;
   width:384px;

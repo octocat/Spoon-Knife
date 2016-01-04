@@ -8,7 +8,9 @@
   width:384px;
   margin: 50px auto;
 }
-
+div {
+  display: block;
+}
 p {
   display: block;
   width: 400px;

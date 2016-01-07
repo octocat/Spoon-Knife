@@ -1,3 +1,29 @@
+/*Styling for the body */
+html {
+	background-image:url(github%20cat.jpg);
+	background-repeat:repeat-y;
+	background-size: 100%;
+}
+
+body {
+	background-color: white;
+	width: 600px; 
+	/*height: 500px; */
+	right: -700px;
+	position: relative;
+}
+
+/* Image styling */
+.logo {
+	width: 600px;
+	height: relative; 
+}
+
+.gif {
+	width: 600px;
+	height: relative; 
+}
+
 * {
   margin:0px;
   padding:0px;
@@ -10,7 +36,7 @@
 }
 
 p {
-  display: block;
+  display:inline;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;

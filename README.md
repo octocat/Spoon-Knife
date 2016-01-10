@@ -8,4 +8,5 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-Add a comment for test for test branch - 10Jan2016. (matthew)
+//Add a comment for test for test branch - 10Jan2016. (matthew)
+Add comment for test in the four test branch - 10Jan2016 (matthew)

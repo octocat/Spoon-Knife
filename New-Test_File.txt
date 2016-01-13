@@ -1,3 +1,5 @@
 This is a test text file for updating the master branch.
 
 Added this line
+
+Added this line in ProposedChaanges branch

@@ -1,1 +1,2 @@
-hello world!
+nihao hello world!
+maybe another file to examine the existence of the project

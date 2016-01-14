@@ -17,4 +17,7 @@ p {
 }
 
 认生
-到底 我这边的master是主线上的master吗？
+到底 我这边的master是主线上的master吗？测试证明不是主线上的master   也不可能是主线上的版本     是fork后的主版本，我们在
+主版本的基础上还可以创建分支版本
+
+提交到分支版本 利用pull request

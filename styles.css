@@ -15,3 +15,13 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+h1 { 
+	text-align: center; 
+	font: 60px "Myriad","Myriad Pro","Arial";
+	font-weight: bold; 
+	color: indianred;
+	Margin: 1em 0;
+}
+
+img { max-width: 150px; }

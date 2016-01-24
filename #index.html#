@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+q<!DOCTYPE html>
 
 <html>
 <head>
@@ -12,18 +12,9 @@
 <img src="forkit.gif" id="octocat" alt="" />
 
 <!-- Feel free to change this text here -->
-
-PULL REQUEST TEST
-
 <p>
   Fork me? Fork you, @octocat!
-  Test text test
 </p>
-<p>
-  San Francisco 1-24-16
-</p>
-
-variation text
 
 </body>
 </html>

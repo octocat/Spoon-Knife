@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8"/>
+<title>Feedback Form</title>
+</head>
+<body>
+<header>
+<h1>Spoon-Knife Project</h1>
+<header>
+<section>
+<form name = "fD" method = "POST" action = "index.html">
+<table>
+<tr>
+<td><textarea rows = "24" cols="24" placeholder = "Type your comments here"></textarea></td>
+</tr>
+<tr>
+<td>
+<button type = "submit" name = "sbmtBtn" onClick = "">Suggest</button>
+<button type = "reset" name = "ClrFrm" onClick = "">Reset Form</button>
+</td>
+</tr>
+</form>
+</section>
+<footer>
+<em>&#169; 2016 By hashmiDeveloper745</em>
+</footer>
+</body>
+</html>

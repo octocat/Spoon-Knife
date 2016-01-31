@@ -3,15 +3,29 @@
   padding:0px;
 }
 
-#octocat {
+/*#octocat {
   display: block;
   width:384px;
   margin: 50px auto;
-}
+}*/
 
 p {
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+#gitfork {
+  width: 120px;
+  height: 192px;
+}
+
+#forkbox {
+  text-align: center;
+  margin: 50px auto;
+}
+
+span {
+  float: right;
 }

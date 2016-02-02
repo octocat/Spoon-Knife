@@ -8,10 +8,6 @@ body {
   background-image: linear-gradient(180deg, rgba(255,255,255,0) 60%, #fff), linear-gradient(70deg, #e0f1ff 32%, #fffae3);
 }
 
-body {
-/*  background-color: #e6f1f6;*/
-}
-
 #octocat {
   display: block;
   width:384px;

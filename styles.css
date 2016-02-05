@@ -3,6 +3,11 @@
   padding:0px;
 }
 
+h1 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
 #octocat {
   display: block;
   width:384px;

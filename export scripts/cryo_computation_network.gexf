@@ -15,6 +15,7 @@
       <node id="6" label="Apie"/>
     </nodes>
     <edges>
+     <edge id="0" source="1" target="6" weight="1"/>
     </edges>
   </graph>
 </gexf>

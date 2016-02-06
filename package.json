@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "http-server --cors -p 9090"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2015-09-28">
+    <creator>NodosChile</creator>
+    <description>A graph file writing in R using "rgexf"</description>
+    <keywords>gexf graph, NodosChile, R, rgexf</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <nodes>
+      <node id="1" label="ACTB"/>
+      <node id="2" label="AIFM1"/>
+      <node id="3" label="AKT1"/>
+      <node id="4" label="AKT1_2_3.pS473"/>
+      <node id="5" label="AKT1_2_3.pT308"/>
+      <node id="6" label="ASH2L"/>
+      <node id="7" label="ASNS"/>
+      <node id="8" label="ATF3"/>
+      <node id="9" label="ATG7"/>
+      <node id="10" label="BAD.pS112"/>
+      <node id="11" label="BAD.pS136"/>
+      <node id="12" label="BAD.pS155"/>
+      <node id="13" label="BCL2"/>
+      <node id="14" label="BCL2L1"/>
+      <node id="15" label="BECN1"/>
+      <node id="16" label="BID"/>
+    </nodes>
+    <edges>
+    </edges>
+  </graph>
+</gexf>

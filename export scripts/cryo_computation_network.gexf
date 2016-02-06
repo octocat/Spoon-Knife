@@ -12,6 +12,7 @@
       <node id="3" label="AKT1"/>
       <node id="4" label="AKT1_2_3.pS473"/>
       <node id="5" label="AKT1_2_3.pT308"/>
+      <node id="6" label="Apie"/>
     </nodes>
     <edges>
     </edges>

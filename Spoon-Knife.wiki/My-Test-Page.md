@@ -1,0 +1,1 @@
+![Here's a cool pic of octocat] ('github-octocat_yes-we-code.jpg')

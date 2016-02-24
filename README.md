@@ -12,3 +12,7 @@ I like =computer science=
 and watching American vedios like S-H-I-E-L-D
 
 That's all
+
+printf("hello world!");
+
+That's all

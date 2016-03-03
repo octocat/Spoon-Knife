@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<bookstore>
+  <shops id="1" idas="newvalue">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+    <Language>korian</Language>
+    <Language>korian</Language>
+    <Language/>
+    <Language>Language</Language>
+  </shops>
+  <book id="2" category="web">
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+    <Language>korian</Language>
+    <Language/>
+    <Language>Language</Language>
+  </book>
+</bookstore>

@@ -37,6 +37,32 @@
       <node id="28" label="CCNE2"/>
       <node id="29" label="CD44"/>
       <node id="30" label="CD74"/>
+      <node id="31" label="CASP3"/>
+      <node id="32" label="CASP3.cl175"/>
+      <node id="33" label="CASP3.cl175"/>
+      <node id="34" label="CASP7.cl198"/>
+      <node id="35" label="CASP8"/>
+      <node id="36" label="CASP9.cl315"/>
+      <node id="37" label="CBL"/>
+      <node id="38" label="CCNB1"/>
+      <node id="39" label="CCND1"/>
+      <node id="40" label="CCNE2"/>
+      <node id="41" label="CD44"/>
+      <node id="42" label="CD74"/>
+      <node id="43" label="CASP3"/>
+      <node id="44" label="CASP3.cl175"/>
+      <node id="45" label="CASP3.cl175"/>
+      <node id="46" label="CASP7.cl198"/>
+      <node id="47" label="CASP8"/>
+      <node id="48" label="CASP9.cl315"/>
+      <node id="49" label="CBL"/>
+      <node id="50" label="CCNB1"/>
+      <node id="51" label="CCND1"/>
+      <node id="52" label="CCNE2"/>
+      <node id="53" label="CD44"/>
+      <node id="54" label="CD74"/>
+      <node id="55" label="CASP3"/>
+      <node id="56" label="CASP3.cl175"/>
     </nodes>
     <edges>
      <edge id="0" source="1" target="6" weight="1"/>
@@ -61,14 +87,22 @@
       <edge id="19" source="3" target="20" weight="1"/>
       <edge id="20" source="3" target="21" weight="1"/>
       <edge id="21" source="3" target="22" weight="1"/>
-      <edge id="22" source="3" target="23" weight="1"/>
-      <edge id="23" source="3" target="24" weight="1"/>
+      <edge id="22" source="7" target="23" weight="1"/>
+      <edge id="23" source="9" target="24" weight="1"/>
       <edge id="24" source="3" target="25" weight="1"/>
       <edge id="25" source="3" target="26" weight="1"/>
       <edge id="26" source="3" target="27" weight="1"/>
-      <edge id="27" source="3" target="28" weight="1"/>
+      <edge id="27" source="1" target="28" weight="1"/>
       <edge id="28" source="3" target="29" weight="1"/>
       <edge id="29" source="1" target="30" weight="1"/>
+      <edge id="30" source="3" target="21" weight="1"/>
+      <edge id="31" source="4" target="22" weight="1"/>
+      <edge id="32" source="3" target="3" weight="1"/>
+      <edge id="33" source="3" target="24" weight="1"/>
+      <edge id="34" source="5" target="3" weight="1"/>
+      <edge id="35" source="3" target="3" weight="1"/>
+      <edge id="36" source="6" target="3" weight="1"/>
+      <edge id="37" source="3" target="17" weight="1"/>
     </edges>
   </graph>
 </gexf>

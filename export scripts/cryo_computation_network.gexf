@@ -103,6 +103,25 @@
       <edge id="35" source="3" target="3" weight="1"/>
       <edge id="36" source="6" target="3" weight="1"/>
       <edge id="37" source="3" target="17" weight="1"/>
+      <edge id="38" source="3" target="25" weight="1"/>
+      <edge id="39" source="3" target="26" weight="1"/>
+      <edge id="40" source="3" target="27" weight="1"/>
+      <edge id="41" source="1" target="28" weight="1"/>
+      <edge id="42" source="3" target="29" weight="1"/>
+      <edge id="43" source="1" target="30" weight="1"/>
+      <edge id="44" source="3" target="21" weight="1"/>
+      <edge id="45" source="4" target="22" weight="1"/>
+      <edge id="46" source="3" target="3" weight="1"/>
+      <edge id="47" source="3" target="24" weight="1"/>
+      <edge id="48" source="5" target="3" weight="1"/>
+      <edge id="49" source="3" target="3" weight="1"/>
+      <edge id="50" source="6" target="3" weight="1"/>
+      <edge id="51" source="3" target="17" weight="1"/>
+      <edge id="52" source="3" target="3" weight="1"/>
+      <edge id="53" source="3" target="24" weight="1"/>
+      <edge id="54" source="5" target="3" weight="1"/>
+      <edge id="55" source="3" target="3" weight="1"/>
+      <edge id="56" source="6" target="3" weight="1"/>
     </edges>
   </graph>
 </gexf>

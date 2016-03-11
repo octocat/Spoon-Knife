@@ -63,6 +63,22 @@
       <node id="54" label="CD74"/>
       <node id="55" label="CASP3"/>
       <node id="56" label="CASP3.cl175"/>
+      <node id="57" label="CD44"/>
+      <node id="58" label="CD74"/>
+      <node id="59" label="CASP3"/>
+      <node id="60" label="CASP3.cl175"/>
+      <node id="61" label="CASP3.cl175"/>
+      <node id="62" label="CASP7.cl198"/>
+      <node id="63" label="CASP8"/>
+      <node id="64" label="CASP9.cl315"/>
+      <node id="65" label="CBL"/>
+      <node id="66" label="CCNB1"/>
+      <node id="67" label="CCND1"/>
+      <node id="68" label="CCNE2"/>
+      <node id="69" label="CD44"/>
+      <node id="70" label="CD74"/>
+      <node id="71" label="CASP3"/>
+      <node id="72" label="CASP3.cl175"/>
     </nodes>
     <edges>
      <edge id="0" source="1" target="1" weight="1"/>
@@ -114,14 +130,41 @@
       <edge id="46" source="3" target="47" weight="1"/>
       <edge id="47" source="3" target="48" weight="1"/>
       <edge id="48" source="17" target="49" weight="1"/>
-      <edge id="49" source="3" target="50" weight="1"/>
+      <edge id="49" source="51" target="50" weight="1"/>
       <edge id="50" source="6" target="51" weight="1"/>
       <edge id="51" source="3" target="52" weight="1"/>
-      <edge id="52" source="3" target="53" weight="1"/>
-      <edge id="53" source="3" target="54" weight="1"/>
+      <edge id="52" source="25" target="53" weight="1"/>
+      <edge id="53" source="21" target="54" weight="1"/>
       <edge id="54" source="5" target="55" weight="1"/>
       <edge id="55" source="10" target="56" weight="1"/>
       <edge id="56" source="6" target="57" weight="1"/>
+      <edge id="57" source="1" target="58" weight="1"/>
+      <edge id="58" source="3" target="59" weight="1"/>
+      <edge id="59" source="4" target="60" weight="1"/>
+      <edge id="60" source="3" target="61" weight="1"/>
+      <edge id="61" source="3" target="62" weight="1"/>
+      <edge id="62" source="17" target="63" weight="1"/>
+      <edge id="63" source="3" target="64" weight="1"/>
+      <edge id="64" source="6" target="65" weight="1"/>
+      <edge id="65" source="3" target="66" weight="1"/>
+      <edge id="66" source="3" target="67" weight="1"/>
+      <edge id="67" source="3" target="68" weight="1"/>
+      <edge id="68" source="5" target="69" weight="1"/>
+      <edge id="69" source="10" target="70" weight="1"/>
+      <edge id="70" source="6" target="71" weight="1"/>
+      <edge id="71" source="3" target="72" weight="1"/>
+      <edge id="72" source="4" target="1" weight="1"/>
+      <edge id="73" source="3" target="3" weight="1"/>
+      <edge id="74" source="3" target="67" weight="1"/>
+      <edge id="75" source="17" target="53" weight="1"/>
+      <edge id="76" source="3" target="50" weight="1"/>
+      <edge id="77" source="67" target="51" weight="1"/>
+      <edge id="78" source="69" target="52" weight="1"/>
+      <edge id="79" source="45" target="53" weight="1"/>
+      <edge id="80" source="3" target="49" weight="1"/>
+      <edge id="81" source="5" target="28" weight="1"/>
+      <edge id="82" source="72" target="63" weight="1"/>
+      <edge id="83" source="59" target="59" weight="1"/>
     </edges>
   </graph>
 </gexf>

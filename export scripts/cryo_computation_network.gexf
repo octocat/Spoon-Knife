@@ -7,7 +7,7 @@
   </meta>
   <graph mode="static" defaultedgetype="undirected">
     <nodes>
-      <node id="1" label="ACTB"/>
+      <node id="ACTB" label="1"/>
       <node id="2" label="AIFM1"/>
       <node id="3" label="AKT1"/>
       <node id="4" label="AKT1_2_3.pS473"/>

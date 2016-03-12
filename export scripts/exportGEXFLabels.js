@@ -20,6 +20,7 @@ labelsText = labelsText.concat("]");
 
 console.log(labelsText);
 
+
 console.log("Graph has " + graph.getNodesCount() + " nodes.");
 
 fs.writeFile("../cryo/data/labels.json", labelsText, function(err) {

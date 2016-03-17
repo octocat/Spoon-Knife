@@ -7,11 +7,27 @@
   display: block;
   width:384px;
   margin: 50px auto;
+  color: #FE2EC8;
 }
 
 p {
+  color:#FE2EC8;
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+#footer {
+    background-color:cyan;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:20px; 
+}
+
+#header {
+    background-color:#E0F8EC;
+    color:white;
+    text-align:center;
+    padding:15px;
 }

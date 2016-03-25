@@ -7,3 +7,6 @@ from local to push
 
 
 prepare use "git push Or* or*/master" to see what happen after this 
+
+
+from branch test to "git push OR* mas*"

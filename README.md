@@ -1,9 +1,18 @@
-### Well hello there!
+###Hello my name is mao yuan liang
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+only kidding
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+my name is**符凯华**
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+I'm a *freshman* yeah
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+对了 我表示 我是**小白**（除了会C和C++的部分）
+
+I like =computer science=
+and watching American vedios like S-H-I-E-L-D
+
+That's all
+
+printf("hello world!");
+
+That's all

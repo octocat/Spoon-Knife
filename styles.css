@@ -3,10 +3,13 @@
   padding:0px;
 }
 
-#octocat {
+.octocat {
   display: block;
   width:384px;
   margin: 50px auto;
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
 }
 
 p {

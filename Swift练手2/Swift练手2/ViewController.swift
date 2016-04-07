@@ -22,9 +22,7 @@ class ViewController: UIViewController {
         }
         
         let shape = Shape()
-        //给类的属性  赋值
         shape.numberOfSides = 7
-        //调用Shape的函数
         let shapeDescription = shape.simpleDescription()
         print("调用Shape类里面的函数",shapeDescription)
         

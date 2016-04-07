@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         shape.numberOfSides = 7
         let shapeDescription = shape.simpleDescription()
         print("调用Shape类里面的函数",shapeDescription)
-        
+        //这是测试
+        print("")
         
     
     }

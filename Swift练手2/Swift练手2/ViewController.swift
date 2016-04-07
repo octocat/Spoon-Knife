@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //TODO:类和对象
+      
         class Shape{
             var numberOfSides = 0
             func simpleDescription() -> String {

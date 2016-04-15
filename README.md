@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there, Welcome to the edited version of Spoon-Knife!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

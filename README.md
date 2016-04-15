@@ -1,4 +1,4 @@
-### Well hello there, Welcome to the edited version of Spoon-Knife!
+### Well hello there, Welcome to How to fork a repository!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,4 +1,4 @@
-### Well hello there, Welcome to How to fork a repository!
+### Well hello there, welcome to how to fork a repository!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

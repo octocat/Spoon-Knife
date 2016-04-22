@@ -5,11 +5,13 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width: 384px;
   margin: 50px auto;
+  border: 4px solid #7dbbe6;
 }
 
 p {
+  color: #ad5b50;
   display: block;
   width: 400px;
   margin: 50px auto;

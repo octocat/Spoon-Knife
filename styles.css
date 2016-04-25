@@ -4,6 +4,10 @@
   line-height: 20px;
 }
 
+body{
+background:#000;
+}
+
 #octocat {
   display: block;
   width:384px;

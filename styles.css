@@ -13,5 +13,16 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
+  padding: '7px 10px',
+  opacity: 0.9,
+  background: '#2c95dd',
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: '#fff',
+  textDecoration: 'none',
+  border: 'solid 2px #fff',
+  borderRadius: '5px',
+  MozBorderRadius: '5px',
+  MozBoxShadow: '0 0 20px #000',
+  WebkitBorderRadius: '5px',
+  WebkitBoxShadow: '0 0 20px #000'
 }

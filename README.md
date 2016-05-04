@@ -9,13 +9,5 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 
-added by master
-
-addedby branch 1
-
-added by master1
-
-added by branch1 in desktop, atom editor;
 
 
-added by master in github;

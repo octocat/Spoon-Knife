@@ -8,3 +8,5 @@ After forking this repository, you can make some changes to the project, and sub
 
 added by github. master
 added by desktop. master
+
+added by desktop. master 1. End-Of-Line to Unix style;

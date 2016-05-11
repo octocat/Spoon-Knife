@@ -1,3 +1,6 @@
+Timestamp at 15:06.
+Timestamp at 14:32.
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

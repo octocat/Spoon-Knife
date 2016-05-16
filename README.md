@@ -10,6 +10,7 @@ added by github. master
 added by desktop. master
 
 added by desktop. master 1. End-Of-Line to Unix style;
+
 added by desktop. master 2. End-Of-Line to Unix style;
 
 added by github, master 3

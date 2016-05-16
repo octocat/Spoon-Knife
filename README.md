@@ -18,5 +18,5 @@ added by github, master 3
 added by desktop. master 4. End-Of-Line to Unix style;	
 eol = lf
 autocrlf = true
-notepad ++ eol : windows ·Î ¼³Á¤
+notepad ++ eol : windows
 added by desktop. master 5. End-Of-Line to Unix style;

@@ -1,0 +1,6 @@
+* whitespace=!indent,trail,space
+*.[ch] whitespace=indent,trail,space
+*.sh whitespace=indent,trail,space
+
+* text = auto
+*.md text eol=lf

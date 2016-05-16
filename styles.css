@@ -13,5 +13,12 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
+}
+
+p.basic-font {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+p.alter-font {
+  font: 40px Monaco,"Narkisim","David","Times New Roman",monospace;
 }

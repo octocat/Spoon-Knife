@@ -20,3 +20,8 @@ eol = lf
 autocrlf = true
 notepad ++ eol : windows
 added by desktop. master 5. End-Of-Line to Unix style;
+
+added by desktop. master 1058. End-Of-Line to Unix style;	
+eol = lf
+notepad ++ eol : windows
+added by desktop. master 1058. End-Of-Line to Unix style;

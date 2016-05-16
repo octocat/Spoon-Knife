@@ -1,6 +1,5 @@
-* whitespace=!indent,trail,space
-*.[ch] whitespace=indent,trail,space
-*.sh whitespace=indent,trail,space
+# Auto detect text files and perform LF normalization
+* text=auto
 
-* text = auto
-*.md text eol=lf
+# JS files must always use LF for tools to work
+*.js eol=lf

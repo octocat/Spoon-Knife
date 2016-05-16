@@ -2,7 +2,7 @@ Timestamp at 15:06.
 Timestamp at 14:32.
 Timestamp at 10:38 on 5/16.
 
-### Well hello there!
+### Well hello there! Generic Readme
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

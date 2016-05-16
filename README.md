@@ -50,3 +50,8 @@ added by desktop. master 1204. End-Of-Line to Unix style;
 eol = lf
 notepad ++ eol : windows
 added by desktop. master 1204. End-Of-Line to Unix style;
+
+added by desktop. master 1207. End-Of-Line to Unix style;
+eol = lf
+notepad ++ eol : windows
+added by desktop. master 1207. End-Of-Line to Unix style;

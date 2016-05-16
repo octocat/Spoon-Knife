@@ -3,4 +3,4 @@
 
 # JS files must always use LF for tools to work
 *.js eol=lf
-*.md text eol=lf
+*.md eol=lf

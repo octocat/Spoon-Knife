@@ -1,0 +1,31 @@
+-- Challenge1
+
+import Data.List
+import System.IO
+import System.Environment
+import System.Exit
+
+
+isdivisible div =
+	if (div `rem` 2 == 0 && div `rem` 4 == 0 )
+		then "FizzBuzz" 
+	else if (div `rem` 2 == 0)
+		then "Fizz"
+	else if (div `rem` 4 == 0)
+		then "Buzz"
+	else  show div
+	
+start = map ([isdivisible x| x <- [1..6])]
+ttttttttttttttttt
+	
+
+
+
+
+
+
+
+
+
+
+

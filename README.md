@@ -53,6 +53,7 @@ Python <solution.py> <directory of the file>
 Output:
 ```ruby
 Directory:  c:/Users/rfc/desktop/file.txt
+
 AY | 44332211
 NAY | 98433200
 NAY | zzpia

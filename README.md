@@ -27,6 +27,10 @@ To run the solution, please enter the command below:
 ```ruby
 *Main>start (2, 4, 6)
 ```
+Output:
+```ruby
+["1","Fizz","3","FizzBuzz","5","Fizz"]
+```
 
 You can decide which numbers will be entered, but it has to be 3 numbers.
 
@@ -44,9 +48,44 @@ Please, see the example below:
 Python <solution.py> <directory of the file>
 #Example: Python c:/users/rfc/desktop/challenge2_python.py c:/Users/rfc/desktop/file.txt
 ```
+Output:
+```ruby
+Directory:  c:/Users/rfc/desktop/file.txt
+AY | 44332211
+NAY | 98433200
+NAY | zzpia
+AY | pooiihhbbaa
+NAY | uutssrnnllliihfeebaPI
+AY | xnaaX
+```
+
 **And one compiled, statically typed: Rust**
 
+To run the solution, please enter:
+
 ```ruby
-rustc Challenge@_rust.rs
+rustc Challenge2_rust.rs -A warning
+```
+
+The command above will compile the solution and now we have to run the executable by:
+
+```ruby
+./Challenge2_rust <directory>
+### <directory> is where the file with word is placed
+```
+Example:
+```ruby
+./Challenge2_rust /home/rfc/Desktop/file.txt
+```
+Output:
+```ruby
+Directory: "/home/rfc/Desktop/file.txt"
+
+AY | 44332211
+NAY | 98433200
+NAY | zzpia
+AY | pooiihhbbaa
+NAY | uutssrnnllliihfeebaPI
+AY | xnaaX
 ```
 

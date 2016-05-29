@@ -1,3 +1,5 @@
+##INSTRUCTIONS
+
 #### Challenge #1: The Sage of Fizz Buzz
 
 To run the solution you will have to type ghci on CMD:

@@ -65,6 +65,7 @@ To run the solution, please enter:
 
 ```ruby
 rustc Challenge2_rust.rs -A warning
+#-A warning is to hide the warning that show up when compiling the solution
 ```
 
 The command above will compile the solution and now we have to run the executable by:

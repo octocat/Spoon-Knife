@@ -2,3 +2,19 @@ Hello word !!!
 
 
 Python
+
+
+    APStender_Provider1:
+        broker:   APStender
+        homepage: "https://test.aps-market.com/tender"
+        login:    emmo@meta.ua
+        password: 1q2w3e
+        browser:  ff
+        position: [0, 0]
+        size:     [1400, 900]
+    APStender_Viewer:
+        broker:   APStender
+        homepage: "https://test.aps-market.com/tender"
+        browser:  ff
+        position: [0, 0]
+        size:     [1400, 900] 

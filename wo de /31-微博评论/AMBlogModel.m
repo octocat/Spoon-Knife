@@ -21,6 +21,11 @@
         [self setValuesForKeysWithDictionary:dict];
     }
     return self;
+    
+}
+
+-(void)mytest{
+    NSLog(@"dsdsds");
 }
 
 @end

@@ -20,6 +20,9 @@
 
 @property (nonatomic, copy) NSString * time;
 
+@property (nonatomic,copy) NSString * man;
+@property (nonatomic,strong) NSString * humen;
+
 + (AMBlogModel *) modelWithDict:(NSDictionary*) dict;
 
 @end

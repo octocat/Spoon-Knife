@@ -1,0 +1,6 @@
+ jdbc:h2:/home/kaveesha/Public/repo/productapimSource/modules/distribution/product/target/wso2am -2.0.0-SNAPSHOT/repository/database/WSO2AM_DB;DB_CLOSE_ON_EXIT=FALSE
+                                                                             jdbc:h2:<file path to CARBON_HOME>/repository/database/WSO2AM_DB;DB_CLOSE_ON_EXIT=FALSE
+
+
+if we try to do permission checking at the interceptor level it's possible to user basic Auth configurations on generating access tokens for client aplications instead of generating client credentials as in OAuth
+

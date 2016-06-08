@@ -3,6 +3,10 @@
   padding:0px;
 }
 
+body{
+    background: darkred;
+}
+
 #octocat {
   display: block;
   width:384px;
@@ -11,7 +15,12 @@
 
 p {
   display: block;
-  width: 400px;
+  width: 500px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px Arial,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font-weight: lighter;
+  letter-spacing: -0.3px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px rgba(255,255,255,1.0);
 }

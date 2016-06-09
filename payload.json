@@ -1,0 +1,8 @@
+{
+    "callbackUrl": "www.blizardd.lk",
+    "clientName": "rest_api_publisherKaveesha",
+    "tokenScope": "Production",
+    "owner": "kav@lala.com",
+    "grantType": "password refresh_token authorization_code",
+    "saasApp": true
+}

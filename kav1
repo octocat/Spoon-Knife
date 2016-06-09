@@ -1,0 +1,6 @@
+place to get tenant domain ; OAuth2AccessTokenReqDTO-identity
+
+
+
+tenatdomain ; RestApiUtil ;         String loggedInUserTenantDomain = RestApiUtil.getLoggedInUserTenantDomain();
+

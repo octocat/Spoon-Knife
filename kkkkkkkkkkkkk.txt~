@@ -113,11 +113,3 @@ table.js
             $(this).parent().removeClass("cellEditing");
         });
     });
-
-
-
-
-
-
-
-show me the meaning od been lonely

@@ -1,5 +1,5 @@
  careers@zone24x7.com
-
+show me the meaning od been lonely am dyinggg
 //select single query
             StudentGroupeList gl1 =null;
 
@@ -116,8 +116,3 @@ table.js
 
 
 
-
-
-
-
-show me the meaning od been lonely

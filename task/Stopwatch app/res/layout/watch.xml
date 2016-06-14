@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stop"
+    tools:context="com.example.stopwatch.Stopwatch"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/rectime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="00:00:00"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rectime"
+        android:layout_marginTop="24dp"
+        android:text="Start"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/bPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bStart"
+        android:layout_centerHorizontal="true"
+        android:text="Pause"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/bReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tLaps"
+        android:layout_alignParentRight="true"
+        android:text="Reset"
+        android:textColor="#0000FF" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tLaps"
+        android:layout_marginTop="34dp"
+        android:text="1:"
+        android:textColor="#FF00FF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lap1"
+        android:layout_marginTop="49dp"
+        android:text="2:"
+        android:textColor="#FF00FF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="56dp"
+        android:text="3:"
+        android:textColor="#FF00FF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lap4"
+        android:layout_alignParentLeft="true"
+        android:text="4:"
+        android:textColor="#FF00FF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tLaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lap1"
+        android:layout_below="@+id/bPause"
+        android:layout_marginTop="28dp"
+        android:text="Laps:"
+        android:textColor="#FFFF00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rectime"
+        android:layout_alignTop="@+id/text1"
+        android:text="00:00:00"
+        android:textColor="#F0FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lap2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lap1"
+        android:layout_alignTop="@+id/text2"
+        android:text="00:00:00"
+        android:textColor="#F0FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lap3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text3"
+        android:layout_alignLeft="@+id/lap2"
+        android:text="00:00:00"
+        android:textColor="#F0FFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lap4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lap3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:text="00:00:00"
+        android:textColor="#F0FFFF"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+
+<form><b>Speed Control:</b>
+1 <input type="range"  min="1" max="5" id="sc"  value=4> 5</input>               
+</form>
+
+<div id="circle"></div>
+
+</html>
+
+
+<style>
+
+#circle                      
+{
+ position: absolute;
+ top:50px;
+ left:150px;
+ height:40px;
+ width:40px;                                                                        <!--setting properties of div element -->
+ border: 0.5px solid black;
+ background: -webkit-radial-gradient(yellow 45% , white 20%); 
+}
+
+form
+{
+  position:fixed;
+  left:60%;
+  top: 40%;
+
+}
+</style>
+
+
+<script>
+t=0;
+t1=0;
+t2=0;
+t3=0;
+
+move();
+
+function move( ){                                                     <!--function to move the div in a rectangular path  -->                   
+
+v=document.getElementById('sc').value;                                  <!--to get value of speed from control -->                 
+
+
+if(t<300){
+circle.style.left=t +'px';                                             <!--to move the div horizontally right -->                   
+circle.style.top=0+'px';
+for(i=0;i<=50;i++){
+if(v==i)
+t+=i;
+}   
+ requestAnimationFrame(move);  
+}
+
+
+else if(t==300 && t1<300 )
+{                                                                          <!--to move the div vertically downwards  -->              
+circle.style.left= '300px';
+circle.style.top=t1+'px';
+for(i=0;i<=50;i++){
+if(v==i)
+t1+=i;}   
+ requestAnimationFrame(move); }
+
+
+else if(t1==300 && 300-t2>0){                                                  <!--to move the div horizontally left  -->              
+circle.style.left=300-t2 +'px';
+circle.style.top='300px';
+for(i=0;i<=50;i++){
+if(v==i)
+t2+=i;}   
+ requestAnimationFrame(move);  }
+
+
+else if(t2==300 && 300-t3>0)
+{                                                                               <!--to move the div horizontally left  -->           
+circle.style.left='0px';
+circle.style.top=300-t3+'px';
+for(i=0;i<=50;i++){
+if(v==i)
+t3+=i;}   
+requestAnimationFrame(move);  }
+
+
+else {t=0;
+t1=0;
+t2=0;
+t3=0;
+                                                            <!--to move the div again in the rectangular path -->           
+ requestAnimationFrame(move); }
+ 
+}
+</script>

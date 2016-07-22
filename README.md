@@ -8,4 +8,6 @@ After forking this repository, you can make some changes to the project, and sub
 
 Super Massive Huge Change. Using the best words, No words are better than mine.
 
+Second Massive Change
+
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:

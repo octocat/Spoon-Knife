@@ -26,3 +26,8 @@ git commit ....
 
 ### when ready to push to upstream
 git push 
+
+
+### request a pull on the original repo
+ go to upstream github  \<https to original repo\>
+ press pull request and select remote\myBranch

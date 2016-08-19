@@ -1,5 +1,10 @@
 ### Well hello there!
 
+But I wish to digress: I went to the Midieval Fare, and a blacksmith was smithing a fork.
+The fork had three tongs, and was crude.  But I wanted to buy it.
+However, the smith only accepted $2 bills, of which I had just spent my last.
+Alas, I went home without the fork.
+
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.

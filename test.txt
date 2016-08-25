@@ -1,0 +1,8 @@
+create this for users trying
+===========
+add name and hobby
+
+helen	football
+jack	swim
+kate	sleep
+Tom		eat

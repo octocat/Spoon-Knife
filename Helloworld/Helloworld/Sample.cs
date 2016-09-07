@@ -8,5 +8,9 @@ namespace Helloworld
 {
     class Sample
     {
+        public int sample()
+        {
+            return 1;
+        }
     }
 }

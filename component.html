@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script type="x-template" id="m1">
+     <P>{{message}}</P>
+         <my-buycarbtn></my-buycarbtn>
+
+</script>
+<script type="x-template" id="m2">
+     <button>{{message}}</button>
+</script>
+  <div id="app">
+    <my-buycar></my-buycar>
+
+
+  </div>
+
+</body>
+<script src="vue.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+ var BuyCarBtn=Vue.extend({
+    data:function(){
+      return ({message:'我是个按钮'})
+    },
+    template:'#m2'
+ });
+ var BuyCar=Vue.extend({
+    data:function(){
+      return ({message:'这是一个BuyCar组件'})
+    },
+    template:'#m1',
+    components:{
+      'my-buycarbtn':BuyCarBtn
+    }
+ });
+ // Vue.component('my-buycar',BuyCar);
+
+
+ new Vue({
+  el:'#app',
+  components:{
+    'my-buycar':BuyCar
+  }
+
+ })
+</script>
+</html>

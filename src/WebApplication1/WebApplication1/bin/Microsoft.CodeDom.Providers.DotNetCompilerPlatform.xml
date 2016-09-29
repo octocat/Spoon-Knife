@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.CodeDom.Providers.DotNetCompilerPlatform</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider">
+            <summary>
+            Provides access to instances of the .NET Compiler Platform C# code generator and code compiler.
+            </summary>
+        </member>
+        <member name="M:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider.CreateCompiler">
+            <summary>
+            Gets an instance of the .NET Compiler Platform C# code compiler.
+            </summary>
+            <returns>An instance of the .NET Compiler Platform C# code compiler</returns>
+        </member>
+        <member name="T:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider">
+            <summary>
+            Provides access to instances of the .NET Compiler Platform VB code generator and code compiler.
+            </summary>
+        </member>
+        <member name="M:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider.CreateCompiler">
+            <summary>
+            Gets an instance of the .NET Compiler Platform VB code compiler.
+            </summary>
+            <returns>An instance of the .NET Compiler Platform VB code compiler</returns>
+        </member>
+    </members>
+</doc>

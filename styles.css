@@ -9,6 +9,10 @@
   margin: 50px auto;
 }
 
+h1, h2, h3, h4 {
+  color: red;
+}
+
 p {
   display: block;
   width: 400px;

@@ -1,5 +1,6 @@
 ### Well hello there!
 Hi there!
+Hi!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

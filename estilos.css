@@ -1,9 +1,10 @@
 body
 {
+	text-transform: uppercase;
 	background: #222;
 	color: #EEE;
-	font-family: Arial;
-	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
 	text-align: center;
 	
 }

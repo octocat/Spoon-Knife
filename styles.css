@@ -1,6 +1,11 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin:0px 0px;
+  padding:0px 0px;
+  line-height: 20px;
+}
+
+body{
+background:#000;
 }
 
 #octocat {

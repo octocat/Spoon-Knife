@@ -1,3 +1,6 @@
+撒地方是大哥
+
+
 <?php
 class BaseClass {
    function __construct() {

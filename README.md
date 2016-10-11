@@ -2,6 +2,8 @@
 
 I'm Ren and here I will add something: I'm from China and I work at Keysight today!
 
+Keysight has multiple locations. One is at Silicon valley.
+
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
@@ -11,3 +13,5 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 This is Ren again: our team work on AFM.
+
+The address of Keysight is Stevens Creek Blvd, Santa Clara...

@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotNetOpenAuth.OAuth.Consumer</name>
+    </assembly>
+    <members>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager">
+            <summary>
+            A token manager for use by a web site in its role as a consumer of
+            an individual ServiceProvider.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager.ConsumerKey">
+            <summary>
+            Gets the consumer key.
+            </summary>
+            <value>The consumer key.</value>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager.ConsumerSecret">
+            <summary>
+            Gets the consumer secret.
+            </summary>
+            <value>The consumer secret.</value>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerChannel">
+            <summary>
+            The messaging channel for OAuth 1.0(a) Consumers.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerChannel.#ctor(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement,DotNetOpenAuth.Messaging.Bindings.INonceStore,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager,DotNetOpenAuth.OAuth.ConsumerSecuritySettings,DotNetOpenAuth.Messaging.IMessageFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerChannel"/> class.
+            </summary>
+            <param name="signingBindingElement">The binding element to use for signing.</param>
+            <param name="store">The web application store to use for nonces.</param>
+            <param name="tokenManager">The token manager instance to use.</param>
+            <param name="securitySettings">The security settings.</param>
+            <param name="messageFactory">The message factory.</param>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerChannel.GetConsumerSecret(System.String)">
+            <summary>
+            Gets the consumer secret for a given consumer key.
+            </summary>
+            <param name="consumerKey">The consumer key.</param>
+            <returns>The consumer secret.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerChannel.InitializeBindingElements(DotNetOpenAuth.Messaging.ITamperProtectionChannelBindingElement,DotNetOpenAuth.Messaging.Bindings.INonceStore)">
+            <summary>
+            Initializes the binding elements for the OAuth channel.
+            </summary>
+            <param name="signingBindingElement">The signing binding element.</param>
+            <param name="store">The nonce store.</param>
+            <returns>
+            An array of binding elements used to initialize the channel.
+            </returns>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory">
+            <summary>
+            An OAuth-protocol specific implementation of the <see cref="T:DotNetOpenAuth.Messaging.IMessageFactory"/>
+            interface.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory"/> class.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory.GetNewRequestMessage(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Analyzes an incoming request message payload to discover what kind of
+            message is embedded in it and returns the type, or null if no match is found.
+            </summary>
+            <param name="recipient">The intended or actual recipient of the request message.</param>
+            <param name="fields">The name/value pairs that make up the message payload.</param>
+            <returns>
+            A newly instantiated <see cref="T:DotNetOpenAuth.Messaging.IProtocolMessage"/>-derived object that this message can
+            deserialize to.  Null if the request isn't recognized as a valid protocol message.
+            </returns>
+            <remarks>
+            The request messages are:
+            UserAuthorizationResponse
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.OAuthConsumerMessageFactory.GetNewResponseMessage(DotNetOpenAuth.Messaging.IDirectedProtocolMessage,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Analyzes an incoming request message payload to discover what kind of 
+            message is embedded in it and returns the type, or null if no match is found.
+            </summary>
+            <param name="request">
+            The message that was sent as a request that resulted in the response.
+            Null on a Consumer site that is receiving an indirect message from the Service Provider.
+            </param>
+            <param name="fields">The name/value pairs that make up the message payload.</param>
+            <returns>
+            A newly instantiated <see cref="T:DotNetOpenAuth.Messaging.IProtocolMessage"/>-derived object that this message can
+            deserialize to.  Null if the request isn't recognized as a valid protocol message.
+            </returns>
+            <remarks>
+            The response messages are:
+            UnauthorizedTokenResponse
+            AuthorizedTokenResponse
+            </remarks>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement">
+            <summary>
+            A binding element that signs outgoing messages and verifies the signature on incoming messages.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement"/> class.
+            </summary>
+            <param name="signingCertificate">The certificate used to sign outgoing messages.</param>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement.IsSignatureValid(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>
+            Determines whether the signature on some message is valid.
+            </summary>
+            <param name="message">The message to check the signature on.</param>
+            <returns>
+              <c>true</c> if the signature on the message is valid; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement.GetSignature(DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage)">
+            <summary>
+            Calculates a signature for a given message.
+            </summary>
+            <param name="message">The message to sign.</param>
+            <returns>The signature for the message.</returns>
+            <remarks>
+            This method signs the message per OAuth 1.0 section 9.3.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>
+            A new object that is a copy of this instance.
+            </returns>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ChannelElements.RsaSha1ConsumerSigningBindingElement.SigningCertificate">
+            <summary>
+            Gets or sets the certificate used to sign outgoing messages.  Used only by Consumers.
+            </summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.ConsumerBase">
+            <summary>
+            Base class for <see cref="T:DotNetOpenAuth.OAuth.WebConsumer"/> and <see cref="T:DotNetOpenAuth.OAuth.DesktopConsumer"/> types.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.ConsumerBase"/> class.
+            </summary>
+            <param name="serviceDescription">The endpoints and behavior of the Service Provider.</param>
+            <param name="tokenManager">The host's method of storing and recalling tokens and secrets.</param>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.RequestNewClientAccount(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Obtains an access token for a new account at the Service Provider via 2-legged OAuth.
+            </summary>
+            <param name="requestParameters">Any applicable parameters to include in the query string of the token request.</param>
+            <returns>The access token.</returns>
+            <remarks>
+            The token secret is stored in the <see cref="P:DotNetOpenAuth.OAuth.ConsumerBase.TokenManager"/>.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareAuthorizedRequest(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String)">
+            <summary>
+            Creates a web request prepared with OAuth authorization 
+            that may be further tailored by adding parameters by the caller.
+            </summary>
+            <param name="endpoint">The URL and method on the Service Provider to send the request to.</param>
+            <param name="accessToken">The access token that permits access to the protected resource.</param>
+            <returns>The initialized WebRequest object.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareAuthorizedRequest(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Creates a web request prepared with OAuth authorization
+            that may be further tailored by adding parameters by the caller.
+            </summary>
+            <param name="endpoint">The URL and method on the Service Provider to send the request to.</param>
+            <param name="accessToken">The access token that permits access to the protected resource.</param>
+            <param name="extraData">Extra parameters to include in the message.  Must not be null, but may be empty.</param>
+            <returns>The initialized WebRequest object.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareAuthorizedRequest(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String,System.Collections.Generic.IEnumerable{DotNetOpenAuth.Messaging.MultipartPostPart})">
+            <summary>
+            Prepares an authorized request that carries an HTTP multi-part POST, allowing for binary data.
+            </summary>
+            <param name="endpoint">The URL and method on the Service Provider to send the request to.</param>
+            <param name="accessToken">The access token that permits access to the protected resource.</param>
+            <param name="binaryData">Extra parameters to include in the message.  Must not be null, but may be empty.</param>
+            <returns>The initialized WebRequest object.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareAuthorizedRequest(DotNetOpenAuth.OAuth.Messages.AccessProtectedResourceRequest)">
+            <summary>
+            Prepares an HTTP request that has OAuth authorization already attached to it.
+            </summary>
+            <param name="message">The OAuth authorization message to attach to the HTTP request.</param>
+            <returns>
+            The HttpWebRequest that can be used to send the HTTP request to the remote service provider.
+            </returns>
+            <remarks>
+            If <see cref="P:DotNetOpenAuth.Messaging.IDirectedProtocolMessage.HttpMethods"/> property on the
+            <paramref name="message"/> has the
+            <see cref="F:DotNetOpenAuth.Messaging.HttpDeliveryMethods.AuthorizationHeaderRequest"/> flag set and
+            <see cref="P:DotNetOpenAuth.OAuth.ChannelElements.ITamperResistantOAuthMessage.HttpMethod"/> is set to an HTTP method
+            that includes an entity body, the request stream is automatically sent
+            if and only if the <see cref="P:DotNetOpenAuth.Messaging.IMessage.ExtraData"/> dictionary is non-empty.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareAuthorizedRequestAndSend(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String)">
+            <summary>
+            Creates a web request prepared with OAuth authorization 
+            that may be further tailored by adding parameters by the caller.
+            </summary>
+            <param name="endpoint">The URL and method on the Service Provider to send the request to.</param>
+            <param name="accessToken">The access token that permits access to the protected resource.</param>
+            <returns>The initialized WebRequest object.</returns>
+            <exception cref="T:System.Net.WebException">Thrown if the request fails for any reason after it is sent to the Service Provider.</exception>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.CreateAuthorizingMessage(DotNetOpenAuth.Messaging.MessageReceivingEndpoint,System.String)">
+            <summary>
+            Creates a web request prepared with OAuth authorization 
+            that may be further tailored by adding parameters by the caller.
+            </summary>
+            <param name="endpoint">The URL and method on the Service Provider to send the request to.</param>
+            <param name="accessToken">The access token that permits access to the protected resource.</param>
+            <returns>The initialized WebRequest object.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.PrepareRequestUserAuthorization(System.Uri,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.String@)">
+            <summary>
+            Prepares an OAuth message that begins an authorization request that will 
+            redirect the user to the Service Provider to provide that authorization.
+            </summary>
+            <param name="callback">
+            An optional Consumer URL that the Service Provider should redirect the 
+            User Agent to upon successful authorization.
+            </param>
+            <param name="requestParameters">Extra parameters to add to the request token message.  Optional.</param>
+            <param name="redirectParameters">Extra parameters to add to the redirect to Service Provider message.  Optional.</param>
+            <param name="requestToken">The request token that must be exchanged for an access token after the user has provided authorization.</param>
+            <returns>The pending user agent redirect based message to be sent as an HttpResponse.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.ProcessUserAuthorization(System.String,System.String)">
+            <summary>
+            Exchanges a given request token for access token.
+            </summary>
+            <param name="requestToken">The request token that the user has authorized.</param>
+            <param name="verifier">The verifier code.</param>
+            <returns>
+            The access token assigned by the Service Provider.
+            </returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.ConsumerBase.Dispose(System.Boolean)">
+            <summary>
+            Releases unmanaged and - optionally - managed resources
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.ConsumerKey">
+            <summary>
+            Gets the Consumer Key used to communicate with the Service Provider.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.ServiceProvider">
+            <summary>
+            Gets the Service Provider that will be accessed.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.TokenManager">
+            <summary>
+            Gets the persistence store for tokens and secrets.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.Channel">
+            <summary>
+            Gets the channel to use for sending/receiving messages.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.SecuritySettings">
+            <summary>
+            Gets the security settings for this consumer.
+            </summary>
+        </member>
+        <member name="P:DotNetOpenAuth.OAuth.ConsumerBase.OAuthChannel">
+            <summary>
+            Gets or sets the channel to use for sending/receiving messages.
+            </summary>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.DesktopConsumer">
+            <summary>
+            Used by a desktop application to use OAuth to access the Service Provider on behalf of the User.
+            </summary>
+            <remarks>
+            The methods on this class are thread-safe.  Provided the properties are set and not changed
+            afterward, a single instance of this class may be used by an entire desktop application safely.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.DesktopConsumer.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.DesktopConsumer"/> class.
+            </summary>
+            <param name="serviceDescription">The endpoints and behavior of the Service Provider.</param>
+            <param name="tokenManager">The host's method of storing and recalling tokens and secrets.</param>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.DesktopConsumer.RequestUserAuthorization(System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String},System.String@)">
+            <summary>
+            Begins an OAuth authorization request.
+            </summary>
+            <param name="requestParameters">Extra parameters to add to the request token message.  Optional.</param>
+            <param name="redirectParameters">Extra parameters to add to the redirect to Service Provider message.  Optional.</param>
+            <param name="requestToken">The request token that must be exchanged for an access token after the user has provided authorization.</param>
+            <returns>The URL to open a browser window to allow the user to provide authorization.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.DesktopConsumer.ProcessUserAuthorization(System.String)">
+            <summary>
+            Exchanges a given request token for access token.
+            </summary>
+            <param name="requestToken">The request token that the user has authorized.</param>
+            <returns>The access token assigned by the Service Provider.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.DesktopConsumer.ProcessUserAuthorization(System.String,System.String)">
+            <summary>
+            Exchanges a given request token for access token.
+            </summary>
+            <param name="requestToken">The request token that the user has authorized.</param>
+            <param name="verifier">The verifier code typed in by the user.  Must not be <c>Null</c> for OAuth 1.0a service providers and later.</param>
+            <returns>
+            The access token assigned by the Service Provider.
+            </returns>
+        </member>
+        <member name="T:DotNetOpenAuth.OAuth.WebConsumer">
+            <summary>
+            A website or application that uses OAuth to access the Service Provider on behalf of the User.
+            </summary>
+            <remarks>
+            The methods on this class are thread-safe.  Provided the properties are set and not changed
+            afterward, a single instance of this class may be used by an entire web application safely.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.WebConsumer.#ctor(DotNetOpenAuth.OAuth.ServiceProviderDescription,DotNetOpenAuth.OAuth.ChannelElements.IConsumerTokenManager)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DotNetOpenAuth.OAuth.WebConsumer"/> class.
+            </summary>
+            <param name="serviceDescription">The endpoints and behavior of the Service Provider.</param>
+            <param name="tokenManager">The host's method of storing and recalling tokens and secrets.</param>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.WebConsumer.PrepareRequestUserAuthorization">
+            <summary>
+            Begins an OAuth authorization request and redirects the user to the Service Provider
+            to provide that authorization.  Upon successful authorization, the user is redirected
+            back to the current page.
+            </summary>
+            <returns>The pending user agent redirect based message to be sent as an HttpResponse.</returns>
+            <remarks>
+            Requires HttpContext.Current.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.WebConsumer.PrepareRequestUserAuthorization(System.Uri,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Prepares an OAuth message that begins an authorization request that will 
+            redirect the user to the Service Provider to provide that authorization.
+            </summary>
+            <param name="callback">
+            An optional Consumer URL that the Service Provider should redirect the 
+            User Agent to upon successful authorization.
+            </param>
+            <param name="requestParameters">Extra parameters to add to the request token message.  Optional.</param>
+            <param name="redirectParameters">Extra parameters to add to the redirect to Service Provider message.  Optional.</param>
+            <returns>The pending user agent redirect based message to be sent as an HttpResponse.</returns>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.WebConsumer.ProcessUserAuthorization">
+            <summary>
+            Processes an incoming authorization-granted message from an SP and obtains an access token.
+            </summary>
+            <returns>The access token, or null if no incoming authorization message was recognized.</returns>
+            <remarks>
+            Requires HttpContext.Current.
+            </remarks>
+        </member>
+        <member name="M:DotNetOpenAuth.OAuth.WebConsumer.ProcessUserAuthorization(System.Web.HttpRequestBase)">
+            <summary>
+            Processes an incoming authorization-granted message from an SP and obtains an access token.
+            </summary>
+            <param name="request">The incoming HTTP request.</param>
+            <returns>The access token, or null if no incoming authorization message was recognized.</returns>
+        </member>
+    </members>
+</doc>

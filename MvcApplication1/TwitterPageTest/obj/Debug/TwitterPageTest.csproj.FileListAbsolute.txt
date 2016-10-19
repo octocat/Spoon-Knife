@@ -1,5 +1,0 @@
-C:\Users\Vish\documents\visual studio 2012\Projects\MvcApplication1\TwitterPageTest\bin\Debug\TwitterPageTest.dll
-C:\Users\Vish\documents\visual studio 2012\Projects\MvcApplication1\TwitterPageTest\bin\Debug\TwitterPageTest.pdb
-C:\Users\Vish\documents\visual studio 2012\Projects\MvcApplication1\TwitterPageTest\obj\Debug\TwitterPageTest.csprojResolveAssemblyReference.cache
-C:\Users\Vish\documents\visual studio 2012\Projects\MvcApplication1\TwitterPageTest\obj\Debug\TwitterPageTest.dll
-C:\Users\Vish\documents\visual studio 2012\Projects\MvcApplication1\TwitterPageTest\obj\Debug\TwitterPageTest.pdb

@@ -1,0 +1,105 @@
+﻿@*@model MvcApplication1.Models.TwitterUser*@
+@model IEnumerable<MvcApplication1.Models.TwitterUser>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+ <h2 style="background-color:lightblue; font-size:45px;text-align:center;margin:0px;padding-bottom:10px;">Welcome to Twitter Sample Page</h2>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TwitterPage</title>
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+</head>
+   
+<body style="background-color:azure;">
+    <div>
+        
+          @using (Html.BeginForm())
+          {
+              <br />
+              <p style="height:25px;font-size:18px;color:darkblue;">Please enter your UserName and Comments below!!</p>
+              <label>User Full Name</label>
+              <br />
+              <input type="text" maxlength="15" name="FullName" style="height:25px;font-size:18px;" placeholder="Full Name" id="FName" required data-validation-required-message="Please enter your Full name.">
+               <br />  <br /> 
+             <label>User Comment</label> 
+             <br />
+               <textarea rows="10" cols="20" maxlength="140" name="UserComment" style="height:50px;font-size:18px;" placeholder="Please enter comment" id="UComment" required data-validation-required-message="Please enter your comment."></textarea>
+             <br /> 
+               <div id="textarea_feedback"></div> <br />   <br /> 
+              <button id="createprofilebtn" type="submit" style="height:25px;font-size:18px;" onclick="CreateUserProfile()">Post Comment</button>
+             
+          }
+    </div>
+<br /> <br />
+    <center>
+    <div>
+                 @foreach (var item in Model)
+                 { 
+                 <div style="width:450px; margin:0px;">
+                 <p style="background-color:lightblue; font-size:20px;text-align:left; margin:0px; padding:0px;">@@User Name: <b>@item.UserName</b> <span style="text-align:right;font-size:15px;margin:0px;padding:0px;color:red;">@item.datetoday</span></p>   
+                <b> <p style="background-color:lemonchiffon;text-align:left;font-size:20px; margin:0px;">Comments: </p></b>
+                 <p style="background-color:lemonchiffon; font-size:18px;text-align:left;margin:0px;padding-bottom:5px;height:80px;word-wrap: break-word;">@item.UserComment</p>     
+                  <br /> <br />         
+                 </div>
+                 }
+    
+
+    </div>
+        </center>
+</body>
+</html>
+
+ <script type="text/javascript">
+     var datareceived = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(this.Model));
+     console.log(datareceived);
+ </script>
+<script>
+        var text_max = 140;
+        $('#textarea_feedback').html(text_max + ' characters remaining');
+        $( "#UComment" ).keyup(function() {
+            var text_length = $('#UComment').val().length;
+            console.log(text_length);
+            var text_remaining = text_max - text_length;
+            $('#textarea_feedback').html(text_remaining + ' characters remaining');
+        
+        });
+  
+
+    function CreateUserProfile() {
+
+        if (($('#FName').val() == "") || ($('#UComment').val() == ""))
+        {
+            console.log(1);
+        } // end if
+        else {
+
+            var data = { 'username': $('#FName').val(), 'ucomment':$('#UComment').val() };
+            
+            $.ajax({
+                url: '@Url.Action("CreateUserAccount")',
+                type: "POST",
+                async: false,
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                dataType: 'json',
+                success: function (result) {
+                   
+                },
+                error: function (response) {
+                    console.log(response.responseText);
+                }
+            });
+
+
+
+        } // end else
+       
+
+    }
+
+
+</script>

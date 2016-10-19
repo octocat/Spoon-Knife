@@ -21,6 +21,7 @@ namespace MvcApplication1.Models
 
     public class TwitterUserDetails {
 
+       // Pulls user information from database
         public static List<TwitterUser> getUserDetails()
         {
             DataSet ds;
@@ -44,6 +45,7 @@ namespace MvcApplication1.Models
             return list;
         }
 
+        //Insert user information in database
        public static void insertUserDetails(string username, string ucomment){
 
            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Twitter"].ConnectionString)) {
@@ -54,17 +56,14 @@ namespace MvcApplication1.Models
        
        } // end insertUserDetails
 
+        //Below methods are used for Unit Testing purpose
+
        public static string CheckUserName(string username)
        {
            return username;
        }
 
-       public static string CheckUNameUComment(string username, string ucomment)
-       {
-           return username + ucomment;
-       }
-
-
+    
        public static string CheckUserComment(string ucomment)
        {
            return ucomment;

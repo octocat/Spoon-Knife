@@ -15,7 +15,7 @@ namespace MvcApplication1.Databasedetails
         public static DataSet getAllUserData(SqlConnection con)
         {
             DataSet ds = new DataSet();
-            var insertCommand = "Select * from Test.dbo.TwitterUserDetail Order By LatestTimeStamp desc";
+            var insertCommand = "Select * from Twitter.dbo.TwitterUserDetail Order By LatestTimeStamp desc";
             try
             {
                 con.Open();
@@ -36,7 +36,7 @@ namespace MvcApplication1.Databasedetails
 
         public static void insertUserData(string username, string ucomment, SqlConnection conn)
         {
-            string insertCommand = "INSERT INTO Test.dbo.TwitterUserDetail (Username, UserComment, LatestTimeStamp) VALUES (@Username, @UserComment, @LatestTimeStamp) ";
+            string insertCommand = "INSERT INTO Twitter.dbo.TwitterUserDetail (Username, UserComment, LatestTimeStamp) VALUES (@Username, @UserComment, @LatestTimeStamp) ";
             DateTime datenow = DateTime.Now;
 
             // create connection and command
@@ -44,10 +44,11 @@ namespace MvcApplication1.Databasedetails
             using (SqlCommand cmd = new SqlCommand(insertCommand, conn))
             {
                 // define parameters and their values
-             //   cmd.Parameters.Add("@UserId", SqlDbType.Int).Value = userId;
+          
                 cmd.Parameters.Add("@Username", SqlDbType.NVarChar, 50).Value = username;
                 cmd.Parameters.Add("@UserComment", SqlDbType.NVarChar,150).Value = ucomment;
                 cmd.Parameters.Add("@LatestTimeStamp", SqlDbType.DateTime2).Value = datenow;
+
                 // open connection, execute INSERT, close connection
                 conn.Open();
                 cmd.ExecuteNonQuery();

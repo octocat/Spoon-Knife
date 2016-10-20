@@ -3,9 +3,17 @@
   padding:0px;
 }
 
-#octocat {
+//  old code
+/*#octocat {
   display: block;
   width:384px;
+  margin: 50px auto;
+}*/
+
+// new code
+#octocat {
+  display: block;
+  width:380px;
   margin: 50px auto;
 }
 

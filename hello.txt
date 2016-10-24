@@ -1,0 +1,4 @@
+"Hello, World!"
+I am doing the full stack course with The Learning People and The Code Institute.
+This is Day 1, and I am SO excited!
+Thank you mom, for enabling me to do this, even though its years since you should have needed to worry about varsity fees for me. 

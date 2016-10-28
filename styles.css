@@ -5,8 +5,9 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width:500px;
   margin: 50px auto;
+  background-color: #efefef;
 }
 
 p {

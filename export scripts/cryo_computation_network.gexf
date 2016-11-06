@@ -79,6 +79,8 @@
       <node id="70" label="CD74"/>
       <node id="71" label="CASP3"/>
       <node id="72" label="CASP3cl175"/>
+      <node id="73" label="joechen"/>
+
     </nodes>
     <edges>
      <edge id="0" source="1" target="1" weight="1"/>

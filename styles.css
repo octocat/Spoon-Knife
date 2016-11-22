@@ -19,4 +19,9 @@ p {
 h3 {
   display: block;
 text-align: center;
+font-weight: normal;
   }
+
+span {
+font-weight: bold;
+}

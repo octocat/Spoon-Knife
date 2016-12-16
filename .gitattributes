@@ -1,2 +1,2 @@
-index.html linguist-language=XML
+*.html linguist-language=Java
 styles.css linguist-vendored=true

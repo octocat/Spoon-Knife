@@ -1,2 +1,2 @@
-*.html linguist-language=xml
-styles.css linguist-vendored
+index.html linguist-language=XML
+styles.css linguist-vendored=true

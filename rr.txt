@@ -1,0 +1,54 @@
+http://app.test.xweed.cn/v1/index/pic
+
+http://app.test.xweed.cn/v1/index/info
+
+https://api.app.net/stream/0/posts/stream/global
+
+
+{
+	success = 1,
+
+
+	data = {
+	  serials = [
+           {
+	      movies = [
+                       {
+	                  lecloudPu = ba377dbafd,
+	                  serialDesc = 一零是一名年轻黑客。通过网络，她结识了具有高超黑客技术而身份神秘的黄雀。在多年的沟通互助后，黄雀终于提出了见面的邀约。黄雀实际上是一台计算机终端，而他的拥有人是一个近中年的男人权叔。权叔对一零的身世一清二楚，更是一零父母丧生事故的知情者。他告诉一零他们的共同敌人是一个超级强大的计算机系统——弋石。“弋石系统”拥有强大的信息搜集和采集能力，能够控制所有监控监听设备。然而在网络高度发达的今天，它已经能够将触角伸向每一个企业每一个团体以及任何一个人。弋石通过数据买卖谋取暴利，而一零的父母正是一起买卖的牺牲品。作为弋石最初的开发者之一，权叔抱着赎罪的目的决定动用自己所有的资源和力量与弋石抗争。一零加入了黄雀团队，与权叔一同对抗城市信息网络的共同敌人。而在这个过程中，他们也会找到更多有趣的队友，借助“黄雀终端”的能力，这些在城市信息网络行走的另类英雄们，将会挽救一个又一个人和家庭的命运。,
+	                  serialName = 无处不在,
+	                  status = 1,
+	                  updateTo = 更新至第一集,
+	                  code = CAE851880A9D179E,
+	                  episode = 第1集,
+	                  lecloudUu = ssr28gwlfk,
+	                  versionName = 1,
+	                  updateTime = 1462349375000,
+	                  playerName = cfcd208495d565ef66e7dff9f98764da,
+	                  isPay = 1,
+	                  taxAmount = 2,
+	                  kind = 正片,
+	                  videoDuration = 755,
+	                  watchNum = 1377,
+	                  cover = http://cdn.xweed.cn/xweed/picture/963a3616266c06ab.jpg,
+	                  fileName = 黄雀的晚餐,
+	                  name = 黄雀的晚餐,
+	                  serialId = 49582382-d017-4db5-98dc-a14bb75069f4,
+	                  type = 2,
+	                  id = ce231a69-1a90-4b48-bf7c-59a372fa3020,
+	                  poster = http://cdn.xweed.cn/xweed/picture/eb489edcf667ce65.jpg,
+	                  lecloudVu = 4936be25ef,
+	                  createTime = 1462349375000,
+	                  price = 5,
+	                  checkCode = ee3a2a6688fdae7c,
+	                  playSrc = 2,
+	                  renewTime = 每周一更新,
+	                  description = 第1集
+                       },
+                    ],
+	type = 草戏
+}
+]
+},
+	code = 0
+}

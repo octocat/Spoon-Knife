@@ -52,3 +52,4 @@ https://api.app.net/stream/0/posts/stream/global
 },
 	code = 0
 }
+  对添加的文件作出更改

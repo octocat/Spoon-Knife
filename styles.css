@@ -3,10 +3,18 @@
   padding:0px;
 }
 
+
+body
+{
+
+background:#00ff00;
+}
+
 #octocat {
   display: block;
   width:384px;
   margin: 50px auto;
+
 }
 
 p {

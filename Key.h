@@ -29,7 +29,7 @@
 
 #ifndef SWIG
 
-class CKey;
+#include "input/KeyCodes.h"
 
 /*!
 \ingroup actionkeys
@@ -100,21 +100,21 @@ public:
   };
 
 private:
-  uint32_t m_buttonCode;
-  uint8_t  m_vkey;
-  wchar_t  m_unicode;
-  char     m_ascii;
-  uint32_t m_modifiers;
-  unsigned int m_held;
+  uint32_t m_buttonCode = KEY_INVALID;
+  uint8_t m_vkey = 0;
+  wchar_t m_unicode = 0;
+  char m_ascii = 0;
+  uint32_t m_modifiers = 0;
+  unsigned int m_held = 0;
 
-  uint8_t m_leftTrigger;
-  uint8_t m_rightTrigger;
-  float m_leftThumbX;
-  float m_leftThumbY;
-  float m_rightThumbX;
-  float m_rightThumbY;
-  float m_repeat; // time since last keypress
-  bool m_fromService;
+  uint8_t m_leftTrigger = 0;
+  uint8_t m_rightTrigger = 0;
+  float m_leftThumbX = 0;
+  float m_leftThumbY = 0;
+  float m_rightThumbX = 0;
+  float m_rightThumbY = 0;
+  float m_repeat = 0; // time since last keypress
+  bool m_fromService = false;
 };
 #endif //undef SWIG
 

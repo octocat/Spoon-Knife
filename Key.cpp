@@ -22,48 +22,37 @@
 #include "input/Key.h"
 #include "input/ButtonTranslator.h"
 
-CKey::CKey(void)
+CKey::CKey(uint32_t buttonCode, uint8_t leftTrigger, uint8_t rightTrigger, float leftThumbX, float leftThumbY, float rightThumbX, float rightThumbY, float repeat)
+  : m_buttonCode(buttonCode)
+  , m_leftTrigger(leftTrigger)
+  , m_rightTrigger(rightTrigger)
+  , m_leftThumbX(leftThumbX)
+  , m_leftThumbY(leftThumbY)
+  , m_rightThumbX(rightThumbX)
+  , m_rightThumbY(rightThumbY)
+{}
+
+CKey::CKey(uint32_t buttonCode, unsigned int held)
+  : CKey(buttonCode)
 {
-  Reset();
+  m_held = held;
+}
+
+CKey::CKey(uint8_t vkey, wchar_t unicode, char ascii, uint32_t modifiers, unsigned int held)
+  : m_vkey(vkey)
+  , m_unicode(unicode)
+  , m_ascii(ascii)
+  , m_modifiers(modifiers)
+  , m_held(held)
+  // FIXME: This needs cleaning up - should we always use the unicode key where available?
+  , m_buttonCode(vkey ? (vkey | KEY_VKEY) : KEY_UNICODE)
+{
+  m_buttonCode |= m_modifiers;
 }
 
 CKey::~CKey(void)
 {}
 
-CKey::CKey(uint32_t buttonCode, uint8_t leftTrigger, uint8_t rightTrigger, float leftThumbX, float leftThumbY, float rightThumbX, float rightThumbY, float repeat)
-{
-  Reset();
-  m_buttonCode = buttonCode;
-  m_leftTrigger = leftTrigger;
-  m_rightTrigger = rightTrigger;
-  m_leftThumbX = leftThumbX;
-  m_leftThumbY = leftThumbY;
-  m_rightThumbX = rightThumbX;
-  m_rightThumbY = rightThumbY;
-  m_repeat = repeat;
-}
-
-CKey::CKey(uint32_t buttonCode, unsigned int held)
-{
-  Reset();
-  m_buttonCode = buttonCode;
-  m_held = held;
-}
-
-CKey::CKey(uint8_t vkey, wchar_t unicode, char ascii, uint32_t modifiers, unsigned int held)
-{
-  Reset();
-  if (vkey) // FIXME: This needs cleaning up - should we always use the unicode key where available?
-    m_buttonCode = vkey | KEY_VKEY;
-  else
-    m_buttonCode = KEY_UNICODE;
-  m_buttonCode |= modifiers;
-  m_vkey = vkey;
-  m_unicode = unicode;
-  m_ascii = ascii;
-  m_modifiers = modifiers;
-  m_held = held;
-}
 
 CKey::CKey(const CKey& key)
 {

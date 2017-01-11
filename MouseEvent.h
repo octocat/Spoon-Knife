@@ -25,25 +25,21 @@
 
 #ifndef SWIG
 
- /*!
- \ingroup actionkeys, mouse
- \brief Simple class for mouse events
- */
+/*!
+  \ingroup actionkeys, mouse
+  \brief Simple class for mouse events
+  */
 class CMouseEvent
 {
 public:
   CMouseEvent(int actionID, int state = 0, float offsetX = 0, float offsetY = 0)
-  {
-    m_id = actionID;
-    m_state = state;
-    m_offsetX = offsetX;
-    m_offsetY = offsetY;
-  };
+    : m_id(actionID), m_state(state), m_offsetX(offsetX), m_offsetY(offsetY)
+  {}
 
-  int    m_id;
-  int    m_state;
-  float  m_offsetX;
-  float  m_offsetY;
+  int m_id = 0;
+  int m_state = 0;
+  float m_offsetX = 0;
+  float m_offsetY = 0;
 };
 
 #endif

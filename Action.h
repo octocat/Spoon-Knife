@@ -137,17 +137,18 @@ public:
   bool IsAnalog() const;
 
 private:
-  int          m_id;
-  std::string   m_name;
+  int m_id = 0;
+  std::string m_name;
 
-  static const unsigned int max_amounts = 4; // Must be at least 4.
-  float        m_amount[max_amounts];
+  static const unsigned int max_amounts = 4;
+  static_assert(max_amounts >= 4);
+  float m_amount[max_amounts];
 
-  float        m_repeat;
-  unsigned int m_holdTime;
-  unsigned int m_buttonCode;
-  wchar_t      m_unicode;
-  std::string  m_text;
+  float m_repeat = 0;
+  unsigned int m_holdTime = 0;
+  unsigned int m_buttonCode = 0;
+  wchar_t m_unicode = 0;
+  std::string m_text;
 };
 
 #endif //undef SWIG

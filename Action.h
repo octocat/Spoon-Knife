@@ -66,7 +66,7 @@ public:
   /*! \brief Human-readable name of the action
   \return name of the action
   */
-  const std::string &GetName() const
+  std::string GetName() const
   {
     return m_name;
   };
@@ -74,7 +74,7 @@ public:
   /*! \brief Text of the action if any
   \return text payload of this action.
   */
-  const std::string &GetText() const
+  std::string GetText() const
   {
     return m_text;
   };

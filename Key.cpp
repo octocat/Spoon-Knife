@@ -50,61 +50,6 @@ CKey::CKey(uint8_t vkey, wchar_t unicode, char ascii, uint32_t modifiers, unsign
   m_buttonCode |= m_modifiers;
 }
 
-BYTE CKey::GetLeftTrigger() const
-{
-  return m_leftTrigger;
-}
-
-BYTE CKey::GetRightTrigger() const
-{
-  return m_rightTrigger;
-}
-
-float CKey::GetLeftThumbX() const
-{
-  return m_leftThumbX;
-}
-
-float CKey::GetLeftThumbY() const
-{
-  return m_leftThumbY;
-}
-
-
-float CKey::GetRightThumbX() const
-{
-  return m_rightThumbX;
-}
-
-float CKey::GetRightThumbY() const
-{
-  return m_rightThumbY;
-}
-
-bool CKey::FromKeyboard() const
-{
-  return (m_buttonCode >= KEY_VKEY && m_buttonCode != KEY_INVALID);
-}
-
-bool CKey::IsAnalogButton() const
-{
-  if ((GetButtonCode() > 261 && GetButtonCode() < 270) || (GetButtonCode() > 279 && GetButtonCode() < 284))
-    return true;
-
-  return false;
-}
-
-bool CKey::IsIRRemote() const
-{
-  if (GetButtonCode() < 256)
-    return true;
-  return false;
-}
-
-float CKey::GetRepeat() const
-{
-  return m_repeat;
-}
 
 void CKey::SetFromService(bool fromService)
 {

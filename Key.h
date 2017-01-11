@@ -42,46 +42,25 @@ public:
   CKey(uint32_t buttonCode, unsigned int held);
   CKey(uint8_t vkey, wchar_t unicode, char ascii, uint32_t modifiers, unsigned int held);
 
-  uint8_t GetLeftTrigger() const;
-  uint8_t GetRightTrigger() const;
-  float GetLeftThumbX() const;
-  float GetLeftThumbY() const;
-  float GetRightThumbX() const;
-  float GetRightThumbY() const;
-  float GetRepeat() const;
-  bool FromKeyboard() const;
-  bool IsAnalogButton() const;
-  bool IsIRRemote() const;
-  void SetFromService(bool fromService);
-  bool GetFromService() const
-  {
-    return m_fromService;
-  }
+  uint8_t GetLeftTrigger() const { return m_leftTrigger; }
+  uint8_t GetRightTrigger() const { return m_rightTrigger; }
+  float GetLeftThumbX() const { return m_leftThumbX; }
+  float GetLeftThumbY() const { return m_leftThumbY; }
+  float GetRightThumbX() const { return m_rightThumbX; }
+  float GetRightThumbY() const { return m_rightThumbY; }
 
-  inline uint32_t GetButtonCode() const
-  {
-    return m_buttonCode;
-  }
-  inline uint8_t  GetVKey() const
-  {
-    return m_vkey;
-  }
-  inline wchar_t  GetUnicode() const
-  {
-    return m_unicode;
-  }
-  inline char     GetAscii() const
-  {
-    return m_ascii;
-  }
-  inline uint32_t GetModifiers() const
-  {
-    return m_modifiers;
-  };
-  inline unsigned int GetHeld() const
-  {
-    return m_held;
-  }
+  bool FromKeyboard() const { return (m_buttonCode >= KEY_VKEY && m_buttonCode != KEY_INVALID); }
+  bool IsAnalogButton() const { return (m_buttonCode > 261 && m_buttonCode < 270) || (m_buttonCode > 279 && m_buttonCode < 284); }
+  bool IsIRRemote() const { return m_buttonCode < 256; }
+  void SetFromService(bool fromService);
+  bool GetFromService() const { return m_fromService; }
+
+  uint32_t GetButtonCode() const { return m_buttonCode; }
+  uint8_t GetVKey() const { return m_vkey; }
+  wchar_t GetUnicode() const { return m_unicode; }
+  char GetAscii() const { return m_ascii; }
+  uint32_t GetModifiers() const { return m_modifiers; }
+  unsigned int GetHeld() const { return m_held; }
 
   enum class Modifiers {
     None  = 0,
@@ -114,5 +93,4 @@ private:
 
 DEFINE_ENUM_FLAG_OPERATORS(CKey::Modifiers);
 
-#endif //undef SWIG
-
+#endif

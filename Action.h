@@ -45,88 +45,55 @@ public:
   /*! \brief Identifier of the action
   \return id of the action
   */
-  int GetID() const
-  {
-    return m_id;
-  };
+  int GetID() const { return m_id; }
 
   /*! \brief Is this an action from the mouse
-  \return true if this is a mouse action, false otherwise
-  */
-  bool IsMouse() const
-  {
-    return (m_id >= ACTION_MOUSE_START && m_id <= ACTION_MOUSE_END);
-  };
+   \return true if this is a mouse action, false otherwise
+   */
+  bool IsMouse() const { return (m_id >= ACTION_MOUSE_START && m_id <= ACTION_MOUSE_END); }
 
-  bool IsGesture() const
-  {
-    return (m_id >= ACTION_GESTURE_NOTIFY && m_id <= ACTION_GESTURE_END);
-  };
+  bool IsGesture() const { return (m_id >= ACTION_GESTURE_NOTIFY && m_id <= ACTION_GESTURE_END); }
 
   /*! \brief Human-readable name of the action
-  \return name of the action
-  */
-  std::string GetName() const
-  {
-    return m_name;
-  };
-
+   \return name of the action
+   */
+  std::string GetName() const { return m_name; }
+  
   /*! \brief Text of the action if any
-  \return text payload of this action.
-  */
-  std::string GetText() const
-  {
-    return m_text;
-  };
-
+   \return text payload of this action.
+   */
+  std::string GetText() const { return m_text; }
+  
   /*! \brief Set the text payload of the action
-  \param text to be set
-  */
-  void SetText(const std::string &text)
-  {
-    m_text = text;
-  };
+   \param text to be set
+   */
+  void SetText(const std::string &text) { m_text = text; }
 
   /*! \brief Get an amount associated with this action
   \param zero-based index of amount to retrieve, defaults to 0
   \return an amount associated with this action
   */
-  float GetAmount(unsigned int index = 0) const
-  {
-    return (index < max_amounts) ? m_amount[index] : 0;
-  };
+  float GetAmount(unsigned int index = 0) const { return (index < max_amounts) ? m_amount[index] : 0; }
 
   /*! \brief Unicode value associated with this action
-  \return unicode value associated with this action, for keyboard input.
-  */
-  wchar_t GetUnicode() const
-  {
-    return m_unicode;
-  };
+   \return unicode value associated with this action, for keyboard input.
+   */
+  wchar_t GetUnicode() const { return m_unicode; }
 
   /*! \brief Time in ms that the key has been held
-  \return time that the key has been held down in ms.
-  */
-  unsigned int GetHoldTime() const
-  {
-    return m_holdTime;
-  };
+   \return time that the key has been held down in ms.
+   */
+  unsigned int GetHoldTime() const { return m_holdTime; }
 
   /*! \brief Time since last repeat in ms
-  \return time since last repeat in ms. Returns 0 if unknown.
-  */
-  float GetRepeat() const
-  {
-    return m_repeat;
-  };
+   \return time since last repeat in ms. Returns 0 if unknown.
+   */
+  float GetRepeat() const { return m_repeat; }
 
   /*! \brief Button code that triggered this action
-  \return button code
-  */
-  unsigned int GetButtonCode() const
-  {
-    return m_buttonCode;
-  };
+   \return button code
+   */
+  unsigned int GetButtonCode() const { return m_buttonCode; }
 
   bool IsAnalog() const;
 
@@ -145,4 +112,4 @@ private:
   std::string m_text;
 };
 
-#endif //undef SWIG
+#endif

@@ -83,15 +83,15 @@ public:
     return m_held;
   }
 
-  enum Modifier
-  {
-    MODIFIER_CTRL = 0x00010000,
-    MODIFIER_SHIFT = 0x00020000,
-    MODIFIER_ALT = 0x00040000,
-    MODIFIER_RALT = 0x00080000,
-    MODIFIER_SUPER = 0x00100000,
-    MODIFIER_META = 0X00200000,
-    MODIFIER_LONG = 0X01000000
+  enum class Modifiers {
+    None  = 0,
+    Ctrl  = (1 << 16),
+    Shift = (1 << 17),
+    Alt   = (1 << 18),
+    RAlt  = (1 << 19),
+    Super = (1 << 20),
+    Meta  = (1 << 21),
+    Long  = (1 << 24)   // Key remained pressed for an elongated period.
   };
 
 private:
@@ -111,5 +111,8 @@ private:
   float m_repeat = 0; // time since last keypress
   bool m_fromService = false;
 };
+
+DEFINE_ENUM_FLAG_OPERATORS(CKey::Modifiers);
+
 #endif //undef SWIG
 

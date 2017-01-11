@@ -24,6 +24,57 @@
 #include "input/Key.h"
 #include "input/ButtonTranslator.h"
 
+namespace
+{
+
+// Get the action amounts of the analog buttons: Primary amount X or Y
+float Amount0FromButtonCode(const CKey& key)
+{
+  switch (key.GetButtonCode())
+  {
+    case KEY_BUTTON_LEFT_ANALOG_TRIGGER:
+      return key.GetLeftTrigger() / 255.0f;
+    case KEY_BUTTON_RIGHT_ANALOG_TRIGGER:
+      return key.GetRightTrigger() / 255.0f;
+    case KEY_BUTTON_LEFT_THUMB_STICK:
+      return key.GetLeftThumbX();
+    case KEY_BUTTON_RIGHT_THUMB_STICK:
+      return key.GetRightThumbX();
+    case KEY_BUTTON_LEFT_THUMB_STICK_UP:
+      return key.GetLeftThumbY();
+    case KEY_BUTTON_LEFT_THUMB_STICK_DOWN:
+      return -key.GetLeftThumbY();
+    case KEY_BUTTON_LEFT_THUMB_STICK_LEFT:
+      return -key.GetLeftThumbX();
+    case KEY_BUTTON_LEFT_THUMB_STICK_RIGHT:
+      return key.GetLeftThumbX();
+    case KEY_BUTTON_RIGHT_THUMB_STICK_UP:
+      return key.GetRightThumbY();
+    case KEY_BUTTON_RIGHT_THUMB_STICK_DOWN:
+      return -key.GetRightThumbY();
+    case KEY_BUTTON_RIGHT_THUMB_STICK_LEFT:
+      return -key.GetRightThumbX();
+    case KEY_BUTTON_RIGHT_THUMB_STICK_RIGHT:
+      return key.GetRightThumbX();
+    default: return 1; // digital button (could change this for repeat acceleration)
+  }
+}
+
+// Get the action amounts of the analog buttons: Secondary amount Y
+float Amount1FromButtonCode(const CKey& key)
+{
+  switch (key.GetButtonCode())
+  {
+    case KEY_BUTTON_LEFT_THUMB_STICK:
+      return key.GetLeftThumbY();
+    case KEY_BUTTON_RIGHT_THUMB_STICK:
+      return key.GetRightThumbY();
+    default: return 1; // digital button (could change this for repeat acceleration)
+  }
+}
+
+} // anonymous namespace
+
 CAction::CAction(int actionID, float amount1 /* = 1.0f */, float amount2 /* = 0.0f */, const std::string &name /* = "" */, unsigned int holdTime /*= 0*/)
 {
   m_id = actionID;
@@ -74,39 +125,10 @@ CAction::CAction(int actionID, const std::string &name, const CKey &key) :
     m_amount[i] = 0;
   m_repeat = key.GetRepeat();
   m_buttonCode = key.GetButtonCode();
+  m_amount[0] = Amount0FromButtonCode(key);
+  m_amount[1] = Amount1FromButtonCode(key);
   m_unicode = 0;
   m_holdTime = key.GetHeld();
-  // get the action amounts of the analog buttons
-  if (key.GetButtonCode() == KEY_BUTTON_LEFT_ANALOG_TRIGGER)
-    m_amount[0] = (float)key.GetLeftTrigger() / 255.0f;
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_ANALOG_TRIGGER)
-    m_amount[0] = (float)key.GetRightTrigger() / 255.0f;
-  else if (key.GetButtonCode() == KEY_BUTTON_LEFT_THUMB_STICK)
-  {
-    m_amount[0] = key.GetLeftThumbX();
-    m_amount[1] = key.GetLeftThumbY();
-  }
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_THUMB_STICK)
-  {
-    m_amount[0] = key.GetRightThumbX();
-    m_amount[1] = key.GetRightThumbY();
-  }
-  else if (key.GetButtonCode() == KEY_BUTTON_LEFT_THUMB_STICK_UP)
-    m_amount[0] = key.GetLeftThumbY();
-  else if (key.GetButtonCode() == KEY_BUTTON_LEFT_THUMB_STICK_DOWN)
-    m_amount[0] = -key.GetLeftThumbY();
-  else if (key.GetButtonCode() == KEY_BUTTON_LEFT_THUMB_STICK_LEFT)
-    m_amount[0] = -key.GetLeftThumbX();
-  else if (key.GetButtonCode() == KEY_BUTTON_LEFT_THUMB_STICK_RIGHT)
-    m_amount[0] = key.GetLeftThumbX();
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_THUMB_STICK_UP)
-    m_amount[0] = key.GetRightThumbY();
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_THUMB_STICK_DOWN)
-    m_amount[0] = -key.GetRightThumbY();
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_THUMB_STICK_LEFT)
-    m_amount[0] = -key.GetRightThumbX();
-  else if (key.GetButtonCode() == KEY_BUTTON_RIGHT_THUMB_STICK_RIGHT)
-    m_amount[0] = key.GetRightThumbX();
 }
 
 CAction::CAction(int actionID, const std::string &name) :

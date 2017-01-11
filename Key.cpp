@@ -50,53 +50,6 @@ CKey::CKey(uint8_t vkey, wchar_t unicode, char ascii, uint32_t modifiers, unsign
   m_buttonCode |= m_modifiers;
 }
 
-CKey::~CKey(void)
-{}
-
-
-CKey::CKey(const CKey& key)
-{
-  *this = key;
-}
-
-void CKey::Reset()
-{
-  m_leftTrigger = 0;
-  m_rightTrigger = 0;
-  m_leftThumbX = 0.0f;
-  m_leftThumbY = 0.0f;
-  m_rightThumbX = 0.0f;
-  m_rightThumbY = 0.0f;
-  m_repeat = 0.0f;
-  m_fromService = false;
-  m_buttonCode = KEY_INVALID;
-  m_vkey = 0;
-  m_unicode = 0;
-  m_ascii = 0;
-  m_modifiers = 0;
-  m_held = 0;
-}
-
-CKey& CKey::operator=(const CKey& key)
-{
-  if (&key == this) return *this;
-  m_leftTrigger = key.m_leftTrigger;
-  m_rightTrigger = key.m_rightTrigger;
-  m_leftThumbX = key.m_leftThumbX;
-  m_leftThumbY = key.m_leftThumbY;
-  m_rightThumbX = key.m_rightThumbX;
-  m_rightThumbY = key.m_rightThumbY;
-  m_repeat = key.m_repeat;
-  m_fromService = key.m_fromService;
-  m_buttonCode = key.m_buttonCode;
-  m_vkey = key.m_vkey;
-  m_unicode = key.m_unicode;
-  m_ascii = key.m_ascii;
-  m_modifiers = key.m_modifiers;
-  m_held = key.m_held;
-  return *this;
-}
-
 BYTE CKey::GetLeftTrigger() const
 {
   return m_leftTrigger;

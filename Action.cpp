@@ -110,24 +110,6 @@ CAction::CAction(int actionID, const std::string &name)
   : CAction(actionID, 0, 0, 0, 0, 0, name)
 {}
 
-
-CAction& CAction::operator=(const CAction& rhs)
-{
-  if (this != &rhs)
-  {
-    m_id = rhs.m_id;
-    for (unsigned int i = 0; i < max_amounts; i++)
-      m_amount[i] = rhs.m_amount[i];
-    m_name = rhs.m_name;
-    m_repeat = rhs.m_repeat;
-    m_buttonCode = rhs.m_buttonCode;
-    m_unicode = rhs.m_unicode;
-    m_holdTime = rhs.m_holdTime;
-    m_text = rhs.m_text;
-  }
-  return *this;
-}
-
 bool CAction::IsAnalog() const
 {
   return CButtonTranslator::IsAnalog(m_id);

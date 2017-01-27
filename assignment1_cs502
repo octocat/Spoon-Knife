@@ -1,0 +1,129 @@
+//////how i solve conflict problem///////
+C:\Users\liyifan>docker-machine create --driver virtualbox  default
+C:\Users\liyifan>docker-machine regenerate-certs default
+C:\Users\liyifan>docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-memory 2048 bigdata
+C:\Users\liyifan>docker-machine regenerate-certs bigdata
+Regenerate TLS machine certs?  Warning: this is irreversible. (y/n): y
+C:\Users\liyifan>docker-machine restart default
+C:\Users\liyifan>docker-machine restart bigdata
+
+
+//////////regular part//////////////////////////////
+C:\Users\liyifan>docker-machine env --shell cmd default
+SET DOCKER_TLS_VERIFY=1
+SET DOCKER_HOST=tcp://192.168.99.100:2376
+SET DOCKER_CERT_PATH=C:\Users\liyifan\.docker\machine\machines\default
+SET DOCKER_MACHINE_NAME=default
+REM Run this command to configure your shell:
+REM     @FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd default') DO @%i
+
+C:\Users\liyifan>FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd bigdata') DO %i
+
+C:\Users\liyifan>SET DOCKER_TLS_VERIFY=1
+
+C:\Users\liyifan>SET DOCKER_HOST=tcp://192.168.99.101:2376
+
+C:\Users\liyifan>SET DOCKER_CERT_PATH=C:\Users\liyifan\.docker\machine\machines\bigdata
+
+C:\Users\liyifan>SET DOCKER_MACHINE_NAME=bigdata
+
+C:\Users\liyifan>REM Run this command to configure your shell:
+
+C:\Users\liyifan>REM    @FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd bigdata') DO @%i
+
+C:\Users\liyifan>docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+
+C:\Users\liyifan>docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/zookeeper
+Unable to find image 'confluent/zookeeper:latest' locally
+latest: Pulling from confluent/zookeeper
+51f5c6a04d83: Pull complete
+a3ed95caeb02: Pull complete
+7004cfc6e122: Pull complete
+aee1f2b2873f: Pull complete
+3a68342c4011: Pull complete
+6cbd71d4d1f4: Pull complete
+a26b1ce3360b: Pull complete
+55bdb2de3391: Pull complete
+c14c55acf45f: Pull complete
+be7e9723819a: Pull complete
+ff3558a8d162: Pull complete
+c73633913e48: Pull complete
+abf0c05f5209: Pull complete
+8e0153a3fe95: Pull complete
+8476a7f4c120: Pull complete
+dd7b7029d4f9: Pull complete
+5de42c73a24d: Pull complete
+82153f3e2e3f: Pull complete
+1b403d9fce92: Pull complete
+b5c575c9edb6: Pull complete
+Digest: sha256:bb097bce322f5553ed1511234f97e7eedb0900211c46958357fbcb342917cbf8
+Status: Downloaded newer image for confluent/zookeeper:latest
+0f18e874cf11f344dca9d790baf953358ca6bcc65cf9331d9dca61faf3aaf552
+
+C:\Users\liyifan>docker-machine ip bigdata
+192.168.99.101
+
+C:\Users\liyifan>docker run -d -p 9092:9092 -e KAFKA_ADVERTISED_HOST_NAME=192.168.99.101 -e KAFKA_ADVERTISED_PORT=9092 --name kafka --link zookeeper:zookeeper confluent/kafka
+Unable to find image 'confluent/kafka:latest' locally
+latest: Pulling from confluent/kafka
+51f5c6a04d83: Already exists
+a3ed95caeb02: Already exists
+7004cfc6e122: Already exists
+aee1f2b2873f: Already exists
+3a68342c4011: Already exists
+6cbd71d4d1f4: Already exists
+a26b1ce3360b: Already exists
+55bdb2de3391: Already exists
+c14c55acf45f: Already exists
+be7e9723819a: Already exists
+ff3558a8d162: Already exists
+c73633913e48: Already exists
+abf0c05f5209: Already exists
+8e0153a3fe95: Already exists
+8476a7f4c120: Already exists
+ed5d8f66195d: Pull complete
+a13270395e60: Pull complete
+c8661c1d28fc: Pull complete
+13f86b2644be: Pull complete
+Digest: sha256:de7415d87302269211342bfe6f7b15fe25f157b55970b2307f325d09e173d357
+Status: Downloaded newer image for confluent/kafka:latest
+49d8f6a0cd1e4c59e95ee22bdc6c370f71ce5ca3a4a86267d39fcab45d965730
+
+C:\Users\liyifan>docker ps
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                                                                    NAMES
+49d8f6a0cd1e        confluent/kafka       "/usr/local/bin/kafka"   1 seconds ago       Up 15 seconds       0.0.0.0:9092->9092/tcp                                                   kafka
+0f18e874cf11        confluent/zookeeper   "/usr/local/bin/zk-do"   40 seconds ago      Up 54 seconds       0.0.0.0:2181->2181/tcp, 0.0.0.0:2888->2888/tcp, 0.0.0.0:3888->3888/tcp   zookeeper
+
+C:\Users\liyifan>./windows/kafka-topics.bat --create --zookeeper `docker-machine ip bigdata` --replication-factor 1 --partitions 1 --topic bigdata
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\liyifan>./windows/kafka-topics.bat --create --zookeeper 192.168.99.101 --replication-factor 1 --partitions 1 --topic bigdata
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\liyifan>cd C:\Users\liyifan\kafka\bin
+
+C:\Users\liyifan\kafka\bin>./windows/kafka-topics.bat --create --zookeeper 192.168.99.101 --replication-factor 1 --partitions 1 --topic bigdata
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\liyifan\kafka\bin>cd windows
+
+C:\Users\liyifan\kafka\bin\windows>kafka-topics.bat --create --zookeeper 192.168.99.101 --replication-factor 1 --partitions 1 --topic bigdata
+Created topic "bigdata".
+
+C:\Users\liyifan\kafka\bin\windows>kafka-topics.bat --list --zookeeper 192.168.99.101
+bigdata
+
+C:\Users\liyifan\kafka\bin\windows> kafka-console-producer.bat --broker-list 192.168.99.101:9092 --topic bigdata
+sadfsa
+ok i win
+
+////another cmd////////
+C:\Users\liyifan>cd C:\Users\liyifan\kafka\bin\windows
+
+C:\Users\liyifan\kafka\bin\windows>kafka-console-consumer.bat --zookeeper 192.168.99.101:2181 --topic bigdata
+sadfsa
+ok i win

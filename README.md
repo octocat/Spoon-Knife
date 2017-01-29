@@ -10,4 +10,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 Testimonials from REAL fork users:
 
-"Hi! I'm @Crowbrammer. And thanks to @octocat, I know how to fork. Oh yes. I know how to fork real good. Thanks, octocat :)" (Originally created on Crowbrammer's own fork of octocat's repos.)
+"Hi! I'm @Crowbrammer. And thanks to @octocat, I fork all the time. And now, it seems that everybody's telling me how good I am at forking (not really). But yeah, thanks, octocat :)" (Testimonial created from Crowbrammer's own fork of octocat's repos.!)

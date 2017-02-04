@@ -2,4 +2,6 @@ Ad fugiat exercitation magna quis excepteur anim esse nostrud minim occaecat eli
 
 Make change to satisfy maintainer.
 
-A further change, in same topic branch but for a seperate Pull Request.
+A further change, in same topic branch but for a separate Pull Request.
+
+Now another change in topic branch. A separate Pull request?

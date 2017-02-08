@@ -1,3 +1,10 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: #333333;
+	background-color: #999999;
+}
+
 * {
   margin:0px;
   padding:0px;

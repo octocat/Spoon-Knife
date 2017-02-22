@@ -20,4 +20,6 @@ Aprés avoir Forké ce repository, vous pouvez faire quelques changements et env
 
 Pour plus d'informations sur comment *forker* un repository [regarder notre guide, "Forking Projects""](http://guides.github.com/overviews/forking/) Merci! :sparkling_heart:
 
-[@carolea](https://github.com/Carolea)
+
+[@carolea](https://github.com/Carolea)/[@adricen](https://github.com/adricen)
+

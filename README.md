@@ -21,5 +21,7 @@ Aprés avoir Forké ce repository, vous pouvez faire quelques changements et env
 Pour plus d'informations sur comment *forker* un repository [regarder notre guide, "Forking Projects""](http://guides.github.com/overviews/forking/) Merci! :sparkling_heart:
 
 
-[@abdoulaye-at](https://github.com/Abdoulaye-at) // [@adricen](https://github.com/adricen)
+
+[@abdoulaye-at](https://github.com/Abdoulaye-at) / [@adricen](https://github.com/adricen)/[@hananekharraf](https://github.com/hananekharraf)
+
 

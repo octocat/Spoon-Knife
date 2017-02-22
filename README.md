@@ -21,3 +21,5 @@ Aprés avoir Forké ce repository, vous pouvez faire quelques changements et env
 Pour plus d'informations sur comment *forker* un repository [regarder notre guide, "Forking Projects""](http://guides.github.com/overviews/forking/) Merci! :sparkling_heart:
 
 [@shiina936](https://github.com/shiina936)
+[@adricen](https://github.com/adricen)
+

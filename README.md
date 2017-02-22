@@ -19,3 +19,5 @@ Creer une *fork* produit une copie personnel du projet de quelqu'n d'autre. *for
 Aprés avoir Forké ce repository, vous pouvez faire quelques changements et envoyer un [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) pour vous entrainer.
 
 Pour plus d'informations sur comment *forker* un repository [regarder notre guide, "Forking Projects""](http://guides.github.com/overviews/forking/) Merci! :sparkling_heart:
+
+[@Uidivo](https://github.com/Uidivo)

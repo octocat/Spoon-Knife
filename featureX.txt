@@ -1,1 +1,2 @@
 Creating feature X
+adding line 2

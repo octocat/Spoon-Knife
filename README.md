@@ -1,3 +1,7 @@
+EDIT 1
+
+EDIT 2
+
 sjdfnbksdbghksOKOKOKOKHOHOHOHOHOHOOH### Well hello there!
 BENNAJMIN WROTE THIS
 This repository is meant to provide an example for *forking* a repository on GitHub.

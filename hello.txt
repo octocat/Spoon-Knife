@@ -1,0 +1,3 @@
+Hello, world.
+
+Who would call their program 'Git' anyway?

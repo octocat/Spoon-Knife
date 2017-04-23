@@ -1,3 +1,6 @@
+body {
+	background:lavender;
+}
 p {
-	font-family:Arial;color:green;font-size:3em;
+	font-family:Arial;font-size:3em;font-weight:bold;color:navy;
 }

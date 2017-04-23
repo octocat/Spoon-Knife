@@ -1,17 +1,6 @@
-* {
-  margin:0px;
-  padding:0px;
+body {
+	background:lavender;
 }
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	font-family:Arial;font-size:3em;font-weight:bold;color:navy;
 }

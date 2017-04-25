@@ -1,0 +1,982 @@
+######################## Filebeat Configuration ############################
+
+# This file is a full configuration example documenting all non-deprecated
+# options in comments. For a shorter configuration example, that contains only
+# the most common options, please see filebeat.yml in the same directory.
+#
+# You can find the full configuration reference here:
+# https://www.elastic.co/guide/en/beats/filebeat/index.html
+
+
+#==========================  Modules configuration ============================
+filebeat.modules:
+
+#------------------------------- System Module -------------------------------
+#- module: system
+  # Syslog
+  #syslog:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+#------------------------------- Apache2 Module ------------------------------
+#- module: apache2
+  # Access logs
+  #access:
+    #enabled: true
+
+    # Ingest Node pipeline to use. Options are `with_plugins` (default)
+    # and `no_plugins`. Use `no_plugins` if you don't have the geoip or
+    # the user agent Node ingest plugins installed.
+    #var.pipeline: with_plugins
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+  # Error logs
+  #error:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+#-------------------------------- MySQL Module -------------------------------
+#- module: mysql
+  # Error logs
+  #error:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+  # Slow logs
+  #slowlog:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+#-------------------------------- Nginx Module -------------------------------
+#- module: nginx
+  # Access logs
+  #access:
+    #enabled: true
+
+    # Ingest Node pipeline to use. Options are `with_plugins` (default)
+    # and `no_plugins`. Use `no_plugins` if you don't have the geoip or
+    # the user agent Node ingest plugins installed.
+    #var.pipeline: with_plugins
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+  # Error logs
+  #error:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Prospector configuration (advanced). Any prospector configuration option
+    # can be added under this section.
+    #prospector:
+
+
+#=========================== Filebeat prospectors =============================
+
+# List of prospectors to fetch data.
+filebeat.prospectors:
+# Each - is a prospector. Most options can be set at the prospector level, so
+# you can use different prospectors for various configurations.
+# Below are the prospector specific configurations.
+
+# Type of the files. Based on this the way the file is read is decided.
+# The different types cannot be mixed in one prospector
+#
+# Possible options are:
+# * log: Reads every line of the log file (default)
+# * stdin: Reads the standard in
+
+#------------------------------ Log prospector --------------------------------
+- input_type: log
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  # To fetch all ".log" files from a specific level of subdirectories
+  # /var/log/*/*.log can be used.
+  # For each file found under this path, a harvester is started.
+  # Make sure not file is defined twice as this can lead to unexpected behaviour.
+  paths:
+    - /var/log/*.log
+    #- c:\programdata\elasticsearch\logs\*
+
+  # Configure the file encoding for reading files with international characters
+  # following the W3C recommendation for HTML5 (http://www.w3.org/TR/encoding).
+  # Some sample encodings:
+  #   plain, utf-8, utf-16be-bom, utf-16be, utf-16le, big5, gb18030, gbk,
+  #    hz-gb-2312, euc-kr, euc-jp, iso-2022-jp, shift-jis, ...
+  #encoding: plain
+
+
+  # Exclude lines. A list of regular expressions to match. It drops the lines that are
+  # matching any regular expression from the list. The include_lines is called before
+  # exclude_lines. By default, no lines are dropped.
+  #exclude_lines: ["^DBG"]
+
+  # Include lines. A list of regular expressions to match. It exports the lines that are
+  # matching any regular expression from the list. The include_lines is called before
+  # exclude_lines. By default, all the lines are exported.
+  #include_lines: ["^ERR", "^WARN"]
+
+  # Exclude files. A list of regular expressions to match. Filebeat drops the files that
+  # are matching any regular expression from the list. By default, no files are dropped.
+  #exclude_files: [".gz$"]
+
+  # Optional additional fields. These field can be freely picked
+  # to add additional information to the crawled log files for filtering
+  #fields:
+  #  level: debug
+  #  review: 1
+
+  # Set to true to store the additional fields as top level fields instead
+  # of under the "fields" sub-dictionary. In case of name conflicts with the
+  # fields added by Filebeat itself, the custom fields overwrite the default
+  # fields.
+  #fields_under_root: false
+
+  # Ignore files which were modified more then the defined timespan in the past.
+  # ignore_older is disabled by default, so no files are ignored by setting it to 0.
+  # Time strings like 2h (2 hours), 5m (5 minutes) can be used.
+  #ignore_older: 0
+
+  # Type to be published in the 'type' field. For Elasticsearch output,
+  # the type defines the document type these entries should be stored
+  # in. Default: log
+  #document_type: log
+
+  # How often the prospector checks for new files in the paths that are specified
+  # for harvesting. Specify 1s to scan the directory as frequently as possible
+  # without causing Filebeat to scan too frequently. Default: 10s.
+  #scan_frequency: 10s
+
+  # Defines the buffer size every harvester uses when fetching the file
+  #harvester_buffer_size: 16384
+
+  # Maximum number of bytes a single log event can have
+  # All bytes after max_bytes are discarded and not sent. The default is 10MB.
+  # This is especially useful for multiline log messages which can get large.
+  #max_bytes: 10485760
+
+  ### JSON configuration
+
+  # Decode JSON options. Enable this if your logs are structured in JSON.
+  # JSON key on which to apply the line filtering and multiline settings. This key
+  # must be top level and its value must be string, otherwise it is ignored. If
+  # no text key is defined, the line filtering and multiline features cannot be used.
+  #json.message_key:
+
+  # By default, the decoded JSON is placed under a "json" key in the output document.
+  # If you enable this setting, the keys are copied top level in the output document.
+  #json.keys_under_root: false
+
+  # If keys_under_root and this setting are enabled, then the values from the decoded
+  # JSON object overwrite the fields that Filebeat normally adds (type, source, offset, etc.)
+  # in case of conflicts.
+  #json.overwrite_keys: false
+
+  # If this setting is enabled, Filebeat adds a "json_error" key in case of JSON
+  # unmarshaling errors or when a text key is defined in the configuration but cannot
+  # be used.
+  #json.add_error_key: false
+
+  ### Multiline options
+
+  # Mutiline can be used for log messages spanning multiple lines. This is common
+  # for Java Stack Traces or C-Line Continuation
+
+  # The regexp Pattern that has to be matched. The example pattern matches all lines starting with [
+  #multiline.pattern: ^\[
+
+  # Defines if the pattern set under pattern should be negated or not. Default is false.
+  #multiline.negate: false
+
+  # Match can be set to "after" or "before". It is used to define if lines should be append to a pattern
+  # that was (not) matched before or after or as long as a pattern is not matched based on negate.
+  # Note: After is the equivalent to previous and before is the equivalent to to next in Logstash
+  #multiline.match: after
+
+  # The maximum number of lines that are combined to one event.
+  # In case there are more the max_lines the additional lines are discarded.
+  # Default is 500
+  #multiline.max_lines: 500
+
+  # After the defined timeout, an multiline event is sent even if no new pattern was found to start a new event
+  # Default is 5s.
+  #multiline.timeout: 5s
+
+  # Setting tail_files to true means filebeat starts reading new files at the end
+  # instead of the beginning. If this is used in combination with log rotation
+  # this can mean that the first entries of a new file are skipped.
+  #tail_files: false
+
+  # The Ingest Node pipeline ID associated with this prospector. If this is set, it
+  # overwrites the pipeline option from the Elasticsearch output.
+  #pipeline:
+
+  # If symlinks is enabled, symlinks are opened and harvested. The harvester is openening the
+  # original for harvesting but will report the symlink name as source.
+  #symlinks: false
+
+  # Backoff values define how aggressively filebeat crawls new files for updates
+  # The default values can be used in most cases. Backoff defines how long it is waited
+  # to check a file again after EOF is reached. Default is 1s which means the file
+  # is checked every second if new lines were added. This leads to a near real time crawling.
+  # Every time a new line appears, backoff is reset to the initial value.
+  #backoff: 1s
+
+  # Max backoff defines what the maximum backoff time is. After having backed off multiple times
+  # from checking the files, the waiting time will never exceed max_backoff independent of the
+  # backoff factor. Having it set to 10s means in the worst case a new line can be added to a log
+  # file after having backed off multiple times, it takes a maximum of 10s to read the new line
+  #max_backoff: 10s
+
+  # The backoff factor defines how fast the algorithm backs off. The bigger the backoff factor,
+  # the faster the max_backoff value is reached. If this value is set to 1, no backoff will happen.
+  # The backoff value will be multiplied each time with the backoff_factor until max_backoff is reached
+  #backoff_factor: 2
+
+  # Max number of harvesters that are started in parallel.
+  # Default is 0 which means unlimited
+  #harvester_limit: 0
+
+  ### Harvester closing options
+
+  # Close inactive closes the file handler after the predefined period.
+  # The period starts when the last line of the file was, not the file ModTime.
+  # Time strings like 2h (2 hours), 5m (5 minutes) can be used.
+  #close_inactive: 5m
+
+  # Close renamed closes a file handler when the file is renamed or rotated.
+  # Note: Potential data loss. Make sure to read and understand the docs for this option.
+  #close_renamed: false
+
+  # When enabling this option, a file handler is closed immediately in case a file can't be found
+  # any more. In case the file shows up again later, harvesting will continue at the last known position
+  # after scan_frequency.
+  #close_removed: true
+
+  # Closes the file handler as soon as the harvesters reaches the end of the file.
+  # By default this option is disabled.
+  # Note: Potential data loss. Make sure to read and understand the docs for this option.
+  #close_eof: false
+
+  ### State options
+
+  # Files for the modification data is older then clean_inactive the state from the registry is removed
+  # By default this is disabled.
+  #clean_inactive: 0
+
+  # Removes the state for file which cannot be found on disk anymore immediately
+  #clean_removed: true
+
+  # Close timeout closes the harvester after the predefined time.
+  # This is independent if the harvester did finish reading the file or not.
+  # By default this option is disabled.
+  # Note: Potential data loss. Make sure to read and understand the docs for this option.
+  #close_timeout: 0
+
+  # Defines if prospectors is enabled
+  #enabled: true
+
+#----------------------------- Stdin prospector -------------------------------
+# Configuration to use stdin input
+#- input_type: stdin
+
+#========================= Filebeat global options ============================
+
+# Event count spool threshold - forces network flush if exceeded
+#filebeat.spool_size: 2048
+
+# Enable async publisher pipeline in filebeat (Experimental!)
+#filebeat.publish_async: false
+
+# Defines how often the spooler is flushed. After idle_timeout the spooler is
+# Flush even though spool_size is not reached.
+#filebeat.idle_timeout: 5s
+
+# Name of the registry file. If a relative path is used, it is considered relative to the
+# data path.
+#filebeat.registry_file: ${path.data}/registry
+
+#
+# These config files must have the full filebeat config part inside, but only
+# the prospector part is processed. All global options like spool_size are ignored.
+# The config_dir MUST point to a different directory then where the main filebeat config file is in.
+#filebeat.config_dir:
+
+# How long filebeat waits on shutdown for the publisher to finish.
+# Default is 0, not waiting.
+#filebeat.shutdown_timeout: 0
+
+#================================ General ======================================
+
+# The name of the shipper that publishes the network data. It can be used to group
+# all the transactions sent by a single shipper in the web interface.
+# If this options is not defined, the hostname is used.
+#name:
+
+# The tags of the shipper are included in their own field with each
+# transaction published. Tags make it easy to group servers by different
+# logical properties.
+#tags: ["service-X", "web-tier"]
+
+# Optional fields that you can specify to add additional information to the
+# output. Fields can be scalar values, arrays, dictionaries, or any nested
+# combination of these.
+#fields:
+#  env: staging
+
+# If this option is set to true, the custom fields are stored as top-level
+# fields in the output document instead of being grouped under a fields
+# sub-dictionary. Default is false.
+#fields_under_root: false
+
+# Internal queue size for single events in processing pipeline
+#queue_size: 1000
+
+# The internal queue size for bulk events in the processing pipeline.
+# Do not modify this value.
+#bulk_queue_size: 0
+
+# Sets the maximum number of CPUs that can be executing simultaneously. The
+# default is the number of logical CPUs available in the system.
+#max_procs:
+
+#================================ Processors ===================================
+
+# Processors are used to reduce the number of fields in the exported event or to
+# enhance the event with external metadata. This section defines a list of
+# processors that are applied one by one and the first one receives the initial
+# event:
+#
+#   event -> filter1 -> event1 -> filter2 ->event2 ...
+#
+# The supported processors are drop_fields, drop_event, include_fields, and
+# add_cloud_metadata.
+#
+# For example, you can use the following processors to keep the fields that
+# contain CPU load percentages, but remove the fields that contain CPU ticks
+# values:
+#
+#processors:
+#- include_fields:
+#    fields: ["cpu"]
+#- drop_fields:
+#    fields: ["cpu.user", "cpu.system"]
+#
+# The following example drops the events that have the HTTP response code 200:
+#
+#processors:
+#- drop_event:
+#    when:
+#       equals:
+#           http.code: 200
+#
+# The following example enriches each event with metadata from the cloud
+# provider about the host machine. It works on EC2, GCE, and DigitalOcean.
+#
+#processors:
+#- add_cloud_metadata:
+#
+
+#================================ Outputs ======================================
+
+# Configure what outputs to use when sending the data collected by the beat.
+# Multiple outputs may be used.
+
+#-------------------------- Elasticsearch output -------------------------------
+output.elasticsearch:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # Array of hosts to connect to.
+  # Scheme and port can be left out and will be set to the default (http and 9200)
+  # In case you specify and additional path, the scheme is required: http://localhost:9200/path
+  # IPv6 addresses should always be defined as: https://[2001:db8::1]:9200
+  hosts: ["localhost:9200"]
+
+  # Set gzip compression level.
+  #compression_level: 0
+
+  # Optional protocol and basic auth credentials.
+  #protocol: "https"
+  #username: "elastic"
+  #password: "changeme"
+
+  # Dictionary of HTTP parameters to pass within the url with index operations.
+  #parameters:
+    #param1: value1
+    #param2: value2
+
+  # Number of workers per Elasticsearch host.
+  #worker: 1
+
+  # Optional index name. The default is "filebeat" plus date
+  # and generates [filebeat-]YYYY.MM.DD keys.
+  #index: "filebeat-%{+yyyy.MM.dd}"
+
+  # Optional ingest node pipeline. By default no pipeline will be used.
+  #pipeline: ""
+
+  # Optional HTTP Path
+  #path: "/elasticsearch"
+
+  # Custom HTTP headers to add to each request
+  #headers:
+  #  X-My-Header: Contents of the header
+
+  # Proxy server url
+  #proxy_url: http://proxy:3128
+
+  # The number of times a particular Elasticsearch index operation is attempted. If
+  # the indexing operation doesn't succeed after this many retries, the events are
+  # dropped. The default is 3.
+  #max_retries: 3
+
+  # The maximum number of events to bulk in a single Elasticsearch bulk API index request.
+  # The default is 50.
+  #bulk_max_size: 50
+
+  # Configure http request timeout before failing an request to Elasticsearch.
+  #timeout: 90
+
+  # The number of seconds to wait for new events between two bulk API index requests.
+  # If `bulk_max_size` is reached before this interval expires, addition bulk index
+  # requests are made.
+  #flush_interval: 1s
+
+  # A template is used to set the mapping in Elasticsearch
+  # By default template loading is enabled and the template is loaded.
+  # These settings can be adjusted to load your own template or overwrite existing ones.
+
+  # Set to false to disable template loading.
+  #template.enabled: true
+
+  # Template name. By default the template name is filebeat.
+  #template.name: "filebeat"
+
+  # Path to template file
+  #template.path: "${path.config}/filebeat.template.json"
+
+  # Overwrite existing template
+  #template.overwrite: false
+
+  # If set to true, filebeat checks the Elasticsearch version at connect time, and if it
+  # is 2.x, it loads the file specified by the template.versions.2x.path setting. The
+  # default is true.
+  #template.versions.2x.enabled: true
+
+  # Path to the Elasticsearch 2.x version of the template file.
+  #template.versions.2x.path: "${path.config}/filebeat.template-es2x.json"
+
+  # Use SSL settings for HTTPS. Default is true.
+  #ssl.enabled: true
+
+  # Configure SSL verification mode. If `none` is configured, all server hosts
+  # and certificates will be accepted. In this mode, SSL based connections are
+  # susceptible to man-in-the-middle attacks. Use only for testing. Default is
+  # `full`.
+  #ssl.verification_mode: full
+
+  # List of supported/valid TLS versions. By default all TLS versions 1.0 up to
+  # 1.2 are enabled.
+  #ssl.supported_protocols: [TLSv1.0, TLSv1.1, TLSv1.2]
+
+  # SSL configuration. By default is off.
+  # List of root certificates for HTTPS server verifications
+  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+
+  # Certificate for SSL client authentication
+  #ssl.certificate: "/etc/pki/client/cert.pem"
+
+  # Client Certificate Key
+  #ssl.key: "/etc/pki/client/cert.key"
+
+  # Optional passphrase for decrypting the Certificate Key.
+  #ssl.key_passphrase: ''
+
+  # Configure cipher suites to be used for SSL connections
+  #ssl.cipher_suites: []
+
+  # Configure curve types for ECDHE based cipher suites
+  #ssl.curve_types: []
+
+
+#----------------------------- Logstash output ---------------------------------
+#output.logstash:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # The Logstash hosts
+  #hosts: ["localhost:5044"]
+
+  # Number of workers per Logstash host.
+  #worker: 1
+
+  # Set gzip compression level.
+  #compression_level: 3
+
+  # Optional load balance the events between the Logstash hosts
+  #loadbalance: true
+
+  # Number of batches to be send asynchronously to logstash while processing
+  # new batches.
+  #pipelining: 0
+
+  # Optional index name. The default index name is set to name of the beat
+  # in all lowercase.
+  #index: 'filebeat'
+
+  # SOCKS5 proxy server URL
+  #proxy_url: socks5://user:password@socks5-server:2233
+
+  # Resolve names locally when using a proxy server. Defaults to false.
+  #proxy_use_local_resolver: false
+
+  # Enable SSL support. SSL is automatically enabled, if any SSL setting is set.
+  #ssl.enabled: true
+
+  # Configure SSL verification mode. If `none` is configured, all server hosts
+  # and certificates will be accepted. In this mode, SSL based connections are
+  # susceptible to man-in-the-middle attacks. Use only for testing. Default is
+  # `full`.
+  #ssl.verification_mode: full
+
+  # List of supported/valid TLS versions. By default all TLS versions 1.0 up to
+  # 1.2 are enabled.
+  #ssl.supported_protocols: [TLSv1.0, TLSv1.1, TLSv1.2]
+
+  # Optional SSL configuration options. SSL is off by default.
+  # List of root certificates for HTTPS server verifications
+  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+
+  # Certificate for SSL client authentication
+  #ssl.certificate: "/etc/pki/client/cert.pem"
+
+  # Client Certificate Key
+  #ssl.key: "/etc/pki/client/cert.key"
+
+  # Optional passphrase for decrypting the Certificate Key.
+  #ssl.key_passphrase: ''
+
+  # Configure cipher suites to be used for SSL connections
+  #ssl.cipher_suites: []
+
+  # Configure curve types for ECDHE based cipher suites
+  #ssl.curve_types: []
+
+#------------------------------- Kafka output ----------------------------------
+#output.kafka:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # The list of Kafka broker addresses from where to fetch the cluster metadata.
+  # The cluster metadata contain the actual Kafka brokers events are published
+  # to.
+  #hosts: ["localhost:9092"]
+
+  # The Kafka topic used for produced events. The setting can be a format string
+  # using any event field. To set the topic from document type use `%{[type]}`.
+  #topic: beats
+
+  # The Kafka event key setting. Use format string to create unique event key.
+  # By default no event key will be generated.
+  #key: ''
+
+  # The Kafka event partitioning strategy. Default hashing strategy is `hash`
+  # using the `output.kafka.key` setting or randomly distributes events if
+  # `output.kafka.key` is not configured.
+  #partition.hash:
+    # If enabled, events will only be published to partitions with reachable
+    # leaders. Default is false.
+    #reachable_only: false
+
+    # Configure alternative event field names used to compute the hash value.
+    # If empty `output.kafka.key` setting will be used.
+    # Default value is empty list.
+    #hash: []
+
+  # Authentication details. Password is required if username is set.
+  #username: ''
+  #password: ''
+
+  # Kafka version filebeat is assumed to run against. Defaults to the oldest
+  # supported stable version (currently version 0.8.2.0)
+  #version: 0.8.2
+
+  # Metadata update configuration. Metadata do contain leader information
+  # deciding which broker to use when publishing.
+  #metadata:
+    # Max metadata request retry attempts when cluster is in middle of leader
+    # election. Defaults to 3 retries.
+    #retry.max: 3
+
+    # Waiting time between retries during leader elections. Default is 250ms.
+    #retry.backoff: 250ms
+
+    # Refresh metadata interval. Defaults to every 10 minutes.
+    #refresh_frequency: 10m
+
+  # The number of concurrent load-balanced Kafka output workers.
+  #worker: 1
+
+  # The number of times to retry publishing an event after a publishing failure.
+  # After the specified number of retries, the events are typically dropped.
+  # Some Beats, such as Filebeat, ignore the max_retries setting and retry until
+  # all events are published.  Set max_retries to a value less than 0 to retry
+  # until all events are published. The default is 3.
+  #max_retries: 3
+
+  # The maximum number of events to bulk in a single Kafka request. The default
+  # is 2048.
+  #bulk_max_size: 2048
+
+  # The number of seconds to wait for responses from the Kafka brokers before
+  # timing out. The default is 30s.
+  #timeout: 30s
+
+  # The maximum duration a broker will wait for number of required ACKs. The
+  # default is 10s.
+  #broker_timeout: 10s
+
+  # The number of messages buffered for each Kafka broker. The default is 256.
+  #channel_buffer_size: 256
+
+  # The keep-alive period for an active network connection. If 0s, keep-alives
+  # are disabled. The default is 0 seconds.
+  #keep_alive: 0
+
+  # Sets the output compression codec. Must be one of none, snappy and gzip. The
+  # default is gzip.
+  #compression: gzip
+
+  # The maximum permitted size of JSON-encoded messages. Bigger messages will be
+  # dropped. The default value is 1000000 (bytes). This value should be equal to
+  # or less than the broker's message.max.bytes.
+  #max_message_bytes: 1000000
+
+  # The ACK reliability level required from broker. 0=no response, 1=wait for
+  # local commit, -1=wait for all replicas to commit. The default is 1.  Note:
+  # If set to 0, no ACKs are returned by Kafka. Messages might be lost silently
+  # on error.
+  #required_acks: 1
+
+  # The number of seconds to wait for new events between two producer API calls.
+  #flush_interval: 1s
+
+  # The configurable ClientID used for logging, debugging, and auditing
+  # purposes.  The default is "beats".
+  #client_id: beats
+
+  # Enable SSL support. SSL is automatically enabled, if any SSL setting is set.
+  #ssl.enabled: true
+
+  # Optional SSL configuration options. SSL is off by default.
+  # List of root certificates for HTTPS server verifications
+  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+
+  # Configure SSL verification mode. If `none` is configured, all server hosts
+  # and certificates will be accepted. In this mode, SSL based connections are
+  # susceptible to man-in-the-middle attacks. Use only for testing. Default is
+  # `full`.
+  #ssl.verification_mode: full
+
+  # List of supported/valid TLS versions. By default all TLS versions 1.0 up to
+  # 1.2 are enabled.
+  #ssl.supported_protocols: [TLSv1.0, TLSv1.1, TLSv1.2]
+
+  # Certificate for SSL client authentication
+  #ssl.certificate: "/etc/pki/client/cert.pem"
+
+  # Client Certificate Key
+  #ssl.key: "/etc/pki/client/cert.key"
+
+  # Optional passphrase for decrypting the Certificate Key.
+  #ssl.key_passphrase: ''
+
+  # Configure cipher suites to be used for SSL connections
+  #ssl.cipher_suites: []
+
+  # Configure curve types for ECDHE based cipher suites
+  #ssl.curve_types: []
+
+#------------------------------- Redis output ----------------------------------
+#output.redis:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # The list of Redis servers to connect to. If load balancing is enabled, the
+  # events are distributed to the servers in the list. If one server becomes
+  # unreachable, the events are distributed to the reachable servers only.
+  #hosts: ["localhost:6379"]
+
+  # The Redis port to use if hosts does not contain a port number. The default
+  # is 6379.
+  #port: 6379
+
+  # The name of the Redis list or channel the events are published to. The
+  # default is filebeat.
+  #key: filebeat
+
+  # The password to authenticate with. The default is no authentication.
+  #password:
+
+  # The Redis database number where the events are published. The default is 0.
+  #db: 0
+
+  # The Redis data type to use for publishing events. If the data type is list,
+  # the Redis RPUSH command is used. If the data type is channel, the Redis
+  # PUBLISH command is used. The default value is list.
+  #datatype: list
+
+  # The number of workers to use for each host configured to publish events to
+  # Redis. Use this setting along with the loadbalance option. For example, if
+  # you have 2 hosts and 3 workers, in total 6 workers are started (3 for each
+  # host).
+  #worker: 1
+
+  # If set to true and multiple hosts or workers are configured, the output
+  # plugin load balances published events onto all Redis hosts. If set to false,
+  # the output plugin sends all events to only one host (determined at random)
+  # and will switch to another host if the currently selected one becomes
+  # unreachable. The default value is true.
+  #loadbalance: true
+
+  # The Redis connection timeout in seconds. The default is 5 seconds.
+  #timeout: 5s
+
+  # The number of times to retry publishing an event after a publishing failure.
+  # After the specified number of retries, the events are typically dropped.
+  # Some Beats, such as Filebeat, ignore the max_retries setting and retry until
+  # all events are published. Set max_retries to a value less than 0 to retry
+  # until all events are published. The default is 3.
+  #max_retries: 3
+
+  # The maximum number of events to bulk in a single Redis request or pipeline.
+  # The default is 2048.
+  #bulk_max_size: 2048
+
+  # The URL of the SOCKS5 proxy to use when connecting to the Redis servers. The
+  # value must be a URL with a scheme of socks5://.
+  #proxy_url:
+
+  # This option determines whether Redis hostnames are resolved locally when
+  # using a proxy. The default value is false, which means that name resolution
+  # occurs on the proxy server.
+  #proxy_use_local_resolver: false
+
+  # Enable SSL support. SSL is automatically enabled, if any SSL setting is set.
+  #ssl.enabled: true
+
+  # Configure SSL verification mode. If `none` is configured, all server hosts
+  # and certificates will be accepted. In this mode, SSL based connections are
+  # susceptible to man-in-the-middle attacks. Use only for testing. Default is
+  # `full`.
+  #ssl.verification_mode: full
+
+  # List of supported/valid TLS versions. By default all TLS versions 1.0 up to
+  # 1.2 are enabled.
+  #ssl.supported_protocols: [TLSv1.0, TLSv1.1, TLSv1.2]
+
+  # Optional SSL configuration options. SSL is off by default.
+  # List of root certificates for HTTPS server verifications
+  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+
+  # Certificate for SSL client authentication
+  #ssl.certificate: "/etc/pki/client/cert.pem"
+
+  # Client Certificate Key
+  #ssl.key: "/etc/pki/client/cert.key"
+
+  # Optional passphrase for decrypting the Certificate Key.
+  #ssl.key_passphrase: ''
+
+  # Configure cipher suites to be used for SSL connections
+  #ssl.cipher_suites: []
+
+  # Configure curve types for ECDHE based cipher suites
+  #ssl.curve_types: []
+
+
+#------------------------------- File output -----------------------------------
+#output.file:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # Path to the directory where to save the generated files. The option is
+  # mandatory.
+  #path: "/tmp/filebeat"
+
+  # Name of the generated files. The default is `filebeat` and it generates
+  # files: `filebeat`, `filebeat.1`, `filebeat.2`, etc.
+  #filename: filebeat
+
+  # Maximum size in kilobytes of each file. When this size is reached, and on
+  # every filebeat restart, the files are rotated. The default value is 10240
+  # kB.
+  #rotate_every_kb: 10000
+
+  # Maximum number of files under path. When this number of files is reached,
+  # the oldest file is deleted and the rest are shifted from last to first. The
+  # default is 7 files.
+  #number_of_files: 7
+
+
+#----------------------------- Console output ---------------------------------
+#output.console:
+  # Boolean flag to enable or disable the output module.
+  #enabled: true
+
+  # Pretty print json event
+  #pretty: false
+
+#================================= Paths ======================================
+
+# The home path for the filebeat installation. This is the default base path
+# for all other path settings and for miscellaneous files that come with the
+# distribution (for example, the sample dashboards).
+# If not set by a CLI flag or in the configuration file, the default for the
+# home path is the location of the binary.
+#path.home:
+
+# The configuration path for the filebeat installation. This is the default
+# base path for configuration files, including the main YAML configuration file
+# and the Elasticsearch template file. If not set by a CLI flag or in the
+# configuration file, the default for the configuration path is the home path.
+#path.config: ${path.home}
+
+# The data path for the filebeat installation. This is the default base path
+# for all the files in which filebeat needs to store its data. If not set by a
+# CLI flag or in the configuration file, the default for the data path is a data
+# subdirectory inside the home path.
+#path.data: ${path.home}/data
+
+# The logs path for a filebeat installation. This is the default location for
+# the Beat's log files. If not set by a CLI flag or in the configuration file,
+# the default for the logs path is a logs subdirectory inside the home path.
+#path.logs: ${path.home}/logs
+
+#============================== Dashboards =====================================
+# These settings control loading the sample dashboards to the Kibana index. Loading
+# the dashboards is disabled by default and can be enabled either by setting the
+# options here, or by using the `-setup` CLI flag.
+#dashboards.enabled: false
+
+# The URL from where to download the dashboards archive. By default this URL
+# has a value which is computed based on the Beat name and version. For released
+# versions, this URL points to the dashboard archive on the artifacts.elastic.co
+# website.
+#dashboards.url:
+
+# The directory from where to read the dashboards. It is used instead of the URL
+# when it has a value.
+#dashboards.directory:
+
+# The file archive (zip file) from where to read the dashboards. It is used instead
+# of the URL when it has a value.
+#dashboards.file:
+
+# If this option is enabled, the snapshot URL is used instead of the default URL.
+#dashboards.snapshot: false
+
+# The URL from where to download the snapshot version of the dashboards. By default
+# this has a value which is computed based on the Beat name and version.
+#dashboards.snapshot_url
+
+# In case the archive contains the dashboards from multiple Beats, this lets you
+# select which one to load. You can load all the dashboards in the archive by
+# setting this to the empty string.
+#dashboards.beat: filebeat
+
+# The name of the Kibana index to use for setting the configuration. Default is ".kibana"
+#dashboards.kibana_index: .kibana
+
+# The Elasticsearch index name. This overwrites the index name defined in the
+# dashboards and index pattern. Example: testbeat-*
+#dashboards.index:
+
+#================================ Logging ======================================
+# There are three options for the log output: syslog, file, stderr.
+# Under Windows systems, the log files are per default sent to the file output,
+# under all other system per default to syslog.
+
+# Sets log level. The default log level is info.
+# Available log levels are: critical, error, warning, info, debug
+#logging.level: info
+
+# Enable debug output for selected components. To enable all selectors use ["*"]
+# Other available selectors are "beat", "publish", "service"
+# Multiple selectors can be chained.
+#logging.selectors: [ ]
+
+# Send all logging output to syslog. The default is false.
+#logging.to_syslog: true
+
+# If enabled, filebeat periodically logs its internal metrics that have changed
+# in the last period. For each metric that changed, the delta from the value at
+# the beginning of the period is logged. Also, the total values for
+# all non-zero internal metrics are logged on shutdown. The default is true.
+#logging.metrics.enabled: true
+
+# The period after which to log the internal metrics. The default is 30s.
+#logging.metrics.period: 30s
+
+# Logging to rotating files files. Set logging.to_files to false to disable logging to
+# files.
+logging.to_files: true
+logging.files:
+  # Configure the path where the logs are written. The default is the logs directory
+  # under the home path (the binary location).
+  #path: /var/log/filebeat
+
+  # The name of the files where the logs are written to.
+  #name: filebeat
+
+  # Configure log file size limit. If limit is reached, log file will be
+  # automatically rotated
+  #rotateeverybytes: 10485760 # = 10MB
+
+  # Number of rotated log files to keep. Oldest files will be deleted first.
+  #keepfiles: 7
+

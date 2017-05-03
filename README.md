@@ -23,3 +23,11 @@ Release the Kraken!
 --------------
 
 Github has received the Kraken!
+
+---------------
+
+First change for chopstick branch.
+
+------------
+
+Let's get noodles at Pure Thai Cookhouse!!

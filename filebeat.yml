@@ -81,7 +81,7 @@ bulk_max_size: 1000
 output.elasticsearch:
   # Array of hosts to connect to.
   hosts: ["localhost:9200"]
-
+  pipeline: "p1"
   # Optional protocol and basic auth credentials.
   #protocol: "https"
   #username:

@@ -23,3 +23,7 @@ Release the Kraken!
 --------------
 
 Github has received the Kraken!
+
+---------------
+
+This latter is a good change.

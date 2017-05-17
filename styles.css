@@ -15,3 +15,18 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+
+a {  
+  position: relative;
+  display: inline;
+  clear: both;
+  color: #000;
+  margin: 10px auto;
+  padding: 10px;
+  font: 1.5em Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ddd;
+  border: 1px #000 solid;
+}

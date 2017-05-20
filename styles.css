@@ -3,10 +3,12 @@
   padding:0px;
 }
 
-#octocat {
+#pic {
   display: block;
-  width:384px;
+  width: 25%;
+  height: 25%;
   margin: 50px auto;
+  text-align: center;
 }
 
 p {

@@ -30,7 +30,11 @@ p {
  
 }
 
-footer{
+.footer{
   font: 12px;
-  margin: 50px auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }

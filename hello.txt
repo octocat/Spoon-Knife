@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 echo 'helloworld';
+=======
+echo 'new helloworld message';
+>>>>>>> master
 
 ?>

@@ -1,3 +1,2 @@
 It is in new commit.
 New File added
-Added third line.

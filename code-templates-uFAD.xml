@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+ * Title:        uFAD&lt;br&gt;
+ * Description:  [描述模块的功能、作用、使用方法和注意事项]&lt;br&gt;
+ * Copyright:    Copyright (c) 1988-${year}&lt;br&gt;
+ * Company:      Huawei Tech. Co., Ltd&lt;br&gt;
+ * @author       ${user}
+ * @version      1.0  ${date} ${time}
+ */</template></templates>

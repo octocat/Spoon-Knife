@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  background-color: rgb(0,0,0);
 }
 
 #octocat {
@@ -14,4 +15,5 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: rgb(255,255,255);
 }

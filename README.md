@@ -1,6 +1,6 @@
-### Well hello there! Testys
+### Well hello there! Test
 
-this isnt in cles yet
+this is in cles
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

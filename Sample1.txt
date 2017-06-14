@@ -1,1 +1,2 @@
 Hello, this is git project!
+This is a github project too!

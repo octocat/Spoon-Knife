@@ -7,3 +7,4 @@ Creating a *fork* is producing a personal copy of someone else's project. Forks 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+使用 Markdown 可以非常容易地为一些单词设置 **加粗** 而为另外一些单词设置 *倾斜*。你甚至可以 [超连接至谷歌！] (http://google.com)

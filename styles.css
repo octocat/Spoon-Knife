@@ -1,17 +1,20 @@
-* {
-  margin:0px;
-  padding:0px;
+<style type="text/css">
+body {
+  width:auto;
+  padding:10 10 10 10;
+  z-index:-1;
 }
 
 #octocat {
-  display: block;
+ display: hidden;
   width:384px;
-  margin: 50px auto;
-}
-
+  border: 50px;
+  align: center;
 p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  font-weight: 30px;
+  font-family:"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono";
+  </style>
+  

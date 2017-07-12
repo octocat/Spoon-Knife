@@ -15,6 +15,10 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
-div{
+div {
 	margin: 0px;
+}
+
+a {
+color: #325;
 }

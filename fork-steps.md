@@ -1,3 +1,23 @@
+# Fork from github to bitbucket
+
+1. Go to Bitbucket and create a new repository (its better to have an empty repo)
+    * `git clone git@bitbucket.org:abc/myforkedrepo.git`
+    * `cd myforkedrepo`
+2. Now add Github repo as a new remote in Bitbucket called **sync**
+    * `git remote add sync git@github.com:def/originalrepo.git`
+3. Verify what are the remotes currently being setup for **myforkedrepo**. This following command should show **fetch** and **push** for two remotes i.e. **origin** and **sync**
+    * `git remote -v`
+4. Now do a pull from the **master** branch in the **sync** remote 
+    * `git pull sync master`
+5. Setup a local branch called **github** track the **sync** remote's **master** branch
+    * `git branch --set-upstream github sync/master`
+6. Now push the local **master** branch to the **origin** remote in Bitbucket.
+    * `git push -u origin master`
+
+Courtesy: http://stackoverflow.com/questions/8137997/forking-from-github-to-bitbucket
+
+# Simple way to fork
+
 1. Click fork on the website
 2. Go to the forked repo page of my account, `git clone` it
 3. Add a remote `git remote add upstream <URL>`

@@ -12,7 +12,7 @@ It's not possible to send "pull request" across different sites today. So just f
 4. Now do a pull from the **master** branch in the **sync** remote 
     * `git pull sync master`
 5. Setup a local branch called **github** track the **sync** remote's **master** branch
-    * `git branch --set-upstream github sync/master`
+    * `git branch --track github sync/master`
 6. Now push the local **master** branch to the **origin** remote in Bitbucket.
     * `git push -u origin master`
 

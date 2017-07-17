@@ -1,5 +1,7 @@
 # Fork from github to bitbucket
 
+It's not possible to send "pull request" across different sites today. So just fork, no pull reqeust.
+
 1. Go to Bitbucket and create a new repository (its better to have an empty repo)
     * `git clone git@bitbucket.org:abc/myforkedrepo.git`
     * `cd myforkedrepo`

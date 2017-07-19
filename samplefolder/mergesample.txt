@@ -1,0 +1,1 @@
+sample folder to be merged to (forked) octocat’s ‘Spoon-Knife’ in remote repository

@@ -1,0 +1,3 @@
+Hello, World!
+
+This is my first attempt at changing the document using git.

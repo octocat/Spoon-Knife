@@ -4,7 +4,7 @@ This repository is meant to be used a tool to practice GitHub collaboration with
 
 &copy; 2017 Sophie Opferman
 
-Workflow | Glossary | Sources | TLDR
+[Workflow](https://github.com/TheFirstQuestion/Spoon-Knife#the-workflow) | [Glossary](https://github.com/TheFirstQuestion/Spoon-Knife#glossary) | [Sources](https://github.com/TheFirstQuestion/Spoon-Knife#sources) | [TLDR](https://github.com/TheFirstQuestion/Spoon-Knife#tldr)
 
 ### The Workflow
 

@@ -20,3 +20,22 @@ p {
 	text-align: center;
 	margin-top: 2em;
 }
+
+.background {
+  background-color: pink;
+  padding: 40px;
+  margin:0 10em;
+  margin-top: 2em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px #888888;
+  /*background-image: linear-gradient(to right, red,orange,yellow,green);*/
+}
+
+
+
+@media (max-width: 699px) {
+   .background {
+      margin:0 3em;
+      margin-top: 2em;
+    }
+}

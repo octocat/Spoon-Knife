@@ -27,7 +27,7 @@ Congratulations! You're done!
 
 ### Glossary
 
-Make a new branch: `git branch -b new-branch-name`
+Make a new branch: `git checkout -b new-branch-name`
 
 Add files to the stage: `git add .`
 

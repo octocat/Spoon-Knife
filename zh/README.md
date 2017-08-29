@@ -6,4 +6,4 @@
 
 复制这个仓库以后，你可以对这个工程进行修改，然后提交 [一个 Pull Request](https://github.com/octocat/Spoon-Knife/pulls) 当做依据.
 
-更多如何复制一个仓库的详情, [查看我们的教程, "Forking Projects""](http://guides.github.com/overviews/forking/). 谢谢! :sparkling_heart:
+更多如何复制一个仓库的详情, [查看我们的教程, "Forking Projects"](http://guides.github.com/overviews/forking/). 谢谢! :sparkling_heart:

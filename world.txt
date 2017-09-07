@@ -1,0 +1,1 @@
+New line for world.txt file

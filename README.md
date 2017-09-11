@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-##to run the project just clone <br>
-##cd the current directory <br>
+## to run the project just clone <br>
+## cd the current directory <br>
 ## run npm start<br>
 
 Below you will find some information on how to perform common tasks.<br>

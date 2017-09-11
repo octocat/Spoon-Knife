@@ -1,0 +1,135 @@
+'use strict';
+
+
+
+
+
+
+
+
+
+
+
+const path = require('path'); /**
+                               * Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+                               *
+                               * This source code is licensed under the BSD-style license found in the
+                               * LICENSE file in the root directory of this source tree. An additional grant
+                               * of patent rights can be found in the PATENTS file in the same directory.
+                               *
+                               * 
+                               */var _require = require('jest-validate');const ValidationError = _require.ValidationError;const Resolver = require('jest-resolve');const chalk = require('chalk');const BULLET = chalk.bold('\u25cf ');const DOCUMENTATION_NOTE = `  ${chalk.bold('Configuration Documentation:')}
+  https://facebook.github.io/jest/docs/configuration.html
+`;const createValidationError = message => {return new ValidationError(
+  `${BULLET}Validation Error`,
+  message,
+  DOCUMENTATION_NOTE);
+
+};
+
+const resolve = (rootDir, key, filePath) => {
+  const module = Resolver.findNodeModule(
+  _replaceRootDirInPath(rootDir, filePath),
+  {
+    basedir: rootDir });
+
+
+
+  if (!module) {
+    throw createValidationError(
+    `  Module ${chalk.bold(filePath)} in the ${chalk.bold(key)} option was not found.`);
+
+  }
+
+  return module;
+};
+
+const _replaceRootDirInPath = (rootDir, filePath) => {
+  if (!/^<rootDir>/.test(filePath)) {
+    return filePath;
+  }
+
+  return path.resolve(
+  rootDir,
+  path.normalize('./' + filePath.substr('<rootDir>'.length)));
+
+};
+
+const _replaceRootDirInObject = (rootDir, config) => {
+  if (config !== null) {
+    const newConfig = {};
+    for (const configKey in config) {
+      newConfig[configKey] = configKey === 'rootDir' ?
+      config[configKey] :
+      _replaceRootDirTags(rootDir, config[configKey]);
+    }
+    return newConfig;
+  }
+  return config;
+};
+
+const _replaceRootDirTags = (rootDir, config) => {
+  switch (typeof config) {
+    case 'object':
+      if (Array.isArray(config)) {
+        return config.map(item => _replaceRootDirTags(rootDir, item));
+      }
+      if (config instanceof RegExp) {
+        return config;
+      }
+      return _replaceRootDirInObject(rootDir, config);
+    case 'string':
+      return _replaceRootDirInPath(rootDir, config);}
+
+  return config;
+};
+
+/**
+    * Finds the test environment to use:
+    *
+    * 1. looks for jest-environment-<name> relative to project.
+    * 1. looks for jest-environment-<name> relative to Jest.
+    * 1. looks for <name> relative to project.
+    * 1. looks for <name> relative to Jest.
+    */
+const getTestEnvironment = config => {
+  const env = config.testEnvironment;
+  let module = Resolver.findNodeModule(`jest-environment-${env}`, {
+    basedir: config.rootDir });
+
+  if (module) {
+    return module;
+  }
+
+  try {
+    return require.resolve(`jest-environment-${env}`);
+  } catch (e) {}
+
+  module = Resolver.findNodeModule(env, { basedir: config.rootDir });
+  if (module) {
+    return module;
+  }
+
+  try {
+    return require.resolve(env);
+  } catch (e) {}
+
+  throw createValidationError(
+  `  Test environment ${chalk.bold(env)} cannot be found. Make sure the ${chalk.bold('testEnvironment')} configuration option points to an existing node module.`);
+
+};
+
+const isJSONString = text =>
+text &&
+typeof text === 'string' &&
+text.startsWith('{') &&
+text.endsWith('}');
+
+module.exports = {
+  BULLET,
+  DOCUMENTATION_NOTE,
+  _replaceRootDirInPath,
+  _replaceRootDirTags,
+  getTestEnvironment,
+  isJSONString,
+  resolve };

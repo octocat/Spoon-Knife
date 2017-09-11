@@ -1,0 +1,325 @@
+'use strict';
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ansiEscapes = require('ansi-escapes'); /**
+                                              * Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+                                              *
+                                              * This source code is licensed under the BSD-style license found in the
+                                              * LICENSE file in the root directory of this source tree. An additional grant
+                                              * of patent rights can be found in the PATENTS file in the same directory.
+                                              *
+                                              * 
+                                              */const chalk = require('chalk');var _require = require('jest-regex-util');const replacePathSepForRegex = _require.replacePathSepForRegex;const HasteMap = require('jest-haste-map');const isCI = require('is-ci');const isValidPath = require('./lib/isValidPath');const preRunMessage = require('./preRunMessage');const createContext = require('./lib/createContext');const runJest = require('./runJest');
+const updateArgv = require('./lib/updateArgv');
+const SearchSource = require('./SearchSource');
+const TestWatcher = require('./TestWatcher');
+const Prompt = require('./lib/Prompt');
+const TestPathPatternPrompt = require('./TestPathPatternPrompt');
+const TestNamePatternPrompt = require('./TestNamePatternPrompt');var _require2 =
+require('./constants');const KEYS = _require2.KEYS,CLEAR = _require2.CLEAR;
+
+const isInteractive = process.stdout.isTTY && !isCI;
+let hasExitListener = false;
+
+const watch = function (
+initialGlobalConfig,
+contexts,
+argv,
+pipe,
+hasteMapInstances)
+
+{let stdin = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : process.stdin;
+  updateArgv(argv, argv.watch ? 'watch' : 'watchAll', {
+    testNamePattern: argv.testNamePattern,
+    testPathPattern: argv.testPathPattern || (argv._ || []).join('|') });
+
+
+  const prompt = new Prompt();
+  const testPathPatternPrompt = new TestPathPatternPrompt(pipe, prompt);
+  const testNamePatternPrompt = new TestNamePatternPrompt(pipe, prompt);
+  let searchSources = contexts.map(context => ({
+    context,
+    searchSource: new SearchSource(context) }));
+
+  let hasSnapshotFailure = false;
+  let isRunning = false;
+  let testWatcher;
+  let shouldDisplayWatchUsage = true;
+  let isWatchUsageDisplayed = false;
+
+  testPathPatternPrompt.updateSearchSources(searchSources);
+
+  hasteMapInstances.forEach((hasteMapInstance, index) => {
+    hasteMapInstance.on('change', (_ref) => {let eventsQueue = _ref.eventsQueue,hasteFS = _ref.hasteFS,moduleMap = _ref.moduleMap;
+      const validPaths = eventsQueue.filter((_ref2) => {let filePath = _ref2.filePath;
+        return isValidPath(
+        initialGlobalConfig,
+        contexts[index].config,
+        filePath);
+
+      });
+
+      if (validPaths.length) {
+        const context = contexts[index] = createContext(
+        contexts[index].config,
+        {
+          hasteFS,
+          moduleMap });
+
+
+        prompt.abort();
+        searchSources = searchSources.slice();
+        searchSources[index] = {
+          context,
+          searchSource: new SearchSource(context) };
+
+        testPathPatternPrompt.updateSearchSources(searchSources);
+        startRun();
+      }
+    });
+  });
+
+  if (!hasExitListener) {
+    hasExitListener = true;
+    process.on('exit', () => {
+      if (prompt.isEntering()) {
+        pipe.write(ansiEscapes.cursorDown());
+        pipe.write(ansiEscapes.eraseDown);
+      }
+    });
+  }
+
+  const startRun = function () {let overrideConfig = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    if (isRunning) {
+      return null;
+    }
+
+    testWatcher = new TestWatcher({ isWatchMode: true });
+    isInteractive && pipe.write(CLEAR);
+    preRunMessage.print(pipe);
+    isRunning = true;
+    const globalConfig = Object.freeze(
+    Object.assign({}, initialGlobalConfig, overrideConfig, {
+      testNamePattern: argv.testNamePattern,
+      testPathPattern: argv.testPathPattern }));
+
+
+    return runJest(
+    // $FlowFixMe
+    globalConfig,
+    contexts,
+    argv,
+    pipe,
+    testWatcher,
+    startRun,
+    results => {
+      isRunning = false;
+      hasSnapshotFailure = !!results.snapshot.failure;
+      // Create a new testWatcher instance so that re-runs won't be blocked.
+      // The old instance that was passed to Jest will still be interrupted
+      // and prevent test runs from the previous run.
+      testWatcher = new TestWatcher({ isWatchMode: true });
+      if (shouldDisplayWatchUsage) {
+        pipe.write(usage(argv, hasSnapshotFailure));
+        shouldDisplayWatchUsage = false; // hide Watch Usage after first run
+        isWatchUsageDisplayed = true;
+      } else {
+        pipe.write(showToggleUsagePrompt());
+        shouldDisplayWatchUsage = false;
+        isWatchUsageDisplayed = false;
+      }
+
+      testNamePatternPrompt.updateCachedTestResults(results.testResults);
+    }).
+    catch(error => console.error(chalk.red(error.stack)));
+  };
+
+  const onKeypress = key => {
+    if (key === KEYS.CONTROL_C || key === KEYS.CONTROL_D) {
+      process.exit(0);
+      return;
+    }
+
+    if (prompt.isEntering()) {
+      prompt.put(key);
+      return;
+    }
+
+    // Abort test run
+    if (
+    isRunning &&
+    testWatcher &&
+    [KEYS.Q, KEYS.ENTER, KEYS.A, KEYS.O, KEYS.P, KEYS.T].indexOf(key) !== -1)
+    {
+      testWatcher.setState({ interrupted: true });
+      return;
+    }
+
+    switch (key) {
+      case KEYS.Q:
+        process.exit(0);
+        return;
+      case KEYS.ENTER:
+        startRun();
+        break;
+      case KEYS.U:
+        startRun({ updateSnapshot: 'all' });
+        break;
+      case KEYS.A:
+        updateArgv(argv, 'watchAll', {
+          testNamePattern: '',
+          testPathPattern: '' });
+
+        startRun();
+        break;
+      case KEYS.C:
+        updateArgv(argv, 'watch', {
+          testNamePattern: '',
+          testPathPattern: '' });
+
+        startRun();
+        break;
+      case KEYS.O:
+        updateArgv(argv, 'watch', {
+          testNamePattern: '',
+          testPathPattern: '' });
+
+        startRun();
+        break;
+      case KEYS.P:
+        testPathPatternPrompt.run(
+        testPathPattern => {
+          updateArgv(argv, 'watch', {
+            testNamePattern: '',
+            testPathPattern: replacePathSepForRegex(testPathPattern) });
+
+
+          startRun();
+        },
+        onCancelPatternPrompt,
+        { header: activeFilters(argv) });
+
+        break;
+      case KEYS.T:
+        testNamePatternPrompt.run(
+        testNamePattern => {
+          updateArgv(argv, 'watch', {
+            testNamePattern,
+            testPathPattern: argv.testPathPattern });
+
+
+          startRun();
+        },
+        onCancelPatternPrompt,
+        { header: activeFilters(argv) });
+
+        break;
+      case KEYS.QUESTION_MARK:
+        break;
+      case KEYS.W:
+        if (!shouldDisplayWatchUsage && !isWatchUsageDisplayed) {
+          pipe.write(ansiEscapes.cursorUp());
+          pipe.write(ansiEscapes.eraseDown);
+          pipe.write(usage(argv, hasSnapshotFailure));
+          isWatchUsageDisplayed = true;
+          shouldDisplayWatchUsage = false;
+        }
+        break;}
+
+  };
+
+  const onCancelPatternPrompt = () => {
+    pipe.write(ansiEscapes.cursorHide);
+    pipe.write(ansiEscapes.clearScreen);
+    pipe.write(usage(argv, hasSnapshotFailure));
+    pipe.write(ansiEscapes.cursorShow);
+  };
+
+  if (typeof stdin.setRawMode === 'function') {
+    stdin.setRawMode(true);
+    stdin.resume();
+    stdin.setEncoding('hex');
+    stdin.on('data', onKeypress);
+  }
+
+  startRun();
+  return Promise.resolve();
+};
+
+const activeFilters = function (argv) {let delimiter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '\n';const
+  testNamePattern = argv.testNamePattern,testPathPattern = argv.testPathPattern;
+  if (testNamePattern || testPathPattern) {
+    const filters = [
+    testPathPattern ?
+    chalk.dim('filename ') + chalk.yellow('/' + testPathPattern + '/') :
+    null,
+    testNamePattern ?
+    chalk.dim('test name ') + chalk.yellow('/' + testNamePattern + '/') :
+    null].
+
+    filter(f => !!f).
+    join(', ');
+
+    const messages = ['\n' + chalk.bold('Active Filters: ') + filters];
+
+    return messages.filter(message => !!message).join(delimiter);
+  }
+
+  return '';
+};
+
+const usage = function (argv, snapshotFailure) {let delimiter = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '\n';
+  const messages = [
+  activeFilters(argv),
+  argv.testPathPattern || argv.testNamePattern ?
+  chalk.dim(' \u203A Press ') + 'c' + chalk.dim(' to clear filters.') :
+  null,
+  '\n' + chalk.bold('Watch Usage'),
+  argv.watch ?
+  chalk.dim(' \u203A Press ') + 'a' + chalk.dim(' to run all tests.') :
+  null,
+  (argv.watchAll || argv.testPathPattern || argv.testNamePattern) &&
+  !argv.noSCM ?
+  chalk.dim(' \u203A Press ') +
+  'o' +
+  chalk.dim(' to only run tests related to changed files.') :
+  null,
+  snapshotFailure ?
+  chalk.dim(' \u203A Press ') +
+  'u' +
+  chalk.dim(' to update failing snapshots.') :
+  null,
+  chalk.dim(' \u203A Press ') +
+  'p' +
+  chalk.dim(' to filter by a filename regex pattern.'),
+  chalk.dim(' \u203A Press ') +
+  't' +
+  chalk.dim(' to filter by a test name regex pattern.'),
+  chalk.dim(' \u203A Press ') + 'q' + chalk.dim(' to quit watch mode.'),
+  chalk.dim(' \u203A Press ') +
+  'Enter' +
+  chalk.dim(' to trigger a test run.')];
+
+
+  return messages.filter(message => !!message).join(delimiter) + '\n';
+};
+
+const showToggleUsagePrompt = () =>
+'\n' +
+chalk.bold('Watch Usage: ') +
+chalk.dim('Press ') +
+'w' +
+chalk.dim(' to show more.');
+
+module.exports = watch;

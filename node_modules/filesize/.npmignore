@@ -1,0 +1,14 @@
+/node_modules/
+/lib/filesize.min.js
+/lib/filesize.min.js.map
+/lib/filesize.es6.js
+/lib/filesize.es6.min.js
+/lib/filesize.es6.min.js.map
+/src/
+/test/
+.idea
+.eslintrc
+.travis.yml
+Gruntfile.js
+bower.json
+composer.json

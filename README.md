@@ -1,9 +1,13 @@
-### Well hello there!
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)<br>
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+**To run the project just clone it**<br>
+**cd the current directory**<br>
+**run npm start**<br>
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Below you will find some information on how to perform common tasks.<br>
+In case you are having trouble to run just  remove the node_module because of different dev env setting and run npm install to install nodejs module and npm start you are ready to go <br>
+You might also find that product are not display in the browser when  you want to test it in localhost, in this scenario you need to add-on extention CorsToogle and enable for Toggle Cross-Origin Resource Sharing. Allow/Disable Cross Domain Request.<br>
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+![Alt text](/../Spoon-Knife/screenshort.png?raw=true)
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+

@@ -1,0 +1,21 @@
+ render() {
+    let  products = this.state.productlist.map(product => {
+    console.log( product);
+      return (
+        <Col sm ="4">
+        <ProductList key={product.name} product={product}/>
+        </Col>
+      );
+  });
+    let logo="ReactApi";
+    return (
+      <div className="App">
+        <NavBar logo={logo}/>
+        <Container>
+        <Row>                  
+        {products}
+       </Row>
+     </Container>
+      </div>
+    );
+  }

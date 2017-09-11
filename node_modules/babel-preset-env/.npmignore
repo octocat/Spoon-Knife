@@ -1,0 +1,13 @@
+coverage
+src
+test
+node_modules
+scripts
+.eslintignore
+.travis.yml
+codecov.yml
+yarn.lock
+.nyc_output
+.vscode
+.eslintrc
+babel-preset-env-*.tgz

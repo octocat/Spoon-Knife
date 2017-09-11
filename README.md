@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-*To run the project just clone*<br>
-*cd the current directory*<br>
-* run npm start *<br>
+**To run the project just clone**<br>
+**cd the current directory**<br>
+**run npm start**<br>
 
 Below you will find some information on how to perform common tasks.<br>
 In case you are having trouble to run just  remove the node_module because of different dev env setting and run npm install to install nodejs comand  and npm start you are ready to go <br>

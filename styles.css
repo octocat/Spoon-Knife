@@ -9,6 +9,10 @@
   margin: 50px auto;
 }
 
+h1 {
+	font-weight: bold;
+}
+
 p {
   display: block;
   width: 400px;

@@ -1,5 +1,7 @@
 ### Well hello there!
 
+Now let's put this in a branch, commit and test pulls from github.
+
 Consider it forked.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

@@ -1,3 +1,3 @@
 
 # TeaSpoon.md
-Fork pull request testing purposes only.
+This is for pull request testing purposes only.

@@ -13,5 +13,16 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
+  color:red;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  transition: width 2s font-size 2s transform 2s;
+    transition-delay: 0.5s;
+
+  
+}
+p:hover {
+    width: 400px;
+    font-size: 42px;
+     /*transform: rotate(180deg);*/
+     transform: skew(20deg)
 }

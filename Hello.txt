@@ -1,0 +1,9 @@
+hello world
+
+yeah i altered it
+
+I altered it again
+
+git add "file name"
+git commit -m "comment"
+git push

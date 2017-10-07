@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app ="myApp">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+  <script src="app.js"></script>
 </head>
 
 <body>
@@ -15,6 +16,23 @@
 <p>
   Fork me? Fork you, @octocat!
 </p>
+
+<div ng-controller="myController as ctrl">
+      <label>Here is the calculation app</label>
+      <input type="text" ng-model="ctrl.input1" placeholder="Enter a name here">
+      <span ng-bind="ctrl.selectedOperator"></span>
+      <input type="text" ng-model="ctrl.input2" placeholder="Enter a name here">
+      <button ng-click="ctrl.calculate()">=</button>
+      <span ng-bind="ctrl.resultValue"></span>
+      <p>
+        Please select an operator:
+        <button ng-click="ctrl.displayOperator('-')">-</button>
+        <button ng-click="ctrl.displayOperator('+')">+</button>
+        <button ng-click="ctrl.displayOperator('*')">*</button>
+        <button ng-click="ctrl.displayOperator('/')">/</button>
+      </p>
+      <hr>
+</div>
 
 </body>
 </html>

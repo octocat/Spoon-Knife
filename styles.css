@@ -15,3 +15,11 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+#clicker {
+    text-align: center;
+    color: aqua;
+    background-color: yellow;
+    padding: 1em 1em;
+    margin: 10em;
+}

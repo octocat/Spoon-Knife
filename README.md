@@ -8,5 +8,3 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-
-This line was added as my yearly reminder on how to create pull requests in 2017.

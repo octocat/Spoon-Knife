@@ -1,0 +1,5597 @@
+Sorting...
+Full Text Search...
+0install/zesty 2.12-4 amd64
+  cross-distribution packaging system
+
+0install-core/zesty 2.12-4 amd64
+  cross-distribution packaging system (non-GUI parts)
+
+4digits/zesty 1.1.4-1 amd64
+  guess-the-number game, aka Bulls and Cows
+
+aevol/zesty 4.4-1 amd64
+  digital genetics model to run Evolution Experiments in silico
+
+afflib-dbg/zesty 3.7.15-1 amd64
+  Advanced Forensics Format Library (debug version)
+
+afflib-tools/zesty 3.7.15-1 amd64
+  Advanced Forensics Format Library (utilities)
+
+aften/zesty 0.0.8+git20100105-0ubuntu2 amd64
+  audio AC3 encoder
+
+aha/zesty 0.4.10.3-1 amd64
+  ANSI color to HTML converter
+
+ale/zesty 0.9.0.3-3 amd64
+  synthetic capture engine and renderer
+
+alliance/zesty 5.1.1-1.1 amd64
+  VLSI CAD Tools
+
+anjuta/zesty 2:3.22.0-3build1 amd64
+  GNOME development IDE, for C/C++
+
+anjuta-common/zesty,zesty 2:3.22.0-3build1 all
+  GNOME development IDE, for C/C++ - data files
+
+ardour/zesty 1:5.5.0~dfsg-1 amd64
+  the digital audio workstation
+
+ardour-altivec/zesty,zesty 1:5.5.0~dfsg-1 all
+  transitional dummy package for (altivec-optimized) ardour
+
+ardour-data/zesty,zesty 1:5.5.0~dfsg-1 all
+  digital audio workstation (data)
+
+ardour-i686/zesty,zesty 1:5.5.0~dfsg-1 all
+  transitional dummy package for (i686 optimized) ardour
+
+ardour-video-timeline/zesty,zesty 1:5.5.0~dfsg-1 all
+  digital audio workstation - video timeline
+
+ardour3/zesty,zesty 1:5.5.0~dfsg-1 all
+  transitional dummy package for ardour
+
+arriero/zesty,zesty 0.6-1 all
+  Simplifies management of several Debian packages
+
+asclock/zesty 2.0.12-28 amd64
+  clock designed with the NeXTStep look
+
+asylum/zesty 0.3.2-2 amd64
+  surreal platform shooting game
+
+audacity/zesty 2.1.2-2 amd64
+  fast, cross-platform audio editor
+
+audacity-data/zesty,zesty 2.1.2-2 all
+  fast, cross-platform audio editor (data)
+
+autopsy/zesty,zesty 2.24-2 all
+  graphical interface to SleuthKit
+
+autoradio/zesty,zesty 2.8.6-1 all
+  radio automation software
+
+autorevision/zesty,zesty 1.20-1 all
+  extracts revision metadata from your VCS repository
+
+berkshelf-api/zesty,zesty 2.2.0-1 all
+  berkshelf dependency API server
+
+bfgminer/zesty 5.4.2+dfsg-1 amd64
+  multi-threaded multi-pool ASIC, FPGA and GPU bitcoin miner
+
+bibletime/zesty 2.10.1-3 amd64
+  bible study tool for Qt
+
+bitmeter/zesty 1.2-3.1ubuntu2 amd64
+  diagnosis tool for JACK audio software
+
+brutefir/zesty 1.0o-1 amd64
+  software convolution engine
+
+bugs-everywhere/zesty,zesty 1.1.1-3.1 all
+  distributed bug tracking system using VCS storage
+
+bugwarrior/zesty,zesty 1.4.0+git2017010601-1 all
+  Pull tickets from bug trackers into taskwarrior
+
+bumpversion/zesty,zesty 0.5.3-3 all
+  Version-bump your software with a single command
+
+bup/zesty 0.29-2 amd64
+  highly efficient file backup system based on git
+
+bup-doc/zesty,zesty 0.29-2 all
+  highly efficient file backup system based on git (documentation)
+
+bzr-fastimport/zesty,zesty 0.13.0+bzr361-1 all
+  Fast-import/fast-export plugin for Bazaar
+
+bzr-git/zesty,zesty 0.6.13-2 all
+  Bazaar plugin providing Git integration
+
+ca-cacert/zesty,zesty 2011.0523-2 all
+  CAcert.org root certificates
+
+calcoo/zesty 1.3.18-3.1 amd64
+  Scientific calculator (GTK+)
+
+calypso/zesty,zesty 1.5-3 all
+  CalDAV/CardDAV server with git backend
+
+camera.app/zesty 0.8.0-10build1 amd64
+  GNUstep application for digital still cameras
+
+cellwriter/zesty 1.3.5-1 amd64
+  grid-entry handwriting input panel
+
+cgit/zesty 1.1+git2.10.2-3 amd64
+  hyperfast web frontend for git repositories written in C
+
+cgminer/zesty 4.9.2-1build1 amd64
+  multi-threaded multi-pool Bitcoin miner
+
+chiark-scripts/zesty,zesty 5.0.2 all
+  chiark system administration scripts
+
+cl-github-v3/zesty,zesty 20130312-1 all
+  Common Lisp interface to the github V3 API
+
+claws-mail-pgpinline/zesty 3.14.1-3 amd64
+  PGP/inline plugin for Claws Mail
+
+clementine/zesty 1.3.1+git276-g3485bbe43+dfsg-1 amd64
+  modern music player and library organizer
+
+cli-spinner/zesty 0.0~git20150423.610063b-2 amd64
+  Simple command line that show a slash spinner
+
+cligh/zesty,zesty 0.3-1 all
+  Command-line interface to GitHub
+
+cobra/zesty 0.0~git20161229.0.1dd5ff2-1 amd64
+  Tool to generate Cobra-based modern Go CLI application
+
+codec2/zesty 0.5.1-1 amd64
+  command line tools for handling Codec2 data
+
+codec2-examples/zesty,zesty 0.5.1-1 all
+  Codec2 sample data and examples
+
+commit-patch/zesty,zesty 2.5-1 all
+  utility to commit fine grained patches to source code control repositories
+
+concordance/zesty 1.2-1build1 amd64
+  configuration tool for Harmony remotes
+
+concordance-common/zesty,zesty 1.2-1build1 all
+  Harmony remote configuration tool - common files
+
+congruity/zesty,zesty 18-4 all
+  graphical utility to configure Logitech Harmony remotes
+
+coriander/zesty 2.0.2-4ubuntu1 amd64
+  control IEEE1394 digital camera
+
+coyim/zesty 0.3.7-2 amd64
+  safe and secure XMPP chat client
+
+cthumb/zesty,zesty 4.2-3.1 all
+  Program to generate themable Web picture albums
+
+cvs-fast-export/zesty 1.40-1 amd64
+  Export an RCS or CVS history as a fast-import stream
+
+cvs2svn/zesty,zesty 2.4.0-4 all
+  Convert a cvs repository to a subversion, bazaar or git repository
+
+daisy-player/zesty 10.3-3 amd64
+  player for DAISY Digital Talking Books
+
+darcsweb/zesty,zesty 1.1-3.2 all
+  web interface for browsing darcs repositories
+
+darktable/zesty 2.2.1-3 amd64
+  virtual lighttable and darkroom for photographers
+
+darts/zesty 0.32-14 amd64
+  C++ Template Library for implementation of Double-Array
+
+datalad/zesty,zesty 0.4.1-1 all
+  data files crawler and data distribution
+
+dballe/zesty 7.21-1 amd64
+  Database for punctual meteorological data (Command line tools)
+
+dbmix/zesty 0.9.8-6.3ubuntu1 amd64
+  DJ mixer for digital audio streams
+
+dbtoepub/zesty,zesty 0+svn9904-1 all
+  DocBook XML to .epub converter
+
+dclock/zesty 2.2.2-9 amd64
+  Digital clock for the X Window System with flexible display
+
+dcraw/zesty 9.27-1ubuntu1 amd64
+  decode raw digital camera images
+
+debian-archive-keyring/zesty,zesty 2014.3 all
+  GnuPG archive keys of the Debian archive
+
+debian-keyring/zesty,zesty 2017.03.16 all
+  GnuPG keys of Debian Developers and Maintainers
+
+debian-ports-archive-keyring/zesty,zesty 2016.11.28 all
+  GnuPG archive keys of the debian-ports archive
+
+debsig-verify/zesty 0.15 amd64
+  Debian package signature verification tool
+
+devscripts/zesty 2.16.8ubuntu2 amd64
+  scripts to make the life of a Debian Package maintainer easier
+
+dfcgen-gtk/zesty 0.4-1 amd64
+  Digital Filter Coefficients Generator (DFCGen) GTK+
+
+dgit/zesty,zesty 3.10 all
+  git interoperability with the Debian archive
+
+dgit-infrastructure/zesty,zesty 3.10 all
+  dgit server backend infrastructure
+
+dia-shapes/zesty,zesty 0.6.0-3 all
+  Diagram editor (additional shapes)
+
+dicomscope/zesty,zesty 3.6.0-15build2 all
+  OFFIS DICOM Viewer
+
+dicomscope-doc/zesty,zesty 3.6.0-15build2 all
+  OFFIS DICOM Viewer - documentation
+
+dict-gazetteer2k-counties/zesty,zesty 1.0.0-5.3 all
+  Counties Database for the 2000 US Gazetteer
+
+dict-gazetteer2k-places/zesty,zesty 1.0.0-5.3 all
+  Places Database for the 2000 US Gazetteer
+
+dict-gazetteer2k-zips/zesty,zesty 1.0.0-5.3 all
+  ZIP and ZCTA database for the 2000 US Gazetteer
+
+diffuse/zesty,zesty 0.4.8-2 all
+  graphical tool for merging and comparing text files
+
+digikam/zesty 4:5.4.0-0ubuntu3 amd64
+  digital photo management application for KDE
+
+digikam-doc/zesty,zesty 4:5.4.0-0ubuntu3 all
+  handbook for digiKam
+
+digitemp/zesty 3.7.1-2 amd64
+  read temperature sensors in a 1-Wire net
+
+digitools/zesty 1.03-1.2 i386
+  A set of tools to control ASUS Digimatrix embedded hardware
+
+din/zesty 5.2.1-5 amd64
+  digital audio synthesizer
+
+djvubind/zesty,zesty 1.2.1-1build1 all
+  simple creation of djvu files
+
+dleyna-renderer/zesty 0.4.0-1 amd64
+  DBus service to interact with DLNA Digital Media Renderers
+
+dleyna-renderer-dbg/zesty 0.4.0-1 amd64
+  DBus service to interact with DLNA Digital Media Renderers (debug files)
+
+dleyna-server/zesty,now 0.4.0-1.1 amd64 [installed,automatic]
+  DBus service to interact with DLNA Digital Media Servers
+
+dleyna-server-dbg/zesty 0.4.0-1.1 amd64
+  DBus service to interact with DLNA Digital Media Servers (debug files)
+
+docker2aci/zesty 0.14.0+dfsg-2 amd64
+  CLI tool to convert Docker images to ACIs
+
+doctest/zesty 0.11.0-4build1 amd64
+  test interactive Haskell examples; executable
+
+dolphin-plugins/zesty 4:16.12.3-0ubuntu1 amd64
+  dolphin VCS plugins
+
+doris/zesty 4.06~beta2+dfsg-3 amd64
+  Delft object-oriented radar interferometric software
+
+drac/zesty 1.12-8build1 amd64
+  Dynamic Relay Authorization Control (pop-before-smtp)
+
+drac-dev/zesty 1.12-8build1 amd64
+  Dynamic Relay Authorization Control (development files)
+
+drc/zesty 3.2.1~dfsg0-2 amd64
+  digital room correction
+
+drumkv1/zesty 0.8.0-2 amd64
+  old-school drum-kit sampler - standalone
+
+drumkv1-common/zesty 0.8.0-2 amd64
+  old-school drum-kit sampler - common files
+
+drumkv1-lv2/zesty 0.8.0-2 amd64
+  old-school drum-kit sampler - lv2-plugin
+
+dtv-scan-tables/zesty,zesty 0+git20161227.ac7535a-1 all
+  Digital Video Broadcasting (DVB) initial scan files
+
+dustmite/zesty 0~20170126.e95dff8-2 amd64
+  Tool for minimizing D source code
+
+dvb-apps/zesty 1.1.1+rev1500-1.1 amd64
+  Digital Video Broadcasting (DVB) applications
+
+dvbackup/zesty 1:0.0.4-9 amd64
+  backup tool using MiniDV camcorders
+
+dvbcut/zesty 0.7.1-1 amd64
+  Qt application for cutting parts out of DVB streams
+
+dvcs-autosync/zesty,zesty 0.5+nmu1 all
+  Automatically synchronize distributed version control repositories
+
+dvgrab/zesty 3.5+git20160707.1.e46042e-1 amd64
+  grab digital video data via IEEE1394 and USB links
+
+eancheck/zesty 1.0-2 amd64
+  Check digit validator for EAN/PLU/UPC barcode numbers
+
+easygit/zesty,zesty 0.99-1 all
+  git for mere mortals
+
+easyh10/zesty 1.5-4 amd64
+  Utility to manage the iRiver H10 music player
+
+eclipse-egit/zesty,zesty 3.7.0-1 all
+  Eclipse Team provider for the Git version control system
+
+eclipse-egit-mylyn/zesty,zesty 3.7.0-1 all
+  Mylyn integration for EGit
+
+eclipse-mylyn-tasks-github/zesty,zesty 3.3.0-1 all
+  Mylyn GitHub Connector
+
+eject/zesty,now 2.1.5+deb1+cvs20081104-13.2 amd64 [installed]
+  ejects CDs and operates CD-Changers under Linux
+
+elpa-git-annex/zesty,zesty 1.1-1 all
+  Emacs integration for git-annex
+
+elpa-git-commit/zesty,zesty 2.10.1-1 all
+  Major mode for editing git commit message
+
+elpa-git-messenger/zesty,zesty 0.18-1 all
+  pop up last commit information of current line
+
+elpa-git-timemachine/zesty,zesty 3.0-1 all
+  walk through git revisions of a file
+
+elpa-magit/zesty,zesty 2.10.1-1 all
+  Emacs interface for Git
+
+elpa-magit-annex/zesty,zesty 1.3.0-1 all
+  git-annex subcommands for magit
+
+elpa-magit-popup/zesty,zesty 2.10.1-1 all
+  Use popup like Magit
+
+elpa-projectile/zesty,zesty 0.14.0-1 all
+  project interaction library for Emacs
+
+elpa-smeargle/zesty,zesty 0.03-1 all
+  highlight region by last updated time
+
+emdebian-archive-keyring/zesty,zesty 2.2 all
+  GnuPG archive keys for the emdebian repository
+
+engauge-digitizer/zesty 9.7+ds.1-1 amd64
+  interactively extracts numbers from bitmap graphs or maps
+
+engauge-digitizer-doc/zesty,zesty 9.7+ds.1-1 all
+  engauge-digitizer user manual and tutorial
+
+entangle/zesty 0.7.1-1build1 amd64
+  Tethered Camera Control & Capture
+
+entangle-dbg/zesty 0.7.1-1build1 amd64
+  debugging symbols for entangle
+
+erlang-folsom/zesty 0.8.2+dfsg-1 amd64
+  Erlang based metrics system inspired by Coda Hale's metrics
+
+erlang-folsom-dev/zesty 0.8.2+dfsg-1 amd64
+  Erlang based metrics system inspired by Coda Hale's metrics
+
+erlang-p1-oauth2/zesty 0.6.1-3 amd64
+  Erlang library for server side implementation of OAuth2
+
+esound-common/zesty,zesty 0.2.41-11 all
+  Enlightened Sound Daemon - Common files
+
+etckeeper/zesty,zesty 1.18.5-1ubuntu1 all
+  store /etc in git, mercurial, bzr or darcs
+
+exif/zesty 0.6.21-1 amd64
+  command-line utility to show EXIF information in JPEG files
+
+exifprobe/zesty 2.0.1-10fakesync1 amd64
+  read metadata from digital pictures
+
+exiftags/zesty 1.01-6 amd64
+  utility to read Exif tags from a digital camera JPEG file
+
+exiftran/zesty 2.10-1ubuntu3 amd64
+  digital camera JPEG image transformer
+
+ext4magic/zesty 0.3.2-7 amd64
+  recover deleted files from ext3 or ext4 partitions
+
+fastjet-doc/zesty,zesty 3.0.6+dfsg-3 all
+  Documentation of FastJet
+
+fastjet-examples/zesty,zesty 3.0.6+dfsg-3 all
+  Example source files of FastJet
+
+fdclock/zesty 0.1.0+git.20060122-0ubuntu4 amd64
+  freedesktop.org clock
+
+flashbake/zesty,zesty 0.27.1-0.1 all
+  automated snapshots with git
+
+fldigi/zesty 3.23.14-1 amd64
+  digital modem program for hamradio operators
+
+flintqs/zesty 1:1.0-1 amd64
+  Program using quadratic sieve to factor integers
+
+flwrap/zesty 1.3.4-2.1 amd64
+  amateur radio file encapsulation/compression utility
+
+fonts-adf-accanthis/zesty,zesty 0.20110505-1 all
+  Accanthis font of the Arkandis Digital Foundry
+
+fonts-adf-baskervald/zesty,zesty 0.20110505-1 all
+  Baskervald font of the Arkandis Digital Foundry
+
+fonts-adf-berenis/zesty,zesty 0.20110505-1 all
+  Berenis font of the Arkandis Digital Foundry
+
+fonts-adf-gillius/zesty,zesty 0.20110505-1 all
+  Gillius font of the Arkandis Digital Foundry
+
+fonts-adf-ikarius/zesty,zesty 0.20110505-1 all
+  Ikarius font of the Arkandis Digital Foundry
+
+fonts-adf-irianis/zesty,zesty 0.20110505-1 all
+  Irianis font of the Arkandis Digital Foundry
+
+fonts-adf-libris/zesty,zesty 0.20110505-1 all
+  Libris font of the Arkandis Digital Foundry
+
+fonts-adf-mekanus/zesty,zesty 0.20110505-1 all
+  Mekanus font of the Arkandis Digital Foundry
+
+fonts-adf-oldania/zesty,zesty 0.20110505-1 all
+  Oldania font of the Arkandis Digital Foundry
+
+fonts-adf-romande/zesty,zesty 0.20110505-1 all
+  Romande font of the Arkandis Digital Foundry
+
+fonts-adf-switzera/zesty,zesty 0.20110505-1 all
+  Switzera font of the Arkandis Digital Foundry
+
+fonts-adf-tribun/zesty,zesty 0.20110505-1 all
+  Tribun font of the Arkandis Digital Foundry
+
+fonts-adf-universalis/zesty,zesty 0.20110505-1 all
+  Universalis font of the Arkandis Digital Foundry
+
+fonts-adf-verana/zesty,zesty 0.20110505-1 all
+  Verana font of the Arkandis Digital Foundry
+
+fonts-firacode/zesty,zesty 1.204-2 all
+  Monospaced font with programming ligatures
+
+fonts-gfs-artemisia/zesty,zesty 1.1-5 all
+  greek font (Times Greek-like)
+
+fonts-gfs-baskerville/zesty,zesty 1.1-5 all
+  ancient Greek font revival
+
+fonts-gfs-bodoni-classic/zesty,zesty 1.1-5 all
+  smart greek typeface revival
+
+fonts-gfs-complutum/zesty,zesty 1.1-6 all
+  ancient Greek font revival from the University of Alcalá, Spain
+
+fonts-gfs-didot/zesty,zesty 1.1-6 all
+  greek font family (Didot revival)
+
+fonts-gfs-didot-classic/zesty,zesty 1.1-5 all
+  greek font family (Classic Didot revival)
+
+fonts-gfs-gazis/zesty,zesty 1.1-5 all
+  ancient Greek font (Byzantine cursive hand style)
+
+fonts-gfs-neohellenic/zesty,zesty 1.1-6 all
+  modern Greek font family with matching Latin
+
+fonts-gfs-olga/zesty,zesty 1.1-5 all
+  ancient Greek oblique font revival (companion to GFS Didot)
+
+fonts-gfs-solomos/zesty,zesty 1.1-5 all
+  ancient Greek oblique font
+
+fonts-gfs-theokritos/zesty,zesty 1.1-5 all
+  decorative Greek font
+
+fonts-kaushanscript/zesty,zesty 1.02-2 all
+  script font that feels like writing quickly with an inked brush
+
+fonts-kristi/zesty,zesty 20100000-2 all
+  casual cursive script typeface with a "felt-tip pen" feel
+
+fonts-levien-typoscript/zesty,zesty 000.001-4 all
+  classic ATF Typo Script revival font
+
+fonts-octicons/zesty,zesty 4.4.0-1 all
+  GitHub's icons font
+
+fotoxx/zesty 16.11.1-1build1 amd64
+  easy-to-use digital photo editor
+
+fotoxx-common/zesty,zesty 16.11.1-1build1 all
+  easy-to-use digital photo editor - common files
+
+fp-units-castle-game-engine/zesty 6.0.2+dfsg1-2build1 amd64
+  Castle Game Engine - 3D game engine for FreePascal / Lazarus
+
+freedv/zesty 1.1-1 amd64
+  Software Defined Radio (SDR)
+
+frog/zesty 0.13.7-1 amd64
+  tagger and parser for natural languages (runtime)
+
+fuse-emulator-utils/zesty 1.3.1-1 amd64
+  The Free Unix Spectrum Emulator - Utilities
+
+fusionforge-plugin-scmgit/zesty,zesty 6.0.4+20160504-1.1 all
+  FusionForge plugin - Git
+
+fwupd/zesty-updates 0.8.1-3ubuntu0.1 amd64
+  Firmware update daemon
+
+fwupd-doc/zesty-updates,zesty-updates 0.8.1-3ubuntu0.1 all
+  Firmware update daemon documentation (HTML format)
+
+g15daemon/zesty 1.9.5.3-8.3ubuntu2 amd64
+  Screen multiplexer for Logitech G15 Keyboard
+
+g15macro/zesty 1.0.3-3 amd64
+  A simple Macro recording/playback application for G15Daemon
+
+g15stats/zesty 1.9.2-2build3 amd64
+  a CPU/Memory/Swap usage meter for G15Daemon
+
+gargoyle-free/zesty 2011.1b-1 amd64
+  graphical player for Interactive Fiction games
+
+gdigi/zesty 0.4.0-1 amd64
+  utility to control DigiTech effect pedals
+
+geany-plugin-git-changebar/zesty 1.29+dfsg-1 amd64
+  git change bar plugin for Geany
+
+geda/zesty,zesty 1:1.8.2-5 all
+  GPL EDA -- Electronics design software (metapackage)
+
+geda-doc/zesty,zesty 1:1.8.2-5 all
+  GPL EDA -- Electronics design software (documentation)
+
+geda-examples/zesty,zesty 1:1.8.2-5 all
+  GPL EDA -- Electronics design software (example designs)
+
+geda-gattrib/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (attribute editor)
+
+geda-gnetlist/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (netlister)
+
+geda-gschem/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (schematic editor)
+
+geda-gsymcheck/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (symbol checker)
+
+geda-symbols/zesty,zesty 1:1.8.2-5 all
+  GPL EDA -- Electronics design software (symbols library)
+
+geda-utils/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (utilities)
+
+gedit-plugins/zesty 3.22.0-1 amd64
+  set of plugins for gedit
+
+gertty/zesty,zesty 1.4.0-1.1 all
+  Console-based interface to Gerrit
+
+ghi/zesty,zesty 1.2.0-1 all
+  GitHub issue tracker command line interface (CLI)
+
+ghp-import/zesty,zesty 0.5.4-1 all
+  Easily import docs to your gh-pages branch
+
+giggle/zesty 0.7-3 amd64
+  GTK+ frontend for the git directory tracker
+
+giggle-personal-details-plugin/zesty 0.7-3 amd64
+  GTK+ frontend for the git directory tracker - personal details plugin
+
+giggle-terminal-view-plugin/zesty 0.7-3 amd64
+  GTK+ frontend for the git directory tracker - terminal plugin
+
+gimp-dcraw/zesty 1.32-1 amd64
+  GIMP plug-in for loading RAW digital photos
+
+gimp-ufraw/zesty 0.22-1 amd64
+  gimp importer for raw camera images
+
+gir1.2-anjuta-3.0/zesty 2:3.22.0-3build1 amd64
+  GObject introspection data for the Anjuta libraries
+
+gir1.2-entangle-0.1/zesty 0.7.1-1build1 amd64
+  GObject introspection data for entangle
+
+gir1.2-geocodeglib-1.0/zesty 3.23.90-0ubuntu1 amd64
+  introspection data for geocode-glib library
+
+gir1.2-git2-glib-1.0/zesty 0.24.4-1 amd64
+  GObject introspection data for the git2-glib-1.0 library
+
+gir1.2-gxps-0.1/zesty 0.2.5-1 amd64
+  GObject introspection data for the gxps library
+
+gist/zesty,zesty 4.5.0-2 all
+  Upload gists to gist.github.com
+
+git/zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 amd64 [upgradable from: 1:2.11.0-2ubuntu0.3]
+  fast, scalable, distributed revision control system
+
+git-all/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (all subpackages)
+
+git-annex/zesty 6.20170101-1 amd64
+  manage files with git, without checking their contents into git
+
+git-arch/zesty,zesty 1:2.13.0-0ppa1~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (arch interoperability)
+
+git-big-picture/zesty,zesty 0.9.0+git20131031-2 all
+  Visualization tool for Git repositories
+
+git-build-recipe/zesty,zesty 0.3.5 all
+  construct a Git branch from a recipe
+
+git-buildpackage/zesty,zesty 0.8.12.2 all
+  Suite to help with Debian packages in Git repositories
+
+git-buildpackage-rpm/zesty,zesty 0.8.12.2 all
+  Suite to help with RPM packages in Git repositories
+
+git-bzr/zesty,zesty 2:0.3-1 all
+  transitional dummy package
+
+git-cola/zesty,zesty 2.10-1ubuntu1 all
+  highly caffeinated git GUI
+
+git-core/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (obsolete)
+
+git-crecord/zesty,zesty 20161226.0-1 all
+  interactively select chunks to commit with Git
+
+git-crypt/zesty 0.5.0-2 amd64
+  Transparent file encryption in git
+
+git-cvs/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (cvs interoperability)
+
+git-daemon-run/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (git-daemon service)
+
+git-daemon-sysvinit/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (git-daemon service)
+
+git-doc/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (documentation)
+
+git-dpm/zesty,zesty 0.9.1-1 all
+  git Debian package manager
+
+git-el/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (emacs support)
+
+git-email/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (email add-on)
+
+git-extras/zesty,zesty 4.2.0-1 all
+  Extra commands for git
+
+git-flow/zesty,zesty 1.10.2-1 all
+  Git extension to provide a high-level branching model
+
+git-ftp/zesty,zesty 1.3.1-1 all
+  Git powered FTP client written as shell script
+
+git-gui/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (GUI)
+
+git-hub/zesty,zesty 0.11.0-1 all
+  Git command line interface to GitHub
+
+git-man/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all [upgradable from: 1:2.11.0-2ubuntu0.3]
+  fast, scalable, distributed revision control system (manual pages)
+
+git-mediawiki/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (MediaWiki remote helper)
+
+git-merge-changelog/zesty 20140202+stable-2 amd64
+  git merge driver for GNU ChangeLog files
+
+git-notifier/zesty,zesty 1:0.6-25-1 all
+  git commit email notification script
+
+git-phab/zesty,zesty 2.0.0-1 all
+  Git subcommand to integrate with Phabricator.
+
+git-reintegrate/zesty,zesty 0.4-1 all
+  Git extension to manage integration branches
+
+git-remote-bzr/zesty,zesty 0.3-1 all
+  bidirectional bridge between Git and Bazaar
+
+git-remote-gcrypt/zesty,zesty 1.0.1-1 all
+  encrypted git repositories
+
+git-remote-hg/zesty,zesty 0.3-2 all
+  bidirectional bridge between Git and Mercurial
+
+git-repair/zesty 1.20151215-1 amd64
+  repair various forms of damage to git repositories
+
+git-restore-mtime/zesty,zesty 1.0.4-1 all
+  set timestamps to the date of a file's last commit
+
+git-review/zesty,zesty 1.25.0-2 all
+  git command for submitting branches to Gerrit
+
+git-sh/zesty,zesty 1.1-1 all
+  a git shell
+
+git-svn/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (svn interoperability)
+
+git2cl/zesty,zesty 1:2.0+git20120920-1 all
+  Simple tool to convert git logs to GNU ChangeLog format
+
+gitano/zesty,zesty 1.0-2 all
+  Git service manager
+
+gitg/zesty 3.23.0-1 amd64
+  git repository viewer
+
+github-backup/zesty 1.20160522-2build1 amd64
+  backs up data from GitHub
+
+gitinspector/zesty,zesty 0.4.4+dfsg-4 all
+  statistical analysis tool for git repositories
+
+gitit/zesty 0.12.1.1+dfsg-6build3 amd64
+  Wiki engine backed by a git or darcs filestore
+
+gitk/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (revision tree visualizer)
+
+gitlab/zesty,zesty 8.13.11+dfsg-8 all
+  git powered software platform to collaborate on code (non-omnibus)
+
+gitlab-ci-multi-runner/zesty 1.4.2+dfsg-1 amd64
+  GitLab Runner
+
+gitlab-shell/zesty,zesty 3.6.6-4 all
+  handles git commands for GitLab
+
+gitlab-workhorse/zesty 0.8.5+debian-3 amd64
+  unloads Git HTTP traffic from the GitLab Rails app (Unicorn)
+
+gitmagic/zesty,zesty 20160304-1 all
+  guide about Git version control system
+
+gitolite3/zesty,zesty 3.6.6-1 all
+  SSH-based gatekeeper for git repositories (version 3)
+
+gitpkg/zesty,zesty 0.28 all
+  tools for maintaining Debian packages with git
+
+gitso/zesty,zesty 0.6.2+svn158+dfsg-1 all
+  simple frontend for reverse VNC connections (remote assistance)
+
+gitstats/zesty,zesty 2015.10.03-1 all
+  statistics generator for git repositories
+
+gitweb/zesty,zesty 1:2.14.2-1~ppa0~ubuntu17.04.1 all
+  fast, scalable, distributed revision control system (web interface)
+
+gmp-ecm/zesty 7.0.4+ds-1 amd64
+  Factor integers using the Elliptic Curve Method
+
+gmt-dcw/zesty,zesty 1.1.2-2 all
+  Digital Chart of the World (DCW) for GMT
+
+gmult/zesty 8.0-2 amd64
+  figure out which letters are which numbers
+
+gnome-sudoku/zesty 1:3.24.0-0ubuntu1 amd64
+  Sudoku puzzle game for GNOME
+
+gnupg/zesty,now 2.1.15-1ubuntu7 amd64 [installed]
+  GNU privacy guard - a free PGP replacement
+
+gnupg-agent/zesty,now 2.1.15-1ubuntu7 amd64 [installed]
+  GNU privacy guard - cryptographic agent
+
+gnupg-l10n/zesty,zesty,now 2.1.15-1ubuntu7 all [installed]
+  GNU privacy guard - localization files
+
+gnupg1/zesty 1.4.21-2ubuntu1 amd64
+  GNU privacy guard - a free PGP replacement ("classic" version)
+
+gnupg1-curl/zesty 1.4.21-2ubuntu1 amd64
+  GNU privacy guard - a free PGP replacement (cURL helpers for "classic" version)
+
+gnupg1-l10n/zesty,zesty 1.4.21-2ubuntu1 all
+  GNU privacy guard "classic" - localization files
+
+gnupg2/zesty,zesty 2.1.15-1ubuntu7 all
+  GNU privacy guard - a free PGP replacement (dummy transitional package)
+
+gocryptfs/zesty 1.2-2ubuntu1 amd64
+  Encrypted overlay filesystem written in Go.
+
+golang-clockwork-dev/zesty,zesty 0.1.0-2 all
+  Transitional package for golang-github-clockwork-uuid-dev
+
+golang-codegangsta-cli-dev/zesty,zesty 1.18.0-1 all
+  Transitional package for golang-github-codegangsta-cli-dev
+
+golang-context-dev/zesty,zesty 1.1-1ubuntu8 all
+  Transitional package for golang-github-gorilla-context-dev
+
+golang-dns-dev/zesty,zesty 0.0~git20161018.0.58f52c5-1 all
+  transitional package for golang-github-miekg-dns-dev
+
+golang-docker-dev/zesty,zesty 1.12.6-0ubuntu4 all
+  Transitional package for golang-github-docker-docker-dev
+
+golang-etcd-dev/zesty,zesty 2.0.0-2 all
+  [DEPRECATED] Go client for etcd
+
+golang-fsnotify-dev/zesty,zesty 1.4.2-1 all
+  Transitional package for golang-github-fsnotify-fsnotify-dev
+
+golang-gettext-dev/zesty,zesty 0~git20130221-0ubuntu12 all
+  transitional dummy package for golang-github-gosexy-gettext-dev
+
+golang-git2go-dev/zesty,zesty 0.0~git20150731.0.ed62fda-1 all
+  Go bindings for libgit2
+
+golang-github-aanand-compose-file-dev/zesty,zesty 0.0~git20161122.0.a3e5876-1 all
+  Parser for the Docker compose file format version 3
+
+golang-github-abbot-go-http-auth-dev/zesty,zesty 0.0~git20150714.0.46b9627-1 all
+  Basic and Digest HTTP Authentication for golang http
+
+golang-github-abh-geoip-dev/zesty,zesty 0.0~git20150611-2 all
+  GeoIP API for Go
+
+golang-github-adroll-goamz-dev/zesty,zesty 0.0~git20150909.0.74fd457-2 all
+  enables Go programs to interact with Amazon Web Services
+
+golang-github-aelsabbahy-gonetstat-dev/zesty,zesty 0.0~git20160428.0.edf89f7-2 all
+  Netstat implementation in Go
+
+golang-github-agtorre-gocolorize-dev/zesty,zesty 1.0.0-1 all
+  Stateful ANSI coloring for Go
+
+golang-github-akavel-rsrc-dev/zesty,zesty 2+git20151103.6.ba14da1-1 all
+  Go library for embedding binary resources in executables
+
+golang-github-akrennmair-gopcap-dev/zesty,zesty 0.0~git20150728.0.00e1103-1 all
+  simple wrapper around libpcap for Golang
+
+golang-github-alecthomas-units-dev/zesty,zesty 0.0~git20151022.0.2efee85-3 all
+  Go package for parsing byte units
+
+golang-github-appc-cni-dev/zesty,zesty 0.3.0+dfsg-1 all
+  container network interface
+
+golang-github-appc-docker2aci-dev/zesty,zesty 0.14.0+dfsg-2 all
+  library to convert Docker images to ACIs
+
+golang-github-appc-goaci-dev/zesty,zesty 0.1.1-1 all
+  build go projects into ACIs
+
+golang-github-appc-spec-dev/zesty,zesty 0.8.9+dfsg-1 all
+  App Container Specification (appc) - source
+
+golang-github-armon-circbuf-dev/zesty,zesty 0.0~git20150827.0.bbbad09-1 all
+  Golang circular (ring) buffer
+
+golang-github-armon-consul-api-dev/zesty,zesty 0.0~git20150107.0.dcfedd5-2 all
+  Golang API client for Consul
+
+golang-github-armon-go-metrics-dev/zesty,zesty 0.0~git20160307.0.f303b03-1 all
+  library for exporting performance and runtime metrics
+
+golang-github-armon-go-radix-dev/zesty,zesty 0.0~git20150602.0.fbd82e8-1 all
+  Golang implementation of Radix trees
+
+golang-github-armon-gomdb-dev/zesty,zesty 0.0~git20150106.0.151f2e0-1 all
+  LMDB for Go - OpenLDAP Lightning Memory-Mapped Database
+
+golang-github-asaskevich-govalidator-dev/zesty,zesty 4-1 all
+  Validators and sanitizers for strings, numerics, slices and structs
+
+golang-github-audriusbutkevicius-go-nat-pmp-dev/zesty,zesty 0.0~git20160522.0.452c976-1 all
+  Go language client for the NAT-PMP internet
+
+golang-github-aws-aws-sdk-go-dev/zesty,zesty 1.1.14+dfsg-2 all
+  AWS SDK for the Go programming language
+
+golang-github-azure-azure-sdk-for-go-dev/zesty,zesty 2.1.1~beta-3 all
+  Microsoft Azure SDK for Go
+
+golang-github-azure-go-ansiterm-dev/zesty,zesty 0.0~git20160622.0.fa152c5-1 all
+  Go package for ANSI terminal emulation in Windows
+
+golang-github-azure-go-autorest-dev/zesty,zesty 7.2.0+REALLY.7.0.4-2 all
+  HTTP request pipeline suitable for use across multiple go-routines
+
+golang-github-azure-go-ntlmssp-dev/zesty,zesty 0.0~git20160412.e0b63eb-1 all
+  NTLM/Negotiate authentication over HTTP (Go library)
+
+golang-github-azure-go-pkcs12-dev/zesty,zesty 0.0~git20150623.0.a635c06-2 all
+  PCKS#12 implementation for Go
+
+golang-github-benbjohnson-tmpl-dev/zesty,zesty 0.0~git20160209.0.8e77bc5-1 all
+  Command line interface to Go's text/template library - dev package
+
+golang-github-beorn7-perks-dev/zesty,zesty 0.0~git20160804.0.4c0e845-1 all
+  effective computation of things
+
+golang-github-bep-gitmap-dev/zesty,zesty 0.0~git20161029.0.a1a71ab-1 all
+  map all filenames to info objects for a given git revision
+
+golang-github-bep-inflect-dev/zesty,zesty 0.0~git20160408.0.b896c45-1 all
+  inflection rules for the English language
+
+golang-github-bgentry-speakeasy-dev/zesty,zesty 0.0~git20150902.0.36e9cfd-1 all
+  Golang helpers for reading password input
+
+golang-github-bitly-go-simplejson-dev/zesty,zesty 0.5.0-2 all
+  Golang library to interact with arbitrary JSON
+
+golang-github-bkaradzic-go-lz4-dev/zesty,zesty 0.0~git20150821.0.74ddf82-2 all
+  port of the LZ4 lossless compression algorithm to Go
+
+golang-github-blang-semver-dev/zesty,zesty 3.3.0-1 all
+  semantic versioning library
+
+golang-github-bmizerany-assert-dev/zesty,zesty 0.0~git20120716-2 all
+  Assertions library for Go tests
+
+golang-github-bmizerany-pat-dev/zesty,zesty 0.0~git20140625-1 all
+  Sinatra style pattern muxer for Go's net/http library
+
+golang-github-boltdb-bolt-dev/zesty,zesty 1.3.0-1 all
+  low-level key/value database for Go
+
+golang-github-bowery-prompt-dev/zesty,zesty 0.0~git20160808.0.d43c270-1 all
+  Cross platform prompting library for Go
+
+golang-github-bradfitz-gomemcache-dev/zesty,zesty 0.0~git20141109-1 all
+  Go memcached client library
+
+golang-github-bradfitz-http2-dev/zesty,zesty 0.0~git20150509-1 all
+  HTTP/2 support for Go
+
+golang-github-bshuster-repo-logrus-logstash-hook-dev/zesty,zesty 0.0~git20170102.0.5f729f2-1 all
+  Logstash hook for Logrus logging library for Go
+
+golang-github-btcsuite-btcd-btcec-dev/zesty,zesty 0.0~git20161101.0.g8343278-1 all
+  Go library for Elliptic curve cryptography
+
+golang-github-btcsuite-btcd-chaincfg-chainhash-dev/zesty,zesty 0.0+git20161209.0.7a4cc89-1 all
+  generic hash types and functions for Go
+
+golang-github-btcsuite-fastsha256-dev/zesty,zesty 0.0~git20160815.0.637e656-1 all
+  Go alternative fast SHA256 implementation
+
+golang-github-bugsnag-bugsnag-go-dev/zesty,zesty 1.0.5+dfsg-1 all
+  automatic panic monitoring for Go applications
+
+golang-github-bugsnag-panicwrap-dev/zesty,zesty 1.1.0-1 all
+  Go library for catching and handling panics in Go applications
+
+golang-github-burntsushi-toml-dev/zesty,zesty 0.2.0+git20160717.21.9906417-1 all
+  TOML parser and encoder for Go with reflection
+
+golang-github-calmh-du-dev/zesty,zesty 1.0.0-1 all
+  Get disk usage information like how much space is available, free, and used
+
+golang-github-calmh-luhn-dev/zesty,zesty 1.0.0-1 all
+  Luhn-mod-N implementation in Go
+
+golang-github-calmh-xdr-dev/zesty,zesty 2.0.0-1 all
+  Go XDR enc/decoder - dev package
+
+golang-github-cbroglie-mapstructure-dev/zesty,zesty 0.0~git20150405.0.25325b4-1 all
+  Go library for decoding generic map values into native structures
+
+golang-github-cenk-hub-dev/zesty,zesty 1.0.0+git20160321.17.b864404b5f99-1 all
+  Simple PubSub (Publish/Subscribe) library in Go
+
+golang-github-cenk-rpc2-dev/zesty,zesty 0.0~git20160427.0.7ab76d2e88c7-1 all
+  bi-directional RPC in Go
+
+golang-github-cenkalti-backoff-dev/zesty,zesty 1.0.0-1 all
+  exponential backoff algorithm in Go
+
+golang-github-cheggaaa-pb-dev/zesty,zesty 0.0~git20160304.0.a75ad33-1 all
+  simple console progress bar for Go
+
+golang-github-circonus-labs-circonus-gometrics-dev/zesty,zesty 0.0~git20160822.0.2f5be48-1 all
+  Golang implementation of metrics reporting for Cirocnus
+
+golang-github-circonus-labs-circonusllhist-dev/zesty,zesty 0.0~git20160526.0.d724266-1 all
+  implementation of Circonus log-linear histograms
+
+golang-github-cloudflare-cfssl-dev/zesty,zesty 1.2.0+git20160825.89.7fb22c8-1 all
+  CloudFlare's PKI and TLS toolkit
+
+golang-github-cloudflare-go-metrics-dev/zesty,zesty 0.0~git20151117.0.6a9aea3-1 all
+  Cloudflare's fork of Go port of Coda Hale's Metrics library
+
+golang-github-cloudflare-redoctober-dev/zesty,zesty 0.0~git20161017.0.78e9720-1 all
+  Software-based two-man rule style encryption and decryption server
+
+golang-github-cloudfoundry-gosigar-dev/zesty,zesty 0.0~git20150402.27.3ed7c74-2 all
+  golang implementation of the sigar API
+
+golang-github-clusterhq-flocker-go-dev/zesty,zesty 0.0~git20160209.0.1c0a791-1 all
+  Flocker go library
+
+golang-github-cockroachdb-cmux-dev/zesty,zesty 0.0~git20170110.0.30d10be-1 all
+  Payload-based connection multiplexer for Golang
+
+golang-github-codegangsta-cli-dev/zesty,zesty 1.18.0-1 all
+  simple library for building command line apps in Go
+
+golang-github-codegangsta-negroni-dev/zesty,zesty 0.1-1 all
+  idiomatic HTTP middleware for Golang
+
+golang-github-constabulary-gb-dev/zesty,zesty 0.4.3-1 all
+  project based build tool for Go (source)
+
+golang-github-coreos-gexpect-dev/zesty,zesty 0.1.0-1 all
+  library for starting and controlling subprocesses
+
+golang-github-coreos-go-iptables-dev/zesty,zesty 0.1.0-1 all
+  Go bindings for iptables utility
+
+golang-github-coreos-go-oidc-dev/zesty,zesty 0.0~git20160926.0.16c5ecc-1 all
+  Go libraries for implementing OIDC clients and servers
+
+golang-github-coreos-go-systemd-dev/zesty,zesty 14-1 all
+  Go client bindings for systemd socket activation, journal and D-Bus
+
+golang-github-coreos-go-tspi-dev/zesty,zesty 0.1.1-1 all
+  TSPI bindings for Golang
+
+golang-github-coreos-ioprogress-dev/zesty,zesty 0.0~git20151023.0.4637e49-1 all
+  progress bars around io.Reader/Writers
+
+golang-github-coreos-pkg-dev/zesty,zesty 3-1 all
+  collection of Go utility packages
+
+golang-github-coreos-rkt-dev/zesty,zesty 1.21.0+dfsg-1 all
+  rkt API source
+
+golang-github-cpuguy83-go-md2man-dev/zesty,zesty 1.0.6+ds-1 all
+  utility to create manpages from markdown (source)
+
+golang-github-ctdk-chefcrypto-dev/zesty,zesty 0.1.0-1 all
+  Go cryptographic routines to interact with chef servers
+
+golang-github-ctdk-go-trie-dev/zesty,zesty 0.0~git20161027.0.6443fbc-1 all
+  Trie implementation based on a minimal automaton for Go
+
+golang-github-ctdk-goiardi-dev/zesty,zesty 0.11.2-1 all
+  Golang library to interact with a chef server
+
+golang-github-cyberdelia-go-metrics-graphite-dev/zesty,zesty 0.0~git20151204.0.7e54b5c-1 all
+  Graphite client for the go-metrics
+
+golang-github-cznic-b-dev/zesty,zesty 0.0~git20151027.0.01b13d7-1 all
+  B+tree implementation
+
+golang-github-cznic-bufs-dev/zesty,zesty 0.0~git20140818.0.3dcccbd-1 all
+  simple buffer cache
+
+golang-github-cznic-fileutil-dev/zesty,zesty 0.0~git20150708.0.1c9c88f-1 all
+  Golang file utility functions
+
+golang-github-cznic-lldb-dev/zesty,zesty 1.0.1-1 all
+  low level database engine
+
+golang-github-cznic-mathutil-dev/zesty,zesty 0.0~git20150605.0.a804f0f-1 all
+  extensions to the Golang "rand" and "math" packages
+
+golang-github-cznic-ql-dev/zesty,zesty 1.0.6-1 all
+  pure Go embedded SQL database
+
+golang-github-cznic-sortutil-dev/zesty,zesty 0.0~git20150617.0.4c73428-1 all
+  extensions to standard Go "sort" package
+
+golang-github-cznic-strutil-dev/zesty,zesty 0.0~git20150430.0.1eb03e3-1 all
+  extensions to standard Go "strings" package
+
+golang-github-cznic-zappy-dev/zesty,zesty 0.0~git20160305.0.4f5e6ef-1 all
+  zappy block-based compression format
+
+golang-github-d2g-dhcp4-dev/zesty,zesty 0.0~git20150413-1 all
+  DHCP packet creation library for Go
+
+golang-github-d2g-dhcp4client-dev/zesty,zesty 0.0~git20150520-1 all
+  DHCP client written in Go
+
+golang-github-d4l3k-messagediff-dev/zesty,zesty 1.1.0-1 all
+  library for doing diffs of arbitrary Golang structs
+
+golang-github-daaku-go.zipexe-dev/zesty,zesty 0.0~git20150329.0.a5fe243-1 all
+  zipexe attempts to open an executable binary file as a zip file
+
+golang-github-data-dog-go-sqlmock-dev/zesty,zesty 1.0.0-1 all
+  Sql mock driver for golang to test database interactions
+
+golang-github-datadog-datadog-go-dev/zesty,zesty 0.0~git20150930.0.b050cd8-1 all
+  Go client library for datadog
+
+golang-github-davecgh-go-spew-dev/zesty,zesty 1.1.0-1 all
+  Implements a deep pretty printer for Go data structures to aid in debugging
+
+golang-github-daviddengcn-go-colortext-dev/zesty,zesty 0.0~git20150719.0.3b18c85-1 all
+  change the color of console text in Go
+
+golang-github-dchest-blake2b-dev/zesty,zesty 0.0~git20151022.0.3c8c640-1 all
+  Go implementation of BLAKE2 (b) cryptographic hash function
+
+golang-github-dchest-cssmin-dev/zesty,zesty 0.0~git20151210.0.fb8d9b4-4 all
+  Go package to minify CSS
+
+golang-github-dchest-safefile-dev/zesty,zesty 0.0~git20151022.0.855e8d9-1 all
+  Implements safe "atomic" saving of files for Go
+
+golang-github-deckarep-golang-set-dev/zesty,zesty 1.5-1 all
+  simple set type for the Go language
+
+golang-github-dghubble-sling-dev/zesty,zesty 1.0-1 all
+  HTTP client library for creating and sending API requests
+
+golang-github-dgrijalva-jwt-go-dev/zesty,zesty 3.0.0+REALLY.2.6.0-1 all
+  Golang implementation of JSON Web Tokens (JWT)
+
+golang-github-dgrijalva-jwt-go-v3-dev/zesty,zesty 3.0.0+v3-1 all
+  Golang implementation of JSON Web Tokens (JWT)
+
+golang-github-dgryski-go-bits-dev/zesty,zesty 0.0~git20151205.0.86c69b3-1 all
+  amd64 optimized bit operations
+
+golang-github-dgryski-go-bitstream-dev/zesty,zesty 0.0~git20151205.0.27cd597-1 all
+  read and write bits from io.Reader and io.Writer
+
+golang-github-dhowett-go-plist-dev/zesty,zesty 0.0~git20160708.0.fec78c8-1 all
+  pure Go Apple Property List transcoder
+
+golang-github-digitalocean-godo-dev/zesty,zesty 0.9.0-2 all
+  DigitalOcean API V2 client library for Google Go
+
+golang-github-dnephin-cobra-dev/zesty,zesty 1.5+git20161103.0.a3c0924-1 all
+  Go library for creating powerful modern Go CLI applications
+
+golang-github-docker-containerd-dev/zesty,zesty 0.2.5-0ubuntu1 all
+  runC develpoment files
+
+golang-github-docker-distribution-dev/zesty,zesty 2.6.0~rc.1+git20161216.38.28602af3-1 all
+  Docker toolset to pack, ship, store, and deliver content (source)
+
+golang-github-docker-docker-credential-helpers-dev/zesty,zesty 0.3.0+git20160601.0.5128fa1-1 all
+  Use native stores to safeguard Docker credentials
+
+golang-github-docker-docker-dev/zesty,zesty 1.12.6-0ubuntu4 all
+  Externally reusable Go packages included with Docker
+
+golang-github-docker-engine-api-dev/zesty,zesty 0.4.0-1 all
+  client and server components compatible with the Docker engine
+
+golang-github-docker-go-connections-dev/zesty,zesty 0.2.1+git20161115.12.4ccf312-1 all
+  Golang utility package to work with network connections
+
+golang-github-docker-go-dev/zesty,zesty 0.0~git20160303.0.d30aec9-3 all
+  Go packages with small patches autogenerated (used for canonical/json)
+
+golang-github-docker-go-events-dev/zesty,zesty 0.0~git20160331.0.882f161-1 all
+  Composable event distribution for Go
+
+golang-github-docker-go-metrics-dev/zesty,zesty 0.0~git20161110.0.0f35294-1 all
+  Package for metrics collection in Docker projects
+
+golang-github-docker-go-units-dev/zesty,zesty 0.3.1+git20161130.10.e30f1e7-1 all
+  parse and print size and time units in human-readable format
+
+golang-github-docker-goamz-dev/zesty,zesty 0.0~git20160206.0.f0a21f5-1 all
+  Enable Go programs to interact with Amazon Web Services
+
+golang-github-docker-leadership-dev/zesty,zesty 0.1.0-1 all
+  distributed leader election using docker/libkv
+
+golang-github-docker-libkv-dev/zesty,zesty 0.2.0-1 all
+  Key/Value store abstraction library
+
+golang-github-docker-libnetwork-dev/zesty,zesty 0.8.0~dev.2+git20161130.568.fd27f22-2 all
+  Docker Networking
+
+golang-github-docker-libtrust-dev/zesty,zesty 0.0~git20150526.0.9cbd2a1-1 all
+  Primitives for identity and authorization
+
+golang-github-docker-notary-dev/zesty,zesty 0.1~ds1-1 all
+  tool for running and interacting with trusted collections
+
+golang-github-docker-spdystream-dev/zesty,zesty 0.0~git20151103.0.4d80814-1 all
+  multiplexed stream library using spdy
+
+golang-github-docker-swarmkit-dev/zesty,zesty 1.12.0+git20170111.763.296fcfcf-1 all
+  Toolkit for orchestrating distributed systems at any scale
+
+golang-github-docopt-docopt-go-dev/zesty,zesty 0.6.2+git20160216.0.784ddc5-1 all
+  Implementation of docopt in the Go programming language
+
+golang-github-dustin-go-humanize-dev/zesty,zesty 0.0~git20151125.0.8929fe9-1 all
+  format units to human friendly sizes
+
+golang-github-dustinkirkland-golang-petname-dev/zesty,zesty 2.6-0ubuntu1 all
+  golang library for generating pronouncable, memorable, pet names
+
+golang-github-dvsekhvalnov-jose2go-dev/zesty,zesty 1.2-1 all
+  Go implementation of Javascript Object Signing and Encryption
+
+golang-github-dylanmei-iso8601-dev/zesty,zesty 0.1.0-1 all
+  pure Go ISO8601 parser and formatter
+
+golang-github-dylanmei-winrmtest-dev/zesty,zesty 0.0~git20151226.0256178-1 all
+  testing addon for golang-github-masterzen-winrm
+
+golang-github-eknkc-amber-dev/zesty,zesty 0.0~git20161231.0.9be5e8a-1 all
+  Elegant HTML templating engine for Go, inspired from HAML and Jade (Go library)
+
+golang-github-elazarl-go-bindata-assetfs-dev/zesty,zesty 0.0~git20151224.0.57eb5e1-1 all
+  Go library to serve embedded binary files with net/http
+
+golang-github-elazarl-goproxy-dev/zesty,zesty 1.0-1 all
+  HTTP proxy library for Go
+
+golang-github-elithrar-simple-scrypt-dev/zesty,zesty 1.1+git20161119.3.2325946-1 all
+  various purpose password hashes library using the scrypt KDF
+
+golang-github-emicklei-go-restful-dev/zesty,zesty 1.2-1 all
+  build REST-style Web Services using Google Go
+
+golang-github-endophage-gotuf-dev/zesty,zesty 0.0~git20151020.0.2df1c8e-1 all
+  Go implementation of the TUF specification
+
+golang-github-erikdubbelboer-gspt-dev/zesty,zesty 0.0~git20161002.0.6ce3e9d-1 all
+  setproctitle for Go
+
+golang-github-evanphx-json-patch-dev/zesty,zesty 0.0~git20150402.0.766277e-1 all
+  Go library to apply RFC6902 patches and create and apply RFC7386 patches
+
+golang-github-fatih-color-dev/zesty,zesty 1.1.0-1 all
+  console colors for Go
+
+golang-github-fhs-go-netrc-dev/zesty,zesty 0.0~git20160504.0.4ffed54-1 all
+  netrc file parser for Go programming language
+
+golang-github-fluent-fluent-logger-golang-dev/zesty,zesty 1.1.0-1 all
+  Go structured logger for Fluentd
+
+golang-github-flynn-archive-go-shlex-dev/zesty,zesty 0.0~git20150515.0.3f9db97-1 all
+  Fork of go-shlex from Google Code
+
+golang-github-fortytw2-leaktest-dev/zesty,zesty 0.0~git20160923.0.0db74e8-1 all
+  Goroutine Leak Detector
+
+golang-github-franela-goblin-dev/zesty,zesty 0.0.1+git20160123.62.889391d-1 all
+  minimal and beautiful Go testing framework
+
+golang-github-franela-goreq-dev/zesty,zesty 0.0~git20160121.0.3ddeded-2 all
+  minimal and simple request library for Go language
+
+golang-github-fsnotify-fsnotify-dev/zesty,zesty 1.4.2-1 all
+  File system notifications for Go
+
+golang-github-fsouza-go-dockerclient-dev/zesty,zesty 0.0+git20160622-1 all
+  Docker client library in Go
+
+golang-github-garyburd-redigo-dev/zesty,zesty 0.0~git20150901.0.d8dbe4d-1 all
+  Go client for Redis
+
+golang-github-geertjohan-go.incremental-dev/zesty,zesty 0.0~git20161212.0.1172aab-1 all
+  Go package providing type- and concurrency-safe incremental counters
+
+golang-github-geertjohan-go.rice-dev/zesty,zesty 0.0~git20160123.0.0f3f5fd-2 all
+  Go package for embedding web resources into Go executables
+
+golang-github-getsentry-raven-go-dev/zesty,zesty 0.0~git20150721.0.74c334d-3 all
+  Go client for the Sentry event/error logging system
+
+golang-github-ghodss-yaml-dev/zesty,zesty 0.0~git20150909.0.73d445a-1 all
+  better way to marshal and unmarshal YAML in Golang
+
+golang-github-glacjay-goini-dev/zesty,zesty 0.0~git20150730-1 all
+  INI file parser library for Go
+
+golang-github-go-chef-chef-dev/zesty,zesty 0.0.1+git20161023.60.deb8c38-1 all
+  Chef-Server API client in golang
+
+golang-github-go-fsnotify-fsnotify-dev/zesty,zesty 1.4.2-1 all
+  Transitional package for golang-github-fsnotify-fsnotify-dev
+
+golang-github-go-ini-ini-dev/zesty,zesty 1.8.6-2 all
+  Go package for control of INI file
+
+golang-github-go-ldap-ldap-dev/zesty,zesty 2.4.1-1 all
+  Basic LDAP v3 functionality for the Go programming language
+
+golang-github-go-macaron-binding-dev/zesty,zesty 0.0~git20151127.0.2502aaf-1 all
+  request data binding and validation middleware for Macaron
+
+golang-github-go-macaron-gzip-dev/zesty,zesty 0.0~git20151014.0.4938e9b-1 all
+  Gzip middleware for Macaron
+
+golang-github-go-macaron-inject-dev/zesty,zesty 0.0~git20151013.0.c5ab7bf-2 all
+  utilities for mapping and injecting dependencies
+
+golang-github-go-macaron-session-dev/zesty,zesty 0.0~git20151014.0.66031fc-1 all
+  session management middleware for Macaron
+
+golang-github-go-openapi-jsonpointer-dev/zesty,zesty 0.0~git20161105.0.8d96a2d-1 all
+  fork of gojsonpointer with support for structs
+
+golang-github-go-openapi-jsonreference-dev/zesty,zesty 0.0~git20161105.0.36d33bf-1 all
+  Implementation of gojsonreference with struct support
+
+golang-github-go-openapi-spec-dev/zesty,zesty 0.0~git20161119.0.f7ae86d-1 all
+  OpenAPI specification object model
+
+golang-github-go-openapi-swag-dev/zesty,zesty 0.0~git20161024.0.3b6d86c-1 all
+  goodie bag in use in the go-openapi projects
+
+golang-github-go-sql-driver-mysql-dev/zesty,zesty 1.3-1 all
+  MySQL-Driver for Go's database/sql package
+
+golang-github-go-stack-stack-dev/zesty,zesty 1.5.2-2 all
+  capture, manipulate, and format call stacks
+
+golang-github-go-xorm-core-dev/zesty,zesty 0.5.3-1 all
+  lightweight & compatible wrapper of database/sql
+
+golang-github-go-xorm-xorm-dev/zesty,zesty 0.5.3-1 all
+  Simple and Powerful ORM for Go, support mysql/sqlite3/postgres/mssql/oracle
+
+golang-github-gobwas-glob-dev/zesty,zesty 0.2.2-1 all
+  Go glob pattern library
+
+golang-github-gogits-cron-dev/zesty,zesty 0.0~git20160810.32.7f3990a-1 all
+  Gogs cron library in Go
+
+golang-github-gogits-go-gogs-client-dev/zesty,zesty 0.0~git20160830.0.d8aff57-1 all
+  Gogs API client in Go
+
+golang-github-gogo-protobuf-dev/zesty,zesty 0.3+git20170120.144.265e960d-1ubuntu1 all
+  alternative protocol buffer support for Golang - sources
+
+golang-github-golang-groupcache-dev/zesty,zesty 0.0~git20150125.0.604ed57-1 all
+  caching and cache-filling library, a replacement for memcached
+
+golang-github-golang-leveldb-dev/zesty,zesty 0.0~git20161231.0.3435554-1 all
+  Implementation of the LevelDB key/value database in Go
+
+golang-github-golang-mock-dev/zesty,zesty 0.0~git20150821.0.06883d9-1 all
+  mocking framework for the Go programming language
+
+golang-github-golang-snappy-dev/zesty,zesty 0.0+git20160529.d9eb7a3-2 all
+  Implementation of the Snappy compression format in Go
+
+golang-github-google-btree-dev/zesty,zesty 0.0~git20150413.0.cc6329d-1 all
+  BTree implementation for Go
+
+golang-github-google-cadvisor-dev/zesty,zesty 0.20.5+dfsg-1 all
+  analyze resource usage and performance of running containers
+
+golang-github-google-certificate-transparency-dev/zesty,zesty 0.0~git20160709.0.0f6e3d1~ds1-1 all
+  Framework for monitoring and auditing SSL certificates
+
+golang-github-google-go-querystring-dev/zesty,zesty 0.0~git20151028.0.2a60fc2-1 all
+  library for encoding structs into URL query parameters
+
+golang-github-google-gofuzz-dev/zesty,zesty 0.0~git20150903.0.e4af62d-2 all
+  Fuzz testing for Go
+
+golang-github-google-gopacket-dev/zesty,zesty 1.1.12-1 all
+  packet capturing and decoding library for Go
+
+golang-github-google-shlex-dev/zesty,zesty 0.0~git20150127.0.6f45313-2 all
+  Simple lexer for Go that supports shell-style rules
+
+golang-github-googleapis-gax-go-dev/zesty,zesty 0.0~git20161107.0.da06d19-1 all
+  Google API Extensions for Go
+
+golang-github-googleapis-proto-client-go-dev/zesty,zesty 0.0~git20160726.0.e5790fe-1 all
+  Generated proto and gRPC classes for Google
+
+golang-github-gorhill-cronexpr-dev/zesty,zesty 1.0.0-1 all
+  cron expression parser
+
+golang-github-gorilla-context-dev/zesty 1.1-1ubuntu8 amd64
+  General purpose registry for global request variables
+
+golang-github-gorilla-handlers-dev/zesty,zesty 1.1-2 all
+  collection of useful handlers for Go's net/http package
+
+golang-github-gorilla-mux-dev/zesty 1.1-2ubuntu7 amd64
+  powerful URL router and dispatcher for golang
+
+golang-github-gorilla-websocket-dev/zesty 1.0.0+git20160606.12.a687089-1ubuntu6 amd64
+  Go package implementing the WebSocket protocol
+
+golang-github-gosexy-gettext-dev/zesty 0~git20130221-0ubuntu12 amd64
+  Gettext support for the Go language
+
+golang-github-gosimple-slug-dev/zesty,zesty 1.0.2-1 all
+  URL-friendly slugify with multiple languages support
+
+golang-github-gotk3-gotk3-dev/zesty,zesty 0.0~GOTK3~0~2~0+git20161020.501.2caa15f-1 all
+  Go bindings for GTK3
+
+golang-github-graylog2-go-gelf-dev/zesty,zesty 0.0~git20160329.0.76d60fc-1 all
+  GELF library and writer for Go
+
+golang-github-grpc-ecosystem-go-grpc-prometheus-dev/zesty,zesty 1.1+git20160910.0.6b7015e-1 all
+  Prometheus monitoring for gRPC Go servers
+
+golang-github-grpc-ecosystem-grpc-gateway-dev/zesty,zesty 1.1.0+git20170127.54.6863684-1 all
+  gRPC to JSON proxy generator for Golang
+
+golang-github-gucumber-gucumber-dev/zesty,zesty 0.0~git20160715.0.71608e2-1 all
+  Cucumber BDD-style testing for Go -- source
+
+golang-github-hailocab-go-hostpool-dev/zesty,zesty 0.0~git20160125.0.e80d13c-1 all
+  flexibly pool among multiple hosts from Go application
+
+golang-github-hanwen-go-fuse-dev/zesty,zesty 0.0~git20161210.0.6c2b7d8-2 all
+  Native Go bindings for the FUSE kernel module
+
+golang-github-hanwen-usb-dev/zesty,zesty 0.0~git20141217.0.69aee45-3 all
+  CGO bindings for libusb.
+
+golang-github-hashicorp-atlas-go-dev/zesty,zesty 0.0~git20151216.84.b66e377-2 all
+  official Go client for HashiCorp's Atlas
+
+golang-github-hashicorp-consul-dev/zesty,zesty 0.6.4~dfsg-3 all
+  tool for service discovery, monitoring and configuration (source)
+
+golang-github-hashicorp-consul-migrate-dev/zesty,zesty 0.1.0-1 all
+  Consul server data migrator (source)
+
+golang-github-hashicorp-errwrap-dev/zesty,zesty 0.0~git20141028.0.7554cd9-1 all
+  Errwrap is a Go (golang) library for wrapping and querying errors
+
+golang-github-hashicorp-go-checkpoint-dev/zesty,zesty 0.0~git20151022.0.e4b2dc3-1 all
+  Go Checkpoint Client
+
+golang-github-hashicorp-go-cleanhttp-dev/zesty,zesty 0.0~git20160217.0.875fb67-1 all
+  Functions for accessing "clean" Go http.Client values
+
+golang-github-hashicorp-go-getter-dev/zesty,zesty 0.0~git20160316.0.575ec4e-1 all
+  download from a URL using a variety of protocols
+
+golang-github-hashicorp-go-immutable-radix-dev/zesty,zesty 0.0~git20170113.0.76b5f4e-1 all
+  immutable radix tree implementation in Golang
+
+golang-github-hashicorp-go-memdb-dev/zesty,zesty 0.0~git20170123.0.c01f56b-1 all
+  in-memory database built on immutable radix trees
+
+golang-github-hashicorp-go-msgpack-dev/zesty,zesty 0.0~git20150518.0.fa3f638-1 all
+  encode/decode and rpc library for msgpack and Binc
+
+golang-github-hashicorp-go-multierror-dev/zesty,zesty 0.0~git20161216.0.ed90515+ds-1 all
+  Go package for representing a list of errors as a single error
+
+golang-github-hashicorp-go-plugin-dev/zesty,zesty 0.0~git20160212.0.cccb4a1-1 all
+  Golang plugin system over RPC
+
+golang-github-hashicorp-go-reap-dev/zesty,zesty 0.0~git20160113.0.2d85522-2 all
+  child process reaping utilities for Go
+
+golang-github-hashicorp-go-retryablehttp-dev/zesty,zesty 0.0~git20160810.0.f4ed9b0-1 all
+  retryable HTTP client in Go
+
+golang-github-hashicorp-go-syslog-dev/zesty,zesty 0.0~git20150218.0.42a2b57-1 all
+  Golang syslog wrapper, cross-compile friendly
+
+golang-github-hashicorp-go-uuid-dev/zesty,zesty 0.0~git20160311.0.d610f28-1 all
+  generate UUID-format strings using high quality random bytes
+
+golang-github-hashicorp-go-version-dev/zesty,zesty 0.0~git20150915.0.2b9865f-1 all
+  library for parsing and verifying versions and version constraints
+
+golang-github-hashicorp-golang-lru-dev/zesty,zesty 0.0~git20160207.0.a0d98a5-1 all
+  Golang LRU cache
+
+golang-github-hashicorp-hcl-dev/zesty,zesty 0.0~git20161215.0.80e628d-1 all
+  Go implementation of HashiCorp Configuration Language
+
+golang-github-hashicorp-hil-dev/zesty,zesty 0.0~git20160326.0.40da60f-1 all
+  small embedded language for string interpolations
+
+golang-github-hashicorp-logutils-dev/zesty,zesty 0.0~git20150609.0.0dc08b1-1 all
+  Utilities for slightly better logging in Go
+
+golang-github-hashicorp-mdns-dev/zesty,zesty 0.0~git20150317.0.2b439d3-2 all
+  Simple mDNS client/server library in Golang
+
+golang-github-hashicorp-memberlist-dev/zesty,zesty 0.0~git20160329.0.88ac4de-1 all
+  Golang package for gossip based membership and failure detection
+
+golang-github-hashicorp-net-rpc-msgpackrpc-dev/zesty,zesty 0.0~git20151116.0.a14192a-1 all
+  Library for creating Go RPC client/server
+
+golang-github-hashicorp-raft-boltdb-dev/zesty,zesty 0.0~git20150201.d1e82c1-1 all
+  Raft backend implementation using BoltDB
+
+golang-github-hashicorp-raft-dev/zesty,zesty 0.0~git20160317.0.3359516-1 all
+  implementation of the Raft consensus protocol
+
+golang-github-hashicorp-raft-mdb-dev/zesty,zesty 0.0~git20150806.0.55f2947-1 all
+  LMDB backend for Raft
+
+golang-github-hashicorp-scada-client-dev/zesty,zesty 0.0~git20160601.0.6e89678-1 all
+  Golang client to the HashiCorp SCADA system
+
+golang-github-hashicorp-serf-dev/zesty,zesty 0.7.0~ds1-1 all
+  Service orchestration and management tool (source)
+
+golang-github-hashicorp-uuid-dev/zesty,zesty 0.0~git20160218.0.6994546-1 all
+  UUID generation using purely high quality random bytes
+
+golang-github-hashicorp-yamux-dev/zesty,zesty 0.0~git20151129.0.df94978-1 all
+  Golang connection multiplexing library
+
+golang-github-hawkular-hawkular-client-go-dev/zesty,zesty 0.6.0-1 all
+  Golang client for Hawkular
+
+golang-github-hlandau-buildinfo-dev/zesty,zesty 0.0~git20160722.0.b25d4b0-2 all
+  Go build information utilities
+
+golang-github-hlandau-dexlogconfig-dev/zesty,zesty 0.0~git20161112.0.244f29b-1 all
+  logging configuration package for Go
+
+golang-github-hlandau-goutils-dev/zesty,zesty 0.0~git20160722.0.0cdb66a-2 all
+  miscellaneous Go utility packages
+
+golang-github-hlandau-xlog-dev/zesty,zesty 1.0.0-1 all
+  logging library for Go
+
+golang-github-howeyc-gopass-dev/zesty,zesty 0.0~git20160303.0.66487b2-1 all
+  getpasswd for Go
+
+golang-github-hpcloud-tail-dev/zesty,zesty 1.0.0+git20160415.b294095-3 all
+  Go library for reading from continuously updated files
+
+golang-github-huin-goupnp-dev/zesty,zesty 0.0~git20161025.0.97f671e-1 all
+  UPnP library for Go
+
+golang-github-hydrogen18-stalecucumber-dev/zesty,zesty 0.0~git20161112.0.1e918be-1 all
+  Reader and writer for Python's pickle format in Golang
+
+golang-github-hydrogen18-stoppablelistener-dev/zesty,zesty 0.0~git20151210.0.dadc9cc-1 all
+  stoppable TCP listener in Go
+
+golang-github-imdario-mergo-dev/zesty,zesty 0.2.2-1 all
+  Functions to merge structs and maps in Go
+
+golang-github-inconshreveable-go-update-dev/zesty,zesty 0.0~git20160112.0.8152e7e+ds-2 all
+  Build self-updating Golang programs
+
+golang-github-inconshreveable-mousetrap-dev/zesty,zesty 0.0~git20141017.0.76626ae-1 all
+  Go library to detect starting from Windows Explorer
+
+golang-github-inconshreveable-muxado-dev/zesty,zesty 0.0~git20140312.0.f693c7e-1 all
+  Stream multiplexing for Go
+
+golang-github-influxdata-toml-dev/zesty,zesty 0.0~git20160905.0.ad49a5c-1 all
+  TOML parser and encoder library for Golang
+
+golang-github-influxdb-enterprise-client-dev/zesty,zesty 0.0~git20151113.0.25665cb-1 all
+  Golang client for speaking to the InfluxDB Enterprise application
+
+golang-github-influxdb-influxdb-dev/zesty,zesty 1.1.1+dfsg1-4 all
+  Scalable datastore for metrics, events, and real-time analytics. Dev package
+
+golang-github-influxdb-usage-client-dev/zesty,zesty 0.0~git20151204.0.475977e-2 all
+  library for speaking to the InfluxDB Anonymous Usage Reporting API
+
+golang-github-jackpal-gateway-dev/zesty,zesty 1.0.4-1 all
+  library for discovering the address of a LAN gateway
+
+golang-github-jacobsa-bazilfuse-dev/zesty,zesty 0.0~git20150622-1 all
+  fork of bazil.org/fuse for gcsfuse
+
+golang-github-jacobsa-crypto-dev/zesty,zesty 0.0~git20161111.0.293ce0c-3 all
+  Some Go cryptography routines that are not included in the Go standard library.
+
+golang-github-jacobsa-fuse-dev/zesty,zesty 0.0~git20150806.0.9a7512a-1 all
+  writing and mounting user-space file systems from Go
+
+golang-github-jacobsa-gcloud-dev/zesty,zesty 0.0~git20150709-1 all
+  convenience wrapper around google cloud platform APIs
+
+golang-github-jacobsa-oglematchers-dev/zesty,zesty 0.0~git20150320-2 all
+  matchers for testing/mocking frameworks such as ogletest
+
+golang-github-jacobsa-oglemock-dev/zesty,zesty 0.0~git20150428-4 all
+  mocking framework for Go
+
+golang-github-jacobsa-ogletest-dev/zesty,zesty 0.0~git20150610-6 all
+  unit testing framework for Go
+
+golang-github-jacobsa-ratelimit-dev/zesty,zesty 0.0~git20150723.0.2ca5e0c-1 all
+  Go package for rate limiting
+
+golang-github-jacobsa-reqtrace-dev/zesty,zesty 0.0~git20150505-4 all
+  simple request tracing
+
+golang-github-jacobsa-syncutil-dev/zesty,zesty 0.0~git20150615-1 all
+  code that supplements the Go stdlib sync package
+
+golang-github-jacobsa-timeutil-dev/zesty,zesty 0.0~git20150615-1 all
+  code supplementing Go's time package
+
+golang-github-jacobsa-util-dev/zesty,zesty 0.0~git20150504-1 all
+  utility code for jacobsa projects
+
+golang-github-jamesclonk-vultr-dev/zesty,zesty 1.10-1 all
+  Vultr API client library
+
+golang-github-jeromer-syslogparser-dev/zesty,zesty 0~20150717.ff71fe7a-1 all
+  syslog parser library
+
+golang-github-jfrazelle-go-dev/zesty,zesty 0.0~git20160303.0.d30aec9-3 all
+  Transitional package for golang-github-docker-go-dev
+
+golang-github-jinzhu-gorm-dev/zesty,zesty 0.0~git20151012.0.20e37a0-1 all
+  ORM library for Golang
+
+golang-github-jinzhu-now-dev/zesty,zesty 0.0~git20151001.0.ce80572-2 all
+  time toolkit for golang
+
+golang-github-jmespath-go-jmespath-dev/zesty,zesty 0.2.2-2 all
+  Golang implementation of JMESPath
+
+golang-github-jmhodges-clock-dev/zesty,zesty 1.0-3 all
+  Go package for testing time-dependent code
+
+golang-github-jmoiron-sqlx-dev/zesty,zesty 1.1+git20160206.61.398dd58-1 all
+  General purpose extensions to Golang's database/sql library
+
+golang-github-jonboulle-clockwork-dev/zesty,zesty 0.1.0-2 all
+  Simple fake clock for Go
+
+golang-github-jtacoma-uritemplates-dev/zesty,zesty 0.0~git20151014.16.802b8e2-1 all
+  URI Templates (RFC 6570) implemented in Go
+
+golang-github-jteeuwen-go-bindata-dev/zesty,zesty 3.0.7+git20151023.72.a0ff256-1 all
+  embed data in a Go program - library package
+
+golang-github-jtolds-gls-dev/zesty,zesty 4.2.0-1 all
+  Goroutine local storage
+
+golang-github-juju-loggo-dev/zesty,zesty 0.0~git20150527.0.8477fc9-1 all
+  Alternative logging library for Go
+
+golang-github-juju-ratelimit-dev/zesty,zesty 0.0~git20151125.0.77ed1c8-3 all
+  Efficient token-bucket-based rate limiter module for Go
+
+golang-github-julienschmidt-httprouter-dev/zesty,zesty 1.1-2 all
+  High performance HTTP request router for Go that scales well
+
+golang-github-jwilder-encoding-dev/zesty,zesty 0.0~git20160927.0.4dada27-1 all
+  library for working with compressed arrays of integers
+
+golang-github-kardianos-osext-dev/zesty,zesty 0.0~git20151222.0.29ae4ff-1 all
+  Extensions to the Go "os" package
+
+golang-github-karlseguin-ccache-dev/zesty,zesty 2.0.2+git20161222.2.12c7ffd-1 all
+  Golang LRU Cache for high concurrency
+
+golang-github-karlseguin-expect-dev/zesty,zesty 1.0.1+git20160716.12.5c2eadb-1 all
+  Testing framework for Go with more concise syntax
+
+golang-github-kballard-go-shellquote-dev/zesty,zesty 0.0~git20150810.0.d8ec1a6-1 all
+  Go utilities for performing shell-like word splitting/joining
+
+golang-github-kimor79-gollectd-dev/zesty,zesty 1.0.0-2 all
+  go parser for the collectd binary protocol
+
+golang-github-kisielk-sqlstruct-dev/zesty,zesty 0.0~git20150917.0.0b86a3e-1 all
+  convenience functions for using structs with the database/sql package
+
+golang-github-kisom-goutils-dev/zesty,zesty 0.0~git20161101.0.858c9cb-1 all
+  Various TLS certificate tools and other utility libraries for Golang
+
+golang-github-kjk-lzma-dev/zesty,zesty 1.0.0-1 all
+  port of the lzma compression algorithm
+
+golang-github-klauspost-compress-dev/zesty,zesty 1.0-2 all
+  optimized compression packages
+
+golang-github-klauspost-cpuid-dev/zesty,zesty 1.0-1 all
+  CPU feature identification for Go
+
+golang-github-klauspost-crc32-dev/zesty,zesty 1.0-1 all
+  CRC32 hash with x64 optimizations
+
+golang-github-klauspost-pgzip-dev/zesty,zesty 1.0-2 all
+  parallel gzip (de)compression library for Go
+
+golang-github-klauspost-reedsolomon-dev/zesty,zesty 1.2+git20161028.14.d0a56f7-1 all
+  Reed-Solomon Erasure Coding in Go
+
+golang-github-kolo-xmlrpc-dev/zesty,zesty 0+git20150413.0826b98-2 all
+  Implementation of the XMLRPC client protocol in Go
+
+golang-github-kr-binarydist-dev/zesty,zesty 0.0~git20120828.0.9955b0a-2 all
+  Go implementation of the bspatch algorithm
+
+golang-github-kr-fs-dev/zesty,zesty 0.0~git20131111.0.2788f0d-2 all
+  Provides filesystem-related functions for Go
+
+golang-github-kr-pretty-dev/zesty,zesty 0.0~git20160325.0.add1dbc-1 all
+  Pretty printing for Go values
+
+golang-github-kr-pty-dev/zesty,zesty 0.0~git20151007.0.f7ee69f-1ubuntu1 all
+  Go package for using unix pseudo-terminals
+
+golang-github-kr-text-dev/zesty,zesty 0.0~git20150905.0.bb797dc-3 all
+  Go package for manipulating paragraphs of text
+
+golang-github-kylelemons-godebug-dev/zesty,zesty 0.0~git20160406.0.eadb3ce-1 all
+  Debugging helper utilities for Go
+
+golang-github-kyokomi-emoji-dev/zesty,zesty 1.5-1 all
+  Go library for printing emoji as Unicode characters
+
+golang-github-lestrrat-go-pdebug-dev/zesty,zesty 0.0~git20160817.0.2e6eaaa-1 all
+  Print debugging library for Go
+
+golang-github-lib-pq-dev/zesty,zesty 0.0~git20151007.0.ffe986a-1 all
+  pure Go postgres driver for Go’s database/sql package
+
+golang-github-lsegal-gucumber-dev/zesty,zesty 0.0~git20160715.0.71608e2-1 all
+  Transitional package for golang-github-gucumber-gucumber-dev
+
+golang-github-lxc-lxd-dev/zesty,zesty 2.12-0ubuntu3 all
+  Container hypervisor based on LXC - go source
+
+golang-github-magiconair-properties-dev/zesty,zesty 1.7.0-2 all
+  Java properties scanner for Go
+
+golang-github-mailru-easyjson-dev/zesty,zesty 0.0~git20161103.0.159cdb8-1 all
+  Fast JSON serializer for golang
+
+golang-github-masterminds-semver-dev/zesty,zesty 1.2.2-1 all
+  Semantic versions library in Go
+
+golang-github-masterminds-vcs-dev/zesty,zesty 1.10.0-1 all
+  VCS Repository Management for Go
+
+golang-github-masterzen-simplexml-dev/zesty,zesty 0.0~git20140219.95ba304-2 all
+  Go library to generate XML content from a naive DOM
+
+golang-github-masterzen-winrm-dev/zesty,zesty 0.0~git20160323.0752679-3 all
+  Windows remote command execution library for Go
+
+golang-github-masterzen-xmlpath-dev/zesty,zesty 0.0~git20140218.13f4951-2 all
+  subset of the XPath specification for Go (deprecated)
+
+golang-github-mattn-go-colorable-dev/zesty 0.0.6-1ubuntu5 amd64
+  Golang library to colorable writer for windows
+
+golang-github-mattn-go-isatty-dev/zesty,zesty 0.0.1-1 all
+  Golang library to implementation isatty interface
+
+golang-github-mattn-go-runewidth-dev/zesty,zesty 0.0.1-1 all
+  functions to get fixed width of the character or string
+
+golang-github-mattn-go-shellwords-dev/zesty,zesty 1.0.0-2 all
+  parse line as shell words in Golang
+
+golang-github-mattn-go-sqlite3-dev/zesty 1.1.0~dfsg1-2ubuntu4 amd64
+  sqlite3 driver for go that using database/sql
+
+golang-github-mesos-mesos-go-dev/zesty,zesty 0.0.2+dfsg-2 all
+  Go language bindings for Apache Mesos
+
+golang-github-microcosm-cc-bluemonday-dev/zesty,zesty 0.0~git20161012.0.f77f16f-1 all
+  Go library for scrubbing user generated data of unapproved html
+
+golang-github-miekg-dns-dev/zesty,zesty 0.0~git20161018.0.58f52c5-1 all
+  DNS protocol library for Go
+
+golang-github-miekg-mmark-dev/zesty,zesty 1.3.4+git20161103.9.2d4f1dd+dfsg-1 all
+  Markdown processor in Go geared for the IETF (Go library)
+
+golang-github-miekg-pkcs11-dev/zesty,zesty 0.0~git20160602.0.8f7ddbc-1 all
+  pkcs11 wrapper for Go
+
+golang-github-minio-minio-go-dev/zesty,zesty 2.0.2-1 all
+  Go library for Amazon S3 compatible cloud storage
+
+golang-github-minio-sha256-simd-dev/zesty,zesty 0.0~git20161219.0.e82e73b-1 all
+  implementation of SHA256 using SIMD instructions for Intel and ARM
+
+golang-github-mitchellh-cli-dev/zesty,zesty 0.0~git20160203.0.5c87c51-1 all
+  library for implementing command-line interfaces
+
+golang-github-mitchellh-colorstring-dev/zesty,zesty 0.0~git20150917.0.8631ce9-1 all
+  Golang library for colorizing strings for terminal output
+
+golang-github-mitchellh-copystructure-dev/zesty,zesty 0.0~git20161013.0.5af94ae-1 all
+  library for deep copying values in Go
+
+golang-github-mitchellh-go-fs-dev/zesty,zesty 0.0~git20150611.0.a34c1b9-1 all
+  Filesystem library for Go, implementing FAT filesystems so far
+
+golang-github-mitchellh-go-homedir-dev/zesty,zesty 0.0~git20160621.0.756f7b1-1 all
+  Go library for detecting and expanding the user's home directory
+
+golang-github-mitchellh-go-ps-dev/zesty,zesty 0.0~git20150710.0.e6c6068-1 all
+  Find, list, and inspect processes from Go (golang)
+
+golang-github-mitchellh-go-vnc-dev/zesty,zesty 0.0~git20150629.0.723ed98-1 all
+  VNC client and server library for Go
+
+golang-github-mitchellh-go-wordwrap-dev/zesty,zesty 0.0~git20150314.0.ad45545-3 all
+  Go package for wrapping words into multiple lines
+
+golang-github-mitchellh-hashstructure-dev/zesty,zesty 0.0~git20160209.0.6b17d66-1 all
+  generate hash values for arbitrary values in Golang
+
+golang-github-mitchellh-iochan-dev/zesty,zesty 0.0~git20150529.0.87b45ff-2 all
+  Go library for turning `io.Reader` into channels
+
+golang-github-mitchellh-ioprogress-dev/zesty,zesty 0.0~git20150521.8163955-1 all
+  Go package for progress bars around io.Reader/Writers
+
+golang-github-mitchellh-mapstructure-dev/zesty,zesty 0.0~git20161204.0.5a0325d-1 all
+  library for decoding generic map values into native Go structures
+
+golang-github-mitchellh-multistep-dev/zesty,zesty 0.0~git20140407.0.162146f-1 all
+  library for building up complex actions using discrete steps
+
+golang-github-mitchellh-packer-dev/zesty,zesty 0.10.2+dfsg-3 all
+  development package (source code) of Packer
+
+golang-github-mitchellh-panicwrap-dev/zesty,zesty 0.0~git20151215.0.a1e50bc-1 all
+  library for catching and handling panics in Go applications
+
+golang-github-mitchellh-prefixedio-dev/zesty,zesty 0.0~git20151214.0.6e69540-1 all
+  library that demultiplexes line-oriented data from an io.Reader
+
+golang-github-mitchellh-reflectwalk-dev/zesty,zesty 0.0~git20161004.0.9ad27c4-1 all
+  library for "walking" complex structures, similar to walking a filesystem
+
+golang-github-mreiferson-go-httpclient-dev/zesty,zesty 0.0~git20160630.0.31f0106-2 all
+  Go HTTP client with timeouts
+
+golang-github-mrunalp-fileutils-dev/zesty,zesty 0.0~git20160930.0.4ee1cc9-1 all
+  collection of utilities for file manipulation in golang
+
+golang-github-mvdan-xurls-dev/zesty,zesty 1.0.0-1 all
+  extract urls from text
+
+golang-github-mvo5-goconfigparser-dev/zesty,zesty 0.2.1-0ubuntu1 all
+  Python compatible INI parser
+
+golang-github-mvo5-uboot-go-dev/zesty,zesty 0~3.git69978a3-0ubuntu5 all
+  Read/write uboot environment
+
+golang-github-mxk-go-flowrate-dev/zesty,zesty 0.0~git20140419.0.cca7078-1 all
+  Go package for limiting and monitoring data flow rate
+
+golang-github-naoina-go-stringutil-dev/zesty,zesty 0.1.0-1 all
+  Faster string utilities implementation for Go
+
+golang-github-naoina-toml-dev/zesty,zesty 0.1.0-2 all
+  TOML parser and encoder library for Golang
+
+golang-github-natefinch-lumberjack-dev/zesty,zesty 1.0-1 all
+  Go package for writing logs to rolling files
+
+golang-github-ncw-go-acd-dev/zesty,zesty 0.0~git20161119.0.7954f1f-1 all
+  Go library for accessing Amazon Cloud Drive
+
+golang-github-ncw-rclone-dev/zesty,zesty 1.35-1 all
+  go source code of rclone
+
+golang-github-ncw-swift-dev/zesty,zesty 0.0~git20160617.0.b964f2c-2 all
+  Go language interface to Swift / Openstack Object Storage / Rackspace cloud files
+
+golang-github-nebulouslabs-bolt-dev/zesty,zesty 1.0+git20160516.255.dfb2120-1 all
+  low-level key/value database for Go
+
+golang-github-nebulouslabs-demotemutex-dev/zesty,zesty 0.0~git20151003.0.235395f-1 all
+  Allow an RWMutex writelock to be demoted to a readlock.
+
+golang-github-nebulouslabs-ed25519-dev/zesty,zesty 0.0~git20150728.0.0e573b1-1 all
+  Go implementation of the Ed25519 signature algorithm
+
+golang-github-nebulouslabs-entropy-mnemonics-dev/zesty,zesty 0.0~git20150811.0.6afa27f-1 all
+  Human readable entropy.
+
+golang-github-nebulouslabs-go-upnp-dev/zesty,zesty 0.0~git20160920.0.73e8530-1 all
+  Opinionated interface to Internet Gateway Devices
+
+golang-github-nebulouslabs-merkletree-dev/zesty,zesty 0.0~git20160203.0.f01b2e9-1 all
+  Go package for working with Merkle trees
+
+golang-github-nfnt-resize-dev/zesty,zesty 0.0~git20160724.0.891127d-1 all
+  Pure golang image resizing
+
+golang-github-nicksnyder-go-i18n-dev/zesty,zesty 1.7.0-1 all
+  Go package for i18n with templates and CLDR plural support
+
+golang-github-nsf-termbox-go-dev/zesty,zesty 0.0~git20160914-2 all
+  pure Go implementation of termbox library
+
+golang-github-nu7hatch-gouuid-dev/zesty,zesty 0.0~git20131221.0.179d4d0-1 all
+  pure Go UUID implementation as specified in RFC 4122
+
+golang-github-nwidger-jsoncolor-dev/zesty,zesty 20161209-1 all
+  Produce colorized json output for Go
+
+golang-github-nytimes-gziphandler-dev/zesty,zesty 0.0~git20160419.0.63027b2-1 all
+  Golang middleware to gzip HTTP responses
+
+golang-github-odeke-em-cache-dev/zesty,zesty 0.0~git20151107.0.baf8e436-1 all
+  Simple cache with expirable values
+
+golang-github-odeke-em-cli-spinner-dev/zesty,zesty 0.0~git20150423.610063b-2 all
+  Simple spinner library for commandline
+
+golang-github-odeke-em-command-dev/zesty,zesty 0.0~git20151021.0.91ca5ec-1 all
+  cli subcommands for Go
+
+golang-github-odeke-em-ripper-dev/zesty,zesty 0.0~git20150415.0.bd1a682-2 all
+  scrape licenses out of files -- library
+
+golang-github-ogier-pflag-dev/zesty,zesty 0.0~git20160129.0.45c278a-3 all
+  POSIX/GNU-style command-line flags for Go
+
+golang-github-oleiade-reflections-dev/zesty,zesty 0.1.2+git20131121.2.632977f-1 all
+  high level abstractions over Golang reflect library
+
+golang-github-olekukonko-tablewriter-dev/zesty 0.0~git20151029.0.a5eefc2-1ubuntu6 amd64
+  generate ASCII tables in Golang
+
+golang-github-opencontainers-image-spec-dev/zesty,zesty 1.0.0~rc2+dfsg-1 all
+  Open Container Initiative (OCI) Image Format Specification
+
+golang-github-opencontainers-runc-dev/zesty,zesty 1.0.0~rc2+docker1.12.6-0ubuntu1 all
+  Open Container Project - develpoment files
+
+golang-github-opencontainers-specs-dev/zesty,zesty 1.0.0~rc2+git20160926.38.1c7c27d-1 all
+  Open Container Specifications
+
+golang-github-opennota-urlesc-dev/zesty,zesty 0.0~git20160726.0.5bd2802-1 all
+  Proper URL escaping as per RFC3986 for Go
+
+golang-github-oschwald-geoip2-golang-dev/zesty,zesty 0.1.0-1 all
+  Unofficial MaxMind GeoIP2 Reader for Go
+
+golang-github-oschwald-maxminddb-golang-dev/zesty,zesty 0.2.0-1 all
+  MaxMind DB Reader for Go
+
+golang-github-osrg-gobgp-dev/zesty,zesty 1.15-1 all
+  BGP implemented in Go (source)
+
+golang-github-packer-community-winrmcp-dev/zesty,zesty 0.0~git20160310.f1bcf36-1 all
+  copy files to remote hosts using WinRM (Go library)
+
+golang-github-paulbellamy-ratecounter-dev/zesty,zesty 0.1.0-1 all
+  thread-safe RateCounter implementation in Golang
+
+golang-github-paulrosania-go-charset-dev/zesty,zesty 0.0~git20151028.0.621bb39-1 all
+  character set conversion for Go
+
+golang-github-pborman-uuid-dev/zesty 0.0+git20150824.0.cccd189-1ubuntu7 amd64
+  Go bindings to work with UUIDs
+
+golang-github-pelletier-go-buffruneio-dev/zesty,zesty 0.0~git20160124.0.df1e16f-1 all
+  wrapper around bufio to provide buffered runes access
+
+golang-github-pelletier-go-toml/zesty 0.4.0+git20161213.2.017119f-1 amd64
+  Go library for the TOML language -- commandline programs
+
+golang-github-pelletier-go-toml-dev/zesty,zesty 0.4.0+git20161213.2.017119f-1 all
+  Go library for the TOML language
+
+golang-github-peterbourgon-diskv-dev/zesty,zesty 2.0.0-1 all
+  disk-backed key-value store
+
+golang-github-peterh-liner-dev/zesty,zesty 0.0~git20151118.0.4d47685-1 all
+  Command line editor with history
+
+golang-github-peterhellberg-link-dev/zesty,zesty 1.0.0-3 all
+  Go package for parsing link headers
+
+golang-github-philhofer-fwd-dev/zesty,zesty 0.0~git20151005.0.8fd9a4b-1 all
+  Buffered Reader/Writer
+
+golang-github-pierrec-lz4-dev/zesty,zesty 0.0~git20151216.222ab1f-2 all
+  LZ4 compression and decompression in pure Go
+
+golang-github-pierrec-xxhash-dev/zesty,zesty 0.1.1-1 all
+  pure Go implementation of xxHash (32 and 64 bits versions)
+
+golang-github-pivotal-golang-clock-dev/zesty,zesty 0.0~git20151018.0.3fd3c19-1 all
+  Time provider and clock testing library for Go
+
+golang-github-pkg-errors-dev/zesty,zesty 0.8.0-1 all
+  Simple error handling primitives for Go
+
+golang-github-pkg-sftp-dev/zesty,zesty 0.0~git20160930.0.4d0e916-1 all
+  SFTP support for the golang.org/x/crypto/ssh package
+
+golang-github-pmezard-go-difflib-dev/zesty,zesty 1.0.0-1 all
+  partial port of Python difflib package to Go
+
+golang-github-pmylund-go-cache-dev/zesty,zesty 0.0~git20150304-1 all
+  Go library for in-memory key/value store similar to memcached
+
+golang-github-pointlander-compress-dev/zesty,zesty 1.0.0-1 all
+  parallelized modular compression library
+
+golang-github-pointlander-jetset-dev/zesty,zesty 1.0.0-1 all
+  JetSet is a compressed set of numbers
+
+golang-github-pointlander-peg-dev/zesty,zesty 1.0.0-1 all
+  implementation of a Packrat parser generator - dev package
+
+golang-github-prometheus-alertmanager-dev/zesty 0.5.1+ds-7 amd64
+  Handle and deliver alerts created by Prometheus -- source
+
+golang-github-prometheus-client-golang-dev/zesty,zesty 0.8.0-1 all
+  Prometheus instrumentation library for Go applications
+
+golang-github-prometheus-client-model-dev/zesty,zesty 0.0.2+git20150212.12.fa8ad6f-2 all
+  data model artifacts for Prometheus
+
+golang-github-prometheus-common-dev/zesty,zesty 0+git20161002.85637ea-2 all
+  Common libraries for Prometheus components
+
+golang-github-puerkitobio-purell-dev/zesty,zesty 1.1.0-1 all
+  tiny Go library to normalize URLs
+
+golang-github-qor-inflection-dev/zesty,zesty 0.0~git20151009.0.3272df6-1 all
+  Pluralizes and singularizes English nouns
+
+golang-github-racksec-srslog-dev/zesty,zesty 0.0~git20160120.0.259aed1-1 all
+  replacement for the standard Golang library "log/syslog"
+
+golang-github-rackspace-gophercloud-dev/zesty,zesty 1.0.0+git20160603.920.934dbf8-1 all
+  Go SDK for OpenStack
+
+golang-github-raintank-met-dev/zesty,zesty 0.0~git20161103.0.05a94bb-2 all
+  wrapper around metric client libraries for Go
+
+golang-github-rainycape-unidecode-dev/zesty,zesty 0.0~git20150906.0.c9cf8cd-1 all
+  replace non-ASCII characters with their ASCII approximations
+
+golang-github-rakyll-globalconf-dev/zesty,zesty 0.0~git20140819-1 all
+  Effortlessly persist/retrieve flags in Go programs
+
+golang-github-rakyll-statik-dev/zesty,zesty 0.1.0-2 all
+  embed static files into a Go executable. Dev package
+
+golang-github-remyoudompheng-bigfft-dev/zesty,zesty 0.0~git20130913.0.a8e77dd-1 all
+  Golang big integer multiplication library
+
+golang-github-restic-chunker-dev/zesty,zesty 0.1.0-1 all
+  implementation of Content Defined Chunking (CDC) in Go
+
+golang-github-retailnext-hllpp-dev/zesty,zesty 0.0~git20150319.0.38a7bb7-1 all
+  HyperLogLog++ cardinality estimation algorithm
+
+golang-github-revel-revel-dev/zesty,zesty 0.12.0+dfsg-1 all
+  high productivity, full-stack web framework for the Go language
+
+golang-github-rfjakob-eme-dev/zesty,zesty 1.0-2 all
+  EME wide-block encryption for Go.
+
+golang-github-robfig-config-dev/zesty,zesty 0.0~git20141208-1 all
+  Configuration file parser for INI format
+
+golang-github-robfig-cron-dev/zesty,zesty 1-1 all
+  cron library for go
+
+golang-github-robfig-pathtree-dev/zesty,zesty 0.0~git20140121-1 all
+  Go library for fast lookups using trees
+
+golang-github-rogpeppe-fastuuid-dev/zesty,zesty 0.0~git20150106.0.6724a57-1 all
+  fast generation of 192-bit UUIDs
+
+golang-github-rsc-letsencrypt-dev/zesty,zesty 0.0~git20160929.0.76104d2-2 all
+  Go library to manage TLS certificates automatically via LetsEncrypt.org
+
+golang-github-russross-blackfriday-dev/zesty,zesty 1.4+git20161003.40.5f33e7b-1 all
+  Blackfriday: a markdown processor for Go
+
+golang-github-ryanuber-columnize-dev/zesty,zesty 2.1.0-1 all
+  Easy column formatted output for golang
+
+golang-github-samalba-dockerclient-dev/zesty,zesty 0.0~git20160531.0.a303626-1 all
+  Docker client library in Go
+
+golang-github-samuel-go-zookeeper-dev/zesty,zesty 0.0~git20161029.0.1d7be4e-1 all
+  native ZooKeeper client for Go
+
+golang-github-sasha-s-go-deadlock-dev/zesty,zesty 0.0~git20160726.0.09aefc0-1 all
+  Online deadlock detection in go
+
+golang-github-satori-go.uuid-dev/zesty,zesty 1.1.0-3 all
+  Go package for creating and parsing UUID
+
+golang-github-seandolphin-bqschema-dev/zesty,zesty 0.0~git20150424.0.f92a08f-2 all
+  Go library to process Google Big Query
+
+golang-github-seccomp-libseccomp-golang-dev/zesty,zesty 0.0~git20150813.0.1b506fc-1 all
+  golang bindings for libseccomp
+
+golang-github-shiena-ansicolor-dev/zesty,zesty 0.0~git20151119.0.a422bbe-2 all
+  Ansicolor library for Golang
+
+golang-github-shiguredo-fuji-dev/zesty,zesty 1.0.2-1 all
+  Externally reusable Go packages included with fuji
+
+golang-github-shirou-gopsutil-dev/zesty,zesty 2.1-2.1 all
+  Go package implementing psutils
+
+golang-github-shopify-logrus-bugsnag-dev/zesty,zesty 0.0~git20160517.0.5a46080-1 all
+  logrus-bugsnag is a hook that interfaces Logrus with Bugsnag
+
+golang-github-shopify-sarama-dev/zesty,zesty 1.9.0-1 all
+  Go library for Apache Kafka
+
+golang-github-shurcool-sanitized-anchor-name-dev/zesty,zesty 0.0~git20160918.0.1dba4b3-1 all
+  Go package for creating sanitized anchor names
+
+golang-github-sirupsen-logrus-dev/zesty,zesty 0.11.0-1 all
+  Logrus: a logging library for Go
+
+golang-github-skarademir-naturalsort-dev/zesty,zesty 0.0~git20150715.0.69a5d87-1 all
+  simple natural sorter for Go Strings
+
+golang-github-skratchdot-open-golang-dev/zesty,zesty 0.0~git20160302.0.75fb7ed-2 all
+  library to open an URI in the user's preferred application
+
+golang-github-skynetservices-skydns-dev/zesty,zesty 2.5.3a-1 all
+  DNS service discovery for etcd - source
+
+golang-github-smartystreets-assertions-dev/zesty,zesty 1.6.0+dfsg-1 all
+  fluent assertion-style functions
+
+golang-github-smartystreets-goconvey-dev/zesty,zesty 1.6.1-2 all
+  Go testing in browser - sources
+
+golang-github-snapcore-snapd-dev/zesty-updates,zesty-updates 2.27.5+17.04 all
+  snappy development go packages.
+
+golang-github-socketplane-libovsdb-dev/zesty,zesty 0.1+git20160503.9.d4b9e7a53548-2 all
+  OVSDB client library written in Go
+
+golang-github-spacejam-loghisto-dev/zesty,zesty 0.0~git20150819.0.3233097-1 all
+  counters and logarithmically bucketed histograms for distributed systems
+
+golang-github-spf13-afero-dev/zesty,zesty 0.0~git20161226.0.90dd71e-1 all
+  FileSystem Abstraction System for Go
+
+golang-github-spf13-cast-dev/zesty,zesty 0.0~git20161225.0.56a7ecb-1 all
+  Safe and easy casting from one type to another in Go
+
+golang-github-spf13-cobra-dev/zesty,zesty 0.0~git20161229.0.1dd5ff2-1 all
+  Go library for creating powerful modern Go CLI applications
+
+golang-github-spf13-fsync-dev/zesty,zesty 0.0~git20161130.0.cb2da33-2 all
+  Keeps files or directories in sync for Go
+
+golang-github-spf13-hugo-dev/zesty,zesty 0.18.1-1 all
+  Go source code and library of Hugo the static website generator
+
+golang-github-spf13-jwalterweatherman-dev/zesty,zesty 0.0~git20160311.0.33c24e7-1 all
+  Go library for both printing to the terminal and logging to files
+
+golang-github-spf13-nitro-dev/zesty,zesty 0.0~git20131003.0.24d7ef3-4 all
+  Quick and easy performance analyzer library for Go
+
+golang-github-spf13-pflag-dev/zesty,zesty 0.0~git20161024.0.5ccb023-1 all
+  Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags
+
+golang-github-spf13-viper-dev/zesty,zesty 0.0~git20161213.0.5ed0fc3-2 all
+  Go configuration with fangs
+
+golang-github-stacktic-dropbox-dev/zesty,zesty 0.0~git20160424.0.58f839b-2 all
+  Go client library for the Dropbox core and Datastore API
+
+golang-github-stathat-go-dev/zesty,zesty 0.0~git20130314.0.01d012b-1 all
+  Go package for reporting stat counts and values to StatHat
+
+golang-github-stevvooe-resumable-dev/zesty,zesty 0.0~git20150521.0.51ad441-1 all
+  Subset of the Go `crypto` Package with a Resumable Hash Interface
+
+golang-github-streadway-amqp-dev/zesty,zesty 0.0~git20150820.0.f4879ba-1 all
+  Go client for AMQP 0.9.1
+
+golang-github-stretchr-objx-dev/zesty,zesty 0.0~git20150928.0.1a9d0bb-1 all
+  Go package for dealing with maps, slices, JSON and other data
+
+golang-github-stretchr-testify-dev/zesty,zesty 1.1.4+ds-1 all
+  sacred extension to the standard Go testing package
+
+golang-github-stvp-go-udp-testing-dev/zesty,zesty 0.0~git20150316.0.abcd331-1 all
+  UDP test helpers for Go
+
+golang-github-svent-go-flags-dev/zesty,zesty 1-1 all
+  go library for parsing command line arguments
+
+golang-github-svent-go-nbreader-dev/zesty,zesty 0~20150201-2 all
+  non-blocking io.Reader for go
+
+golang-github-syncthing-syncthing-dev/zesty,zesty 0.13.10+dfsg1-1 all
+  decentralized file synchronization - dev package
+
+golang-github-tarm-serial-dev/zesty,zesty 0.0+git20151113-1 all
+  Go package for serial port communucation
+
+golang-github-tchap-go-patricia-dev/zesty,zesty 2.2.0-2 all
+  golang-go-patricia is a generic patricia trie (also called radix tree).
+
+golang-github-tendermint-ed25519-dev/zesty,zesty 0.0~git20160723.0.1f52c6f-1 all
+  public-key signature library for Go
+
+golang-github-tendermint-go-autofile-dev/zesty,zesty 0.0~20170129~0git48b17de-1 all
+  Library for creating log files, WAL files, and more
+
+golang-github-tendermint-go-clist-dev/zesty,zesty 0~20161010~0git3baa390-2 all
+  goroutine-safe linked-list implementation
+
+golang-github-tendermint-go-common-dev/zesty,zesty 0~20170128~0gite289af5-1 all
+  Tendermint Go common utilities
+
+golang-github-tendermint-go-config-dev/zesty,zesty 0.0~git20160626.0.e64b424-1 all
+  Simple Go configuration tool
+
+golang-github-tendermint-go-crypto-dev/zesty,zesty 0.0~git20160724.0.4b11d62-1 all
+  Go library for cryptography
+
+golang-github-tendermint-go-db-dev/zesty,zesty 0.1~20170131~0git72f6dac-1 all
+  Tendermint key-value database library
+
+golang-github-tendermint-go-event-meter-dev/zesty,zesty 0.0~git20160420.0.c9240a5-1 all
+  publisher-subscriber pattern over websockets
+
+golang-github-tendermint-go-events-dev/zesty,zesty 0.0~git20161021.0.1c85cb9-1 all
+  Tendermint publisher-subscriber pattern implementation
+
+golang-github-tendermint-go-flowrate-dev/zesty,zesty 0.0~git20161104.0.a20c98e-1 all
+  library for arbitrary data stream's transfer rate handling
+
+golang-github-tendermint-go-logger-dev/zesty,zesty 0~20161018~0gitcefb3a4-1 all
+  Tendermint Go logging utilities
+
+golang-github-tendermint-go-merkle-dev/zesty,zesty 0.1~20170131~0git7a86b44-1 all
+  Merkle-ized data structures with proofs
+
+golang-github-tendermint-go-p2p-dev/zesty,zesty 0.0~git20170113.0.3d98f67-1 all
+  Tendermint P2P library
+
+golang-github-tendermint-go-process-dev/zesty,zesty 0.1~20170125~0gitb27edfd-1 all
+  Tendermint process library
+
+golang-github-tendermint-go-rpc-dev/zesty,zesty 0.0~git20161021.0.e6e3853-1 all
+  RPC server in Go supporting multiple request formats
+
+golang-github-tendermint-go-wire-dev/zesty,zesty 1.0~rc+git20161223.40.2f3b7aa-1 all
+  Go bindings for the Wire encoding protocol
+
+golang-github-tendermint-log15-dev/zesty,zesty 2.3-67-g9545b24-2 all
+  Tendermint logging toolkit
+
+golang-github-tendermint-tendermint-dev/zesty,zesty 0.8.0+git20170113.0.764091d-1 all
+  Tendermint Go library
+
+golang-github-tent-canonical-json-go-dev/zesty,zesty 0.0~git20130607.0.96e4ba3-1 all
+  Canonical JSON marshaling in Go
+
+golang-github-tent-http-link-go-dev/zesty,zesty 0.0~git20130702.0.ac974c6-2 all
+  HTTP Link parsing in Go
+
+golang-github-thecreeper-go-notify-dev/zesty,zesty 0.0~git20160203.0.b5cd147-1 all
+  implementation of the GNOME DBus Notifications Specification
+
+golang-github-thejerf-suture-dev/zesty,zesty 2.0.0-1 all
+  Supervisor trees for Go.
+
+golang-github-tideland-golib-dev/zesty,zesty 4.20.0-4 all
+  collection of misc Go packages
+
+golang-github-tinylib-msgp-dev/zesty,zesty 1.0~beta-1 all
+  Go code generator for MessagePack (source)
+
+golang-github-tobi-airbrake-go-dev/zesty,zesty 0.0~git20150109-1 all
+  Go library to report exceptions and errors to the Airbrake service
+
+golang-github-tonistiigi-fifo-dev/zesty,zesty 0.0~git20161203.0.fe870cc-1 all
+  Go package for handling FIFOs in a sane way
+
+golang-github-tsenart-tb-dev/zesty,zesty 0.0~git20151208.0.19f4c3d-2 all
+  generic lock-free implementation of the "Token-Bucket" algorithm
+
+golang-github-ttacon-chalk-dev/zesty,zesty 0.1-1 all
+  Go library for prettifying terminal/console output
+
+golang-github-twstrike-gotk3adapter-dev/zesty,zesty 0.0~git20160819.0.3499960-1 all
+  adapters and interfaces for gotk3
+
+golang-github-twstrike-otr3-dev/zesty,zesty 0.0~git20161015.0.744856d-1 all
+  Go implementation of the OTR 3 protocol
+
+golang-github-ubuntu-core-snappy-dev/zesty-updates,zesty-updates 2.27.5+17.04 all
+  transitional dummy package
+
+golang-github-ugorji-go-codec-dev/zesty,zesty 0.0~git20151130.0.357a44b-1 all
+  encode/decode and rpc library for msgpack, binc, cbor and json
+
+golang-github-ugorji-go-msgpack-dev/zesty,zesty 0.0~git20130605.792643-1 all
+  encode/decode and rpc library for msgpack and Binc
+
+golang-github-unknwon-com-dev/zesty,zesty 1-1 all
+  commonly used functions for Golang
+
+golang-github-unknwon-goconfig-dev/zesty,zesty 0.0~git20160828.0.5aa4f8c-3 all
+  configuration file (.ini) parser
+
+golang-github-urfave-cli-dev/zesty,zesty 1.19.1-1 all
+  package for building command line apps in Go
+
+golang-github-urfave-negroni-dev/zesty,zesty 0.2.0-1 all
+  Idiomatic HTTP Middleware for Golang
+
+golang-github-vaughan0-go-ini-dev/zesty,zesty 0.0~git20130923.0.a98ad7e-1 all
+  INI parsing library for Go
+
+golang-github-vbatts-tar-split-dev/zesty,zesty 0.9.13-1 all
+  tar archive assembly/disassembly (source)
+
+golang-github-vdemeester-shakers-dev/zesty,zesty 0.0~git20160210.0.24d7f1d-1 all
+  collection of go-checker checkers
+
+golang-github-vishvananda-netlink-dev/zesty,zesty 0.0~git20170117.0.ebdfb74-1 all
+  netlink library for go
+
+golang-github-vishvananda-netns-dev/zesty,zesty 0.0~git20150710.0.604eaf1-1 all
+  network namespaces in go
+
+golang-github-vitrun-qart-dev/zesty,zesty 0.1-1 all
+  generates not-so-ugly qr codes
+
+golang-github-vividcortex-ewma-dev/zesty,zesty 0.0~git20160822.20.c595cd8-3 all
+  Exponentially Weighted Moving Average algorithms for Go
+
+golang-github-vjeantet-grok-dev/zesty,zesty 0.0~git20160427.0.83bfdfd-1 all
+  simple library to use/parse grok patterns with Go
+
+golang-github-vmware-govmomi-dev/zesty,zesty 0.8.0-1 all
+  Go library for the VMware vSphere API
+
+golang-github-voxelbrain-goptions-dev/zesty,zesty 2.5.11-1 all
+  flexible Go parser for command line options
+
+golang-github-weaveworks-mesh-dev/zesty,zesty 0+git20161024.3dd75b1-1 all
+  go library to build distributed systems
+
+golang-github-weppos-dnsimple-go-dev/zesty,zesty 0.0~git20160204.0.65c1ca7-2 all
+  DNSimple API v1 client for Go
+
+golang-github-wsxiaoys-terminal-dev/zesty,zesty 0.0~git20160513.0.0940f3f-1 all
+  Colorful terminal output for Golang
+
+golang-github-xeipuuv-gojsonpointer-dev/zesty,zesty 0.0~git20151027.0.e0fe6f6-1 all
+  JSON Pointer implementation in Golang
+
+golang-github-xeipuuv-gojsonreference-dev/zesty,zesty 0.0~git20150808.0.e02fc20-1 all
+  JSON Reference implementation in Golang
+
+golang-github-xeipuuv-gojsonschema-dev/zesty,zesty 0.0~git20161105.0.3a08926-1 all
+  implementation of JSON Schema, draft v4
+
+golang-github-xenolf-lego-dev/zesty,zesty 0.3.1-4 all
+  Let's Encrypt ACME library
+
+golang-github-xiang90-probing-dev/zesty,zesty 0.0~git20160813.0.07dd2e8-1 all
+  Golang probing
+
+golang-github-xordataexchange-crypt/zesty 0.0.2+git20150523.17.749e360-4 amd64
+  Store/retrieve encrypted configs from etcd or Consul (CLI tool)
+
+golang-github-xordataexchange-crypt-dev/zesty,zesty 0.0.2+git20150523.17.749e360-4 all
+  Store/retrieve encrypted configs from etcd or Consul (Go library)
+
+golang-github-xyproto-pinterface-dev/zesty,zesty 2.0-1 all
+  Interface types for simple* and permission* packages
+
+golang-github-xyproto-simpleredis-dev/zesty,zesty 2.0-1 all
+  easy way to use Redis from Go
+
+golang-github-yosssi-ace-dev/zesty,zesty 0.0.4+git20160102.51.71afeb7-1 all
+  HTML template engine for Go (Go library)
+
+golang-github-yosssi-ace-proxy-dev/zesty,zesty 0.0~git20141007.0.ecd9b78-2 all
+  Proxy for the Ace template engine (Go library)
+
+golang-github-yosssi-gohtml-dev/zesty,zesty 0.0~git20150923.0.ccf383e-4 all
+  HTML formatter for Go
+
+golang-go-patricia-dev/zesty,zesty 2.2.0-2 all
+  Transitional package for golang-github-tchap-go-patricia-dev
+
+golang-gogoprotobuf-dev/zesty,zesty 0.3+git20170120.144.265e960d-1ubuntu1 all
+  transitional package -- safe to remove
+
+golang-goleveldb-dev/zesty,zesty 0+git20160825.6ae1797-2 all
+  Implementation of the LevelDB key/value database in Go
+
+golang-google-genproto-dev/zesty,zesty 0.0~git20161115.08f135d-1build1 all
+  Generated Go packages for common protocol buffer types
+
+golang-logrus-dev/zesty,zesty 0.11.0-1 all
+  Transitional package for golang-github-sirupsen-logrus-dev
+
+golang-mreiferson-httpclient-dev/zesty,zesty 0.0~git20160630.0.31f0106-2 all
+  Transitional package for golang-github-mreiferson-go-httpclient-dev
+
+golang-objx-dev/zesty,zesty 0.0~git20150928.0.1a9d0bb-1 all
+  Transitional package for golang-github-stretchr-objx-dev
+
+golang-pq-dev/zesty,zesty 0.0~git20151007.0.ffe986a-1 all
+  Transitional package for golang-github-lib-pq-dev
+
+golang-pretty-dev/zesty,zesty 0.0~git20160325.0.add1dbc-1 all
+  Transitional package for golang-github-kr-pretty-dev
+
+golang-prometheus-client-dev/zesty,zesty 0.8.0-1 all
+  Transitional package for golang-github-prometheus-client-golang-dev
+
+golang-pty-dev/zesty,zesty 0.0~git20151007.0.f7ee69f-1ubuntu1 all
+  Transitional package for golang-github-kr-pty-dev
+
+golang-snappy-go-dev/zesty,zesty 0.0+git20160529.d9eb7a3-2 all
+  Transitional package for golang-github-golang-snappy-dev
+
+golang-text-dev/zesty,zesty 0.0~git20150905.0.bb797dc-3 all
+  Transitional package for golang-github-kr-text-dev
+
+golang-toml-dev/zesty,zesty 0.2.0+git20160717.21.9906417-1 all
+  Transitional package for golang-github-burntsushi-toml-dev
+
+golang-uuid-dev/zesty,zesty 0.0+git20150824.0.cccd189-1ubuntu7 all
+  Transitional package for golang-github-pborman-uuid-dev
+
+golang-websocket-dev/zesty,zesty 1.0.0+git20160606.12.a687089-1ubuntu6 all
+  Transitional package for golang-github-gorilla-websocket-dev
+
+google-cloud-print-connector/zesty 0.0~git20151105.24.1902938-2 amd64
+  Google Cloud Print CUPS Connector
+
+gpgsm/zesty 2.1.15-1ubuntu7 amd64
+  GNU privacy guard - S/MIME version
+
+gphoto2/zesty 2.5.11-1 amd64
+  digital camera command-line client
+
+gphotofs/zesty 0.5-2+fakesyncbuild1 amd64
+  filesystem to mount digital cameras
+
+gpscorrelate/zesty 1.6.1-5 amd64
+  correlates digital photos with GPS data filling EXIF fields (command line)
+
+gpscorrelate-gui/zesty 1.6.1-5 amd64
+  correlates digital photos with GPS data filling EXIF fields (GUI)
+
+gr-rds/zesty 3.7.0.2.a542331-1build2 amd64
+  GNU Radio FM RDS/TMC Transceiver
+
+grads/zesty 3:2.1.0-2 amd64
+  Grid Analysis and Display System for earth science data
+
+gramofile/zesty 1.6-11 amd64
+  transfer sound from gramophone records to CD
+
+graywolf/zesty 0.1.4+20170307gite1bf319-1 amd64
+  Placement for digital VLSI design
+
+grip/zesty,zesty 4.2.0-3 all
+  Preview GitHub Markdown files like Readme locally
+
+grokmirror/zesty,zesty 1.0.0-1 all
+  framework to smartly mirror git repositories
+
+gross/zesty 1.0.2-4 amd64
+  fast and efficient greylist server with DNSBL support
+
+gtkam/zesty 0.2.0-2+fakesyncbuild1 amd64
+  application for retrieving media from digital cameras
+
+gtkam-dbg/zesty 0.2.0-2+fakesyncbuild1 amd64
+  GTK+ application for digital still cameras (debugging symbols)
+
+gtkam-gimp/zesty 0.2.0-2+fakesyncbuild1 amd64
+  gtkam gimp plugin to open digital camera pictures
+
+gtkmorph/zesty 1:20140707+nmu2 amd64
+  Digital image warp and morph (gtk)
+
+gtkmorph-example/zesty,zesty 1:20140707+nmu2 all
+  digital image warp and morph, examples
+
+gtkwave/zesty 3.3.79-1 amd64
+  VCD (Value Change Dump) file waveform viewer
+
+gui-apt-key/zesty,zesty 0.4-2.2 all
+  Graphical Key Manager for APT
+
+guilt/zesty,zesty 0.36-0.2ubuntu2 all
+  quilt for git; similar to Mercurial queues
+
+gurgitate-mail/zesty,zesty 1.10.0-1 all
+  E-mail processor and filter with configuration files in ruby
+
+gwc/zesty 0.21.19~dfsg0-7ubuntu1 amd64
+  Audio file denoiser
+
+hamradio-digitalvoice/zesty,zesty 0.4 all
+  Debian Hamradio Digital Voice Packages
+
+hdhomerun-config/zesty 20161117-2 amd64
+  Configuration utility for Silicon Dust HD HomeRun
+
+hdhomerun-config-gui/zesty 20161117-0ubuntu2 amd64
+  GUI Configuration utility for Silicon Dust HD HomeRun
+
+hexchat-otr/zesty 0.2.1-3 amd64
+  hexchat plugin to support Off The Record (OTR)
+
+hexedit/zesty 1.3-1 amd64
+  view and edit files or devices in hexadecimal or ASCII
+
+hg-fast-export/zesty,zesty 20140308-1 all
+  mercurial to git converter using git-fast-import
+
+hiera-eyaml/zesty,zesty 2.1.0-1 all
+  OpenSSL Encryption backend for Hiera
+
+hobbit-plugins/zesty,zesty 20170122 all
+  plugins for the Xymon network monitor
+
+homesick/zesty,zesty 1.1.3-2 all
+  keep your dotfiles (configs) in git
+
+hspec-discover/zesty 2.2.4-3build1 amd64
+  Automatically discover and run Hspec tests
+
+icedax/zesty 9:1.1.11-3ubuntu1 amd64
+  Creates WAV files from audio CDs
+
+icewm/zesty 1.3.8+mod+20161220-1 amd64
+  wonderful Win95-OS/2-Motif-like window manager
+
+icewm-common/zesty 1.3.8+mod+20161220-1 amd64
+  wonderful Win95-OS/2-Motif-like window manager
+
+icewm-experimental/zesty 1.3.8+mod+20161220-1 amd64
+  wonderful Win95-OS/2-Motif-like window manager
+
+icewm-lite/zesty 1.3.8+mod+20161220-1 amd64
+  wonderful Win95-OS/2-Motif-like window manager
+
+icewm-themes/zesty,zesty 1.2.26-2 all
+  Theme files for the Ice Window Manager
+
+idle3-tools/zesty 0.9.1-2 amd64
+  change the idle3 timer of recent Western Digital Hard Disk Drives
+
+iio-sensor-proxy/zesty,now 2.2-0ubuntu1 amd64 [installed,automatic]
+  IIO sensors to D-Bus proxy
+
+ikiwiki/zesty,zesty 3.20170111 all
+  wiki compiler
+
+influxdb-dev/zesty,zesty 1.1.1+dfsg1-4 all
+  Transitional package for golang-github-influxdb-influxdb-dev
+
+inkscape-open-symbols/zesty,zesty 1.1-2 all
+  Open source SVG symbol sets that can be used as Inkscape symbols
+
+inputattach/zesty,now 1:1.6.0-1 amd64 [installed]
+  utility to connect serial-attached peripherals to the input subsystem
+
+insighttoolkit4-examples/zesty,zesty 4.10.1-dfsg1-1.1ubuntu2 all
+  Image processing toolkit for registration and segmentation - examples
+
+insighttoolkit4-python/zesty 4.10.1-dfsg1-1.1ubuntu2 amd64
+  Image processing toolkit for registration and segmentation - Python bindings
+
+irsim/zesty 9.7.93-1 amd64
+  switch-level simulator
+
+irssi-plugin-otr/zesty 1.0.2-1 amd64
+  Off-The-Record messaging plugin for Irssi
+
+jeepyb/zesty,zesty 0+20151217-1 all
+  tools for managing gerrit projects and external sources
+
+jekyll/zesty,zesty 3.1.6+dfsg-3 all
+  Simple, blog aware, static site generator
+
+jgit-cli/zesty,zesty 3.7.1-4 all
+  Java implementation of GIT version control (command line interface)
+
+jhbuild/zesty 3.5.91-1 amd64
+  flexible build script for package collections
+
+jhead/zesty 1:3.00-3 amd64
+  manipulate the non-image part of Exif compliant JPEG files
+
+jhove/zesty,zesty 1.6+dfsg-1 all
+  JSTOR/Harvard Object Validation Environment
+
+jigit/zesty 1.20-2ubuntu1 amd64
+  tools for working with jigdo files
+
+jkmeter/zesty 0.6.1-4 amd64
+  horizontal or vertical bargraph audio level meter for Jack Audio Connection Kit
+
+jpegpixi/zesty 1.1.1-4.1 amd64
+  Remove hot spots from JPEG images with minimal quality loss
+
+kaffeine/zesty 2.0.5-1 amd64
+  versatile media player for KDE
+
+kamera/zesty 4:16.12.3-0ubuntu1 amd64
+  digital camera support for KDE applications
+
+kdc2tiff/zesty 0.35-10 amd64
+  convert Kodac kdc files to jpeg or tiff
+
+keyringer/zesty,zesty 0.5.0-2 all
+  Distributed secret management using GnuPG and Git
+
+kgb-client/zesty,zesty 1.34-2 all
+  client for KGB (IRC collaboration bot)
+
+kino/zesty 1.3.4-2.2build1 amd64
+  Non-linear editor for Digital Video data
+
+kio-mtp/zesty 0.75+git20140304-2 amd64
+  access to MTP devices for applications using the KDE Platform
+
+kitsune/zesty 2.0-0ubuntu3 amd64
+  Program to solve mathematical problems
+
+klaus/zesty,zesty 1.0.1-1 all
+  simple easy-to-set-up Git web viewer
+
+kmetronome/zesty 0.10.1-2 amd64
+  ALSA MIDI Metronome
+
+kodi/zesty-updates,zesty-security 2:17.1+dfsg1-1ubuntu0.1 amd64
+  Open Source Home Theatre (executable binaries)
+
+kodi-addons-dev/zesty-updates,zesty-security 2:17.1+dfsg1-1ubuntu0.1 amd64
+  Open Source Home Theatre (Addons Dev package)
+
+kodi-bin/zesty-updates,zesty-security 2:17.1+dfsg1-1ubuntu0.1 amd64
+  Open Source Home Theatre (architecture-dependent files)
+
+kodi-data/zesty-updates,zesty-updates,zesty-security,zesty-security 2:17.1+dfsg1-1ubuntu0.1 all
+  Open Source Home Theatre (arch-independent data package)
+
+kodi-eventclients-common/zesty-updates,zesty-updates,zesty-security,zesty-security 2:17.1+dfsg1-1ubuntu0.1 all
+  Open Source Home Theatre (Event Client Common package)
+
+kodi-eventclients-dev/zesty-updates,zesty-updates,zesty-security,zesty-security 2:17.1+dfsg1-1ubuntu0.1 all
+  Open Source Home Theatre (Event Client Dev package)
+
+kodi-eventclients-kodi-send/zesty-updates,zesty-updates,zesty-security,zesty-security 2:17.1+dfsg1-1ubuntu0.1 all
+  Open Source Home Theatre (Event Client Kodi-SEND package)
+
+kodi-eventclients-ps3/zesty-updates,zesty-updates,zesty-security,zesty-security 2:17.1+dfsg1-1ubuntu0.1 all
+  Open Source Home Theatre (Event Client PS3 package)
+
+kodi-eventclients-wiiremote/zesty-updates,zesty-security 2:17.1+dfsg1-1ubuntu0.1 amd64
+  Open Source Home Theatre (Event Client WII Remote support package)
+
+kodi-pvr-argustv/zesty 2.5.0+git20160923-3 amd64
+  ARGUS TV PVR addon for Kodi
+
+kodi-pvr-hdhomerun/zesty 2.4.2+git20160820-2 amd64
+  HDHomeRun PVR Addon for Kodi
+
+kodi-pvr-hts/zesty 3.4.13-1 amd64
+  Kodi PVR Addon TvHeadend Hts
+
+kodi-pvr-mediaportal-tvserver/zesty 2.4.14+dfsg1-1 amd64
+  MediaPortal's TV-Server PVR addon for Kodi
+
+kodi-pvr-mythtv/zesty 4.12.12+dfsg1-1 amd64
+  MythTV PVR Addon for Kodi
+
+kodi-pvr-nextpvr/zesty 2.4.7+git20161017-2 amd64
+  NextPVR PVR addon for Kodi
+
+kodi-pvr-njoy/zesty 2.4.0+git20160518-2 amd64
+  NJOY PVR Addon for Kodi
+
+kodi-pvr-vdr-vnsi/zesty 2.6.12-1 amd64
+  Kodi PVR Addon VDR VNSI
+
+kodi-pvr-vuplus/zesty 2.4.4+git20160820-2 amd64
+  Vu+/Enigma2 PVR Addon for Kodi
+
+kronometer/zesty 2.1.2-1 amd64
+  simple stopwatch application
+
+lcab/zesty 1.0b12-7 amd64
+  create cabinet (.cab) archives
+
+ldap-git-backup/zesty,zesty 1.0.7-1 all
+  Back up LDAP database in an Git repository
+
+leap-archive-keyring/zesty,zesty 2016.03.08 all
+  OpenPGP archive key for the leap.se software repositories
+
+legit/zesty,zesty 0.1.1-4 all
+  Git extension to assist in manipulating branches
+
+letterize/zesty 1.4-1 amd64
+  phone digits to letter-mnemonics
+
+liba52-0.7.4/zesty,now 0.7.4-19 amd64 [installed,automatic]
+  library for decoding ATSC A/52 streams
+
+liba52-0.7.4-dev/zesty 0.7.4-19 amd64
+  library for decoding ATSC A/52 streams (development)
+
+libaccessodf-java/zesty,zesty 0.1.1~b-1 all
+  library for checking accessibility in ODF/ODT documents using Libreoffice
+
+libaff4-0/zesty 0.24.post1-2 amd64
+  AFF4 - The Advanced Forensics File Format - development package
+
+libaff4-dev/zesty 0.24.post1-2 amd64
+  AFF4 - The Advanced Forensics File Format
+
+libaff4-utils/zesty 0.24.post1-2 amd64
+  AFF4 - The Advanced Forensics File Format - utilities
+
+libafflib-dev/zesty 3.7.15-1 amd64
+  Advanced Forensics Format Library (development files)
+
+libafflib0v5/zesty 3.7.15-1 amd64
+  Advanced Forensics Format Library
+
+libaften-dev/zesty 0.0.8+git20100105-0ubuntu2 amd64
+  audio AC3 encoder - development files
+
+libaften0/zesty 0.0.8+git20100105-0ubuntu2 amd64
+  audio AC3 encoder - runtime files
+
+libairline-java/zesty,zesty 0.7-2 all
+  Java annotation-based framework for parsing command line parameters
+
+libalgorithm-checkdigits-perl/zesty,zesty 0.50-1 all
+  Perl extension to generate and test check digits
+
+libam7xxx-dev/zesty 0.1.6-2build1 amd64
+  library for accessing am7xxx devices - development files
+
+libam7xxx0.1/zesty 0.1.6-2build1 amd64
+  library for accessing am7xxx based devices
+
+libam7xxx0.1-bin/zesty 0.1.6-2build1 amd64
+  library for accessing am7xxx devices - utilities
+
+libam7xxx0.1-dbg/zesty 0.1.6-2build1 amd64
+  debugging symbols for libam7xxx
+
+libam7xxx0.1-doc/zesty,zesty 0.1.6-2build1 all
+  library for accessing am7xxx devices - documentation
+
+libanjuta-3-0/zesty 2:3.22.0-3build1 amd64
+  GNOME development IDE, for C/C++ - shared libraries
+
+libanjuta-dev/zesty 2:3.22.0-3build1 amd64
+  GNOME development IDE, for C/C++ - development files
+
+libanyevent-yubico-perl/zesty,zesty 0.9.3-1 all
+  Perl module for validating YubiKey OTPs in AnyEvent applications
+
+libapache2-mod-auth-pubtkt/zesty 0.10-1 amd64
+  key-based single-sign-on authentication module for Apache
+
+libaqhbci23/zesty 5.6.12-1 amd64
+  library for HBCI online banking
+
+libauthen-oath-perl/zesty,zesty 2.0.0-1 all
+  Perl module for OATH One Time Passwords
+
+libavc1394-0/zesty,now 0.5.4-4 amd64 [installed]
+  control IEEE 1394 audio/video devices
+
+libavc1394-dev/zesty 0.5.4-4 amd64
+  control IEEE 1394 audio/video devices (development files)
+
+libavc1394-tools/zesty 0.5.4-4 amd64
+  control IEEE 1394 audio/video devices (utilities)
+
+libbrahe-1.3-3/zesty 1.3.2-6 amd64
+  heterogeneous C library of numeric functions
+
+libbrahe-dev/zesty 1.3.2-6 amd64
+  heterogeneous C library of numeric functions
+
+libbusiness-creditcard-perl/zesty,zesty 0.36-1 all
+  Perl module to validate or generate credit card checksums and names
+
+libbytes-random-secure-perl/zesty,zesty 0.28-1 all
+  Perl extension to generate cryptographically-secure random bytes
+
+libcapstone3/zesty 3.0.4-1 amd64
+  lightweight multi-architecture disassembly framework - library
+
+libcaptcha-recaptcha-perl/zesty,zesty 0.98+ds-1 all
+  perl implementation of the reCAPTCHA API
+
+libcatmandu-perl/zesty,zesty 1.0304-2 all
+  metadata toolkit
+
+libcdio-cdda-dev/zesty 0.83-4.2ubuntu1 amd64
+  library to read and control digital audio CDs (development files)
+
+libcdio-cdda1/zesty,now 0.83-4.2ubuntu1 amd64 [installed]
+  library to read and control digital audio CDs
+
+libcdio-paranoia-dev/zesty 0.83-4.2ubuntu1 amd64
+  library to read digital audio CDs with error correction (development files)
+
+libcdio-paranoia1/zesty,now 0.83-4.2ubuntu1 amd64 [installed]
+  library to read digital audio CDs with error correction
+
+libcgi-github-webhook-perl/zesty,zesty 0.06-1 all
+  Easily write CGI-based GitHub webhooks in Perl
+
+libcmdliner-ocaml-dev/zesty 0.9.8-1 amd64
+  declarative definition of command line interfaces
+
+libcode-tidyall-perl/zesty,zesty 0.55~dfsg-2 all
+  your all-in-one code tidier and validator
+
+libcodec2-0.4/zesty 0.5.1-1 amd64
+  Codec2 runtime library
+
+libcodec2-dev/zesty 0.5.1-1 amd64
+  Codec2 library development files
+
+libcojets2-dev/zesty 20061220+dfsg3-3 amd64
+  [Physics] COJETS p-p and pbar-p interaction Monte Carlo
+
+libcojets2-gfortran/zesty 20061220+dfsg3-3 amd64
+  [Physics] COJETS p-p and pbar-p interaction Monte Carlo library
+
+libcomedi0/zesty 0.10.2-4build3 amd64
+  Library for Comedi
+
+libconcord-dev/zesty 1.2-1build1 amd64
+  configuration tool for Harmony remotes - development files
+
+libconcord4/zesty 1.2-1build1 amd64
+  configuration tool for Harmony remotes - runtime libraries
+
+libconfig-gitlike-perl/zesty,zesty 1.16-1 all
+  Perl module for Git-compatible config file parsing
+
+libconfig-identity-perl/zesty,zesty 0.0019-1 all
+  module to load (and optionally decrypt) user/pass identity information
+
+libconfig-model-backend-augeas-perl/zesty,zesty 0.118-2 all
+  config-model reader and writer powered by Augeas
+
+libconvert-ascii85-perl/zesty,zesty 0.01-1 all
+  module for encoding and decoding of ascii85/base85 strings
+
+libconvert-ytext-perl/zesty,zesty 0.2-1 all
+  Perl module to quote strings suitably for RFC2822 local parts
+
+libcrypt-dsa-perl/zesty,zesty 1.17-4 all
+  Perl module for DSA Signatures and Key Generation
+
+libcrypt-openssl-dsa-perl/zesty 0.19-1 amd64
+  module which implements the DSA signature verification system
+
+libcrypt-saltedhash-perl/zesty,zesty 0.09-1 all
+  module for handling salted hashes
+
+libcypher-parser-doc/zesty,zesty 0.5.2-1 all
+  Documentation for libcypher-parser
+
+libdatrie-dev/zesty 0.2.10-4 amd64
+  Development files for double-array trie library
+
+libdatrie-doc/zesty,zesty 0.2.10-4 all
+  Documentation files for double-array trie library
+
+libdatrie1-bin/zesty 0.2.10-4 amd64
+  Programs for double-array trie library
+
+libdc1394-22/zesty,now 2.2.5-1 amd64 [installed]
+  high level programming interface for IEEE 1394 digital cameras
+
+libdc1394-22-dbg/zesty 2.2.5-1 amd64
+  debugging symbols for the libdc1394-22 library
+
+libdc1394-22-dev/zesty 2.2.5-1 amd64
+  high level programming interface for IEEE 1394 digital cameras - development
+
+libdc1394-22-doc/zesty,zesty 2.2.5-1 all
+  high level programming interface for IEEE 1394 digital cameras - documentation
+
+libdc1394-utils/zesty 2.2.5-1 amd64
+  utilities for IEEE 1394 digital cameras
+
+libdfu-dev/zesty-updates 0.8.1-3ubuntu0.1 amd64
+  development files for libdfu
+
+libdfu1/zesty-updates 0.8.1-3ubuntu0.1 amd64
+  Firmware update daemon library for DFU support
+
+libdicomscope-jni/zesty 3.6.0-15build2 amd64
+  OFFIS DICOM Viewer (JNI files)
+
+libdigidoc-common/zesty,zesty 3.10.1.1208+ds1-2.1 all
+  DigiDoc digital signature library common files
+
+libdigidoc-dev/zesty 3.10.1.1208+ds1-2.1 amd64
+  DigiDoc digital signature development files
+
+libdigidoc-doc/zesty,zesty 3.10.1.1208+ds1-2.1 all
+  DigiDoc digital signature library documentation
+
+libdigidoc-tools/zesty 3.10.1.1208+ds1-2.1 amd64
+  DigiDoc digital signature library tools
+
+libdigidoc2/zesty 3.10.1.1208+ds1-2.1 amd64
+  DigiDoc digital signature library
+
+libdigidocpp0/zesty 0.3.0-0ubuntu11 amd64
+  BDoc C++ library for processing digital signatures
+
+libdist-zilla-plugin-changelogfromgit-perl/zesty,zesty 0.016-1 all
+  Dist::Zilla plugin to build a Changes file from a project's git log
+
+libdist-zilla-plugin-config-git-perl/zesty,zesty 0.92-1 all
+  Dist::Zilla Git plugin configuration settings module
+
+libdist-zilla-plugin-git-perl/zesty,zesty 2.041-1 all
+  Dist::Zilla plugins to update your git repository after release
+
+libdist-zilla-plugin-githubmeta-perl/zesty,zesty 0.52-1 all
+  Automatically include GitHub meta information in META.yml
+
+libdist-zilla-plugin-repository-perl/zesty,zesty 0.20-1 all
+  Dist::Zilla plugin to discovery repository URL from svn/svk/Git checkout
+
+libdist-zilla-plugins-cjm-perl/zesty,zesty 4.27-2 all
+  collection of CJM's plugins for Dist::Zilla
+
+libdjvulibre-dev/zesty 3.5.27.1-7 amd64
+  Development files for the DjVu image format
+
+libdlna-dev/zesty 0.2.4-0ubuntu6 amd64
+  development files for libdlna
+
+libdlna0/zesty 0.2.4-0ubuntu6 amd64
+  DLNA codec library
+
+libdmx-dev/zesty 1:1.1.3-1 amd64
+  X11 Distributed Multihead extension library (development headers)
+
+libdmx1/zesty 1:1.1.3-1 amd64
+  X11 Distributed Multihead extension library
+
+libdmx1-dbg/zesty 1:1.1.3-1 amd64
+  X11 Distributed Multihead library (debug package)
+
+libdouble-conversion-dev/zesty 2.0.1-4ubuntu1 amd64
+  routines to convert IEEE floats to and from strings (development files)
+
+libdouble-conversion1/zesty 2.0.1-4ubuntu1 amd64
+  routines to convert IEEE floats to and from strings
+
+libdv-bin/zesty 1.0.0-11 amd64
+  software library for DV format digital video (sample apps)
+
+libdv4/zesty,now 1.0.0-11 amd64 [installed]
+  software library for DV format digital video (runtime lib)
+
+libdv4-dev/zesty 1.0.0-11 amd64
+  software library for DV format digital video (devel files)
+
+libdvbv5-0/zesty 1.12.3-1 amd64
+  Libraries to control, scan and zap on Digital TV channels
+
+libecm1/zesty 7.0.4+ds-1 amd64
+  factor integers using the Elliptic Curve Method -- lib
+
+libecm1-dev/zesty 7.0.4+ds-1 amd64
+  factor integers using the Elliptic Curve Method -- libdev
+
+libecm1-dev-common/zesty,zesty 7.0.4+ds-1 all
+  factor integers using the Elliptic Curve Method -- header
+
+libesd0/zesty 0.2.41-11 amd64
+  Enlightened Sound Daemon - Shared libraries
+
+libesd0-dev/zesty 0.2.41-11 amd64
+  Enlightened Sound Daemon - Development files
+
+libexif-dev/zesty 0.6.21-2 amd64
+  library to parse EXIF files (development files)
+
+libexif-gtk-dev/zesty 0.3.5-5 amd64
+  Library providing GTK+ widgets to display/edit EXIF tags (development files)
+
+libexif-gtk5/zesty 0.3.5-5 amd64
+  Library providing GTK+ widgets to display/edit EXIF tags
+
+libexif12/zesty,now 0.6.21-2 amd64 [installed]
+  library to parse EXIF files
+
+libfaac0/zesty 1.28+cvs20151130-1 amd64
+  AAC audio encoder (library)
+
+libfaad2/zesty,now 2.8.0~cvs20161113-1 amd64 [installed]
+  freeware Advanced Audio Decoder - runtime files
+
+libfastjet-dev/zesty 3.0.6+dfsg-3 amd64
+  Development files of FastJet
+
+libfastjet-fortran-dev/zesty 3.0.6+dfsg-3 amd64
+  Fortran bindings of FastJet - development files
+
+libfastjet-fortran0/zesty 3.0.6+dfsg-3 amd64
+  Fortran bindings of FastJet
+
+libfastjet0v5/zesty 3.0.6+dfsg-3 amd64
+  Fast C++ code for the kt and other jet algorithms
+
+libfastjetplugins-dev/zesty 3.0.6+dfsg-3 amd64
+  FastJet plugins - development files
+
+libfastjetplugins0/zesty 3.0.6+dfsg-3 amd64
+  FastJet plugins
+
+libfastjettools-dev/zesty 3.0.6+dfsg-3 amd64
+  Tools for FastJet - development files
+
+libfastjettools0/zesty 3.0.6+dfsg-3 amd64
+  Tools for FastJet
+
+libfile-find-rule-vcs-perl/zesty,zesty 1.08-1 all
+  Perl module to exclude files/directories for Version Control Systems
+
+libfolia-dev/zesty 1.6-2 amd64
+  Implementation of the FoLiA document format (C++ headers)
+
+libfolia6/zesty 1.6-2 amd64
+  Implementation of the FoLiA document format
+
+libfontenc-dev/zesty 1:1.1.3-1 amd64
+  X11 font encoding library (development headers)
+
+libfontenc1/zesty,now 1:1.1.3-1 amd64 [installed,automatic]
+  X11 font encoding library
+
+libfontenc1-dbg/zesty 1:1.1.3-1 amd64
+  X11 font encoding library (debug package)
+
+libfreetype6/zesty-updates,zesty-security,now 2.6.3-3ubuntu2.2 amd64 [installed]
+  FreeType 2 font engine, shared library files
+
+libfreetype6-dev/zesty-updates,zesty-security 2.6.3-3ubuntu2.2 amd64
+  FreeType 2 font engine, development files
+
+libfs-dev/zesty 2:1.0.7-1 amd64
+  X11 Font Services library (development headers)
+
+libfs6/zesty 2:1.0.7-1 amd64
+  X11 Font Services library
+
+libfs6-dbg/zesty 2:1.0.7-1 amd64
+  X11 Font Services library (debug package)
+
+libfwupd-dev/zesty-updates 0.8.1-3ubuntu0.1 amd64
+  development files for libfwupd
+
+libfwupd1/zesty-updates,now 0.8.1-3ubuntu0.1 amd64 [installed]
+  Firmware update daemon library
+
+libg15-1/zesty 1.2.7-2ubuntu2 amd64
+  Library for interfacing with the Logitech G15 keyboards
+
+libg15-dev/zesty 1.2.7-2ubuntu2 amd64
+  Library for interfacing with the Logitech G15 keyboards
+
+libg15render-dev/zesty 1.3.0~svn316-2.3 amd64
+  Library for interfacing with the Logitech G15 keyboards
+
+libg15render1/zesty 1.3.0~svn316-2.3 amd64
+  Library for interfacing with the Logitech G15 keyboards
+
+libgeda-common/zesty,zesty 1:1.8.2-5 all
+  GPL EDA -- Electronics design software (data files)
+
+libgeda-dev/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (development files)
+
+libgeda42/zesty 1:1.8.2-5 amd64
+  GPL EDA -- Electronics design software (library files)
+
+libgeo-coordinates-osgb-perl/zesty,zesty 2.15-1 all
+  converting module between Lat/Lon and the British National Grid
+
+libgeo-coordinates-utm-perl/zesty,zesty 0.11-2 all
+  Perl extension for Latitiude Longitude conversions
+
+libgeo-helmerttransform-perl/zesty,zesty 1.14-1 all
+  Transformations between coordinates in different datums
+
+libgeo-inverse-perl/zesty,zesty 0.05-1 all
+  module to calculate geographic distance from a lat & lon pair
+
+libgeo-postcode-perl/zesty,zesty 0.17+dfsg1-1 all
+  UK Postcode validation and location
+
+libgeo-proj4-perl/zesty 1.05-3build2 amd64
+  PROJ.4 library for cartographic projections
+
+libgeocode-glib-dev/zesty 3.23.90-0ubuntu1 amd64
+  development files for geocode-glib library
+
+libgeocode-glib-doc/zesty,zesty 3.23.90-0ubuntu1 all
+  gtk-doc documentation for geocode-glib library
+
+libgeocode-glib0/zesty,now 3.23.90-0ubuntu1 amd64 [installed,automatic]
+  geocoding and reverse geocoding GLib library using Nominatim
+
+libgetopt-complete-perl/zesty,zesty 0.26-2 all
+  programmable shell completion for Perl apps
+
+libghc-base-compat-dev/zesty 0.9.1-3build1 amd64
+  compatibility layer for base
+
+libghc-base-compat-doc/zesty,zesty 0.9.1-3build1 all
+  compatibility layer for base; documentation
+
+libghc-base-compat-prof/zesty 0.9.1-3build1 amd64
+  compatibility layer for base; profiling libraries
+
+libghc-doctest-dev/zesty 0.11.0-4build1 amd64
+  test interactive Haskell examples
+
+libghc-doctest-doc/zesty,zesty 0.11.0-4build1 all
+  test interactive Haskell examples; documentation
+
+libghc-doctest-prof/zesty 0.11.0-4build1 amd64
+  test interactive Haskell examples; profiling libraries
+
+libghc-filestore-data/zesty,zesty 0.6.2-3build2 all
+  Haskell interface for versioning file stores - common files
+
+libghc-filestore-dev/zesty 0.6.2-3build2 amd64
+  Haskell interface for versioning file stores
+
+libghc-filestore-doc/zesty,zesty 0.6.2-3build2 all
+  Haskell interface for versioning file stores; documentation
+
+libghc-filestore-prof/zesty 0.6.2-3build2 amd64
+  Haskell interface for versioning file stores; profiling libraries
+
+libghc-github-dev/zesty 0.14.1-4build2 amd64
+  Haskell Github API
+
+libghc-github-doc/zesty,zesty 0.14.1-4build2 all
+  Haskell Github API; documentation
+
+libghc-github-prof/zesty 0.14.1-4build2 amd64
+  Haskell Github API; profiling libraries
+
+libghc-gitit-data/zesty,zesty 0.12.1.1+dfsg-6build3 all
+  Wiki engine backed by a git or darcs filestore - Data files
+
+libghc-gitit-dev/zesty 0.12.1.1+dfsg-6build3 amd64
+  Wiki engine backed by a git or darcs filestore
+
+libghc-gitit-doc/zesty,zesty 0.12.1.1+dfsg-6build3 all
+  Wiki engine backed by a git or darcs filestore; documentation
+
+libghc-gitit-prof/zesty 0.12.1.1+dfsg-6build3 amd64
+  Wiki engine backed by a git or darcs filestore; profiling libraries
+
+libghc-gitlib-dev/zesty 3.1.1-3build1 amd64
+  API library for working with Git repositories
+
+libghc-gitlib-doc/zesty,zesty 3.1.1-3build1 all
+  API library for working with Git repositories; documentation
+
+libghc-gitlib-prof/zesty 3.1.1-3build1 amd64
+  API library for working with Git repositories; profiling libraries
+
+libghc-gitrev-dev/zesty 1.2.0-3build1 amd64
+  compile git revision info into Haskell projects
+
+libghc-gitrev-doc/zesty,zesty 1.2.0-3build1 all
+  compile git revision info into Haskell projects; documentation
+
+libghc-gitrev-prof/zesty 1.2.0-3build1 amd64
+  compile git revision info into Haskell projects; profiling libraries
+
+libghc-hastache-dev/zesty 0.6.1-6build1 amd64
+  Haskell implementation of Mustache templates
+
+libghc-hastache-doc/zesty,zesty 0.6.1-6build1 all
+  Haskell implementation of Mustache templates; documentation
+
+libghc-hastache-prof/zesty 0.6.1-6build1 amd64
+  Haskell implementation of Mustache templates; profiling libraries
+
+libghc-hit-dev/zesty 0.6.3-7build1 amd64
+  Git operations in Haskell
+
+libghc-hit-doc/zesty,zesty 0.6.3-7build1 all
+  Git operations in Haskell; documentation
+
+libghc-hit-prof/zesty 0.6.3-7build1 amd64
+  Git operations in Haskell; profiling libraries
+
+libghc-hoauth2-dev/zesty 0.5.4.0-3build1 amd64
+  OAuth2 authentication for Haskell
+
+libghc-hoauth2-doc/zesty,zesty 0.5.4.0-3build1 all
+  OAuth2 authentication for Haskell; documentation
+
+libghc-hoauth2-prof/zesty 0.5.4.0-3build1 amd64
+  OAuth2 authentication for Haskell; profiling libraries
+
+libghc-lens-dev/zesty 4.14-2build1 amd64
+  Lenses, Folds and Traversals
+
+libghc-lens-doc/zesty,zesty 4.14-2build1 all
+  Lenses, Folds and Traversals; documentation
+
+libghc-lens-prof/zesty 4.14-2build1 amd64
+  Lenses, Folds and Traversals; profiling libraries
+
+libghc-qrencode-dev/zesty 1.0.4-8build1 amd64
+  Haskell bindings for libqrencode
+
+libghc-qrencode-doc/zesty,zesty 1.0.4-8build1 all
+  Haskell bindings for libqrencode; documentation
+
+libghc-qrencode-prof/zesty 1.0.4-8build1 amd64
+  Haskell bindings for libqrencode; profiling libraries
+
+libghc-recaptcha-dev/zesty 0.1.0.3-5build1 amd64
+  Haskell interface to reCAPTCHA service
+
+libghc-recaptcha-doc/zesty,zesty 0.1.0.3-5build1 all
+  Haskell interface to reCAPTCHA service; documentation
+
+libghc-recaptcha-prof/zesty 0.1.0.3-5build1 amd64
+  Haskell interface to reCAPTCHA service; profiling libraries
+
+libghc-yesod-default-dev/zesty 1.2.0-8build1 amd64
+  default config and main functions for your Yesod application
+
+libghc-yesod-default-doc/zesty,zesty 1.2.0-8build1 all
+  default config and main functions for your Yesod application; documentation
+
+libghc-yesod-default-prof/zesty 1.2.0-8build1 amd64
+  default config/main functions for your Yesod application; profiling libraries
+
+libgit-pureperl-perl/zesty,zesty 0.53-1 all
+  Pure Perl interface to Git repositories
+
+libgit-repository-perl/zesty,zesty 1.320-1 all
+  Perl interface to Git repositories
+
+libgit-repository-plugin-log-perl/zesty,zesty 1.314-1 all
+  Git::Repository plugin adding log items
+
+libgit-version-compare-perl/zesty,zesty 1.004-1 all
+  module to compare Git versions
+
+libgit-wrapper-perl/zesty,zesty 0.047-1 all
+  Perl module to wrap git command-line interface
+
+libgit2-24/zesty 0.24.5-1 amd64
+  low-level Git library
+
+libgit2-dev/zesty 0.24.5-1 amd64
+  low-level Git library (development files)
+
+libgit2-glib-1.0-0/zesty 0.24.4-1 amd64
+  glib wrapper library around the libgit2 git access library
+
+libgit2-glib-1.0-dbg/zesty 0.24.4-1 amd64
+  glib wrapper library around the libgit2 git access library - debugging symbols
+
+libgit2-glib-1.0-dev/zesty 0.24.4-1 amd64
+  glib wrapper library around the libgit2 git access library - development files
+
+libgit2-glib-1.0-doc/zesty,zesty 0.24.4-1 all
+  glib wrapper library around the libgit2 git access library - documentation
+
+libgnuradio-atsc3.7.10/zesty 3.7.10.1-2 amd64
+  gnuradio atsc functions
+
+libgnuradio-digital3.7.10/zesty 3.7.10.1-2 amd64
+  gnuradio digital communications functions
+
+libgnuradio-dtv3.7.10/zesty 3.7.10.1-2 amd64
+  gnuradio digital TV signal processing blocks
+
+libgnuradio-rds3.7.10/zesty 3.7.0.2.a542331-1build2 amd64
+  GNU Radio FM RDS/TMC Transceiver (library)
+
+libgolang-github-gorilla-context1/zesty 1.1-1ubuntu8 amd64
+  General purpose registry for global request variables -- shared library
+
+libgolang-github-gorilla-mux1/zesty 1.1-2ubuntu7 amd64
+  powerful URL router and dispatcher for golang -- shared library
+
+libgolang-github-gorilla-websocket1/zesty 1.0.0+git20160606.12.a687089-1ubuntu6 amd64
+  Go package implementing the WebSocket protocol -- shared library
+
+libgolang-github-gosexy-gettext1/zesty 0~git20130221-0ubuntu12 amd64
+  Gettext support for the Go language -- shared library
+
+libgolang-github-mattn-go-colorable1/zesty 0.0.6-1ubuntu5 amd64
+  Golang library to colorable writer for windows -- shared library
+
+libgolang-github-mattn-go-sqlite3-1/zesty 1.1.0~dfsg1-2ubuntu4 amd64
+  sqlite3 driver for go -- shared library package
+
+libgolang-github-olekukonko-tablewriter1/zesty 0.0~git20151029.0.a5eefc2-1ubuntu6 amd64
+  generate ASCII tables in Golang -- shared library
+
+libgolang-github-pborman-uuid1/zesty 0.0+git20150824.0.cccd189-1ubuntu7 amd64
+  Go bindings to work with UUIDs -- shared library
+
+libgphoto2-6/zesty,now 2.5.12-1 amd64 [installed]
+  gphoto2 digital camera library
+
+libgphoto2-dev/zesty 2.5.12-1 amd64
+  gphoto2 digital camera library (development files)
+
+libgphoto2-dev-doc/zesty,zesty 2.5.12-1 all
+  gphoto2 digital camera library (development documentation)
+
+libgphoto2-l10n/zesty,zesty 2.5.12-1 all
+  gphoto2 digital camera library - localized messages
+
+libgphoto2-port12/zesty,now 2.5.12-1 amd64 [installed]
+  gphoto2 digital camera port library
+
+libgxps-dev/zesty 0.2.5-1 amd64
+  handling and rendering XPS documents (development files)
+
+libgxps-doc/zesty,zesty 0.2.5-1 all
+  library for handling and rendering XPS documents (documentation)
+
+libgxps-utils/zesty 0.2.5-1 amd64
+  handling and rendering XPS documents (utilities)
+
+libgxps2/zesty,now 0.2.5-1 amd64 [installed]
+  handling and rendering XPS documents (library)
+
+libhdcd-dev/zesty 1.3-2 amd64
+  HDCD decoding and analysis library (development files)
+
+libhdcd1/zesty 1.3-2 amd64
+  HDCD decoding and analysis library (shared library)
+
+libhdhomerun-dev/zesty 20161117-2 amd64
+  Development library for Silicon Dust HD HomeRun
+
+libhdhomerun3/zesty 20161117-2 amd64
+  Library for Silicon Dust HD HomeRun
+
+libhdrhistogram-java/zesty,zesty 2.1.9-1 all
+  High Dynamic Range (HDR) Histogram
+
+libhtml-lint-perl/zesty,zesty 2.22+dfsg-1 all
+  checker of HTML errors in strings or files
+
+libice-dev/zesty 2:1.0.9-1 amd64
+  X11 Inter-Client Exchange library (development headers)
+
+libice6/zesty,now 2:1.0.9-1 amd64 [installed,automatic]
+  X11 Inter-Client Exchange library
+
+libice6-dbg/zesty 2:1.0.9-1 amd64
+  X11 Inter-Client Exchange library (debug package)
+
+libimage-exif-perl/zesty 2.01-1build4 amd64
+  Perl module to extract EXIF information from image files
+
+libimage-exiftool-perl/zesty,zesty 10.40-1 all
+  library and program to read and write meta information in multimedia files
+
+libinsighttoolkit4-dev/zesty 4.10.1-dfsg1-1.1ubuntu2 amd64
+  Image processing toolkit for registration and segmentation - development
+
+libinsighttoolkit4.10/zesty 4.10.1-dfsg1-1.1ubuntu2 amd64
+  Image processing toolkit for registration and segmentation - runtime
+
+libinstpatch-1.0-0/zesty 1.0.0-6 amd64
+  MIDI instrument editing library
+
+libinstpatch-dev/zesty 1.0.0-6 amd64
+  MIDI instrument editing library development files
+
+libinstpatch-doc/zesty,zesty 1.0.0-6 all
+  MIDI instrument editing library documentation
+
+libjackson2-jaxrs-providers-java/zesty,zesty 2.8.5-2 all
+  Jackson JAX-RS providers
+
+libjgit-ant-java/zesty,zesty 3.7.1-4 all
+  Java implementation of GIT version control (Ant interface)
+
+libjgit-java/zesty,zesty 3.7.1-4 all
+  Java implementation of GIT version control
+
+libjgit-java-doc/zesty,zesty 3.7.1-4 all
+  Java implementation of GIT version control (documentation)
+
+libjs-bignumber/zesty,zesty 1.3.0+dfsg-1 all
+  Arbitrary-precision decimal and non-decimal arithmetic (client)
+
+libjs-d3-format/zesty,zesty 1.0.2-2 all
+  Formatting numbers for human consumption - browser library
+
+libjs-jquery-hotkeys/zesty,zesty 0~20130707+git2d51e3a9+dfsg-2ubuntu1 all
+  easily add and remove handlers for keyboard events anywhere in your code
+
+libjs-jquery.quicksearch/zesty,zesty 2.0.4-1 all
+  plug-in for filtering large data sets with user input
+
+libjs-markdown-it/zesty,zesty 7.0.0-3 all
+  javascript markdown parser
+
+libjs-markdown-it-sub/zesty,zesty 1.0.0-2 all
+  javascript markdown parser subscript plugin
+
+libjs-markdown-it-sup/zesty,zesty 1.0.0-2 all
+  javascript markdown parser superscript plugin
+
+libjs-marked/zesty,zesty 0.3.6+dfsg-1 all
+  Full-featured markdown parser and compiler
+
+libjs-perfect-scrollbar/zesty,zesty 0.6.12+dfsg-1 all
+  Minimalistic but perfect custom scrollbar plugin
+
+liblingua-en-number-isordinal-perl/zesty,zesty 0.05-1 all
+  module for detecting English ordinal numbers
+
+libliquid-dev/zesty 1.3.0-1 amd64
+  signal processing library for software defined radio (development files)
+
+libliquid1d/zesty 1.3.0-1 amd64
+  signal processing library for software defined radio
+
+libltc-dev/zesty 1.3.0-1 amd64
+  Development files for libltc
+
+libltc-doc/zesty,zesty 1.3.0-1 all
+  Documentation for libltc
+
+libltc11/zesty 1.3.0-1 amd64
+  linear timecode library
+
+libltcsmpte-dev/zesty 0.4.4-1 amd64
+  Development files for libltcsmpte
+
+libltcsmpte-doc/zesty,zesty 0.4.4-1 all
+  Documentation for libltcsmpte
+
+libltcsmpte1/zesty 0.4.4-1 amd64
+  linear timecode and framerate conversion library
+
+liblur-dev/zesty 0.5-2 amd64
+  Logitech Unifying Receiver access library - dev files
+
+liblur3/zesty 0.5-2 amd64
+  Logitech Unifying Receiver access library
+
+libmath-base85-perl/zesty,zesty 0.2+dfsg-1 all
+  Perl extension for base 85 numbers, as referenced by RFC 1924
+
+libmath-basecalc-perl/zesty,zesty 1.017-2 all
+  module for numeric base conversion
+
+libmath-nocarry-perl/zesty,zesty 1.111-1 all
+  Perl module for no carry arithmetic
+
+libmath-prime-util-perl/zesty 0.60-1 amd64
+  utilities related to prime numbers, including fast sieves and factoring
+
+libmaven-scm-java/zesty,zesty 1.3-8 all
+  Maven SCM - Common API for SCM operations (Core API)
+
+libmaven-scm-java-doc/zesty,zesty 1.3-8 all
+  Maven SCM - Common API for SCM operations (Documentation)
+
+libmaven-scm-providers-java/zesty,zesty 1.3-8 all
+  Maven SCM - Common API for SCM operations (Providers)
+
+libmaxminddb-dev/zesty 1.2.0-1 amd64
+  IP geolocation database library (development headers)
+
+libmaxminddb0/zesty 1.2.0-1 amd64
+  IP geolocation database library
+
+libmetadata-extractor-java/zesty,zesty 2.7.2-2 all
+  JPEG metadata extraction framework
+
+libmetadata-extractor-java-doc/zesty,zesty 2.7.2-2 all
+  Documentation for the JPEG metadata extraction framework
+
+libmorph/zesty 1:20140707+nmu2 amd64
+  digital image warping library
+
+libmorph-dev/zesty 1:20140707+nmu2 amd64
+  digital image warping library (development files)
+
+libmtp-common/zesty,zesty,now 1.1.12-1 all [installed]
+  Media Transfer Protocol (MTP) common files
+
+libmtp-dbg/zesty 1.1.12-1 amd64
+  Media Transfer Protocol (MTP) debugging symbols
+
+libmtp-dev/zesty 1.1.12-1 amd64
+  Media Transfer Protocol (MTP) development files
+
+libmtp-doc/zesty,zesty 1.1.12-1 all
+  Media Transfer Protocol (MTP) library documentation
+
+libmtp-runtime/zesty,now 1.1.12-1 amd64 [installed]
+  Media Transfer Protocol (MTP) runtime tools
+
+libmtp9/zesty,now 1.1.12-1 amd64 [installed]
+  Media Transfer Protocol (MTP) library
+
+libneo4j-client-doc/zesty,zesty 1.2.1-1 all
+  Documentation for libneo4j-client, a client library for Neo4j
+
+libnet-dpap-client-perl/zesty,zesty 0.26-3 all
+  Perl module for cnnecting to iPhoto shares (DPAP)
+
+libnet-github-perl/zesty,zesty 0.86-1 all
+  Perl interface for GitHub
+
+libnet-google-safebrowsing2-perl/zesty,zesty 1.07-6 all
+  Perl extension for the Google Safe Browsing v2 API
+
+libnet-idn-encode-perl/zesty 2.400-1 amd64
+  Internationalizing Domain Names in Applications (IDNA)
+
+libnginx-mod-http-geoip/zesty-updates,zesty-security 1.10.3-1ubuntu3.1 amd64
+  GeoIP HTTP module for Nginx
+
+libnjb-dev/zesty 2.2.7~dfsg0-4build1 amd64
+  Creative Labs Nomad Jukebox library development files
+
+libnjb-doc/zesty,zesty 2.2.7~dfsg0-4build1 all
+  Creative Labs Nomad Jukebox library documentation
+
+libnjb-tools/zesty 2.2.7~dfsg0-4build1 amd64
+  Creative Labs Nomad Jukebox library tools
+
+libnjb5/zesty 2.2.7~dfsg0-4build1 amd64
+  Creative Labs Nomad Jukebox library
+
+libnoggit-java/zesty,zesty 0.7-1 all
+  Fast streaming JSON parser for Java
+
+libnss3-tools/zesty-updates,zesty-security 2:3.28.4-0ubuntu0.17.04.3 amd64
+  Network Security Service tools
+
+libola-dev/zesty 0.10.3-1 amd64
+  Open Lighting Architecture - development libraries
+
+libola1/zesty 0.10.3-1 amd64
+  Open Lighting Architecture - shared libraries
+
+libopenraw-dev/zesty 0.0.9-3.10 amd64
+  free implementation for RAW decoding - development files
+
+libopenraw1v5/zesty 0.0.9-3.10 amd64
+  free implementation for RAW decoding
+
+libopenraw1v5-dbg/zesty 0.0.9-3.10 amd64
+  debugging symbols for libopenraw and libopenrawgnome
+
+libopenrawgnome-dev/zesty 0.0.9-3.10 amd64
+  GNOME integration for libopenraw - development files
+
+libopenrawgnome1v5/zesty 0.0.9-3.10 amd64
+  free implementation for RAW decoding (GNOME integration)
+
+libopenslide-dev/zesty 3.4.1+dfsg-2 amd64
+  Development files for the OpenSlide library
+
+libopenslide0/zesty 3.4.1+dfsg-2 amd64
+  library for reading whole slide image files
+
+libostree-1-1/zesty,now 2016.15-3ubuntu3 amd64 [installed,automatic]
+  content-addressed filesystem for operating system binaries (library)
+
+libostree-dev/zesty 2016.15-3ubuntu3 amd64
+  Development files for the ostree library
+
+libotpw-dev/zesty 1.3-2ubuntu1 amd64
+  OTPW library development files and documentation
+
+libotr5/zesty 4.1.1-2 amd64
+  Off-the-Record Messaging library
+
+libotr5-bin/zesty 4.1.1-2 amd64
+  toolkit for Off-the-Record Messaging library
+
+libotr5-dev/zesty 4.1.1-2 amd64
+  Off-the-Record Messaging library development files
+
+libpam-otpw/zesty 1.3-2ubuntu1 amd64
+  Use OTPW for PAM authentication
+
+libpam-pwdfile/zesty 1.0-1 amd64
+  PAM module allowing authentication via an /etc/passwd-like file
+
+libpam-ufpidentity/zesty 1.0-1 amd64
+  PAM library for UFP identity
+
+libpar-dist-perl/zesty,zesty 0.49-2 all
+  perl module to create and manipulate PAR distributions
+
+libphp-predis/zesty 0.8.3-1 amd64
+  Flexible and feature-complete PHP client library for the Redis key-value store
+
+libpithub-perl/zesty,zesty 0.01033-1 all
+  Github v3 API
+
+libproj-dev/zesty 4.9.3-1 amd64
+  Cartographic projection library (development files)
+
+libproj-java/zesty 4.9.3-1 amd64
+  Cartographic projection library (JNI bindings)
+
+libproj12/zesty 4.9.3-1 amd64
+  Cartographic projection library
+
+libqd-dev/zesty 2.3.17.dfsg-1 amd64
+  Double-double and quad double types in C++ and F90
+
+libqd0v5/zesty 2.3.17.dfsg-1 amd64
+  Double-double and quad double types in C++ and F90
+
+libqrencode-dev/zesty 3.4.4-1build1 amd64
+  QR Code encoding library -- development
+
+libqrencode3/zesty 3.4.4-1build1 amd64
+  QR Code encoding library
+
+libqt5contacts5/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt PIM module, Contacts library
+
+libqt5feedback5/zesty 5.0~git20130529-0ubuntu15~1 amd64
+  Qt Feedback module
+
+libqt5organizer5/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt PIM module, Organizer library
+
+libqt5publishsubscribe5/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt Systems module - publish subscribe
+
+libqt5serviceframework5/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt Systems module - service framework
+
+libqt5systeminfo5/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt Systems module - system info
+
+libqt5versit5/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt PIM module, Versit library
+
+libqt5versitorganizer5/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt PIM module, Versit Organizer library
+
+librarian-puppet/zesty,zesty 2.2.3-1 all
+  bundler for your puppet modules
+
+librarian-puppet-simple/zesty,zesty 0.0.5-3 all
+  simple version of librarian-puppet with most of its commands
+
+libratbag-common/zesty,zesty 0.5-2 all
+  configuration library for gaming mice - common files
+
+libratbag-dev/zesty 0.5-2 amd64
+  configuration library for gaming mice - development files
+
+libratbag-doc/zesty,zesty 0.5-2 all
+  configuration library for gaming mice - documentation
+
+libratbag-tools/zesty 0.5-2 amd64
+  configuration tools for gaming mice
+
+libratbag3/zesty 0.5-2 amd64
+  configuration library for gaming mice
+
+libraw-bin/zesty 0.18.1-1 amd64
+  raw image decoder library (tools)
+
+libraw-dev/zesty 0.18.1-1 amd64
+  raw image decoder library (development files)
+
+libraw-doc/zesty,zesty 0.18.1-1 all
+  raw image decoder library (documentation)
+
+libraw16/zesty 0.18.1-1 amd64
+  raw image decoder library
+
+libregex-clojure/zesty,zesty 0.0~git20130321.1.433265f-3 all
+  Composable regexes for Clojure
+
+libregfi-dev/zesty 1.0.1+svn287-6 amd64
+  utility to analysis for Windows NT-based registry (develop. files)
+
+libregfi1/zesty 1.0.1+svn287-6 amd64
+  utility to analysis for Windows NT-based registry (shared library)
+
+libreswan/zesty 3.19-2 amd64
+  Internet Key Exchange daemon
+
+libroar-dev/zesty 1.0~beta11-9 amd64
+  header files and documentation for the RoarAudio libraries
+
+libroar2/zesty 1.0~beta11-9 amd64
+  foundation libraries for the RoarAudio sound server and clients
+
+libroman-perl/zesty,zesty 1.24-1 all
+  Perl module for converting between Roman and Arabic numerals
+
+librtfilter-dev/zesty 1.1-4 amd64
+  realtime digital filtering library (development files)
+
+librtfilter1/zesty 1.1-4 amd64
+  realtime digital filtering library
+
+librtfilter1-dbg/zesty 1.1-4 amd64
+  realtime digital filtering library (debugging symbols)
+
+libsixel-bin/zesty 1.5.2-2 amd64
+  DEC SIXEL graphics codec implementation (binary)
+
+libsixel-dev/zesty 1.5.2-2 amd64
+  DEC SIXEL graphics codec implementation (develop)
+
+libsixel1/zesty 1.5.2-2 amd64
+  DEC SIXEL graphics codec implementation (runtime)
+
+libsm-dev/zesty 2:1.2.2-1 amd64
+  X11 Session Management library (development headers)
+
+libsm6/zesty,now 2:1.2.2-1 amd64 [installed,automatic]
+  X11 Session Management library
+
+libsm6-dbg/zesty 2:1.2.2-1 amd64
+  X11 Session Management library (debug package)
+
+libsoftware-release-perl/zesty,zesty 0.03-1 all
+  Perl class representing a release of software
+
+libsoundio-dev/zesty 1.0.2-1 amd64
+  cross platform audio input and output library (development files)
+
+libsoundio1/zesty 1.0.2-1 amd64
+  cross-platform audio input and output library
+
+libstatistics-distributions-perl/zesty,zesty 1.02-1 all
+  module for calculating some values of common statistical distributions
+
+libstring-expand-perl/zesty,zesty 0.04-3 all
+  string utility functions for expanding variables in self-referential sets
+
+libstring-koremutake-perl/zesty,zesty 0.30-5 all
+  Convert to/from Koremutake Memorable Random Strings
+
+libstring-mkpasswd-perl/zesty,zesty 0.05-1 all
+  Perl module implementing a random password generator
+
+libtaint-runtime-perl/zesty 0.3-2build4 amd64
+  module to enable taint checking at runtime
+
+libtest-requires-git-perl/zesty,zesty 1.007-2 all
+  module to check the available version of Git
+
+libtext-string-hexconvert-perl/zesty,zesty 0.01-2 all
+  Converts ASCII strings to hexadecimal and reverse
+
+libtime-format-perl/zesty,zesty 1.12-3 all
+  module for easy date/time formatting
+
+libtoml-parser-perl/zesty,zesty 0.08-1 all
+  simple toml parser
+
+libtoml-perl/zesty,zesty 0.97-1 all
+  Perl module for reading and writing TOML files
+
+libtommath-dev/zesty 1.0-4 amd64
+  multiple-precision integer library [development files]
+
+libtommath-docs/zesty,zesty 1.0-4 all
+  multiple-precision integer library [documentation]
+
+libtommath1/zesty 1.0-4 amd64
+  multiple-precision integer library [runtime]
+
+libuhd-dev/zesty 3.9.5-2 amd64
+  universal hardware driver for Ettus Research products - headers
+
+libuhd003/zesty 3.9.5-2 amd64
+  universal hardware driver for Ettus Research products - library
+
+liburi-db-perl/zesty,zesty 0.17-1 all
+  module to support database URI standard
+
+liburi-nested-perl/zesty,zesty 0.10-2 all
+  module for handling nested URIs
+
+libvideo-frequencies-perl/zesty,zesty 0.03-1ubuntu1 all
+  Many, many frequency constants and lists
+
+libwebp-dev/zesty 0.5.2-1 amd64
+  Lossy compression of digital photographic images.
+
+libwebp6/zesty,now 0.5.2-1 amd64 [installed]
+  Lossy compression of digital photographic images.
+
+libwebpdemux2/zesty 0.5.2-1 amd64
+  Lossy compression of digital photographic images.
+
+libwebpmux2/zesty,now 0.5.2-1 amd64 [installed]
+  Lossy compression of digital photographic images.
+
+libwreport-dev/zesty 3.6-1 amd64
+  library for working with weather reports
+
+libwww-shorten-github-perl/zesty,zesty 0.1.7-1 all
+  shorten GitHub URLs using GitHub's URL shortener
+
+libx11-6/zesty,now 2:1.6.4-3 amd64 [installed]
+  X11 client-side library
+
+libx11-data/zesty,zesty,now 2:1.6.4-3 all [installed]
+  X11 client-side library
+
+libx11-dev/zesty 2:1.6.4-3 amd64
+  X11 client-side library (development headers)
+
+libx11-doc/zesty,zesty 2:1.6.4-3 all
+  X11 client-side library (development documentation)
+
+libx11-xcb-dev/zesty 2:1.6.4-3 amd64
+  Xlib/XCB interface library (development headers)
+
+libx11-xcb1/zesty,now 2:1.6.4-3 amd64 [installed]
+  Xlib/XCB interface library
+
+libxau-dev/zesty 1:1.0.8-1 amd64
+  X11 authorisation library (development headers)
+
+libxau6/zesty,now 1:1.0.8-1 amd64 [installed]
+  X11 authorisation library
+
+libxau6-dbg/zesty 1:1.0.8-1 amd64
+  X11 authorisation library (debug package)
+
+libxaw7/zesty,now 2:1.0.13-1 amd64 [installed,automatic]
+  X11 Athena Widget library
+
+libxaw7-dbg/zesty 2:1.0.13-1 amd64
+  X11 Athena Widget library (debug package)
+
+libxaw7-dev/zesty 2:1.0.13-1 amd64
+  X11 Athena Widget library (development headers)
+
+libxcomposite-dev/zesty 1:0.4.4-2 amd64
+  X11 Composite extension library (development headers)
+
+libxcomposite1/zesty,now 1:0.4.4-2 amd64 [installed]
+  X11 Composite extension library
+
+libxcomposite1-dbg/zesty 1:0.4.4-2 amd64
+  X11 Composite extension library (debug package)
+
+libxdamage-dev/zesty 1:1.1.4-2 amd64
+  X11 damaged region extension library (development headers)
+
+libxdamage1/zesty,now 1:1.1.4-2 amd64 [installed]
+  X11 damaged region extension library
+
+libxdamage1-dbg/zesty 1:1.1.4-2 amd64
+  X11 damaged region extension library (debug package)
+
+libxdmcp-dev/zesty 1:1.1.2-1.1 amd64
+  X11 authorisation library (development headers)
+
+libxdmcp6/zesty,now 1:1.1.2-1.1 amd64 [installed]
+  X11 Display Manager Control Protocol library
+
+libxdmcp6-dbg/zesty 1:1.1.2-1.1 amd64
+  X11 authorisation library (debug package)
+
+libxext-dev/zesty 2:1.3.3-1 amd64
+  X11 miscellaneous extensions library (development headers)
+
+libxext-doc/zesty,zesty 2:1.3.3-1 all
+  X11 miscellaneous extensions library (documentation)
+
+libxext6/zesty,now 2:1.3.3-1 amd64 [installed]
+  X11 miscellaneous extension library
+
+libxext6-dbg/zesty 2:1.3.3-1 amd64
+  X11 miscellaneous extensions library (debug package)
+
+libxfixes-dev/zesty 1:5.0.3-1 amd64
+  X11 miscellaneous 'fixes' extension library (development headers)
+
+libxfixes3/zesty,now 1:5.0.3-1 amd64 [installed]
+  X11 miscellaneous 'fixes' extension library
+
+libxfont-dev/zesty-updates,zesty-security 1:2.0.1-3ubuntu0.1 amd64
+  X11 font rasterisation library (development headers)
+
+libxfont1/zesty-updates,zesty-security 1:1.5.2-4ubuntu0.1 amd64
+  X11 font rasterisation library
+
+libxfont1-dev/zesty-updates,zesty-security 1:1.5.2-4ubuntu0.1 amd64
+  X11 font rasterisation library (development headers)
+
+libxfont2/zesty-updates,zesty-security,now 1:2.0.1-3ubuntu0.1 amd64 [installed,automatic]
+  X11 font rasterisation library
+
+libxi-dev/zesty 2:1.7.9-1 amd64
+  X11 Input extension library (development headers)
+
+libxi6/zesty,now 2:1.7.9-1 amd64 [installed]
+  X11 Input extension library
+
+libxine2-ffmpeg/zesty 1.2.6-1.3build1 amd64
+  MPEG-related plugins for libxine2
+
+libxinerama-dev/zesty 2:1.1.3-1 amd64
+  X11 Xinerama extension library (development headers)
+
+libxinerama1/zesty,now 2:1.1.3-1 amd64 [installed]
+  X11 Xinerama extension library
+
+libxinerama1-dbg/zesty 2:1.1.3-1 amd64
+  X11 Xinerama extension library (debug package)
+
+libxkbcommon-dev/zesty 0.7.1-1 amd64
+  library interface to the XKB compiler - development files
+
+libxkbcommon-x11-0/zesty 0.7.1-1 amd64
+  library to create keymaps with the XKB X11 protocol
+
+libxkbcommon-x11-dev/zesty 0.7.1-1 amd64
+  library to create keymaps with the XKB X11 protocol - development files
+
+libxkbcommon0/zesty,now 0.7.1-1 amd64 [installed]
+  library interface to the XKB compiler - shared library
+
+libxkbfile-dev/zesty 1:1.0.9-2 amd64
+  X11 keyboard file manipulation library (development headers)
+
+libxkbfile1/zesty,now 1:1.0.9-2 amd64 [installed,automatic]
+  X11 keyboard file manipulation library
+
+libxkbfile1-dbg/zesty 1:1.0.9-2 amd64
+  X11 keyboard file manipulation library (debug package)
+
+libxml-regexp-perl/zesty,zesty 0.04-1 all
+  Perl module for regular expressions for XML tokens
+
+libxml-security-c-dev/zesty 1.7.3-4 amd64
+  C++ library for XML Digital Signatures (development)
+
+libxml-security-c17v5/zesty 1.7.3-4 amd64
+  C++ library for XML Digital Signatures (runtime)
+
+libxml-security-java/zesty,zesty 1.5.8-2 all
+  Apache Santuario -- XML Security for Java
+
+libxml-security-java-doc/zesty,zesty 1.5.8-2 all
+  Documentation for Apache Santuario
+
+libxmu-dev/zesty 2:1.1.2-2 amd64
+  X11 miscellaneous utility library (development headers)
+
+libxmu-headers/zesty,zesty 2:1.1.2-2 all
+  X11 miscellaneous utility library headers
+
+libxmu6/zesty,now 2:1.1.2-2 amd64 [installed,automatic]
+  X11 miscellaneous utility library
+
+libxmu6-dbg/zesty 2:1.1.2-2 amd64
+  X11 miscellaneous utility library (debug package)
+
+libxmuu-dev/zesty 2:1.1.2-2 amd64
+  X11 miscellaneous micro-utility library (development headers)
+
+libxmuu1/zesty,now 2:1.1.2-2 amd64 [installed]
+  X11 miscellaneous micro-utility library
+
+libxmuu1-dbg/zesty 2:1.1.2-2 amd64
+  X11 miscellaneous micro-utility library (debug package)
+
+libxrandr-dev/zesty 2:1.5.1-1 amd64
+  X11 RandR extension library (development headers)
+
+libxrandr2/zesty,now 2:1.5.1-1 amd64 [installed]
+  X11 RandR extension library
+
+libxrender-dev/zesty 1:0.9.10-1 amd64
+  X Rendering Extension client library (development files)
+
+libxrender1/zesty,now 1:0.9.10-1 amd64 [installed]
+  X Rendering Extension client library
+
+libxres-dev/zesty 2:1.0.7-1 amd64
+  X11 Resource extension library (development headers)
+
+libxres1/zesty,now 2:1.0.7-1 amd64 [installed]
+  X11 Resource extension library
+
+libxres1-dbg/zesty 2:1.0.7-1 amd64
+  X11 Resource extension library (debug package)
+
+libxss-dev/zesty 1:1.2.2-1 amd64
+  X11 Screen Saver extension library (development headers)
+
+libxss1/zesty,now 1:1.2.2-1 amd64 [installed]
+  X11 Screen Saver extension library
+
+libxss1-dbg/zesty 1:1.2.2-1 amd64
+  X11 Screen Saver extension library (debug package)
+
+libxt-dev/zesty 1:1.1.5-1 amd64
+  X11 toolkit intrinsics library (development headers)
+
+libxt6/zesty,now 1:1.1.5-1 amd64 [installed,automatic]
+  X11 toolkit intrinsics library
+
+libxt6-dbg/zesty 1:1.1.5-1 amd64
+  X11 toolkit intrinsics library (debug package)
+
+libxtst-dev/zesty 2:1.2.3-1 amd64
+  X11 Record extension library (development headers)
+
+libxtst-doc/zesty,zesty 2:1.2.3-1 all
+  X11 Record extension library (documentation)
+
+libxtst6/zesty,now 2:1.2.3-1 amd64 [installed,automatic]
+  X11 Testing -- Record extension library
+
+libxv-dev/zesty 2:1.0.11-1 amd64
+  X11 Video extension library (development headers)
+
+libxv1/zesty,now 2:1.0.11-1 amd64 [installed,automatic]
+  X11 Video extension library
+
+libxvmc-dev/zesty 2:1.0.9-1ubuntu1 amd64
+  X11 Video extension library (development headers)
+
+libxvmc1/zesty,now 2:1.0.9-1ubuntu1 amd64 [installed,automatic]
+  X11 Video extension library
+
+libxvmc1-dbg/zesty 2:1.0.9-1ubuntu1 amd64
+  X11 Video extension library (debug package)
+
+libxxf86dga-dev/zesty 2:1.1.4-1 amd64
+  X11 Direct Graphics Access extension library (development headers)
+
+libxxf86dga1/zesty,now 2:1.1.4-1 amd64 [installed]
+  X11 Direct Graphics Access extension library
+
+libxxf86dga1-dbg/zesty 2:1.1.4-1 amd64
+  X11 Direct Graphics Access extension library (debug package)
+
+libxxf86vm-dev/zesty 1:1.1.4-1 amd64
+  X11 XFree86 video mode extension library (development headers)
+
+libxxf86vm1/zesty,now 1:1.1.4-1 amd64 [installed,automatic]
+  X11 XFree86 video mode extension library
+
+libxxf86vm1-dbg/zesty 1:1.1.4-1 amd64
+  X11 XFree86 video mode extension library (debug package)
+
+libydpdict2/zesty 1.0.4-3 amd64
+  library for reading Collins dictionaries
+
+libydpdict2-dev/zesty 1.0.4-3 amd64
+  library for reading Collins dictionaries - development files
+
+libzvbi-common/zesty,zesty,now 0.2.35-13 all [installed]
+  Vertical Blanking Interval decoder (VBI) - common files
+
+libzvbi-dev/zesty 0.2.35-13 amd64
+  Vertical Blanking Interval decoder (VBI) - development files
+
+libzvbi-doc/zesty,zesty 0.2.35-13 all
+  Vertical Blanking Interval decoder (VBI) - documentation files
+
+libzvbi0/zesty,now 0.2.35-13 amd64 [installed]
+  Vertical Blanking Interval decoder (VBI) - runtime files
+
+lifeograph/zesty 1.4.0-1 amd64
+  Private digital diary
+
+linguider/zesty 4.1.1-1 amd64
+  Astronomical autoguiding program for Linux
+
+linpsk/zesty 1.2.5~rc1-1 amd64
+  program for operating PSK31/RTTY modes with X GUI
+
+logisim/zesty,zesty 2.7.1~dfsg-1 all
+  graphical tool for designing and simulating logic circuits
+
+logitech-applet/zesty 0.4~test1-0ubuntu2 amd64
+  Logitech mouse tweaking utility
+
+lomoco/zesty-updates 1.0.0-2ubuntu0.17.04.1 amd64
+  Logitech Mouse Control for USB mice
+
+lua-gall/zesty 1.2-1 amd64
+  Git Abstraction Layer for Lua
+
+lua-gall-doc/zesty,zesty 1.2-1 all
+  Documentation for lua-gall
+
+lxpanel/zesty,now 0.9.3-1ubuntu1 amd64 [installed]
+  LXDE panel
+
+mac-robber/zesty 1.02-5 amd64
+  collects data about allocated files in mounted filesystems
+
+magit/zesty,zesty 2.10.1-1 all
+  transitional dummy package for elpa-magit
+
+matroxset/zesty 0.4-9 amd64
+  switch output modes, including TV out, of Matrox video cards
+
+med-imaging/zesty,zesty 2.1ubuntu6 all
+  Debian Med imaging packages
+
+mediatomb/zesty,zesty 0.12.1-47-g7ab7616-1ubuntu3 all
+  UPnP MediaServer (main package)
+
+mediatomb-common/zesty 0.12.1-47-g7ab7616-1ubuntu3 amd64
+  UPnP MediaServer (base package)
+
+mediatomb-daemon/zesty,zesty 0.12.1-47-g7ab7616-1ubuntu3 all
+  UPnP MediaServer (daemon package)
+
+mediatomb-dbg/zesty 0.12.1-47-g7ab7616-1ubuntu3 amd64
+  UPnP MediaServer (debug package)
+
+meld/zesty,zesty 3.16.4-1 all
+  graphical tool to diff and merge files
+
+mercurial-git/zesty,zesty 0.8.5-4 all
+  Git plugin for Mercurial
+
+metacam/zesty 1.2-9 amd64
+  extract EXIF information from digital camera files
+
+metamonger/zesty,zesty 0.20150503-1 all
+  Save, diff, and restore filesystem metadata
+
+metastore/zesty 1+20080623+debian-5 amd64
+  Store and restore metadata from a filesystem
+
+meterbridge/zesty 0.9.2-13 amd64
+  Collection of Audio meters for the JACK audio server
+
+milter-greylist/zesty 4.5.11-1.1build1 amd64
+  Greylist milter for sendmail
+
+minetest-mod-advspawning/zesty,zesty 0.0.13-1 all
+  Minetest mod providing an advanced spawning framework
+
+minetest-mod-mesecons/zesty,zesty 2016.09.13-1 all
+  Digital circuitry blocks for minetest
+
+mixxx/zesty 2.0.0~dfsg-7 amd64
+  Digital Disc Jockey Interface
+
+mixxx-data/zesty,zesty 2.0.0~dfsg-7 all
+  Digital Disc Jockey Interface -- data files
+
+mmdb-bin/zesty 1.2.0-1 amd64
+  IP geolocation lookup command-line tool
+
+moap/zesty,zesty 0.2.7-1.1 all
+  Swiss army knife for project maintainers and developers
+
+monkeysign/zesty,zesty 2.2.3 all
+  OpenPGP key signing and exchange for humans
+
+monkeysign-doc/zesty,zesty 2.2.3 all
+  OpenPGP key signing and exchange for humans (documentation)
+
+monodevelop-versioncontrol/zesty 5.10.0.871-2 amd64
+  VersionControl plugin for MonoDevelop
+
+mopidy-dleyna/zesty,zesty 1.2.0-1 all
+  Mopidy extension for playing music from Digital Media Servers
+
+mrb/zesty,zesty 0.3 all
+  Manage incremental data snapshots with make/rsync
+
+mtp-tools/zesty 1.1.12-1 amd64
+  Media Transfer Protocol (MTP) library tools
+
+mtpaint/zesty,now 3.40-3 amd64 [installed]
+  painting program to create pixel art and manipulate digital photos
+
+mtpfs/zesty 1.1-5 amd64
+  FUSE filesystem for Media Transfer Protocol devices
+
+mudita24/zesty 1.0.3+svn13-6 amd64
+  ALSA GUI control tool for Envy24 (ice1712) soundcards
+
+multimedia-photography/zesty,zesty 0.5ubuntu2 all
+  Packages for working with digital photography
+
+multimon/zesty 1.0-7.1 amd64
+  Linux Radio Transmission Decoder
+
+myrepos/zesty,zesty 1.20160123 all
+  tool to manage all your version control repos
+
+mythmusic/zesty-updates 2:0.28.0+fixes.20170206.03f4403-0ubuntu3.1 amd64
+  Music add-on module for MythTV
+
+nautilus-qdigidoc/zesty,zesty 0.4.1-0ubuntu1 all
+  Nautilus file manager support for QDigiDoc client
+
+ncurses-examples/zesty 6.0+20160625-1ubuntu1 amd64
+  test programs and examples for ncurses
+
+neurodebian-archive-keyring/zesty,zesty 0.37.5 all
+  neuroscience-oriented distribution - GnuPG archive keys
+
+nictools-pci/zesty 1.3.8-2 amd64
+  Diagnostic tools for many PCI Ethernet cards
+
+node-bignumber/zesty,zesty 1.3.0+dfsg-1 all
+  Arbitrary-precision decimal and non-decimal arithmetic for Node.js
+
+node-d3-format/zesty,zesty 1.0.2-2 all
+  Formatting numbers for human consumption - NodeJS module
+
+node-encoding/zesty,zesty 0.1.12-2 all
+  Convert encodings, uses iconv by default and fallbacks to iconv-lite if needed
+
+node-estraverse/zesty,zesty 4.2.0-1 all
+  ECMAScript JS AST traversal functions
+
+node-fstream-ignore/zesty,zesty 0.0.6-2 all
+  Directory reader configurable by .ignore module for Node.js
+
+node-gettext-parser/zesty,zesty 1.2.2-1 all
+  Parse and compile gettext po and mo files to/from json
+
+node-github-url-from-git/zesty,zesty 1.4.0-1 all
+  Convert github git or gist url to an http url - Node.js module
+
+node-hosted-git-info/zesty,zesty 2.1.5-1 all
+  Provides metadata from Github, Bitbucket and Gitlab
+
+node-marked/zesty,zesty 0.3.6+dfsg-1 all
+  Full-featured markdown parser and compiler for NodeJS
+
+node-normalize-git-url/zesty,zesty 3.0.1-1 all
+  normalizes Git URLs
+
+node-posix-character-classes/zesty,zesty 0.1.0-1 all
+  POSIX character classes for creating regular expressions
+
+node-tar-pack/zesty,zesty 3.1.3-1 all
+  Pack and unpack a Node.js module
+
+node-ws/zesty 1.1.0+ds1.e6ddaae4-3 amd64
+  RFC-6455 WebSocket implementation module for Node.js
+
+notary/zesty 0.1~ds1-1 amd64
+  tool for running and interacting with trusted collections
+
+oci-image-tool/zesty 1.0.0~rc2+dfsg-1 amd64
+  tool for working with OCI images
+
+octave-communications/zesty 1.2.1-2build1 amd64
+  communications package for Octave
+
+octave-communications-common/zesty,zesty 1.2.1-2build1 all
+  communications package for Octave (arch-indep files)
+
+octicons/zesty,zesty 4.4.0-1 all
+  GitHub's icons webfont
+
+ola/zesty 0.10.3-1 amd64
+  Open Lighting Architecture
+
+ola-python/zesty,zesty 0.10.3-1 all
+  Open Lighting Architecture - Python Classes
+
+ola-rdm-tests/zesty,zesty 0.10.3-1 all
+  Open Lighting Architecture - RDM Responder Tests
+
+opam/zesty 1.2.2-5build5 amd64
+  package manager for OCaml
+
+opam-docs/zesty,zesty 1.2.2-5build5 all
+  package manager for OCaml (documentation)
+
+opencaster/zesty 3.2.2+dfsg-1.1 amd64
+  MPEG2 transport stream data generator and packet manipulator
+
+opencfu/zesty 3.9.0-2 amd64
+  count cell colonies (CFUs) on agar plates by processing digital pictures
+
+opensc/zesty 0.16.0-1ubuntu3 amd64
+  Smart card utilities with support for PKCS#15 compatible cards
+
+opensc-pkcs11/zesty 0.16.0-1ubuntu3 amd64
+  Smart card utilities with support for PKCS#15 compatible cards
+
+openslide-tools/zesty 3.4.1+dfsg-2 amd64
+  Manipulation and conversion tools for OpenSlide
+
+openstack-pkg-tools/zesty,zesty 54ubuntu1 all
+  Tools and scripts for building Openstack packages in Debian
+
+oss4-base/zesty 4.2-build2010-5ubuntu1 amd64
+  Open Sound System - base package
+
+oss4-gtk/zesty 4.2-build2010-5ubuntu1 amd64
+  Open Sound System - simple GTK2-based mixer control
+
+ostree/zesty 2016.15-3ubuntu3 amd64
+  content-addressed filesystem for operating system binaries
+
+otp/zesty 1:1.2.2-1 amd64
+  Generator for One Time Pads or Passwords
+
+otpw-bin/zesty 1.3-2ubuntu1 amd64
+  OTPW programs for generating OTPW lists
+
+owslib-doc/zesty,zesty 0.14.0-1 all
+  Client library for Open Geospatial (OGC) web services (Documentation)
+
+packer/zesty 0.10.2+dfsg-3 amd64
+  tool for creating machine images for multiple platforms
+
+pass/zesty,zesty 1.6.5-4 all
+  lightweight directory-based password manager
+
+pct-scanner-scripts/zesty,zesty 0.0.4-3ubuntu1 all
+  scan and create merged DjVu and PDF documents for archiving
+
+pd-cmos/zesty 0.1~svn17615-1 amd64
+  digital logic emulator objects for Pure Data (Pd)
+
+pd-iemlib/zesty 1.20.1-1 amd64
+  collection of general purpose objects and filters for Pure Data
+
+pepper/zesty 0.3.3-3 amd64
+  Source code repository statistics and report tool
+
+photon/zesty,zesty 0.4.6-3.1 all
+  a static HTML gallery generator
+
+photopc/zesty 3.07-1 amd64
+  Interface to digital still cameras
+
+photoprint/zesty 0.4.2~pre2-2.4 amd64
+  Image printing utility
+
+php-geoip/zesty 1.1.1-1 amd64
+  GeoIP module for PHP
+
+php-memcache/zesty 3.0.9~20160311.4991c2f-5 amd64
+  memcache extension module for PHP
+
+php-nrk-predis/zesty 1.0.0-1 amd64
+  Flexible and feature-complete PHP client library for the Redis key-value store
+
+php-numbers-words/zesty,zesty 0.18.1-2 all
+  PEAR module providing methods for spelling numerals in words
+
+php-ssh2/zesty 1.0+0.13-2 amd64
+  Bindings for the libssh2 library
+
+php-tcpdf/zesty,zesty 6.2.12+dfsg2-1ubuntu1 all
+  PHP class for generating PDF files on-the-fly
+
+phpunit-git/zesty,zesty 2.1.3-1 all
+  Simple wrapper for Git
+
+phpunit-version/zesty,zesty 2.0.0-2 all
+  Library that helps with managing the version number of Git-hosted PHP projects
+
+pi/zesty 1.3.4-2 amd64
+  Compute Archimedes' constant Pi to arbitrary precision
+
+pidgin-otr/zesty 4.0.2-1 amd64
+  Off-the-Record Messaging plugin for Pidgin
+
+pkg-mozilla-archive-keyring/zesty,zesty 1.1 all
+  GnuPG archive keys for the Debian Mozilla team package repository
+
+pkg-perl-tools/zesty,zesty 0.36 all
+  collection of tools to aid packaging Perl modules in Debian
+
+plastimatch/zesty 1.6.5+dfsg.1-1 amd64
+  medical image reconstruction and registration
+
+plsense/zesty,zesty 0.3.4-1 all
+  Omni Completion Tool for Perl
+
+popfile/zesty,zesty 1.1.3+dfsg-0ubuntu2 all
+  email classification tool
+
+poppler-utils/zesty-updates,zesty-security,now 0.48.0-2ubuntu2.3 amd64 [installed]
+  PDF utilities (based on Poppler)
+
+postgresql-hll/zesty 2.7-2.1 amd64
+  HyperLogLog extension for PostgreSQL
+
+postgrey/zesty,zesty 1.36-3 all
+  greylisting implementation for Postfix
+
+prads/zesty 0.3.3-1 amd64
+  Passive Real-time Asset Detection System
+
+progress/zesty 0.13.1-1 amd64
+  Coreutils Progress Viewer (formerly known as 'cv')
+
+proj-bin/zesty 4.9.3-1 amd64
+  Cartographic projection library (tools)
+
+proj-data/zesty,zesty 4.9.3-1 all
+  Cartographic projection filter and library (datum package)
+
+proj-ps-doc/zesty,zesty 4.3.3-5 all
+  PostScript docs for cartographic projection filters and library
+
+project-x/zesty,zesty 0.90.4dfsg-0ubuntu5 all
+  DVB demuxing tool
+
+pry/zesty,zesty 0.10.3-2 all
+  powerful irb alternative and runtime developer console
+
+psi-plus-l10n/zesty,zesty 0.16.330-1 all
+  localization files for Psi+
+
+pwgen/zesty 2.07-1.1ubuntu1 amd64
+  Automatic Password generation
+
+pyecm/zesty,zesty 2.0.2-2 all
+  integer factorization with the Elliptic Curve Method (ECM)
+
+pypy-dulwich/zesty 0.16.3-1 amd64
+  Python Git library - pypy module
+
+python-aff4/zesty,zesty 0.24.post1-2 all
+  AFF4 - The Advanced Forensics File Format - Python 2 bindings
+
+python-bloom/zesty,zesty 0.5.23-1 all
+  Bloom is a release automation tool from Robot OS
+
+python-ck/zesty,zesty 1.7.2-1 all
+  Python2 light-weight knowledge manager
+
+python-cliff/zesty,zesty 2.4.0-0ubuntu1 all
+  command line interface formulation framework - Python 2.x
+
+python-cliff-doc/zesty,zesty 2.4.0-0ubuntu1 all
+  command line interface formulation framework documentation
+
+python-cursive/zesty,zesty 0.1.1-1ubuntu1 all
+  OpenStack specific validation of digital signatures - Python 2
+
+python-cursive-doc/zesty,zesty 0.1.1-1ubuntu1 all
+  OpenStack specific validation of digital signatures - doc
+
+python-datalad/zesty,zesty 0.4.1-1 all
+  data files crawler and data distribution (Python 2)
+
+python-dfdatetime/zesty,zesty 20170103-1 all
+  Digital Forensics date and time library for Python 2
+
+python-dfvfs/zesty,zesty 20160918-1 all
+  Digital Forensics Virtual File System
+
+python-dfwinreg/zesty,zesty 20160428-1 all
+  Digital Forensics Windows Registry library for Python 2
+
+python-django-taggit/zesty,zesty 0.21.3-1 all
+  simple tagging for Django (Python 2)
+
+python-dulwich/zesty 0.16.3-1 amd64
+  Python Git library
+
+python-dulwich-dbg/zesty 0.16.3-1 amd64
+  Python Git library - Debug Extension
+
+python-ecdsa/zesty,zesty 0.13-2 all
+  ECDSA cryptographic signature library (Python 2)
+
+python-exif/zesty,zesty 2.1.2-1 all
+  Python library to extract Exif data from TIFF and JPEG files
+
+python-geohash/zesty 0.8.3-1.1 amd64
+  fast, accurate Python geohashing library
+
+python-geohash-dbg/zesty 0.8.3-1.1 amd64
+  fast, accurate Python geohashing library (debug extension)
+
+python-git/zesty,zesty 2.1.1-2 all
+  Python library to interact with Git repositories - Python 2.7
+
+python-git-doc/zesty,zesty 2.1.1-2 all
+  Python library to interact with Git repositories - docs
+
+python-git-os-job/zesty,zesty 1.0.1-1 all
+  show the OpenStack job logs for a commit - Python 2.7
+
+python-gitdb/zesty 2.0.0-2 amd64
+  pure-Python git object database (Python 2)
+
+python-github/zesty,zesty 1.26.0-1 all
+  Access to full Github API v3 from Python2
+
+python-gitlab/zesty,zesty 7.5.0-1 all
+  Python wrapper for the GitLab API (Python 2)
+
+python-kivy-examples/zesty,zesty 1.9.1-1 all
+  Kivy - Multimedia / Multitouch framework in Python (examples)
+
+python-libconcord/zesty,zesty 1.2-1build1 all
+  Harmony remote configuration tool - Python bindings
+
+python-midiutil/zesty,zesty 0.89-1 all
+  Python 2 library to write multi-track MIDI files
+
+python-mipp/zesty,zesty 1.0.0-1 all
+  Meteorological data Ingest-Processing Package (mipp)
+
+python-mipp-test/zesty,zesty 1.0.0-1 all
+  Meteorological data Ingest-Processing Package (test suite)
+
+python-mnemonic/zesty,zesty 0.15-1 all
+  Implementation of Bitcoin BIP-0039
+
+python-mpmath/zesty,zesty 0.19-3 all
+  library for arbitrary-precision floating-point arithmetic
+
+python-mpmath-doc/zesty,zesty 0.19-3 all
+  library for arbitrary-precision floating-point arithmetic - Documentation
+
+python-multipletau/zesty,zesty 0.1.6+ds-1 all
+  multiple-tau algorithm for Python/NumPy
+
+python-multipletau-doc/zesty,zesty 0.1.6+ds-1 all
+  documentation for multipletau Python module
+
+python-nosehtmloutput/zesty,zesty 0.0.5-1 all
+  plugin to produce test results in html - Python 2.x
+
+python-openslide/zesty 1.1.1-2ubuntu1 amd64
+  Python 2 wrapper for reading whole slide image files
+
+python-openslide-examples/zesty,zesty 1.1.1-2ubuntu1 all
+  Python examples for python-openslide and python3-openslide
+
+python-owslib/zesty,zesty 0.14.0-1 all
+  Client library for Open Geospatial (OGC) web services (Python 2)
+
+python-pathspec/zesty,zesty 0.3.4-0ubuntu1 all
+  Utility library for gitignore style pattern matching of file paths
+
+python-pbr/zesty,zesty 1.10.0-0ubuntu6 all
+  inject useful and sensible default behaviors into setuptools - Python 2.x
+
+python-pbr-doc/zesty,zesty 1.10.0-0ubuntu6 all
+  inject useful and sensible default behaviors into setuptools - doc
+
+python-pyelliptic/zesty,zesty 1.5.7-1 all
+  High level Python wrapper for OpenSSL (Python 2)
+
+python-pygit2/zesty 0.24.2-2 amd64
+  bindings for libgit2 - Python 2.x
+
+python-pygit2-doc/zesty,zesty 0.24.2-2 all
+  bindings for libgit2 - doc
+
+python-pyo/zesty 0.8.2-1 amd64
+  Python module written in C to help digital signal processing script creation
+
+python-pysha3/zesty 1.0.0-0ubuntu1 amd64
+  Python SHA-3 wrapper (Python 2)
+
+python-rekall-core/zesty,zesty 1.6.0+dfsg-2 all
+  memory analysis and incident response framework -- core Python modules
+
+python-reno/zesty,zesty 1.3.0-6 all
+  RElease NOtes manager - Python 2.x
+
+python-reno-doc/zesty,zesty 1.3.0-6 all
+  RElease NOtes manager - doc
+
+python-rope/zesty,zesty 0.10.3-1 all
+  Python refactoring library
+
+python-rosinstall/zesty,zesty 0.7.7-2 all
+  Installer for Robot OS
+
+python-sane/zesty 2.8.3-1 amd64
+  Python Imaging Library - SANE interface (Pillow fork)
+
+python-sane-dbg/zesty 2.8.3-1 amd64
+  Python Imaging Library - SANE interface (debug extension)
+
+python-setuptools-git/zesty,zesty 1.1-2 all
+  plugin for setuptools that enables git integration
+
+python-shortuuid/zesty,zesty 0.4.3-2 all
+  generates concise, unambiguous, URL-safe UUIDs
+
+python-sphinxcontrib.issuetracker/zesty,zesty 0.11-1 all
+  Sphinx integration with different issue trackers
+
+python-stdnum/zesty,zesty 1.5-1 all
+  Python module to handle standardized numbers and codes
+
+python-stdnum-doc/zesty,zesty 1.5-1 all
+  Python module to handle standardized numbers and codes (Documentation)
+
+python-stomper/zesty,zesty 0.3.0-1 all
+  Python client implementation of the STOMP protocol
+
+python-vagrant/zesty,zesty 0.5.14-1 all
+  Python 2.7 bindings for interacting with Vagrant virtual machines
+
+python-vcstools/zesty,zesty 0.1.39-1 all
+  VCS/SCM python source control library for svn, git, hg, and bzr
+
+python-vcversioner/zesty,zesty 2.16.0.0-1 all
+  Use version control tags to discover version numbers
+
+python-versiontools/zesty,zesty 1.9.1-2 all
+  Smart replacement for plain tuple used in __version__ (Python 2)
+
+python-webcolors/zesty,zesty 1.5-2 all
+  library of color names and value formats defined by HTML and CSS
+
+python-wstool/zesty,zesty 0.1.13-1 all
+  Commands to manage multi-VCS repositories (for Robot OS)
+
+python3-ck/zesty,zesty 1.7.2-1 all
+  Python3 light-weight knowledge manager
+
+python3-cliff/zesty,zesty 2.4.0-0ubuntu1 all
+  command line interface formulation framework - Python 3.x
+
+python3-cursive/zesty,zesty 0.1.1-1ubuntu1 all
+  OpenStack specific validation of digital signatures - Python 3
+
+python3-dfdatetime/zesty,zesty 20170103-1 all
+  Digital Forensics date and time library for Python 3
+
+python3-dfwinreg/zesty,zesty 20160428-1 all
+  Digital Forensics Windows Registry library for Python 3
+
+python3-django-taggit/zesty,zesty 0.21.3-1 all
+  simple tagging for Django (Python 3)
+
+python3-dulwich/zesty 0.16.3-1 amd64
+  Python Git library - Python3 module
+
+python3-dulwich-dbg/zesty 0.16.3-1 amd64
+  Python Git library - Python 3 Debug Extension
+
+python3-ecdsa/zesty,zesty 0.13-2 all
+  ECDSA cryptographic signature library (Python 3)
+
+python3-exif/zesty,zesty 2.1.2-1 all
+  Python library to extract Exif data from TIFF and JPEG files
+
+python3-git/zesty,zesty 2.1.1-2 all
+  Python library to interact with Git repositories - Python 3.x
+
+python3-git-os-job/zesty,zesty 1.0.1-1 all
+  Show the OpenStack job logs for a commit - Python 3.x
+
+python3-gitdb/zesty 2.0.0-2 amd64
+  pure-Python git object database (Python 3)
+
+python3-github/zesty,zesty 1.26.0-1 all
+  Access the full Github API v3 from Python3
+
+python3-gitlab/zesty,zesty 7.5.0-1 all
+  Python wrapper for the GitLab API (Python 3)
+
+python3-midiutil/zesty,zesty 0.89-1 all
+  Python 3 library to write multi-track MIDI files
+
+python3-mpmath/zesty,zesty 0.19-3 all
+  library for arbitrary-precision floating-point arithmetic (Python3)
+
+python3-multipletau/zesty,zesty 0.1.6+ds-1 all
+  multiple-tau algorithm for Python3/NumPy
+
+python3-nosehtmloutput/zesty,zesty 0.0.5-1 all
+  plugin to produce test results in html - Python 3.x
+
+python3-openslide/zesty 1.1.1-2ubuntu1 amd64
+  Python 3 wrapper for reading whole slide image files
+
+python3-owslib/zesty,zesty 0.14.0-1 all
+  Client library for Open Geospatial (OGC) web services (Python 3)
+
+python3-pathspec/zesty,zesty 0.3.4-0ubuntu1 all
+  Utility library for gitignore style pattern matching of file paths
+
+python3-pbr/zesty,zesty 1.10.0-0ubuntu6 all
+  inject useful and sensible default behaviors into setuptools - Python 3.x
+
+python3-pyelliptic/zesty,zesty 1.5.7-1 all
+  High level Python wrapper for OpenSSL (Python 3)
+
+python3-pygit2/zesty 0.24.2-2 amd64
+  bindings for libgit2 - Python 3.x
+
+python3-pyo/zesty 0.8.2-1 amd64
+  Python3 module written in C to help digital signal processing script creation
+
+python3-pysha3/zesty 1.0.0-0ubuntu1 amd64
+  Python SHA-3 wrapper (Python 3)
+
+python3-reno/zesty,zesty 1.3.0-6 all
+  RElease NOtes manager - Python 3.x
+
+python3-sane/zesty 2.8.3-1 amd64
+  Python Imaging Library - SANE interface (Python3)
+
+python3-sane-dbg/zesty 2.8.3-1 amd64
+  Python Imaging Library - SANE interface (Python3 debug extension)
+
+python3-setuptools-git/zesty,zesty 1.1-2 all
+  plugin for setuptools that enables git integration
+
+python3-shortuuid/zesty,zesty 0.4.3-2 all
+  generates concise, unambiguous, URL-safe UUIDs for Python3
+
+python3-stdnum/zesty,zesty 1.5-1 all
+  Python module to handle standardized numbers and codes (Python3 version)
+
+python3-vagrant/zesty,zesty 0.5.14-1 all
+  Python 3 bindings for interacting with Vagrant virtual machines
+
+python3-vcversioner/zesty,zesty 2.16.0.0-1 all
+  Use version control tags to discover version numbers (Python3 version)
+
+python3-versiontools/zesty,zesty 1.9.1-2 all
+  Smart replacement for plain tuple used in __version__ (Python 3)
+
+python3-webcolors/zesty,zesty 1.5-2 all
+  python3 library of color names and value formats
+
+qdigidoc/zesty 0.4.1-0ubuntu1 amd64
+  QT-based Digidoc client
+
+qdigidoc-dbg/zesty 0.4.1-0ubuntu1 amd64
+  qdigidoc debugging symbols
+
+qflow/zesty 1.1.37-1 amd64
+  Open-Source Digital Synthesis Flow
+
+qflow-tech-osu018/zesty,zesty 1.1.37-1 all
+  Technology files needed for qflow for osu018
+
+qflow-tech-osu035/zesty,zesty 1.1.37-1 all
+  Technology files needed for qflow for osu035
+
+qflow-tech-osu050/zesty,zesty 1.1.37-1 all
+  Technology files needed for qflow for osu050
+
+qgis/zesty 2.14.11+dfsg-2 amd64
+  Geographic Information System (GIS)
+
+qgit/zesty 2.6-1 amd64
+  Qt application for viewing GIT trees
+
+qml-module-qtcontacts/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt 5 Contacts QML module
+
+qml-module-qtfeedback/zesty 5.0~git20130529-0ubuntu15~1 amd64
+  Qt 5 Feedback QML module
+
+qml-module-qtorganizer/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt 5 Organizer QML module
+
+qml-module-qtpublishsubscribe/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Publish Subscribe QML module
+
+qml-module-qtserviceframework/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Service Framework QML module
+
+qml-module-qtsysteminfo/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 System Info QML module
+
+qsapecng/zesty 2.1.1-1 amd64
+  symbolic analyzer and solver of linear analog circuits
+
+qtfeedback5-dbg/zesty 5.0~git20130529-0ubuntu15~1 amd64
+  Qt Feedback library debugging symbols
+
+qtfeedback5-dev/zesty 5.0~git20130529-0ubuntu15~1 amd64
+  Qt 5 Feedback development files
+
+qtfeedback5-doc/zesty,zesty 5.0~git20130529-0ubuntu15~1 all
+  Qt 5 Feedback documentation
+
+qtfeedback5-doc-html/zesty,zesty 5.0~git20130529-0ubuntu15~1 all
+  Qt 5 Feedback HTML documentation
+
+qtpass/zesty 1.1.6-1 amd64
+  GUI for password manager pass
+
+qtpim5-dev/zesty 5.0~git20140515~29475884-0ubuntu23~3 amd64
+  Qt 5 PIM development files
+
+qtpim5-doc/zesty,zesty 5.0~git20140515~29475884-0ubuntu23~3 all
+  Qt 5 PIM documentation
+
+qtpim5-doc-html/zesty,zesty 5.0~git20140515~29475884-0ubuntu23~3 all
+  Qt 5 PIM HTML documentation
+
+qtsystems5-dbg/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt Systems library debugging symbols
+
+qtsystems5-dev/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Systems development files
+
+qtsystems5-examples/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Systems examples
+
+qtsystems5-private-dev/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Systems private development files
+
+qtsystems5-tools/zesty 5.0~git20141206~44f70d99-0ubuntu14~2 amd64
+  Qt 5 Systems tools
+
+quickroute-gps/zesty 2.4-14 amd64
+  GPS analysis software for getting your route on the map
+
+qxw/zesty 20140331-1ubuntu1 amd64
+  advanced interactive crossword construction tool
+
+r-bioc-edger/zesty 3.14.0+dfsg-1 amd64
+  Empirical analysis of digital gene expression data in R
+
+r-cran-bayesm/zesty 3.0-2-2 amd64
+  GNU R package for Bayesian inference
+
+r-cran-catools/zesty 1.17.1-1 amd64
+  GNU R package providing various utility functions
+
+r-cran-effects/zesty,zesty 3.1.2-1 all
+  GNU R graphical and tabular effects display for glm models
+
+r-cran-mcmcpack/zesty 1.3-8-1 amd64
+  R routines for Markov chain Monte Carlo model estimation
+
+r-cran-msm/zesty 1.6.4-1 amd64
+  GNU R Multi-state Markov and hidden Markov models in continuous time
+
+r-cran-pscl/zesty 1.4.9-1 amd64
+  GNU R package for discrete data models
+
+r-cran-sandwich/zesty,zesty 2.3-4-2 all
+  GNU R package for model-robust standard error estimates
+
+r-cran-seroincidence/zesty,zesty 1.0.5-1 all
+  GNU R seroincidence calculator tool
+
+r-cran-vgam/zesty 1.0-3-1 amd64
+  GNU R package for estimating vector generalized additive models
+
+rabbitvcs-cli/zesty,zesty 0.16-1.1 all
+  Command line interface for RabbitVCS
+
+rabbitvcs-core/zesty,zesty 0.16-1.1 all
+  Easy version control
+
+rabbitvcs-gedit/zesty,zesty 0.16-1.1 all
+  Gedit extension for RabbitVCS
+
+rabbitvcs-nautilus/zesty,zesty 0.16-1.1 all
+  Nautilus extension for RabbitVCS
+
+rancid/zesty 3.6.2-2 amd64
+  Really Awesome New Cisco confIg Differ
+
+rawtherapee/zesty 5.0-1ubuntu1 amd64
+  raw image converter and digital photo processor
+
+rawtherapee-data/zesty,zesty 5.0-1ubuntu1 all
+  raw image converter and digital photo processor (data files)
+
+rebar/zesty 2.6.4-2 amd64
+  Sophisticated build-tool for Erlang projects that follows OTP principles
+
+recoverjpeg/zesty 2.6.1-1 amd64
+  recover JFIF (JPEG) pictures and MOV movies
+
+redmine/zesty,zesty 3.3.1-4 all
+  flexible project management web application
+
+reglookup/zesty 1.0.1+svn287-6 amd64
+  utility to analysis for Windows NT-based registry
+
+reglookup-doc/zesty,zesty 1.0.1+svn287-6 all
+  developer documentation for libregfi and python-pyregfi
+
+rekall-core/zesty,zesty 1.6.0+dfsg-2 all
+  memory analysis and incident response framework
+
+repo/zesty,zesty 1.12.37-3ubuntu1 all
+  repository management tool built on top of git
+
+reposurgeon/zesty 3.37-1 amd64
+  Tool for editing version-control repository history
+
+resample/zesty 1.8.1-1build1 amd64
+  Resamples a sound file using a FIR filter
+
+roaraudio-dbg/zesty 1.0~beta11-9 amd64
+  RoarAudio sound server for audio mixing (debugging symbols)
+
+ruby-buff-ignore/zesty,zesty 1.1.1-2 all
+  Ruby helper library for parsing and managing an ignore file
+
+ruby-cal-heatmap-rails/zesty,zesty 3.6.0+dfsg-1 all
+  provides Cal-HeatMap for Rails Asser Pipeline
+
+ruby-devise/zesty,zesty 4.2.0-1 all
+  Flexible authentication solution for Rails with Warden
+
+ruby-email-reply-parser/zesty,zesty 0.5.8-1 all
+  Small library to parse plain text email content
+
+ruby-emot/zesty,zesty 0.0.4-1 all
+  Yet another emoji handler.
+
+ruby-exif/zesty 0.1.2-21build7 amd64
+  Ruby library for EXIF tag parsing
+
+ruby-ffi/zesty 1.9.10debian-1build2 amd64
+  load dynamic libraries, bind functions from within ruby code
+
+ruby-gemnasium-gitlab-service/zesty,zesty 0.2.6-1 all
+  Gemnasium service for Gitlab
+
+ruby-git/zesty,zesty 1.2.8-1 all
+  Ruby interface to the Git revision control system
+
+ruby-github-api/zesty,zesty 0.14.2-1 all
+  ruby client for the official GitHub API
+
+ruby-github-linguist/zesty,zesty 4.7.2-2 all
+  detection and highlight of the programming language of source code
+
+ruby-github-markdown/zesty 0.6.9-2build2 amd64
+  Markdown parser for GitHub.com
+
+ruby-github-markup/zesty,zesty 1.5.1+dfsg-1 all
+  GitHub Markup rendering
+
+ruby-gitlab-flowdock-git-hook/zesty,zesty 1.0.1-2 all
+  Git Post-Receive hook for Flowdock
+
+ruby-gitlab-git/zesty,zesty 10.7.0-1 all
+  Gitlab::Git library
+
+ruby-gli/zesty,zesty 2.14.0-1 all
+  Build command-suite CLI apps without a lot of syntax
+
+ruby-gollum-lib/zesty,zesty 4.2.1+debian-1 all
+  simple, Git-powered wiki
+
+ruby-gollum-rugged-adapter/zesty,zesty 0.4.2-1 all
+  Adapter for Gollum to use Rugged (libgit2) at the backend
+
+ruby-grack/zesty,zesty 2.0.2-2 all
+  Git Smart HTTP Server Rack implementation in Ruby/Rack
+
+ruby-grit/zesty,zesty 2.5.0-4 all
+  Ruby Git bindings
+
+ruby-html-pipeline/zesty,zesty 1.11.0-1 all
+  GitHub HTML processing filters and utilities
+
+ruby-jekyll-gist/zesty,zesty 1.1.0-1 all
+  Liquid tag for displaying GitHub Gists in Jekyll sites
+
+ruby-jeweler/zesty,zesty 2.0.1-3 all
+  Opinionated tool for creating and managing RubyGem projects
+
+ruby-jquery-atwho-rails/zesty,zesty 1.3.2-2 all
+  jquery plugin for @mentions
+
+ruby-jwt/zesty,zesty 1.5.4-1 all
+  JSON Web Token implementation in Ruby
+
+ruby-numerizer/zesty,zesty 0.1.1-1 all
+  parse numbers in natural language from strings (ex forty two)
+
+ruby-octokit/zesty,zesty 4.3.0-1 all
+  Ruby toolkit for working with the GitHub API
+
+ruby-omniauth-github/zesty,zesty 1.1.2-2 all
+  GitHub strategy for the Ruby OmniAuth library
+
+ruby-omniauth-gitlab/zesty,zesty 1.0.2-1 all
+  OAuth2 strategy for authenticating to GitLab service
+
+ruby-omniauth-ldap/zesty,zesty 1.0.5-1 all
+  LDAP strategy for Ruby OmniAuth library
+
+ruby-rack/zesty,zesty 1.6.4-4 all
+  modular Ruby webserver interface
+
+ruby-rack-piwik/zesty,zesty 0.3.0-2 all
+  piwik Analytics racking in your Ruby-Rack based project
+
+ruby-rails-assets-jeresig-jquery.hotkeys/zesty,zesty 0.2.0-4 all
+  jQuery Hotkeys for rails applications
+
+ruby-redis-rails/zesty,zesty 4.0.0-1 all
+  Redis stores for Ruby on Rails
+
+ruby-rgfa/zesty,zesty 1.3.1-1 all
+  parse, edit and write GFA format graphs in Ruby
+
+ruby-rugged/zesty 0.24.0+ds1-2 amd64
+  Ruby binding to the libgit2 library
+
+ruby-task-list/zesty,zesty 1.0.6-1 all
+  GitHub-flavored-Markdown TaskList components
+
+rush/zesty 1.8+dfsg-1 amd64
+  restricted user shell
+
+samplv1/zesty 0.8.0-1 amd64
+  polyphonic sampler synthesizer - standalone
+
+samplv1-common/zesty 0.8.0-1 amd64
+  polyphonic sampler synthesizer - common files
+
+samplv1-lv2/zesty 0.8.0-1 amd64
+  polyphonic sampler synthesizer - LV2 plugin
+
+scalpel/zesty 1.60-4 amd64
+  fast filesystem-independent file recovery
+
+scdaemon/zesty 2.1.15-1ubuntu7 amd64
+  GNU privacy guard - smart card support
+
+seahorse/zesty 3.20.0-3.1 amd64
+  GNOME front end for GnuPG
+
+seahorse-daemon/zesty 3.12.2-3 amd64
+  Seahorse pass phrase caching agent
+
+shotwell/zesty-updates,zesty-security 0.22.0+git20160108.r1.f2fb1f7-0ubuntu3.1 amd64
+  digital photo organizer
+
+shotwell-common/zesty-updates,zesty-updates,zesty-security,zesty-security 0.22.0+git20160108.r1.f2fb1f7-0ubuntu3.1 all
+  digital photo organizer - common files
+
+shotwell-dbg/zesty-updates,zesty-security 0.22.0+git20160108.r1.f2fb1f7-0ubuntu3.1 amd64
+  digital photo organizer - debugging symbols
+
+siggen/zesty 2.3.10-6build1 amd64
+  Waveform generation tools
+
+silversearcher-ag/zesty 1.0.2-2 amd64
+  very fast grep-like program, alternative to ack-grep
+
+simple-image-reducer/zesty,zesty 1.0.2-4 all
+  GTK application to easily reduce and rotate images
+
+simpleid/zesty,zesty 0.8.1-15 all
+  simple OpenID provider implemented in PHP
+
+simpleid-ldap/zesty,zesty 1.0.1-2 all
+  simple OpenID provider implemented in PHP - LDAP plugin
+
+skycat/zesty 3.1.2+starlink1~b+dfsg-2build3 amd64
+  Image visualization and access to catalogs and data for astronomy
+
+slic3r/zesty 1.2.9+dfsg-6 amd64
+  G-code generator for 3D printers
+
+slic3r-prusa/zesty 1.31.6-1 amd64
+  G-code generator for 3D printers
+
+solaar/zesty,zesty 0.9.2+dfsg-7 all
+  Logitech Unifying Receiver peripherals manager for Linux
+
+solaar-gnome3/zesty,zesty 0.9.2+dfsg-7 all
+  GNOME Shell/Unity integration for Solaar
+
+sortsmill-tools/zesty,zesty 0.4-2 all
+  tools for designers of digital fonts
+
+spambayes/zesty,zesty 1.1b1-1 all
+  Python-based spam filter using statistical analysis
+
+spamoracle/zesty 1.4-14build4 amd64
+  A statistical analysis spam filter based on Bayes' formula
+
+spamprobe/zesty 1.4d-14build1 amd64
+  Bayesian spam filter
+
+sparkleshare/zesty,zesty 1.5.0-2 all
+  distributed collaboration and sharing tool
+
+spigot/zesty 0.2017-01-15.gdad1bbc6-1 amd64
+  Exact real calculator
+
+splitpatch/zesty,zesty 1.0+20160815+git13c5941-1 all
+  split the patch up into files or hunks
+
+sputnik/zesty,zesty 12.06.27-2 all
+  Extensible wiki
+
+sqitch/zesty,zesty 0.9995-2 all
+  sane database change management
+
+ssh-import-id/zesty,zesty 5.6-0ubuntu1 all
+  securely retrieve an SSH public key and install it locally
+
+ssl-cert-check/zesty,zesty 3.29-1 all
+  proactively handling X.509 certificate expiration
+
+steam/zesty 1:1.0.0.54+repack-2ubuntu5 i386
+  Valve's Steam digital software delivery system
+
+steam-installer/zesty,zesty 1.0.0.54+repack-2ubuntu5 all
+  Installer for Valve's Steam digital software delivery system
+
+stgit/zesty,zesty 0.17.1-1 all
+  manage stacks of patches in a git repository
+
+stgit-contrib/zesty,zesty 0.17.1-1 all
+  set of contributed script to help working with stgit
+
+sunclock/zesty 3.57-7 amd64
+  fancy clock showing time and geographical data
+
+sunclock-maps/zesty,zesty 3.57-7 all
+  sunclock vector graphic maps
+
+svn-all-fast-export/zesty 1.0.10+git20160822-1 amd64
+  fast-import based converter to convert repos from Subversion to git
+
+svn2git/zesty,zesty 2.4.0-1 all
+  Ruby tool for migrating svn projects to git
+
+sympow/zesty 1.023-8 amd64
+  mathematical program for SYMmetric POWer elliptic curve L-functions -- program
+
+sympow-data/zesty,zesty 1.023-8 all
+  mathematical program for SYMmetric POWer elliptic curve L-functions -- shared
+
+synergy/zesty 1.8.7-stable+dfsg.1-2 amd64
+  Share mouse, keyboard and clipboard over the network
+
+synthv1/zesty 0.8.0-1 amd64
+  old-school polyphonic synthesizer - standalone
+
+synthv1-common/zesty 0.8.0-1 amd64
+  old-school polyphonic synthesizer - common files
+
+synthv1-lv2/zesty 0.8.0-1 amd64
+  old-school polyphonic synthesizer - LV2 plugin
+
+syrep/zesty 0.9-4.3 amd64
+  A generic file repository synchronization tool
+
+terminatorx/zesty 4.0.1-1 amd64
+  realtime audio synthesizer
+
+test-kitchen/zesty,zesty 1.11.1-1 all
+  integration tool for Chef
+
+testdisk/zesty 7.0-3 amd64
+  Partition scanner and disk recovery tool, and PhotoRec file recovery tool
+
+testdisk-dbg/zesty 7.0-3 amd64
+  Partition scanner and disk recovery tool, and PhotoRec file recovery tool
+
+testssl.sh/zesty,zesty 2.8~rc3+dfsg1-1 all
+  Command line tool to check TLS/SSL ciphers, protocols and cryptographic flaws
+
+texlive-extra-utils/zesty,zesty 2016.20170123-5 all
+  TeX Live: TeX auxiliary programs
+
+texlive-fonts-extra/zesty,zesty 2016.20170123-5 all
+  TeX Live: Additional fonts
+
+texlive-latex-extra/zesty,zesty 2016.20170123-5 all
+  TeX Live: LaTeX additional packages
+
+texlive-pstricks/zesty,zesty 2016.20170123-5 all
+  TeX Live: PSTricks
+
+texlive-publishers/zesty,zesty 2016.20170123-5 all
+  TeX Live: Publisher styles, theses, etc.
+
+thunar-vcs-plugin/zesty 0.1.4-2build1 amd64
+  VCS plugin for Thunar file manager
+
+ticgit/zesty,zesty 1.0.2.17-2build1 all
+  ticketing system built on Git
+
+ticgitweb/zesty,zesty 1.0.2.17-2build1 all
+  web interface to ticgit
+
+tig/zesty 2.2-1 amd64
+  ncurses-based text-mode interface for Git
+
+tkgate/zesty 2.0~b10-5ubuntu1 amd64
+  Tcl/Tk based digital circuit editor and simulator
+
+tkgate-data/zesty,zesty 2.0~b10-5ubuntu1 all
+  Tcl/Tk based digital circuit editor and simulator - data files
+
+tkgate-doc/zesty,zesty 2.0~b10-5ubuntu1 all
+  Tcl/Tk based digital circuit editor and simulator - documentation
+
+tmux-plugin-manager/zesty,zesty 3.0.0-1 all
+  tmux plugin manager based on git
+
+topgit/zesty,zesty 0.8-1.2 all
+  a Git patch queue manager
+
+totem/zesty 3.24.0-0ubuntu1 amd64
+  Simple media player for the GNOME desktop based on GStreamer
+
+transcode/zesty 3:1.1.7-9ubuntu2 amd64
+  Text console video-stream processing tool
+
+transcode-dbg/zesty 3:1.1.7-9ubuntu2 amd64
+  Text console video-stream processing tool - debugging symbols
+
+transcode-doc/zesty,zesty 3:1.1.7-9ubuntu2 all
+  Text console video-stream processing tool (documentation)
+
+trustedqsl/zesty 2.3-1 amd64
+  QSL log signing for the Logbook of the World (LoTW)
+
+ttf-adf-accanthis/zesty,zesty 0.20090423-2 all
+  Accanthis font of the Arkandis Digital Foundry
+
+ttf-adf-baskervald/zesty,zesty 0.20090423-2 all
+  Baskervald font of the Arkandis Digital Foundry
+
+ttf-adf-berenis/zesty,zesty 0.20090423-2 all
+  Berenis font of the Arkandis Digital Foundry
+
+ttf-adf-gillius/zesty,zesty 0.20090423-2 all
+  Gillius font of the Arkandis Digital Foundry
+
+ttf-adf-ikarius/zesty,zesty 0.20090423-2 all
+  Ikarius font of the Arkandis Digital Foundry
+
+ttf-adf-irianis/zesty,zesty 0.20090423-2 all
+  Irianis font of the Arkandis Digital Foundry
+
+ttf-adf-libris/zesty,zesty 0.20090423-2 all
+  Libris font of the Arkandis Digital Foundry
+
+ttf-adf-mekanus/zesty,zesty 0.20090423-2 all
+  Mekanus font of the Arkandis Digital Foundry
+
+ttf-adf-oldania/zesty,zesty 0.20090423-2 all
+  Oldania font of the Arkandis Digital Foundry
+
+ttf-adf-romande/zesty,zesty 0.20090423-2 all
+  Romande font of the Arkandis Digital Foundry
+
+ttf-adf-switzera/zesty,zesty 0.20090423-2 all
+  Switzera font of the Arkandis Digital Foundry
+
+ttf-adf-tribun/zesty,zesty 0.20090423-2 all
+  Tribun font of the Arkandis Digital Foundry
+
+ttf-adf-universalis/zesty,zesty 0.20090423-2 all
+  Universalis font of the Arkandis Digital Foundry
+
+ttf-adf-verana/zesty,zesty 0.20090423-2 all
+  Verana font of the Arkandis Digital Foundry
+
+tumbler-plugins-extra/zesty 0.1.31-2build4 amd64
+  D-Bus thumbnailing service (additional plugins)
+
+tumgreyspf/zesty,zesty 1.36-4.1 all
+  external policy checker for the postfix mail server
+
+tupi/zesty 0.2+git08-1 amd64
+  2D Animation design and authoring tool
+
+tupi-data/zesty,zesty 0.2+git08-1 all
+  Data files for tupi (2D Animation design and authoring tool)
+
+tvtime/zesty 1.0.2-14ubuntu4 amd64
+  television display application
+
+ubuntu-cloud-keyring/zesty,zesty 2012.08.14 all
+  GnuPG keys of the Ubuntu Cloud Archive
+
+ubuntu-cloudimage-keyring/zesty,zesty 2013.11.11 all
+  GnuPG keys of the Ubuntu Cloud Image builder
+
+ubuntu-keyring/zesty,zesty,now 2016.10.27 all [installed]
+  GnuPG keys of the Ubuntu archive
+
+ubuntukylin-keyring/zesty,zesty 2014.04.10 all
+  GnuPG keys of the Ubuntu Kylin archive
+
+ufraw/zesty 0.22-1 amd64
+  standalone importer for raw camera images
+
+ufraw-batch/zesty 0.22-1 amd64
+  batch importer for raw camera images
+
+uhd-host/zesty 3.9.5-2 amd64
+  universal hardware driver for Ettus Research products - host apps
+
+unburden-home-dir-doc/zesty,zesty 0.4.0.1 all
+  HTML documentation for unburden-home-dir
+
+unity-scope-github/zesty,zesty 0.1+13.10.20130723-0ubuntu1 all
+  GitHub scope for Unity
+
+update-motd/zesty,zesty 3.6-0ubuntu1 all
+  compliments pam_motd in libpam-modules
+
+vagrant-digitalocean/zesty,zesty 0.9.1-1 all
+  Digital Ocean provider for Vagrant
+
+vcsh/zesty,zesty 1.20151229-1 all
+  Version Control System for $HOME - multiple Git repositories in $HOME
+
+vdr/zesty 2.2.0-6build1 amd64
+  Video Disk Recorder for DVB cards
+
+vdr-dbg/zesty 2.2.0-6build1 amd64
+  Debug symbols for the VDR Video Disc Recorder
+
+vdr-dev/zesty,zesty 2.2.0-6build1 all
+  Video Disk Recorder for DVB cards
+
+vdr-plugin-dvbhddevice/zesty 2.2.0-6build1 amd64
+  Plugin that adds support for full featured HD-DVB cards to VDR
+
+vdr-plugin-dvbhddevice-dbg/zesty 2.2.0-6build1 amd64
+  Plugin that adds support for full featured HD-DVB cards to VDR
+
+vdr-plugin-dvbsddevice/zesty 2.2.0-6build1 amd64
+  Plugin that adds support for full featured SD-DVB cards to VDR
+
+vdr-plugin-dvbsddevice-dbg/zesty 2.2.0-6build1 amd64
+  Plugin that adds support for full featured SD-DVB cards to VDR
+
+vdr-plugin-examples/zesty 2.2.0-6build1 amd64
+  Plugins for vdr to show some possible features
+
+vim-fugitive/zesty,zesty 2.2-2 all
+  Vim plugin to work with Git
+
+vim-lastplace/zesty,zesty 3.1.0-1 all
+  Vim script to reopen files at your last edit position
+
+vim-scripts/zesty,zesty 20130814ubuntu1 all
+  plugins for vim, adding bells and whistles
+
+vokoscreen/zesty 2.5.0-1 amd64
+  easy to use screencast creator
+
+volatility/zesty,zesty 2.6-1 all
+  advanced memory forensics framework
+
+volatility-tools/zesty,zesty 2.6-1 all
+  generate profiles to Volatility Framework
+
+w3-recs/zesty,zesty 20110107-1 all
+  Recommendations of the World Wide Web Consortium (W3C)
+
+wader-core/zesty,zesty 0.5.13-1 all
+  alternative D-Bus service for managing modems
+
+webhook/zesty 2.5.0-1 amd64
+  Small server for creating HTTP endpoints (hooks)
+
+webp/zesty 0.5.2-1 amd64
+  Lossy compression of digital photographic images.
+
+wesnoth-1.12-httt/zesty,zesty 1:1.12.6-1build2 all
+  "Heir to the Throne" official campaign for Wesnoth (branch 1.12)
+
+wing/zesty 0.7-30 amd64
+  Galaga-like arcade game
+
+wing-data/zesty,zesty 0.7-30 all
+  graphics and audio data for wing
+
+wmaloader/zesty 0.1-5.1ubuntu2 amd64
+  firmware downloader for Linksys WMA11B media adapter
+
+wmmoonclock/zesty 1.28+20120605-1 amd64
+  WindowMaker moon phase dockapp
+
+wmsun/zesty 1.05-1 amd64
+  Dockable WindowMaker SunRise/SunSet App
+
+wmtime/zesty 1.4-1 amd64
+  Window Maker dockapp that displays the time and date
+
+wotsap/zesty,zesty 0.7-4 all
+  OpenPGP Web of Trust analyzer and pathfinder
+
+xdaliclock/zesty 2.43+debian-1 amd64
+  Melting digital clock
+
+xfce4-dev-tools/zesty 4.12.0-2 amd64
+  Script to help building Xfce from git
+
+xfig-libs/zesty,zesty 1:3.2.6a-1 all
+  XFig image libraries and examples
+
+xfonts-intl-arabic/zesty,zesty 1.2.1-10 all
+  international fonts for X - Arabic
+
+xiphos/zesty 4.0.4+dfsg1-1 amd64
+  environment for Bible reading, study, and research
+
+xml-security-c-utils/zesty 1.7.3-4 amd64
+  C++ library for XML Digital Signatures (utilities)
+
+xmms2-plugin-daap/zesty 0.8+dfsg-18 amd64
+  XMMS2 - daap plug-in
+
+xmorph/zesty 1:20140707+nmu2 amd64
+  digital image warp and morph (x11)
+
+xoscope/zesty 2.2-1 amd64
+  digital oscilloscope
+
+xsensors/zesty 0.70-3 amd64
+  hardware health information viewer
+
+xtrans-dev/zesty,zesty 1.3.5-1 all
+  X transport library (development files)
+
+xul-ext-colorediffs/zesty,zesty 0.6.2012.01.27.14.07.45-1 all
+  Icedove/Iceape extension that colors diffs from SVN/CVS notificators
+
+xwax/zesty 1.6-2fakesync1 amd64
+  open-source vinyl emulation software for Linux
+
+xwelltris/zesty 1.0.1-16 amd64
+  3D Tetris like popular game similar to Welltris
+
+yadm/zesty,zesty 1.06-1 all
+  Yet Another Dotfiles Manager
+
+ydpdict/zesty 1.0.2+1.0.3-2build1 amd64
+  interface for Collins and Langenscheidt dictionaries
+
+youtube-dl/zesty,zesty 2017.03.26-1 all
+  downloader of videos from YouTube and other sites
+
+zoph/zesty,zesty 0.9.4-3 all
+  Web based digital image presentation and management system
+
+zplug/zesty,zesty 2.4.1-1 all
+  next-generation plugin manager for zsh
+

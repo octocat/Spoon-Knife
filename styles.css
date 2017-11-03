@@ -1,17 +1,17 @@
 * {
-  margin:1px;
-  padding:1px;
+  margin:2px;
+  padding:2px;
 }
 
 #octocat {
   display: block;
-  width:387px;
-  margin: 60px auto;
+  width:389px;
+  margin: 70px auto;
 }
 
 p {
   display: block;
-  width: 410px;
-  margin: 60px auto;
+  width: 415px;
+  margin: 65px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

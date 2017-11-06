@@ -9,3 +9,5 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 Hello, this is a try in making a change in the repository at some point.....
+
+More text

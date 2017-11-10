@@ -1,6 +1,6 @@
 ### Well hello there!
 
-Learning Forking
+Learning Forking & and commiting changes from local to remote 
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,0 +1,10 @@
+Hello, World! 
+First change to practice
+Second should go better this time
+ok, let us have a quick check up.
+First:
+git add to add what's been changed
+Then:
+git commit to index
+ANd
+git push, then log in

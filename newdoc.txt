@@ -1,0 +1,2 @@
+This is a new document file
+It is actually a simple text file

@@ -1,1 +1,2 @@
 my text
+add string

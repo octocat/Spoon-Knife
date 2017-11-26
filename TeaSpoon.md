@@ -1,3 +1,3 @@
 # TeaSpoon branch
 
-__Italic comment__
+_Italic comment_

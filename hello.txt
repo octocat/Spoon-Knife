@@ -1,0 +1,1 @@
+Hello, World! This is just a test to see what happens to the file when I add characters to the hello.txt file. I am sure I am now typing for absolutely no reason...now i'm typing to see if this will be in red after I use the status request.

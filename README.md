@@ -1,3 +1,6 @@
+#20171202, 22:08, kunwang
+	Learn to check out/in using git command-line
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

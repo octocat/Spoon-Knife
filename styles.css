@@ -9,6 +9,13 @@
   margin: 50px auto;
 }
 
+.header { 
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.45rem;
+  color: darkgrey;
+}
+
 p {
   display: block;
   width: 400px;

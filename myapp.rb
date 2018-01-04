@@ -5,12 +5,17 @@ require 'octokit'
 ACCESS_TOKEN = ENV['MY_PERSONAL_TOKEN']
 
 before do
-  #@client ||= Octokit::Client.new(:access_token => ACCESS_TOKEN)
+  @client ||= Octokit::Client.new(:access_token => ACCESS_TOKEN)
+end
+
+get '/event_handler' do
+  "Hello World"
 end
 
 post '/event_handler' do
   @payload = JSON.parse(params[:payload])
-
+  "Well, it worked!"
+  
   case request.env['HTTP_X_GITHUB_EVENT']
   when "pull_request"
     if @payload["action"] == "opened"

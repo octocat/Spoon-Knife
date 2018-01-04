@@ -1,5 +1,12 @@
 require 'sinatra'
 require 'json'
+require 'octokit'
+
+ACCESS_TOKEN = ENV['MY_PERSONAL_TOKEN']
+
+before do
+  #@client ||= Octokit::Client.new(:access_token => ACCESS_TOKEN)
+end
 
 post '/event_handler' do
   @payload = JSON.parse(params[:payload])
@@ -14,6 +21,7 @@ end
 
 helpers do
   def process_pull_request(pull_request)
-    puts "It's #{pull_request['title']}"
+	puts "Processing pull request..."
+    @client.create_status(pull_request['base']['repo']['full_name'], pull_request['head']['sha'], 'pending')
   end
 end

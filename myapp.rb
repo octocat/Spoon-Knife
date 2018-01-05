@@ -5,11 +5,8 @@ require 'octokit'
 ACCESS_TOKEN = ENV['MY_PERSONAL_TOKEN']
 
 before do
-  @client ||= Octokit::Client.new(:access_token => ACCESS_TOKEN)
-end
-
-get '/event_handler' do
-  "Hello World"
+	@client = Octokit::Client.new \
+		:access_token => ACCESS_TOKEN
 end
 
 post '/event_handler' do
@@ -21,12 +18,18 @@ post '/event_handler' do
     if @payload["action"] == "opened"
       process_pull_request(@payload["pull_request"])
     end
+	if @payload["action"] == "reopened"
+      process_pull_request(@payload["pull_request"])
+    end
   end
 end
 
 helpers do
   def process_pull_request(pull_request)
-	puts "Processing pull request..."
-    @client.create_status(pull_request['base']['repo']['full_name'], pull_request['head']['sha'], 'pending')
+	"Processing pull request..."
+	
+    @client.create_status(pull_request['base']['repo']['full_name'], pull_request['head']['sha'], 'failure')
+	
+	"Status created"
   end
 end

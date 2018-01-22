@@ -1,6 +1,6 @@
 ### Well hello there!
 
-We're forking!
+We're forking!  Hello world in a new branch!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,3 +1,5 @@
+
+//dodaje komentarz do gita
 #include <iostream>
 #include <conio.h>
 #include <windows.h>

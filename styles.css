@@ -3,6 +3,13 @@
   padding:0px;
 }
 
+body
+{
+  background-color: blanchedalmond;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
 #octocat {
   display: block;
   width:384px;

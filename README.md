@@ -1,4 +1,4 @@
-### Well hello Wolrd!
+### Well hello World!
 Just trying out some edits here - 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

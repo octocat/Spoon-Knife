@@ -7,11 +7,20 @@
   display: block;
   width:384px;
   margin: 50px auto;
+  border: 5px solid rgb(53,53,53);
+  border-radius: 10px;
 }
 
-p {
+.original_text {
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+.my_text {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px "Copperplate","Copperplate Gothic Light","fantasy",monospace;
 }

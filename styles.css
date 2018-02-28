@@ -6,6 +6,7 @@
 #octocat {
   display: block;
   width:384px;
+  max-height: 600px;
   margin: 50px auto;
 }
 

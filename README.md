@@ -1,4 +1,4 @@
-### The Spoon-Knife Repository
+### The Spoon-Knife Repo.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

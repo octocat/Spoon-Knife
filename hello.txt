@@ -1,0 +1,3 @@
+Hello, World!
+
+My name is Sipo Charles, and this is my first code.

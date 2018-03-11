@@ -9,6 +9,12 @@
   margin: 50px auto;
 }
 
+#octodog {
+    display: block;
+    width:384px;
+    margin: 25px auto;
+}
+
 p {
   display: block;
   width: 400px;

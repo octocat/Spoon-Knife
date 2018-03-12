@@ -5,13 +5,13 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width:400px;
   margin: 50px auto;
 }
 
 p {
   display: block;
-  width: 400px;
+  width: 425px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 24px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

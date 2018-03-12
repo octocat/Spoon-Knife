@@ -1,5 +1,6 @@
 ### Well hello there!
 ### well learning and making some changes to be able to make a pull request.
+### Well learning to write a better commit message.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

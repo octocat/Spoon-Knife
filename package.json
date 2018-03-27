@@ -1,0 +1,19 @@
+{
+  "name": "rude-knife",
+  "version": "1.0.0",
+  "description": "This repository is meant to provide an example for *forking* a repository on GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antenorr/rude-knife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antenorr/rude-knife/issues"
+  },
+  "homepage": "https://github.com/antenorr/rude-knife#readme"
+}

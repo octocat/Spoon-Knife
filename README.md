@@ -13,3 +13,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ### 안녕하세요!
 
 여기서는 GitHub 저장소 *forking*에 대한 예시를 제공합니다.
+
+타인의 프로젝트를 *fork*하면 그 프로젝트에 대한 자신만의 복사본이 만들어 집니다.
+

@@ -1,6 +1,6 @@
 ### Well hello there!
 
-edit
+Philly conduit demo.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

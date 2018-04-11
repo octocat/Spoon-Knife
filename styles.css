@@ -8,8 +8,8 @@
   width:384px;
   margin: 50px auto;
 }
-.test {
-
+.myclass {
+  color: red;
 }
 p {
   display: block;

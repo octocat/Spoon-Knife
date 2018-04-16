@@ -1,7 +1,7 @@
 .search-section{
 	background-color: $light-background-color;
-	height: 340px;
-	padding: 120px 0 120px 0;
+	height: 380px;
+	padding: 140px 0 140px 0;
 	.input-group-prepend{
 		width: 100%;
 	}
@@ -17,7 +17,7 @@
 		border-bottom-left-radius: 50px;
 	}
 	.form-control{
-		height: 60px;
+		height: 100px;
 		width: 100%;
 		color: $darker-background-color;
 		-webkit-border-top-right-radius: 50px;

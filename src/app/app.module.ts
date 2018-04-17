@@ -7,12 +7,14 @@ import { ChatComponent } from './chat/chat.component';
 import { OptionsComponent } from './options/options.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -41,3 +41,7 @@
   box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
   transition: all .3s;
 }
+
+.active{
+  color: $extra-color-fresh !important;
+}

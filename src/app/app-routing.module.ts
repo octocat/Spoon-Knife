@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import {ChatComponent} from './chat/chat.component';
 import {OptionsComponent} from './options/options.component';
 import {HomeComponent} from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
 	{ path: '', component: HomeComponent},
 	{ path: 'chat', component: ChatComponent},
-	{ path: 'options', component: OptionsComponent}
+	{ path: 'options', component: OptionsComponent},
+	{ path: "**", component: PageNotFoundComponent }
 ];
 
 @NgModule({
@@ -16,4 +18,4 @@ const routes: Routes = [
 })
 
 export class AppRoutingModule { } 
-export const routingComponents = [ChatComponent, OptionsComponent, HomeComponent]
+export const routingComponents = [ChatComponent, OptionsComponent, HomeComponent, PageNotFoundComponent]

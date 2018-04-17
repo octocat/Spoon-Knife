@@ -29,7 +29,7 @@ export class ChatComponent implements OnInit {
             nav:false
         },
         1000:{
-            items:5,
+            items:10,
             loop:true
         }
     }

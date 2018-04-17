@@ -1,0 +1,14 @@
+.match-list{
+	background-color: $lightest-background-color;
+	.match-item{
+		height: 100px;
+		width: 100px;
+		background-color:$light-background-color;
+		border-radius: 100%;
+		color: $dark-background-color;
+		a{
+			margin: 0px auto 0px auto;
+		}
+
+	}
+}

@@ -12,7 +12,7 @@ export class ChatComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  	$('.owl-carousel').owlCarousel({
+  	jQuery('.owl-carousel').owlCarousel({
     margin:48,
     loop:true,
     dots: false,

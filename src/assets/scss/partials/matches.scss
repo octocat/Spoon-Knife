@@ -3,11 +3,14 @@
 	.match-item{
 		height: 100px;
 		width: 100px;
-		background-color:$light-background-color;
+		background-color: $light-background-color;
 		border-radius: 100%;
 		color: $dark-background-color;
+		text-align: center;
+		overflow: hidden;
 		a{
-			margin: 0px auto 0px auto;
+			font-size: 5em;
+			border-radius: 100%;
 		}
 
 	}

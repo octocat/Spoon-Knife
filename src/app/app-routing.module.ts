@@ -8,7 +8,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
-	{ path: '', redirectTo: '/home', pathMatch: 'full'},
+	{ path: '', redirectTo: '/', pathMatch: 'full'},
 	{ path: 'home', component: HomeComponent},
 	{ path: 'chat', component: ChatComponent},
 	{ path: 'options', component: OptionsComponent},

@@ -1,3 +1,48 @@
-<p>
-  sign-up works!
-</p>
+ <form action="/home">
+        <h3>Log hier in om op de admin pagina te komen</h3>
+        <div class="form-group">
+          <label for="InputUsername">Username</label>
+          <input [(ngModel)]="username" type="text" class="form-control" id="InputUsername" placeholder="Choose an username" name="username" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputPassword">Password</label>
+          <input [(ngModel)]="password" type="password" class="form-control" id="InputPassword" placeholder="Password" name="password" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputEmail">e-mail address</label>
+          <input [(ngModel)]="email" type="email" class="form-control" id="InputEmail" placeholder="E-mail" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputName">Name</label>
+          <input [(ngModel)]="name" type="text" class="form-control" id="InputName" placeholder="Name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputAge">Age</label>
+          <input [(ngModel)]="age" type="number" class="form-control" id="InputAge" placeholder="Age" name="age" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputSex">Sex</label>
+          <input [(ngModel)]="sex" type="text" class="form-control" id="InputSex" placeholder="Sex" name="sex" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputResidence">Residence</label>
+          <input [(ngModel)]="residence" type="text" class="form-control" id="InputResidence" placeholder="Residence" name="residence" required>
+        </div>
+
+        <div class="form-group">
+          <label for="InputGenres">Genres</label>
+          <input [(ngModel)]="genres" type="text" class="form-control" id="InputGenres" placeholder="Genres, more answers possible" name="genres" required>
+        </div>
+
+        <p class="error">{{error}}</p>
+
+        <button (click)="getSignUp()" class="btn btn-primary">Register</button>
+
+      </form>
+

@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import { DataService } from './data.service';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
-
+import * as $ from 'jquery';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,9 +16,11 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [HttpClientModule, HttpClient, DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

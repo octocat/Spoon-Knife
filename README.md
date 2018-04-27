@@ -10,7 +10,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 
 
-### My contribution demo:
-Some changes 1
-
-Some changes 2
+### My contribution to the README.md:
+This line is my contribution just for demonstration purpose only

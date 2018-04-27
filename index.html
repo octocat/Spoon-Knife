@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 
+<script type="text/javascript">
+  (function() {
+    var blinks = document.getElementsByTagName('blink');
+    var visibility = 'hidden';
+    window.setInterval(function() {
+      for (var i = blinks.length - 1; i >= 0; i--) {
+        blinks[i].style.visibility = visibility;
+      }
+      visibility = (visibility === 'visible') ? 'hidden' : 'visible';
+    }, 250);
+  })();
+</script>
+
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -12,8 +25,10 @@
 <img src="forkit.gif" id="octocat" alt="" />
 
 <!-- Feel free to change this text here -->
-<p size=100 color=red><blink>Fork me? Fork you, @octocat!</blink><text>
+<p style=color:red><font size=100><blink>Fork me? Fork you, @octocat!</blink></font><text>
 </p>
+
+
 
 </body>
 </html>

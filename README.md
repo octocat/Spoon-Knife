@@ -13,3 +13,5 @@ I am doing these changes on my comptuer using Text editing software and will com
 =======
 For test purposes I am adding this detail here to see how I can see changes in pull request.
 >>>>>>> 61ee2cdbb53859cb8e44a2092d770a43b534e387
+
+Another addition after changing git hub config properties

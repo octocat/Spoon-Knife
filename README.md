@@ -8,4 +8,8 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
+<<<<<<< HEAD
 I am doing these changes on my comptuer using Text editing software and will commit this onto the branch.
+=======
+For test purposes I am adding this detail here to see how I can see changes in pull request.
+>>>>>>> 61ee2cdbb53859cb8e44a2092d770a43b534e387

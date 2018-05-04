@@ -22,24 +22,39 @@ origin  https://github.com/saifkhan192/Spoon-Knife.git (push)
 ## For Syncing
 Configure a remote for an upstream repo to sync with
 
+```
 git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 git remote add upstream https://github.com/octocat/Spoon-Knife.git
+```
 
 
+```
 git remote -v
+```
+
 origin	https://github.com/saifkhan192/Spoon-Knife.git (fetch)
+
 origin	https://github.com/saifkhan192/Spoon-Knife.git (push)
+
 upstream	https://github.com/octocat/Spoon-Knife.git (fetch)
+
 upstream	https://github.com/octocat/Spoon-Knife.git (push)
 
 
 ## To sync local repo with origional repo
+```
 git pull upstream master
+```
+
 ## To sync local repo with forked repo
+```
 git push origin master 
+```
 
-
+## To sync local repo with origional repo
+```
 git push upstream master
+```
 remote: Permission to octocat/Spoon-Knife.git denied to saifkhan192.
 
 

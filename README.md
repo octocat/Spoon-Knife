@@ -12,3 +12,30 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 ### My contribution to the README.md:
 This line is my contribution just for demonstration purpose only
+
+
+### My new contribution to the README.md:
+git remote -v
+origin  https://github.com/saifkhan192/Spoon-Knife.git (fetch)
+origin  https://github.com/saifkhan192/Spoon-Knife.git (push)
+
+### For Syncing
+Configure a remote for an upstream repo to sync with
+
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+
+
+git remote -v
+origin	https://github.com/saifkhan192/Spoon-Knife.git (fetch)
+origin	https://github.com/saifkhan192/Spoon-Knife.git (push)
+upstream	https://github.com/octocat/Spoon-Knife.git (fetch)
+upstream	https://github.com/octocat/Spoon-Knife.git (push)
+
+git pull upstream master
+
+
+
+
+
+

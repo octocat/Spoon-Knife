@@ -19,7 +19,7 @@ git remote -v
 origin  https://github.com/saifkhan192/Spoon-Knife.git (fetch)
 origin  https://github.com/saifkhan192/Spoon-Knife.git (push)
 
-### For Syncing
+## For Syncing
 Configure a remote for an upstream repo to sync with
 
 git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
@@ -33,9 +33,9 @@ upstream	https://github.com/octocat/Spoon-Knife.git (fetch)
 upstream	https://github.com/octocat/Spoon-Knife.git (push)
 
 
-# To sync local repo with origional repo
+## To sync local repo with origional repo
 git pull upstream master
-# To sync local repo with forked repo
+## To sync local repo with forked repo
 git push origin master 
 
 

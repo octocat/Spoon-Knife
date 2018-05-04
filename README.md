@@ -32,9 +32,15 @@ origin	https://github.com/saifkhan192/Spoon-Knife.git (push)
 upstream	https://github.com/octocat/Spoon-Knife.git (fetch)
 upstream	https://github.com/octocat/Spoon-Knife.git (push)
 
+
+# To sync local repo with origional repo
 git pull upstream master
+# To sync local repo with forked repo
+git push origin master 
 
 
+git push upstream master
+remote: Permission to octocat/Spoon-Knife.git denied to saifkhan192.
 
 
 

@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;    
+}
+
+#octocat {
+  display: block;
+  width: 384px;
+  margin: 50px auto;
+}
+
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+.answer {
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bold;
+    border: 10px outset blue;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.1s, border 0.1s, box-shadow 0.2s;
+    transition-timing-function: linear;
+}
+/*
+.answer:hover {
+    background-color: aqua;
+    border: 1px solid red;
+    box-shadow: 6px 6px 2px yellow;
+}
+*/

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Spoon-Knife</title>
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<img src="forkit.gif" id="octocat" alt="" />
+
+<!-- Feel free to change this text here -->
+<p>
+  Fork me? Fork you, @octocat!
+</p>
+<p class="answer">Push me!</p>
+
+    <script>
+        var answ = document.getElementsByClassName("answer");
+        
+        answ[0].addEventListener("mousedown", doAnswer);
+        
+        var answerText = "";
+        function doAnswer() {
+            var answP = document.createElement("p");
+            var answPText = document.createTextNode("Fork yourself! ))))");
+            answP.style.color = "red";
+            answP.style.fontSize = "80px";
+            answP.style.fontWeight = "bold";
+            answP.style.textShadow = "2px 2px 2px blue";
+            answP.appendChild(answPText);
+            document.body.appendChild(answP);
+            answ[0].style.border = "1px inset black";
+            answerText = answP;
+        }
+        
+                
+            answ[0].addEventListener("mouseup", borderOutset);
+                
+            function borderOutset() {
+                answ[0].style.border = "10px outset blue";
+                answerText.style.display = "none";
+            }
+    </script>
+</body>
+</html>

@@ -1,20 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
+<html> 	
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<title>GeeMail</title>
+ 		<script src="js/mail-generator.js"></script>
+ 		<link href="css/style.css" rel="stylesheet" media="screen">
+        <script type="text/JavaScript">
+		//Objective 3: When your page loads, via JavaScript access our prepopulated data stored in the window.geemails variable. Each object in the array has the following properties:
+			//date - The date message was sent
+			//subject - The subject of the message
+			//sender - The sender of the message
+			//body - The GeeMail message content
+			
+               window.onload = function () {
+
+            console.log(geemails);
+			   
+        for(var i =0; i<geemails.length; i++){
+            console.log(geemails[i].sender);
+            console.log(geemails[i].subject);
+            console.log(geemails[i].body); 
+			
+			// Use createElement() method  (https://www.w3schools.com/jsref/met_document_createelement.asp)	to auto create div tags for data from mail.generator.js. To get data from mail.generator.js, use innerHTML() method. 
+            var dateDiv = document.createElement("div");
+            dateDiv.className = "date";
+            dateDiv.innerHTML = geemails[i].date;	
+            var sendDiv = document.createElement("div");
+            sendDiv.className = "send";
+            sendDiv.innerHTML = geemails[i].sender;
+            var subjectDiv = document.createElement("div");
+            subjectDiv.className = "subject";
+            subjectDiv.innerHTML = geemails[i].subject;
+           	var bodyDiv = document.createElement("div");
+            bodyDiv.className = "body";
+            bodyDiv.innerHTML = geemails[i].body;
+        }
+				   
+		//Objective 6: Set a recurring function to via the JavaScript setInterval function that will call our existing getNewMessage function that we have created for you that will return a newly created message with the same properties as your previous messages.
+				   
+			   };
+     </script>
 </head>
-
-<body>
-
-<img src="forkit.gif" id="octocat" alt="" />
-
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-
-</body>
-</html>
+		
+	<body class="body">
+	<!-- Objective 2: Create a basic page layout via HTML/CSS with a top header section with the name of the application and a content section where you will display the messages. -->
+    <header>
+	<!-- Bonus: You may add any images or any extra functionality that you wish to your application and use any other JavaScript frameworks if you like. -->	
+      <img src="https://www.ecured.cu/images/thumb/4/48/Geemail_logo.jpg/260px-Geemail_logo.jpg" alt="GeeMail">   
+	</header>
+		
+	<!--  Objective 4: With this data you must make a visual list of mail messages on the page with the following minimum requirements. -->
+		
+    <div id = "currentTime"></div>
+    <div class="topnav">
+      <a href="#">Compose</a>
+      <a href="#">Inbox</a>
+      <a href="#">Outbox</a>
+      <a href="#">Trash</a>
+      <a href="#">Spam</a>
+    </div>
+		
+	<!-- Objective 5: You must show an inbox count somewhere on the page to show the current number of messages in your inbox. -->
+		
+    <div id="mailCounter">
+      <h2 id="mailCount">email count</h2>
+    </div>
+    <div id="inboxTable">
+      <table id="inbox">
+        <thead>
+          <tr>
+            <th id="sender">Sender</th>
+            <th id="subject">Subject</th>
+            <th id="date">Date</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+		<p id="messages"></p>
+      </table>
+    </div>
+ 	</body>
+ </html> 

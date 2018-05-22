@@ -1,17 +1,100 @@
-* {
-  margin:0px;
-  padding:0px;
+/* CSS Document */
+/*   # for ID and . for class */
+body{
+  background-color: #e1f2fc;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+#inboxTable{
+    border-style: solid;
+    border-width: 3px;
+    background-color: #d06726;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+#inboxTable table{
+    width: 100%;
+}
+
+#date, #subject, #sender{
+    border-bottom: solid;
+    border-width: 1px;
+    font-size: 22px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+#currentTime {
+  text-align: left;
+}
+
+.header {
+    padding: 20px;
+    text-align: left;
+}
+
+.topnav {
+    border: solid;
+    border-width: 3px;
+    overflow: hidden;
+    background-color: #d06726;
+}
+
+.topnav a {
+    float: left;
+    display: grid;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#mailCounter {
+  background-color: #d06726;
+}
+
+#mailCounter h2 {
+  border: solid;
+  border-color: black;
+  color: #f702963;
+  text-align: center;
+}
+
+.message td {
+    border-right: solid;
+    border-left: solid;
+    border-width: 3px;
+    border-color
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.message.hidden td {
+    display: none;
+}
+
+tr {
+    border: solid;
+    border-color: black;
+    border-width: 3px
+}
+
+#inbox tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#inbox tr:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+  font-style: italic;
 }

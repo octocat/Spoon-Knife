@@ -1,5 +1,6 @@
 /* CSS Document */
-/*   # for ID and . for class */
+/* Objective 7: All CSS styles should be created in the css\style.css file included in the project. */ 
+
 body{
   background-color: #e1f2fc;
 }
@@ -97,4 +98,38 @@ tr {
   background-color: #ddd;
   text-decoration: underline;
   font-style: italic;
+}
+
+.date{
+color: black;
+padding:2px;
+margin:2px;
+display:table;
+margin-left:auto;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+
+.send{
+color: black;
+border:2px solid black;
+padding:5px;
+margin:5px;
+display:table;
+font-size:18px;
+
+
+}
+
+.subject{
+color: black;
+border:2px solid black;
+padding:2px;
+margin:2px;
+display:table;
+margin:auto;
+font-weight: bold;
+
 }

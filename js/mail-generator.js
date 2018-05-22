@@ -1,4 +1,5 @@
 // JavaScript Document
+/* Objective 8: All JavaScript should be created in the <head> element in your included index.html file inside of the window.onload function already created in the <head> section. */
 (function(){
   /*This is the mail generator file that will generate initial mail messages and expose methods for creating new messages in your project. Do not make any modifications to this file for your solution. Happy coding!*/
 

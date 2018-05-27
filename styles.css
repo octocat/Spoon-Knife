@@ -9,9 +9,25 @@
   margin: 50px auto;
 }
 
-p {
+p, hr, #mail {
   display: block;
   width: 400px;
   margin: 50px auto;
+  color: green;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+#mail p {
+	margin-top: 100px 0 100px 0;
+	font-size: 25px;
+	display: block;
+}
+
+#mail p a {
+	text-decoration: none;
+	font-size: 23px;
+}
+
+#mail p a:hover {
+	color: black;
 }

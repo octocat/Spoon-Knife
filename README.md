@@ -1,10 +1,4 @@
-### Well hello there World! World don't forget to say hello back :)! 
-
-adding a new line for practice! 
-
-add another line 
-
-add another line 
+### Well hello there World!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

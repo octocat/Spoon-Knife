@@ -1,0 +1,3 @@
+hello all. Welcome to the world of DevOps.
+
+I'm new to GIT and GITHub and i'm excited to learn this techonlogy.

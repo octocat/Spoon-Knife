@@ -1,6 +1,6 @@
 ### Well hello there!
 
-Edited
+Edited by Eva
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

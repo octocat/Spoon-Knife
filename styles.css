@@ -9,6 +9,11 @@
   margin: 50px auto;
 }
 
+h1 {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 p {
   display: block;
   width: 400px;

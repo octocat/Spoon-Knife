@@ -12,3 +12,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 - Which is bad.
 - Because I really want to contribute to open source.
 - So I have to remind myself each year.
+- And it might as well be during Hacktober!

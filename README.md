@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! This is a forked copy
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -9,3 +9,7 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 Local edit says, "Local!"
+
+Odd, I was supposed to get an upstream banner, but I didn't.
+
+Let's try again.

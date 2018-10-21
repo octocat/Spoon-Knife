@@ -9,6 +9,11 @@
   margin: 50px auto;
 }
 
+p:hover{
+  color: red;
+  transition: 2s;
+}
+
 p {
   display: block;
   width: 400px;

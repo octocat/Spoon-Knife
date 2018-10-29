@@ -1,11 +1,11 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin:10px;
+  padding:10px;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width:484px;
   margin: 50px auto;
 }
 

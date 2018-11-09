@@ -15,3 +15,9 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+h2 {
+	display: block;
+	font-family: museo-sans-rounded, sans-serif;
+	width : 90%;
+}

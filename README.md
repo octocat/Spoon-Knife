@@ -29,3 +29,9 @@ More changes!
 # And more non-sense
 
 Just because we can.
+
+# Learning to squash manually
+
+Line 0.
+
+Line 1! (amended :sunglasses:)

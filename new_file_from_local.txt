@@ -1,4 +1,0 @@
-This is a new txt file created in my local working environment and I am uploading this to my cloned repo.
-
-
-This is to upload from the branch 'master'

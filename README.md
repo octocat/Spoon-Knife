@@ -1,6 +1,6 @@
 ### Well hello there!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+This repository is meant to provide an example for *forking* a repository on GitHub.  Fork you all!!!!!
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 
@@ -10,3 +10,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 Fork you ALL!!!!
 Making yet more changes to this file.
+
+Yadda yadda new line and shiz.

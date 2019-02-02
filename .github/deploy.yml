@@ -1,0 +1,13 @@
+labels:
+  Deploy%20to%20Staging:
+    environment: staging
+  deploy-to-test:
+    environment: test
+    description: A test environment based on Docker
+    transient_environment: true
+    auto_merge: false
+    required_contexts:
+      - continuous-integration/travis-ci/push
+    payload:
+      port: 8080
+      https: true

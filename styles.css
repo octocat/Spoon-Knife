@@ -3,6 +3,11 @@
   padding:0px;
 }
 
+.title {
+  display: block;
+  text-align: center;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 #octocat {
   display: block;
   width:384px;

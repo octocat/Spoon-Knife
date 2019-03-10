@@ -2,4 +2,9 @@ this is another file
 
 adding some data on my own branch
 
+hanving on to stuff from master
 this is adding a change to master branch...
+
+hanging on to stuff from aj_branch1
+aj_branch1 stuff
+

@@ -5,9 +5,17 @@
 
 .title {
   display: block;
-  text-align: center;
+  text-align: left;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+.title-2 {
+  display: block;
+  text-align: left;
+  margin-top: 90px;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 #octocat {
   display: block;
   width:384px;
@@ -15,8 +23,12 @@
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
+  float: left;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+ol {
+  margin-top: 10px;
+  text-align: left;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

@@ -1,1 +1,8 @@
-asd
+print("cool")
+yo
+man
+what world
+
+
+
+

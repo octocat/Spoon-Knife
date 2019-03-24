@@ -1,8 +1,1 @@
-print("cool")
-yo
-man
-what world
-
-
-
-
+ hey yooo manny do you feel what i'm saying?

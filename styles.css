@@ -10,8 +10,21 @@
 }
 
 p {
+  animation-name: spiralin;
+  animation-duration: 3s;
+  text-align: center;
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+@keyframes spiralin {
+  from {
+    transform: scale(5, 5) rotate(1800deg);
+    transform-origin: center;
+  }
+  to {
+    transform: initial;
+  }
 }

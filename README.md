@@ -15,3 +15,7 @@ Test
 ### Updating on branch/cn-readme-edits
 
 Test Branch
+
+### Checking upstream in config file
+
+Test upstream

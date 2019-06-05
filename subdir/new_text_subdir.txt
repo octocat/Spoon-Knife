@@ -1,0 +1,3 @@
+This is a text file under a sub directory of the root directory.
+added another line
+add the third line

@@ -16,7 +16,7 @@ var indexRoute = require('./routers/index'),
 
 //database config
 //
-const uri = "mongodb+srv://rayabhisek22:Abcabcabv34@cluster0-sesav.mongodb.net/test?retryWrites=true&w=majority";
+const uri = "mongodb://localhost:27017";
 mongoose.connect(uri,{
   useNewUrlParser:true,
   useCreateIndex:true

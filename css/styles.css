@@ -3,21 +3,6 @@
   padding:0px;
 }
 
-/*
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-*/
-
 .topbar {
 	background-color: #707070;
 	color: white;
@@ -25,6 +10,12 @@ p {
 	height: 320px;
 	font-family: Helvetica Neue, Arial, sans-serif;
 	text-align: center;
+}
+
+@media only screen and (max-width: 810px) {
+	.topbar {
+		height: 386px;
+	}
 }
 
 .topbar h3{
@@ -62,7 +53,15 @@ button{
 	margin: 26px 18px 0 17px;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
 .content {
+	width: 1000px;
 	font-family: Helvetica Neue, Arial, sans-serif;
 	text-align: center;
 	color: #888888;
@@ -75,7 +74,7 @@ button{
 }
 
 .product{
-	margin: 0 19px 39px 19px;
+	margin: 0 20px 39px 20px;
 	width: 200px;
 	display: inline-block;
 	text-align: left;
@@ -84,10 +83,10 @@ button{
 .product img{
 	width: 130px;
 	height: 130px;
-	padding: 10px 35px;
+	padding: 9px 34px;
 	vertical-align: center;
 	align-content: center;
-	border: 1px solid #888888;
+	border: 1px solid #707070;
 }
 
 .product p.name{

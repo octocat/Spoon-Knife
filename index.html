@@ -2,19 +2,61 @@
 
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Spoon-Knife</title>
+	<LINK href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+	<div class="topbar">
+		<h3>uma seleção de produtos</h3>
+		<h1>especial para você</h1>
+		<p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+		<button>Conheça a Linx</button>
+		<button>Ajude o algorítimo</button>
+		<button>Seus produtos</button>
+		<button>Compartilhe</button>
+	</div>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+	<div class="container">
+		<div class="content">
+			<h3>Sua seleção especial</h3>
 
+			<div id="addProd"></div>
+
+			<div>
+				<button class="more" onclick="showMoreProducts()">Ainda mais produtos aqui!</button>
+			</div>
+
+			<h3>Compartilhe a novidade</h3>
+			<p class="share">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+			
+			<!-- action="/action_page.php" -->
+			<form action="" method="get">
+				<div class="share">
+					<label>Nome do seu amigo:</label>
+					<input type="text" name="nome" required>
+				</div>
+				<div class="share">
+					<label>E-mail:</label>
+					<input type="email" name="email" required>
+				</div>
+
+				<div>
+					<button class="send" type="submit" value="Submit">Enviar agora</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Testando suas habilidades em HTML, CSS e JS.<br>
+		Linx Impulse<br>
+		2019</p>
+	</div>
+
+	<script type="text/javascript" src="js/page.js"></script>
 </body>
 </html>

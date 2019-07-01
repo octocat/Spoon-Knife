@@ -1,0 +1,175 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+.topbar {
+	background-color: #707070;
+	color: white;
+	width: 100%;
+	height: 320px;
+	font-family: Helvetica Neue, Arial, sans-serif;
+	text-align: center;
+}
+
+@media only screen and (max-width: 810px) {
+	.topbar {
+		height: 386px;
+	}
+}
+
+.topbar h3{
+	font-size: 20px;
+	line-height: 23px;
+	font-weight:400;
+	padding-top: 69px;
+}
+
+.topbar h1{
+	font-size: 40px;
+	line-height: 48px;
+	font-weight:700;
+}
+
+.topbar p{
+	font-size: 14px;
+	line-height: 16px;
+	font-weight:400;
+	padding: 24px
+}
+
+button{
+	background-color: white;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	color: #888888;
+}
+
+.topbar button {
+	width: 160px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 26px 18px 0 17px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.content {
+	width: 1000px;
+	font-family: Helvetica Neue, Arial, sans-serif;
+	text-align: center;
+	color: #888888;
+}
+
+.content h3{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 50px;
+}
+
+.product{
+	margin: 0 20px 39px 20px;
+	width: 200px;
+	display: inline-block;
+	text-align: left;
+}
+
+.product img{
+	width: 130px;
+	height: 130px;
+	padding: 9px 34px;
+	vertical-align: center;
+	align-content: center;
+	border: 1px solid #707070;
+}
+
+.product p.name{
+	font-size: 14px;
+	line-height: 16px;
+	margin: 10px 0;
+}
+
+.product p.description{
+	font-size: 12px;
+	line-height: 16px;
+	min-height: 60px;
+}
+
+.product p.oldPrice, p.installments{
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.product p.price{
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	margin: 6px 0;
+}
+
+.product button{
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 10px 0 0 0;
+}
+
+.content button.more, button.send{
+	width: 260px;
+	height: 39px;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 4px 0 114px 0;
+}
+
+.content button.send{
+	margin: 50px;
+}
+
+
+.content p.share{
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+
+}
+
+.content label{
+	font-size: 12px;
+	line-height: 14px;
+	margin: 20px 20px 7px 20px;
+	display: -webkit-box;
+}
+
+.content div.share{
+	display: inline-block;
+}
+
+.share input{
+	width: 340px;
+	padding: 8px;
+	margin: 0 20px;
+	border: 1px solid #707070; 
+}
+
+.footer{
+	background-color: #707070;
+}
+
+.footer p{
+	font-family: Helvetica Neue, Arial, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 64px 0 72px 0;
+	margin-top: 92px;
+}

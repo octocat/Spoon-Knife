@@ -1,5 +1,6 @@
 ### Well hello there!\
 # *__GENERAL KENOBI!__*
+Resolving conflicts between EternalClickbait:master and octocat:change-the-title and committing changes EternalClickbait:master
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

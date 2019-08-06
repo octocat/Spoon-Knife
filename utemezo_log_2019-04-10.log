@@ -1,0 +1,741 @@
+2019-04-10 00:00:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:00:37 ---Aktív plan-ek keresése...
+2019-04-10 00:00:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:00:44 ---Task kiírás történt erre az idõpontra: 00:00
+2019-04-10 00:00:44 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:00:44 ---Task betöltése a DB-be:
+2019-04-10 00:00:44 ---['-', '-', 'WAITING', 1, 166, 'mkonline_peo.py', 'DAILY', 'RES_LOAD_H_A_CEE RES_LOAD_H_A_CWE RES_LOAD_H_A_IT RES_LOAD_H_A_SEE ,', '2019.04.10. 00:00', '2019.04.10. 00:00', '-', 'RES_ACT']
+2019-04-10 00:00:44 ---Task betöltése a DB-be sikeres.
+2019-04-10 00:00:45 ---Task kiírás történt erre az idõpontra: 00:00
+2019-04-10 00:00:45 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:00:45 ---Task betöltése a DB-be:
+2019-04-10 00:00:45 ---['-', '-', 'WAITING', 1, 164, 'mkonline_peo.py', 'DAILY', 'CON_POW_H_A_CEE CON_POW_H_A_CWE CON_POW_H_A_IT CON_POW_H_A_SEE ,', '2019.04.10. 00:00', '2019.04.10. 00:00', '-', 'CON_ACT']
+2019-04-10 00:00:45 ---Task betöltése a DB-be sikeres.
+2019-04-10 00:00:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:05:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:05:36 ---Aktív plan-ek keresése...
+2019-04-10 00:05:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:05:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:10:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:10:36 ---Aktív plan-ek keresése...
+2019-04-10 00:10:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:10:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:15:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:15:35 ---Aktív plan-ek keresése...
+2019-04-10 00:15:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:15:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:20:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:20:37 ---Aktív plan-ek keresése...
+2019-04-10 00:20:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:20:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:25:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:25:36 ---Aktív plan-ek keresése...
+2019-04-10 00:25:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:25:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:30:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:30:36 ---Aktív plan-ek keresése...
+2019-04-10 00:30:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:30:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:35:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:35:36 ---Aktív plan-ek keresése...
+2019-04-10 00:35:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:35:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:40:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:40:37 ---Aktív plan-ek keresése...
+2019-04-10 00:40:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:40:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:45:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:45:35 ---Aktív plan-ek keresése...
+2019-04-10 00:45:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:45:42 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:50:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:50:35 ---Aktív plan-ek keresése...
+2019-04-10 00:50:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:50:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 00:55:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 00:55:35 ---Aktív plan-ek keresése...
+2019-04-10 00:55:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 00:55:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:00:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:00:38 ---Aktív plan-ek keresése...
+2019-04-10 01:00:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:00:46 ---Task kiírás történt erre az idõpontra: 01:00
+2019-04-10 01:00:46 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:00:46 ---Task betöltése a DB-be:
+2019-04-10 01:00:46 ---['-', '-', 'WAITING', 17, 342, 'entsoe_outage_rendezett_peo.py', 'DAILY', '10YBE----------2 10YBA-JPCC-----D 10YCA-BULGARIA-R 10YHR-HEP------M 10YCY-1001A0003J 10YCZ-CEPS-----N 10Y1001A1001A796 10Y1001A1001A51S 10Y1001A1001A39I 10YFI-1--------U 10YMK-MEPSO----8 10YFR-RTE------C 10YGR-HTSO-----Y 10YHU-MAVIR----U 10YIE-1001A00010 10YAT-APG------L 10YIT-GRTN-----B 10YLV-1001A00074 10YLT-1001A0008Q 10YLU-CEGEDEL-NQ 10Y1001A1001A93C 10YCS-CG-TSO---S 10YGB----------A 10YNL----------L 10YPL-AREA-----S 10YPT-REN------W 10YRO-TEL------P 10Y1001A1001A49F 10YCS-SERBIATSOV 10YSK-SEPS-----K 10YSI-ELES-----O 10YES-REE------0 10YCH-SWISSGRIDZ 10YDE-EON------1 10YDE-RWENET---I 10YDE-ENBW-----N TR 10Y1001A1001A869 10YDE-VE-------2 10YAL-KESH-----5 ,2017,2022,3,', '2019.04.10. 01:00', '2019.04.10. 01:00', '-', 'All_Outage_Update']
+2019-04-10 01:00:46 ---Task betöltése a DB-be sikeres.
+2019-04-10 01:00:46 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:05:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:05:35 ---Aktív plan-ek keresése...
+2019-04-10 01:05:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:05:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:10:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:10:35 ---Aktív plan-ek keresése...
+2019-04-10 01:10:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:10:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:15:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:15:35 ---Aktív plan-ek keresése...
+2019-04-10 01:15:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:15:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:20:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:20:37 ---Aktív plan-ek keresése...
+2019-04-10 01:20:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:20:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:25:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:25:36 ---Aktív plan-ek keresése...
+2019-04-10 01:25:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:25:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:30:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:30:36 ---Aktív plan-ek keresése...
+2019-04-10 01:30:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:30:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:35:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:35:36 ---Aktív plan-ek keresése...
+2019-04-10 01:35:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:35:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:40:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:40:37 ---Aktív plan-ek keresése...
+2019-04-10 01:40:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:40:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:45:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:45:36 ---Aktív plan-ek keresése...
+2019-04-10 01:45:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:45:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:50:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:50:36 ---Aktív plan-ek keresése...
+2019-04-10 01:50:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:50:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 01:55:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 01:55:36 ---Aktív plan-ek keresése...
+2019-04-10 01:55:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 01:55:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:00:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:00:37 ---Aktív plan-ek keresése...
+2019-04-10 02:00:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:00:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:05:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:05:36 ---Aktív plan-ek keresése...
+2019-04-10 02:05:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:05:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:10:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:10:36 ---Aktív plan-ek keresése...
+2019-04-10 02:10:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:10:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:15:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:15:36 ---Aktív plan-ek keresése...
+2019-04-10 02:15:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:15:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:20:38 ---Aktív plan-ek keresése...
+2019-04-10 02:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:20:46 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:25:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:25:36 ---Aktív plan-ek keresése...
+2019-04-10 02:25:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:25:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:30:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:30:36 ---Aktív plan-ek keresése...
+2019-04-10 02:30:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:30:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:35:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:35:36 ---Aktív plan-ek keresése...
+2019-04-10 02:35:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:35:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:40:40 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:40:40 ---Aktív plan-ek keresése...
+2019-04-10 02:40:40 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:40:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:45:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:45:36 ---Aktív plan-ek keresése...
+2019-04-10 02:45:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:45:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:50:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:50:36 ---Aktív plan-ek keresése...
+2019-04-10 02:50:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:50:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 02:55:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 02:55:36 ---Aktív plan-ek keresése...
+2019-04-10 02:55:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 02:55:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:00:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:00:37 ---Aktív plan-ek keresése...
+2019-04-10 03:00:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:00:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:05:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:05:37 ---Aktív plan-ek keresése...
+2019-04-10 03:05:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:05:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:10:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:10:36 ---Aktív plan-ek keresése...
+2019-04-10 03:10:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:10:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:15:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:15:36 ---Aktív plan-ek keresése...
+2019-04-10 03:15:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:15:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:16:36 ***Ütemezõ taskfeldolgozás megkezdése*********************
+2019-04-10 03:16:36 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:16:43 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:16:43 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:16:44 ***Waiting-elõ taskok: 9 darab
+2019-04-10 03:16:44 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:16:44 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:16:44 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_A_CEE']
+2019-04-10 03:17:04 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:17:04 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_A_CWE']
+2019-04-10 03:17:25 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:17:26 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_A_IT']
+2019-04-10 03:17:48 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:17:48 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_A_SEE']
+2019-04-10 03:18:13 ***Task 39621 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 03:18:13 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:18:13 ***DB-be meno msg: HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200Task RES_ACT nevezetu vegzett, 0 szamu hibas es 4 darab hiba nelkuli letoltessel.
+2019-04-10 03:18:13 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:18:13 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:18:13 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:18:13 ***Letotes indult ezekkel a parameterekkel: ['CON_POW_H_A_CEE']
+2019-04-10 03:18:39 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:18:39 ***Letotes indult ezekkel a parameterekkel: ['CON_POW_H_A_CWE']
+2019-04-10 03:19:11 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:19:11 ***Letotes indult ezekkel a parameterekkel: ['CON_POW_H_A_IT']
+2019-04-10 03:19:43 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:19:43 ***Letotes indult ezekkel a parameterekkel: ['CON_POW_H_A_SEE']
+2019-04-10 03:20:20 ***Task 39622 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 03:20:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:20:20 ***DB-be meno msg: HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200Task CON_ACT nevezetu vegzett, 0 szamu hibas es 4 darab hiba nelkuli letoltessel.
+2019-04-10 03:20:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:20:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:20:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:20:20 ***Letotes indult ezekkel a parameterekkel: ['10YBE----------2', '2017', '2022', '3']
+2019-04-10 03:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:20:38 ---Aktív plan-ek keresése...
+2019-04-10 03:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:20:52 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:21:06 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:21:06 ***Letotes indult ezekkel a parameterekkel: ['10YBA-JPCC-----D', '2017', '2022', '3']
+2019-04-10 03:21:36 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:21:36 ***Letotes indult ezekkel a parameterekkel: ['10YCA-BULGARIA-R', '2017', '2022', '3']
+2019-04-10 03:22:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:22:08 ***Letotes indult ezekkel a parameterekkel: ['10YHR-HEP------M', '2017', '2022', '3']
+2019-04-10 03:22:35 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:22:36 ***Letotes indult ezekkel a parameterekkel: ['10YCY-1001A0003J', '2017', '2022', '3']
+2019-04-10 03:23:04 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:23:04 ***Letotes indult ezekkel a parameterekkel: ['10YCZ-CEPS-----N', '2017', '2022', '3']
+2019-04-10 03:23:44 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:23:44 ***Letotes indult ezekkel a parameterekkel: ['10Y1001A1001A796', '2017', '2022', '3']
+2019-04-10 03:24:14 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:24:14 ***Letotes indult ezekkel a parameterekkel: ['10Y1001A1001A51S', '2017', '2022', '3']
+2019-04-10 03:24:42 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:24:42 ***Letotes indult ezekkel a parameterekkel: ['10Y1001A1001A39I', '2017', '2022', '3']
+2019-04-10 03:25:18 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:25:18 ***Letotes indult ezekkel a parameterekkel: ['10YFI-1--------U', '2017', '2022', '3']
+2019-04-10 03:25:39 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:25:39 ---Aktív plan-ek keresése...
+2019-04-10 03:25:39 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:25:56 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:25:59 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:26:00 ***Letotes indult ezekkel a parameterekkel: ['10YMK-MEPSO----8', '2017', '2022', '3']
+2019-04-10 03:26:28 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:26:28 ***Letotes indult ezekkel a parameterekkel: ['10YFR-RTE------C', '2017', '2022', '3']
+2019-04-10 03:27:06 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:27:06 ***Letotes indult ezekkel a parameterekkel: ['10YGR-HTSO-----Y', '2017', '2022', '3']
+2019-04-10 03:27:34 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:27:34 ***Letotes indult ezekkel a parameterekkel: ['10YHU-MAVIR----U', '2017', '2022', '3']
+2019-04-10 03:29:01 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:29:01 ***Letotes indult ezekkel a parameterekkel: ['10YIE-1001A00010', '2017', '2022', '3']
+2019-04-10 03:29:36 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:29:37 ***Letotes indult ezekkel a parameterekkel: ['10YAT-APG------L', '2017', '2022', '3']
+2019-04-10 03:30:22 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:30:22 ***Letotes indult ezekkel a parameterekkel: ['10YIT-GRTN-----B', '2017', '2022', '3']
+2019-04-10 03:30:33 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:30:33 ---Aktív plan-ek keresése...
+2019-04-10 03:30:33 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:30:46 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:31:00 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:31:00 ***Letotes indult ezekkel a parameterekkel: ['10YLV-1001A00074', '2017', '2022', '3']
+2019-04-10 03:31:27 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:31:27 ***Letotes indult ezekkel a parameterekkel: ['10YLT-1001A0008Q', '2017', '2022', '3']
+2019-04-10 03:32:01 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:32:01 ***Letotes indult ezekkel a parameterekkel: ['10YLU-CEGEDEL-NQ', '2017', '2022', '3']
+2019-04-10 03:32:28 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:32:28 ***Letotes indult ezekkel a parameterekkel: ['10Y1001A1001A93C', '2017', '2022', '3']
+2019-04-10 03:32:56 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:32:56 ***Letotes indult ezekkel a parameterekkel: ['10YCS-CG-TSO---S', '2017', '2022', '3']
+2019-04-10 03:33:24 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:33:24 ***Letotes indult ezekkel a parameterekkel: ['10YGB----------A', '2017', '2022', '3']
+2019-04-10 03:35:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:35:35 ---Aktív plan-ek keresése...
+2019-04-10 03:35:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:35:43 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:39:00 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:39:00 ***Letotes indult ezekkel a parameterekkel: ['10YNL----------L', '2017', '2022', '3']
+2019-04-10 03:40:10 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:40:10 ***Letotes indult ezekkel a parameterekkel: ['10YPL-AREA-----S', '2017', '2022', '3']
+2019-04-10 03:40:33 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:40:33 ---Aktív plan-ek keresése...
+2019-04-10 03:40:33 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:40:42 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:41:22 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:41:22 ***Letotes indult ezekkel a parameterekkel: ['10YPT-REN------W', '2017', '2022', '3']
+2019-04-10 03:41:52 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:41:52 ***Letotes indult ezekkel a parameterekkel: ['10YRO-TEL------P', '2017', '2022', '3']
+2019-04-10 03:42:23 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:42:23 ***Letotes indult ezekkel a parameterekkel: ['10Y1001A1001A49F', '2017', '2022', '3']
+2019-04-10 03:42:54 ***Kapcsolodas az adatbazishoz
+2019-04-10 03:42:54 ***Letotes indult ezekkel a parameterekkel: ['10YCS-SERBIATSOV', '2017', '2022', '3']
+2019-04-10 03:45:34 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:45:34 ---Aktív plan-ek keresése...
+2019-04-10 03:45:34 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:45:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:50:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:50:36 ---Aktív plan-ek keresése...
+2019-04-10 03:50:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:50:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 03:55:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 03:55:37 ---Aktív plan-ek keresése...
+2019-04-10 03:55:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 03:55:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:00:39 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:00:39 ---Aktív plan-ek keresése...
+2019-04-10 04:00:39 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:00:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:05:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:05:35 ---Aktív plan-ek keresése...
+2019-04-10 04:05:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:05:46 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:10:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:10:36 ---Aktív plan-ek keresése...
+2019-04-10 04:10:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:10:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:15:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:15:36 ---Aktív plan-ek keresése...
+2019-04-10 04:15:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:15:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:20:38 ---Aktív plan-ek keresése...
+2019-04-10 04:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:20:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:25:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:25:37 ---Aktív plan-ek keresése...
+2019-04-10 04:25:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:25:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:30:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:30:37 ---Aktív plan-ek keresése...
+2019-04-10 04:30:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:30:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:35:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:35:36 ---Aktív plan-ek keresése...
+2019-04-10 04:35:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:35:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:40:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:40:38 ---Aktív plan-ek keresése...
+2019-04-10 04:40:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:40:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:45:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:45:37 ---Aktív plan-ek keresése...
+2019-04-10 04:45:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:45:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:50:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:50:37 ---Aktív plan-ek keresése...
+2019-04-10 04:50:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:50:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 04:55:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 04:55:37 ---Aktív plan-ek keresése...
+2019-04-10 04:55:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 04:55:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:00:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:00:38 ---Aktív plan-ek keresése...
+2019-04-10 05:00:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:00:50 ---Task kiírás történt erre az idõpontra: 05:00
+2019-04-10 05:00:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:00:50 ---Task betöltése a DB-be:
+2019-04-10 05:00:50 ---['-', '-', 'WAITING', 20, 463, 'ice.py', 'DAILY', '3,', '2019.04.10. 05:00', '2019.04.10. 05:00', '-', 'ICE']
+2019-04-10 05:00:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 05:00:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:05:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:05:37 ---Aktív plan-ek keresése...
+2019-04-10 05:05:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:05:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:10:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:10:37 ---Aktív plan-ek keresése...
+2019-04-10 05:10:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:10:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:15:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:15:37 ---Aktív plan-ek keresése...
+2019-04-10 05:15:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:15:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:20:38 ---Aktív plan-ek keresése...
+2019-04-10 05:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:20:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:25:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:25:37 ---Aktív plan-ek keresése...
+2019-04-10 05:25:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:25:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:30:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:30:37 ---Aktív plan-ek keresése...
+2019-04-10 05:30:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:30:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:35:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:35:37 ---Aktív plan-ek keresése...
+2019-04-10 05:35:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:35:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:40:39 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:40:39 ---Aktív plan-ek keresése...
+2019-04-10 05:40:39 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:40:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:45:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:45:36 ---Aktív plan-ek keresése...
+2019-04-10 05:45:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:45:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:50:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:50:36 ---Aktív plan-ek keresése...
+2019-04-10 05:50:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:50:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 05:55:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 05:55:37 ---Aktív plan-ek keresése...
+2019-04-10 05:55:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 05:55:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:00:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:00:38 ---Aktív plan-ek keresése...
+2019-04-10 06:00:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:00:49 ---Task kiírás történt erre az idõpontra: 06:00
+2019-04-10 06:00:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:00:49 ---Task betöltése a DB-be:
+2019-04-10 06:00:49 ---['-', '-', 'WAITING', 1, 167, 'mkonline_peo.py', 'DAILY', 'PRO_WND_H_A_CEE PRO_WND_H_A_CWE PRO_WND_H_A_IT PRO_WND_H_A_SEE ,', '2019.04.10. 06:00', '2019.04.10. 06:00', '-', 'WIND_ACT']
+2019-04-10 06:00:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 06:00:49 ---Task kiírás történt erre az idõpontra: 06:00
+2019-04-10 06:00:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:00:49 ---Task betöltése a DB-be:
+2019-04-10 06:00:49 ---['-', '-', 'WAITING', 1, 165, 'mkonline_peo.py', 'DAILY', 'PRO_SPV_H_A_CEE PRO_SPV_H_A_CWE PRO_SPV_H_A_IT PRO_SPV_H_A_SEE ,', '2019.04.10. 06:00', '2019.04.10. 06:00', '-', 'PV_ACT']
+2019-04-10 06:00:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 06:00:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:05:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:05:37 ---Aktív plan-ek keresése...
+2019-04-10 06:05:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:05:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:10:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:10:36 ---Aktív plan-ek keresése...
+2019-04-10 06:10:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:10:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:15:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:15:36 ---Aktív plan-ek keresése...
+2019-04-10 06:15:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:15:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:20:38 ---Aktív plan-ek keresése...
+2019-04-10 06:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:20:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:25:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:25:36 ---Aktív plan-ek keresése...
+2019-04-10 06:25:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:25:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:30:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:30:36 ---Aktív plan-ek keresése...
+2019-04-10 06:30:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:30:45 ---Task kiírás történt erre az idõpontra: 06:30
+2019-04-10 06:30:45 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:30:45 ---Task betöltése a DB-be:
+2019-04-10 06:30:45 ---['-', '-', 'WAITING', 5, 271, '4213_downloader_peo.py', 'DAILY', 'A09,4,1,', '2019.04.10. 06:30', '2019.04.10. 06:30', '-', 'Transit_CBS']
+2019-04-10 06:30:45 ---Task betöltése a DB-be sikeres.
+2019-04-10 06:30:45 ---Task kiírás történt erre az idõpontra: 06:30
+2019-04-10 06:30:45 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:30:45 ---Task betöltése a DB-be:
+2019-04-10 06:30:45 ---['-', '-', 'WAITING', 18, 340, '422_downloader_peo.py', 'DAILY', 'A61,A01 A03 ,1,32,', '2019.04.10. 06:30', '2019.04.10. 06:30', '-', 'Transit_NTC_D_M']
+2019-04-10 06:30:45 ---Task betöltése a DB-be sikeres.
+2019-04-10 06:30:45 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:35:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:35:35 ---Aktív plan-ek keresése...
+2019-04-10 06:35:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:35:46 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:40:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:40:38 ---Aktív plan-ek keresése...
+2019-04-10 06:40:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:40:49 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:45:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:45:37 ---Aktív plan-ek keresése...
+2019-04-10 06:45:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:45:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:50:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:50:36 ---Aktív plan-ek keresése...
+2019-04-10 06:50:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:50:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 06:55:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 06:55:37 ---Aktív plan-ek keresése...
+2019-04-10 06:55:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 06:55:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:00:39 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:00:39 ---Aktív plan-ek keresése...
+2019-04-10 07:00:39 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 168, 'mkonline_peo.py', 'DAILY', 'RES_LOAD_H_F_CEE RES_LOAD_H_F_CWE RES_LOAD_H_F_IT RES_LOAD_H_F_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'RES_FC']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 169, 'mkonline_peo.py', 'DAILY', 'PRO_WND_H_F_CEE PRO_WND_H_F_CWE PRO_WND_H_F_IT PRO_WND_H_F_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'WIND_FC']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 166, 'mkonline_peo.py', 'DAILY', 'RES_LOAD_H_A_CEE RES_LOAD_H_A_CWE RES_LOAD_H_A_IT RES_LOAD_H_A_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'RES_ACT']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 167, 'mkonline_peo.py', 'DAILY', 'PRO_WND_H_A_CEE PRO_WND_H_A_CWE PRO_WND_H_A_IT PRO_WND_H_A_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'WIND_ACT']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 164, 'mkonline_peo.py', 'DAILY', 'CON_POW_H_A_CEE CON_POW_H_A_CWE CON_POW_H_A_IT CON_POW_H_A_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'CON_ACT']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 162, 'mkonline_peo.py', 'DAILY', 'CON_POW_H_F_CEE CON_POW_H_F_CWE CON_POW_H_F_IT CON_POW_H_F_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'CON_FC']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 163, 'mkonline_peo.py', 'DAILY', 'PRO_SPV_H_F_CEE PRO_SPV_H_F_CWE PRO_SPV_H_F_IT PRO_SPV_H_F_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'PV_FC']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:51 ---Task kiírás történt erre az idõpontra: 07:00
+2019-04-10 07:00:51 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:00:51 ---Task betöltése a DB-be:
+2019-04-10 07:00:51 ---['-', '-', 'WAITING', 1, 165, 'mkonline_peo.py', 'DAILY', 'PRO_SPV_H_A_CEE PRO_SPV_H_A_CWE PRO_SPV_H_A_IT PRO_SPV_H_A_SEE ,', '2019.04.10. 07:00', '2019.04.10. 07:00', '-', 'PV_ACT']
+2019-04-10 07:00:51 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:00:52 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:05:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:05:37 ---Aktív plan-ek keresése...
+2019-04-10 07:05:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:05:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:10:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:10:37 ---Aktív plan-ek keresése...
+2019-04-10 07:10:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:10:48 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:15:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:15:37 ---Aktív plan-ek keresése...
+2019-04-10 07:15:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:48 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:48 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:48 ---Task betöltése a DB-be:
+2019-04-10 07:15:48 ---['-', '-', 'WAITING', 3, 151, 'wsi_hourly_peo.py', 'DAILY', 'EKYT EKAH EKCH EKOD EFHK EFJY EFLA EFOU EFTP EFTU ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'DK_FI']
+2019-04-10 07:15:48 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 144, 'wsi_hourly_peo.py', 'DAILY', 'EBRD EDDI EDDW EDDK EDLW EDDC EDDL EDZE EDDF EDDH EDDV EDDP EDFM EDDM EDDN EDDS ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'DE']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 149, 'wsi_hourly_peo.py', 'DAILY', 'EGPD 03238 EGAA EGUB 03134 03769 03535 EICK EIDW EGPH EGTG 03964 EGNR EGXV EGXU EGLL EGRW 03313 03351 EINN 99079 EGDX 03770 EGUW 99062 EGDY ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'GB']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 147, 'wsi_hourly_peo.py', 'DAILY', 'UMMS UUEE EVRA ULLI EETN EYVI ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'RU']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 161, 'wsi_hourly_peo.py', 'DAILY', 'UKDD UKHH UKKK UKLL UKOO ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'UA']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 152, 'wsi_hourly_peo.py', 'DAILY', 'LGAV LGIR LGIO LGLR LGRP LGTS LGBL ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'GR']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 145, 'wsi_hourly_peo.py', 'DAILY', 'LFBO LFST LFRN LFSR LFMP LFPO LFMN LFRS LFMT LFML LFLL LFQQ LFOH LFCF LFBD LFSB ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'FR']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 154, 'wsi_hourly_peo.py', 'DAILY', 'LIBA LIBD LIPE LICC LIRQ LIMJ LIMC LIRN LICJ LIRA LICZ LIMF LIPZ LIPX ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'IT']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:49 ---['-', '-', 'WAITING', 3, 159, 'wsi_hourly_peo.py', 'DAILY', 'LSZB LSGG LSGL LSZH ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'CH']
+2019-04-10 07:15:49 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:49 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:49 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:49 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 148, 'wsi_hourly_peo.py', 'DAILY', 'EHAM EBAW EHGR EBBR EHDB EHEH EHGG EBLG ELLX EHBK EBOS EHRD ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'BENELUX']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 157, 'wsi_hourly_peo.py', 'DAILY', 'LQBK LYBE LROP LHBP LBBG LJCL LRCL LRCK LRCV LHDC 15310 LHGR LRIA LYKV LJLJ LJMB LHMC LYNI LYNS LJMN LDOS LHPP 15528 LBPD LYPG LDRI LBRS LQSA LWSK LBSF LDSP LHUD LRTR LATI LQTZ LBWN LDZA ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'SE_EUROPE']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 156, 'wsi_hourly_peo.py', 'DAILY', 'EPBY EPGD EPKT EPKK EPLL EPLR EPPO EPSC EPWA EPWR ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'PL']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 155, 'wsi_hourly_peo.py', 'DAILY', 'ENBE ENCN 01492 ENGM ENZV ENTC ENVA ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'NO']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 158, 'wsi_hourly_peo.py', 'DAILY', 'ESGP ESHH ESGJ ESCF ESMA ESSP ESOE ESSB ESCM ESOW ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'SE']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 146, 'wsi_hourly_peo.py', 'DAILY', 'LOWG LOWI LOWK LOWL LOWS LOWW ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'AT']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 153, 'wsi_hourly_peo.py', 'DAILY', 'LEAL LEBL LEBB LPCO LEBA LPFR LPPT LEMD LEMG LERI LEPA LPPR LEZL LEVC LEVD LEZG ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'ES_PT']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 150, 'wsi_hourly_peo.py', 'DAILY', 'LZIB LKTB LKCS LZKZ LKLB LKMT LKPD LKLN LKPR ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'CZ']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Task kiírás történt erre az idõpontra: 07:15
+2019-04-10 07:15:50 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:15:50 ---Task betöltése a DB-be:
+2019-04-10 07:15:50 ---['-', '-', 'WAITING', 3, 160, 'wsi_hourly_peo.py', 'DAILY', 'LTAF 17069 LTAC LTAI LTCJ 17238 LTBE 17237 LTAJ LTAK LTBA LTBJ LTCN LTAU LTAN 17186 LTCR 17340 17056 LTAS ,', '2019.04.10. 07:15', '2019.04.10. 07:15', '-', 'TR']
+2019-04-10 07:15:50 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:15:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:20:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:20:38 ---Aktív plan-ek keresése...
+2019-04-10 07:20:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:20:50 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:21:36 ***Ütemezõ taskfeldolgozás megkezdése*********************
+2019-04-10 07:21:36 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:21:47 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:21:47 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:21:47 ***Waiting-elõ taskok: 38 darab
+2019-04-10 07:21:47 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:21:47 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:21:47 ***Letotes indult ezekkel a parameterekkel: ['10YBE----------2', '2017', '2022', '3']
+2019-04-10 07:22:52 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:22:52 ***Letotes indult ezekkel a parameterekkel: ['10YBA-JPCC-----D', '2017', '2022', '3']
+2019-04-10 07:23:31 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:23:31 ***Letotes indult ezekkel a parameterekkel: ['10YCA-BULGARIA-R', '2017', '2022', '3']
+2019-04-10 07:24:10 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:24:10 ***Letotes indult ezekkel a parameterekkel: ['10YHR-HEP------M', '2017', '2022', '3']
+2019-04-10 07:24:49 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:24:49 ***Letotes indult ezekkel a parameterekkel: ['10YCY-1001A0003J', '2017', '2022', '3']
+2019-04-10 07:25:38 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:25:38 ---Aktív plan-ek keresése...
+2019-04-10 07:25:38 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:25:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:26:36 ***Ütemezõ taskfeldolgozás megkezdése*********************
+2019-04-10 07:26:36 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:26:46 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:26:46 ***Waiting-elõ taskok: 37 darab
+2019-04-10 07:26:46 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:26:46 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:26:46 ***Letotes indult ezekkel a parameterekkel: ['3']
+2019-04-10 07:28:08 ***Task 39624 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:28:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:28:08 ***DB-be meno msg: Letoltott fajlok: ['EOD_Futures_All_20190407.zip', 'EOD_Futures_All_20190408.zip', 'EOD_Futures_All_20190409.zip']. LS Gas Oil Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Belgian ZTP Natural Gas Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Brent Crude Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. CER Daily Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. CER Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. CFR South China Coal Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Dutch TTF Daily Gas Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Dutch TTF Gas Base Load Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. EUA Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. EUA Phase 3 Daily Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. German GASPOOL Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. German NCG Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Italian PSV Natural Gas Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Newcastle Coal Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Richards Bay Coal Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Rotterdam Coal Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. UK Natural Gas Daily Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. UK Natural Gas Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. UK Natural Gas Futures (EUR/MWh) letoltese sikeres volt, az adat betoltodott az adatbazisba. WTI Crude Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. EUAA Futures letoltese sikeres volt, az adat betoltodott az adatbazisba. Task ICE nevezetu vegzett, 0 szamu hibas es 1 darab hiba nelkuli letoltessel.
+2019-04-10 07:28:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:28:09 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:28:09 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:28:09 ***Letotes indult ezekkel a parameterekkel: ['PRO_WND_H_A_CEE']
+2019-04-10 07:28:31 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:28:31 ***Letotes indult ezekkel a parameterekkel: ['PRO_WND_H_A_CWE']
+2019-04-10 07:29:01 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:01 ***Letotes indult ezekkel a parameterekkel: ['PRO_WND_H_A_IT']
+2019-04-10 07:29:23 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:23 ***Letotes indult ezekkel a parameterekkel: ['PRO_WND_H_A_SEE']
+2019-04-10 07:29:48 ***Task 39625 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:29:48 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:48 ***DB-be meno msg: HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200Task WIND_ACT nevezetu vegzett, 0 szamu hibas es 4 darab hiba nelkuli letoltessel.
+2019-04-10 07:29:48 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:48 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:48 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:29:48 ***Letotes indult ezekkel a parameterekkel: ['PRO_SPV_H_A_CEE']
+2019-04-10 07:30:12 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:30:12 ***Letotes indult ezekkel a parameterekkel: ['PRO_SPV_H_A_CWE']
+2019-04-10 07:30:35 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:30:35 ---Aktív plan-ek keresése...
+2019-04-10 07:30:35 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:30:42 ---Task kiírás történt erre az idõpontra: 07:30
+2019-04-10 07:30:42 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:30:42 ---Task betöltése a DB-be:
+2019-04-10 07:30:42 ---['-', '-', 'WAITING', 1, 177, 'mkonline_peo.py', 'DAILY', 'HYD_POW_D_F_CWE HYD_POW_D_F_SEE ,', '2019.04.10. 07:30', '2019.04.10. 07:30', '-', 'HYDRO_FC']
+2019-04-10 07:30:42 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:30:42 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:30:43 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:30:43 ***Letotes indult ezekkel a parameterekkel: ['PRO_SPV_H_A_IT']
+2019-04-10 07:31:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:31:08 ***Letotes indult ezekkel a parameterekkel: ['PRO_SPV_H_A_SEE']
+2019-04-10 07:31:33 ***Task 39626 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:31:33 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:31:33 ***DB-be meno msg: HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200Task PV_ACT nevezetu vegzett, 0 szamu hibas es 4 darab hiba nelkuli letoltessel.
+2019-04-10 07:31:33 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:31:33 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:31:33 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:31:33 ***Letotes indult ezekkel a parameterekkel: ['A09', '4', '1']
+2019-04-10 07:35:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:35:36 ---Aktív plan-ek keresése...
+2019-04-10 07:35:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:35:47 ---Task kiírás történt erre az idõpontra: 07:35
+2019-04-10 07:35:47 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:35:47 ---Task betöltése a DB-be:
+2019-04-10 07:35:47 ---['-', '-', 'WAITING', 1, 177, 'mkonline_peo.py', 'DAILY', 'HYD_POW_D_F_CWE HYD_POW_D_F_SEE ,', '2019.04.10. 07:35', '2019.04.10. 07:35', '-', 'HYDRO_FC']
+2019-04-10 07:35:47 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:35:47 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:39:19 ***Task 39627 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:39:19 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:39:20 ***DB-be meno msg: Letoltes megkezdodott  201904052200   201904112200  kozottLetoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A49F  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A49F sikeres. Letoltes In_Domain= 10Y1001A1001A51S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A51S sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A869  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10Y1001A1001A869 sikeres. Letoltes In_Domain= 10Y1001A1001A93C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10Y1001A1001A93C sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YLU-CEGEDEL-NQ sikeres. Letoltes In_Domain= 10YLU-CEGEDEL-NQ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YPT-REN------W sikeres. Letoltes In_Domain= 10YPT-REN------W  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A50U sikeres. Letoltes In_Domain= 10Y1001A1001A50U  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YFR-RTE------C sikeres. Osszes adat sikeresen betoltesre kerult.Task Transit_CBS nevezetu vegzett, 0 szamu hibas es 1 darab hiba nelkuli letoltessel.
+2019-04-10 07:39:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:39:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:39:20 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:39:20 ***Letotes indult ezekkel a parameterekkel: ['A61', 'A01', '1', '32']
+2019-04-10 07:40:37 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:40:37 ---Aktív plan-ek keresése...
+2019-04-10 07:40:37 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:40:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:42:53 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:42:53 ***Letotes indult ezekkel a parameterekkel: ['A61', 'A03', '1', '32']
+2019-04-10 07:45:36 ---Ütemezõ-Planfeldolgozás indítása---------
+2019-04-10 07:45:36 ---Aktív plan-ek keresése...
+2019-04-10 07:45:36 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:45:44 ---Task kiírás történt erre az idõpontra: 07:46
+2019-04-10 07:45:44 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:45:44 ---Task betöltése a DB-be:
+2019-04-10 07:45:44 ---['-', '-', 'WAITING', 1, 167, 'mkonline_peo.py', 'DAILY', 'PRO_WND_H_A_CEE PRO_WND_H_A_CWE PRO_WND_H_A_IT PRO_WND_H_A_SEE ,', '2019.04.10. 07:46', '2019.04.10. 07:45', '-', 'WIND_ACT']
+2019-04-10 07:45:44 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:45:44 ---Task kiírás történt erre az idõpontra: 07:46
+2019-04-10 07:45:44 ---Kapcsolodas az adatbazishoz
+2019-04-10 07:45:44 ---Task betöltése a DB-be:
+2019-04-10 07:45:44 ---['-', '-', 'WAITING', 1, 165, 'mkonline_peo.py', 'DAILY', 'PRO_SPV_H_A_CEE PRO_SPV_H_A_CWE PRO_SPV_H_A_IT PRO_SPV_H_A_SEE ,', '2019.04.10. 07:46', '2019.04.10. 07:45', '-', 'PV_ACT']
+2019-04-10 07:45:44 ---Task betöltése a DB-be sikeres.
+2019-04-10 07:45:44 ---Ütemezõ-Planfeldolgozás vége-------------
+2019-04-10 07:46:08 ***Task 39628 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:46:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:08 ***DB-be meno msg: Letoltes megkezdodott  201904082200   201905122200  kozott. Letoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A49F  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A49F sikeres. Letoltes In_Domain= 10Y1001A1001A51S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A51S sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A869  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10Y1001A1001A869 sikeres. Letoltes In_Domain= 10Y1001A1001A93C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10Y1001A1001A93C sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YLU-CEGEDEL-NQ sikeres. Letoltes In_Domain= 10YLU-CEGEDEL-NQ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YPT-REN------W sikeres. Letoltes In_Domain= 10YPT-REN------W  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A50U sikeres. Letoltes In_Domain= 10Y1001A1001A50U  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YAT-APG------L sikeres. Osszes adat sikeresen betoltesre kerult.Letoltes megkezdodott  201904082200   201905122200  kozott. Letoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A39I  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A39I sikeres. Letoltes In_Domain= 10Y1001A1001A49F  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10Y1001A1001A49F sikeres. Letoltes In_Domain= 10Y1001A1001A51S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A51S sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A796  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10Y1001A1001A796 sikeres. Letoltes In_Domain= 10Y1001A1001A869  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10Y1001A1001A869 sikeres. Letoltes In_Domain= 10Y1001A1001A93C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10Y1001A1001A93C sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAL-KESH-----5  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YAL-KESH-----5 sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBA-JPCC-----D  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YBA-JPCC-----D sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YBE----------2  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YBE----------2 sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCA-BULGARIA-R  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YCA-BULGARIA-R sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCH-SWISSGRIDZ  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YCH-SWISSGRIDZ sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCZ-CEPS-----N  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YCZ-CEPS-----N sikeres. Letoltes In_Domain= 10YCS-CG-TSO---S  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YCS-CG-TSO---S sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YCS-SERBIATSOV  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YCS-SERBIATSOV sikeres. Letoltes In_Domain= 10YDE-ENBW-----N  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-ENBW-----N sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YLU-CEGEDEL-NQ sikeres. Letoltes In_Domain= 10YLU-CEGEDEL-NQ  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-RWENET---I  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YDE-RWENET---I sikeres. Letoltes In_Domain= 10YDE-VE-------2  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YDE-VE-------2 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YES-REE------0  Out_Domain= 10YPT-REN------W sikeres. Letoltes In_Domain= 10YPT-REN------W  Out_Domain= 10YES-REE------0 sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFI-1--------U  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YFI-1--------U sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YFR-RTE------C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YFR-RTE------C sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGB----------A  Out_Domain= 10Y1001A1001A59C sikeres. Letoltes In_Domain= 10Y1001A1001A59C  Out_Domain= 10YGB----------A sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YMK-MEPSO----8 sikeres. Letoltes In_Domain= 10YMK-MEPSO----8  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHR-HEP------M  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YHR-HEP------M sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YHU-MAVIR----U  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YHU-MAVIR----U sikeres. Letoltes In_Domain= 10YIT-GRTN-----B  Out_Domain= 10YSI-ELES-----O sikeres. Letoltes In_Domain= 10YSI-ELES-----O  Out_Domain= 10YIT-GRTN-----B sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YLV-1001A00074 sikeres. Letoltes In_Domain= 10YLV-1001A00074  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10Y1001A1001A50U sikeres. Letoltes In_Domain= 10Y1001A1001A50U  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YLT-1001A0008Q  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YLT-1001A0008Q sikeres. Letoltes In_Domain= 10YNL----------L  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YNL----------L sikeres. Letoltes In_Domain= 10YNO-0--------C  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YNO-0--------C sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSK-SEPS-----K sikeres. Letoltes In_Domain= 10YSK-SEPS-----K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YPL-AREA-----S  Out_Domain= 10YSE-1--------K sikeres. Letoltes In_Domain= 10YSE-1--------K  Out_Domain= 10YPL-AREA-----S sikeres. Letoltes In_Domain= 10YRO-TEL------P  Out_Domain= 10YUA-WEPS-----0 sikeres. Letoltes In_Domain= 10YUA-WEPS-----0  Out_Domain= 10YRO-TEL------P sikeres. Letoltes In_Domain= 10YTR-TEIAS----W  Out_Domain= 10YGR-HTSO-----Y sikeres. Letoltes In_Domain= 10YGR-HTSO-----Y  Out_Domain= 10YTR-TEIAS----W sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10Y1001A1001A82H sikeres. Letoltes In_Domain= 10Y1001A1001A82H  Out_Domain= 10YAT-APG------L sikeres. Letoltes In_Domain= 10YAT-APG------L  Out_Domain= 10YDE-EON------1 sikeres. Letoltes In_Domain= 10YDE-EON------1  Out_Domain= 10YAT-APG------L sikeres. Osszes adat sikeresen betoltesre kerult.Task Transit_NTC_D_M nevezetu vegzett, 0 szamu hibas es 2 darab hiba nelkuli letoltessel.
+2019-04-10 07:46:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:08 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:08 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_F_CEE']
+2019-04-10 07:46:27 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:27 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_F_CWE']
+2019-04-10 07:46:47 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:46:47 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_F_IT']
+2019-04-10 07:47:06 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:47:06 ***Letotes indult ezekkel a parameterekkel: ['RES_LOAD_H_F_SEE']
+2019-04-10 07:47:26 ***Task 39629 id vegzett, 0 szamu hibas letoltessel.
+2019-04-10 07:47:26 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:47:27 ***DB-be meno msg: HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200HTTP_STATUS:   200Task RES_FC nevezetu vegzett, 0 szamu hibas es 4 darab hiba nelkuli letoltessel.
+2019-04-10 07:47:27 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:47:27 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:47:27 ***Kapcsolodas az adatbazishoz
+2019-04-10 07:47:27 ***Letotes indult ezekkel a parameterekkel: ['PRO_WND_H_F_CEE']

@@ -6,12 +6,13 @@
 #octocat {
   display: block;
   width:384px;
-  margin: 50px auto;
+  padding: 50px auto;
 }
 
-p {
+.fork-parag {
   display: block;
   width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  padding: 50px auto;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: red;
 }

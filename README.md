@@ -17,6 +17,14 @@ _This repository is meant to provide an example for *forking* a repository on Gi
 git check
 git status
 ```
+[hello world](http://www.google.com)
+
+-mango
+-banana
+
+
+1 mango
+2 banana
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 

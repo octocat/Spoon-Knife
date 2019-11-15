@@ -1,17 +1,560 @@
-* {
-  margin:0px;
-  padding:0px;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+$baseClass: ".demo";
+
+$mainColor: #61d4f1;
+$darkerColor: #3dc1da;
+$successColor: #53e2c2;
+$darkerSuccess: #36d09d;
+$yellow: #ecb400;
+
+$demoW: 300px;
+
+$droneLeft: 16px;
+
+$circleSize: 40px;
+$circleLeftPad: 30px;
+
+$numOfSteps: 4;
+
+$stepAT: 2s;
+
+$grabPause: $stepAT / 5;
+$grabPartAT: ($stepAT - $grabPause) / 2;
+$grabRaiseDelay: $grabPartAT + $grabPause;
+$grabbersShiftY: 15px;
+$grabYChange: -70px;
+
+$textYShift: 20px;
+$textAT: $stepAT / 5;
+
+$bgAT: 1s;
+$progressAT: 0.5s;
+
+$droneShiftX: $demoW * 0.85 - $droneLeft - 26px;
+$droneShiftXDelay: $stepAT * 1.2;
+$droneShiftXAT: $stepAT * 1.3;
+
+$droneLandingDelay: $droneShiftXDelay + $droneShiftXAT;
+$droneLandingAT: 0.3s;
+
+$droneArmsDelay: $droneLandingDelay + $droneLandingAT - 0.1s;
+$droneArmsAT: 0.3s;
+
+$droneLeaveDelay: $droneArmsDelay + $droneArmsAT;
+$leaveAT: 1.1s;
+
+$revertDelay: $droneLeaveDelay + $leaveAT;
+$revertShiftXAT: 0.8s;
+
+$bgAnimDelay: $stepAT * ($numOfSteps - 1.8) + 0.2s;
+$progressAnimDelay: $bgAnimDelay + 0.3s;
+
+#{$baseClass} {
+  $bgTrans: background-color $bgAT;
+
+  position: relative;
+  width: $demoW;
+  height: 64px;
+  padding-left: $circleSize + $circleLeftPad;
+  padding-right: $circleLeftPad / 2;
+  border-radius: 10px;
+  background: $mainColor;
+  transition: $bgTrans;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 100%;
+    width: 14%;
+    height: 6px;
+    background: $darkerColor;
+    transform: scaleX(0);
+    transform-origin: 0 100%;
+  }
+
+  &:after {
+    left: 19%;
+    width: 66%;
+  }
+
+  &.s--processing {
+    background-color: $successColor;
+    transition-delay: $bgAnimDelay;
+
+    &:before,
+    &:after {
+      transform: scaleX(1);
+      background-color: $darkerSuccess;
+    }
+
+    &:before {
+      transition: transform $stepAT * 0.3 $grabRaiseDelay,
+        background-color $bgAT $bgAnimDelay;
+    }
+
+    &:after {
+      $time: ($demoW * 0.66) / $droneShiftX * $droneShiftXAT;
+      transition: transform $time $droneShiftXDelay,
+        background-color $bgAT $bgAnimDelay;
+    }
+  }
+
+  &.s--reverting {
+    background-color: $mainColor;
+    transition: background-color $revertShiftXAT $revertShiftXAT;
+
+    &:before {
+      transform: scaleX(0) scaleY(0);
+      opacity: 0;
+      transition: transform 0.2s $revertShiftXAT - 0.05s,
+        opacity 0.3s $revertShiftXAT - 0.2s;
+    }
+
+    &:after {
+      transform: scaleX(0);
+      opacity: 0;
+      transition: transform $revertShiftXAT - 0.05s,
+        opacity 0.3s $revertShiftXAT - 0.2s;
+    }
+  }
+
+  @mixin isProcessing {
+    #{$baseClass}.s--processing & {
+      @content;
+    }
+  }
+
+  @mixin isReverting {
+    #{$baseClass}.s--reverting & {
+      @content;
+    }
+  }
+
+  svg {
+    overflow: visible;
+    fill: none;
+    stroke-linejoin: round;
+  }
+
+  &-transitionend-listener {
+    transition: opacity $revertDelay;
+
+    @include isProcessing {
+      opacity: 0;
+    }
+  }
+
+  &__drone-cont {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    &--takeoff {
+      z-index: -1;
+      opacity: 0;
+
+      @include isProcessing {
+        opacity: 1;
+        transform: translateY($grabYChange);
+        transition: transform $grabPartAT, opacity 0.2s;
+        transition-delay: $grabRaiseDelay;
+      }
+    }
+
+    &--shift-x {
+      @include isProcessing {
+        transition: transform $droneShiftXAT $droneShiftXDelay;
+        transform: translateX($droneShiftX);
+      }
+    }
+
+    &--landing {
+      @include isProcessing {
+        transform: translateY(24px);
+        transition: transform $droneLandingAT $droneLandingDelay;
+      }
+    }
+  }
+
+  &__drone {
+    position: absolute;
+    left: $droneLeft;
+    top: -12px;
+    width: 68px;
+    height: 56px;
+    stroke: #000;
+    stroke-width: 2px;
+    fill: none;
+
+    @keyframes tiltAnim {
+      8%,
+      24% {
+        transform: rotate(0);
+      }
+      35%,
+      70% {
+        transform: rotate(8deg);
+      }
+      85% {
+        transform: rotate(-4deg);
+      }
+      95%,
+      100% {
+        transform: rotate(0);
+      }
+    }
+
+    @include isProcessing {
+      $animTime: $droneShiftXAT + ($droneShiftXDelay - $grabRaiseDelay);
+      transform-origin: 50% 100%;
+      animation: tiltAnim $animTime $grabRaiseDelay;
+    }
+
+    &-leaving {
+      @include isProcessing {
+        transform: translate(150px, -150px) rotate(20deg) scale(0.3);
+        opacity: 0;
+        transition: transform $leaveAT $droneLeaveDelay,
+          opacity $leaveAT/2 $droneLeaveDelay + $leaveAT/2;
+      }
+    }
+
+    &-arm {
+      --rotation: 0deg;
+
+      transform-origin: 68px 56px;
+      transform: rotate(var(--rotation));
+
+      &--2 {
+        transform: scaleX(-1) rotate(var(--rotation));
+      }
+
+      @include isProcessing {
+        --rotation: 25deg;
+        transition: transform $droneArmsAT $droneArmsDelay;
+      }
+    }
+
+    &-green {
+      fill: $mainColor;
+
+      @include isProcessing {
+        fill: $successColor;
+        transition: fill $bgAT $bgAnimDelay;
+      }
+    }
+
+    &-yellow {
+      fill: $yellow;
+    }
+
+    &-package {
+      $x: $droneShiftX * -2; // doubling, since drone size 1/2 of viewBox sizes
+
+      @keyframes revertAnim {
+        40%,
+        45% {
+          transform: translate($x, 0);
+        }
+        75% {
+          transform: translate($x, -100px);
+        }
+        100% {
+          transform: translate($x, 100px);
+        }
+      }
+
+      @include isReverting {
+        opacity: 0;
+        transition: opacity 0s $revertShiftXAT * 2.5;
+        animation: revertAnim $revertShiftXAT * 2.5;
+      }
+    }
+  }
+
+  &__circle {
+    position: absolute;
+    left: $circleLeftPad;
+    top: 50%;
+    width: $circleSize;
+    height: $circleSize;
+    margin-top: $circleSize / -2;
+    border-radius: 50%;
+    background: $darkerColor;
+
+    @include isProcessing {
+      background-color: $successColor;
+      transition: $bgTrans;
+      transition-delay: $bgAnimDelay;
+    }
+
+    @include isReverting {
+      background-color: $darkerColor;
+      transition: background-color $progressAT $revertShiftXAT * 1.2;
+    }
+
+    &-inner {
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    &-package {
+      width: 14px;
+      height: 18px;
+      stroke: #fff;
+      stroke-width: 3px;
+      stroke-linecap: round;
+
+      @include isProcessing {
+        transform: translateY($grabYChange);
+        transition: transform $grabPartAT $grabRaiseDelay;
+      }
+
+      @include isReverting {
+        transform: translateY(0);
+        transition: transform $revertShiftXAT/5 $revertShiftXAT * 2;
+      }
+    }
+
+    &-grabbers {
+      --grabY: 0px;
+      --grabRotate: 0;
+
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        right: 5px;
+        top: -12px;
+        width: 14px;
+        height: 8px;
+        border: 2px solid #000;
+        border-left: none;
+        border-bottom: none;
+        transform: translateY(var(--grabY)) rotate(var(--grabRotate));
+        transition: transform $grabPartAT;
+      }
+
+      &:before {
+        right: auto;
+        left: 5px;
+        transform: translateY(var(--grabY)) scaleX(-1) rotate(var(--grabRotate));
+      }
+
+      @keyframes grabAnim {
+        40%,
+        59.999% {
+          --grabY: #{$grabbersShiftY};
+          --grabRotate: 55deg;
+        }
+        60%,
+        100% {
+          --grabY: #{$grabYChange + $grabbersShiftY};
+          --grabRotate: 55deg;
+        }
+      }
+
+      @include isProcessing {
+        animation: grabAnim $stepAT forwards;
+      }
+    }
+
+    &-progress {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      stroke: #fff;
+      stroke-width: 2px;
+
+      @mixin pathParams($len) {
+        stroke-dasharray: $len, $len;
+        stroke-dashoffset: $len;
+
+        @include isProcessing {
+          stroke-dashoffset: 0;
+          transition: all $progressAT $progressAnimDelay;
+        }
+
+        @include isReverting {
+          stroke-dashoffset: $len;
+          transition: all $progressAT $revertShiftXAT * 1.2;
+        }
+      }
+
+      &-line {
+        @include pathParams(125.68138122558594);
+      }
+
+      &-checkmark {
+        @include pathParams(21.21320343017578);
+      }
+    }
+  }
+
+  &__text-fields {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+  }
+
+  &__text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateY($textYShift);
+    will-change: opacity, transform;
+    pointer-events: none;
+
+    @keyframes textAnimation {
+      20%,
+      80% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY($textYShift * -1);
+      }
+    }
+
+    &--step-0 {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @include isProcessing {
+      transition: all $textAT;
+
+      &--step-0 {
+        opacity: 0;
+        transform: translateY($textYShift * -1);
+      }
+
+      @for $i from 1 through $numOfSteps - 1 {
+        &--step-#{$i} {
+          $delay: ($stepAT - $textAT) * ($i - 1);
+          animation: textAnimation $stepAT $delay;
+        }
+      }
+
+      &--step-#{$numOfSteps} {
+        transition-delay: ($stepAT - $textAT) * ($numOfSteps - 1);
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @include isReverting {
+      &--step-0 {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all $textAT $revertShiftXAT + 0.2s;
+      }
+
+      &--step-#{$numOfSteps} {
+        opacity: 0;
+        transform: translateY($textYShift);
+        transition: all $textAT $revertShiftXAT;
+      }
+    }
+
+    &-dots {
+      letter-spacing: -0.5px;
+      font-size: 26px;
+
+      @keyframes dotAnimation {
+        10%,
+        90% {
+          opacity: 0;
+        }
+        40%,
+        60% {
+          opacity: 1;
+        }
+      }
+
+      span {
+        opacity: 0;
+        animation: dotAnimation 1.2s 0.4s infinite;
+      }
+
+      &:before,
+      &:after {
+        content: ".";
+        opacity: 0;
+      }
+
+      &:before {
+        animation: dotAnimation 1.2s infinite;
+      }
+
+      &:after {
+        animation: dotAnimation 1.2s 0.8s infinite;
+      }
+    }
+  }
+}
+
+.icon-link {
+  z-index: 100;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 32px;
+
+  img {
+    width: 100%;
+    vertical-align: top;
+  }
+
+  &--twitter {
+    left: auto;
+    right: 5px;
+  }
 }

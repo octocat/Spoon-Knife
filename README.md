@@ -12,3 +12,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 These are the new changes.
 LAST
+bUT 
+NOt 
+LEAST

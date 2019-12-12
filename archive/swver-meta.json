@@ -1,0 +1,198 @@
+{
+  "classes": {
+    "topRoot": {
+      "contains": {
+        "topSystem": ""
+      },
+      "identifiedBy": [],
+      "isAbstract": false,
+      "isConfigurable": true,
+      "isContextRoot": false,
+      "properties": {
+        "childAction": {
+          "isConfigurable": false
+        },
+        "dn": {
+          "isConfigurable": false
+        },
+        "rn": {
+          "isConfigurable": false
+        },
+        "status": {
+          "isConfigurable": false
+        }
+      },
+      "rnFormat": "",
+      "rnMap": {
+        "sys": "topSystem"
+      }
+    },
+    "topSystem": {
+      "contains": {
+        "sysmgrShowVersion": ""
+      },
+      "identifiedBy": [],
+      "isAbstract": false,
+      "isConfigurable": true,
+      "isContextRoot": true,
+      "properties": {
+        "address": {
+          "isConfigurable": true
+        },
+        "childAction": {
+          "isConfigurable": false
+        },
+        "configDirty": {
+          "isConfigurable": false
+        },
+        "configDirtyBackup": {
+          "isConfigurable": false
+        },
+        "configIssues": {
+          "isConfigurable": false
+        },
+        "configModTs": {
+          "isConfigurable": false
+        },
+        "configModTsBackup": {
+          "isConfigurable": false
+        },
+        "currentTime": {
+          "isConfigurable": false
+        },
+        "dn": {
+          "isConfigurable": false
+        },
+        "fabricId": {
+          "isConfigurable": false
+        },
+        "fabricMAC": {
+          "isConfigurable": false
+        },
+        "id": {
+          "isConfigurable": true
+        },
+        "inbMgmtAddr": {
+          "isConfigurable": false
+        },
+        "modTs": {
+          "isConfigurable": false
+        },
+        "mode": {
+          "isConfigurable": false
+        },
+        "monPolDn": {
+          "isConfigurable": false
+        },
+        "name": {
+          "isConfigurable": true
+        },
+        "oobMgmtAddr": {
+          "isConfigurable": false
+        },
+        "persistentOnReload": {
+          "isConfigurable": true
+        },
+        "podId": {
+          "isConfigurable": false
+        },
+        "rn": {
+          "isConfigurable": false
+        },
+        "role": {
+          "isConfigurable": true
+        },
+        "serial": {
+          "isConfigurable": false
+        },
+        "state": {
+          "isConfigurable": false
+        },
+        "status": {
+          "isConfigurable": false
+        },
+        "systemUpTime": {
+          "isConfigurable": false
+        },
+        "uid": {
+          "isConfigurable": true
+        }
+      },
+      "rnFormat": "sys",
+      "rnMap": {
+        "showversion": "sysmgrShowVersion"
+      }
+    },
+    "sysmgrShowVersion": {
+      "contains": {},
+      "identifiedBy": [],
+      "isAbstract": false,
+      "isConfigurable": false,
+      "isContextRoot": false,
+      "properties": {
+        "activePackage": {
+          "isConfigurable": false
+        },
+        "biosCompileTime": {
+          "isConfigurable": false
+        },
+        "biosVersion": {
+          "isConfigurable": false
+        },
+        "bootflashSize": {
+          "isConfigurable": false
+        },
+        "childAction": {
+          "isConfigurable": false
+        },
+        "copyRight": {
+          "isConfigurable": false
+        },
+        "dn": {
+          "isConfigurable": false
+        },
+        "kernelUptime": {
+          "isConfigurable": false
+        },
+        "lastResetReason": {
+          "isConfigurable": false
+        },
+        "lastResetService": {
+          "isConfigurable": false
+        },
+        "lastResetSysVersion": {
+          "isConfigurable": false
+        },
+        "lastResetTime": {
+          "isConfigurable": false
+        },
+        "modTs": {
+          "isConfigurable": false
+        },
+        "nxosCompileTime": {
+          "isConfigurable": false
+        },
+        "nxosImageFile": {
+          "isConfigurable": false
+        },
+        "nxosVersion": {
+          "isConfigurable": false
+        },
+        "persistentOnReload": {
+          "isConfigurable": true
+        },
+        "plugin": {
+          "isConfigurable": false
+        },
+        "rn": {
+          "isConfigurable": false
+        },
+        "status": {
+          "isConfigurable": false
+        }
+      },
+      "rnFormat": "showversion",
+      "rnMap": {}
+    }
+  }
+}

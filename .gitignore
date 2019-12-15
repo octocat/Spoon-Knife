@@ -243,6 +243,7 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 **/*.css
+**/*.html
 
 # Paket dependency manager
 .paket/paket.exe

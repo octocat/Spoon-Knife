@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1fc039-cb4a-44ce-a8f1-3a8d2d385413" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +48,32 @@
       <option name="presentableId" value="Default" />
       <updated>1576691912917</updated>
     </task>
+    <task id="LOCAL-00001" summary="Nyt commitoidaamn">
+      <created>1576692482808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576692482808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nyt commitoidaamn">
+      <created>1576692550981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576692550981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nyt commitoidaamn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nyt commitoidaamn" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="118" key="CommitChangelistDialog2" timestamp="1576692481956">
+    <state x="627" y="118" key="CommitChangelistDialog2" timestamp="1576692550274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576692481956" />
+    <state x="627" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576692550274" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1576691917224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

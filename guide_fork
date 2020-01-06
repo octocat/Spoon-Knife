@@ -17,7 +17,7 @@ git checkout master
 git merge upstream/master
 
 (
-git checkout test_branch 
+git checkout origin/test_branch 
 -->
 	Branch 'test_branch' set up to track remote branch 'test_branch' from 'origin'.
 	Switched to a new branch 'test_branch'

@@ -1,0 +1,37 @@
+
+Note: 					  username
+							  !
+git clone git@github.com:phanvanhai/Spoon-Knife.git
+cd Spoon-Knife/
+
+git remote -v
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+git fetch upstream
+
+git checkout master
+-->
+	Already on 'master'
+	Your branch is up to date with 'origin/master'
+
+
+git merge upstream/master
+
+(
+git checkout test_branch 
+-->
+	Branch 'test_branch' set up to track remote branch 'test_branch' from 'origin'.
+	Switched to a new branch 'test_branch'
+git branch -a
+)
+
+git pull
+-->
+	From github.com:phanvanhai/Spoon-Knife
+	   298280a..1c2813e  test_branch -> origin/test_branch
+
+git add .
+git commit -a -m "test2"
+git push
+-->
+	To github.com:phanvanhai/Spoon-Knife.git
+	   1c2813e..2893f3e  test_branch -> test_branch

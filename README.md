@@ -1,4 +1,4 @@
-### Well hello there!
+# ITM360 ICA10 FORKING EXAMPLE!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

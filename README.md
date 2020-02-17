@@ -1,6 +1,6 @@
 ### Well hello there!
 
-This Repository has been claimed by me, i rule it now. hah.
+This Repository has been claimed by me, i rule it now. hah. No You 
 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 

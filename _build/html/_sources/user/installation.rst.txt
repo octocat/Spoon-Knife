@@ -1,0 +1,33 @@
+Installation
+============
+
+Package Installation
+--------------------
+
+You can install from a local or remote archive using ``pip``::
+
+  pip install https://github.com/datacenter/pydme/archive/master.zip
+
+You can also install from a local directory using ``pip``::
+
+  pip install -e .
+
+
+DME Meta Data
+---------------
+
+PyDME requires metadata about DME model. PyDME gets the software
+version of the device during the initialization.
+
+Once it get the version of the device, it looks for the 
+dme-<version>-meta.json file in the current directory for getting
+the entire meta data and if it is not found, it will go the web site
+and gets it and stores it in the current directory.
+
+If PyDME is unable to get either of these files, it will exit
+the program.
+
+Note: If the PyDME is cloned from the github and application code
+is written using that, then PYDME_HOME environmental variable must be
+set to the path of pydme clone directory. This is used to find the 
+json files if they are not found in the current directory.

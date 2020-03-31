@@ -1,6 +1,6 @@
 ### Well hello there
 
-Making changes to test.
+Making changes to test. Making more changes.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

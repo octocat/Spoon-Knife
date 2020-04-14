@@ -9,9 +9,29 @@
   margin: 50px auto;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+p, ol {
+  font-family: fantasy;
+  font-size: large;
+  word-spacing: 5px;
+  line-height: 2em;
+}
+
+hr{
+  height: 15px;
+  background-color: blue;
+}
+
+body{
+  background-color: cadetblue;
+  
+}
+
+h1{
+  color: chocolate;
+
+}
+
+h2{
+  color: darkblue;
 }

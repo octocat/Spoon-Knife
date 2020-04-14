@@ -9,6 +9,29 @@
   margin: 50px auto;
 }
 
-p {
+
+p, ol {
+  font-family: fantasy;
+  font-size: large;
+  word-spacing: 5px;
+  line-height: 2em;
+}
+
+hr{
+  height: 15px;
+  background-color: blue;
+}
+
+body{
+  background-color: cadetblue;
   
+}
+
+h1{
+  color: chocolate;
+
+}
+
+h2{
+  color: darkblue;
 }

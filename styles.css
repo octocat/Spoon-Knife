@@ -9,9 +9,13 @@
   margin: 50px auto;
 }
 
+body {
+  background-color: aliceblue;
+}
+
 p {
   display: block;
-  width: 400px;
+  width: 600px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

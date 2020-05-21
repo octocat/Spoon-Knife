@@ -1,0 +1,13 @@
+## uname
+MINGW64_NT-10.0-18362 WAHID 3.0.7-338.x86_64 2019-11-21 23:07 UTC x86_64 Msys
+## git 
+git version 2.26.2.windows.1
+## docker 
+Docker version 19.03.8, build afacb8b
+## terraform 
+Terraform v0.12.24
+
+Your version of Terraform is out of date! The latest version
+is 0.12.25. You can update by downloading from https://www.terraform.io/downloads.html
+## aws 
+aws-cli/2.0.13 Python/3.7.7 Windows/10 botocore/2.0.0dev17

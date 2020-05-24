@@ -13,7 +13,7 @@ void __attribute__ ( ( noinline ) )
 auto
   main( void ) -> int
   {
-    char input[] = "!dlroW olleH";
+    char input[] = "!kroF noopS olleH";
     std::cout << "String before reversing: ";
 
     for( auto iterate : input )

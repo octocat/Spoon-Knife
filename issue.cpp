@@ -1,13 +1,9 @@
-#include <cstdio>
 #include <iostream>
 #include <stack>
 #include <string>
 
 int main(int argc, char* argv[])
 {
-    printf("Added some code to the branch \n");
-    printf("here's some more code!\n");
-
     /* I had to use a stack for some reason */
     std::stack<std::string> stack_o_strings;
     
@@ -23,6 +19,10 @@ int main(int argc, char* argv[])
         std::cout << "Pop! " << stack_o_strings.top() << std::endl;
         stack_o_strings.pop();
     }
+
+    std::cout << "Who needs printf!" << std::endl;
+    std::cout << "when you got fancy iostream carrots!!" << std::endl;
+    std::cout << "mmm.. carrots" << std::endl;
 
     return 0;
 }

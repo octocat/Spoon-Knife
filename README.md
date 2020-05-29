@@ -2,13 +2,10 @@
 
 Edit added!
 
-<<<<<<< HEAD
 Final update to master branch.
 
 now i'm on the master branch.
-=======
 More text added on branch 'testing'
->>>>>>> testing
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

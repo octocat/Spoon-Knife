@@ -15,7 +15,7 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 Make sure you configure your global editor in git to an program like VS Code. This is good to set for a diff tool (particularly when you have a merge conflict).
 
-For example, adding Visual Studio editor [link](https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor){:target="_blank"}
+For example, <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor">set Visual Studio Code as git editor</a>
 
 ### Commit and Push
 

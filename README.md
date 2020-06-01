@@ -9,7 +9,7 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 
-##Notes
+### Notes
 
 **Forks** act as a sort of bridge between the original repository and your personal copy. You can submit **Pull Requests** to help make other people’s projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 
@@ -17,7 +17,7 @@ Make sure you configure your global editor in git to an program like VS Code. Th
 
 For example [Visual Studio Code](https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor)
 
-###Commit and Push
+### Commit and Push
 
 Create a snapshot and push to forked repo.
 
@@ -33,7 +33,7 @@ nothing to commit, working tree clean
 
 4. **git push origin master** - push the master branch commit to your repo (origin alias) that you want use to initiate a pull request to the original repo that you forked from.
 
-###Using version control in a team
+### Using version control in a team
 
 Github is decentralized development. When you push your code, it is reviewed after you send a pull request.
 

@@ -25,6 +25,7 @@ Create a snapshot and push to forked repo.
 2. **git status** - check the modified files are green
 3. **git commit -m "my commit message"** - add commit with inline message
 4. **git status** - shows this output:
+
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)

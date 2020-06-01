@@ -37,10 +37,10 @@ nothing to commit, working tree clean
 
 Github is decentralized development. When you push your code, it is reviewed after you send a pull request.
 
-Use **git pull** before you start working. Otherwise, you probably don’t have the latest version as your starting point — you’re editing an old version of the code! If you are up to date, you won't cause a problem with merge conflicts (although it might help you and do a diff to show you what you need to fix??todo: try something like this out). 
+Use **git pull** before you start working. Otherwise, you probably don’t have the latest version as your starting point — you’re editing an old version of the code! If you are up to date, you won't cause a problem with merge conflicts (although it might help you and do a diff to show you what you need to fix?? todo: try something like this out). 
 
 The full command is **git pull origin master**: It pulls the commit from the **origin** remote, **master** branch and merges them to the local checked-out branch.
 
-**diff --staged** - review what you have added to staging area
+**git diff --staged** - review what you have added to staging area
 
 todo: set up some automated tests triggered after push. Maybe even auto-rollback a commit before pushed.

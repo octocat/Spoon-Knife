@@ -1,37 +1,13 @@
 ### Well hello there!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+This repository ~is~ was meant to provide an example for *forking* a repository on GitHub.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Now it's just a git(hub) playground for me.
 
-This is now feature 1.
+Overhaul 0
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+some stuff
 
-And the final feature 0!
+some more stuff
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
-
-This is feature 0.
-
-And we close with feature 1.
-
-And life goes on...
-
-# More non-sense
-
-:wink: :information_desk_person:
-
-# Booom!!!!
-
-More changes!
-
-# And more non-sense
-
-Just because we can.
-
-# Learning to squash manually
-
-Line 0.
-
-Line 1! (amended :sunglasses:)
+end.

@@ -1,6 +1,6 @@
 # Well hello there!
 
-## sample test
+## update test
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -8,5 +8,10 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
+
+I've made a change, because I can.
+
+This is training. So here's a change...
+
 What about the forks, corkscrews and graters? Don't they deserve a space in this repo too?
 

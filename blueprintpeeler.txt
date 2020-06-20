@@ -1,0 +1,5 @@
+This is a blueprint for a new type of kitchen peeler.
+
+It should have a sharp edge and a handle. 
+
+It will revolutionize peeling.

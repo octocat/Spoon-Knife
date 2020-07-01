@@ -1,6 +1,7 @@
 ### Well hello there!
 
 フォークの練習1-edit
+練習です
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

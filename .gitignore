@@ -1,0 +1,4 @@
+sakla.txt
+saklamkdir/*
+!saklamkdir/deneme.css
+

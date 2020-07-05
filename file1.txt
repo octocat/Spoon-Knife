@@ -2,3 +2,4 @@ file1.txt
 commit sonrası push öncesi ekleme
 1
 2
+3

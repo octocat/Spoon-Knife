@@ -6,3 +6,4 @@ commit sonrası push öncesi ekleme
 4
 5
 6
+6

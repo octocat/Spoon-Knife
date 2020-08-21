@@ -1,17 +1,19 @@
 * {
-  margin:0px;
-  padding:0px;
+	margin: 0px;
+	padding: 0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+#travelling-chef {
+  width: 500px;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	display: block;
+	width: 400px;
+	margin: 50px auto;
+	font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 }

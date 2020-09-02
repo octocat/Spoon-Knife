@@ -9,6 +9,19 @@
   margin: 50px auto;
 }
 
+a{
+  text-decoration: none;
+}
+
+a.hover{
+  color: red;
+  
+}
+
+a.visited{
+  color: blue;
+}
+
 p {
   display: block;
   width: 400px;

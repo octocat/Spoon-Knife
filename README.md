@@ -1,4 +1,4 @@
-Trying to practice branching here. 
+Practicing with Git Hub and Git
 
 ### Well hello there!
 

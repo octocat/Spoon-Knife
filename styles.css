@@ -9,9 +9,24 @@
   margin: 50px auto;
 }
 
-p {
+h1 {
   display: block;
   width: 400px;
   margin: 50px auto;
+}
+
+p {
+  display: block;
+  
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  
+  border: 2px solid black;
+  border-radius: 15px;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+#octocat {
+  width: 300px;
 }

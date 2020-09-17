@@ -1,13 +1,21 @@
 * {
   margin:0px;
   padding:0px;
-  background-color: lightslategray;
+  background-color: azure;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width: 384px;
   margin: 50px auto;
+}
+
+h1 {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  font: 50px Monaco;
+  font-weight: bolder;
 }
 
 p {

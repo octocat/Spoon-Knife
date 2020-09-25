@@ -1,0 +1,1 @@
+Este é o segundo arquivo, README01.md criado em wipmasterorig. O primeiro arquivo foi realizado o git add e o commit, porém o arquivo nao foi encontrado. 

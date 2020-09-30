@@ -2,7 +2,7 @@
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
-(http://s3.amazonaws.com/jumbotron-prod/posts/images/000/000/003/original/forking.gif?1388837668)
+![](https://media.giphy.com/media/13z1xhUK1ogrde/giphy.gif)
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 

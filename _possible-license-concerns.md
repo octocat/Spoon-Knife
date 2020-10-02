@@ -115,10 +115,10 @@ they can have other implications, like technical issues, reduced credibility in 
 * Do not use the 'related files and data', if you are not confident
   in your usage rights, or in possible technical issues, that can arise.
 
-### **NO WARRANTY**
-* If you are in doubt, you might consider not using any of the 'related files and data'!
+### **AS IS (NO WARRANTY)**
+* If you are in doubt, you might consider not using or spreading any of the 'related files and data'!
 * Unless otherwise stated in a valid and applicable license or other legal document, no warranty shall apply.
-* Consider the relevant sections in the GPLv3 as a general rule of thumb
+* Consider the relevant sections (Disclaimer of Warranty, Limitation of Liability) in the GPLv3 as a general rule of thumb
   * Further reading: https://www.gnu.org/licenses/gpl-3.0.md
 
 The block below is not the whole license, just the relevant parts copied here:

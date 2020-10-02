@@ -98,6 +98,9 @@ license” in the sidebar of the page for each license on this site
 an open source license.
 * Negotiate a private license. Bring your lawyer.
 ~~~
+Attribution:
+* https://choosealicense.com/about/
+* https://github.com/github/choosealicense.com
 
 ## Important notices by the 'authors'
 These notices are not considered as part of any license agreement for the 'related files and data', but
@@ -118,6 +121,7 @@ they can have other implications, like technical issues, reduced credibility in 
 * Consider the relevant sections in the GPLv3 as a general rule of thumb
   * Further reading: https://www.gnu.org/licenses/gpl-3.0.md
 
+The block below is not the whole license, just the relevant parts copied here:
 ~~~
 #### 15. Disclaimer of Warranty.
 
@@ -152,3 +156,6 @@ an absolute waiver of all civil liability in connection with the
 Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 ~~~
+Attribution:
+* https://www.gnu.org/licenses/gpl-faq.html
+* https://www.gnu.org/licenses/gpl-faq.html#ModifyGPL

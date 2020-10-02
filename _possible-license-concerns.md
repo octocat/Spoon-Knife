@@ -7,7 +7,7 @@
 
 ## Loose term definitions to reduce scope
 * 'direct parent container': the folder, project, repository, database item, filesystem element
-  or other entity that directly contains this warning notice (according to the user percived system/folder hierarchy)
+  or other entity that directly contains this warning notice (according to the user perceived system/folder hierarchy)
   is the probable candidate for this concept, that I will refer to as 'direct parent container'
 * 'related files and data': any data that is located inside the direct parent container - including subfolders, subprojects,
   files, source code, datasets, documents, text, visual and audio content
@@ -45,14 +45,14 @@ Either way, consider not making a hasty assumption, better to confirm the reason
 These notices are not considered as part of any license agreement for the 'related files and data', but
 they are important warnings and guidelines provided by the 'authors'.
 
-Failure to comply with these notices are not always directly enforcable by the law, but
+Failure to comply with these notices are not always directly enforceable by the law, but
 they can have other implications, like technical issues, reduced credibility in a given community etc.
 
 ### Documentation
 * Refer to the ./README.md file as well for further information
   before operating the software or using any 'related files and data'.
 * Do not use the 'related files and data', if you are not confident
-  in your usage rights, or in possible technical issues, that can araise.
+  in your usage rights, or in possible technical issues, that can arise.
 
 ### **NO WARRANTY**
 * If you are in doubt, you might consider not using any of the 'related files and data'!

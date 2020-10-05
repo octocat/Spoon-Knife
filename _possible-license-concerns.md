@@ -1,9 +1,14 @@
 # Considerations about the copyright, usage rights and other licensing context
 * This is not a license, nor a copyright notice, neither a legal document,
   just a "warning notice" for possible license concerns.
-* If you need a license, first try to search for one, that can be applicable to you
-  * possible locations can be ./LICENSE or ./LICENSE.txt file, ./LICENSE or ./license folder and it's content,
-  ./copyright-notice.txt or ./copyright-notice.md file or other sensible places.
+* If you need a license, first try to search for one, that can be applicable to you in the given context. Possible locations can be:
+  * ./LICENSE or ./LICENSE.txt or ./LICENSE.md or ./LICENSE.html file
+  * ./LICENSE or ./license folder and it's content,
+  * ./copyright-notice.txt or ./copyright-notice.md file
+  * references on the "Legal" section of the ./README.md file
+  * or other sensible places.
+* If you are in a serious doubt, you might consider seeking for a professional help
+  from a lawyer or organization specialized in Intellectual Property Law
 
 ## Loose term definitions to reduce scope
 * 'direct parent container': the folder, project, repository, database item, filesystem element
@@ -16,8 +21,6 @@
 * In case of 'missing license', consider the "No License", "no permission" and "all rights are reserved" possibilities.
 * In some cases default rights, terms of service, fair use, public domain use or other conditions might apply,
   * but I can't give you here any legal advice whatsoever on when and how these things might or might not apply to your specific case.
-* If you are in a serious doubt, you might consider seeking for a professional help
-  from a lawyer or organization specialized in Intellectual Property Law
 * For projects and repositories hosted on GitHub, it can be helpful to visit the
   [GitHub Terms of Service](https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service)
 * For other 'related files and data' you can try to search for terms or conditions of the service provider or entity

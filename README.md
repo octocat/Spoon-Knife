@@ -2,7 +2,8 @@
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Create a *fork* to produce a personal copy of a project. A 'Fork' is bridge/ connector between the original repository (project) and your personal (editable) copy. Basically it's a way for other developers to contribute and offer suggestions on current projects without infinging upon IPR ( Intellectual Property Rights) through practical application.
+. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 

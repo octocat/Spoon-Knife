@@ -1,1 +1,0 @@
-stuff = document.getElementById("stuff").innerHTML("<h4>Cool stuff bro</h4>")

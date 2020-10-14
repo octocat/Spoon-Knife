@@ -2,11 +2,18 @@
   margin:0px;
   padding:0px;
 }
+body{
+  background-color:beige;
+}
 
 #octocat {
   display: block;
   width:384px;
   margin: 50px auto;
+  transition: transform 1s;
+}
+div img:hover{
+  transform: translate(0px,40px);
 }
 
 p {

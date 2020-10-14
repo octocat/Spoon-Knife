@@ -1,1 +1,1 @@
-stuff = document.querySelector('.stuff').innerHTML("My awesome website")
+stuff = document.getElementById("stuff").innerHTML("<h4>Cool stuff bro</h4>")

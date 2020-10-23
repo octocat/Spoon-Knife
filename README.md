@@ -1,4 +1,4 @@
-### Well hello there! This is Helenmary's copy of the original README file from the Github testbox! I'm going to save (commit) this, create a new branch, merge the branches, and submit a pull request.
+### Well hello there! This is the October 23 branch of the original README copied from Github's testbox and forked to Helenmary's repo.
 
 This repository is meant to provide an example for *forking* a repository on GitHub. Hey, what a beautiful readme! I wish it complied a little better with best practices for documentation, but I suppose this isn't a perfect world.
 

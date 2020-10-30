@@ -10,5 +10,7 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 * Item 1
 * Item 2
+* Item 3
+* Item 4
   * Item 2a
   * Item 2b

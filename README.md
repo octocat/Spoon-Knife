@@ -8,9 +8,9 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-* Item 1
-* Item 2
-* Item 3
-* Item 4
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
   * Item 2a
   * Item 2b

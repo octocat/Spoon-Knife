@@ -1,4 +1,5 @@
-### Well hello there!
+### Git & GitHub Simplified Session
+Instructed by Eng. Moaz El-sawaf
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

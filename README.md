@@ -12,4 +12,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 So long, and thanks for all the fish!
 
 ## One more thing...
-verified???
+Nope.  But maybe now it will be!
+

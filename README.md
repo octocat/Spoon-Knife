@@ -1,4 +1,10 @@
+##New comments by NS##
+
 ### Well hello there!
+
+### Start NS Comments ####
+I just sucessfully forked and cloned this Spoon-Knife repository for practice.
+### End NS Comments ####
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

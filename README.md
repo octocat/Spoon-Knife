@@ -1,8 +1,8 @@
 ### Well hello there!
 
-### Start Navraj Comments ####
+### Start NS Comments ####
 I just sucessfully forked and cloned this Spoon-Knife repository for practice.
-### Start Navraj Comments ####
+### End NS Comments ####
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

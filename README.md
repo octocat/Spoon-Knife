@@ -1,5 +1,9 @@
 ### Well hello there!
 
+### Start Navraj Comments ####
+I just sucessfully forked and cloned this Spoon-Knife repository for practice.
+### Start Navraj Comments ####
+
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.

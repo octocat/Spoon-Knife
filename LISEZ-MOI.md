@@ -12,4 +12,4 @@ et soumettre [une Pull Request](https://github.com/octocat/Spoon-Knife/pulls) en
 Pour plus d'informations sur la manière de *forker* un dépôt, [consultez le guide, "Forking Projects""](http://guides.github.com/overviews/forking/).
 Merci! :sparkling_heart:
 
-# Traduction: blef00fr
+#### Traduction: blef00fr

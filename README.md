@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/octocat/Spoon-Knife)
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

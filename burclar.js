@@ -1,5 +1,5 @@
 const birth_day = 28; // prompt("Enter Your Birth Day");
-const birth_month = 1; //prompt("Enter Your Birth Month");
+const birth_month = 2; //prompt("Enter Your Birth Month");
 
 if(((birth_month == 12) && (birth_day >= 23) && (birth_day <= 31)) || ((birth_month == 1) && (birth_day <= 20) && (birth_day > 0))){
     console.log("Oğlak Burcu")
@@ -26,5 +26,5 @@ if(((birth_month == 12) && (birth_day >= 23) && (birth_day <= 31)) || ((birth_mo
 }else if (((birth_month == 11) && (birth_day >= 23) && (birth_day <= 30)) || ((birth_month == 12) && (birth_day <= 22) && (birth_day > 0))){
     console.log("Yay Burcu")
 }else{
-    console.log("You Entered the wrong date")
+    console.log("You Entered The Wrong Date")
 }

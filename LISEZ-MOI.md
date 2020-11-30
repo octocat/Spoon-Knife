@@ -1,4 +1,8 @@
+
 ### Bonjour!
+=======
+
+
 
 Ce dépôt est destiné à fournir un exemple pour *forker* un dépôt sur GitHub.
 
@@ -12,4 +16,8 @@ et soumettre [une Pull Request](https://github.com/octocat/Spoon-Knife/pulls) en
 Pour plus d'informations sur la manière de *forker* un dépôt, [consultez le guide, "Forking Projects""](http://guides.github.com/overviews/forking/).
 Merci! :sparkling_heart:
 
+
 #### Traduction: blef00fr 11/2020
+=======
+
+

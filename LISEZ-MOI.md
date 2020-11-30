@@ -1,4 +1,4 @@
-### Eh bien, bonjour!
+### Bonjour!
 
 Ce dépôt est destiné à fournir un exemple pour *forker* un dépôt sur GitHub.
 

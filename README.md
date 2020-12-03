@@ -1,9 +1,126 @@
-### Well hello there!
+# README
+##how to use Github Desktop
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Things you may want to cover:
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+* Ruby version
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+##  usersテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|nickname|string|null:false|
+|email|string|null:false,unique:true:true|
+|password|string|null:false,unique:true:true|
+|family_name|string|null:false|
+|first_name|string|null:false|
+|family_name_kana|string|null:false|
+|first_name_kana|string|null:false|
+|birthday|date|null:false|
+
+##  Association
+
+-has_many :addresses
+-has_many :exhibitors
+-has_many :items
+-has_many :comments
+
+##  addressesテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|user_id|references|
+|postcode|string|
+|municipalities|string|null:false|
+|address|string|null:false|
+|building|string|null:false|
+|phone_number|string|null:false|
+
+##  Association
+
+-belongs to :user
+
+##  itemsテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|user_id|references|foreign_key: true|
+|name|string|null:false|
+|price|string|null:false|
+|comment|text|null:false|
+|shopping_charge|field|null:false|
+|prefecture_id|references|foreign_key: true|
+|shopping_date|field|null:false|
+
+##  Association
+
+-has_many :exhibitors
+-has_many :comments
+-belongs to :user
+
+##  exhibitorsテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|user_id|references|foreign_key: true|
+|item_id|references|foreign_key: true|
+
+##  Association
+
+-belongs to :item
+-belongs to :user
+
+## commentsテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|user_id|references|null:false|
+|item_id|references|null:false|
+|comment|text|null:false|
+
+##  Association
+
+-belongs to :user
+-belongs to :item
+
+##  imagesテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|item_id|references|null:false|
+|image|field|null:false|
+
+##  Association
+
+-belong to :item
+
+## credit_cardsテーブル
+
+|Column|Type|Option|
+|------|----|------|
+|user_id|references|null:false|
+|token|string|
+
+##  Association
+
+-belongs to :user
+

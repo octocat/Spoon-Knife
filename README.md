@@ -2,8 +2,6 @@
 
 Adding new text
 
-Changing text in test branch
-
 This repository is meant to provide an example for _forking_ a repository on GitHub.
 
 Creating a _fork_ is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit _Pull Requests_ to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.

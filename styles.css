@@ -9,6 +9,11 @@
   margin: 50px auto;
 }
 
+h1 {
+  text-align: center;
+  font: 70px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 p {
   display: block;
   width: 400px;

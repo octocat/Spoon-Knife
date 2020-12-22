@@ -11,3 +11,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 > No rule of etiquette is of less importance than which fork we use.
 
 And this is how you successfully fork.
+
+This line is created to cause an intentional conflict

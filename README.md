@@ -12,4 +12,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 And this is how you successfully fork.
 
-This line is created to cause an intentional conflict
+This line is created to cause an intentional conflict -- remote

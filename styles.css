@@ -9,6 +9,12 @@
   margin: 50px auto;
 }
 
+section {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 p {
   display: block;
   width: 400px;

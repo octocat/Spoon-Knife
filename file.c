@@ -1,2 +1,2 @@
-test.c
-
+#test.c
+# fixed  bug2

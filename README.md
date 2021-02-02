@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! Testing first commit, now the third from text editor 
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

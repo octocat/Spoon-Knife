@@ -10,13 +10,15 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 ------------------
 
-All that glitters is not gold
-By the pricking of my thumbs, Something wicked this way comes. Open, locks, Whoever knocks!
-Hell is empty and all the devils are here.
-The lady doth protest too much, methinks.
-These violent delights have violent ends...
-Good night, good night! parting is such sweet sorrow, That I shall say good night till it be morrow.
-Now is the winter of our discontent.
-Brevity is the soul of wit.
-Fair is foul, and foul is fair: Hover through the fog and filthy air.
-If music be the food of love, play on.
+> All that glitters is not gold  
+By the pricking of my thumbs, Something wicked this way comes. Open, locks, Whoever knocks!  
+Hell is empty and all the devils are here.  
+The lady doth protest too much, methinks.  
+These violent delights have violent ends...  
+Good night, good night! parting is such sweet sorrow, That I shall say good night till it be morrow.  
+Now is the winter of our discontent.  
+Brevity is the soul of wit.  
+Fair is foul, and foul is fair: Hover through the fog and filthy air.  
+If music be the food of love, play on.  
+
+- William Shakespeare

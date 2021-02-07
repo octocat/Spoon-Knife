@@ -3,8 +3,8 @@
         "apps": [],
         "details": [
             {
-                "appID": "M8HBL5W4VV.com.Universal-Links",
-                "paths": [ "/iOS-Universal-Links/*"]
+                "appID": "HR94J6TSB3.com.appnexus.Universal-Links",
+                "paths": [ "*"]
             }
         ]
     }

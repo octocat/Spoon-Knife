@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "HR94J6TSB3.com.appnexus.Universal-Links",
+                "paths": [ "*"]
+            }
+        ]
+    }
+}

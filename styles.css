@@ -9,6 +9,17 @@
   margin: 50px auto;
 }
 
+#hello {
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: crosshair;
+  box-shadow: 0px 0px 100px 5px #b3b3b3;
+}
+
 p {
   display: block;
   width: 400px;

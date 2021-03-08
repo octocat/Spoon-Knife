@@ -10,7 +10,7 @@ and [Django](https://www.djangoproject.com/) and [Sqlite](https://www.sqlite.org
 
 
 
-team members:
+Team members:
 * Aviv Zafrani
 * Danit Levi
 * Ido Kahlon

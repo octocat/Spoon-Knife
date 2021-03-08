@@ -5,6 +5,9 @@
 Shlifim is an open source forum based web application for helping students find answers
 to their homework and assignments and also share summaries.
 
+The develpoment of this project is in [Vagrant](https://www.vagrantup.com/) environment using [PippEnv](https://github.com/pypa/pipenv)
+and [Django](https://www.djangoproject.com/) 
+
 team members:
 * Aviv Zafrani
 * Danit Levi

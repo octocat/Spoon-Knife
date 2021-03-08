@@ -1,9 +1,11 @@
-### Well hello there!
+# Shlifim Project - beyond 05 team 3
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Shlifim is an open source forum based web application for helping students find answers
+to their homework and assignments and also share summaries.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
-
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
-
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+team members:
+* Aviv Zafrani
+* Danit Levi
+* Ido Kahlon
+* Rebecca Tubman
+* Lior Noy

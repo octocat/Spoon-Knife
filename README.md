@@ -5,7 +5,7 @@
 Shlifim is an open source forum based web application for helping students find answers
 to their homework and assignments and also share summaries.
 
-The develpoment of this project is in [Vagrant](https://www.vagrantup.com/) environment using [PipEnv](https://github.com/pypa/pipenv), [Django](https://www.djangoproject.com/) and [SQLite](https://www.sqlite.org/index.html) as DB
+The develpoment of this project is in [Vagrant](https://www.vagrantup.com/) environment using [PipEnv](https://github.com/pypa/pipenv) and [Django](https://www.djangoproject.com/)
 
 
 
@@ -15,3 +15,16 @@ Team members:
 * Ido Kahlon
 * Rebecca Tubman
 * Lior Noy
+
+Contributing
+------------
+
+For contributing please follow the next steps:
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!

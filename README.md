@@ -6,15 +6,25 @@
 The project will be forum based web application for helping students find answers
 to their homework and assignments and also share summaries.
 
-**Technology stack**: 
+[![Maintenance](https://img.shields.io/badge/Version%3F-Demo-yellow.svg)](https://GitHub.com/liornoy/Django-Lab/graphs/commit-activity)
+
+## Upcoming Features:
+* Register & Login 
+* Post a question
+* Watch asked questions
+* Answer a question
+* Up/Down vote an answer
+* Add tags to questions
+* Filter questions by topics / tags / most answered
+* Upload a file
+
+## Technology stack 
 * [Vagrant](https://www.vagrantup.com/) -  an open-source software product for building and maintaining portable virtual software development environments
 * [PipEnv](https://github.com/pypa/pipenv) - tool that manages a virtualenv for your projects
 * [Django](https://www.djangoproject.com/) - Python Web framework
 
-**Status**: 
-Demo stage
 
-## Dependencies
+ Dependencies
 The dependencies that must be installed for this software to work are:
 * [Vagrant](https://www.vagrantup.com/downloads)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)

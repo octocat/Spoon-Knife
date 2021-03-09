@@ -27,7 +27,7 @@ to their homework and assignments and also share summaries.
 * [Django](https://www.djangoproject.com/) - Python Web framework
 
 
- Dependencies
+## Dependencies
 The dependencies that must be installed for this software to work are:
 * [Vagrant](https://www.vagrantup.com/downloads)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)

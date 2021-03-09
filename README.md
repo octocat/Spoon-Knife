@@ -35,13 +35,6 @@ vagrant up
 Afterwards vagrant will boot up, configure, download and install all the needed additional dependencies.
 A script will launch the app and you can access it in: http://127.0.0.1:8000/
 
-**Team members**:
-* Aviv Zafrani
-* Danit Levi
-* Ido Kahlon
-* Rebecca Tubman
-* Lior Noy
-
 Contributing
 ------------
 
@@ -57,3 +50,10 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
 [![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)
+
+**Team members**:
+* Aviv Zafrani
+* Danit Levi
+* Ido Kahlon
+* Rebecca Tubman
+* Lior Noy

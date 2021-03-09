@@ -39,3 +39,6 @@ For contributing please follow the next steps:
  5. Submit a **Pull request** so that we can review your changes
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/python-app.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/python-app.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)

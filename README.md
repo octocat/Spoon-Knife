@@ -55,6 +55,14 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 * Rebecca Tubman
 * Lior Noy
 
+**Professional Guidance**:
+* Barak Korren
+* Aviad Polak
+
+from - 
+
+![redhat_logo](https://user-images.githubusercontent.com/40122521/110502952-5a505b00-8104-11eb-9bf9-bb49643b1388.PNG)
+
 
 [![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)

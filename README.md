@@ -48,12 +48,14 @@ For contributing please follow the next steps:
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
-[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)
-
 **Team members**:
 * Aviv Zafrani
 * Danit Levi
 * Ido Kahlon
 * Rebecca Tubman
 * Lior Noy
+
+
+[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)
+

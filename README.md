@@ -2,13 +2,25 @@
 
 ![shlifim_logo_2](https://user-images.githubusercontent.com/40122521/110316976-2990f880-8014-11eb-8ee8-96c21dd4b29f.png)
 
-Shlifim is the project our group will work on during the course.
+**Description**: Shlifim is the project our group will work on during the course.
 The project will be forum based web application for helping students find answers
 to their homework and assignments and also share summaries.
 
-The develpoment of this project will be in [Vagrant](https://www.vagrantup.com/) environment using [PipEnv](https://github.com/pypa/pipenv) and [Django](https://www.djangoproject.com/)
+**Technology stack**: 
+* [Vagrant](https://www.vagrantup.com/) -  an open-source software product for building and maintaining portable virtual software development environments
+* [PipEnv](https://github.com/pypa/pipenv) - tool that manages a virtualenv for your projects
+* [Django](https://www.djangoproject.com/) - Python Web framework
 
-Team members:
+**Status**: 
+Demo stage
+
+## Dependencies
+The dependencies that must be installed for this software to work are:
+* [Vagrant](https://www.vagrantup.com/downloads)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* 
+
+**Team members**:
 * Aviv Zafrani
 * Danit Levi
 * Ido Kahlon

@@ -1,5 +1,6 @@
 # Shlifim Project - beyond 05 team 3
 
+
 ![shlifim_logo_2](https://user-images.githubusercontent.com/40122521/110316976-2990f880-8014-11eb-8ee8-96c21dd4b29f.png)
 
 **Description**: Shlifim is the project our group will work on during the course.
@@ -7,6 +8,8 @@ The project will be forum based web application for helping students find answer
 to their homework and assignments and also share summaries.
 
 [![Maintenance](https://img.shields.io/badge/Version%3F-Demo-yellow.svg)](https://github.com/beyond-io/shlifim/issues)
+[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)
 
 ## Upcoming Features:
 * Register & Login 
@@ -37,13 +40,17 @@ Enter in the Command Line:
 ```
 git clone https://github.com/beyond-io/shlifim.git 
 ```
-## How to start the app
+## Getting Started
 In your local git repository you made, enter the command:
 ```
 vagrant up
 ```
 Afterwards vagrant will boot up, configure, download and install all the needed additional dependencies.
 A script will launch the app and you can access it in: http://127.0.0.1:8000/
+
+## Roadmap
+
+See the [open issues](https://github.com/beyond-io/shlifim/issues) for a list of proposed features (and known issues).
 
 Contributing
 ------------
@@ -58,7 +65,7 @@ For contributing please follow the next steps:
 
 NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
-**Team members**:
+## Team members:
 * Aviv Zafrani
 * Danit Levi
 * Ido Kahlon
@@ -74,6 +81,9 @@ from -
 ![redhat_logo](https://user-images.githubusercontent.com/40122521/110502952-5a505b00-8104-11eb-9bf9-bb49643b1388.PNG)
 
 
-[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
 

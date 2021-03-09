@@ -1,9 +1,44 @@
-### Well hello there!
+# Shlifim Project - beyond 05 team 3
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+![shlifim_logo_2](https://user-images.githubusercontent.com/40122521/110316976-2990f880-8014-11eb-8ee8-96c21dd4b29f.png)
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+**Description**: Shlifim is the project our group will work on during the course.
+The project will be forum based web application for helping students find answers
+to their homework and assignments and also share summaries.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+**Technology stack**: 
+* [Vagrant](https://www.vagrantup.com/) -  an open-source software product for building and maintaining portable virtual software development environments
+* [PipEnv](https://github.com/pypa/pipenv) - tool that manages a virtualenv for your projects
+* [Django](https://www.djangoproject.com/) - Python Web framework
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+**Status**: 
+Demo stage
+
+## Dependencies
+The dependencies that must be installed for this software to work are:
+* [Vagrant](https://www.vagrantup.com/downloads)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* 
+
+**Team members**:
+* Aviv Zafrani
+* Danit Levi
+* Ido Kahlon
+* Rebecca Tubman
+* Lior Noy
+
+Contributing
+------------
+
+For contributing please follow the next steps:
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+[![Python Status](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml/badge.svg)](https://github.com/beyond-io/shlifim/actions/workflows/flake8.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/beyond-io/shlifim/graphs/commit-activity)

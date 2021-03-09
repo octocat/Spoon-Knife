@@ -6,7 +6,7 @@
 The project will be forum based web application for helping students find answers
 to their homework and assignments and also share summaries.
 
-[![Maintenance](https://img.shields.io/badge/Version%3F-Demo-yellow.svg)](https://GitHub.com/liornoy/Django-Lab/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Version%3F-Demo-yellow.svg)](https://github.com/beyond-io/shlifim/issues)
 
 ## Upcoming Features:
 * Register & Login 

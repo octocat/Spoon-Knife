@@ -18,7 +18,22 @@ Demo stage
 The dependencies that must be installed for this software to work are:
 * [Vagrant](https://www.vagrantup.com/downloads)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* 
+
+## Installation
+
+To install make sure you have Git installed already and all the dependencies mentioned above.
+
+Enter in the Command Line: 
+```
+git clone https://github.com/beyond-io/shlifim.git 
+```
+## How to start the app
+In your local git repository you made, enter the command:
+```
+vagrant up
+```
+Afterwards vagrant will boot up, configure, download and install all the needed additional dependencies.
+A script will launch the app and you can access it in: http://127.0.0.1:8000/
 
 **Team members**:
 * Aviv Zafrani

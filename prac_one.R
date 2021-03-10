@@ -5,6 +5,7 @@
 
 ## In the file below have explained bit by bit using a very simple example
 library(data.table)
+library(data.table)
 library(dplyr)
 library('readxl') ## importing the excel file
 pract_1 <- read_excel("practice.xlsx")

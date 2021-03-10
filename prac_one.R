@@ -5,6 +5,7 @@
 
 ## In the file below have explained bit by bit using a very simple example
 library(data.table)
+library(data.table
 library(dplyr)
 library(data.table)
 library(dplyr)

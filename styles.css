@@ -2,7 +2,9 @@
   margin:0px;
   padding:0px;
 }
-
+body {
+  border-color: blue;
+}
 #octocat {
   display: block;
   width:384px;

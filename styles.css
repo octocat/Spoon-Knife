@@ -13,5 +13,18 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  animation-name: animation-1;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  font: 30px roboto, lato, Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+@keyframes animation-1 {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
 }

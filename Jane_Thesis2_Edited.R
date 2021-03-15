@@ -5,6 +5,7 @@
 # if you want to to obtain results for every row, then you can just replicate it
 rm(list=ls())
 library(reshape)
+library(reshape)
 library(tidyverse)
 library(broom)
 library(dplyr)

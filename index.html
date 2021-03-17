@@ -1,20 +1,24 @@
-<!DOCTYPE html>
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+   <body>
 
-<body>
+      <script src='jquery.min.js'></script>
 
-<img src="forkit.gif" id="octocat" alt="" />
+      <script>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+         $(document).ready(function()
+                           {
+                                $("button").click(function()
+                                                  {
+                                                      $("p").html("Hello, <b>Brisbane Test Cricket</b>!");
+                                                  });
+                           });
 
-</body>
-</html>
+      </script>
+
+      <button>Click here to change the content of all p elements.</button>
+
+      <p>The First Paragraph</p>
+
+      <p>The Second Paragraph</p>
+
+   </body>

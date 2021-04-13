@@ -1,4 +1,4 @@
-### learning how to use github
+### learning how to use a github
 
 ### Well hello there!
 

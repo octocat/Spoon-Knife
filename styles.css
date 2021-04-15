@@ -5,7 +5,7 @@
 
 #octocat {
   display: block;
-  width:384px;
+  width:320px;
   margin: 50px auto;
 }
 
@@ -13,5 +13,6 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px Ariel,"Courier New","EBPL DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+//this is a new line

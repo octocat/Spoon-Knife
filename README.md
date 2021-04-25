@@ -1,4 +1,4 @@
-### Well hello there from www.iTechnet.com !
+### Well hello there .com !
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

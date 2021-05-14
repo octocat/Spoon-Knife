@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  * TODO: Error/Exception handling/messaging can be improved if necessary
  * Usage:
  *      mvn exec:java -Dexec.mainClass="com.abnamro.assessment.cmd.AddPerson" -Dexec.args="Fred2 2003-03-21"
- *      or
+ *      or  likr this
  *      mvn exec:java -Dexec.mainClass="com.abnamro.assessment.cmd.AddPerson" -Dexec.args="Fred2 2003-03-21 http://localhost:8080/persons"
  */
 public class AddPerson {

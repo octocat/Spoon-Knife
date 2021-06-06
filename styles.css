@@ -5,13 +5,23 @@
 
 #octocat {
   display: block;
-  width:384px;
-  margin: 50px auto;
+  width: 100%;
+  max-height: 100vh;
 }
-
-p {
+.para{
+  margin-top: -30%;
+  padding-left: 65%;
+}
+a {
+  color: rgb(4, 114, 37);
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 100%;
+  font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  cursor: pointer;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+a:hover{
+  color: rgb(98, 187, 125);
 }

@@ -1,17 +1,584 @@
-* {
-  margin:0px;
-  padding:0px;
+@viewport {
+    width: device-width;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+
+/*
+Author:   Elgiva Stephen.
+Title:    CSS Document
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p,
+table,
+tr,
+td,
+span,
+strong,
+label,
+input,
+select,
+section,
+div,
+header,
+textarea {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+table td {
+    vertical-align: top;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 100% Helvetica, sans-serif;
+    color: #333;
+    background-color: #59401c;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.balanCER {
+    background: #fff url('classroomBk.png') no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
+    height: 650px;
+    position: relative;
+    z-index: 50;
+    top: 80px;
+}
+
+.balanCER:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.margiN {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 0;
+    border: 2px solid #f7f7f7;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.header {
+    width: 100%;
+}
+
+.logoWrapper {
+    float: left;
+    margin: 0 0 0 60px;
+    width: 125px;
+    height: 40px;
+}
+
+.logoWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.navBar1 {
+    float: right;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.navBar1:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navCon li {
+    float: left;
+    padding: 0px 10px;
+    line-height: 10px;
+    color: #f7974e;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Jura', sans-serif;
+}
+
+.navCon li:hover {
+    color: #100499;
+}
+
+.floaT {
+    float: right;
+    padding-right: 90px;
+    width: 40%;
+    height: 50%;
+}
+
+.gooGle {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.goLe {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.goLe img {
+    width: 10%;
+    height: 20px;
+}
+
+.goLe button {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #e2e2e2;
+    text-align: center;
+    font-size: 13px;
+    color: #363636;
+    border: none;
+}
+
+.line {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.line2 {
+    margin-top: -8px;
+    border-bottom: 1px solid black;
+}
+
+.teXt {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.teXt a {
+    color: #100499;
+}
+
+.loginCont {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+}
+
+.loginCont:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.regTitle,
+.subregTitle {
+    font-size: 30px;
+    color: #100499;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.subregTitle {
+    font-size: 17px;
+    color: #464646;
+    margin-top: 8px;
+}
+
+.formField {
+    width: 100%;
+}
+
+.formField:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.fieldCont {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #909090;
+    margin-top: 15px;
+    width: calc((100% - 20px * 2) / 2);
+}
+
+.fieldCont ul {
+    float: left;
+}
+
+.fieldCont ul li {
+    font-size: 30px;
+}
+
+.fieldCont div {
+    float: left;
+    width: 90%;
+}
+
+.fieldCont .span {
+    clear: both;
+    font-size: 12px;
+    color: red;
+}
+
+.inputBox {
+    float: left;
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    width: 90%;
+}
+
+.selectBox {
+    float: left;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.fieldCont:last-child {
+    margin-right: 0;
+    float: right;
+}
+
+.regSuperCont:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.finalField {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.regSumitButt [type="submit"] {
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #c8d3d7;
+    font-size: 20px;
+    padding: 8px 20px;
+    color: #929394;
+}
+
+.regSumitButt [type="submit"]:hover {
+    background-color: #100499;
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+    .inputBox {
+        width: 88%;
+    }
+    .balanCER {
+        background-size: cover;
+        width: 80%;
+    }
+    .floaT {
+        float: right;
+        padding-right: 20px;
+        width: 80%;
+    }
+    .menuICOn {
+        display: block;
+        background: url("../../images/menuicon.png") no-repeat;
+        width: 36px;
+        height: 40px;
+        cursor: pointer;
+        margin: 0 30px 0 0;
+        float: right;
+    }
+    .menuICOn:hover {
+        background: url("../../images/menuicon_sub.png") no-repeat;
+        width: 36px;
+        height: 30px;
+    }
+    .logoWrapper {
+        float: left;
+        margin: 0 0 0 20px;
+        width: 125px;
+        height: 40px;
+    }
+    .logoWrapper img {
+        width: 100%;
+        height: 100%;
+    }
+    .navCon li {
+        float: left;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        color: #f7974e;
+        font-family: 'Tangerine', sans-serif;
+        font-weight: bold;
+    }
+    .navCon li:hover {
+        color: color: #100499;
+        ;
+    }
+    .navBar1 .navCon {
+        transition: ease-out .3s;
+        text-align: center;
+        width: 100%;
+        margin-right: 0px;
+        display: none;
+        padding: 100px;
+    }
+    .navBar1 {
+        width: 80px;
+    }
+    .navBar1:hover .navCon {
+        display: block;
+        background-color: #fbfbfb;
+        transition: ease-in .3s;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navCon li:hover {}
+    .teXt {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .margiN {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fieldCont {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .regSumitButt [type="submit"] {
+        margin-top: 10px;
+    }
+    .inputBox {
+        width: 85%;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 650px) {
+    .fieldCont {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .inputBox {
+        width: 85%;
+    }
+    .balanCER {
+        background-size: cover;
+        width: 80%;
+    }
+    .floaT {
+        float: right;
+        padding-right: 20px;
+        width: 80%;
+    }
+    .menuICOn {
+        display: block;
+        background: url("../../images/menuicon.png") no-repeat;
+        width: 36px;
+        height: 40px;
+        cursor: pointer;
+        margin: 0 30px 0 0;
+        float: right;
+    }
+    .menuICOn:hover {
+        background: url("../../images/menuicon_sub.png") no-repeat;
+        width: 36px;
+        height: 30px;
+    }
+    .logoWrapper {
+        float: left;
+        margin: 0 0 0 20px;
+        width: 125px;
+        height: 40px;
+    }
+    .logoWrapper img {
+        width: 100%;
+        height: 100%;
+    }
+    .navCon li {
+        float: left;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        color: #f7974e;
+        font-family: 'Tangerine', sans-serif;
+        font-weight: bold;
+    }
+    .navCon li:hover {
+        color: #100499;
+        ;
+    }
+    .navBar1 .navCon {
+        transition: ease-out .3s;
+        text-align: center;
+        width: 100%;
+        margin-right: 0px;
+        display: none;
+        padding: 100px;
+    }
+    .navBar1 {
+        width: 80px;
+    }
+    .navBar1:hover .navCon {
+        display: block;
+        background-color: #fbfbfb;
+        transition: ease-in .3s;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navCon li:hover {}
+    .teXt {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .margiN {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fieldCont {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .regSumitButt [type="submit"] {
+        margin-top: 10px;
+    }
+    .inputBox {
+        width: 85%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 470px) {
+    .balanCER {
+        background-size: cover;
+        width: 80%;
+    }
+    .floaT {
+        float: right;
+        padding-right: 20px;
+        width: 80%;
+    }
+    .menuICOn {
+        display: block;
+        background: url("../../images/menuicon.png") no-repeat;
+        width: 36px;
+        height: 40px;
+        cursor: pointer;
+        margin: 0 30px 0 0;
+        float: right;
+    }
+    .menuICOn:hover {
+        background: url("../../images/menuicon_sub.png") no-repeat;
+        width: 36px;
+        height: 30px;
+    }
+    .logoWrapper {
+        float: left;
+        margin: 0 0 0 20px;
+        width: 125px;
+        height: 40px;
+    }
+    .logoWrapper img {
+        width: 100%;
+        height: 100%;
+    }
+    .navCon li {
+        float: left;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        color: #f7974e;
+        font-family: 'Tangerine', sans-serif;
+        font-weight: bold;
+    }
+    .navCon li:hover {
+        color: color: #100499;
+        ;
+    }
+    .navBar1 .navCon {
+        transition: ease-out .3s;
+        text-align: center;
+        width: 100%;
+        margin-right: 0px;
+        display: none;
+        padding: 100px;
+    }
+    .navBar1 {
+        width: 80px;
+    }
+    .navBar1:hover .navCon {
+        display: block;
+        background-color: #fbfbfb;
+        transition: ease-in .3s;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .navCon li:hover {}
+    .teXt {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .margiN {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fieldCont {
+        margin-top: 5px;
+        width: 100%;
+    }
+    .regSumitButt [type="submit"] {
+        margin-top: 10px;
+    }
+    .inputBox {
+        width: 85%;
+    }
 }

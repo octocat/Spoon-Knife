@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#octocat {
+    display: block;
+    width: 384px;
+    margin: 50px auto;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 5px #000;
+    border-radius: 3em;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+p {
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+#git {
+    font-size: 10em;
+}

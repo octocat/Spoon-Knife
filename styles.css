@@ -1,6 +1,9 @@
 * {
   margin:0px;
   padding:0px;
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKad5SM_dwYzA-sLvHevue5-byj-CgnoXTAdpEEykliqYc-XNQ");
+  background-repeat: no-repeat;
+  background-size:100%;  
 }
 
 #octocat {

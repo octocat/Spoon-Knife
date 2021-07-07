@@ -1,0 +1,60 @@
+# =========================
+# Custom ignores
+# =========================
+cfg.php
+config.php
+*.cfg.php
+*.config.php
+*.bak
+*~
+_archives
+archives
+tmp
+temp
+.idea
+.htaccess
+.htpasswd
+
+# =========================
+# Packages
+# =========================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# =========================
+# Folder config file
+# =========================
+Desktop.ini
+
+# =========================
+# Recycle Bin used on file shares
+# =========================
+$RECYCLE.BIN/
+
+# =========================
+# Windows Installer files
+# =========================
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+

@@ -1,0 +1,13 @@
+{ "person" : {
+  "name" : "Fred Wilson",
+  "phone" : [
+    {"number" : 5035551111, "type" : "moble", "when" : "all day"},
+    {"number" : 5035552222, "type" : "home", "when" : "evening"},
+    {"number" : 5035554444, "type" : "other", "when" : null}
+  ],
+  "address" : "1234 N Fake st",
+  "city" : "Portland",
+  "state" : "OR",
+  "zip" : 97217
+}}
+

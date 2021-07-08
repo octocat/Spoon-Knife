@@ -11,7 +11,8 @@
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
+  width: 80%; /* mlc */
+  margin: 2% auto; /* mlc */
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  border-bottom: 3px solid orange; /* mlc */
 }

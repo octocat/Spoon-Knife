@@ -3,6 +3,46 @@
   padding:0px;
 }
 
+body {
+  min-height: 100vh;
+  color: #efefef;
+}
+
+.wrap {
+  min-height: 100vh;
+  background: tomato;
+  -webkit-animation-name: hue-shift;
+          animation-name: hue-shift;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  padding: 1rem;
+}
+
+@-webkit-keyframes hue-shift {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(-360deg);
+            filter: hue-rotate(-360deg);
+  }
+}
+
+@keyframes hue-shift {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(-360deg);
+            filter: hue-rotate(-360deg);
+  }
+}
+
+
 #octocat {
   display: block;
   width:384px;

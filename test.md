@@ -1,2 +1,2 @@
 #asd
-# test and compare and pull requests
+# test compare and pull requests

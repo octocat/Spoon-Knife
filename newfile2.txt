@@ -1,0 +1,7 @@
+A new text file added to the project!!!
+
+Added some lines!
+1
+2
+3
+And another line!

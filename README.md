@@ -2,7 +2,7 @@
 
 David J. Schwegman 
 June 24th 
-Favorite color = blue 
+Favorite color is blue 
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

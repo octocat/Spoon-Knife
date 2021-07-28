@@ -1,3 +1,4 @@
+Your Name: Haiman Wong; Your Birthday: August 6th; Favorite Color: Burgundy
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

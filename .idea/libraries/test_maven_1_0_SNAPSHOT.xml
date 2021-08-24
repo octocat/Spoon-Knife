@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="test-maven-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../test-maven/target/test-maven-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../test-maven/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../test-maven/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

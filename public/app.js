@@ -1,0 +1,4 @@
+function test()
+{
+  alert('Ok');
+}

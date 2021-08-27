@@ -1,5 +1,3 @@
-[![Travis](http://img.shields.io/travis/ccarrubba/Spoon-Knife/master.png)](https://travis-ci.org/ccarrubba/ccarrubba/Spoon-Knife)
-
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

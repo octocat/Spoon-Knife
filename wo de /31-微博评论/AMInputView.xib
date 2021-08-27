@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="28A-X3-a4W">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_bg" translatesAutoresizingMaskIntoConstraints="NO" id="pkD-s4-mXk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="35"/>
+                    <animations/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="bottom_textfield" translatesAutoresizingMaskIntoConstraints="NO" id="8Uy-hr-5dx">
+                    <rect key="frame" x="3" y="3" width="334" height="29"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQC-ZU-Wzf">
+                    <rect key="frame" x="340" y="0.0" width="35" height="35"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="wSK-59-Kfo"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="bottom_up_nor"/>
+                    <state key="highlighted" backgroundImage="bottom_up_press"/>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hQC-ZU-Wzf" firstAttribute="leading" secondItem="8Uy-hr-5dx" secondAttribute="trailing" constant="3" id="0qU-sA-2M2"/>
+                <constraint firstItem="hQC-ZU-Wzf" firstAttribute="top" secondItem="28A-X3-a4W" secondAttribute="top" id="2em-ab-2lg"/>
+                <constraint firstAttribute="bottom" secondItem="hQC-ZU-Wzf" secondAttribute="bottom" id="Cbe-YO-D0A"/>
+                <constraint firstItem="pkD-s4-mXk" firstAttribute="top" secondItem="28A-X3-a4W" secondAttribute="top" id="DZi-hp-KDx"/>
+                <constraint firstItem="8Uy-hr-5dx" firstAttribute="top" secondItem="28A-X3-a4W" secondAttribute="top" constant="3" id="OhN-Ci-T6j"/>
+                <constraint firstItem="pkD-s4-mXk" firstAttribute="leading" secondItem="28A-X3-a4W" secondAttribute="leading" id="TnW-4b-P6L"/>
+                <constraint firstAttribute="bottom" secondItem="8Uy-hr-5dx" secondAttribute="bottom" constant="3" id="WjB-sW-Ore"/>
+                <constraint firstAttribute="bottom" secondItem="pkD-s4-mXk" secondAttribute="bottom" id="XQh-k9-Zss"/>
+                <constraint firstItem="8Uy-hr-5dx" firstAttribute="leading" secondItem="28A-X3-a4W" secondAttribute="leading" constant="3" id="cp1-Zo-qs2"/>
+                <constraint firstAttribute="trailing" secondItem="hQC-ZU-Wzf" secondAttribute="trailing" id="jm8-8X-bnO"/>
+                <constraint firstAttribute="trailing" secondItem="pkD-s4-mXk" secondAttribute="trailing" id="s2w-ab-d85"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="266.5" y="49.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bottom_bg" width="10" height="42"/>
+        <image name="bottom_textfield" width="166" height="31"/>
+        <image name="bottom_up_nor" width="34" height="34"/>
+        <image name="bottom_up_press" width="34" height="34"/>
+    </resources>
+</document>

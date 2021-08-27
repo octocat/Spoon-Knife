@@ -15,3 +15,28 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+octo {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#octo {
+	text-align:center;
+}
+
+#octo img {
+  height: 100px;
+  width: 100px;
+  display: none;
+}
+
+.tip {
+	font-size: 11px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}

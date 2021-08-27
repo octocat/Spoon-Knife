@@ -1,3 +1,7 @@
+.some-other-style {
+    border: 1px solid green;
+}
+
 * {
   margin:0px;
   padding:0px;
@@ -14,4 +18,8 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+.some-style {
+    border: 1px solid red;
 }

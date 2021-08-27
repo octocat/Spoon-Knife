@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>红途-风控汇</title>
+<!-- css -->
+<link rel="stylesheet" href="__TMPL__/Public/css/style.css">
+<block name="style"></block>
+<!--script-->
+<script src="__TMPL__/Public/js/jquery-1.11.1.min.js"></script>
+<script src="__TMPL__/Public/js/jquery.validate.min.js"></script>
+<script src="__TMPL__/Public/js/custom.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="__ROOT__/pie/PIE.js"></script>
+<![endif]-->
+</head>
+<body>
+	<include file="Public:header" />
+	<div class="content">
+		<div class="center">
+			<block name="body"></block>
+		</div>
+	</div>
+	<include file="Public:footer" />
+	<block name="popup"></block>
+	<block name="script"></block>
+	{$site_tongji}
+</body>
+</html>

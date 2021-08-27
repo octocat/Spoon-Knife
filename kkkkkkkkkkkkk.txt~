@@ -1,0 +1,115 @@
+ careers@zone24x7.com
+
+//select single query
+            StudentGroupeList gl1 =null;
+
+            string value = MvcApplication.defaultString;
+            
+            try
+            {
+                
+                gl1 = db.StudentGroupeLists.Single(n => n.StuId.Equals(loggedUserID));
+                value = gl1.GroupNo;
+            }
+            catch (Exception e)
+            {
+                Debug.Write(e);
+            }
+
+//retuning json obj
+return Json(new { student = st }, JsonRequestBehavior.AllowGet);
+
+
+//inserting query
+
+	
+                StudentGroupeList gl2 = new StudentGroupeList()
+                {
+                    StuId=loggedUserID,
+                    Module=currentModule,
+                    GroupNo= "SE_SEP_"+newGroupID,
+                    status= MvcApplication.leaderStatus
+                };
+
+                try
+                { 
+                    ///Query to insert the leader's deatails once Student press create group button
+                    db.StudentGroupeLists.Add(gl2);
+                    db.SaveChanges();
+                }
+
+
+
+
+IList<MarkingScheme> assesmentList = (from m in db.MarkingSchemes
+                                                      where (m.iterationType.Equals(iteration))
+                                                      select m).ToList<MarkingScheme>();
+
+                foreach (var item in assesmentList)
+                {
+                    db.MarkingSchemes.Remove(item)
+                    db.SaveChanges();
+
+
+
+
+***********************
+.editableTable .cellEditing input[type=text]{ 
+    width:100%; 
+    border:0; 
+    background-color:rgb(255,253,210); 
+
+}
+****************************
+
+ <table class="editableTable"> 
+                <thead> 
+                    <tr> 
+                    <th>Code</th> 
+                    <th>Name</th> 
+                    <th>Email</th> 
+                    <th>Phone</th> 
+                    </tr> 
+                    </thead> 
+                <tbody> 
+                    <tr> 
+                    <td>001</td> 
+                    <td>Pedro Augusto</td> 
+                    <td>pedro.augusto@myemail.com</td> 
+                    <td>(21) 9999-8888</td> 
+                    </tr> 
+                    <tr> 
+                    <td>002</td> 
+                    <td>Paula Silva</td> 
+                    <td>paula.silva@mymail.com</td> 
+                    <td>(81) 8787-8686</td> 
+                    </tr> 
+                    <tr> 
+                    <td>003</td> 
+                    <td>Lucas Costa</td> 
+                    <td>lucas.costa@myemail.com</td> 
+                    <td>(84) 3232-3232</td> 
+                    </tr>
+                 </tbody> 
+                </table>
+
+****************************************
+table.js
+------
+ $("td").dblclick(function ()
+    {
+        var OriginalContent = $(this).text();
+        $(this).addClass("cellEditing");
+        $(this).html("<input type='text' value='" + OriginalContent + "' />");
+        $(this).children().first().focus();
+        $(this).children().first().keypress(function (e) {
+            if (e.which == 13) {
+                var newContent = $(this).val();
+                $(this).parent().text(newContent);
+                $(this).parent().removeClass("cellEditing");
+            }
+        }); $(this).children().first().blur(function () {
+            $(this).parent().text(OriginalContent);
+            $(this).parent().removeClass("cellEditing");
+        });
+    });

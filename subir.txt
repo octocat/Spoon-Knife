@@ -1,0 +1,1 @@
+se subio todo excepto lo indicado en el .gitignore

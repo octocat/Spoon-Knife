@@ -1,4 +1,4 @@
-### Well hello there!
+### What up my glip-glops?
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,0 +1,30 @@
+TOPIC
+    about_EntityFramework
+
+SHORT DESCRIPTION
+    Provides information about Entity Framework commands.
+
+LONG DESCRIPTION
+    This topic describes the Entity Framework commands. Entity Framework is
+    Microsoft's recommended data access technology for new applications.
+
+
+    The following Entity Framework cmdlets are included.
+
+        Cmdlet              Description
+        -----------------   ---------------------------------------------------
+        Enable-Migrations   Enables Code First Migrations in a project.
+
+        Add-Migration       Scaffolds a migration script for any pending model
+                            changes.
+
+        Update-Database     Applies any pending migrations to the database.
+
+        Get-Migrations      Displays the migrations that have been applied to
+                            the target database.
+
+SEE ALSO
+    Enable-Migrations
+    Add-Migration
+    Update-Database
+    Get-Migrations

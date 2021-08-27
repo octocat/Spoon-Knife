@@ -1,0 +1,21 @@
+Hello, world!
+
+Test.
+
+
+Instructions to add, commit and push a file -
+
+git add hello.txt
+
+git commit -m "Initial commit"
+
+git push -u origin master
+
+
+Forking another user's code/work (for collaborative purposes) -
+
+Firstly, create a new folder with the desired name and open that directory by using the cd command.
+
+To fork (or copy) another user's folder first get their URL which should be in the following format: https://github.com/ + their username + / + their repository name + .git
+
+Next, make sure you're in your new local repository and in CLI type: "git clone <copied URL>". Clone basically means download.

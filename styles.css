@@ -3,6 +3,9 @@
   padding:0px;
 }
 
+.demoClss{
+  display:none;
+}
 #octocat {
   display: block;
   width:384px;

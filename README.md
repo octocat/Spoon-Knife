@@ -1,3 +1,7 @@
+Adalberto Fuentes Zurita
+
+I am making some changes to practice and learn how to use github
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

@@ -1,0 +1,2 @@
+File to test an extended commit on git.
+

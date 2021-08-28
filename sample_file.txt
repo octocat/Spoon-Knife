@@ -1,0 +1,3 @@
+Hello there,
+This is a test on several git commands for a refresher course
+

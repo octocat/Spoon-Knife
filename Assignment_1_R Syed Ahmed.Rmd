@@ -1,0 +1,120 @@
+---
+title: "Assignment 1--R"
+author: "Syed Ahmed"
+date: "09/11/2020"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction to R
+
+This is an R Markdown document.  You can type words in the regions with a white background (like this)--for example, to explain or interpret the code you wrote.
+
+Gray regions, like the one below, contain R code.  You can make gray regions by starting them with 3 backticks (```) followed by {r}.  Then end them with 3 backticks again.
+
+- On most keyboards, the backtick is on the key to the left of the number 1.
+
+a. Click on the green arrow in the upper-right hand corner of this code cell to evaluate it (i.e., to run the code).  Here, we're finding the cube root of 2019:
+
+```{r}
+2019^(1/3)
+```
+
+b. Create a vector of integers from 1 to 12 and store it in the variable `a`:
+```{r}
+a = 1:12
+```
+
+Notice that when you evaluated the code cell above, R did not display the contents of the variable `a`.  To do this, retype the variable name on its own line of code:
+```{r}
+a=(1:12)
+```
+
+You can also do this in the same code cell where you defined the variable:
+```{r}
+a <- 1:12
+a
+```
+
+c. Here's another way to define a vector of numbers.  Modify the code cell below to display the contents of the variable `b`.
+```{r}
+b <- c(1, 3, 5, 7, 9, 11)
+b
+```
+
+d. Here's a third way to define a vector of numbers--in this case, a sequence of odd integers from 1 to 11. Modify the code cell below to display the contents of the variable `c`.
+```{r}
+c <- seq(1, 11, by = 2)
+c
+```
+
+Use the method demonstrated above to create a sequence of integers from 0 to 100, in increments of 10.  Store the sequence in the variable `d` and display the contents of `d`.
+```{r}
+d <- seq(0,100, by = 10)
+d
+```
+
+h. Take the natural log (ln) of a. (Note that this is done to the entire “vector” called a.)
+```{r}
+ln.a <- log(a)
+ln.a
+```
+
+i. Compute the **squares** of the numbers in your vector `c` and display the results.
+```{r}
+ln.a <- log(c)
+ln.a
+```
+
+j. In general, you should display the contents of variables you create, so you (and we!) can check that your code worked the way you wanted. However, in the case of large vectors, you can save space by displaying only a subset of the vector.  You can do this using *square bracket notation*:
+```{r}
+c[1:5] # Display the first 5 elements of vector c
+```
+
+Square bracket notation can also be used to modify vectors:
+```{r}
+c[2] = 17 # Change the 2nd element of c to 17
+c
+```
+
+Change elements 3:5 of vector `d` to the sequence 2, 4, 6.  Then display the first 6 elements of vector `d`.
+```{r}
+d[3:5] <- c(2,4,6)
+d[1:6]
+
+```
+
+j. View the help file for the `sd` function.  
+
+- You can do this by clicking on the Help panel in R Studio (it's one of the options in the panel in the lower right-hand corner) and typing `sd` in the search box (the box with the icon of the magnifying glass), or
+- You can type `?sd` in a code cell and execute the cell.
+
+In the space below, **write an answer** to the following question:  What does the `sd` function do?
+This function computes the standard deviation of the values in x. If na.rm is TRUE then missing values are removed before computation proceeds.
+
+k. Create a variable called `Name` that contains your first name.  Because your name is a character string, not a number, you will need to put it in quotes so that R knows not to go looking for a variable with that name:
+```{r}
+Name <- "SYED"
+print( paste("My name is", Name) )
+```
+
+L. Knit your R Markdown file to a .pdf or Word document.  Check the file for correctness.  
+
+- If you knitted to a Word document, choose "Print to...PDF" within Word.
+- Then save the .Rmd file and the .pdf document in the same folder where you downloaded the homework from GitHub.  
+- Use the GitHub desktop console to commit your changes.  
+- Then go to the GitHub website and create a pull request.  
+
+- If you can see your submission on the Pull Requests page for this assignment (https://github.com/ds710summer2020/ds710summer2020assignment1/pulls), then you have submitted it successfully.
+
+
+
+m.  When you shut down R, R will ask if you want to save the workspace image.  Always choose **no**. 
+
+(Why?  Saving the workspace image means saving in memory any variables you have defined.  It does not save the code you wrote—you need to save your code in a .r or .Rmd file for this.  Saving your variables can be confusing:  If you later write another function that’s supposed to use, say, the name of a company, stored in the variable Name, but forget to initialize it, normally R would give you an error message that you could use to figure out your mistake.  But if you save the workspace image, then R won’t give an error message.  It will just use the stored value of Name—but that’s your name, not the company name.  This produces a bug that can be much harder to track down.)
+B

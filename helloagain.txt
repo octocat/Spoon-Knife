@@ -1,0 +1,65 @@
+Hello, world!
+At last I have found you…directions to open in Pages were misleading and I had to Google how to create a .txt file.
+Glad to be on board!
+
+GITHUB
+So, importing the file to GitHub was a little trickie. Jeez, I feel like a newbie…glad to have sorted it though.
+
+My original attempt to push my upstream to origin master was thwarted by my login details…I suspect I may have used an Apple recommended password. 
+But my first attempt did not show any character entry for my password, so that was a little confusing.
+
+Eventually, I changed my password, then I tried to run the push again and this time, with the revised password, it worked! So here we are. And there you go.
+
+
+SUNDAY 26TH MARCH:
+Back to the coalface after becoming a cropper at my last attempt. 
+I tried following their advise by changing the hello.txt file and re-committing. BUT, it did not work.  I tried various methods, tried to research and eventually left it.
+
+And after a memorial service, passport panic and late night Clash Royale, I am struggling to get on top of it.  I NEED TO BE DOING THIS AT LEAST TWICE A DAY, IN AM and IN PM, in order to keep up the stream of thought and the arguments, remembering where I am and what my task was. 
+
+Distractions and shoulds are all around. AND I AM TIRED.
+
+I CAN’T DO IT ALL. SO I NEED TO CHOOSE WELL.
+ - THE GARDEN?
+ - THE PAPERWORK (BENEFITS, MONTEFIORE)
+ - TIDYING UP - THE BEDROOM, THE DESK, LOUIS’S ROOM, ETC.
+
+
+
+ENOUGH, though. Time to get back to this file and try to get it in my repository.
+
+
+WEDS 29th MARCH.
+Been too busy with Loxdale and passport runs to do anything. Have missed loads and now find myself coming back to GitHub and trying to pick up the pieces for the first time in ages.
+
+
+
+FRIDAY 14th APRIL
+Yep, over 2 weeks later and after a fair bit of work and a whole host of distraction. I am back on it.
+
+So, I want this txt to replace my hello.txt file….do you think I can do that and rename hellov2.txt to hello.txt?
+
+
+
+SUNDAY 16th APRIL
+After having done a little extra homework, such as CodeSchool’s Git Real, I went back to Stream 1 and will now try to rename this hellov2 as hello.txt and then re-commit changes…or find some other solution
+
+
+
+MONDAY 17th APRIL 
+With Gary, go through the whole thing and cream myself with gentle triumph!
+
+
+TUESDAY 18TH APRIL
+WHILE WORKING ON BRANCHING AND MERGING, it seems as though there was an assumption about file structures on people’s computers!!
+
+They expected DOCUMENTS to be one directory above the Test [or Test2 in my case] folder.
+BUT on my mac, I do not have that structure and my “documents” folder is in the cloud [on icloud]
+
+So, I will just go into Finder to copy it across…..another illustration of how, surely, no one would use a command line if a GUI was available!  It’s like Iron Man writing every line of code to move and expand something, rather than using his high-tech holographic gadgets!
+
+
+
+
+
+

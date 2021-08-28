@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  background-color: darkolivegreen;
 }
 
 #octocat {
@@ -9,7 +10,8 @@
   margin: 50px auto;
 }
 
-p {
+p { 
+  color: coral;
   display: block;
   width: 400px;
   margin: 50px auto;

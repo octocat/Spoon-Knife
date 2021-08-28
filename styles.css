@@ -1,9 +1,9 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin:5px;
+  padding:5px;
 }
 
-#octocat {
+#m2suns {
   display: block;
   width:384px;
   margin: 50px auto;
@@ -11,7 +11,8 @@
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width: 300px;
+  margin: 40px auto;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: red;
 }

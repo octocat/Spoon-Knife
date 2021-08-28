@@ -1,6 +1,8 @@
 * {
   margin:0px;
   padding:0px;
+  background-color: goldenrod;
+  
 }
 
 #octocat {
@@ -9,9 +11,30 @@
   margin: 50px auto;
 }
 
+.boks_om_tekst{
+background-color: sandybrown;
+border:4px;
+ border-color: black;
+  border-style:double;
+  
+
+}
+
+
 p {
   display: block;
   width: 400px;
+  height: 140px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+ 
+}
+
+.footer{
+  font: 12px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }

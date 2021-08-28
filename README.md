@@ -1,4 +1,4 @@
-### Well hello there!
+### How to make a Pull Request!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

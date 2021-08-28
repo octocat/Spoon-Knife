@@ -8,6 +8,12 @@
   width:384px;
   margin: 50px auto;
 }
+h1 {
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+  font: 80px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 p {
   display: block;

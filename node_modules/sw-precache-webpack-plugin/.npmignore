@@ -1,0 +1,8 @@
+node_modules/
+src/
+examples/
+test/
+.github/
+circle.yml
+.babelrc
+.eslintrc

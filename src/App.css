@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.priceTag{
+  margin: 2px;
+}
+#priceTag_old{
+  text-decoration: line-through;
+  color:#F7070B;
+}
+#nameTag{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 470px; 
+}
+#cardDetail{
+  margin-top: 20px;
+}
+#cardImage{
+  height: 300px;
+}
+
+

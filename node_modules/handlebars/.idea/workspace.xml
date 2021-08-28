@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b292870-df0f-40ed-8ad0-3637ddba5dd2" name="Default" comment="" />
+    <ignored path="handlebars.js.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="handlebars.js" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="compiler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/compiler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="488" column="3" lean-forward="false" selection-start-line="488" selection-start-column="3" selection-end-line="488" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#30#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/handlebars/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Changes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/mustache/Changes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="release-notes.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/release-notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="126">
+                <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="208">
+                <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/compiler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1476">
+              <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/env/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print-script" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/print-script">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>publish</find>
+      <find>grunt</find>
+      <find>test'</find>
+      <find>istanbul</find>
+      <find>bin</find>
+      <find>cl</find>
+      <find>istanbu</find>
+      <find>error</find>
+      <find>bin/</find>
+      <find>os.type</find>
+      <find>master</find>
+      <find>branch</find>
+      <find>test:</find>
+      <find>test</find>
+      <find>compile</find>
+      <find>copile</find>
+      <find>PathExpression</find>
+      <find>lodash</find>
+      <find>undest</find>
+      <find>equal</find>
+      <find>options</find>
+      <find>this.options.blockParams</find>
+      <find>this.options</find>
+      <find>blockParams</find>
+      <find>new</find>
+      <find>parse</find>
+      <find>Object.assig</find>
+      <find>forEach</find>
+      <find>webpack</find>
+      <find>object.a</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this.param</replace>
+      <replace>([@$1](https://github.com/$1))</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/lib/handlebars</dir>
+      <dir>$PROJECT_DIR$/lib</dir>
+      <dir>$PROJECT_DIR$/lib/handlebars/compiler</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/node_modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="wycats/4.x" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Luiz Américo &lt;luizamericop@gmail.com&gt;" />
+        <option value="Nils Knappmeier &lt;github@knappi.org&gt;" />
+        <option value="Tobias Bieniek &lt;tobias.bieniek@gmail.com&gt;" />
+        <option value="Joonas Lahtinen &lt;joonas.lahtinen@iki.fi&gt;" />
+        <option value="Marcos Marado &lt;mindboosternoori@gmail.com&gt;" />
+        <option value="Travis Nelson &lt;travis.o.nelson@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fix-object-assign-bug" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+    <push-targets>
+      <push-target-info target-remote="origin" target-branch="eslint-fixes" repo="$PROJECT_DIR$" source="eslint-fixes" />
+      <push-target-info target-remote="wycats" target-branch="4.0.7-release" repo="$PROJECT_DIR$" source="4.0.7-release" />
+      <push-target-info target-remote="wycats" target-branch="test-publish-4.x" repo="$PROJECT_DIR$" source="test-publish-4.x" />
+      <push-target-info target-remote="wycats" target-branch="appveyor" repo="$PROJECT_DIR$" source="appveyor" />
+      <push-target-info target-remote="wycats" target-branch="4.x" repo="$PROJECT_DIR$" source="4.x" />
+      <push-target-info target-remote="wycats" target-branch="fix-object-assign-bug" repo="$PROJECT_DIR$" source="fix-object-assign-bug" />
+    </push-targets>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/handlebars/exception.js" />
+        <option value="$PROJECT_DIR$/spec/strict.js" />
+        <option value="$PROJECT_DIR$/dist/handlebars.runtime.js" />
+        <option value="$PROJECT_DIR$/dist/cjs/handlebars/runtime.js" />
+        <option value="$PROJECT_DIR$/lib/handlebars/utils.js" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.txt" />
+        <option value="$PROJECT_DIR$/lib/handlebars/helpers/each.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" />
+        <option value="$PROJECT_DIR$/lib/handlebars/compiler/ast.js" />
+        <option value="$PROJECT_DIR$/lib/handlebars/compiler/code-gen.js" />
+        <option value="$PROJECT_DIR$/dist/cjs/precompiler.js" />
+        <option value="$PROJECT_DIR$/.istanbul.yml" />
+        <option value="$PROJECT_DIR$/src/parser-suffix.js" />
+        <option value="$PROJECT_DIR$/src/parser-prefix.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/spec/partials.js" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/lib/handlebars/compiler/javascript-compiler.js" />
+        <option value="$PROJECT_DIR$/dist/handlebars.js" />
+        <option value="$PROJECT_DIR$/lib/handlebars/runtime.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/tasks/publish.js" />
+        <option value="$PROJECT_DIR$/spec/artifacts/example_1.handlebars" />
+        <option value="$PROJECT_DIR$/src/handlebars.l" />
+        <option value="$PROJECT_DIR$/src/handlebars.yy" />
+        <option value="$PROJECT_DIR$/.appveyor.yml" />
+        <option value="$PROJECT_DIR$/appveyor.yml" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/tasks/test.js" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/spec/regressions.js" />
+        <option value="$PROJECT_DIR$/spec/env/common.js" />
+        <option value="$PROJECT_DIR$/spec/compiler.js" />
+        <option value="$PROJECT_DIR$/release-notes.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/lib/handlebars/compiler/compiler.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="amd" info="Alias for &quot;babel:amd&quot;, &quot;requirejs&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="babel:amd" />
+        <dependency value="requirejs" />
+      </alias-task>
+      <alias-task name="node" info="Alias for &quot;babel:cjs&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="babel:cjs" />
+      </alias-task>
+      <alias-task name="globals" info="Alias for &quot;webpack&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="webpack" />
+      </alias-task>
+      <alias-task name="tests" info="Alias for &quot;concat:tests&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="concat:tests" />
+      </alias-task>
+      <alias-task name="test" info="Alias for &quot;test:bin&quot;, &quot;test:cov&quot;, &quot;test:check-cov&quot; tasks." file-path="tasks/test.js">
+        <dependency value="test:bin" />
+        <dependency value="test:cov" />
+        <dependency value="test:check-cov" />
+      </alias-task>
+      <alias-task name="bench" info="Alias for &quot;metrics&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="metrics" />
+      </alias-task>
+      <alias-task name="sauce" info="Alias for &quot;&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="" />
+      </alias-task>
+      <alias-task name="travis" info="Alias for &quot;default&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="default" />
+      </alias-task>
+      <alias-task name="dev" info="Alias for &quot;clean&quot;, &quot;connect&quot;, &quot;watch&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean" />
+        <dependency value="connect" />
+        <dependency value="watch" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;clean&quot;, &quot;build&quot;, &quot;test&quot;, &quot;release&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean" />
+        <dependency value="build" />
+        <dependency value="test" />
+        <dependency value="release" />
+      </alias-task>
+      <core-task name="build" info="Builds a distributable version of the current project" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="release" info="Build final packages" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true" />
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="tests" />
+      </core-task>
+      <core-task name="connect" info="Start a connect web server." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-connect/tasks/connect.js" multi="true">
+        <target value="server" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="dist" />
+        <target value="cdnjs" />
+        <target value="components" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="scripts" />
+      </core-task>
+      <core-task name="babel" info="Transpile ES6 to ES5" file-path="$PROJECT_DIR$/node_modules/grunt-babel/tasks/babel.js" multi="true">
+        <target value="amd" />
+        <target value="cjs" />
+      </core-task>
+      <core-task name="eslint" info="Validate files with ESLint" file-path="$PROJECT_DIR$/node_modules/grunt-eslint/tasks/eslint.js" multi="true">
+        <target value="files" />
+      </core-task>
+      <core-task name="saucelabs-jasmine" info="Run Jasmine test cases using Sauce Labs browsers" file-path="$PROJECT_DIR$/node_modules/grunt-saucelabs/tasks/saucelabs.js" multi="true" />
+      <core-task name="saucelabs-qunit" info="Run Qunit test cases using Sauce Labs browsers" file-path="$PROJECT_DIR$/node_modules/grunt-saucelabs/tasks/saucelabs.js" multi="true" />
+      <core-task name="saucelabs-yui" info="Run YUI test cases using Sauce Labs browsers" file-path="$PROJECT_DIR$/node_modules/grunt-saucelabs/tasks/saucelabs.js" multi="true" />
+      <core-task name="saucelabs-mocha" info="Run Mocha test cases using Sauce Labs browsers" file-path="$PROJECT_DIR$/node_modules/grunt-saucelabs/tasks/saucelabs.js" multi="true">
+        <target value="all" />
+        <target value="sanity" />
+      </core-task>
+      <core-task name="saucelabs-custom" info="Run custom test cases using Sauce Labs browsers" file-path="$PROJECT_DIR$/node_modules/grunt-saucelabs/tasks/saucelabs.js" multi="true" />
+      <core-task name="webpack-dev-server" info="Start a webpack-dev-server." file-path="$PROJECT_DIR$/node_modules/grunt-webpack/tasks/webpack-dev-server.js" multi="true" />
+      <core-task name="webpack" info="Webpack files." file-path="$PROJECT_DIR$/node_modules/grunt-webpack/tasks/webpack.js" multi="true">
+        <target value="handlebars" />
+        <target value="runtime" />
+      </core-task>
+      <core-task name="metrics" info="Custom task." file-path="tasks/metrics.js" multi="false" />
+      <core-task name="parser" info="Generate jison parser." file-path="tasks/parser.js" multi="false" />
+      <core-task name="publish:latest" info="Custom task." file-path="tasks/publish.js" multi="false" />
+      <core-task name="publish:version" info="Custom task." file-path="tasks/publish.js" multi="false" />
+      <core-task name="test:bin" info="Custom task." file-path="tasks/test.js" multi="false" />
+      <core-task name="test:mocha" info="Custom task." file-path="tasks/test.js" multi="false" />
+      <core-task name="test:cov" info="Custom task." file-path="tasks/test.js" multi="false" />
+      <core-task name="test:min" info="Custom task." file-path="tasks/test.js" multi="false" />
+      <core-task name="test:check-cov" info="Custom task." file-path="tasks/test.js" multi="false" />
+      <core-task name="version" info="Updates the current release version" file-path="tasks/version.js" multi="false" />
+    </gruntfile>
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1303" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlebars.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlebars.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlebars.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlebars.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.9.2/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
+    <property name="SearchEverywhereHistoryKey" value="invokepartial&#9;null&#9;null" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript&#10;TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handletest" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Grunt.js.tests">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="handlebars.js" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="handlebars.js" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tests" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="test" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.tests" />
+    </list>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="handlebars.js" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b292870-df0f-40ed-8ad0-3637ddba5dd2" name="Default" comment="" />
+      <created>1482221442128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482221442128</updated>
+      <workItem from="1482221443503" duration="1962000" />
+      <workItem from="1482354267399" duration="1770000" />
+      <workItem from="1482441060689" duration="1064000" />
+      <workItem from="1482960355601" duration="3079000" />
+      <workItem from="1483051768003" duration="4533000" />
+      <workItem from="1483085656996" duration="6307000" />
+      <workItem from="1483125846920" duration="5607000" />
+      <workItem from="1483201110932" duration="1380000" />
+      <workItem from="1483228858732" duration="4276000" />
+      <workItem from="1483255049900" duration="2528000" />
+      <workItem from="1483299248816" duration="3584000" />
+      <workItem from="1483344072008" duration="5546000" />
+      <workItem from="1483563519553" duration="503000" />
+      <workItem from="1483689166031" duration="7891000" />
+      <workItem from="1483734648229" duration="429000" />
+      <workItem from="1484309382526" duration="306000" />
+      <workItem from="1484515330676" duration="1306000" />
+      <workItem from="1484688238666" duration="2470000" />
+      <workItem from="1484691729305" duration="910000" />
+      <workItem from="1484776234311" duration="635000" />
+      <workItem from="1484905590107" duration="652000" />
+      <workItem from="1485662550742" duration="8156000" />
+      <workItem from="1485722761110" duration="808000" />
+      <workItem from="1485723619999" duration="741000" />
+      <workItem from="1486065977116" duration="2537000" />
+      <workItem from="1486237470018" duration="2846000" />
+      <workItem from="1487105917157" duration="4599000" />
+      <workItem from="1487317649429" duration="1853000" />
+      <workItem from="1487319541570" duration="373000" />
+      <workItem from="1487885354975" duration="1767000" />
+      <workItem from="1487920793747" duration="2038000" />
+      <workItem from="1489012372558" duration="3420000" />
+      <workItem from="1489088091990" duration="5867000" />
+      <workItem from="1489094827548" duration="26000" />
+      <workItem from="1489224869883" duration="6947000" />
+      <workItem from="1489264092720" duration="7329000" />
+      <workItem from="1489299373514" duration="1317000" />
+      <workItem from="1489300725278" duration="1421000" />
+      <workItem from="1489350088458" duration="8557000" />
+      <workItem from="1489613043334" duration="692000" />
+      <workItem from="1490214555248" duration="1365000" />
+      <workItem from="1490447987930" duration="2820000" />
+      <workItem from="1491423103879" duration="294000" />
+      <workItem from="1491423618651" duration="870000" />
+      <workItem from="1492197250467" duration="755000" />
+      <workItem from="1493496122128" duration="4512000" />
+      <workItem from="1493572990008" duration="1028000" />
+      <workItem from="1493668871855" duration="857000" />
+      <workItem from="1493670057400" duration="17000" />
+      <workItem from="1493753982120" duration="5355000" />
+      <workItem from="1493993660351" duration="84000" />
+      <workItem from="1494624758377" duration="5037000" />
+      <workItem from="1494672596005" duration="928000" />
+      <workItem from="1494708094585" duration="2312000" />
+      <workItem from="1494710547040" duration="843000" />
+      <workItem from="1494765833140" duration="1330000" />
+      <workItem from="1494793452148" duration="6689000" />
+      <workItem from="1494860875541" duration="3000" />
+      <workItem from="1494883026375" duration="1573000" />
+      <workItem from="1494945938823" duration="1392000" />
+      <workItem from="1494963348637" duration="1392000" />
+      <workItem from="1495053555370" duration="4670000" />
+      <workItem from="1495130336652" duration="4706000" />
+      <workItem from="1495365578159" duration="18000" />
+      <workItem from="1495365778333" duration="2870000" />
+    </task>
+    <task id="LOCAL-00005" summary="Test-case for #1252: Using @partial-block twice in a template not possible">
+      <created>1483140723041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1483140723041</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Possible fix for #1252: Refactoring for nested partial-block calls&#10;&#10;This fix treats partial-blocks more like closures and uses the closure-context of &#10;the &quot;invokePartial&quot;-function to store the @partial-block for the partial.">
+      <created>1483256759300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1483256759300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="require('sys') is deprecated, using 'util' instead&#10;&#10;(node:30288) DeprecationWarning: sys is deprecated. Use util instead.&#10;&#10;(cherry picked from commit 9a36966 by @travnels)">
+      <created>1483300079132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1483300079132</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix istanbul dev dependency&#10;&#10;According to npm's documentation[1], dependencies on github&#10;repositories are declared with the following syntax:&#10;    &quot;module&quot;: &quot;person/module&quot;&#10;&#10;This commit changes the package.json syntax on istanbul's dependency,&#10;to follow the documentation.&#10;&#10;[1] https://docs.npmjs.com/files/package.json#github-urls&#10;&#10;(cherry picked from commit 2b7ed7e)">
+      <created>1483301376054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483301376054</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add more tests for different scenarios of using partial-blocks&#10;&#10;- Multiple partial-blocks at different nesting levels&#10;- Calling partial-blocks twice with nested partial-blocks&#10;- Calling the partial-block from within the #each-helper&#10;">
+      <created>1483347921572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1483347921572</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added tests for multiple partial-block calls with inline partials&#10;&#10;- nested inline partials with partial-blocks on different nesting levels&#10;- nested inline partials (twice at each level)">
+      <created>1483348429705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1483348429705</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added &quot;.editorconfig&quot;-file that specifies the indent for javascript-files&#10; &#10;- see http://editorconfig.org/&#10;- This file only includes very basic settings. It may be expanded in the future">
+      <created>1483348953848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1483348953848</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added node v6 to travis-ci&#10;&#10;(cherry picked from commit f784e6c)">
+      <created>1483689696115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1483689696115</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Node 5 is out-of-support Node 6 is the current LTS version">
+      <created>1483689921473</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1483689921473</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Replace Node 5 by Node 6 in .travis-ci.yml&#10;&#10;Node 5 is not officially supported anymore and Node 6 is the active LTS.&#10;That's why builds are now performed with Node 6">
+      <created>1483691689373</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1483691689373</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add more machine-readable data about the license&#10;&#10;This small change is meant to make LibreJS happy.&#10;&#10;Closes: #1273&#10;&#10;(cherry picked from commit 1f2d293)">
+      <created>1483696373690</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1483696373690</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add more machine-readable data about the license&#10;&#10;This small change is meant to make LibreJS happy.&#10;&#10;Closes: #1273&#10;&#10;(cherry picked from commit 1f2d293)">
+      <created>1483696482161</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1483696482161</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Avoid duplicate &quot;sourceMappingURL=&quot; lines.&#10;&#10;Avoid duplicate // sourceMappingURL=... lines when minifying AND&#10;generating a map. UglifyJS2 will write the line when minifying.&#10;&#10;(cherry picked from commit 660a117)">
+      <created>1487106073949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1487106073949</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge branch '4.x'&#10;&#10;# Conflicts:&#10;#&#9;Gruntfile.js&#10;#&#9;lib/handlebars/exception.js&#10;#&#9;spec/partials.js&#10;#&#9;spec/regressions.js&#10;">
+      <created>1487110202236</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1487110202236</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Parser: Change suffix to use ES6 default module export&#10;&#10;- This export will be transpiled by Babel for the cjs distribution,&#10;  but will enable others to  use a pure ES6 module distribution&#10;- Instanbul: Ignore &quot;parser.js&quot; for coverage reporting. This file was ignored before&#10;  via annotation, but this has no effect anymore due to the above change&#10;- Remove istanbul annotation from `parser-prefix` (@nknapp)&#10;&#10;Squashed by @nknapp&#10;">
+      <created>1487921331134</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1487921331134</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Parser: Change suffix to use ES6 default module export&#10;&#10;- This export will be transpiled by Babel for the cjs distribution,&#10;  but will enable others to  use a pure ES6 module distribution&#10;- Instanbul: Ignore &quot;parser.js&quot; for coverage reporting. This file was ignored before&#10;  via annotation, but this has no effect anymore due to the above change&#10;- Remove istanbul annotation from `parser-prefix` (@nknapp)&#10;&#10;Squashed by @nknapp&#10;&#10;(cherry picked from commit 508347e)">
+      <created>1487921748952</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1487921748952</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix depths for null contexts.&#10;&#10;Fixes #1319&#10;&#10;">
+      <created>1489090672392</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1489090672392</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fix context-stack when calling block-helpers on null values&#10;&#10;Fixes #1319&#10;&#10;Original behaviour:&#10;- When a block-helper was called on a null-context, an empty object was used&#10;  as context instead. (#1093)&#10;- The runtime verifies that whether the current context equals the&#10;  last context and adds the current context to the stack, if it is not.&#10;  This is done, so that inside a block-helper, the &quot;..&quot; path can be used&#10;  to go back to the parent element.&#10;- If the helper is called on a &quot;null&quot; element, the context was added, even&#10;  though it shouldn't be, because the &quot;null != {}&quot;&#10;&#10;Fix:&#10;- The commit replaces &quot;null&quot; by the identifiable &quot;container.nullContext&quot;&#10;  instead of &quot;{}&quot;. &quot;nullContext&quot; is a sealed empty object.&#10;- An additional check in the runtime verifies that the context is&#10;  only added to the stack, if it is not the nullContext.&#10;">
+      <created>1489093925059</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1489093925059</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fix context-stack when calling block-helpers on null values&#10;&#10;Fixes #1319&#10;&#10;Original behaviour:&#10;- When a block-helper was called on a null-context, an empty object was used&#10;  as context instead. (#1093)&#10;- The runtime verifies that whether the current context equals the&#10;  last context and adds the current context to the stack, if it is not.&#10;  This is done, so that inside a block-helper, the &quot;..&quot; path can be used&#10;  to go back to the parent element.&#10;- If the helper is called on a &quot;null&quot; element, the context was added, even&#10;  though it shouldn't be, because the &quot;null != {}&quot;&#10;&#10;Fix:&#10;- The commit replaces &quot;null&quot; by the identifiable &quot;container.nullContext&quot;&#10;  instead of &quot;{}&quot;. &quot;nullContext&quot; is a sealed empty object.&#10;- An additional check in the runtime verifies that the context is&#10;  only added to the stack, if it is not the nullContext.&#10;">
+      <created>1489094013632</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1489094013632</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix context-stack when calling block-helpers on null values&#10;&#10;Fixes #1319&#10;&#10;Original behaviour:&#10;- When a block-helper was called on a null-context, an empty object was used&#10;  as context instead. (#1093)&#10;- The runtime verifies that whether the current context equals the&#10;  last context and adds the current context to the stack, if it is not.&#10;  This is done, so that inside a block-helper, the &quot;..&quot; path can be used&#10;  to go back to the parent element.&#10;- If the helper is called on a &quot;null&quot; element, the context was added, even&#10;  though it shouldn't be, because the &quot;null != {}&quot;&#10;&#10;Fix:&#10;- The commit replaces &quot;null&quot; by the identifiable &quot;container.nullContext&quot;&#10;  instead of &quot;{}&quot;. &quot;nullContext&quot; is a sealed empty object.&#10;- An additional check in the runtime verifies that the context is&#10;  only added to the stack, if it is not the nullContext.&#10;&#10;Backwards compatibility within 4.0.x-versions:&#10;- This commit changes the compiler and compiled templates would not work &#10;  with runtime-versions 4.0.0 - 4.0.6, because of the &quot;nullContext&quot; &#10;  property. That's way, the compiled code reads &#10;  &quot;(container.nullContext || {})&quot; so that the behavior will degrade&#10;  gracefully with older runtime versions: Everything else will work&#10;  fine, but GH-1319 will still be broken, if you use a newer compiler&#10;  with a pre 4.0.7 runtime.">
+      <created>1490449600429</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1490449600429</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update release-notes for 4.0.7">
+      <created>1493498682485</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1493498682485</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Update release-notes for 4.0.7">
+      <created>1493498859434</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1493498859434</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Bump version in master-branch to 5.0-alpha.1&#10;&#10;This is in order to make sure that the master-branch version is not &#10;confused with the stable 4.x">
+      <created>1493573409057</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1493573409057</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Allow partial-blocks to be executed without &quot;options&quot;&#10;&#10;Closes #1342&#10;&#10;If the @partial-block is called as parameter of a helper (like in&#10;{{#if @partial-block}}...{{/if}}, the partialBlockWrapper is executed&#10;without &quot;options&quot;-parameter. It should still work in without an error&#10;in such a case.">
+      <created>1493757059485</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1493757059485</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Publish valid semver task independently of the branch">
+      <created>1494627797109</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1494627797109</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Test ci">
+      <created>1494627817760</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1494627817760</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Publish valid semver task independently of the branch">
+      <created>1494628506049</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1494628506049</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Publish valid semver task independently of the branch">
+      <created>1494628648396</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1494628648396</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Use istanbul/lib/cli.js instead of node_modules/.bin/istanbul&#10;&#10;Fixes #1331&#10;&#10;Due to the way, &quot;bin&quot;-files are distributed into the node_modules/.bin&#10;directory on Windows, the task &quot;test:cov&quot; did not work on Windows.&#10;This commit uses the node-script directly.">
+      <created>1494673256993</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1494673256993</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Force LF line-endings for spec/artifacts&#10;&#10;Fixes #1331">
+      <created>1494708990347</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1494708990347</updated>
+    </task>
+    <task id="LOCAL-00035" summary="abc">
+      <created>1494709019797</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1494709019797</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test">
+      <created>1494709431758</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1494709431758</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test">
+      <created>1494709717961</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1494709717961</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Try appveyor">
+      <created>1494766769808</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1494766769808</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Try appveyor 2">
+      <created>1494766899540</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1494766899540</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Ensure LF line-edings in lexer-files (*.l)&#10;&#10;Related to #1233">
+      <created>1494794959317</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1494794959317</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Run integration test with `node handlebars -a ...` on Windows&#10;&#10;Fixes #1233&#10;&#10;NodeJS files cannot be executed directly on Windows.">
+      <created>1494796214972</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796214972</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Run integration test with `node handlebars -a ...` on Windows&#10;&#10;Fixes #1233&#10;&#10;NodeJS files cannot be executed directly on Windows.">
+      <created>1494796279280</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796279280</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add appveyor-integration">
+      <created>1494796303641</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796303641</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add appveyor-integration">
+      <created>1494796521245</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796521245</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add appveyor-integration">
+      <created>1494796997531</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796997531</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add appveyor-integration">
+      <created>1494797313543</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1494797313543</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add missing semicolon">
+      <created>1494797447255</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1494797447255</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Appveyor">
+      <created>1494797788198</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1494797788198</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Ensure LF line-edings in handlebars-template fixtures (*.hbs)">
+      <created>1494798983828</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1494798983829</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fix build in windows&#10;&#10;(cherry picked from commit 275ab37)">
+      <created>1494799919867</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1494799919868</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Handlebars.compile() does not modify &quot;options&quot; anymore&#10;&#10;Fixes #1327&#10;&#10;- This commit creates a shallow copy of the &quot;options&quot; passed to&#10;  Handlebars.compile() in order to prevent modifications&#10;- Note that &quot;new Handlebars.Compiler().compile(..., options)&quot; still&#10;  modify the options object. This might change in the future, if &#10;  anybody needs a fix for that.">
+      <created>1495135115010</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1495135115013</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Replace &quot;Object.assign&quot; (not support in IE) by &quot;util/extend&quot;">
+      <created>1495367869766</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1495367869767</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Replace &quot;Object.assign&quot; (not support in IE) by &quot;util/extend&quot;">
+      <created>1495368155138</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1495368155138</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="169752000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45469254" sideWeight="0.77211154" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6201299" sideWeight="0.2565737" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.23346613" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6201299" sideWeight="0.7434263" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225498" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38311687" sideWeight="0.43346614" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18344156" sideWeight="0.6151394" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45469254" sideWeight="0.77211154" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38311687" sideWeight="0.43346614" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36363637" sideWeight="0.5466136" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.23346613" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.76653385" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225498" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18344156" sideWeight="0.6151394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="Travis Nelson" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="master" />
+                        <option value="wycats/master" />
+                        <option value="4.x" />
+                        <option value="wycats/4.x" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="master" />
+                        <option value="4.x" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="travnels/eslint-fixes" />
+                        <option value="wycats/master" />
+                        <option value="eslint-fixes" />
+                        <option value="master" />
+                        <option value="travis-ci" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="travnels/eslint-fixes" />
+                        <option value="wycats/master" />
+                        <option value="travis-travis-ci" />
+                        <option value="eslint-fixes" />
+                        <option value="master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="travnels/eslint-fixes" />
+                        <option value="wycats/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="travnels/eslint-fixes" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="81" />
+                  <entry key="3" value="86" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
+    <MESSAGE value="Parser: Change suffix to use ES6 default module export&#10;&#10;- This export will be transpiled by Babel for the cjs distribution,&#10;  but will enable others to  use a pure ES6 module distribution&#10;- Instanbul: Ignore &quot;parser.js&quot; for coverage reporting. This file was ignored before&#10;  via annotation, but this has no effect anymore due to the above change&#10;- Remove istanbul annotation from `parser-prefix` (@nknapp)&#10;&#10;Squashed by @nknapp&#10;&#10;(cherry picked from commit 508347e)" />
+    <MESSAGE value="Fix depths for null contexts.&#10;&#10;Fixes #1319&#10;&#10;" />
+    <MESSAGE value="Fix context-stack when calling block-helpers on null values&#10;&#10;Fixes #1319&#10;&#10;Original behaviour:&#10;- When a block-helper was called on a null-context, an empty object was used&#10;  as context instead. (#1093)&#10;- The runtime verifies that whether the current context equals the&#10;  last context and adds the current context to the stack, if it is not.&#10;  This is done, so that inside a block-helper, the &quot;..&quot; path can be used&#10;  to go back to the parent element.&#10;- If the helper is called on a &quot;null&quot; element, the context was added, even&#10;  though it shouldn't be, because the &quot;null != {}&quot;&#10;&#10;Fix:&#10;- The commit replaces &quot;null&quot; by the identifiable &quot;container.nullContext&quot;&#10;  instead of &quot;{}&quot;. &quot;nullContext&quot; is a sealed empty object.&#10;- An additional check in the runtime verifies that the context is&#10;  only added to the stack, if it is not the nullContext.&#10;" />
+    <MESSAGE value="Fix context-stack when calling block-helpers on null values&#10;&#10;Fixes #1319&#10;&#10;Original behaviour:&#10;- When a block-helper was called on a null-context, an empty object was used&#10;  as context instead. (#1093)&#10;- The runtime verifies that whether the current context equals the&#10;  last context and adds the current context to the stack, if it is not.&#10;  This is done, so that inside a block-helper, the &quot;..&quot; path can be used&#10;  to go back to the parent element.&#10;- If the helper is called on a &quot;null&quot; element, the context was added, even&#10;  though it shouldn't be, because the &quot;null != {}&quot;&#10;&#10;Fix:&#10;- The commit replaces &quot;null&quot; by the identifiable &quot;container.nullContext&quot;&#10;  instead of &quot;{}&quot;. &quot;nullContext&quot; is a sealed empty object.&#10;- An additional check in the runtime verifies that the context is&#10;  only added to the stack, if it is not the nullContext.&#10;&#10;Backwards compatibility within 4.0.x-versions:&#10;- This commit changes the compiler and compiled templates would not work &#10;  with runtime-versions 4.0.0 - 4.0.6, because of the &quot;nullContext&quot; &#10;  property. That's way, the compiled code reads &#10;  &quot;(container.nullContext || {})&quot; so that the behavior will degrade&#10;  gracefully with older runtime versions: Everything else will work&#10;  fine, but GH-1319 will still be broken, if you use a newer compiler&#10;  with a pre 4.0.7 runtime." />
+    <MESSAGE value="Update release-notes for 4.0.7" />
+    <MESSAGE value="Bump version in master-branch to 5.0-alpha.1&#10;&#10;This is in order to make sure that the master-branch version is not &#10;confused with the stable 4.x" />
+    <MESSAGE value="Allow partial-blocks to be executed without &quot;options&quot;&#10;&#10;Closes #1342&#10;&#10;If the @partial-block is called as parameter of a helper (like in&#10;{{#if @partial-block}}...{{/if}}, the partialBlockWrapper is executed&#10;without &quot;options&quot;-parameter. It should still work in without an error&#10;in such a case." />
+    <MESSAGE value="Test ci" />
+    <MESSAGE value="Publish valid semver task independently of the branch" />
+    <MESSAGE value="Use istanbul/lib/cli.js instead of node_modules/.bin/istanbul&#10;&#10;Fixes #1331&#10;&#10;Due to the way, &quot;bin&quot;-files are distributed into the node_modules/.bin&#10;directory on Windows, the task &quot;test:cov&quot; did not work on Windows.&#10;This commit uses the node-script directly." />
+    <MESSAGE value="Force LF line-endings for spec/artifacts&#10;&#10;Fixes #1331" />
+    <MESSAGE value="abc" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Try appveyor" />
+    <MESSAGE value="Try appveyor 2" />
+    <MESSAGE value="Ensure LF line-edings in lexer-files (*.l)&#10;&#10;Related to #1233" />
+    <MESSAGE value="Run integration test with `node handlebars -a ...` (works on Windows)&#10;&#10;Fixes #1233" />
+    <MESSAGE value="Run integration test with `node handlebars -a ...` on Windows&#10;&#10;Fixes #1233&#10;&#10;NodeJS files cannot be executed directly on Windows." />
+    <MESSAGE value="Add appveyor-integration" />
+    <MESSAGE value="Add missing semicolon" />
+    <MESSAGE value="Appveyor" />
+    <MESSAGE value="Ensure LF line-edings in handlebars-template fixtures (*.hbs)" />
+    <MESSAGE value="Fix build in windows&#10;&#10;(cherry picked from commit 275ab37)" />
+    <MESSAGE value="Handlebars.compile() does not modify &quot;options&quot; anymore&#10;&#10;Fixes #1327&#10;&#10;- This commit creates a shallow copy of the &quot;options&quot; passed to&#10;  Handlebars.compile() in order to prevent modifications&#10;- Note that &quot;new Handlebars.Compiler().compile(..., options)&quot; still&#10;  modify the options object. This might change in the future, if &#10;  anybody needs a fix for that." />
+    <MESSAGE value="Replace &quot;Object.assign&quot; (not support in IE) by &quot;util/extend&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace &quot;Object.assign&quot; (not support in IE) by &quot;util/extend&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/spec/compiler.js</url>
+          <line>79</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="24" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/decorators/inline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/partials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="172" column="58" lean-forward="false" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/parser.js" />
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/code-gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/istanbul/lib/cli.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js" />
+    <entry file="file://$PROJECT_DIR$/dist/cjs/handlebars/runtime.js" />
+    <entry file="file://$PROJECT_DIR$/dist/handlebars.runtime.js" />
+    <entry file="file://$PROJECT_DIR$/spec/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/lib/util.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/UmdMainTemplatePlugin.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-webpack/README.md" />
+    <entry file="file://$PROJECT_DIR$/.generator-release" />
+    <entry file="file://$PROJECT_DIR$/dist/handlebars.js" />
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3582">
+          <caret line="201" column="20" lean-forward="false" selection-start-line="201" selection-start-column="20" selection-end-line="201" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/istanbul/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/istanbul/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/istanbul/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="7" lean-forward="false" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/util/git.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="93" column="35" lean-forward="false" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/artifacts/example_1.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc" />
+    <entry file="file://$PROJECT_DIR$/appveyor.yml" />
+    <entry file="file://$PROJECT_DIR$/tasks/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3582">
+          <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlebars.yy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/expected/empty.amd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/helpers/each.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars.runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/regressions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5274">
+          <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/runtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/javascript-compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16470">
+          <caret line="918" column="6" lean-forward="false" selection-start-line="918" selection-start-column="6" selection-end-line="918" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/mustache/Changes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release-notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="126">
+            <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="208">
+            <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print-script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/env/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars/compiler/compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="488" column="3" lean-forward="false" selection-start-line="488" selection-start-column="3" selection-end-line="488" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#30#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -15,3 +15,45 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+/* thanks-to: "https://divtable.com/table-styler/" */
+table.paleBlueRows,
+table.paleBlueRows td, table.paleBlueRows th,
+table.paleBlueRows tbody td {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #808080;
+  border-collapse: collapse;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  margin: 10px;
+  padding: 15px;
+  background: #0B6FA4;
+  border-bottom: 5px solid #808080;
+}
+table.paleBlueRows thead th {
+  margin: 10px;
+  padding: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #808080;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+table.paleBlueRows tfoot {
+  margin: 10px;
+  padding: 15px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+  margin: 10px;
+  padding: 15px;
+}

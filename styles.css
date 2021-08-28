@@ -1,17 +1,33 @@
 * {
-  margin:0px;
-  padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+    display: block;
+    width: 384px;
+    margin: 50px auto;
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+}
+
+img.crazy {
+    display: block;
+    margin: 10em auto;
+    /* That code is really just the opposite of the hover code. */
+    transform: scale(1) rotate(720deg);
+    /* How long transitions take */
+    transition: all 1s;
+}
+
+
+/* Style applied when mouse pointer hovering */
+
+img.crazy:hover {
+    transform: scale(0.1) rotate(-720deg);
 }

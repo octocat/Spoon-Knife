@@ -7,11 +7,12 @@
   display: block;
   width:384px;
   margin: 50px auto;
+  background-color: 'purple';
 }
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
+  background-color: 'purple';
+  width: 400px;fsadfasdfasdqffsuto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

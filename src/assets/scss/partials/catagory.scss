@@ -1,0 +1,32 @@
+.catagory-section{
+	height: 470px;
+	padding: 80px 0 80px 48px;
+	.owl-item{
+		background-color: $extra-color-fresh;
+		width: 550px !important;
+		height: 310px;
+		color: $light-font-color;
+		background-image: url("assets/img/food3.jpg"); 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		box-shadow: inset 6px -50px 57px -12px #000;
+		-webkit-box-shadow: inset 6px -50px 57px -12px #000;
+		-moz-box-shadow: inset 6px -50px 57px -12px #000;
+		-o-box-shadow: inset 6px -50px 57px -12px #000;
+  		.photo-text-box{
+  			padding: 260px 30px 0 30px;
+
+	  		h2{
+	  			font-weight: lighter;
+	  			font-size: 1.5em;
+	  		}
+	  		a{
+	  			text-align: right;
+	  			font-size: 1.3em;
+	  			color: $dark-danger-color;
+	  		}
+	  	}
+	}
+}

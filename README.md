@@ -1,4 +1,4 @@
-### Well hello there!
+### Thanks to github to let us test fork functionnality <3 !
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -16,6 +16,6 @@ p {
     font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 }
 
-p:nth-child(2) {
+p:nth-child(3) {
     color: aquamarine;
 }

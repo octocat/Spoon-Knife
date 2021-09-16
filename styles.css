@@ -7,7 +7,7 @@
   display: block;
   width:384px;
   margin: 50px auto;
-}
+  }
 
 p {
   display: block;
@@ -17,5 +17,10 @@ p {
 }
 
 body {
-  background-image: https://github.githubassets.com/images/modules/logos_page/Octocat.png;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/Octocat.png");
+  background-repeat: no-repeat;
+  background-origin: center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
 }

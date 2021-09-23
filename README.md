@@ -15,5 +15,8 @@ test this
 # tutorial1
 test
 hello
-Hey Ryan this is a good edit. 
+Hey Ryan this is a good edit. test.
 This is another good edit. 
+Hi this yourself.
+Hello
+Test.

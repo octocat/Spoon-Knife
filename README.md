@@ -13,3 +13,5 @@ Edit added to this readme to test forking and pulling.
 Fixed "Lines"
 
 More data to merge and this should be on an out of date file.
+
+In Created Branch 2, What to do to commit this back to Chimp-main

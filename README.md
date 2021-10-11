@@ -9,5 +9,7 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 Edit added to this readme to test forking and pulling.
+
 Another line to delete later.
-Third Line 
+
+Fixed "Lines"

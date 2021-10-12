@@ -8,10 +8,4 @@ After forking this repository, you can make some changes to the project, and sub
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
-Edit added to this readme to test forking and pulling.
-
-Fixed "Lines"
-
-More data to merge and this should be on an out of date file.
-
-In Created Branch 2, What to do to commit this back to Chimp-main
+Cut all the comments back to this.

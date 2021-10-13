@@ -3,6 +3,17 @@
   padding:0px;
 }
 
+body {
+  margin: 30px 30px 30px 30px;
+  border: dashed 1px black;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+  height: 400px;
+}
+
 #octocat {
   display: block;
   width:384px;

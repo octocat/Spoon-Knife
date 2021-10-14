@@ -1,4 +1,4 @@
-### Well hello there! ("Genereal Kenobi! You are a bold one.")
+### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

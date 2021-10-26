@@ -13,6 +13,8 @@ p {
   display: block;
   width: auto;
   margin: auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  color: hotpink;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: rebeccapurple;
 }

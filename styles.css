@@ -9,12 +9,18 @@
   margin: 50px auto;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
 p {
   display: block;
   width: auto;
   margin: auto;
   font-family: 'Zen Kurenaido', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: rebeccapurple;
 }

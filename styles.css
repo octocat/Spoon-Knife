@@ -14,4 +14,17 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background-color: aquamarine;
+  -webkit-text-stroke: 3px rgb(247, 2, 214);
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  color: transparent;
+  display: flex;
+}
+
+h1 {
+  -webkit-text-stroke: 2px black; 
+  font-family: sans; color: yellow;display: block;
+  width: 600px;
+  margin: 50px auto;
+  background-color: azure;
 }

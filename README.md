@@ -3,6 +3,9 @@
 branch creation test 2
 test commit, push, pull request, merge, delete branch
 
+branch creation test 2, second stage
+redo and experiment to see if setup can be performed via git bash.
+
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

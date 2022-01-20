@@ -23,7 +23,12 @@ $ git config --global user.email test@runoob.com
 git commit命令之前，必须使用git add命令将任何新的或修改的文件添加到索引
 命令git commit -a(git status)首先查看您的工作树
 git commit需要写注释
-git commit -m 不用注释
+git commit -m 在m后直接写注释 
 
 git checkout main切换到main分支
 git merge <branch_name> #将指定分支合并到当前分支
+有如下几种处理方式：
+1. git add并且git commit，再git checkout，提交到当前分支
+2. git add但不git commit，可以git stash，然后git checkout到新分支，做修改，然后git checkout回到之前的分支之后git stash apply，再git commit，提交到之前的分支
+3. git add但不git commit，也不git stash，直接git checkout到新分支，做修改，然后再git commit的话，记录就在切换后的分支下面。
+

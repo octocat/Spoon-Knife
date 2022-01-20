@@ -1,7 +1,8 @@
-FLOW：.My repo->create branch->commit changes->pull request->merge
-      .repo owned by others->fork->git clone->create upstream->
-       create branch->commit changes->pull request->merge
-
+FLOW：
+repo owned by others->fork->git clone->create upstream->
+                                                        ->create branch->checkout new branch->add . ->commit changes->pull request
+                                                        ->create branch->commit changes->pull request->merge
+       
 1.$ git clone(pull) https://github.com/YOUR-USERNAME/Spoon-Knife
 为什么要有upstream？clone下来的repo不一定就是你你之后要push的repo，所以设立一个上流是有必要的，因为这才是你真正将push的repo
               $ git remote add upstream https://github.com/octocat/Spoon-Knife.git

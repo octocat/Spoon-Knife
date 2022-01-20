@@ -1,0 +1,2 @@
+1.My repo->create branch->commit changes->pull request->merge
+  repo owned by others->fork->git clone->create upstream->create branch->commit changes->pull request->merge

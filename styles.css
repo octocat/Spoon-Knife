@@ -1,17 +1,60 @@
-* {
-  margin:0px;
-  padding:0px;
+/* My first CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+img {
+    border: 10px solid green;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h1 {
+    border: 5px dotted pink;
 }
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+cite {
+    font-size: 2rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.shadow {
+    text-align: right;
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;  
+    font-size: 2rem;    
+}
+
+a:visited {
+    color: green;
+    font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+
+a.harvard {
+
+    color: maroon;
+
+
+}
+

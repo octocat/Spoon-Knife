@@ -11,4 +11,4 @@ After forking this repository, you can make some changes to the project, and sub
 Despues de copiar este repositorio, puedes hacer algunos cambios y darle submit en la dirección [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) como un tema de práctica.
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
-Para mas información de como hacer un Fork de un repositorio, [revisa la siguiente guía, "Proyectos Forking""](http://guides.github.com/overviews/forking/). Gracias!
+Para mas información de como hacer un Fork de un repositorio, [revisa la siguiente guía, "Proyectos Forking""](http://guides.github.com/overviews/forking/). Gracias! :sparkling_heart:

@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! ![image](https://user-images.githubusercontent.com/99060682/152703937-a2322e1d-975d-44d3-9f73-be791e230818.png)
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

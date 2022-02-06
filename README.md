@@ -9,14 +9,18 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 
-      ------------------------------------------------------------- TRADUCCÓN ESPAÑOL ---------------------------------------------------------------------------------
+
+
+
+
+ ------------------------------------------------------------------     TRADUCCÓN ESPAÑOL  -----------------------------------------------------------------
 
 ¡Hola!
-Este repositorio está destinado a proporcionar un ejemplo para *forking* o bifurcar un repositorio en GitHub.
+Este repositorio está destinado a proporcionar un ejemplo para *forking* o bifurcar un repositorio en GitHub. 📋
 
-Crear un *fork* o bifurcación es producir una copia personal del proyecto de otra persona. Las bifurcaciones actúan como una especie de puente entre el repositorio original y su copia personal. Puede enviar solicitudes de sugerencias para ayudar a mejorar los proyectos de otras personas al ofrecer sus cambios en el proyecto original. La bifurcación es el núcleo de la codificación social en GitHub.
+Crear un *fork* o bifurcación es producir una copia personal del proyecto de otra persona. Las bifurcaciones actúan como una especie de puente entre el repositorio original y su copia personal. Puede enviar solicitudes de sugerencias para ayudar a mejorar los proyectos de otras personas al ofrecer sus cambios en el proyecto original. La bifurcación es el núcleo de la codificación social en GitHub. 
 
-Después de bifurcar este repositorio, puede realizar algunos cambios en el proyecto y enviar una solicitud de segerencia o [Pull Request](https://github.com/octocat/Spoon-Knife/pulls)  como práctica.
+Después de bifurcar este repositorio, puede realizar algunos cambios en el proyecto y enviar una solicitud de segerencia o [Pull Request](https://github.com/octocat/Spoon-Knife/pulls)  como práctica. 💻
 
 Para obtener más información sobre cómo bifurcar un repositorio, [consulte nuestra guía, "Bifurcación de proyectos"](http://guides.github.com/overviews/forking/). ¡Gracias! 💖
 

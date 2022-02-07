@@ -1,9 +1,9 @@
-### Well hello there!
+### ¡Hola y bienvenidos!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Este repositorio tiene como objetivo proveer un ejemplo de cómo hacer un *forking* a un repositorio existente en GitHub.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Creando un *fork* obtienes una copia personal de el proyecto de alguien más. Fork actua como una especie de puente entre el repositorio original y tu copia personal. Puedes envíar *Pull Requests* para ayudar a mejorar los proyectos de otras personas ofreciendo tus cambios con base al proyecto original. Forking es el núcleo de la codificación social en GitHub.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+Después de hacer *forking* a este repositorio, tu puedes hacer cambios en el proyecto y publicar un [Pull Request](https://github.com/octocat/Spoon-Knife/pulls) como practica.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+Para más información de cómo hacer un *fork* a un repositorio, [revisa nuestra guía "Forking Projects"] (http://guides.github.com/overviews/forking/). ¡Muchas Gracias!💖

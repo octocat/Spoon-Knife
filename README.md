@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f60e.png" width=20 height=20>
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

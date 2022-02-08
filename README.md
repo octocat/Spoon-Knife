@@ -1,6 +1,6 @@
-### Well hello there!
+### Well hello there :sunglasses::sunglasses:!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+This:point_down::triumph: repository is meant to provide an example for *:fork_and_knife:forking:fork_and_knife:* a repository on GitHub.
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
 

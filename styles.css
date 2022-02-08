@@ -2,6 +2,9 @@
   margin:0px;
   padding:0px;
 }
+body{
+	background-color: #0b84ce;
+}
 
 #octocat {
   display: block;

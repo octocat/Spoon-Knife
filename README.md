@@ -1,4 +1,4 @@
-### Well hello there! 	:wave:
+### Well hello there! 	:wave: 
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

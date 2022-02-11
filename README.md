@@ -1,5 +1,5 @@
-### Well hello there! 👍👍😁😁![SoExcited~GIF](https://user-images.githubusercontent.com/21368788/153649573-5150e139-8721-494a-8894-7020b9b15bd2.gif)
-🙌🙌
+### Well hello there! 👍👍😁😁
+![SoExcited~GIF](https://user-images.githubusercontent.com/21368788/153649573-5150e139-8721-494a-8894-7020b9b15bd2.gif)
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

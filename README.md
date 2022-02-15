@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! :blue_heart: :man_teacher:
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -3,6 +3,13 @@
   padding:0px;
 }
 
+
+body{
+  background-color: purple;
+  color:  white;
+}
+
+
 #octocat {
   display: block;
   width:384px;

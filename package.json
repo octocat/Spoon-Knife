@@ -1,0 +1,12 @@
+{
+  "name": "hello-team",
+  "description": "A demo for github and travis ci for team collaboration",
+  "author": "name <email@email.com>",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  }
+}

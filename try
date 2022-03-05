@@ -1,0 +1,21 @@
+public class TestMysql {
+
+
+    //登陆本地数据库
+    private static final String url = "jdbc:mysql://123.206.7.198:3307/test";
+    private  static final String user = "qinxh";
+    private  static final String password = "031578";
+
+    private static ResultSet ret = null;
+    private  static final String name = "com.mysql.jdbc.Driver";
+    public Connection conn = null;
+    public PreparedStatement pst = null;
+    public  TestMysql() {
+        try {
+            Class.forName(name);//指定连接类型
+            conn = DriverManager.getConnection(url, user, password);//获取连接
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }

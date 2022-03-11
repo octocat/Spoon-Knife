@@ -5,3 +5,4 @@ proba git eye sa windowsa
 proba git eye drugi put
 proba megit prvi put
 proba git eye dodan token 
+ajmo sad opet probat s git eye s windowsa 

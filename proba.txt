@@ -3,3 +3,5 @@ blblblbl
 dodatak s linuxa
 proba git eye sa windowsa
 proba git eye drugi put
+proba megit prvi put
+proba git eye dodan token 

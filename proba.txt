@@ -8,3 +8,4 @@ proba git eye dodan token
 ajmo sad opet probat s git eye s windowsa 
 ajmo sad opet probat s git eye s windowsa ali stisnut ceck box kod pushanja
 pliz nemoj me trazit token 
+preko github desktopa na windowsu

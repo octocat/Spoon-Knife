@@ -1,8 +1,24 @@
 * {
   margin:0px;
   padding:0px;
+  background:#b1aeae ;
+  background: linear-gradient(to right, #dfdede 10%,rgb(194, 192, 192) 60%);
+  animation-name:placeHolderShimmer;
+  animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+background-position: cover;
+background-size: 1000px 640px;
 }
 
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
 #octocat {
   display: block;
   width:384px;

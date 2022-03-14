@@ -14,3 +14,4 @@ git eye from windows editing text
 lalallaallalalalala 
 Ova linija je dodan sa drugog novog brancha 
 malo updateamo branch
+update sa newBranch2 koji je kreiran sa mastera 

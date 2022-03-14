@@ -13,3 +13,6 @@ preko github desktop na linuxu
 git eye from windows editing text
 lalallaallalalalala 
 ova linija dodana je sa brancha: NewBrachFromGitEye sa windowsa 
+Ova linija je dodan sa drugog novog brancha 
+malo updateamo branch
+update sa newBranch2 koji je kreiran sa mastera 

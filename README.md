@@ -1,9 +1,13 @@
-### Well hello there!
+﻿﻿# 好きな食べ物
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+好きな食べ物はお寿司です。  
+スシローやくら寿司のようなリーズナブルなお店から、  
+「[回し寿司 活](http://katumidori.co.jp/)」や、「[回転寿司根室花まる](https://www.sushi-hanamaru.com/)」といった単価高めのお店まで色々な回転寿司屋に通っています。  
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+もちろん回らないお寿司も大好きですが、緊張してしまう上に量も少なめなのであんまり食べた気がしません(笑)  
+それにまだ学生なので、流石に頻繫には行けないですしね。  
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
-
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+ネタは基本的に魚介類なら何でも食べます。  
+特に珍しいネタが好きなので、その日入っているレアな魚を全種類制覇したりします。  
+先日行った「[沼津港](https://tabelog.com/tokyo/A1304/A130401/13004192/)」というお店では、初めてチョウザメ(キャビアの親)を食べました。  
+脂はあまりないですが身が引き締まった弾力のある歯応えがとても美味しかったです。  

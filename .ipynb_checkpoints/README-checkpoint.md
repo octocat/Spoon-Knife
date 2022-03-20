@@ -1,6 +1,4 @@
-### Well hello there, Ed!!! 
-
-Another change on mar 20 after --The last change.
+### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

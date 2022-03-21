@@ -12,5 +12,14 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 * Adding bullet 2 to readme
 * Adding bullet 3 to readme
 
+The comments below were written to see if I can edit the main branch of a fork and see what happens to my fork or this fork.
+
+### This line should be a header
+
+this *word* should be bold
+and _these words should appear underlined_ do they I wonder?
+
+
+
 
 

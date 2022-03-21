@@ -12,5 +12,7 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 * Adding bullet 2 to readme
 * Adding bullet 3 to readme
 
+This line has been added since the branch was created and commited
+
 
 

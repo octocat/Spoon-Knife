@@ -1,17 +1,21 @@
-* {
-  margin:0px;
-  padding:0px;
+body {
+  margin: 0px;
+  max-height: 100vh;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  max-width: 90%;
+  max-height: calc(80vh - 100px);
   margin: 50px auto;
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  max-width: 90%;
+  max-height: calc(20vh - 50px);
+  margin: 0 auto 50px;
+  font-size: 30px;
+  font-family: Monaco, 'Courier New', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', monospace;
+  text-align: center;
 }

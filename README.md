@@ -10,3 +10,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 New line for fetching.
 And new line for pushing git from local machine to Github.com.
+Done!
+
+###Thank you Git!

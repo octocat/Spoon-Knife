@@ -1,9 +1,12 @@
-### Well hello there!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+# Interview-main
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+First, I have tried to solve the bugs.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+After successfully building the project, I have started work with given tasks. I don't know much more about SQLite database but after reading the requirements and details, I was able to manage to work with it.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+For detailed understanding of requirement (Task-2), I need to go through the “YesWeCan” solution.
+
+For me, uploading code to GitHub is only a bit of a difficult task for me as I don't have any experience with it, but I have searched on google for that.
+
+I have spent approximately 2 hours on this whole task.

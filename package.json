@@ -4,7 +4,8 @@
   "description": "This repository is meant to provide an example for *forking* a repository on GitHub.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
@@ -16,4 +17,5 @@
     "url": "https://github.com/eQ-TrW/Open-Pixel-Art/issues"
   },
   "homepage": "https://github.com/eQ-TrW/Open-Pixel-Art#readme"
+  
 }

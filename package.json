@@ -1,4 +1,19 @@
-"repository": {
+{
+  "name": "open-pixel-art",
+  "version": "1.0.0",
+  "description": "This repository is meant to provide an example for *forking* a repository on GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
     "type": "git",
-    "url": "https://github.com/eQ-TrW/Open-Pixel-Art.git"
-},
+    "url": "git+https://github.com/eQ-TrW/Open-Pixel-Art.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eQ-TrW/Open-Pixel-Art/issues"
+  },
+  "homepage": "https://github.com/eQ-TrW/Open-Pixel-Art#readme"
+}

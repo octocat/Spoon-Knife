@@ -16,6 +16,8 @@
   "bugs": {
     "url": "https://github.com/eQ-TrW/Open-Pixel-Art/issues"
   },
-  "homepage": "https://github.com/eQ-TrW/Open-Pixel-Art#readme"
-  
+  "homepage": "https://github.com/eQ-TrW/Open-Pixel-Art#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

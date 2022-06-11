@@ -1,0 +1,41 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+#
+# SOOS is the easy-to-integrate software security solution for your whole team, learn more at https://soos.io/
+#
+# To use this action you need to fill the following requirements:
+#
+# 1.  Create an account on https://app.soos.io to obtain a Client ID and API Key (Free 30 days trials for both our SCA/DAST product).
+#
+# 2.  Set up your API KEY/Client ID as Github Secrets named SOOS_CLIENT_ID & SOOS_API_KEY. (Also set SOOS_GITHUB_PAT with your Github Personal Access Token if you're going to use sarif upload)
+#
+
+name: "SOOS DAST Scan"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  soos:
+    permissions:
+      security-events: write # for uploading code scanning alert info
+    name: SOOS DAST Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run SOOS DAST Scan
+        uses: soos-io/soos-dast-github-action@5f8e2a1994d618e6ac9902e0f491fd1656b698e6
+        with:
+          client_id: ${{ secrets.SOOS_CLIENT_ID }}
+          api_key: ${{ secrets.SOOS_API_KEY }}
+          project_name: ${{ github.repository }} # If you're going to use SARIF the project name should be on the form of `repoowner/reponame` or use the token github.repository
+          scan_mode: "baseline"
+          target_url: "https://www.example.com/"
+          sarif: true # Only set to true if you want to upload the SARIF report to Github
+          gpat: ${{ secrets.SOOS_GITHUB_PAT }}
+
+

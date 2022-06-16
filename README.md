@@ -1,4 +1,4 @@
-### Well hello there!
+### Hi, fellow smarty pants!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

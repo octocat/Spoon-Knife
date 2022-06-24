@@ -12,6 +12,7 @@
 <img src="forkit.gif" id="octocat" alt="" />
 
 <!-- Feel free to change this text here -->
+<h1>Git ogrenmeye basladim.</hi>
 <p>
   Fork me? Fork you, @octocat!
 </p>

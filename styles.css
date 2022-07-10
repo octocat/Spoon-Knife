@@ -2,7 +2,10 @@
   margin:0px;
   padding:0px;
 }
-
+body{
+    padding: 50px 0px 100px 0px;
+    background-color: black;
+}
 #octocat {
   display: block;
   width:384px;
@@ -10,8 +13,17 @@
 }
 
 p {
+    text-align: center;
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  color: red;
+}
+.ricardo-milos{
+    position: relative;
+    left: 450px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
 }

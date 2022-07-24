@@ -1,5 +1,9 @@
 ### Well hello there!
+ I THINK WE SHOULD SPECIFY CHANGES WE WISH LEARNERS TO MAKE IN ONE OF THE FILES AND PUT DETAILED INSTRUCTIONS
+ ON fork and pull request submission WITH REFERENCE to the Git COMMANDS' PREVIOUS LESSON under Foundations.
+ Moreover, INCLUDE THE CURRENT Links, particularly GitHub Docs as EXTRA MATERIALS.
 
+AS WE PROMOTE A LEARNING CULTURE, WE SHOULD MINIMIZE FRUSTRATIONS.  
 This repository is meant to provide an example for *forking* a repository on GitHub.
 
 Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.

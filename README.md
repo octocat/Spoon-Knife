@@ -1,9 +1,9 @@
-### Well hello there!
+### こんにちは!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+このリポジトリは、GitHub 上のリポジトリを *fork* するための例を提供することを目的としています。
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+フォーク*を作成することは、他の誰かのプロジェクトの個人的なコピーを作成することです。フォークは、元のリポジトリとあなたの個人的なコピーの間のブリッジのようなものとして機能します。プルリクエスト*を提出することで、自分の変更を元のプロジェクトに提供し、他の人のプロジェクトをより良くする手助けをすることができます。フォークは、GitHub におけるソーシャルコーディングの中核をなすものです。
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+このリポジトリをフォークした後、プロジェクトに変更を加えて、練習として [a Pull Request] (https://github.com/octocat/Spoon-Knife/pulls) を提出することができます。
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+リポジトリをフォークする方法についてのより詳しい情報は、ガイド「プロジェクトをフォークする」](http://guides.github.com/overviews/forking/) をご覧ください。ありがとうございました。:sparkling_heart:

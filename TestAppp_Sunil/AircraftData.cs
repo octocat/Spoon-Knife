@@ -28,7 +28,7 @@ namespace TestAppp_Sunil
             AcDataArray = new AircraftData[numberOfAC +2];
             AcDataArray[0] = new AircraftData(); 
             var temp = new AircraftData();
-            temp.DateOfPurchase = days+2;
+            temp.DateOfPurchase = days+1;
             AcDataArray[AcDataArray.Length - 1] = temp;
           
         }

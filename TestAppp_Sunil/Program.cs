@@ -61,9 +61,11 @@ namespace TestAppp_Sunil
         private static int[,] GetMatrix(InitialData initialData)
         {
             var length = initialData.AcDataArray.Length;
+			// Create Matrix with Source and Sink 
             int[,] matrix = new int[length, length];
             var acDataArr = initialData.AcDataArray;
 
+			//  Fill the matrix with Cij Calculation 
             for (int rowIndex = 0; rowIndex < length; rowIndex++)
             {
                 for (int colIndex = 0; colIndex < length; colIndex++)
@@ -84,7 +86,7 @@ namespace TestAppp_Sunil
                             if (colIndex == length - 1)
                                 matrix[rowIndex, colIndex] = -initialData.CashInHand;
                             else
-                                matrix[rowIndex, colIndex] = initialData.CashInHand - colAcdata.PurchasePrice; //C - c.PP
+                                matrix[rowIndex, colIndex] = -(initialData.CashInHand - colAcdata.PurchasePrice); //C - c.PP
                         }
                         else
                         {
@@ -138,6 +140,7 @@ namespace TestAppp_Sunil
                     acDataIndex++;
                 }
             }
+			// Arrange Aircraft on ascending order of availablity 
             foreach (var item in initialDatas)
             {
                 item.AcDataArray = item.AcDataArray.OrderBy(x => x.DateOfPurchase).ToArray();

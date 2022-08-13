@@ -15,3 +15,9 @@ my little change
 |c|speed of light|
 |G|gravitational constant|
 |h|Planck constant|
+
+**balance**
+* ΣFx=0
+* ΣFy=0
+* Στ =0
+

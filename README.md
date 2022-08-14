@@ -21,3 +21,4 @@ my little change
 * ΣFy=0
 * Στ =0
 
+![direct proof](https://github.com/Fullerena/Spoon-Knife-Fullerfork/raw/main/Tak%20berjudul52_20220813135947.png)

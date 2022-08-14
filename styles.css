@@ -9,9 +9,48 @@
   margin: 50px auto;
 }
 
-p {
+#cooking {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  width:340px;
+  margin: 20px auto;
+}
+
+#recipe {
+  display: block;
+  width:340px;
+  margin: 20px auto;
+}
+
+
+p {
+  text-align: left;
+  display: block;
+  width: 380px;
+  margin: 30px auto;
+  font: 10px Nunito,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  line-height: 1.2
+}
+
+hr {
+  align-content: center;
+  width: 100;
+}
+
+li {
+  text-align: left;
+  display: block;
+  width: 380px;
+  margin: auto;
+  font: 10px Nunito,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  line-height: 1.2
+} 
+
+h3 {
+  text-align: left;
+  display: block;
+  width: 380px;
+  font-weight:bold;
+  margin: 30px auto;
+  font: 10px Nunito,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  line-height: 1.2
 }

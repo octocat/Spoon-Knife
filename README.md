@@ -7,3 +7,18 @@ Creating a *fork* is producing a personal copy of someone else's project. Forks 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+
+my little change
+
+|Constant|Meaning|
+|-----|-----|
+|c|speed of light|
+|G|gravitational constant|
+|h|Planck constant|
+
+**balance**
+* ΣFx=0
+* ΣFy=0
+* Στ =0
+
+![direct proof](https://github.com/Fullerena/Spoon-Knife-Fullerfork/raw/main/Tak%20berjudul52_20220813135947.png)

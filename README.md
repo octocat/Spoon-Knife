@@ -17,4 +17,4 @@ Creating some commits on the readme.md file on the repository that I have just f
 - [x] Forking someone's code to have a personal copy
 - [x] making some commits on the readme file
 - [x] do pulling request
-- [x] merge the feature octo-branch to the main branch
+- [] merge the feature octo-branch to the main branch

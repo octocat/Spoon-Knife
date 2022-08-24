@@ -1,5 +1,4 @@
-Kevin rhymes with Heaven
-
+Keving has a funny-looking golf swing.
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

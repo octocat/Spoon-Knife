@@ -1,1 +1,1 @@
-console.log("no js ")
+console.log("no js  ")

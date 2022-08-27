@@ -1,4 +1,2 @@
 console.log("no js  ")
-(function () {
-    console.log(this)
-})()
+console.log('bullshit')

@@ -10,5 +10,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 well now I have added last linr for checking upstram/main stuff and will use in command line git bash.
 
-now let's change again line first
-line second for test ...ok.
+> I am currently using this line on test1 branch and will try to perfrom the merging and pull request stuff.
+
+Though it may not look like it I will try my best for my sake.

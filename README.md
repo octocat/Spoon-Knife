@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! :dizzy_face: :alien:
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

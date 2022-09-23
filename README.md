@@ -1,1 +1,1 @@
-/guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+/guides.github.com/overviews/forking/). Thanks! Editted for GDC :sparkling_heart:

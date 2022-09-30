@@ -9,6 +9,10 @@
   margin: 50px auto;
 }
 
+html {
+  background-color: burlywood;
+}
+
 p {
   display: block;
   width: 400px;

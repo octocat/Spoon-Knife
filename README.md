@@ -1,4 +1,4 @@
-### Well hello there!
+### Well hello there! :stuck_out_tongue_winking_eye: :smiling_imp:
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

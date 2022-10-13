@@ -15,3 +15,60 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+/* Basic Styling - don't alter this part! */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(217, 240, 224);
+    color: rgb(226, 13, 13);
+}
+header {
+    background: linear-gradient(to bottom right, rgb(92, 149, 235), #333);
+    color: rgb(237, 216, 28);
+    padding: 25px;
+}
+header h1 {
+    margin: 0;
+}
+main h2 {
+    color: rgb(45, 0, 0);
+    text-decoration: underline;
+}
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Add Student Styles Below */
+.jane-style {
+    color: rgb(39, 2, 34) ;
+    background-color: rgb(111, 84, 102);
+    padding: 5px;
+}
+
+.code-ninja-style {
+    color: blue;
+    background-color: lightblue;
+    padding: 3px;
+}
+
+.codys-styles {
+    background:rgb(92, 149, 235);
+}
+
+.stans-styles {
+    background-color:lightgray;
+}
+
+.my-bio {
+    background-color: rgb(21, 0, 128);
+    color: rgb(255, 255, 255);
+}
+.my-style {
+    color: rgb(128, 105, 255);
+    background-color: rgb(243, 85, 11);
+    padding: 3px;
+}

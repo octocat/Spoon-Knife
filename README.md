@@ -1,20 +1,20 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Civil Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Structural Analysis-II
+<b> Experiment|     <b>Breakdown a 3D framed Structure into 2D frames
 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Suresh Bhalla 
 :--|:--|
-<b> Institute | <b>  
+<b> Institute | <b> IIT Delhi 
 <b> Email id|     <b>  
-<b> Department |  
+<b> Department |  Department of Civil Engineering
 
 ### Contributors List
 

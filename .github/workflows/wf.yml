@@ -1,6 +1,6 @@
 name: test workflow
 
-on:
+on: [push]
 
 jobs:
   echo:

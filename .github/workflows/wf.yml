@@ -1,0 +1,10 @@
+name: test workflow
+
+on: [push, fork]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
+

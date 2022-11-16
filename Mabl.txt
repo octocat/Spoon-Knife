@@ -1,0 +1,19 @@
+auto healing
+accessibility testing
+Cloud.. No need for infrastructure
+unlimited number of tests in parallel
+Individual property at step level
+Mailbox
+PDF
+Network tab visibility
+version control ?
+Azure devOps?
+
+
+
+
+
+Katalon
+Import flows?
+
+

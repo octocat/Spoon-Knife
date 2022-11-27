@@ -1,17 +1,19 @@
-* {
-  margin:0px;
-  padding:0px;
+.first {
+background-color: #efa5a5;
+font: Verdana, "DejaVu sans", sans-serif;
+
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+#second {
+color: #0340f6;
+font-size: 32px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.first.third {
+font-size: 32px;}
+
+#fourth {
+background-color: #7dfea0;
+font-size: 24px;
+font: bold;
 }

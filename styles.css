@@ -1,17 +1,27 @@
-* {
-  margin:0px;
-  padding:0px;
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.adjust-font-size {
+  font-size: 24px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+#two {
+  color: #0000ff;
+  font-size: 36px;
 }
+
+/*
+    In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+#four {
+  background-color: hsl(120, 100%, 75%);
+  font-weight: bold;
+}
+

@@ -6,14 +6,13 @@ font: Verdana, "DejaVu sans", sans-serif;
 
 #second {
 color: #0340f6;
-font-size: 32px;
+font-size: 60px;
 }
 
-.first.third {
-font-size: 32px;}
+.third {
+font-size: 36px;}
 
 #fourth {
 background-color: #7dfea0;
-font-size: 24px;
-font: bold;
+font-weight: bold;
 }

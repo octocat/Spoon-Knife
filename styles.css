@@ -1,14 +1,9 @@
-.first {
-  background-color: black;
-  color: white;
+.img.avatar-proportioned {
+  height: auto;
+  width: 500px;
 }
 
-.second {
-  background-color: yellow;
-  color: black;
-}
-
-.first,
-.second {
-  font: 28px "Helvetica", "Times New Roman", sans-serif;
+.img.avatar-distorted {
+  height: auto;
+  width: 250px;
 }

@@ -1,6 +1,42 @@
-.container .text {
-  color: red;
-  background-color: yellow;
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.para,
+.para.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.para {
+  font-size: 22px;
+}
+
+.para.small-para {
+  font-size: 14px;
+}
+
+.button.confirm {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
-  text-align: center;
+}
+
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+div.text.child {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
 }

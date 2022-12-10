@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ### Well hello there All! Thank you
+=======
+### Well hello All
+>>>>>>> a64635019adc27697d63ae8e55ffe583f046ccd6
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

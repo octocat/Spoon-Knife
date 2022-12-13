@@ -15,3 +15,9 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+#message {
+  color: rgb(37, 0, 0);
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

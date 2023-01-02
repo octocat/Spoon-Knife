@@ -1,4 +1,4 @@
 hi
 welcome to github 
 lets practice github terminologies i.e, pull push clone fork
-
+we will see how pull work

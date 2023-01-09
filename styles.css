@@ -14,4 +14,11 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background-color: yellow;
+  border : 1px solid black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+
+  /*Some more styling here*/
 }

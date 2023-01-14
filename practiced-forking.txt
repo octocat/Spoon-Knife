@@ -6,4 +6,3 @@ git remote add upstream  URL
 git remote -v  : to verify
 
 I forked and cloned a public repo and set up upstream sync.
-Now, I have created a branch and ready to make contributions.

@@ -15,3 +15,14 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+/* La gestion des marges en pourcentage est préférable*/
+#quarto-document-content {
+  margin-right: 20%;
+  margin-left: 30%;
+  width: 900px;
+  height: 100;
+  max-width: 100%;
+  max-height: 100%;
+  max-block-size: 100%;
+}

@@ -8,10 +8,10 @@
   width:384px;
   margin: 50px auto;
 }
-
+/* just testing */
 p {
   display: block;
-  width: 400px;
+  width: 40px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

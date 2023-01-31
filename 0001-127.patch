@@ -1,0 +1,83 @@
+From dc27f5aa169ad068ec90f905c026635cf74dbdf4 Mon Sep 17 00:00:00 2001
+From: raunaq1008 <raunaqfatima17@gmail.com>
+Date: Tue, 31 Jan 2023 15:04:41 -0500
+Subject: [PATCH] 127
+
+---
+ 0001-Update-README-setupv6.patch | 25 +++++++++++++++++++++++++
+ client3.py                       | 12 +++++++++---
+ 2 files changed, 34 insertions(+), 3 deletions(-)
+ create mode 100644 0001-Update-README-setupv6.patch
+
+diff --git a/0001-Update-README-setupv6.patch b/0001-Update-README-setupv6.patch
+new file mode 100644
+index 0000000..dcc4a5e
+--- /dev/null
++++ b/0001-Update-README-setupv6.patch
+@@ -0,0 +1,25 @@
++From 36143294b216b7210e2ee5948c78725503a5b7ca Mon Sep 17 00:00:00 2001
++From: jbf-insidesherpa <54832297+jbf-insidesherpa@users.noreply.github.com>
++Date: Mon, 25 Nov 2019 09:24:48 +0800
++Subject: [PATCH] Update README (setupv6)
++
++---
++ README.markdown | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/README.markdown b/README.markdown
++index 3390f3c..33da80c 100644
++--- a/README.markdown
+++++ b/README.markdown
++@@ -32,7 +32,7 @@
++ 
++ <h2 id="installation" >Set up / Installation</h2>
++ 
++-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v5a.pdf">follow the setup here</a></p>
+++<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v6.pdf">follow the setup here</a></p>
++ <p><b>Note:</b>This is the Python 3 version of the JPM 1 exercise. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-1">this other repo</a></p>
++ 
++ <h2>How to Run</h2>
++-- 
++2.39.1.windows.1
++
+diff --git a/client3.py b/client3.py
+index f1771c3..27ee5e3 100644
+--- a/client3.py
++++ b/client3.py
+@@ -35,14 +35,18 @@ def getDataPoint(quote):
+ 	stock = quote['stock']
+ 	bid_price = float(quote['top_bid']['price'])
+ 	ask_price = float(quote['top_ask']['price'])
+-	price = bid_price
++	#price = bid_price
++	price = (bid_price + ask_price)/2
+ 	return stock, bid_price, ask_price, price
+ 
+ def getRatio(price_a, price_b):
+ 	""" Get ratio of price_a and price_b """
+ 	""" ------------- Update this function ------------- """
+ 	""" Also create some unit tests for this function in client_test.py """
+-	return 1
++	#return 1
++	if (price_b==0): # avoid ZeroDivisionError
++		return
++	return price_a/price_b
+ 
+ # Main
+ if __name__ == "__main__":
+@@ -51,9 +55,11 @@ if __name__ == "__main__":
+ 	for _ in iter(range(N)):
+ 		quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+ 
++		prices = {}
+ 		""" ----------- Update to get the ratio --------------- """
+ 		for quote in quotes:
+ 			stock, bid_price, ask_price, price = getDataPoint(quote)
++			prices[stock] = price
+ 			print ("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-		print ("Ratio %s" % getRatio(price, price))
++		print ("Ratio %s" % (getRatio(prices['ABC'],prices['DEF'])))
+-- 
+2.39.1.windows.1
+

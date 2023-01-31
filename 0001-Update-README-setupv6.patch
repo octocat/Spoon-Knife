@@ -1,0 +1,25 @@
+From 36143294b216b7210e2ee5948c78725503a5b7ca Mon Sep 17 00:00:00 2001
+From: jbf-insidesherpa <54832297+jbf-insidesherpa@users.noreply.github.com>
+Date: Mon, 25 Nov 2019 09:24:48 +0800
+Subject: [PATCH] Update README (setupv6)
+
+---
+ README.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.markdown b/README.markdown
+index 3390f3c..33da80c 100644
+--- a/README.markdown
++++ b/README.markdown
+@@ -32,7 +32,7 @@
+ 
+ <h2 id="installation" >Set up / Installation</h2>
+ 
+-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v5a.pdf">follow the setup here</a></p>
++<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v6.pdf">follow the setup here</a></p>
+ <p><b>Note:</b>This is the Python 3 version of the JPM 1 exercise. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-1">this other repo</a></p>
+ 
+ <h2>How to Run</h2>
+-- 
+2.39.1.windows.1
+

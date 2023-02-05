@@ -1,0 +1,27 @@
+From cc8ffba90325f7f163d7a996fc5c5754ef8149ba Mon Sep 17 00:00:00 2001
+From: jbf-insidesherpa <54832297+jbf-insidesherpa@users.noreply.github.com>
+Date: Fri, 31 Jul 2020 11:02:34 +1000
+Subject: [PATCH] Update README.md
+
+---
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index e4c3a9e..c590a8c 100755
+--- a/README.md
++++ b/README.md
+@@ -61,7 +61,9 @@ Open http://localhost:3000 to view the app in the browser. The page will reload
+ <h2>Known Issues</h2>
+ Some users seem to be having trouble with the unzipped version of the node_modules back up for windows. 
+ This is the alternative unzipped version:
+-https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz?usp=sharing
++https://drive.google.com/drive/folders/1wzIlt-OeiK6nYEHidsOGlpJ_KmeoPVXz
++
++Note: You may need to (hard) refresh the link to the public gdrive to see all of the files/folders e.g. @jpmorganchase/perspective as it takes gdrive a bit to load them for you.
+ 
+ 
+ <h2>How to fix the code to meet the objectives</h2>
+-- 
+2.39.1.windows.1
+

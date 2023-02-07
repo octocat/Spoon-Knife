@@ -1,4 +1,7 @@
 ### Well hello there!
+- [X] Learned how to make pull requests
+- [X] Learned how to exit vim
+
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

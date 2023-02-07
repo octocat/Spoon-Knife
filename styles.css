@@ -2,16 +2,32 @@
   margin:0px;
   padding:0px;
 }
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.divfirst{
+  display: flex;
 }
 
-p {
-  display: block;
+img{
+  width: 50%;
+  float: left;
+}
+
+.divsecond{
+  float: right;
+}
+.p1 {
   width: 400px;
-  margin: 50px auto;
+  margin:100px 40%;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+.p2{
+  width: 800px;
+  margin:auto 10%;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  
+}
+hr{
+  margin: 5% auto;
+  height: 5px;
+  background-color: rgb(2, 33, 106);
 }

@@ -1,1 +1,4 @@
-Hi
+$ git rebase -i HEAD~3
+
+$ git push <remote name> <commit hash>:refs/heads/<remote branch name>
+$ git push origin ad9883ae4e58bec081cb3cbcecf20cbae4d324d2:refs/heads/dev

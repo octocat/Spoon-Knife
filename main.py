@@ -2,7 +2,7 @@ from random import shuffle
 
 def make_leks() -> dict:
     abcd = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя' + 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'.upper()
-    abcd_cpy = shuffle_string(abcd)
+    abcd_cpy = shuffle_leks(abcd)
 
     return {c1: c2 for c1, c2 in zip(abcd, abcd_cpy)}
 

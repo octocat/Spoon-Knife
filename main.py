@@ -18,9 +18,10 @@ def encrypt_tekst(text: str, notepad: dict = None) -> str:
 
     return ''.join([notepad.get(c, c) for c in text])
 
-python if __name__ == "__main__":
+if __name__ == "__main__":
     with open("task1_gimn") as file:
         s = file.read()
     file_write = open("task1_encrypt_gimn.txt", "w")
-    file_write.write(encrypt(s))
+    file_write.write(encrypt_tekst(s))
     file_write.close()
+    

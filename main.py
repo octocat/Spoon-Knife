@@ -6,6 +6,10 @@ def make_leks() -> dict:
 
     return {c1: c2 for c1, c2 in zip(abcd, abcd_cpy)}
 
+def shuffle_leks (txt: str) -> str:
+    txt_arr = list(txt)
+    shuffle (txt_arr)
+    return ''.join(txt_arr)
 
 python if __name__ == "__main__":
     with open("task1_gimn") as file:

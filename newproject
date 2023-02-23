@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "Please enter your name:"
+read name 
+echo "Keep working hard $name"
+echo "Reading.... please wait"
+sleep 3
+echo ".........................."
+ehco "Your username is :" && whoami
+echo "............................."
+echo "This is my first Linux script"
+slee 2
+echo "Please wait while we process the date ........."
+sleep 3
+echo "Made on:" && date
+echo "............................."
+sleep 2
+echo "My IP address is :"
+echo ".............................."
+sleep 2
+curl ifconfig.me
+
+This is a project test
+

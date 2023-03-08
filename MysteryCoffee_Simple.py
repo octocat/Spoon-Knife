@@ -3,6 +3,7 @@ import csv
 import random
 import copy
 import os
+print("hello world")
 
 # path to the CSV files with participant data
 participants_csv = "Coffee Partner Lottery participants.csv"

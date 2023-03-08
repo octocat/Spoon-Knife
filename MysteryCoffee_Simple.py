@@ -4,8 +4,6 @@ import random
 import copy
 import os
 
-print("Test")
-
 # path to the CSV files with participant data
 participants_csv = "Coffee Partner Lottery participants.csv"
 
@@ -21,6 +19,11 @@ new_pairs_csv = "Coffee Partner Lottery new pairs.csv"
 
 # path to CSV file that stores all pairings (to avoid repetition)
 all_pairs_csv = "Coffee Partner Lottery all pairs.csv"
+
+# define conversation starters file(s)
+questions = 'questions.txt'
+jokes = 'jokes.txt'
+activities = 'activities.txt'
         
 # init set of old pairs
 opairs = set()
@@ -155,7 +158,34 @@ with open(all_pairs_csv, mode) as file:
                 file.write(pair[i] + "\n")
 
 
-             
+# Open the conversation starters file and read the lines
+with open(questions, 'r') as f:
+    questions = f.readlines()
+
+# Open the conversation starters file and read the lines
+with open(jokes, 'r') as f:
+    jokes = f.readlines()
+
+# Open the conversation starters file and read the lines
+with open(activities, 'r') as f:
+    activities = f.readlines()
+
+# Shuffle the conversation starters
+random.shuffle(questions)
+random.shuffle(jokes)
+random.shuffle(activities)
+
+# Random conversation starter
+questions = random.choice(questions).strip()
+jokes = random.choice(jokes).strip()
+activities = random.choice(activites).strip()
+
+# add to email message
+message = "Hello!"
+message += f"Let's start with a joke!\n {jokes}\n"
+message += f"Here's your conversation starter:\n {questions}\n" 
+message += f"We included an activity idea as well! You all should:\n {activities}" 
+
 # print finishing message
 print()
 print("Job done.")

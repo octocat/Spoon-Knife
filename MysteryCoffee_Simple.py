@@ -4,6 +4,8 @@ import random
 import copy
 import os
 
+print("Test")
+
 # path to the CSV files with participant data
 participants_csv = "Coffee Partner Lottery participants.csv"
 

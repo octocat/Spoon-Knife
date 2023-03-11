@@ -25,6 +25,8 @@ opairs = set()
 
 DELIMITER=','
 
+print(' Test')
+
 # load all previous pairings (to avoid redundancies)
 if os.path.exists(all_pairs_csv):
     with open(all_pairs_csv, "r") as file:
@@ -107,15 +109,43 @@ output_string += "------------------------\n"
 output_string += "Today's coffee partners:\n"
 output_string += "------------------------\n"
 
+group_names = []
+
 for pair in npairs:
     pair = list(pair)
+    names_pergroup = []
     output_string += "* "
     for i in range(0,len(pair)):
         name_email_pair = f"{formdata[formdata[header_email] == pair[i]].iloc[0][header_name]} ({pair[i]})"
+        names_pergroup.append(f"{formdata[formdata[header_email] == pair[i]].iloc[0][header_name]}")
         if i < len(pair)-1:
             output_string += name_email_pair + ", "
         else:
             output_string += name_email_pair + "\n"
+            
+    group_names.append(names_pergroup)
+            
+print(group_names)
+
+
+### The program generates messages to all groups which address the participants by name, inform
+## them about having been matched for a meeting, and include the conversation starter. It saves these
+## messages in one or multiple text files.
+
+introtext = ""
+for group in group_names:
+    introduction = "Hey"
+    for person in group:
+        introduction += " " +person
+
+    introduction += ", you have been matched for a meeting. To get the conversation started use X. \n"
+    introtext += introduction
+
+
+
+with open("introduction.txt", "wb") as file:
+    file.write(introduction.encode("utf8"))
+
     
 # write output to console
 print(output_string)
@@ -123,6 +153,8 @@ print(output_string)
 # write output into text file for later use
 with open(new_pairs_txt, "wb") as file:
     file.write(output_string.encode("utf8"))
+
+
 
 # write new pairs into CSV file (for e.g. use in MailMerge)
 with open(new_pairs_csv, "w") as file:
@@ -152,13 +184,7 @@ with open(all_pairs_csv, mode) as file:
             else:
                 file.write(pair[i] + "\n")
 
-print(f"And the pairs are: {pair}!")
 
-#insert part of conversation starters
-
-
-
-             
 # print finishing message
 print()
 print("Job done.")

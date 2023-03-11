@@ -1,0 +1,5 @@
+------------------------
+Today's coffee partners:
+------------------------
+* Eve Miller (eve.miller@email.com), John Doe (john.doe@email.com), Kim Baker (kim.baker@email.com)
+* Alice Smith (alice.smith@email.com), Bob Smith (bob.smith@email.com)

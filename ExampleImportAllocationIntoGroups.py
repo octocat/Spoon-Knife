@@ -2,6 +2,8 @@ import pandas as pd
 
 df= pd.read_excel('https://docs.google.com/spreadsheets/d/e/2PACX-1vTt2zTAl0BKc4VO8SZwexi2sHjAwryHhxEvgTHDpqYaZRFULG4ykJuiwTXSk9xEEJ4eWlpmRxBT_GrW/pub?output=xlsx')
 
+name="What is your name?"
+email="What is your email?"
 
 # Shuffle the order of the participants
 df = df.sample(frac=1).reset_index(drop=True)
@@ -17,6 +19,6 @@ while len(df) > 0:
 # Print the groups
 for i, group in enumerate(groups):
     print(f"Group {i+1}:")
-    for participant in group["What is your name?"]:
+    for participant in group[name]:
         print(participant)
     print("\n")

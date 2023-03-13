@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import pandas as pd
-
-df= pd.read_excel('https://docs.google.com/spreadsheets/d/e/2PACX-1vTt2zTAl0BKc4VO8SZwexi2sHjAwryHhxEvgTHDpqYaZRFULG4ykJuiwTXSk9xEEJ4eWlpmRxBT_GrW/pub?output=xlsx')
-
-name="What is your name?"
-email="What is your email?"
-=======
 
 #This function uses the lists with the participants, coversation_starters, and jokes to create random coffee drink groups\n",
 # with a random joke and conversation starter\n",
@@ -92,4 +84,3 @@ groups = group_allocation(people,conversation_starters, jokes)
 for i, group in enumerate(groups):
     print(f"Group {i+1}: {groups[group]}"),
  
->>>>>>> 3f55fd5ed097c5848a9b3bdfcd7d30215d0d5021

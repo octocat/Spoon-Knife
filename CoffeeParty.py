@@ -79,6 +79,24 @@ random.shuffle(people)
 #Calls the function that randomly allocates the coffee drinkers with a joke and conversation starter\n",
 groups = group_allocation(people,conversation_starters, jokes)
 
+### 8. The program generates messages to all groups which address the participants by name, inform
+## them about having been matched for a meeting, and include the conversation starter. It saves these
+## messages in one or multiple text files.
+
+introtext = ""
+for group in group_names:
+    introduction = "Hey"
+    for person in group:
+        introduction += " " +person
+
+    introduction += ", you have been matched for a meeting. To get the conversation started use X. \n \n"
+    introtext += introduction
+
+
+
+with open("introduction.txt", "wb") as file:
+    file.write(introtext.encode("utf8"))
+
 #prints the group dictionary in a nice order   
 
 for i, group in enumerate(groups):

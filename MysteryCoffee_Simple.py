@@ -19,6 +19,14 @@ new_pairs_csv = "Coffee Partner Lottery new pairs.csv"
 
 # path to CSV file that stores all pairings (to avoid repetition)
 all_pairs_csv = "Coffee Partner Lottery all pairs.csv"
+<<<<<<< HEAD
+=======
+
+# define conversation starters file(s)
+questions = 'questions.txt'
+jokes = 'jokes.txt'
+activities = 'activities.txt'
+>>>>>>> LailaProject
         
 # init set of old pairs
 opairs = set()
@@ -152,6 +160,7 @@ with open(all_pairs_csv, mode) as file:
             else:
                 file.write(pair[i] + "\n")
 
+<<<<<<< HEAD
 print(f"And the pairs are: {pair}!")
 
 #insert part of conversation starters
@@ -159,6 +168,37 @@ print(f"And the pairs are: {pair}!")
 
 
              
+=======
+
+# Open the conversation starters file and read the lines
+with open(questions, 'r') as f:
+    questions = f.readlines()
+
+# Open the conversation starters file and read the lines
+with open(jokes, 'r') as f:
+    jokes = f.readlines()
+
+# Open the conversation starters file and read the lines
+with open(activities, 'r') as f:
+    activities = f.readlines()
+
+# Shuffle the conversation starters
+random.shuffle(questions)
+random.shuffle(jokes)
+random.shuffle(activities)
+
+# Random conversation starter
+questions = random.choice(questions).strip()
+jokes = random.choice(jokes).strip()
+activities = random.choice(activites).strip()
+
+# add to email message
+message = "Hello!"
+message += f"Let's start with a joke!\n {jokes}\n"
+message += f"Here's your conversation starter:\n {questions}\n" 
+message += f"We included an activity idea as well! You all should:\n {activities}" 
+
+>>>>>>> LailaProject
 # print finishing message
 print()
 print("Job done.")

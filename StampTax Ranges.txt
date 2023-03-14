@@ -1,0 +1,33 @@
+Youtube : https://www.youtube.com/watch?v=IMB4n_gkkJo
+
+
+Stamp Tax Ranges
+=================
+
+1) less than 50 , no stamp tax
+
+2) between 50 and 250 > tax =  0.006
+
+ex: ( 250 - 50 ) * 0.006
+
+3) between 250 and 500 > tax = 0.0065
+
+ex: ( 500 - 50 ) * 0.0065 = 2.925 rounded up to 2.95
+
+4) between 500 and 1000 > tax = 0.007
+
+ex: ( 1000 - 50 ) * 0.007
+
+5) between 1000 and 5000 > tax = 0.0075
+
+6) between 5000 and 10000 > tax = 0.008
+
+7) Greater than 10000 > tax = 0.003
+
+First 10000 , calculate 0.008
+reminder , calculate 0.003
+
+ex 15000
+
+( (10000 - 50) * 0.008 ) + (5000 * 0.003)
+

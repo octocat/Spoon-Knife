@@ -1,0 +1,34 @@
+Group P2INFOMCTHg01p02
+
+Students: task
+Sjoerd Hutter: Randomly assigning participants to (varying length) groups (Energy Science)
+Stefano Markink: Import of the participants and giving them a way to sign up (Energy Science)
+Laila Sweet: Creating conversation starters
+Eva Nijenhuis: Calling participants by name and assigning them a conversation starter and writing this in a file. (Global Criminology)
+
+1. The program reads the list of participants from an online form (you can create one with Google
+Forms or MS Forms, for example), either directly or via a downloaded (.csv) file of responses. The
+form asks for name and e-mail address. If you like, you can include additional fields. -- 100% 
+2. The set of signed-up participants can change in every round. Therefore the list of participants is
+read from the source again every time. -- 100%
+3. The assignment of people into pairs or groups is random. --  100%
+4. The group size is configurable. The program is not only able to generate pairs, but also groups of 3,
+4, 5, … people. You may set an upper limit. -- 100%
+5. If the number of participants is not a multiple of the group size, the program distributes some
+participants differently (for example by making some groups smaller or larger). It does not happen
+that a participant is not matched with anyone. -- 100%
+6. When the matching is finished, the program prints out the generated pairs/groups to the screen in
+nice, readable formatting. -- 100%
+7. In every round the program provides a new conversation starter (for example a joke, a statement to
+debate or a question to answer). The program reads these from a local file. The conversation starter
+is also printed to the screen. -- 100%
+8. The program generates messages to all groups which address the participants by name, inform
+them about having been matched for a meeting, and include the conversation starter. It saves these
+messages in one or multiple text files. -- 100%
+9. Create a new name for your version of Mastery Coffee. -- 100%
+10. INFOMCTH/Master students only: you must use Git/GitHub for version control. -- 100%
+
+Reflection on working with GitHub:
+We managed to all push our separate pieces of code to the main and merge them together. However, more explanation from the start might have been useful because figuring out how GitHub worked ourselves took quite a while. 
+
+https://github.com/StefanoMarkink/GroupProject2 

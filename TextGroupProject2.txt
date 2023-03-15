@@ -1,10 +1,19 @@
 Group P2INFOMCTHg01p02
 
-Students: task
-Sjoerd Hutter: Randomly assigning participants to (varying length) groups (Energy Science)
-Stefano Markink: Import of the participants and giving them a way to sign up (Energy Science)
-Laila Sweet: Creating conversation starters
-Eva Nijenhuis: Calling participants by name and assigning them a conversation starter and writing this in a file. (Global Criminology)
+Students: Tasks
+Sjoerd Hutter: Randomly assigning participants to (varying length) groups (Energy Science), Student ID: 2066106
+Stefano Markink: Import of the participants and giving them a way to sign up (Energy Science), Student ID: 1453424
+Laila Sweet: Creating conversation starters and assigning them to people (Social and Health Psychology), Student ID: 0587168
+Eva Nijenhuis: Calling participants by name and assigning them a conversation starter and writing this in a file. (Global Criminology), Student ID: 4472810
+
+*Running the Program*
+
+1. First download the python file and the text files with, conversation starters, jokes, and activities and place them in the same folder as where you are running the python code provided.
+2. Open the following link: https://docs.google.com/forms/d/e/1FAIpQLSdaKYeIsooa3urcAagU5i2kLoGMItVTsM8A-MX6w31MfM2LYw/viewform and add the names of the participants. Some names are already included for demonstration purposes.
+3. This link downloads the list of participants https://docs.google.com/spreadsheets/d/e/2PACX-1vTt2zTAl0BKc4VO8SZwexi2sHjAwryHhxEvgTHDpqYaZRFULG4ykJuiwTXSk9xEEJ4eWlpmRxBT_GrW/pub?output=xlsx
+4. Run the python script
+
+*Program Functionality*
 
 1. The program reads the list of participants from an online form (you can create one with Google
 Forms or MS Forms, for example), either directly or via a downloaded (.csv) file of responses. The

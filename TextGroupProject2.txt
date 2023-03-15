@@ -1,0 +1,43 @@
+Group P2INFOMCTHg01p02
+
+Students: Tasks
+Sjoerd Hutter: Randomly assigning participants to (varying length) groups (Energy Science), Student ID: 2066106
+Stefano Markink: Import of the participants and giving them a way to sign up (Energy Science), Student ID: 1453424
+Laila Sweet: Creating conversation starters and assigning them to people (Social and Health Psychology), Student ID: 0587168
+Eva Nijenhuis: Calling participants by name and assigning them a conversation starter and writing this in a file. (Global Criminology), Student ID: 4472810
+
+*Running the Program*
+
+1. First download the python file and the text files with, conversation starters, jokes, and activities and place them in the same folder as where you are running the python code provided.
+2. Open the following link: https://docs.google.com/forms/d/e/1FAIpQLSdaKYeIsooa3urcAagU5i2kLoGMItVTsM8A-MX6w31MfM2LYw/viewform and add the names of the participants. Some names are already included for demonstration purposes.
+3. This link downloads the list of participants https://docs.google.com/spreadsheets/d/e/2PACX-1vTt2zTAl0BKc4VO8SZwexi2sHjAwryHhxEvgTHDpqYaZRFULG4ykJuiwTXSk9xEEJ4eWlpmRxBT_GrW/pub?output=xlsx
+4. Run the python script
+
+*Program Functionality*
+
+1. The program reads the list of participants from an online form (you can create one with Google
+Forms or MS Forms, for example), either directly or via a downloaded (.csv) file of responses. The
+form asks for name and e-mail address. If you like, you can include additional fields. -- 100% 
+2. The set of signed-up participants can change in every round. Therefore the list of participants is
+read from the source again every time. -- 100%
+3. The assignment of people into pairs or groups is random. --  100%
+4. The group size is configurable. The program is not only able to generate pairs, but also groups of 3,
+4, 5, … people. You may set an upper limit. -- 100%
+5. If the number of participants is not a multiple of the group size, the program distributes some
+participants differently (for example by making some groups smaller or larger). It does not happen
+that a participant is not matched with anyone. -- 100%
+6. When the matching is finished, the program prints out the generated pairs/groups to the screen in
+nice, readable formatting. -- 100%
+7. In every round the program provides a new conversation starter (for example a joke, a statement to
+debate or a question to answer). The program reads these from a local file. The conversation starter
+is also printed to the screen. -- 100%
+8. The program generates messages to all groups which address the participants by name, inform
+them about having been matched for a meeting, and include the conversation starter. It saves these
+messages in one or multiple text files. -- 100%
+9. Create a new name for your version of Mastery Coffee. -- 100%
+10. INFOMCTH/Master students only: you must use Git/GitHub for version control. -- 100%
+
+Reflection on working with GitHub:
+We managed to all push our separate pieces of code to the main and merge them together. However, more explanation from the start might have been useful because figuring out how GitHub worked ourselves took quite a while. 
+
+https://github.com/StefanoMarkink/GroupProject2 

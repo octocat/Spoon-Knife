@@ -1,9 +1,9 @@
-### Well hello there!
+### Bem, olá!
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Este repositório destina-se a fornecer um exemplo de *bifurcação* de um repositório no GitHub.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+Criar um *fork* é produzir uma cópia pessoal do projeto de outra pessoa. As bifurcações atuam como uma espécie de ponte entre o repositório original e sua cópia pessoal.
+Você pode enviar *Pull Requests* para ajudar a melhorar os projetos de outras pessoas, oferecendo suas alterações no projeto original. A bifurcação está no centro da codificação social no GitHub.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
-
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+Depois de bifurcar este repositório, você pode fazer algumas alterações no projeto e enviar [um Pull Request](https://github.com/octocat/Spoon-Knife/pulls) como prática.
+Para mais informações sobre como bifurcar um repositório, [confira nosso guia, "Forking Projects""](http://guides.github.com/overviews/forking/). Obrigado! :sparkling_heart:

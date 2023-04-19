@@ -10,3 +10,5 @@ function main (){
   return null
 }
 main() //4th testing
+
+console.log(main()) //5th testing

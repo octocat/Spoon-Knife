@@ -1,0 +1,13 @@
+ Volume in drive C is OS
+ Volume Serial Number is E00C-99E3
+
+ Directory of C:\Users\P_TuSangLui\Documents\GitHub\Spoon-Knife
+
+23/04/19  09:51 PM    <DIR>          .
+23/04/19  09:51 PM    <DIR>          ..
+23/04/19  09:50 PM               375 index.html
+23/04/19  09:50 PM               789 README.md
+23/04/19  09:51 PM                 0 spoon.txt
+23/04/19  09:50 PM               273 styles.css
+               4 File(s)          1,437 bytes
+               2 Dir(s)  75,699,183,616 bytes free

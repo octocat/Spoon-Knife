@@ -15,3 +15,28 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+a {
+  background: linear-gradient(126deg, rgb(230, 4, 78) 3%, rgb(231, 7, 129) 52.94%, rgb(8, 137, 255));
+  background-size: 280%;
+	animation: GradTransition 10s ease infinite;
+  transition: all .8s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+@-webkit-keyframes GradTransition {
+  0% {
+      background-position: 0% 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  100% {
+      background-position: 0% 50%
+  }
+}

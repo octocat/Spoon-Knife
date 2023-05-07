@@ -3,6 +3,13 @@
   padding:0px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #octocat {
   display: block;
   width:384px;

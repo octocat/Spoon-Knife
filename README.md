@@ -1,4 +1,4 @@
-### Well hello there! How are you today
+### Well hello there! How are you today. Let's begin
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,0 +1,54 @@
+{
+    "subject": "b25bb008052316479a659ce6816a6119ff66d6e80895be8e3b521d05564f5859",
+    "url": {
+        "sequenceNumber": 0,
+        "value": "https://linktr.ee/d.n.a.labs",
+        "signatures": [
+            {
+                "signature": "d7c5e570d46341e9f6805dd9ea1ab5376d12ab40474078b690d0ca8395f50ac2df621291bb8bb134bfb32980b3755f785cba8c341f7c75b5b41216b660f4d407",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "name": {
+        "sequenceNumber": 0,
+        "value": "Darkwater",
+        "signatures": [
+            {
+                "signature": "05dd172aca12972848e9affa579d3c2e759fb4a4ff100b015875ee58eba0214225aefa5857b1aa3fcb1df3ca6c7bc7b1e71cfd6f1b42f6b972c660daca3c6e07",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "VOXY",
+        "signatures": [
+            {
+                "signature": "674741b676f8a28a8ff3ec253d5db59915371fbd5e475dae96b5025fbd2e4e8589c7423572916fb787a5c54639b72ee2a94126b0da1951c42049b5cfde8b0c0c",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 0,
+        "signatures": [
+            {
+                "signature": "c3d35212df9c002b95aa2694359f106f04c03fd8aefa25f48df76eb6f0e7fcfd58748453de4c6a7dd27a1f344a22729643c941f9e7731f52b1020c600ec7ae02",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "policy": "820182018282051a057e4b3e8200581c39a1df51147b6de6689a4727846962fb6540c3a3c7859a1a79b9420f",
+    "description": {
+        "sequenceNumber": 0,
+        "value": "Voxy is the native token of the D.N.A Labs Voxy Lady ecosystem built on the Cardano blockchain. It serves as a means of exchange within the platform, enabling users to access and utilize various services, such as mentorship and networking opportunities, as well as participate in community-driven initiatives. Voxy also incentivizes active participation and contribution, promoting a vibrant and engaged community of AI Artists.",
+        "signatures": [
+            {
+                "signature": "5e26fc8c64c58e03b37cfdcc4bc2cd63cf799cf75913a302c1ee9787a4bb2515713e57f1db3c22034b7f0c8dbf6abfbefd5af07ae999fcb71e8ffff30ad6320d",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    }
+}

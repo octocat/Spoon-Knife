@@ -10,4 +10,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 just making a change
 
-OMG I just discover work space
+OMG I just discover work spaces

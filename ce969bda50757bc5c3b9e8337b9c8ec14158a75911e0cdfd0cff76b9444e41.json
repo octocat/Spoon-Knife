@@ -1,0 +1,54 @@
+{
+    "subject": "ce969bda50757bc5c3b9e8337b9c8ec14158a75911e0cdfd0cff76b9444e41",
+    "url": {
+        "sequenceNumber": 0,
+        "value": "https://linktr.ee/d.n.a.labs",
+        "signatures": [
+            {
+                "signature": "bfb2d938125bad7bb572247c645382816ccb421db2c5dbc6deb40d07a93f61e7ee8bc66852ba200215f23ce5821b01ad9c962e800b2e9f2ed62f822463d39801",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "name": {
+        "sequenceNumber": 0,
+        "value": "D.N.A. Labs",
+        "signatures": [
+            {
+                "signature": "5d22c5e0047a5bbc5b4fa5947f70335c547302f172646150c607f1b04ae22beb553efb21cb60ab4c1a40a8356acf74c40a5dce3a85315f7a4f838681c599f807",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "DNA",
+        "signatures": [
+            {
+                "signature": "4b70f54795d0aab2fc41cc2724bc62b2aaa4963d5429fb52fb2ea5e0ae2cbc4413914c58b520613bf1382716d8b819191cfda76c0ad66f08ef3f6042fb8e0f07",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 0,
+        "signatures": [
+            {
+                "signature": "016119b125055517f754c310ff3206655c0fb8c0c0e0074aaec400843c97c31a4570165b304029b17589a989b7780014e9317713d79106c298f92965b2122a09",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    },
+    "policy": "820182018282051a057e4f858200581c39a1df51147b6de6689a4727846962fb6540c3a3c7859a1a79b9420f",
+    "description": {
+        "sequenceNumber": 0,
+        "value": "$DNA is the native token of the D.N.A Labs ecosystem on the Cardano blockchain, an innovative AI art project. The token serves as a means of exchange within the platform, allowing artists and collectors to buy, sell, and trade digital artworks created by AI algorithms. $DNA also incentivizes participation in the ecosystem, rewarding contributors and promoting the growth of the creative community. The project aims to explore the intersection of AI, art, and blockchain technology, fostering new fo",
+        "signatures": [
+            {
+                "signature": "8b49c2f16a748da283e6d9795534aa7e31e4592d0937fd31a33915ea37c2823c45c2985e1513534b0c9ff4454318e0292899277aa84b50711f227242f2bff203",
+                "publicKey": "5817526d712f71e33a31ac3429fb7ce70b3e17e727044d9a2a51493e7894ba48"
+            }
+        ]
+    }
+}

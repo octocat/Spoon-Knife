@@ -1,17 +1,32 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width: 384px;
   margin: 50px auto;
 }
-
+.wrapper {
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 7px;
+  width: 250px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px Monaco, "Courier New", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", monospace;
+  background: #fff;
+  color: #222;
+  padding: 2rem;
+}
+h5{
+    margin: 50px auto;
+display: block;
+width: 100px;
+
 }

@@ -1,6 +1,4 @@
 this is a sample text file
 BeepBoop, BeepBoop
-AH HAA!! HERE IS THE TEXT!! 
-alas, we have a file from the CLI now on Github :)
 
-And now the reverse, dear friend, we update on CLI and send to GitHub 
+After all this fun, can we get it work on the TAE cluster? Lets see

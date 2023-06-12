@@ -4,7 +4,7 @@ console.log('hello world');
 
 function hello()
 {
-  return "hi";
+  return "hi, how are you?";
 }
 hello();
 // hello function

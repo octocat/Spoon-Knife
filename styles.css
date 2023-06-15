@@ -15,3 +15,11 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+.title{
+  color: #8845a7 ;
+  margin: 50px auto ;
+  width: 400px;
+  display : block ;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}

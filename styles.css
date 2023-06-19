@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  box-sizing: border-box;
 }
 
 #octocat {
@@ -14,4 +15,31 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+.mainBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyTitle{
+  color: red;
+  font-size: 32px;
+  animation: train 2s ease infinite alternate;
+}
+
+@keyframes train {
+  0%{
+    opacity: 1;
+  }
+
+  50%{
+    opacity: 0.8;
+    color: orange;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }

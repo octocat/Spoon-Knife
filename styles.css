@@ -25,5 +25,21 @@ p {
 
 .bodyTitle{
   color: red;
-  font-size: 22px;
+  font-size: 32px;
+  animation: train 2s ease infinite alternate;
+}
+
+@keyframes train {
+  0%{
+    opacity: 1;
+  }
+
+  50%{
+    opacity: 0.8;
+    color: orange;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }

@@ -1,17 +1,47 @@
-* {
-  margin:0px;
-  padding:0px;
+/* Result Skip Results Iframe */
+body {
+    margin:0;
+    width:100%;
+    height:100vh;
+    font-family: "Exo",sans-serif;
+    color:white;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+.container{
+    width:100%;
+    position:absolute;
+    top:35%;
+    text-align: center;
+}
+
+h1{
+    font-weight:300;
+}
+
+h5{
+    color: white;
+    font-weight:300;
+}
+
+a,
+a:hover{
+    text-decoration:none;
+    color:#ddd;
 }

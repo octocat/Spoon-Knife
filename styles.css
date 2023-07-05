@@ -16,6 +16,11 @@ p {
   font: 30px Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 
-.fork-it {
-  color: #f08080;
+.message-style {
+  font-weight: bold;
+  font-size: 25px;
+  background-color: lightseagreen;
+  padding: 12px;
+  border-radius: 8px;
+  width: max-content;
 }

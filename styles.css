@@ -1,18 +1,18 @@
 #css code for the main page
-* {
-  margin:0px;
-  padding:0px;
+#* {
+  #margin:0px;
+ # padding:0px;
 }
 #commented for the bot
 #octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+  #display: block;
+  #width:384px;
+ # margin: 50px auto;
 }
 
 #for the paragraph block
 p {
-  display: block;
+ # display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;

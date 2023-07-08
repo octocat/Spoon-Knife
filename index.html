@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <title>Colorful Website</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    h1 {
+      color: #e74c3c;
+    }
+
+    p {
+      color: #3498db;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      display: inline-block;
+      border-radius: 50%;
+      transition: transform 0.3s;
+    }
+
+    .box:hover {
+      transform: scale(1.2);
+    }
+
+    .red {
+      background-color: #e74c3c;
+    }
+
+    .blue {
+      background-color: #3498db;
+    }
+
+    .green {
+      background-color: #2ecc71;
+    }
+  </style>
 </head>
-
 <body>
-
-<img src="forkit.gif" id="octocat" alt="" />
-
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-
+  <h1>Welcome to the Colorful Website!</h1>
+  <p>Choose a color:</p>
+  <div class="box red"></div>
+  <div class="box blue"></div>
+  <div class="box green"></div>
 </body>
 </html>

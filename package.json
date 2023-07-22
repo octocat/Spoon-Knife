@@ -1,0 +1,16 @@
+{
+  "name": "spoon-knife",
+  "version": "1.0.0",
+  "description": "This repository is meant to provide an example for *forking* a repository on GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.5"
+  }
+}

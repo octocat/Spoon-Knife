@@ -1,0 +1,10 @@
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*type and class descendant combinator*\
+/* also can be class and type descendant combinator*\
+/* or a class and class descendant combinator*\

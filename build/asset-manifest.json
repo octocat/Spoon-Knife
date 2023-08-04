@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Juancombita.github.io/static/css/main.495a8cbe.css",
+    "main.js": "/Juancombita.github.io/static/js/main.49a4e2cc.js",
+    "index.html": "/Juancombita.github.io/index.html",
+    "static/media/delete.svg": "/Juancombita.github.io/static/media/delete.c48a5f0b15f6b40be79ca09af0f4bb03.svg",
+    "static/media/check.svg": "/Juancombita.github.io/static/media/check.5b5896a22c422ff6b0884934311dc4cb.svg",
+    "main.495a8cbe.css.map": "/Juancombita.github.io/static/css/main.495a8cbe.css.map",
+    "main.49a4e2cc.js.map": "/Juancombita.github.io/static/js/main.49a4e2cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.495a8cbe.css",
+    "static/js/main.49a4e2cc.js"
+  ]
+}

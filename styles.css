@@ -6,8 +6,8 @@
 * {
   margin:0px;
   padding:0px;
-  background-color: var(--my-bk-color10);
-  color: var(--my-bk-color1);
+  background-color: var(--my-color10);
+  color: var(--my-color1);
 }
 
 #octocat {

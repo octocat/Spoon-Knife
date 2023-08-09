@@ -1,4 +1,0 @@
-this is a sample text file
-BeepBoop, BeepBoop
-
-After all this fun, can we get it work on the TAE cluster? Lets see

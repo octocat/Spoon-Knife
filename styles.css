@@ -1,6 +1,23 @@
+:root {
+	--my-bk-color1: white;
+	--my-bk-color1-9: rgba(255, 255, 255, 0.9);
+	--my-bk-color2: rgb(211, 211, 211);
+	--my-bk-color2-75: rgba(211, 211, 211, 0.75);
+	--my-bk-color3: rgb(220, 165, 49);
+	--my-bk-color4: rgb(180, 100, 45);
+	--my-bk-color5: rgb(80, 30, 12);
+	--my-bk-color6: rgb(40, 15, 6);
+	--my-bk-color7: rgb(20, 5, 3);
+	--my-bk-color8: rgb(255, 215, 0);
+	--my-bk-color9: rgb(139, 0, 0);
+	--my-bk-color10: rgb(0, 0, 0);
+}
+
 * {
   margin:0px;
   padding:0px;
+  background-color: var(--my-bk-color10);
+  color: var(--my-bk-color1);
 }
 
 #octocat {

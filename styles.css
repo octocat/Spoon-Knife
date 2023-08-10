@@ -1,17 +1,40 @@
+:root {
+	--my-color1: hwb(0 100% 0%);
+	--my-color01: rgba(255, 255, 255, 0.5);
+	--my-color10: hwb(0 0% 100%);
+}
+
 * {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--my-color10);
+  color: var(--my-color1);
 }
 
 #octocat {
   display: block;
-  width:384px;
+  width: 384px;
   margin: 50px auto;
+  border: solid 2px white;
+  outline: solid black 2px;
+  background: radial-gradient(circle at center, var(--my-color1) 0%, var(--my-color01) 70%);
+  border-radius: 50px;
+  animation: moveLeftToRight ease-in-out 0.0125s infinite alternate; /* Adjust the duration (4s) as needed */
+}
+
+@keyframes moveLeftToRight {
+  from {
+    transform: translateX(-2px);
+  }
+  to {
+    transform: translateX(2px); /* Adjust the distance (200px) as needed */
+  }
 }
 
 p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  animation: moveLeftToRight ease-in-out 0.0125s infinite alternate; /* Adjust the duration (4s) as needed */
 }

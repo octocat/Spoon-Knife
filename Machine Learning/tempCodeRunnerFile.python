@@ -1,0 +1,335 @@
+# %% [markdown]
+# ## Assignment 1
+# ### Name:
+# ### Roll Number:
+
+# %%
+# import all the necessary libraries here
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+
+# %%
+df = pd.read_csv('../../dataset/linear-regression.csv')
+print(df.shape) 
+
+# %%
+df.isna().any()
+
+# %%
+def print_max(dataframe):
+    for column in dataframe.columns:
+        print(f"Max for {column}: {dataframe[column].max()}")
+
+def print_min(dataframe):
+    for column in dataframe.columns:
+        print(f"Min for {column}: {dataframe[column].min()}")
+
+# %%
+X=df.drop("quality",axis=1)
+y=df["quality"]
+print(X.shape)
+print(y.shape)
+
+# %%
+print(print_max(df))
+print(print_min(df))
+
+# %%
+df.columns
+
+# %%
+cols_to_scale=[]
+for column in df.columns:
+    if column != "quality":
+        cols_to_scale.append(column)
+print(cols_to_scale)
+
+# %%
+# from sklearn.preprocessing import MinMaxScaler
+# df2=df.copy()
+# scaler = MinMaxScaler()
+# df2[cols_to_scale]=scaler.fit_transform(df2[cols_to_scale])
+# df2
+
+# %%
+from sklearn.model_selection import train_test_split
+X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.5, random_state=42)
+X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.4, random_state=42)
+
+# %%
+X_train
+
+# %%
+print(X_train.shape)
+print(y_train.shape)
+print(X_val.shape)
+print(y_val.shape)
+print(X_test.shape)
+print(y_test.shape)
+
+# %%
+X_train=X_train.to_numpy()
+ones_column_train= np.ones((X_train.shape[0],1))
+y_train=y_train.to_numpy(dtype="float64")
+X_train=np.hstack((ones_column_train,X_train))
+
+X_val=X_val.to_numpy()
+ones_column_val= np.ones((X_val.shape[0],1))
+y_val=y_val.to_numpy(dtype="float64")
+X_val=np.hstack((ones_column_val,X_val))
+
+X_test=X_test.to_numpy()
+ones_column_test= np.ones((X_test.shape[0],1))
+y_test=y_test.to_numpy(dtype="float64")
+X_test=np.hstack((ones_column_test,X_test))
+
+# %% [markdown]
+# # Checking possible accuracy
+
+# %%
+print_max(df)
+print("\n")
+print_min(df)
+
+# %%
+# from sklearn.linear_model import LinearRegression
+
+# model = LinearRegression()
+# model.fit(X_train,y_train)
+
+# %%
+# y_valpred=model.predict(X_val)
+# # y_valpred
+
+# %%
+# from sklearn.metrics import r2_score
+# from sklearn.metrics import mean_squared_error
+
+# score= r2_score(y_val,y_valpred)
+# print(score)
+
+# %%
+# y_trainpred = model.predict(X_train)
+# print(r2_score(y_train,y_trainpred))
+# print(mean_squared_error(y_train,y_trainpred))
+
+# %%
+# model.score(X_train,y_train)
+
+# %% [markdown]
+# # Analytical Solution
+
+# %%
+df.columns.shape
+
+# %%
+df
+
+# %%
+X_train.shape
+
+# %%
+print(X_train.shape)
+print(y_train)
+
+# %%
+Xt_train=np.transpose(X_train)
+print(Xt_train)
+
+# %%
+print(X_train)
+
+# %%
+print(print_max(df))
+print(print_min(df))
+
+# %%
+XtX_train=np.matmul(Xt_train,X_train)
+XtX_inv_train=np.linalg.inv(XtX_train)
+print(XtX_inv_train)
+print(XtX_inv_train.shape)
+
+# %%
+print(XtX_inv_train.shape)
+print(Xt_train.shape)
+print(y_train.shape)
+
+# %%
+temp=np.matmul(XtX_inv_train,Xt_train)
+theta=np.matmul(temp,y_train)
+print(theta.shape)
+
+# %%
+print(theta)
+
+# %%
+y_testpred= np.matmul(X_test,theta)
+print(y_test,y_testpred)
+
+# %%
+def print_comparision(y_test,y_testpred):
+    for i in range(y_test.shape[0]):
+        print(f"Actual value:{y_test[i]}, Prediction: {y_testpred[i]}")
+        print("\n")
+
+# %%
+print_comparision(y_test,y_testpred)
+
+# %%
+def calculate_rmse(y_actual, y_pred):
+    squared_errors = (y_actual - y_pred) ** 2
+    mean_squared_error = np.mean(squared_errors)
+    rmse = np.sqrt(mean_squared_error)
+    return rmse
+
+def calculate_r_squared(y_actual, y_pred):
+    total_variance = np.sum((y_actual - np.mean(y_actual)) ** 2)
+    explained_variance = np.sum((y_pred - y_actual) ** 2)
+    r_squared = 1 - (explained_variance / total_variance)
+    return r_squared
+
+# %%
+# from sklearn.metrics import mean_squared_error, r2_score
+rmse= calculate_rmse(y_test,y_testpred)
+r_squared=calculate_r_squared(y_test,y_testpred)
+print(rmse)
+print(r_squared)
+
+# %% [markdown]
+# # Gradient Descent Solution
+
+# %% [markdown]
+# # Here I am considering theta as w just for the sake of conveneince
+
+# %%
+X_train
+
+# %%
+X_train.shape
+
+# %%
+y_train.shape
+
+# %%
+def mean_squared(y_train,y_pred):
+    cost=0
+    m= y_train.shape[0]
+    for i in range(m):
+        cost += (y_train[i]-y_pred[i])**2
+    error = cost/(2*m)
+    return error
+
+
+# %%
+train_losses=[]
+val_losses=[]
+def gradient_descent(X,y,X_val,y_val,w,alpha):
+        m=X.shape[0]
+        n=X.shape[1]
+        pred=np.dot(X,w)
+        error=pred-y
+        gradient= np.dot(X.T,error)/m
+        w-=alpha*gradient
+
+        val_pred=np.dot(X_val,w)
+        print("the feature constants are",w)
+        print("\n")
+        # y_pred= np.matmul(X,w)
+        loss=mean_squared(y,pred)
+        # y_valpred= np.matmul(X_val,w)
+        loss_val= mean_squared(y_val,val_pred)
+        train_losses.append(loss)
+        val_losses.append(loss_val)
+        return w
+        
+
+
+# %%
+x=np.array([[0,1,2,3,4,5,5,6],
+            [2,4,4,5,6,6,7,4]])
+mult=np.array([0,1,2,3,4,5,6,7])
+print(x.shape)
+print(mult.shape)
+print(np.dot(x,mult).shape)
+print(x.T)
+
+# %%
+def linear_regression(X,y,X_val,y_val,w,alpha,steps):
+    for iter in range(steps):
+        w=gradient_descent(X,y,X_val,y_val,w,alpha)
+        y_valpred=np.dot(X_val,w)
+        print(f"r-squared for validation set:{calculate_r_squared(y_val,y_valpred)}")
+
+# %%
+y_val.shape
+
+# %%
+w=np.zeros((12,))
+print(w)
+
+# %%
+def normalize_matrix(X):
+    columns_to_normalize = range(1, X.shape[1])
+    first_column = X[:, 0]
+    normalized_columns = (X[:, columns_to_normalize] - X[:, columns_to_normalize].mean(axis=0)) / X[:, columns_to_normalize].std(axis=0)
+    X_scaled = np.column_stack((first_column, normalized_columns))
+
+    print("Original Matrix:")
+    print(X)
+
+    print("\nNormalized Matrix:")
+    print(X_scaled)
+    return X_scaled
+X_train_scaled=normalize_matrix(X_train)
+
+# %%
+# print(cols_to_normalize)
+# print(cols)
+# X_train_scaled[cols][cols_to_normalize]
+
+# %%
+X_train_scaled.shape
+
+# %%
+y_train
+
+# %%
+linear_regression(X_train_scaled,y_train,X_val,y_val,w,0.1,2000)
+
+# %%
+print(w)
+
+# %%
+print(train_losses)
+
+# %%
+plt.plot(train_losses)
+
+# %%
+plt.plot(val_losses)
+
+# %%
+X_test.shape
+
+# %%
+X_test_scaled=normalize_matrix(X_test)
+
+y_testpred=np.dot(X_test_scaled,w)
+print(X_test_scaled.shape)
+print(w.shape)
+y_testpred.shape
+
+# %%
+X_test
+
+# %%
+y_testpred
+
+# %%
+y_test
+
+# %%
+print(f"r_squared: {calculate_r_squared(y_test,y_testpred)}")
+
+

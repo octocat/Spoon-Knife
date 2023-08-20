@@ -1,9 +1,0 @@
-text to indicate change for the inner folder
-
-making more changes to the random.txt file
-
-A branch specific change for Dev_branch
-
-
-
-changes before the changes in Dev_branch

@@ -1,4 +1,6 @@
 This is Doc1 initial
 This is change 1
 this is change1 on only Doc1
-this is change2 on only Doc2
+this is change2 on only Doc1 
+this is change3 on only Doc1 but for master
+this is change4 on only Doc1 but for branch2

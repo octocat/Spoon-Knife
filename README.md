@@ -1,6 +1,6 @@
 ### Well hello there!
 
-Lucie was here 
+Lucie was here!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

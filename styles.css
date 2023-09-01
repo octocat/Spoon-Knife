@@ -15,3 +15,17 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+.add{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+small{
+  width: 220px;
+  margin-top: 10px;
+  text-align: right;
+  font: 14px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  opacity: 0.8;
+}

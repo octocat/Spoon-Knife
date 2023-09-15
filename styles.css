@@ -1,6 +1,7 @@
 * {
   margin:0px;
   padding:0px;
+  background-color: #333;
 }
 
 #octocat {
@@ -10,10 +11,13 @@
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  display: flex;
+  margin: 50px;
+ /* font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;*/
+  font-family: fantasy;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
 }
 
-/* Ejemplo.. */

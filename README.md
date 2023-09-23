@@ -1,9 +1,5 @@
 ### Well hello there!
-<<<<<<< HEAD
-GBATMOBILE v3
-=======
-GBATMOBILE v2
->>>>>>> 9d838822a5523d6294bd078da8105530ba794876
+----
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

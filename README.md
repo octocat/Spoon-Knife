@@ -1,6 +1,6 @@
 ### Well hello there!
 
-ESSE É ONLINE
+ESSE É ON-LINE
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

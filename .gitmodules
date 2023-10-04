@@ -1,0 +1,3 @@
+[submodule "DbConnector"]
+	path = DbConnector
+	url = https://github.com/SavantBuffer/DbConnector.git

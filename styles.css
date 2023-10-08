@@ -10,7 +10,8 @@
 }
 
 p,
-h2 {
+h2,
+ul {
   display: block;
   width: 400px;
   margin: 50px auto;

@@ -1,2 +1,2 @@
 def a():
-    return 'a'
+    return 'abvbbb'

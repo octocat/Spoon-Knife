@@ -1,5 +1,7 @@
 def a():
     return 'abvbbb'
 
-def b():
-    return 'b'
+
+def math(a: int, b: int) -> int:
+    return a + b
+

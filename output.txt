@@ -1,0 +1,7 @@
+total 7
+-rw-r--r-- 1 Chele 197121 789 Oct 10 06:45 README.md
+-rw-r--r-- 1 Chele 197121 375 Oct 10 06:45 index.html
+-rw-r--r-- 1 Chele 197121  39 Oct 10 07:02 input.txt
+-rw-r--r-- 1 Chele 197121   0 Oct 10 07:09 output.txt
+-rw-r--r-- 1 Chele 197121 273 Oct 10 06:45 styles.css
+-rw-r--r-- 1 Chele 197121   0 Oct 10 06:46 test.txt

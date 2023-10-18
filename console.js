@@ -1,0 +1,4 @@
+function myfunction()
+{
+  var tmp; 
+}

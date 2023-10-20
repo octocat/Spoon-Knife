@@ -9,6 +9,34 @@
   margin: 50px auto;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.brown {
+  color: brown;
+}
+
+.pink {
+  color: pink;
+}
+
+.purple {
+  color: purple;
+}
+
 p {
   display: block;
   width: 400px;

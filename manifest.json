@@ -1,0 +1,36 @@
+{
+  "server_name": "LOWCRAFT",
+  "nice_name": "LowCraft.eu",
+  "direct_ip": "LowCraft.eu",
+  "supported_languages": [
+    "de",
+	"en"
+  ],
+  "social": {
+	"web": "https://www.lowcraft.eu",
+	"web_support": "https://wiki.lowcraft.eu",
+	"twitter": "LowCraftEU",
+	"tiktok": "lowcraft_eu",
+	"instagram": "lowcraftde",
+	"discord": "https://discord.gg/PxZBCu3FtT",
+	"discord": "https://www.youtube.com/@LowCraft_EU"
+  },
+  "gamemodes": {
+    "jumpworld": {
+      "name": "CityBuild", 
+      "color": "#C300FF",
+      "command": "/jump CityBuild",
+      "versions": "1.19<*"
+    }
+  "brand": {
+    "primary": "#5d04ca"
+  },
+  "location": {
+    "city": "Frankfurt",
+    "country": "Deutschland",
+    "country_code": "DE"
+  },
+  "user": {
+    "stats": "https://laby.net/@{userName}"
+  }
+}

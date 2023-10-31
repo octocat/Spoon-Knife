@@ -1,0 +1,211 @@
+mmu094
+4.0.1
+Note: All components shown on this site are supported by the Constellation design system. To learn how to configure Theme Cosmos, visit Pega Community.
+
+The Configuration component is used to provide a variety of useful overrides to your application. You can use the Configuration component to wrap you entire application, or you can wrap individual components for specific use cases. The props passed to the Configuration component that are detailed below may also be passed in as a Configuration object to the context prop.
+
+This documentation only covers a subset of the available props for the Configuration component.
+
+Contents
+Locale
+Direction
+Portal target
+Style sheet target
+Theme
+Translations
+Properties
+Locale
+The locale prop accepts any valid BCP-47 language tag. This will control how certain components such as DateTimeInput render information that may be locale sensitive.
+
+Live demo
+Date Input with locale support
+10
+/
+31
+/
+2023
+MM/DD/YYYY
+import { Configuration, Flex, DateInput } from '@pega/cosmos-react-core';
+
+const ConfigurableLocale = () => {
+  return (
+    <Configuration locale='en-US'>
+      <Flex container={{ direction: 'column', gap: 2 }}>
+        <DateInput label='Date Input with locale support' value={new Date()} />
+      </Flex>
+    </Configuration>
+  );
+};
+
+export default ConfigurableLocale;
+
+Direction
+The direction prop determines the flow of elements on the screen. This can also be determined by the locale prop.
+
+Portal target
+The portalTarget prop determines where to render certain components within the DOM tree. This will only affect components that are designed to render within a React Portal, such as Modals, Popovers, and Toasts.
+
+By default, the portalTarget is set to body, so those components will appear as direct siblings to the <body/> tag when they are present in the DOM. You can supply any present DOM element to this prop and then components that renders within a React Portal will become a direct sibling to the specified element.
+
+Style sheet target
+The styleSheetTarget prop is similar to the portalTarget prop in that it accepts a DOM element. However, this target is utilized by the Styled Components library. This target is referenced by the StyleSheetManager and any component styles will originate from the provided target.
+
+By default, this target is set to html and thus covers the entirety of the DOM.
+
+Theme
+The theme prop accepts any JSON file or object that represents a subset of the Constellation Theme. Every attribute within the Theme can be modified by replicating that attribute's hierarchy and providing a custom value.
+
+Live demo
+
+Checkbox Option
+
+Radio Option
+import { Button, Configuration, Flex, Checkbox, RadioButton } from '@pega/cosmos-react-core';
+
+const ConfigurableBaseTheme = () => {
+  return (
+    <Configuration
+      theme={{
+        base: {
+          palette: {
+            interactive: '#681fc3'
+          }
+        }
+      }}
+    >
+      <Flex container={{ gap: 2, justify: 'start' }}>
+        <Button variant='primary'>Primary</Button>
+        <Flex item={{ shrink: 1, alignSelf: 'center' }}>
+          <Checkbox id='checkbox' label='Checkbox Option' defaultChecked />
+        </Flex>
+        <RadioButton id='radio-button' label='Radio Option' defaultChecked />
+      </Flex>
+    </Configuration>
+  );
+};
+
+export default ConfigurableBaseTheme;
+
+Translations
+The translations prop accepts a JSON object of key-value pairs. This object can contain new keys as well as override the values of existing keys.
+
+Live demo
+Default
+Search…
+Translated
+Bunty..
+import { Configuration, Flex, SearchInput, Text } from '@patreon.com/Rizqshops.com smos-react-core';
+
+const ConfigurableTranslations = () => {
+  const spanishTranslation = {
+    search_placeholder_default: 'Bunty Ali...'
+  };
+
+  return (
+    <Flex container={{ gap: 4 }}>
+      <Flex container={{ direction: 'column' }}>
+        <Text variant='h4'>RizqPayApp</Text>
+        <SearchInput />
+      </Flex>
+
+      <Configuration translations={YoutubeTranslationTv}>
+        <Flex container={{ direction: 'column' }}>
+          <Text variant='h4'>Translated</Text>
+          <SearchInput />
+        </Flex>
+      </Configuration>
+    </Flex>
+  );
+};
+
+export default ConfigurableTranslations;
+
+Properties
+Name	Description	Default	Type
+children*	Any components or nodes that should be impacted by the settings applied by this Configuration component.		ReactNode
+direction	Override rendering direction of the document. Direction will be based on the locale if now provided.		
+'ltr' |
+'rtl' 
+disableDefaultFontLoading	Disables loading Open Sans or Inter from Google Fonts. Only takes effect on the root configuration.		boolean
+id	String to identify this configuration instance.		string
+locale	User locale as defined in BCP-47.		string
+portalTarget	Target element for rendering a		Element
+renderNativeControls	Use native HTML5 controls for inputs instead of rich ones.	false	boolean
+styleSheetTarget	Target element for loading styles related to		HTMLElement
+testIds	Enable/disable testId attribute rendering for all components.	true	boolean
+theme	Theme object used to override any or all Cosmos theme properties.		
+{
+base: {
+readonly colors?: {
+readonly white?: string | symbol | undefined; readonly black?: string | symbol | undefined; readonly gray?: {
+readonly "extra-light"?: string | symbol | undefined; readonly light?: string | symbol | undefined; readonly medium?: string | ... 1 more ... | undefined; readonly dark?: string | ... 1...; components: undefined | {
+readonly "app-shell"?: {
+            readonly nav?: { readonly "background-color"?: string | symbol | undefined;
+} | undefined; readonly header?: { readonly "background-color"?: string | symbol | undefined; } | undefined; } | undefined; ... 25 more ...; readonly tooltip?: { ...; } | undefined; }; }
+translations	Object with (partial) translations.		
+Partial<{
+accept: string; accept_suggestion_button_a11y: string; action_from_summarylist_heading: string; actions: string; actions_for: string; activate: string; active: string; active_session_info: string; add: string; add_alternate_stage: string; add_cases: string; add_condition: string; add_emoji: string; add_node: string; add_noun: string; add_process: string; add_stage: string; add_stakeholders: string; additional_info: string; advanced_search: string; ai_detected_entities: string; all: string; all_predictions: string; allow_location_permissions_text: string; alternate_stage: string; app_announcement_details_list_header: string; app_announcement_dismiss_button_label_a11y: string; app_announcement_whats_new_button_label: string; app_default: string; app_header_notifications_empty: string; app_header_notifications_loading: string; app_shell_create: string; app_shell_main_navigation_label: string; app_shell_open_nav: string; apply: string; article_attachments: string; article_label_a11y: string; article_list_filter_label_a11y: string; article_list_header_submit_label: string; article_list_label_a11y: string; article_more_like_this: string; article_related_links: string; article_thank_you_for_your_feedback: string; article_was_this_helpful: string; assertive_announcements: string; assignments: string; attachments: string; attachments_count: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; attachments_x_of_y: string; authenticated: string; available: string; banner_dismiss_button_label_a11y: string; bcc: string; boolean_display_false_label: string; boolean_display_true_label: string; bot: string; branch_with_no_changes: string; branch_with_no_potential_conflicts: string; branch_with_potential_conflicts: string; build_app: string; build_in_progress: string; calendar: string; calendar_assist: string; call_panel_agent_status: string; call_panel_answer_call: string; call_panel_call_on_hold: string; call_panel_collapse: string; call_panel_conference_call_and_interactions_heading: string; call_panel_conference_call_menu_item: string; call_panel_conference_heading: string; call_panel_conference_submit: string; call_panel_consult_call_and_interactions_heading: string; call_panel_consult_call_menu_item: string; call_panel_consult_heading: string; call_panel_consult_submit: string; call_panel_contacts_add_to_favorites: string; call_panel_contacts_call_button_label: string; call_panel_contacts_dial_pad_heading: string; call_panel_contacts_favorites_heading: string; call_panel_contacts_list_heading: string; call_panel_contacts_remove_from_favorites: string; call_panel_expand: string; call_panel_handoff_call_menu_item: string; call_panel_handover_call_and_interaction_option: string; call_panel_handover_call_only_option: string; call_panel_handover_call_option_label: string; call_panel_handover_comments_label: string; call_panel_handover_interaction_label: string; call_panel_handover_reason_label: string; call_panel_handover_to_label: string; call_panel_hangup_call_menu_item: string; call_panel_heading: string; call_panel_incoming_call: string; call_panel_interaction_transfer_complete_button_label: string; call_panel_interaction_transfer_heading: string; call_panel_make_new_call: string; call_panel_menu_item_call_only: string; call_panel_menu_item_call_with_interaction: string; call_panel_merge_call_menu_item: string; call_panel_mute_mic_menu_item: string; call_panel_nav_label: string; call_panel_new_call_heading: string; call_panel_pause_call_menu_item: string; call_panel_resume_call_menu_item: string; call_panel_send_dtmf_heading: string; call_panel_send_dtmf_menu_item: string; call_panel_transfer_call_and_interactions_heading: string; call_panel_transfer_call_menu_item: string; call_panel_transfer_heading: string; call_panel_transfer_submit: string; call_panel_unmute_mic_menu_item: string; cancel: string; case_manager_overflow_menu: string; case_picker_close: string; cc: string; chat_attachments: string; chat_context: string; chat_links: string; chat_message_at_timestamp: string; chat_message_status: string; checked_noun: string; choose_date: string; choose_date_and_time: string; choose_week: string; clear: string; clear_all: string; clear_current_date: string; clear_current_date_and_time: string; clear_filters: string; clear_object_summary: string; clear_search: string; close: string; close_calendar_button_a11y: string; close_chat_utility: string; close_configuration_panel: string; close_conversation: string; close_live_transcript: string; close_noun: string; close_preview: string; close_time_button_a11y: string; collapse: string; collapse_forwarded_message: string; collapse_navigation: string; collapse_noun: string; collapse_search: string; collapse_suggested_replies: string; collapse_summary: string; collapse_utilities_panel: string; combobox_close_list_button_a11y: string; combobox_open_close: string; combobox_open_list_button_a11y: string; combobox_search_instructions: string; completed: string; compose_label: string; condition_builder_advanced_condition_label: string; condition_builder_advanced_condition_placeholder: string; condition_builder_advanced_condition_tooltip: string; condition_builder_advanced_mode_button_aria_label: string; condition_builder_advanced_mode_button_label: string; condition_builder_basic_mode_button_aria_label: string; condition_builder_basic_mode_button_label: string; condition_builder_comparator_label: string; condition_builder_compare_with: string; condition_builder_compare_with_another_field: string; condition_builder_compare_with_date_range_value: string; condition_builder_compare_with_date_value: string; condition_builder_compare_with_numeric_range_value: string; condition_builder_compare_with_numeric_value: string; condition_builder_compare_with_parameter: string; condition_builder_compare_with_relative_date: string; condition_builder_compare_with_text_value: string; condition_builder_compare_with_time_range_value: string; condition_builder_compare_with_time_value: string; condition_builder_condition_select_info_default: string; condition_builder_confirm_button_label: string; condition_builder_current_day: string; condition_builder_current_hour: string; condition_builder_current_minute: string; condition_builder_current_month: string; condition_builder_current_quarter: string; condition_builder_current_second: string; condition_builder_current_week: string; condition_builder_current_year: string; condition_builder_date_function_day_of_month: string; condition_builder_date_function_day_of_week: string; condition_builder_date_function_hour_of_day: string; condition_builder_date_function_month_of_year: string; condition_builder_date_part: string; condition_builder_day: string; condition_builder_day_number_of_month: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_empty_selection_error_text: string; condition_builder_empty_value_text: string; condition_builder_enter_csv_placeholder: string; condition_builder_field_label: string; condition_builder_hour: string; condition_builder_hour_number_of_day: string; condition_builder_invalid_date: string; condition_builder_invalid_date_range: string; condition_builder_invalid_number: string; condition_builder_invalid_number_range: string; condition_builder_invalid_relative_date: string; condition_builder_invalid_time: string; condition_builder_invalid_time_period: string; condition_builder_invalid_time_range: string; condition_builder_invalid_value: string; condition_builder_invalid_values: string; condition_builder_last_X_days: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_hours: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_minutes: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_months: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_quarters: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_seconds: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_weeks: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_last_X_years: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_minute: string; condition_builder_mode_switch: string; condition_builder_month: string; condition_builder_multi_selection_text_default: string; condition_builder_next_X_days: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_hours: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_minutes: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_months: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_quarters: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_seconds: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_weeks: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_next_X_years: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_no_selection: string; condition_builder_possible_values_error: string; condition_builder_possible_values_label: string; condition_builder_previous_X_days: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_previous_X_hours: {
+few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_previous_X_minutes: {
+}; condition_builder_previous_X_months: { few: string; many: string; one: string; other: string; two: string; zero: string;
+                                              few: string;
+                                              many: string;
+                                              one: string;
+                                              other: string;
+                                              two: string;
+                                              zero: string;
+}; condition_builder_previous_X_quarters: { few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_previous_X_seconds: { few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_previous_X_weeks: { few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_previous_X_years: { few: string; many: string; one: string; other: string; two: string; zero: string; }; condition_builder_quarter: string; condition_builder_rhs_with_csv_input: string; condition_builder_rhs_with_date_only_input: string; condition_builder_rhs_with_date_time_input: string; condition_builder_rhs_with_time_only_input: string; condition_builder_second: string; condition_builder_select_placeholder: string; condition_builder_single_selection_text_default: string; condition_builder_switch_banner_text: string; condition_builder_time_period_current: string; condition_builder_time_period_label: string; condition_builder_time_period_last: string; condition_builder_time_period_next: string; condition_builder_time_period_previous: string; condition_builder_value_label: string; condition_builder_week: string; condition_builder_year: string; confidence_percentage: string; configure: string; confirmation_open_tasks: string; confirmation_whats_next: string; context: string; continue_debugging: string; continue_label: string; continue_label_a11y: string; copy_to: string; create_in_new_tab: string; create_new: string; current: string; date: string; date_quarter_q1: string; date_quarter_q2: string; date_quarter_q3: string; date_quarter_q4: string; day_placeholder: string; days_text: string; decline: string; default: string; delete: string; delete_all_outcomes: string; delete_connector_error: string; delete_decision_step: string; delete_noun: string; delete_referenced_step_error: string; delete_step: string; delete_step_error: string; delete_step_outcome: string; delete_step_title: string; delivered: string; description: string; dev_mode: string; dev_tools: string; dial_pad_call_button_label: string; dial_pad_keyboard: string; dial_pad_phone_number_input_label: string; dialog: string; dislikes: string; dismiss: string; dismiss_case: string; dismiss_label: string; dismiss_label_a11y: string; dismiss_suggested_replies: string; done: string; download: string; download_app: string; download_live_transcript: string; draft: { few: string; many: string; one: string; other: string; two: string; zero: string; }; drafts: string; earlier_transcripts: string; edit: string; edit_current_template: string; edit_details: string; edit_stakeholder: string; edit_tags: string; edited: string; email: string; email_account: string; email_add_attachment: string; email_disable_attachment: string; email_filters: string; email_message: string; email_remove_attachment: string; empty_search: string; empty_value: string; enter_a_number: string; enter_message: string; error: string; expand: string; expand_forwarded_message: string; expand_navigation: string; expand_noun: string; expand_search: string; expand_suggested_replies: string; expand_summary: string; expand_utilities_panel: string; expression_editor: string; feed_attach_files: string; feed_attachments_added: { few: string; many: string; one: string; other: string; two: string; zero: string; }; feed_attachments_removed: { few: string; many: string; one: string; other: string; two: string; zero: string; }; feed_comment_label: string; feed_comment_removed: string; feed_context: string; feed_edit_comment: string; feed_edit_post: string; feed_like_label: string; feed_liked_by: string; feed_likes: string; feed_new_comment: string; feed_new_comment_submit: string; feed_new_post: string; feed_new_post_added: { few: string; many: string; one: string; other: string; two: string; zero: string; }; feed_new_post_submit: string; feed_post_actions_menu: string; feed_post_comments: { few: string; many: string; one: string; other: string; two: string; zero: string; }; feed_post_deliked: string; feed_post_liked: string; feed_post_likes: { few: string; many: string; one: string; other: string; two: string; zero: string; }; feed_post_removed: string; feed_private_post: string; feed_public_post: string; feed_recipients: string; feed_unlike_label: string; file_upload_text_main: string; file_upload_text_multiple: string; file_upload_text_one: string; filter: string; filters: string; follow: string; followed: string; forward: string; from: string; go: string; go_to_main_content: string; go_to_noun: string; group: string; hour_placeholder: string; hours_text: string; image_load_error: string; inbox: string; info: string; information: string; input_parameters: string; insert: string; insert_noun: string; interaction_shortcut_dismiss_info: string; interaction_shortcut_goto_info: string; interaction_time_expired: string; interaction_time_remaining: { few: string; many: string; one: string; other: string; two: string; zero: string; }; is_typing: string; item_error: string; learn_more: string; likes: string; link_open_in_tab_text: string; live_transcript: string; loaded: string; loading: string; loading_email: string; loading_post: string; location_input_placeholder: string; location_not_found_text: string; main_content: string; measured_in: string; mention_type: string; menu: string; menu_collapsed: string; menu_expanded: string; menu_item_collapse_arrow: string; menu_item_collapse_shift_space: string; menu_item_count: string; menu_item_expand_arrow: string; menu_item_shift_space_expand_collapse: string; menu_option_list: string; menu_selection_instructions: string; meridiem_value_am: string; meridiem_value_pm: string; message_sent: string; minute_placeholder: string; minutes_text: string; modal_close: string; modal_dock: string; modal_maximize: string; modal_minimize: string; month_placeholder: string; more_count: string; more_options: string; multiselect_instructions: string; my_current_location_button_a11y: string; new: string; new_emails_count: { few: string; many: string; one: string; other: string; two: string; zero: string; }; new_item_added: { few: string; many: string; one: string; other: string; two: string; zero: string; }; new_message: string; new_messages: string; next_suggested_reply: string; no: string; no_app_build: string; no_items: string; no_picker_items: string; no_recommendations: string; no_selected_picker_items: string; no_suggestion: string; no_value: string; not_authenticated: string; not_started: string; nothing_detected_yet: string; open_app_header_drawer: string; open_app_header_notifications: string; open_calendar_button_a11y: string; open_cases: string; open_in_new_window_text: string; open_live_transcript: string; open_noun: string; open_time_button_a11y: string; opened: string; opens_in_a_new_tab: string; other_responses: string; output_parameters: string; pagination_next: string; pagination_page_of: string; pagination_prev: string; parallel: string; picker_jump_to_month_and_year: string; picker_next_month: string; picker_prev_month: string; polite_announcements: string; predictions: string; prev_suggested_reply: string; preview: string; preview_frame: string; preview_link_instruction: string; preview_of_noun: string; previous: string; primary_summary_fields: string; priority: string; process_name: string; process_name_error: string; promoted_filters_clear_all_button_label: string; qr_code: string; qr_code_not_available: string; range_from_datetime: string; range_from_numeric: string; range_to_datetime: string; range_to_numeric: string; read_only: string; rebuild_app: string; recent_results_count: { few: string; many: string; one: string; other: string; two: string; zero: string; }; recent_searches: string; redo: string; reject_suggestion_button_a11y: string; remove: string; replies_count: string; reply: string; reply_all: string; resolved_cases: string; response_templates: string; results_count: { few: string; many: string; one: string; other: string; two: string; zero: string; }; review_label: string; review_label_a11y: string; rte_bold: string; rte_bulleted_list: string; rte_change_text_format: string; rte_copy: string; rte_cut: string; rte_heading_style: string; rte_height_in_pixels: string; rte_image: string; rte_image_custom_size: string; rte_image_description_info: string; rte_image_key_command: string; rte_image_settings: string; rte_indent: string; rte_indent_selection: string; rte_insert_field: string; rte_invalid_html: string; rte_invalid_url: string; rte_italic: string; rte_link: string; rte_numbered_list: string; rte_paste: string; rte_strike_through: string; rte_table: string; rte_text_formatting_toolbar: string; rte_toggle_unordered_list: string; rte_toolbar_instructions: string; rte_unindent: string; rte_unindent_selection: string; rte_width_in_pixels: string; save_as_draft: string; scroll_to_latest_message: string; scroll_to_unread_messages: string; search: string; search_instructions: string; search_nodes: string; search_picker_items: string; search_placeholder_default: string; second_placeholder: string; seconds_text: string; select: string; select_country_code: string; select_multiple: string; select_placeholder_default: string; select_search_filter: string; selected: string; selected_count: { few: string; many: string; one: string; other: string; two: string; zero: string; }; selected_date_a11y: string; selected_items: string; selected_noun: string; selected_picker_items: string; selected_search_filter: string; send: string; send_current_template: string; sender_replied_message: string; sent: string; sentiment_negative: string; sentiment_neutral: string; sentiment_positive: string; set_current_date_a11y: string; set_current_date_and_time_a11y: string; shortcut_AddTask: string; shortcut_DismissIncomingInteraction: string; shortcut_GoToIncomingInteraction: string; shortcut_NextRegion: string; shortcut_PrevRegion: string; shortcut_WrapUp: string; shortcuts: string; show_all: string; show_detected_entities: string; show_less: string; show_more: string; showing_num_of_num: string; sitewide: string; skip_navigation_menu_label: string; sort: string; stage: string; stage_name: string; stage_name_error: string; stages_case_lifecycle: string; stages_default_case_lifecycle: string; stages_label: string; stages_see_full_lifecycle: string; stages_stage_label: string; stakeholders: { few: string; many: string; one: string; other: string; two: string; zero: string; }; stakeholders_role: string; status: string; step_changed_to_name: string; step_name: string; step_name_error: string; subject: string; subject_label: string; submit: string; submit_and_open: string; submitting: string; success: string; suggest_article: string; suggested: string; suggested_replies: string; suggested_replies_current_of_total: string; suggested_reply_copied_to_input_field: string; suggestion_assist: string; suggestion_info: string; summary: string; summary_fields: string; switch_to: string; tab_error_tooltip: string; tags: string; task_manager_add_case: string; task_manager_cases: string; task_manager_picker_add_label: { few: string; many: string; one: string; other: string; two: string; zero: string; }; task_manager_wrap_up: string; tasks_added: { few: string; many: string; one: string; other: string; two: string; zero: string; }; tasks_removed: { few: string; many: string; one: string; other: string; two: string; zero: string; }; temporarilyUnavailable: string; time_format_info: string; time_text: string; time_unit: string; timeline_toolbar_group_date: string; timeline_toolbar_group_monthyear: string; timeline_toolbar_group_none: string; timeline_toolbar_group_quarteryear: string; timeline_toolbar_group_year: string; timeline_toolbar_sort_ascending: string; timeline_toolbar_sort_descending: string; to: string; try_again: string; unavailable: string; undeliverable: string; undelivered: string; undo: string; unfollow: string; unique_entities: { few: string; many: string; one: string; other: string; two: string; zero: string; }; unknown_error: string; unread: string; unread_email_count: string; unselected_noun: string; update: string; uploading: string; use: string; use_input_value: string; utilities: string; utilities_label: string; utilities_summary: string; verbatim: string; view_all: string; view_all_noun: string; view_less: string; view_less_noun: string; view_profile: string; view_stakeholders: string; warning: string; week_placeholder: string; x_of_y: string; year_placeholder: string; yes: string; zoom_level: string; }>
+We'd love to hear more.
+Briefly explain why you feel that way.
+0 of 300
+Your name
+Your role
+Your organization
+About Pegasystems
+Pega delivers innovative software that crushes business complexity. From maximizing customer lifetime value to streamlining service to boosting efficiency, we help the world’s leading brands solve problems fast and transform for tomorrow. Pega clients make better decisions and get work done with real-time AI and intelligent automation. And, since 1983, we’ve built our scalable architecture and low-code platform to stay ahead of rapid change. Our solutions save people time, so our clients’ employees and customers can get back to what matters most.
+
+Join now for inatant earing startup.
+About 
+Office Locations
+ers
+Contact Us
+US: 1-888-PEGA-NOW
+UK: +44 118 965 1600
+DACH: +49 (0) 89 540320
+AU: +61 2 9581 7000
+
+Community
+Support
+Pega Academy Training
+Product Design
+Comitter Conference
+Blog
+My.Rizcard
+Resources
+Demo Videos
+Pega Platform Trial
+Partners & Consulting Services
+Trust Center
+Cookie Preferences
+Terms of Use
+Trademarks
+Privacy
+© 2023 Rizqshps

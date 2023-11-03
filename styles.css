@@ -10,6 +10,7 @@
 }
 
 p {
+  background-color: aqua;
   display: block;
   width: 400px;
   margin: 50px auto;

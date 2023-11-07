@@ -1,3 +1,24 @@
+body{
+
+ background-color: yellow;
+
+}
+
+h1{
+ 
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#firstpoint{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;  
+
+}
+
 * {
   margin:0px;
   padding:0px;

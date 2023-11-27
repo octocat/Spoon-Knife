@@ -10,10 +10,12 @@
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  display: flex;
+  width: 600px auto;
+  margin: 20px auto;
+  font: 100;
+  color: blue;
+  columns: 40px;
 }
 
 h1 {

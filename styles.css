@@ -26,3 +26,15 @@ body {
   background-attachment: fixed;
   background-color: black;
 }
+
+head {
+  max-width: 800px;
+  max-height: 650px;
+  flex-direction: column;
+  background-color: aquamarine;
+  background-position: 0%;
+}
+
+html {
+  background-color: aliceblue;
+}

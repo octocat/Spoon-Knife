@@ -1,20 +1,91 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
 </head>
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Mohcine Safi</h1>
+            <h3>Fullstack Coding </h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+            <a href="#">Hire Me</a>
+        </div>
 
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1>It's Mohcine Safi</h1>
+                <p>
+                    I'm a passionate software engineer based in Kenitra ,Morocco. I love to explore new technologies and create meaningful applications.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1>Features</h1>
+            <a href="#">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-devices'></i>
+                    <h1>Responsive Design</h1>
+                    <p>
+                        Discover a range of my creative endeavors, including web design, JavaScript, and small projects.
+                        My creativity, attention to detail, and passion for delivering visually stunning and engaging experiences are on display in every project.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Creative Projects</h1>
+                    <p>
+                        Behind the scenes, I am proud of my ability to write code that is clean, efficient, and maintainable.
+                        Find out about my coding standards and practices that aid in the functionality and performance of the projects I take on.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>Code Quality</h1>
+                    <p>
+                        Behind the scenes, I am proud of my ability to write code that is clean, efficient, and maintainable.
+                        Find out about my coding standards and practices that aid in the functionality and performance of the projects I take on.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,70 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Привет! Это калькулятор.");
+        Console.WriteLine("Доступные операции: +, -, *, /");
+        Console.WriteLine("Введите 'выход', чтобы завершить программу.");
+
+        while (true)
+        {
+            Console.Write("Введите выражение: ");
+            string input = Console.ReadLine();
+
+            if (input == "выход")
+                break;
+
+            // Сохранение запросов в консоль
+            Console.WriteLine($"[{DateTime.Now}] Введено: {input}");
+
+            try
+            {
+                double result = EvaluateExpression(input);
+                Console.WriteLine($"Результат: {result}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
+
+            Console.WriteLine();
+        }
+    }
+
+    static double EvaluateExpression(string expression)
+    {
+        expression = expression.Replace(" ", "");
+
+        double result;
+
+        // Проверка наличия оператора
+        if (expression.Contains("+"))
+        {
+            string[] numbers = expression.Split('+');
+            result = double.Parse(numbers[0]) + double.Parse(numbers[1]);
+        }
+        else if (expression.Contains("-"))
+        {
+            string[] numbers = expression.Split('-');
+            result = double.Parse(numbers[0]) - double.Parse(numbers[1]);
+        }
+        else if (expression.Contains("*"))
+        {
+            string[] numbers = expression.Split('*');
+            result = double.Parse(numbers[0]) * double.Parse(numbers[1]);
+        }
+        else if (expression.Contains("/"))
+        {
+            string[] numbers = expression.Split('/');
+            result = double.Parse(numbers[0]) / double.Parse(numbers[1]);
+        }
+        else
+        {
+            throw new ArgumentException("Выражение не содержит оператора.");
+        }
+
+        return result;
+    }
+}

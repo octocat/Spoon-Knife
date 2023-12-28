@@ -1,0 +1,25 @@
+# These are supported funding model platforms
+
+jobs:
+  job_id:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+
+    # ...
+
+    - uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
+        service_account: 'my-service-account@my-project.iam.gserviceaccount.com'
+
+    - uses: 'google-github-actions/deploy-cloudrun@v2'
+      with:
+        image: 'gcr.io/cloudrun/hello'
+        service: 'hello-cloud-run'
+github: [KIDI’S TECH.com,kidiit]
+patreon: KIDI'S-TECH@patreon.com
+community_bridge: https://openprofile.dev/profile/kiditech
+custom: [https://github.com/KIDI-S-TECH, https://github.com/KidiIT]

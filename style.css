@@ -1,0 +1,42 @@
+body {
+     background-color: #AEDEFC;
+     font-family: "Mulish";
+}
+
+h1 {
+     color: red;
+     text-align: center;
+}
+
+h2 {
+     color: orange;
+     text-align: right;
+}
+
+h3 {
+     color: blue;
+     text-align: left;
+}
+
+.titles {
+     background-color: #FFF6F6;
+     text-align: center;
+     justify-content: center;
+}
+
+img {
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     margin: auto;
+     border: 5px solid #F875AA;
+     border-radius: 35px;
+     display: block;
+}
+
+.btn-primary {
+     color: #fff;
+     background-color: #F875AA;
+     border-color: #F875AA;
+
+}

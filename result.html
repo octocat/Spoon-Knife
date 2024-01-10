@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Game Result</h1>
+    </div>
+    <div class="content">
+      <div class="result-box">
+        <div id="result"></div>
+      </div>
+      <div class="scorecard-box" id="scorecard"></div>
+    </div>
+  </div>
+
+  <script>
+    document.body.classList.add('colorful-background');
+    // Retrieve the game result and scorecard data from the URL query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const result = urlParams.get('result');
+    const playerXScore = urlParams.get('playerX');
+    const playerOScore = urlParams.get('playerO');
+
+    // Display the game result on the page
+    const resultDiv = document.getElementById('result');
+    resultDiv.textContent = result;
+
+    // Display the scorecard in a box on the page
+    const scorecardDiv = document.getElementById('scorecard');
+    scorecardDiv.innerHTML = `Player X Score: ${playerXScore}<br>Player O Score: ${playerOScore}`;
+  </script>
+</body>
+</html>

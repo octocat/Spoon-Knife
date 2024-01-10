@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <div class="game-container">
+    <h1>Tic Tac Toe</h1>
+    <div class="scoreboard">
+      <p>Player X: <span id="playerXScore">0</span></p>
+      <p>Player O: <span id="playerOScore">0</span></p>
+    </div>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <div class="grid" id="grid">
+      <!-- This is where the grid cells will be generated -->
+    </div>
+    <p id="status"></p>
+    <button onclick="resetGame()">Reset Game</button>
+<button onclick="finishGame()">Finish Game</button>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
-
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

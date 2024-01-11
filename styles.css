@@ -1,17 +1,30 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+    body {
+      background-color: #f8f9fa;
+    }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+    #octocat {
+      display: block;
+      width: 384px;
+      margin: 50px auto;
+    }
+
+    .content-container {
+      text-align: center;
+    }
+
+    .alert-container {
+      margin-top: 20px;
+    }
+
+    p {
+      display: block;
+      width: 400px;
+      margin: 50px auto;
+      font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    }

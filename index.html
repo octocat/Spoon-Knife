@@ -1,20 +1,75 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
 
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <form id="signInForm">
+        <h2>Sign In</h2>
+        <label for="signInEmail">Email:</label>
+        <input type="email" id="signInEmail" name="signInEmail" required>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+        <label for="signInPassword">Password:</label>
+        <input type="password" id="signInPassword" name="signInPassword" required>
+
+        <button type="submit">Sign In</button>
+    </form>
+
+    <form id="signUpForm">
+        <h2>Sign Up</h2>
+        <label for="signUpName">Name:</label>
+        <input type="text" id="signUpName" name="signUpName" required>
+
+        <label for="signUpEmail">Email:</label>
+        <input type="email" id="signUpEmail" name="signUpEmail" required>
+
+        <label for="signUpPassword">Password:</label>
+        <input type="password" id="signUpPassword" name="signUpPassword" required>
+
+        <button type="submit">Sign UP</button>
+    </form>
 
 </body>
 </html>

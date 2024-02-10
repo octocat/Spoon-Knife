@@ -1,20 +1,131 @@
+                                                
+                                                <!-- this script is provided by https://www.htmlbestcodes.com coded by: Kerixa Inc. -->
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neomorphism Button with Hover Effect</title>
+
+<!-- font awesome library include 4.7 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- font library -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- css styles -->
+<style>
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); 
+
+/* default light theme */
+:root, html{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", arial, monospace;
+
+  --main-color: #E6E7EE;
+  --secondary-color: #d1d9e6;
+  --third-color: #b8b9be;
+
+}
+
+/* dark-mode theme */
+:root[data-theme="dark-mode"]{
+  
+
+}
+
+/* main styles */
+html, body{
+  height: 200%;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  background-color: var(--main-color);
+}
+
+*{
+  box-sizing: border-box;
+  font-family: "Inter", arial, monospace;
+  font-size: 2rem;
+  color: darkgrey;
+  transition: all 0.5s ease-in-out;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.button{
+
+  margin: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  font-size: 0.75rem;
+  padding: 0.25rem 1rem;
+
+
+}
+
+.neumorphic-shadows {
+  -webkit-box-shadow: 3px 3px 6px var(--third-color), -3px -3px 6px #ffffff;
+        box-shadow: 3px 3px 6px var(--third-color), -3px -3px 6px #ffffff;
+}
+
+.neumorphic-shadows:hover {
+  cursor: pointer;
+  -webkit-box-shadow: inset 2px 2px 5px var(--third-color), inset -3px -3px 7px #ffffff;
+        box-shadow: inset 2px 2px 5px var(--third-color), inset -3px -3px 7px #ffffff;
+}
+</style>
 </head>
 
 <body>
 
-<img src="forkit.gif" id="octocat" alt="" />
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+<main>
 
+
+  <button class="button neumorphic-shadows">TEST</button>
+
+</main>
+
+  
+
+
+<script>
+
+
+/*   
+
+Tutorial Description
+
+Neumorphism designed button with an on hover effect.
+
+*/
+
+
+</script>
 </body>
-</html>
+</html><a target='_blank' href='https://www.htmlbestcodes.com' style='font-size: 8pt; text-decoration: none'>Html Best Codes</a>                                                
+                                            

@@ -14,4 +14,19 @@ p {
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+} 
+
+.yoloswag {
+  font: 25px "Comic Sans MS", cursive, sans-serif;
+  color:coral;
+  margin: 50px auto;
+  background-color: transparent;
+  float: left;
 }
+
+h1 {
+  font: 40px "Comic Sans MS", cursive, sans-serif;
+  color:coral;
+  background-color: transparent;
+}
+

@@ -1,6 +1,6 @@
 * {
-  margin:0px;
-  padding:0px;
+  /* margin:0px; */
+  /* padding:0px; */
 }
 
 #octocat {
@@ -12,7 +12,7 @@
 p {
   display: block;
   width: 400px;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 } 
 
@@ -21,12 +21,30 @@ p {
   color:coral;
   margin: 50px auto;
   background-color: transparent;
-  float: left;
+  float: center;
 }
 
 h1 {
   font: 40px "Comic Sans MS", cursive, sans-serif;
   color:coral;
   background-color: transparent;
+  margin-left: 285px;
+  /* box-shadow: 3px 3px 5px #888888; */
 }
 
+.box {
+  border: 5px solid #000000;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+#box1 {
+  background-color:rgb(188, 131, 110);
+
+}
+
+#box2 {
+  background-color: rgb(92, 92, 136);;
+}

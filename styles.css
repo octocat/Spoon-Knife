@@ -47,4 +47,5 @@ h1 {
 
 #box2 {
   background-color: rgb(92, 92, 136);
+  display: block;
 }

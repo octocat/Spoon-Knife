@@ -10,3 +10,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 
 Just making couple of changes for SE lab assignment 2
+I am trying to execute forking someone else's repo for educational purposes.

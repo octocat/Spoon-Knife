@@ -9,6 +9,10 @@
   margin: 50px auto;
 }
 
+#ascii-art {
+  font-family: 'Roboto', sans-serif;
+}
+
 p {
   display: block;
   width: 400px;

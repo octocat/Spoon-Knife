@@ -10,3 +10,9 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 Fork test.
 Pull request test.
+
+Git clone test.
+
+Work in local laptop test. 
+
+Creating new branch test.

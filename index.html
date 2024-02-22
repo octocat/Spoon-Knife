@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Spoon-Knife</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <script>
+    function getGithubUsername() {
+      // Replace with your actual GitHub username API endpoint
+      fetch('https://api.github.com/users/HarshithVarmaG')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('username').textContent = data.login;
+        });
+    }
+  </script>
 </head>
 
 <body>
 
 <img src="forkit.gif" id="octocat" alt="" />
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
+<p id="username">
+  // Your username will be dynamically inserted here
 </p>
+
+<script>
+  getGithubUsername();
+</script>
 
 </body>
 </html>

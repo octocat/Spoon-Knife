@@ -11,11 +11,7 @@
 
 p {
   display: block;
-<<<<<<< HEAD
   width: 100px;
-=======
-  width: 600px;
->>>>>>> 88b70131690d8b852d726048e3b9d94d3f7a7065
   margin: 50px auto;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }

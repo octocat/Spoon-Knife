@@ -11,8 +11,11 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 Super zmiana 234567890
 Kolejna zmiana 3
+<<<<<<< HEAD
 
 
 Kolejna kolejna zmiana 4
 
 Zmiana 5
+=======
+>>>>>>> parent of 8b1ce4b (zmiana 4)

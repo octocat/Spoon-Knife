@@ -72,4 +72,4 @@ if __name__ == "__main__":
 #    print("   *   ")
 # sakura_flower()
 
-print("S")
+

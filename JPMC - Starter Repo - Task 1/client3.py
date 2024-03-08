@@ -17,56 +17,48 @@
 #  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 #  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 #  DEALINGS IN THE SOFTWARE.
+
 import json
 import random
 import urllib.request
-import time
 
-# Server API URL
+# Server API URLs
 QUERY = "http://localhost:8080/query?id={}"
 
-# Number of server requests
+# 500 server request
 N = 500
 
+
 def getDataPoint(quote):
-    """Produce all the needed values to generate a data point"""
+    """ Produce all the needed values to generate a datapoint """
+    """ ------------- Update this function ------------- """
     stock = quote['stock']
     bid_price = float(quote['top_bid']['price'])
     ask_price = float(quote['top_ask']['price'])
-    return stock, (bid_price + ask_price) / 2, bid_price  # Include bid price as well
+    price = (bid_price + ask_price)/2
+    return stock, bid_price, ask_price, price
+
 
 def getRatio(price_a, price_b):
-    """Get ratio of price_a and price_b"""
-    if price_b == 0:
-        return None  # Avoid division by zero
-    return price_a / price_b
+    """ Get ratio of price_a and price_b """
 
-def main():
-    # Query the price once every N seconds.
-    for _ in range(N):
-        try:
-            # Retrieve quotes from the server
-            quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+    """ ------------- Update this function ------------- """
+    if (price_b == 0):
+         return
+    return price_a/price_b
 
-            # Create a dictionary to store stock prices
-            prices = {}
 
-            # Calculate and print ratios for each quote
-            for quote in quotes:
-                stock, price, bid_price = getDataPoint(quote)
-                prices[stock] = price  # Store the price in the dictionary
-
-            for quote in quotes:
-                stock, price, bid_price = getDataPoint(quote)
-                ratio = getRatio(prices[stock], bid_price)  # Use the bid price for the ratio
-                if ratio is not None:
-                    print("Quoted %s at (bid:%s, ask:%s, ratio:%s)" % (stock, bid_price, price, ratio))
-
-            # Add a delay before the next request
-            time.sleep(1)
-
-        except Exception as e:
-            print("Error:", e)
-
+# Main
 if __name__ == "__main__":
-    main()
+    # Query the price once every N seconds.
+    for _ in iter(range(N)):
+        quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+
+        """ ----------- Update to get the ratio --------------- """
+        prices = {}
+        for quote in quotes:
+            stock, bid_price, ask_price, price = getDataPoint(quote)
+            prices[stock] = price
+            print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+
+        print("Ratio %s" % getRatio(price["ABC"], prices["DEF"]))

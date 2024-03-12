@@ -1,0 +1,14 @@
+/*
+File: styles.css
+Author: James Bridges
+Description: 01-css-methods
+*/
+
+/* External Method*/
+.external-method {
+    color: white; 
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}

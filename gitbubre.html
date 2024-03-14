@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Balloon Pop Game</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    #game-container {
+      position: relative;
+      width: 400px;
+      height: 600px;
+      border: 2px solid #000;
+    }
+    .balloon {
+      position: absolute;
+      width: 50px;
+      height: 70px;
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="game-container">
+  <div id="timer">2:00</div>
+  <div id="score">Score: 0</div>
+</div>
+
+<script>
+  let score = 0;
+  let timer;
+
+  function startGame() {
+    timer = setInterval(decrementTimer, 1000);
+    generateBalloons();
+  }
+
+  function decrementTimer() {
+    let timerDisplay = document.getElementById("timer");
+    let time = timerDisplay.textContent.split(":");
+    let minutes = parseInt(time[0]);
+    let seconds = parseInt(time[1]);
+
+    if (minutes === 0 && seconds === 0) {
+      clearInterval(timer);
+      endGame();
+    } else if (seconds === 0) {
+      minutes--;
+      seconds = 59;
+    } else {
+      seconds--;
+    }
+
+    timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+  }
+
+  function generateBalloons() {
+    let gameContainer = document.getElementById("game-container");
+
+    setInterval(() => {
+      let balloon = document.createElement("div");
+      balloon.classList.add("balloon");
+      balloon.style.left = `${Math.random() * (gameContainer.clientWidth - 50)}px`;
+      balloon.style.top = `${gameContainer.clientHeight - 70}px`;
+
+      balloon.addEventListener("click", () => {
+        score += 2;
+        document.getElementById("score").textContent = `Score: ${score}`;
+        gameContainer.removeChild(balloon);
+      });
+
+      gameContainer.appendChild(balloon);
+      
+      setTimeout(() => {
+        if (balloon.parentNode) {
+          score--;
+          document.getElementById("score").textContent = `Score: ${score}`;
+          gameContainer.removeChild(balloon);
+        }
+      }, 2000);
+    }, 2000);
+  }
+
+  function endGame() {
+    alert("Game Over! Your final score is: " + score);
+    clearInterval(timer);
+    score = 0;
+    document.getElementById("score").textContent = "Score: 0";
+    document.getElementById("timer").textContent = "2:00";
+  }
+
+  startGame();
+</script>
+
+</body>
+</html>

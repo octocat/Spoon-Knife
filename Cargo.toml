@@ -1,0 +1,65 @@
+[package]
+name = "embassy_stm32h5_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embassy-stm32 = {version = "*", features = ["time-driver-any", "exti", "memory-x", "unstable-pac", "chrono"] }
+embassy-sync = {version = "0.5.0", features = [] }
+embassy-executor = {version = "0.5.0", features = ["task-arena-size-32768", "arch-cortex-m", "executor-thread", "integrated-timers","executor-interrupt"] }
+embassy-time = {version = "0.3.0", features = ["defmt-timestamp-uptime", "tick-hz-32_768"] }
+embassy-futures = {version = "0.1" }
+
+
+[features]
+default = ["debug"]
+debug = [
+    "dep:defmt",
+    "dep:defmt-rtt",
+    "embassy-stm32/defmt",
+    "embassy-sync/defmt",
+    "embassy-executor/defmt",
+    "embassy-time/defmt",
+]
+
+
+# cargo build/run
+[profile.dev]
+codegen-units = 1
+debug = 2
+debug-assertions = true # <-
+incremental = false
+opt-level = 0 # <-
+overflow-checks = true # <-
+
+# cargo test
+[profile.test]
+codegen-units = 1
+debug = 2
+debug-assertions = true # <-
+incremental = false
+opt-level = 3 # <-
+overflow-checks = true # <-
+
+# cargo build/run --release
+[profile.release]
+codegen-units = 1
+debug = true
+debug-assertions = false # <-
+incremental = false 
+lto = true
+opt-level = "s" # <-
+overflow-checks = false # <-
+features = "sample_time_100us"
+
+# cargo test --release
+[profile.bench]
+codegen-units = 1
+debug = 2
+debug-assertions = false # <-
+incremental = false
+lto = 'fat'
+opt-level = 3 # <-
+overflow-checks = false # <-

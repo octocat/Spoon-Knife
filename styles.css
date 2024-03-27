@@ -9,6 +9,12 @@
   margin: 50px auto;
 }
 
+h1 {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
 p {
   display: block;
   width: 400px;

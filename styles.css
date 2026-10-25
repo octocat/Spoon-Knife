@@ -15,3 +15,15 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+.welcome-banner {
+    background-color: #e8f4ff;
+    color: #17365d;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.welcome-banner h1 {
+    margin-top: 0;
+}

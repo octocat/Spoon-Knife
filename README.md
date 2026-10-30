@@ -15,3 +15,5 @@ This project demonstrates collaboration using Git and GitHub.
 - Make changes to the project.
 - Commit and push the changes.
 - Submit a pull request for review.
+- Test changes before submitting a pull request.
+- Test changes before submitting a pull request.

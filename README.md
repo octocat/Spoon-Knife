@@ -6,4 +6,39 @@ Creating a *fork* is producing a personal copy of someone else's project. Forks 
 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling\_heart:
+
+
+
+##### **Robotics Club Probation Practice**
+
+
+
+This section is added as part of my Robotics Club Probation assignment.
+
+
+
+###### **What I Learned** 
+
+
+
+* Understanding Git and GitHub
+* Forking and cloning repositories
+* Creating and switching branches
+* Tracking changes using Git 
+* Commiting and Pushing updates
+
+##### 
+
+###### **Objective**
+
+
+
+To understand the basic GitHub collaboration workflow and learn how developers contribute to open-source projects.
+
+
+
+
+
+
+

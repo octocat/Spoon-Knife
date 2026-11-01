@@ -15,3 +15,8 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #d6336c;
+  font-size: 4em;
+}

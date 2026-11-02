@@ -14,3 +14,8 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 для изучения совместной разработки на GitHub.
 
 Автор изменений: jonybigdata.
+
+### Практическая часть
+
+Создана отдельная ветка lab5-changes для изучения
+механизма Pull Request и объединения изменений.

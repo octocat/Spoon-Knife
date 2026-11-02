@@ -15,3 +15,30 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+/* Keep the contribution guide styles separate from the original content. */
+.contribution-guide {
+  box-sizing: border-box;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  margin: 0 auto 50px;
+  padding: 16px;
+  border: 1px solid #6b7280;
+  border-radius: 8px;
+  font: 16px/1.5 Arial, sans-serif;
+}
+
+.contribution-guide summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contribution-guide summary:focus-visible {
+  outline: 3px solid #0969da;
+  outline-offset: 4px;
+}
+
+.contribution-guide ol {
+  margin: 12px 0 0;
+  padding-left: 24px;
+}

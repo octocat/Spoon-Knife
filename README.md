@@ -15,7 +15,7 @@ This update was made as part of a GitHub Fork-and-Pull Request collaboration exp
 
 
 
-\### Changes Made
+Changes Made
 
 \- Added a contribution update section.
 

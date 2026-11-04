@@ -23,6 +23,6 @@ We welcome contributions from developers!
 ### Contribution Guidelines
 
 * Write clean and readable code.
-* Provide meaningful commit messages.
+* Write clear, meaningful, and descriptive commit messages that explain each change.
 * Test your changes before submitting a pull request.
 * Follow the existing project structure.

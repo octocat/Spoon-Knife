@@ -10,3 +10,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ## Git Collaboration Experiment
 
 This repository was used to practise the fork-and-pull-request workflow.
+git add .
+git commit -m "Addressed review comments"
+git push

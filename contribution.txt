@@ -1,0 +1,4 @@
+My name is Monidip Bhuniya.
+
+I am contributing to the Spoon-Knife repository
+as part of Git Exercise 7.

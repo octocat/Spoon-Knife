@@ -1,17 +1,86 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octocat Profile</title>
+    <style>
+        /* CSS Reset & Box Sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+            padding: 20px;
+        }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+        /* Container Card with Modern Glassmorphism effect */
+        .container {
+            background: rgba(22, 27, 34, 0.7);
+            border: 1px solid rgba(240, 246, 252, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 40px 20px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(88, 166, 255, 0.15);
+        }
+
+        /* Responsive Octocat Image */
+        #octocat {
+            display: block;
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            margin: 0 auto 30px auto;
+            border-radius: 12px;
+            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+            transition: transform 0.3s ease;
+        }
+
+        #octocat:hover {
+            transform: scale(1.05);
+        }
+
+        /* Typography */
+        p {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            font-size: clamp(18px, 4vw, 24px);
+            color: #58a6ff;
+            line-height: 1.5;
+            word-break: break-word;
+        }
+
+        /* Accent text highlighting */
+        p span {
+            color: #3fb950;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img id="octocat" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Octocat">
+        <p>Hello, <span>@octocat</span>!</p>
+    </div>
+
+</body>
+</html>

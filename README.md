@@ -11,3 +11,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ## My Contribution
 
 This is my first practice contribution using GitHub Fork and Pull Request.
+
+This practice helped me understand how to contribute to open-source projects.

@@ -1,4 +1,6 @@
 ### Well hello there!
+## Участники
+   - Паращенко Никита Андреевич, группа Э-39.1.23о
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

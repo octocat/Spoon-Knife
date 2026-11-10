@@ -1,3 +1,5 @@
+## Участники
+   - Толстихин Родион Михайлович, группа Э-39.2-23о
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

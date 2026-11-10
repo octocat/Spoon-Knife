@@ -1,3 +1,6 @@
+## Участники
+   - Разманова Дарья, группа Э-39.2-23О
+
 ### Well hello there!
 
 This repository is meant to provide an example for *forking* a repository on GitHub.

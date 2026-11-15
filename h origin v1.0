@@ -1,0 +1,31 @@
+[33mtag v1.0[m
+Tagger: dhanraj0206 <dhanraj.r0206@gmail.com>
+Date:   Sun Nov 15 17:01:05 2026 +0530
+
+First stable release
+
+[33mcommit 1e173b8f1adb1da9a49813fc3d53ffe684d87ef4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-update[m[33m, [m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;31morigin/feature-update[m[33m)[m
+Author: dhanraj0206 <dhanraj.r0206@gmail.com>
+Date:   Sun Nov 15 16:06:27 2026 +0530
+
+    Add Devops practical demonstration
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex a83618b..f87131c 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,12 +9,8 @@[m
+ [m
+ <body>[m
+ [m
+[31m-<img src="forkit.gif" id="octocat" alt="" />[m
+[31m-[m
+[31m-<!-- Feel free to change this text here -->[m
+[31m-<p>[m
+[31m-  Fork me? Fork you, @octocat![m
+[31m-</p>[m
+[32m+[m[32m<h1>DevOps Practical Experiment 03</h1>[m
+[32m+[m[32m<p>GitHub Fork and Pull Request Demonstration</p>[m
+ [m
+ </body>[m
+ </html>[m

@@ -7,3 +7,11 @@ Creating a *fork* is producing a personal copy of someone else's project. Forks 
 After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
 
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+
+
+## What I Learned
+
+- A fork is a personal copy of another developer's repository.
+- `origin` points to my fork.
+- `upstream` points to the original repository.
+- Pull Requests allow me to propose changes to the original project.

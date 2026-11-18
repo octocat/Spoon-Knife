@@ -1,0 +1,20 @@
+GIT AND GITHUB LAB EXPERIMENT 1
+
+Title: Fork-and-Pull-Request Collaboration Workflow
+
+Aim:
+To demonstrate collaborative software development
+using Git and GitHub.
+
+Steps Performed:
+1. Forked the original GitHub repository.
+2. Cloned the repository into VS Code.
+3. Created a new feature branch.
+4. Modified the project by adding a new file.
+5. Committed changes using Git.
+6. Pushed changes to GitHub.
+7. Created a Pull Request.
+
+Result:
+Successfully demonstrated the GitHub
+collaboration workflow.

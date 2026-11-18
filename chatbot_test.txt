@@ -1,0 +1,1 @@
+Test change for Jira SCRUM-6

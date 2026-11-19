@@ -11,3 +11,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ## Professional Contribution Workflow
 
 I am practising focused commits, code reviews, and pull request updates.
+
+Reviewing my Git diff before committing helps catch accidental changes.

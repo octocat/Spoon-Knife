@@ -1,4 +1,4 @@
-### Well hello there! Hailey
+### Well hello there! Hailey Carpenter
 
 This repository is meant to provide an example for *forking* a repository on GitHub.
 

@@ -1,0 +1,22 @@
+name: GitHub Environments Demo
+
+on:
+  push:
+    branches:
+      - feature-environments
+
+jobs:
+  development:
+    runs-on: ubuntu-latest
+    environment: development
+    steps:
+      - name: Deploy to Development
+        run: echo "Deployed to Development Environment!"
+
+  production:
+    runs-on: ubuntu-latest
+    needs: development
+    environment: production
+    steps:
+      - name: Deploy to Production
+        run: echo "Deployed to Production Environment!"

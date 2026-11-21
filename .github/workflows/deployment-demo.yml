@@ -1,0 +1,31 @@
+name: GitHub Actions Deployment Demo
+
+on:
+  push:
+    branches:
+      - feature-deployment
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Application
+        run: echo "Application Build Successful!"
+
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Run Tests
+        run: echo "All Tests Passed!"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+    environment: development
+    steps:
+      - name: Deploy Application
+        run: echo "Application Deployed Successfully!"

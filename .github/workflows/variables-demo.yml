@@ -1,0 +1,17 @@
+name: GitHub Variables Demo
+
+on:
+  push:
+    branches:
+      - feature-variables
+
+jobs:
+  display-variable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display Application Name
+        env:
+          APP_NAME: ${{ vars.APP_NAME }}
+        run: |
+          echo "Application Name: $APP_NAME"

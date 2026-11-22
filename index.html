@@ -8,21 +8,20 @@
 </head>
 <body>
   <main class="app">
-    <!-- Titre de l'application -->
     <h1>Mes tâches a faire </h1>
     <p id="compteur" class="compteur"></p>
-<!-- Formulaire pour ajouter une nouvelle tâche -->
+
     <form id="form">
       <input id="input" type="text" placeholder="Ajouter une tâche..." autocomplete="off" required>
       <button type="submit">Ajouter</button>
     </form>
-<!-- Boutons pour filtrer les tâches -->
+
     <div class="filtres">
       <button data-filtre="toutes" class="actif">Toutes</button>
       <button data-filtre="actives">À faire</button>
       <button data-filtre="finies">Terminées</button>
     </div>
-<!-- Liste des tâches -->
+
     <ul id="liste"></ul>
     <p id="vide" class="vide" hidden>Aucune tâche ici. Ajoute la première.</p>
   </main>

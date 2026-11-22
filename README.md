@@ -15,3 +15,19 @@ This change was made directly in the main branch.
 Both feature branch and main branch changes were combined successfully.
 
 The merge conflict was resolved manually by removing the conflict markers and keeping the required content from both branches.
+
+## My Contribution
+
+I updated this README file as part of my GitHub collaboration assignment.
+
+Changes made:
+
+- Updated project information
+- Practised Git branching
+- Learned the pull request workflow
+
+## New Feature
+
+This update was added using a separate feature branch.
+
+It demonstrates collaborative development using GitHub.

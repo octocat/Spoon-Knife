@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="fr">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes tâches</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <main class="app">
+    <h1>Mes tâches</h1>
+    <p id="compteur" class="compteur"></p>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <form id="form">
+      <input id="input" type="text" placeholder="Ajouter une tâche..." autocomplete="off" required>
+      <button type="submit">Ajouter</button>
+    </form>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+    <div class="filtres">
+      <button data-filtre="toutes" class="actif">Toutes</button>
+      <button data-filtre="actives">À faire</button>
+      <button data-filtre="finies">Terminées</button>
+    </div>
 
+    <ul id="liste"></ul>
+    <p id="vide" class="vide" hidden>Aucune tâche ici. Ajoute la première.</p>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+My GitHub Training - Lab 2
+
+Git is a version control system.
+GitHub hosts repositories online.
+A branch allows us to work separately.
+A commit saves our changes.
+A pull request asks for code review.

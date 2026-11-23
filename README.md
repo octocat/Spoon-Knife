@@ -1,9 +1,49 @@
-### Well hello there!
+# Mes tâches
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Une application de liste de tâches (to-do list) simple, faite avec **HTML, CSS et JavaScript** pur, sans framework.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+## Fonctionnalités
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+- Ajouter une tâche
+- Cocher une tâche terminée
+- Supprimer une tâche
+- Filtrer : Toutes / À faire / Terminées
+- Sauvegarde automatique dans le navigateur (`localStorage`), les tâches restent après un rafraîchissement
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+## Structure du projet
+
+```
+todo-app/
+├── index.html   # Structure de la page
+├── styles.css   # Design et couleurs
+├── script.js    # Logique de l'application
+└── README.md
+```
+
+## Lancer le projet
+
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/youssefjarray-enis/todo-app.git
+   cd todo-app
+   ```
+2. Ouvrir `index.html` dans un navigateur (ou utiliser l'extension **Live Server** de VS Code).
+
+Aucune installation ni dépendance n'est nécessaire.
+
+## Technologies
+
+- HTML5
+- CSS3 (variables CSS, flexbox)
+- JavaScript (DOM, événements, `localStorage`)
+
+## Idées d'amélioration
+
+- [ ] Bouton « Effacer les tâches terminées »
+- [ ] Date limite pour chaque tâche
+- [ ] Modifier une tâche par double-clic
+- [ ] Mode clair / sombre
+
+## Auteur
+
+Projet réalisé dans le cadre de mon apprentissage du développement web.

@@ -150,8 +150,6 @@
 
 ### 
 
-### \- Understand Git and GitHub fundamentals.
-
 ### \- Practice repository management.
 
 ### \- Learn branching and merging.
@@ -166,19 +164,19 @@
 
 ### 
 
-### AYMANE
+### \*\*Name:\*\* AYMANE
 
 ### 
 
-### Computer Science Student
+### \*\*Major:\*\* Computer Science
 
 ### 
 
-### Hubei University of Technology
+### \*\*University:\*\* Hubei University of Technology
 
 ### 
 
-### \## 11. License
+### \## 11. Project Purpose
 
 ### 
 

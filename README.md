@@ -10,5 +10,4 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 
 ## My First Fork Contribution
 
-This is my first contribution to my forked repository.
-
+This is my first contribution to an open-source project.

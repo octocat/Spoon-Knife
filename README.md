@@ -9,3 +9,9 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 Forked by Walid for my VCS practical
+
+## Suggested Improvement
+
+- Update the "Forking Projects" link: guides.github.com has moved, so point it to https://docs.github.com/en/get-started/quickstart/fork-a-repo
+- Remove the extra quotation mark in the guide link text.
+- Add a short numbered list showing how to fork, edit a file, and open a pull request.
